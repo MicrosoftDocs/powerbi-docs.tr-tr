@@ -2,18 +2,18 @@
 title: Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları giderme
 description: Bu makalede, Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları gidermek için kullanılabilecek kaynaklara yer verilmiştir.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
-ms.author: maggies
-ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 8cb8bf4e6d67f01f7bbdc4370d8a60691dba5a63
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861809"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418291"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları giderme
 Bu makalede, Power BI Rapor Sunucusu'nda zamanlanmış yenileme ile ilgili sorunları gidermek için kullanılabilecek kaynaklara yer verilmiştir.
@@ -86,7 +86,7 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
    at Microsoft.PowerBI.ReportServer.WebHost.EventHandler.DataRefreshScope.<ExecuteFuncWithLogging>d__1`1.MoveNext()
 ```
 
-***Başarılı yenileme***
+**_Başarılı yenileme_* _
 
 ```
 2017-10-25 15:23:41.9370|INFO|6|Handling event with data: TimeEntered: 10/25/2017 8:23:41 PM, Type: Event, SessionId: 46d398db-0b1f-49d8-b7bd-c5461c07ec7a, EventType: DataModelRefresh
@@ -100,7 +100,7 @@ C:\Program Files\Microsoft Power BI Report Server\PBIRS\LogFiles\RSPowerBI_*.log
 2017-10-25 15:23:51.6508|INFO|6|Processing Data Model Refresh: SessionId: 46d398db-0b1f-49d8-b7bd-c5461c07ec7a, Status: Starting Saving model to the catalog.
 ```
 
-**Yanlış Kimlik Bilgileri**
+_ *Yanlış Kimlik Bilgileri**
 
 ```
 2017-10-20 08:22:01.5595|INFO|302|Processing Data Model Refresh: SessionId: 22cd9ec3-b21a-4eb1-81ae-15fac8d379ea, Status: Starting Refreshing the model.

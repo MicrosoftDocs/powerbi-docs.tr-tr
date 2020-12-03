@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: fe1714fd0249bba429c705b70e9eb157bffae44b
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
+ms.openlocfilehash: 6fcbdeef8c7c02656e5637f6103fda76faeb26c9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95012022"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412288"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -123,6 +123,7 @@ Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin 
 Kapasite yöneticilerine ait Çalışma Alanlarım otomatik olarak Premium kapasitelere atanır.
 
 ### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
+
 Premium 2. Nesil düğümlerinde artık ayrılmış altyapı kullanılmaz. Bunun yerine hizmet, paylaşılan çok özellikli işleme düğümleri havuzundan yeterli sayıda kaynak ayırarak, çalışan her iş yükü için yeterli işleme gücünün sağlandığından emin olur.
 
 
@@ -166,7 +167,7 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 
 Kapasite iş yükleri kullanıcılarının kullanımına sunulan hizmetlerdir. Varsayılan olarak, Premium ve Azure kapasiteleri yalnızca çalışan Power BI sorgularıyla ilişkili veri kümesi iş yüklerini destekler. Veri kümesi iş yükleri devre dışı bırakılamaz. [AI (Bilişsel Hizmetler)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [Veri akışları](../transform-model/dataflows/dataflows-introduction-self-service.md) ve [Sayfalandırılmış raporlar](../paginated-reports/paginated-reports-save-to-power-bi-service.md) için ek iş yükleri etkinleştirilebilir. Bu iş yükleri yalnızca Premium aboneliklerinde desteklenir. 
 
-Eklenen her iş yükünde, bu iş yükü için kullanılabilecek maksimum belleğin yapılandırılmasına (toplam kullanılabilir belleğin yüzdesi olarak) izin verilir. Maksimum bellek için varsayılan değerler SKU tarafından belirlenir. Bu ek iş yüklerini yalnızca kullanıldıklarında etkinleştirerek kapasitenizin kullanılabilir kaynaklarını en üst düzeye çıkarabilirsiniz. Ayrıca bellek ayarlarını yalnızca belirlenmiş varsayılan ayarlarınızın kapasite kaynak gereksinimlerinizi karşılamadığı durumlarda değiştirebilirsiniz. Bir kapasite için iş yükleri kapasite yöneticileri tarafından **Yönetim portalındaki**[Kapasite ayarları](service-admin-portal.md) veya [Kapasite REST API'leri](/rest/api/power-bi/capacities) kullanılarak etkinleştirilebilir ve yapılandırılabilir.  
+Eklenen her iş yükünde, bu iş yükü için kullanılabilecek maksimum belleğin yapılandırılmasına (toplam bellek kapasitesinin yüzdesi olarak) izin verilir. Maksimum bellek için varsayılan değerler SKU tarafından belirlenir. Bu ek iş yüklerini yalnızca kullanıldıklarında etkinleştirerek kapasitenizin kullanılabilir kaynaklarını en üst düzeye çıkarabilirsiniz. Ayrıca bellek ayarlarını yalnızca belirlenmiş varsayılan ayarlarınızın kapasite kaynak gereksinimlerinizi karşılamadığı durumlarda değiştirebilirsiniz. Bir kapasite için iş yükleri kapasite yöneticileri tarafından **Yönetim portalındaki**[Kapasite ayarları](service-admin-portal.md) veya [Kapasite REST API'leri](/rest/api/power-bi/capacities) kullanılarak etkinleştirilebilir ve yapılandırılabilir.  
 
 ![İş yüklerini etkinleştirme](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
@@ -176,32 +177,34 @@ Daha fazla bilgi edinmek için bkz. [Premium kapasitedeki iş yüklerini yapıla
 
 Power BI hizmeti her zaman kapasite için belirlenen sınırları aşmadan kapasite kaynaklarının en iyi şekilde kullanılmasını sağlar.
 
-Kapasite işlemleri *etkileşimli* veya *arka plan* olarak sınıflandırılır. Etkileşimli işlemler isteklerin işlenmesini ve kullanıcı etkileşimlerine (filtreleme, Soru-Cevap sorgulama vb.) yanıt verilmesini içerir. Genel olarak içeri aktarma modeli sorgulaması yoğun bellek kaynağı kullanırken, DirectQuery ve Canlı Bağlantı modellerinin sorgulaması yoğun CPU kullanır. Arka plan işlemleri veri akışı ile içeri aktarma modeli yenilemelerini ve pano sorgusunu önbelleğe almayı içerir.
+Kapasite işlemleri *etkileşimli* veya *arka plan* olarak sınıflandırılır. Etkileşimli işlemler isteklerin işlenmesini ve kullanıcı etkileşimlerine (filtreleme, Soru-Cevap sorgulama vb.) yanıt verilmesini içerir. Arka plan işlemleri veri akışı ile içeri aktarma modeli yenilemelerini ve pano sorgusunu önbelleğe almayı içerir.
 
-Mümkün olan en iyi kullanıcı deneyimini sağlamak için etkileşimli işlemlerin her zaman arka plan işlemlerinden daha öncelikli olduğunun anlaşılması önemlidir. Kaynaklar yetersizse arka plan işlemleri kaynaklar serbest kaldığında işlenmek üzere kuyruğa eklenir. Veri kümesi yenilemeleri gibi arka plan işlemleri, işlemin ortasında Power BI hizmeti tarafından durdurulabilir ve kuyruğa eklenebilir.
+Mümkün olan en iyi kullanıcı deneyimini sağlamak için etkileşimli işlemlerin her zaman arka plan işlemlerinden daha öncelikli olduğunun anlaşılması önemlidir. Kaynaklar yetersizse arka plan işlemleri kaynaklar serbest kaldığında işlenmek üzere bekleme kuyruğuna eklenir. Veri kümesi yenilemeleri gibi arka plan işlemleri, işlemin ortasında Power BI hizmeti tarafından kesilebilir, kuyruğa eklenebilir ve daha sonra yeniden deneme yapılabilir.
 
-İçeri aktarma modellerinin sorgulanabilmesi veya yenilenebilmesi için tümüyle belleğe yüklenmesi gerekir. Power BI hizmeti kullanılabilir belleğin maksimum kullanımını güvence altına alacak gelişmiş algoritmalar kullanarak bellek kullanımını yönetir ve kapasitenin fazla işlenmesine neden olabilir: Kapasitenin birçok içeri aktarma modelini depolaması mümkün olsa da (Premium kapasite başına maksimum 100 TB), birleşik disk depolamaları desteklenen belleği aştığında (ve sorgulama ile yenileme için ek bellek gerektiğinde), bunların tümü aynı anda belleğe yüklenemez.
+İçeri aktarma modellerinin sorgulanabilmesi veya yenilenebilmesi için tümüyle belleğe yüklenmesi gerekir. Power BI hizmeti, bellek kullanımını uygun şekilde yönetmek için gelişmiş algoritmalar kullanır ancak nadir de olsa müşterilerin gerçek zamanlı taleplerini karşılayacak kadar kaynak mevcut olmaması halinde kapasite aşırı yükle karşı karşıya kalabilir. Kapasitenin kalıcı depolama alanında çok sayıda içeri aktarma modelini (Premium kapasite başına 100 TB'a kadar) depolaması mümkün olsa da tüm modeller aynı anda bellek içinde kalmaz. Aksi halde bellek içi veri kümesi boyutu, kapasitenin bellek sınırını kolayca aşabilir. Veri kümelerini yüklemek için gerekli belleğe ek olarak sorguların ve yenileme işlemlerinin yürütülmesi için de belleğe ihtiyaç duyulur.
 
-Dolayısıyla içeri aktarma modelleri kullanıma göre belleğe yüklenir ve bellekten kaldırılır. İçeri aktarma modeli sorgulandığında (etkileşimli işlem) ve henüz bellekte olmadığında veya yenilendiğinde (arka plan işlemi) yüklenir.
+Dolayısıyla içeri aktarma modelleri kullanıma göre belleğe yüklenir ve bellekten kaldırılır. İçeri aktarma modeli sorgulandığında (etkileşimli işlem) veya yenilenmesi gerektiğinde (arka plan işlemi) yüklenir.
 
-Modelin bellekten kaldırılması *çıkarma* olarak bilinir. Bu, Power BI'ın modellerin boyutuna bağlı olarak hızla gerçekleştirebildiği bir işlemdir. Kapasitede hiçbir bellek baskısı olmazsa, modeller yalnızca belleğe yüklenir ve orada kalır. Öte yandan modeli yüklemek için kullanılabilir bellek yetersizse, Power BI hizmetinin önce belleği boşaltması gerekir. Son üç dakika içinde \[[1](#endnote-1)\] kullanılmamış olan modelleri arayıp etkinlik dışı olan bu modelleri belirleyerek ve bunları çıkararak belleği boşaltır. Çıkarılabilecek etkinlik dışı kalmış model yoksa Power BI hizmeti arka plan işlemleri için yüklenmiş modelleri çıkarmayı dener. Denemelerin 30 saniye boyunca \[[1](#endnote-1)\] başarısız olması durumunda, son çare etkileşimli işlemin başarısız olmasıdır. Bu durumda, rapor kullanıcısına işlemin başarısız olduğu bildirilir ve kısa süre sonra yeniden denemesi önerilir. Bazı durumlarda modeller hizmet işlemlerinden dolayı bellekten kaldırılabilir.
+Modelin bellekten kaldırılması *çıkarma* olarak bilinir. Bu, Power BI'ın modellerin boyutuna bağlı olarak hızla gerçekleştirebildiği bir işlemdir. Kapasitede hiçbir bellek baskısı olmazsa ve model boşta değilse (etkin kullanımdaysa) ilgili model bellekte kalabilir ve çıkarılmaz. Power BI, bir modeli yüklemek için yeterli belleğin bulunmadığına karar verirse Power BI hizmeti etkin olmayan modelleri çıkararak belleği boşaltmaya çalışır. Bu modeller genellikle etkileşimli işlemler için yüklenmiş olan ve son üç dakika içinde kullanılmamış olan modellerdir \[[1](#endnote-1)\]. Çıkarılabilecek etkinlik dışı kalmış model yoksa Power BI hizmeti arka plan işlemleri için yüklenmiş modelleri çıkarmayı dener. Denemelerin 30 saniye boyunca \[[1](#endnote-1)\] başarısız olması durumunda, son çare etkileşimli işlemin başarısız olmasıdır. Bu durumda, rapor kullanıcısına işlemin başarısız olduğu bildirilir ve kısa süre sonra yeniden denemesi önerilir. Bazı durumlarda modeller hizmet işlemlerinden dolayı bellekten kaldırılabilir.
 
-Veri kümesi çıkarmanın normal ve beklenen bir davranış olduğunu vurgulamak önemlidir. Birleşik boyutları kullanılabilir belleği aşabilecek modelleri yükleyerek ve kaldırarak bellek kullanımını en üst düzeye çıkarmaya çalışır. Bu davranış tasarım gereğidir ve rapor kullanıcılar açısından saydam olarak gerçekleştirilir. Yüksek çıkarma oranlarının kapasitede verimsiz kaynak kullanımına işaret ediyor olması şart değildir. Bununla birlikte yüksek çıkarma oranlarından dolayı sorgu veya yenileme yanıt süreleri zarar görürse, sorun haline gelir.
+Veri kümesi çıkarmanın normal bir kapasite davranışı olduğunu vurgulamak önemlidir. Kapasite, bellek kullanımını dengelemek için modellerin bellek içi yaşam döngüsünü kullanıcıların görebileceği bir şekilde yönetmeye çalışır. Yüksek çıkarma oranlarının kapasitede verimsiz kaynak kullanımına işaret ediyor olması şart değildir. Ancak modellerin kısa süre içinde yüklenmesi ve çıkarılması sonucu oluşan yük nedeniyle sorgu veya yenileme performansının düşmesi durumunda bir sorun haline gelebilir.
 
-Modellerin belleğe yüklenmesini gerektirdiğinden, içeri aktarma modellerinin yenilenmesi her zaman bellek yoğun işlemlerdir. İşleme için ek bellek gerekir. Tam yenileme modele gereken belleğin yaklaşık olarak iki katını kullanabilir. Bu sayede model işlenirken bile sorgulanabilir çünkü yenileme tamamlanana ve yeni model verileri kullanılabilir duruma gelene kadar sorgular mevcut modele gönderilir. Artımlı yenileme daha az bellek gerektirir ve daha hızlı tamamlanabilir; dolayısıyla kapasite kaynakları üzerindeki baskıyı önemli ölçüde azaltabilir. Modeller için yenilemeler, özellikle karmaşık Power Query dönüştürmeleri ya da karmaşık olan veya büyük tablolara dayanan hesaplanan tablolar/sütunlar içeren yenilemeler de yoğun CPU kullanabilir.
+Modellerin belleğe yüklenmesini gerektirdiğinden, içeri aktarma modellerinin yenilenmesi her zaman bellek yoğun işlemlerdir. İşleme için ek ara belleğe de ihtiyaç vardır. Tam yenileme işleminde modelin ihtiyaç duyduğu belleğin yaklaşık iki katı kullanım yapılabilir. Bunun nedeni Power BI'ın işlem tamamlanana kadar modelin var olan anlık görüntüsünü bellek içinde tutmasıdır. Bu da modelin işleme sırasında dahi sorgulanabilmesini sağlar. Yenileme işlemi tamamlanana ve yeni model verileri kullanılabilir duruma gelene kadar sorgular modelin var olan anlık görüntüsüne gönderilebilir.
 
-Sorgular gibi yenilemeler de modelin belleğe yüklenmesini gerektirir. Bellek yetersizse Power BI hizmeti etkin olmayan modelleri çıkarmayı dener ve bu mümkün olmazsa (tüm modeller etkinse) yenileme işi kuyruğa alınır. Yenilemeler normalde sorgulardan bile daha yoğun CPU kullanır. Bu nedenle eş zamanlı yenileme sayısında kapasite sınırları vardır; yuvarlak olarak arka uç sanal çekirdek sayısının 1,5 katına ayarlanır. Eş zamanlı yenilemelerin sayısı çok fazlaysa, zamanlanmış bir yenileme kuyruğa alınır. Böyle bir durum olduğunda yenilemenin tamamlanması daha uzun sürer. Kullanıcı isteği veya API çağrısı tarafından tetiklenen yenilemeler gibi isteğe bağlı yenilemeler üç kez \[[1](#endnote-1)\] yeniden denenir. Hala yeterli kaynak bulunamazsa yenileme başarısız olacaktır.
+Artımlı yenileme, tam model yenileme işlemi yerine bölüm yenileme işlemi gerçekleştirir ve genellikle hem hızlı tamamlanır hem de düşük bellek kullanır. Ayrıca kapasitenin kaynak kullanımını önemli ölçüde azaltabilir. Modeller için yenilemeler, özellikle karmaşık Power Query dönüştürmeleri ya da karmaşık olan veya büyük hacimli verilere dayanan hesaplanan tablolar veya sütunlar içeren yenilemeler de yoğun CPU kullanabilir.
+
+Sorgular gibi yenilemeler de modelin belleğe yüklenmesini gerektirir. Bellek yetersizse Power BI hizmeti etkin olmayan modelleri çıkarmayı dener ve bu mümkün olmazsa (tüm modeller etkinse) yenileme işi kuyruğa alınır. Yenilemeler normalde sorgulardan bile daha yoğun CPU kullanır. Bu nedenle eşzamanlı yenileme işlemleri için arka uçtaki sanal çekirdek sayısının 1,5 katı olarak hesaplanan bir sınır uygulanır. Çok fazla eşzamanlı yenileme varsa bir yenileme yuvası kullanılabilir duruma gelene kadar zamanlanmış yenileme kuyruğa alınır ve bu durumda işlem daha uzun sürer. Kullanıcı isteği veya API çağrısı tarafından tetiklenen yenilemeler gibi isteğe bağlı yenilemeler üç kez \[[1](#endnote-1)\] yeniden denenir. Hala yeterli kaynak bulunamazsa yenileme başarısız olacaktır.
 
 #### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
-Premium 2. Nesil kümülatif bellek sınırları gerektirmez ve yenilemeler için her zaman yeterli miktarda bellek bulunur. Ayrıca, sanal çekirdek başına çalışan 1,5 yenileme sınırı da yoktur. Dilediğiniz zaman, gereken sayıda yenileme zamanlayıp çalıştırabilirsiniz. Power BI hizmeti, bu yenilemeleri zamanlamaya uygun şekilde çalıştırır.
 
+Premium 2. Nesil kümülatif bellek sınırları gerektirmez ve bu nedenle eşzamanlı veri kümesi yenileme işlemleri kaynak kısıtlamalarına dahil olmaz. Sanal çekirdek başına çalışan yenileme sayısıyla ilgili sınır da yoktur. Ancak ayrı veri kümesi yenileme işlemleri, var olan kapasite bellek ve CPU sınırlarına tabi olmaya devam eder. Dilediğiniz zaman, gereken sayıda yenileme zamanlayıp çalıştırabilirsiniz. Power BI hizmeti, bu yenilemeleri zamanlamaya uygun şekilde çalıştırır.
 
 Bölüm notları:   
 <a name="endnote-1"></a>\[1\] Değişebilir.
 
 ### <a name="regional-support"></a>Bölgesel destek
 
-Genel yöneticiler ve Power BI hizmeti yöneticileri yeni kapasite oluştururken, kapasiteye atanan çalışma alanlarının tutulacağı bir bölge belirtebilir. Bu işlem **Multi-Geo** olarak adlandırılır. Multi-Geo ile, kuruluşlar içeriği belirli bir bölgedeki veri merkezlerine dağıtarak veri yerleşimi gereksinimlerini karşılayabilir. Bu bölge Microsoft 365 Aboneliğinin tutulduğunu bölgeden farklı olabilir. Daha fazla bilgi edinmek için bkz. [Power BI Premium için Multi-Geo desteği](service-admin-premium-multi-geo.md).
+Genel yöneticiler ve Power BI hizmeti yöneticileri yeni kapasite oluştururken, kapasiteye atanan çalışma alanlarının tutulacağı bir bölge belirtebilir. Bu işlem **Multi-Geo** olarak adlandırılır. Multi-Geo ile, kuruluşlar içeriği belirli bir bölgedeki veri merkezlerine dağıtarak veri yerleşimi gereksinimlerini karşılayabilir. Bu bölge Microsoft 365 aboneliğinin tutulduğunu bölgeden farklı olabilir. Daha fazla bilgi edinmek için bkz. [Power BI Premium için Multi-Geo desteği](service-admin-premium-multi-geo.md).
 
 ### <a name="capacity-management"></a>Kapasite yönetimi
 
@@ -213,7 +216,7 @@ Kapasiteleri oluşturma işleminde yönetim görevlerinin çoğu [Yönetim porta
 
 ![Çalışma Alanım'ın seçili olduğu Power BI Yönetim portalını gösteren ekran görüntüsü.](media/service-premium-what-is/premium-admin-portal.png)
 
-Kapasite yöneticileri kapasiteye çalışma alanları atayabilir, kullanıcı izinlerini yönetebilir ve başka yöneticiler atayabilir. Kapasite yöneticileri ayrıca iş yüklerini yapılandırabilir, bellek ayırmalarını ayarlayabilir ve aşırı yüklenmiş kapasitede işlemleri sıfırlayarak gerekirse kapasiteyi yeniden başlatabilir.
+Kapasite yöneticileri kapasiteye çalışma alanları atayabilir, kullanıcı izinlerini yönetebilir ve başka yöneticiler atayabilir. Kapasite yöneticileri ayrıca iş yüklerini yapılandırabilir, bellek ayırmalarını ayarlayabilir ve kapasitenin aşırı yükle karşılaşması halinde işlemleri sıfırlayarak kapasiteyi yeniden başlatabilir.
 
 ![Power BI Yönetim portalındaki kapasite yönetimini gösteren ekran görüntüsü.](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 

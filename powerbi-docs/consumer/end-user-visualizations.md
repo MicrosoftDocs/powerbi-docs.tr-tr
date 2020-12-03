@@ -2,25 +2,25 @@
 title: Görselleştirmelerle (görsellerle) bir işletme kullanıcısı olarak çalışma
 description: 'Power BI kavramları ve terminolojisi: görselleştirmeler, görseller. Power BI bağlamında görselleştirme, görsel nedir?'
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/7/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f463e9a065ddfa550cdab6929393cfb71ce30158
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: dfa030b487e1e4d9f6f4d1bfd39cfab8baa72c71
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830266"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389196"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Raporlarda, panolarda ve uygulamalardaki görsellerle etkileşimli çalışma
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-En basit anlamıyla ***görselleştirme*** (veya *görsel*), Power BI *tasarımcılarının* raporlardaki ve veri kümelerindeki verileri kullanarak oluşturdukları bir grafik türüdür. 
+En basit anlamıyla ***görselleştirme** _ (veya _görsel*), Power BI *tasarımcılarının* raporlardaki ve veri kümelerindeki verileri kullanarak oluşturdukları bir grafik türüdür. 
 
 Görseller panolarda, raporlarda bulunur ve Power BI Soru-Cevap kullanılarak hemen oluşturulabilir. Tasarımcı raporda bir görsel oluşturduğunda bu görseli panoya *sabitleyebilir*. [Panodaki görsel *kutucuk* olarak adlandırılır](end-user-tiles.md). Bu panoda sekiz kutucuk vardır. 
 

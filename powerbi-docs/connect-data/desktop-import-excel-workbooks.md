@@ -2,19 +2,19 @@
 title: Power BI Desktop'a Excel çalışma kitabı aktarma
 description: Power Query sorguları, Power Pivot modelleri ve Power View çalışma sayfaları içeren Excel çalışma kitaplarını, Power BI Desktop’a kolayca aktarabilirsiniz.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6fce5e88fa41c2eb7ed03b805494165344701da7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 874e95c6ac917ca723e67ae0741d5244a09f288d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223522"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411023"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Power BI Desktop'a Excel çalışma kitabı aktarma
 Power BI Desktop’ı kullanarak, Power Query sorguları, Power Pivot modelleri ve Power View çalışma sayfaları içeren Excel çalışma kitaplarını, Power BI Desktop’a kolayca aktarabilirsiniz. Power BI Desktop, Excel çalışma kitabına göre otomatik olarak raporlar ve görselleştirmeler oluşturur. İçeri aktarma işlemini gerçekleştirdikten sonra Power BI Desktop ile hem var olan özellikler hem de her bir Power BI Desktop aylık güncelleştirmesi ile sunulan yeni özellikler sayesinde bu raporları geliştirmeye ve iyileştirmeye devam edebilirsiniz.
@@ -71,6 +71,6 @@ Bir çalışma kitabını Power BI Desktop'a aktarmaya ilişkin birkaç sınırl
 * **Hiyerarşiler:** Bu veri modeli nesnesi türü şu anda Power BI Desktop'ta desteklenmemektedir. Bu nedenle, bir Excel çalışma kitabını Power BI Desktop'a aktarma işleminin bir parçası olarak hiyerarşiler atlanır.
 * **İkili veri sütunları:** Bu tür bir veri modeli sütunu şu anda Power BI Desktop'ta desteklenmemektedir. İkili veri sütunları, Power BI Desktop'ta sonuç olarak elde edilen tabloda bulunmaz.
 * **Desteklenmeyen Power View öğeleri:** Temalar veya belirli görselleştirme türleri (yürütme eksenli dağılım grafiği, detaya git davranışları vb.) gibi Power BI Desktop'ta henüz kullanılabilir olmayan bazı Power View özellikleri bulunmaktadır. Desteklenmeyen görselleştirmeler, Power BI Desktop raporundaki ilgili konumlarında *Desteklenmeyen Görselleştirme* benzer iletilerin bulunmasına neden olur, bu görselleştirmeleri silebilir veya gerektiği şekilde yeniden yapılandırabilirsiniz.
-* **Power Query'de** ***From Table*** **kullanan veya M'de** ***Excel.CurrentWorkbook*** **kullanan Adlandırılmış Aralıklar:** Bu adlandırılmış aralık verilerini Power BI Desktop'a aktarma işlemi şu anda desteklenmese de planlanmış bir güncelleştirmedir. Bu adlandırılmış aralıklar şu anda Power BI Desktop'a bir dış Excel çalışma kitabı bağlantısı olarak yüklenir.
+* **Power Query'de** **_From Table_ *_* kullanan veya** M'de **_Excel.CurrentWorkbook_ *_ _* kullanan Adlandırılmış Aralıklar:** Bu adlandırılmış aralık verilerini Power BI Desktop'a aktarma işlemi şu anda desteklenmese de planlanmış bir güncelleştirmedir. Bu adlandırılmış aralıklar şu anda Power BI Desktop'a bir dış Excel çalışma kitabı bağlantısı olarak yüklenir.
 * **PowerPivot ile SSRS bağlantısı:** Veri kaynağı şu anda Power BI Desktop'ta kullanılabilir olmadığından SQL Server Reporting Services'e (SSRS) yönelik PowerPivot dış bağlantıları şu anda desteklenmemektedir.
 

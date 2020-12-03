@@ -2,18 +2,18 @@
 title: Power BI web seminerleri
 description: Power BI web seminerleri
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 09/22/2020
-ms.author: kfollis
-ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.date: 12/01/2020
+ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020033"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502030"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com), Chauncy Freels ile çalışan ve bu web semineri listesini korumaya yardımcı olan bir satıcıdır"
@@ -22,19 +22,30 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 ## <a name="upcoming-webinars"></a>Yaklaşan web seminerleri
 
-**Power BI ile Hızla Çalışmaya Başlayın**  
-Sağlayan: Miguel Martinez, Microsoft  
-[5 Kasım 2020’de (10:00 – 11:00 PDT) izlemek için kaydolun](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
-
 [Power BI Topluluğu tarafından düzenlenen, yaklaşan web seminerleri](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Öne çıkan web seminerleri
 
-Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın
+Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın:
+
+**Power BI ile Hızla Çalışmaya Başlayın**  
+Sağlayan: Miguel Martinez, Microsoft  
+[5 Kasım 2020’de (10:00 – 11:00 PDT) izlemek için kaydolun](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
+**Power BI ve Microsoft Teams ile Uzak Veri Kültürü Geliştirme**  
+Lukasz Pawlowski  
+[Hemen izleyin](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+
+**Birlikte Daha İyi: Power BI'ın Excel Kullanıcılarına Sağladığı 5 Avantaj**  
+Miguel Martinez ve Carlos Otero  
+[Hemen izleyin](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
 
 **Microsoft Power BI Sayesinde Verilerinizi Gerçek Zamanlı Olarak İzleyin**  
 Sağlayan: Miguel Martinez ve Peter Myers  
 [Hemen izleyin](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Dremio ile Azure Data Lake Storage'da Power BI'ı Hızlandırma**  
+Chris Webb ve Tomer Shiran [Hemen izleyin]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us)
 
 **Power BI ve Snowflake Kullanarak Ölçeklenebilir İş Zekası Çözümleri Oluşturun**  
 Sağlayan: Chris Webb, Craig Collier ve Chris Holliday  

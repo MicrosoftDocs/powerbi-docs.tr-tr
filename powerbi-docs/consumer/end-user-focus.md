@@ -2,20 +2,20 @@
 title: Odak modu ve tam ekran modu - daha fazla ayrıntı için yakınlaştırma
 description: Bir Power BI panosunu, pano kutucuğunu, raporu veya rapor görselini odak modunda veya tam ekran modunda görüntülemeye ilişkin belgeler
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7ab2500a393751c3013c1f3427173b57b3b5cf07
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 6385d263c47bde156a7dae941fefb101b9b30d18
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642668"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400466"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>İçeriği daha ayrıntılı görüntüleyin: odak modu ve tam ekran modu
 
@@ -56,11 +56,11 @@ Tam ekran modunun kullanım alanlarına ilişkin bazı örnekler aşağıda veri
 
 ## <a name="when-to-use-focus-mode"></a>Odak modu ne zaman kullanılır?
 
-***Odak*** modu, daha fazla ayrıntı görüntülemek için bir görseli ya da kutucuğu genişletmenize (açmanıza) olanak tanır.  Biraz kalabalık bir panonuz ya da raporunuz varken yalnızca bir görseli yakınlaştırmak isteyebilirsiniz.  Bu, odak modunun mükemmel bir kullanım şeklidir.  
+***Odak** _ modu, daha fazla ayrıntı görüntülemek için bir görseli ya da kutucuğu genişletmenize (açmanıza) olanak tanır.  Biraz kalabalık bir panonuz ya da raporunuz varken yalnızca bir görseli yakınlaştırmak isteyebilirsiniz.  Bu, odak modunun mükemmel bir kullanım şeklidir.  
 
 ![pano kutucuğu odak modunun önceki ve sonraki hali](media/end-user-focus/power-bi-compare-dash.png)
 
-Odak modundayken, bir Power BI *iş kullanıcısı* söz konusu görsel oluşturulduğunda uygulanan herhangi bir filtre ile etkileşimde bulunabilir.  Power BI hizmetinde odak modunu bir pano kutucuğu ya da rapor görseli üzerinde kullanabilirsiniz.
+Odak modundayken, bir Power BI _işletme kullanıcısı* söz konusu görsel oluşturulduğunda uygulanan herhangi bir filtre ile etkileşimde bulunabilir.  Power BI hizmetinde odak modunu bir pano kutucuğu ya da rapor görseli üzerinde kullanabilirsiniz.
 
 ## <a name="working-in-full-screen-mode"></a>Tam ekran modunda çalışma
 

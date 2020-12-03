@@ -2,21 +2,21 @@
 title: Power BI iş kullanıcılarına yönelik lisans türleri
 description: Farklı lisans türleri hakkında bilgi edinin ve sahip olduğunuz lisansın türünü nasıl tespit edebileceğinizi öğrenin.
 author: mihart
+ms.author: mihart
 ms.reviewer: lukasz
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 10/07/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c2a81e771e611380ef89ef15e097005d1a86e2da
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 852ac027903dc974e84691dc714a7e7e220dd36d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916993"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390461"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>*İş kullanıcılarına* yönelik lisanslar ve abonelikler
 
@@ -46,7 +46,7 @@ Premium, içeriğin depolanması için farklı bir yol sağlayan, bir kapasite k
 
 Premium ayrıca içeriği görüntüleyen alıcılarda Pro lisansı gerektirmeden içeriğin Pro kullanıcıları tarafından geniş ölçekte dağıtılmasını sağlar. İçerik tasarımcıları için Pro lisansları gerekir. Tasarımcılar veri kaynaklarına bağlanır, verileri modeller ve çalışma alanı uygulamaları olarak paketlenen raporlar ve panolar oluşturur. Pro lisansı olmayan kullanıcılar [bu çalışma alanında bir role](end-user-workspaces.md) atandığı sürece Power BI Premium kapasitesindeki çalışma alanına yine de erişebilir.
 
-Bu çalışma alanları içinde, tasarımcılar **Görüntüleyici** , **Katkıda bulunan** , **Üye** ve **Yönetici** gibi roller atayabilir. Bu roller, iş arkadaşlarınızın içerikle etkileşime girebileceği kapsamı belirler. Daha fazla bilgi için bkz. [çalışma alanı izinleri ve rolleri.](end-user-workspaces.md) 
+Bu çalışma alanları içinde, tasarımcılar **Görüntüleyici**, **Katkıda bulunan**, **Üye** ve **Yönetici** gibi roller atayabilir. Bu roller, iş arkadaşlarınızın içerikle etkileşime girebileceği kapsamı belirler. Daha fazla bilgi için bkz. [çalışma alanı izinleri ve rolleri.](end-user-workspaces.md) 
 
 Premium kapasite hakkında daha fazla bilgi için bkz. [Microsoft Power BI Premium nedir?](../admin/service-premium-what-is.md).
 
@@ -56,7 +56,7 @@ Profil resminizi seçerek hesap bilgilerinizi görüntüleyin. Zalan ücretsiz b
 ![Profil resminize tıkladığınızda görüntülenen açılan menünün ekran görüntüsü](media/end-user-license/power-bi-profiles.png)
 
 
-Hesabınızla ilgili ek bilgilere ulaşmak için **Hesabı görüntüle** 'yi seçin. Yeni bir tarayıcı sekmesinde [Microsoft **Hesabım** sayfası](https://portal.office.com/account) açılır.  Size atanmış olan lisansları görmek için.  **Abonelikler** sekmesini seçin.
+Hesabınızla ilgili ek bilgilere ulaşmak için **Hesabı görüntüle**'yi seçin. Yeni bir tarayıcı sekmesinde [Microsoft **Hesabım** sayfası](https://portal.office.com/account) açılır.  Size atanmış olan lisansları görmek için.  **Abonelikler** sekmesini seçin.
 
 ![Microsoft 365 Hesaplar sayfasının ekran görüntüsü.](media/end-user-license/power-bi-subscriptions.png)
 
@@ -77,7 +77,7 @@ Ardından, Premium kapasiteye sahip bir kuruluşun parçası olup olmadığını
 
 Zalan’ın kuruluşunun, kullanılabilir depolama alanı miktarına bakarak Premium kapasiteye sahip olup olmadığını belirleyebiliriz. 
 
-- Power BI hizmetinde **Çalışma alanım** 'ı ve ardından sağ üst köşedeki dişli simgesini seçin. **Kişisel depolama alanını yönet** 'i seçin.
+- Power BI hizmetinde **Çalışma alanım**'ı ve ardından sağ üst köşedeki dişli simgesini seçin. **Kişisel depolama alanını yönet**'i seçin.
 
     ![Dişli/Ayarlar menüsü](media/end-user-license/power-bi-license-personal.png)
 
@@ -101,9 +101,9 @@ Aşağıdaki görüntüde, uygulamaların üçü Premium kapasitede depolanır.
 
 Kuruluş, Premium abonelik satın aldığında yönetici genellikle Premium kapasitede çalışarak içerik oluşturacak ve paylaşacak olan çalışanlara Pro lisansları atar. Pro kullanıcıları [çalışma alanları](end-user-workspaces.md) oluşturur ve bu çalışma alanlarına içerik (panolar, raporlar, uygulamalar) ekler. Ücretsiz kullanıcıların bu çalışma alanlarında işbirliği yapmasına olanak sağlamak için yönetici veya Pro kullanıcı, çalışma alanlarını *bir kapasiteye* atar.  
 
-|Lisans türü  |Paylaşılan kapasite |Ayrılmış Premium kapasite  |
+|Lisans türü  |Paylaşılan kapasite | Premium kapasite  |
 |---------|---------|---------|
-|**Ücretsiz**     |  Kendiniz için içerik oluşturduğunuz ve bu içerikle etkileşime girdiğiniz kişisel bir korumalı alan olarak kullanabilirsiniz. Ücretsiz lisans, Power BI hizmetini denemeniz için harika bir yoldur. Başka birisinden içerik tüketmez veya içeriğinizi başkalarıyla paylaşamazsınız <sup>1</sup>     |   Ayrılmış Premium kapasiteye atanan ve sizinle paylaşılan içerikle etkileşime girin. Ücretsiz ve Pro kullanıcıları, ücretsiz kullanıcıların Pro hesaplarına sahip olması gerekmeden işbirliği yapabilir.      |
+|**Ücretsiz**     |  Kendiniz için içerik oluşturduğunuz ve bu içerikle etkileşime girdiğiniz kişisel bir korumalı alan olarak kullanabilirsiniz. Ücretsiz lisans, Power BI hizmetini denemeniz için harika bir yoldur. Başka birisinden içerik tüketmez veya içeriğinizi başkalarıyla paylaşamazsınız <sup>1</sup>     |   Premium kapasiteye atanan ve sizinle paylaşılan içerikle etkileşime girin. Ücretsiz ve Pro kullanıcıları, ücretsiz kullanıcıların Pro hesaplarına sahip olması gerekmeden işbirliği yapabilir.      |
 |**Pro**     |  İçerik oluşturup paylaşarak diğer Pro kullanıcılarıyla işbirliği yapın.        |  İçerik oluşturup paylaşarak ücretsiz ve Pro kullanıcılarıyla işbirliği yapın.       |
 
 
@@ -111,9 +111,9 @@ Kuruluş, Premium abonelik satın aldığında yönetici genellikle Premium kapa
 
 Aşağıdaki diyagramın sol tarafında, uygulama çalışma alanlarında içerik oluşturan ve paylaşan Pro kullanıcıları gösterilir.
 
-- **Çalışma Alanı A** , Premium kapasitesi olmayan bir kuruluşta oluşturulmuştur.
+- **Çalışma Alanı A**, Premium kapasitesi olmayan bir kuruluşta oluşturulmuştur.
 
-- **Çalışma Alanı B** , Premium aboneliği olan bir kuruluşta oluşturulmuştur. Çalışma alanı bir kapasiteye kaydedilmiştir. Bu çalışma alanının baklava simgesi vardır.  
+- **Çalışma Alanı B**, Premium aboneliği olan bir kuruluşta oluşturulmuştur. Çalışma alanı bir kapasiteye kaydedilmiştir. Bu çalışma alanının baklava simgesi vardır.  
 
     ![üç çalışma alanının görüntüsü](media/end-user-license/power-bi-dedicated.jpg)
 

@@ -2,20 +2,20 @@
 title: Oturum açma ve oturumu kapatma
 description: Web üzerinde Power BI hizmetinde oturum açmayı ve oturumu kapatmayı öğrenin.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 Ms.custom: css_fy20Q4
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bea5b36c98ab8a62b444bfc731b5d54df6550f0f
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 18fe7dc1c2d1b064d28e32782dc58fcbcf92341d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780509"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389633"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Power BI hizmetinde oturum açma
 
@@ -68,7 +68,7 @@ Giriş sayfasında, kullanma iznine sahip olduğunuz tüm içerikleri görürsü
 Power BI’ın Giriş sayfanızda açılmasını istemiyorsanız [bunun yerine **Öne çıkan** bir panonun veya raporun açılmasını ayarlayabilirsiniz](end-user-featured.md). 
 
 ## <a name="safely-interact-with-content"></a>İçerikle güvenli etkileşim kurma
-Bir ***işletme kullanıcısı*** olarak, diğer kişiler sizinle içerik paylaşır ve siz de bu içerikle etkileşimli çalışarak verileri inceler ve iş kararları alırsınız.  Filtreme, dilimleme, abone olma, dışarı aktarma ve yeniden boyutlandırma işlemleri yaparken endişelenmeyin; yaptığınız işlemler temel alınan veri kümesini veya paylaşılan özgün içeriği (pano ve raporlar) etkilemez. Power BI keşfedip denemeniz için güvenli bir alandır. Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez; kaydedebilirsiniz. Ancak bu değişiklikler yalnızca **sizin** içeriği nasıl göreceğinizi etkiler. Varsayılan özgün görünüme geri dönmek de bir düğmeye tıklamak kadar kolaydır.
+Bir **_işletme kullanıcısı_ *_ olarak, diğer kişiler sizinle içerik paylaşır ve siz de bu içerikle etkileşimli çalışarak verileri inceler ve iş kararları alırsınız.  Filtreme, dilimleme, abone olma, dışarı aktarma ve yeniden boyutlandırma işlemleri yaparken endişelenmeyin; yaptığınız işlemler temel alınan veri kümesini veya paylaşılan özgün içeriği (pano ve raporlar) etkilemez. Power BI keşfedip denemeniz için güvenli bir alandır. Bu, değişikliklerinizi kaydedemeyeceğiniz anlamına gelmez; kaydedebilirsiniz. Ancak bu değişiklikler yalnızca _* sizin** içeriği nasıl göreceğinizi etkiler. Varsayılan özgün görünüme geri dönmek de bir düğmeye tıklamak kadar kolaydır.
 
 ![Varsayılana sıfırla düğmesi](media/end-user-sign-in/power-bi-reset.png)
 

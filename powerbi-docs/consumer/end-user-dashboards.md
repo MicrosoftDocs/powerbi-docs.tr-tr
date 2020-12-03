@@ -2,19 +2,19 @@
 title: Pano nedir ve panoyu nasıl açabilirim?
 description: Panolar, Power BI hizmetinin temel özelliklerinden biridir.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 08/30/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2e2c4656c5436691df96b86f145e255153ff9f96
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 518310c6b4b0d45f02049c91a493b6394a4a50d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286716"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400558"
 ---
 # <a name="dashboards-for-business-users-of-the-power-bi-service"></a>Power BI hizmetinin işletme kullanıcıları için panolar
 
@@ -22,11 +22,11 @@ ms.locfileid: "89286716"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Power BI ***panosu***, görselleştirmeler kullanarak bir hikaye anlatan ve genellikle tuval olarak adlandırılan tek bir sayfadır. Tek sayfayla sınırlı olduğundan, iyi tasarlanmış bir panoda yalnızca hikayenin en önemli parçaları yer alır.
+Power BI ***panosu** _, görselleştirmeler kullanarak bir hikaye anlatan ve genellikle tuval olarak adlandırılan tek bir sayfadır. Tek sayfayla sınırlı olduğundan, iyi tasarlanmış bir panoda yalnızca hikayenin en önemli parçaları yer alır.
 
 ![Bir panonun ekran görüntüsü](media/end-user-dashboards/power-bi-dashboard.png)
 
-Panoda gördüğünüz görselleştirmeler, *kutucuk* olarak adlandırılır ve rapor *tasarımcıları* tarafından panoya *sabitlenir*. Çoğu durumda bir kutucuğu seçtiğinizde görselleştirmenin oluşturulduğu rapor sayfasına gidersiniz. Power BI'ı kullanmaya yeni başladıysanız [Power BI temel kavramlarını](end-user-basic-concepts.md) okuyarak sağlam bir temel oluşturabilirsiniz.
+Panoda gördüğünüz görselleştirmeler, _kutucuk* olarak adlandırılır ve rapor *tasarımcıları* tarafından panoya *sabitlenir*. Çoğu durumda bir kutucuğu seçtiğinizde görselleştirmenin oluşturulduğu rapor sayfasına gidersiniz. Power BI'ı kullanmaya yeni başladıysanız [Power BI temel kavramlarını](end-user-basic-concepts.md) okuyarak sağlam bir temel oluşturabilirsiniz.
 
 > [!NOTE]
 > Panolar [mobil cihazlarda görüntülenebilir ve paylaşılabilir](mobile/mobile-apps-view-dashboard.md).
@@ -42,8 +42,8 @@ Panolar işlerinizi izlemek, yanıtlar aramak ve en önemli ölçümlerinizi bir
 
 Panolar yalnızca güzel görünen resimlerden ibaret değildir. Panolar etkileşimlidir ve temel alınan veriler değiştikçe kutucuklar da güncelleştirilir.
 
-## <a name="dashboards-versus-reports-for-power-bi-business-users"></a>Power BI ***işletme kullanıcıları*** için panolarla raporları karşılaştırma
-Raporlar, görselleştirmelerle dolu tuvaller olduklarından sıklıkla panolarla karıştırılır. Ama Power BI *işletme kullanıcıları* açısından bazı önemli farklılıklar bulunur.
+## <a name="dashboards-versus-reports-for-power-bi-business-users_"></a>Power BI ***işletme kullanıcıları** _ için panolarla raporları karşılaştırma
+Raporlar, görselleştirmelerle dolu tuvaller olduklarından sıklıkla panolarla karıştırılır. Ama Power BI _işletme kullanıcıları* açısından bazı önemli farklılıklar bulunur.
 
 | **Özellik** | **Panolar** | **Raporlar** |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Raporlar, görselleştirmelerle dolu tuvaller olduklarından sıklıkla panolarl
 
 
 ## <a name="dashboard-designers-and-dashboard-business-users"></a>Pano tasarımcıları ve pano işletme kullanıcıları
-Bir Power BI ***işletme kullanıcısı*** olarak, *tasarımcılardan* pano alabilirsiniz. Aşağıdaki konularla panoları öğrenmeye devam edin:
+Bir Power BI **_işletme kullanıcısı_* _ olarak, _tasarımcılardan* pano alabilirsiniz. Aşağıdaki konularla panoları öğrenmeye devam edin:
 
 * [Pano görüntüleme](end-user-dashboard-open.md)
 * [Pano kutucukları](end-user-tiles.md) ve bunlardan birini seçtiğinizde gerçekleşecekler hakkında bilgi edinin.

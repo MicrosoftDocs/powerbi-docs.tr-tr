@@ -9,11 +9,11 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
 ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981747"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120796"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -88,9 +88,9 @@ API, ilgili veri kümelerini belirten bir kimlik listesini kabul eder. RLS'nin �
 
 **GenerateTokenInGroup** yöntemini **PowerBIClient.Reports** üzerinde kullanarak ekleme belirtecini oluşturabilirsiniz.
 
-Örneğin *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > Müşterileriniz için ekleme > **PowerBIEmbedded_AppOwnsData*** örneğini değiştirebilirsiniz.
+Örneğin *[PowerBI-Developer-Samples](https://github.com/Microsoft/PowerBI-Developer-Samples) > .NET Framework > Müşterileriniz için ekleme > **PowerBIEmbedded_AppOwnsData** _ örneğini değiştirebilirsiniz.
 
-**Değişiklikten önce**
+_ *Değişiklikten önce**
 
 ```csharp
 // Generate Embed Token with effective identities.

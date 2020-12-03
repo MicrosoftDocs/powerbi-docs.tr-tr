@@ -2,19 +2,19 @@
 title: Power BI'da rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 description: Power BI hizmetinde ve Power BI Desktop’ta raporları oluşturmaya yönelik en iyi uygulamaları öğrenin
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/07/2020
-ms.author: davidi
-ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2684d5e29015e5fccd6eb75f0a4acf5f45542991
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633550"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412702"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Power BI Desktop'ta rapor oluşturmaya ilişkin ipuçları ve püf noktaları
 Verilerinizden en yüksek verimi almak için zaman zaman biraz yardıma ihtiyacınız olabilir. Microsoft Power BI Desktop'ta *ve* Microsoft Excel 2016 veya Power Query yüklenmiş ve etkinleştirilmiş Excel 2013 Pro-Plus sürümlerinde rapor oluştururken faydalanabileceğiniz ipuçlarını ve püf noktalarını bir araya getirdik. 
@@ -205,8 +205,8 @@ Görselleştirmeleri yalnızca farklı görselleştirmeler sergilemiş olmak iç
 * Nicel verileri doğru şekilde kodladığınızdan emin olun. Sayıları gösterirken üç veya dört rakamı geçmeyin. Ölçüleri ondalık ayırıcının sol tarafında bir veya iki rakam olacak şekilde görüntüleyin ve bin veya milyon değerlerini kısaltın (3.400.000 yerine 3,4 milyon gibi).    
 * Duyarlık ve süre düzeylerini karıştırmaktan kaçının. Zaman dilimlerinin iyi anlaşıldığından emin olun.  Yılın belirli bir ayındaki verileri gösteren filtrelenmiş grafiklerin yanına önceki ayın verilerini içeren bir grafik yerleştirmeyin.    
 * Ayrıca, çizgi veya çubuk grafik gibi büyük ve küçük ölçümleri aynı ölçekte karıştırmamaya dikkat edin.  Örneğin, bir ölçeğin milyon, diğerinin ise bin seviyesinde olmaması gerekir.  Bu büyüklükteki bir ölçekte bin seviyesindeki ölçüde gözlemlenen farkları algılamak zor olacaktır.  Karıştırmanız gerekiyorsa, açılır kutu gibi ikinci bir eksen kullanımına izin veren bir görselleştirme seçin.    
-* Gerekli olmayan veri etiketleriyle grafiklerinizi karmaşık hale getirmekten kaçının. Çubuk grafiklerdeki değerler, ***yeterince genişse***, genellikle gerçek sayı görüntülenmeden de anlaşılabilir.   
-* [Grafiklerin sıralanma şekline](../consumer/end-user-change-sort.md) dikkat edin. En yüksek veya en düşük sayıya dikkat çekmek istiyorsanız ölçüye göre sıralayın. Okuyucuların birden fazla kategori arasından belirli bir kategoriyi hemen bulabilmesini istiyorsanız eksene göre sıralayın.  
+* Gerekli olmayan veri etiketleriyle grafiklerinizi karmaşık hale getirmekten kaçının. Çubuk grafiklerdeki değerler, ***yeterince büyükse** _, genellikle gerçek sayı görüntülenmeden de anlaşılabilir.   
+_ [Grafiklerin sıralanma şekline](../consumer/end-user-change-sort.md) dikkat edin. En yüksek veya en düşük sayıya dikkat çekmek istiyorsanız ölçüye göre sıralayın. Okuyucuların birden fazla kategori arasından belirli bir kategoriyi hemen bulabilmesini istiyorsanız eksene göre sıralayın.  
 * Pasta grafikleri, sekizden az kategori bulunuyorsa idealdir. Yan yana göremediğiniz için pasta grafiğindeki değerleri karşılaştırmak çubuk grafiklerdeki ve sütun grafiklerindeki değerlere kıyasla daha zordur. Pasta grafikleri, parçaları karşılaştırmak yerine parçalarla bütün arasındaki ilişkiyi görmek için kullanılabilir. Ölçek grafikleri, bir hedef bağlamında geçerli durumu görüntülemek için idealdir.    
 
 Görselleştirmelere özgü bilgiler için bkz. [Power BI'daki görselleştirme türleri](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  

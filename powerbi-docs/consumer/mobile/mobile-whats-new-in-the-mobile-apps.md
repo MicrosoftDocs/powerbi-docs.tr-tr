@@ -2,18 +2,18 @@
 title: Power BI mobil uygulamalarındaki yenilikler
 description: Power BI mobil uygulamalarındaki yenilikler
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.author: painbar
-ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
-ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
+ms.date: 12/01/2020
+ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93355946"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502099"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -25,9 +25,19 @@ ms.locfileid: "93355946"
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
+## <a name="december-2020"></a>Aralık 2020
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Power BI mobil uygulamasına koyu mod ekledik (Android)
+
+Android cihazlar için Power BI mobil uygulamasındaki yeni koyu modu deneyin. Koyu modda, içeriğinizi görmenizi kolaylaştırmak amacıyla ekran parlaklığı azaltmış şekilde koyu renkli arka planda açık renkli metin görürsünüz. Uygulama görünüm ayarlarından temalar arasında geçiş yapabilirsiniz. [Daha fazla bilgi](mobile-apps-dark-mode.md)
+
+![Android için Power BI mobil uygulamasındaki koyu modun ekran görüntüsü.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
+
+### <a name="maximize-the-view-with-full-screen-mode-ipads"></a>Tam ekran moduyla görünümü büyütme (iPad'ler)
+iPad'ler için mobil uygulamaya eklediğimiz yeni düğme sayesinde uygulama üst bilgilerini ve alt bilgilerini kaldırabilir, içeriğinizi alanın tamamını kullanarak görüntüleyebilirsiniz. Modlar arasında geçiş yapmak için ekranın sağ üst köşesindeki tam ekrana geçiş düğmesine ![Tam ekran modu simgesinin ekran görüntüsü.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) dokunmanız yeterlidir.
+
 ## <a name="november-2020"></a>Kasım 2020
 ### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>Tam ekran moduyla görünümü büyütme (Android tabletler)
-Android tabletler için mobil uygulamaya eklediğimiz yeni düğme sayesinde uygulama üst bilgilerini ve alt bilgilerini kaldırabilir, içeriğinizi alanın tamamını kullanarak görüntüleyebilirsiniz. Modlar arasında geçiş yapmak için ekranın sağ üst köşesindeki tam ekrana geçiş düğmesine dokunmanız yeterlidir.
+Android tabletler için mobil uygulamaya eklediğimiz yeni düğme sayesinde uygulama üst bilgilerini ve alt bilgilerini kaldırabilir, içeriğinizi alanın tamamını kullanarak görüntüleyebilirsiniz. Modlar arasında geçiş yapmak için ekranın sağ üst köşesindeki tam ekrana geçiş düğmesine ![Tam ekran modu simgesinin ekran görüntüsü.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) dokunmanız yeterlidir.
 
 ## <a name="october-2020"></a>Ekim 2020
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>Otomatik sayfa yenileme şimdi destekleniyor (Windows)

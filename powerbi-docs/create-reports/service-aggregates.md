@@ -2,19 +2,20 @@
 title: Power BI hizmetinde toplamlarla (toplam, ortalama vb.) çalışma
 description: Power BI hizmetinde bir grafikteki toplama işlemini (toplam, ortalama, maksimum vb.) değiştirmeyi öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 06/16/2020
-ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 4addd87085eb4321253bcf34842ca135f536f981
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4ed1d6c68549e621f42b23d05a061e7fe1c9e230
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238112"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395429"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Power BI hizmetinde toplamlarla (toplam, ortalama vb.) çalışma
 
@@ -38,7 +39,7 @@ Aşağıdaki örnekte:
 
    ![Örnek veri kümesinin ekran görüntüsü.](media/service-aggregates/power-bi-aggregate-chart.png)
 
-Power BI’da görselleştirme oluştururken hizmet sayısal alanları bazı kategorik alanlarla ilişkili olarak toplanır. (Varsayılan olarak *toplam* kullanılır.)  Örneğin, "Units Sold ***by Product***”, "Units Sold ***by Month***" ve "Manufacturing Price ***by Segment***”. Power BI’da bazı sayısal alanlar **ölçü** olarak adlandırılır. Power BI rapor düzenleyicisinde ölçüleri kolayca tanıyabilirsiniz: **Alanlar** listesinde ölçüler yanlarında ∑ sembolü ile gösterilir. Daha fazla bilgi için bkz. [Rapor düzenleyicisi... tura katılın](service-the-report-editor-take-a-tour.md).
+Power BI’da görselleştirme oluştururken hizmet sayısal alanları bazı kategorik alanlarla ilişkili olarak toplanır. (Varsayılan olarak *toplam* kullanılır.)  Örneğin, "Units Sold ***by Product** _”, "Units Sold by _*_Month_*_" ve "Manufacturing Price _*_by Segment_*_”. Power BI’da bazı sayısal alanlar _*ölçü** olarak adlandırılır. Power BI rapor düzenleyicisinde ölçüleri kolayca tanıyabilirsiniz: **Alanlar** listesinde ölçüler yanlarında ∑ sembolü ile gösterilir. Daha fazla bilgi için bkz. [Rapor düzenleyicisi... tura katılın](service-the-report-editor-take-a-tour.md).
 
 ![Power BI’da Alanlar listesinin vurgulandığı ekran görüntüsü.](media/service-aggregates/power-bi-aggregate-fields.png)
 

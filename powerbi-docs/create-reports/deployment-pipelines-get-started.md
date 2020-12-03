@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-deployment
 ms.custom: contperfq1
 ms.date: 11/11/2020
-ms.openlocfilehash: ca588c50052ed4950b2f283ee8294098dd36a8ef
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: d40d46ca2de6fee5a928955fed6e69cb03decf24
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669144"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415094"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>Dağıtım işlem hatlarını kullanmaya başlama
 
@@ -181,6 +181,7 @@ Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametre
 
 * Veri kaynağı kuralları, yalnızca şu veri kaynakları için tanımlanabilir:
     * Azure Analysis Services
+    * Azure Synapse
     * SQL Server Analysis Services (SSAS)
     * Azure SQL Sunucusu
     * SQL sunucusu

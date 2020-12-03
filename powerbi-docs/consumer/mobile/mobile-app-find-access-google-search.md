@@ -2,17 +2,17 @@
 title: Google Search ile içeriğinizi bulma ve içeriğinize erişme
 description: Google Search ile içeriğinizi bulma ve içeriğinize erişme hakkında bilgi edinin.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
-ms.openlocfilehash: cb6d2d1474ffaeddc98b5019830920f3064e3df2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2bd49b9578c8c0ba2d24bd74d77251bc663cf7fa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235152"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414634"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>Google Search ile içeriğinizi bulma ve içeriğinize erişme
 
@@ -28,7 +28,7 @@ Belirli bir öğeyi açmak istiyorsanız ancak nerede arayacağınızı bilmiyor
 
 ## <a name="search-using-google-search"></a>Google Search kullanarak arama
 
-Google arama kutusunda, ***power bi’da &lt;arama öğesini&gt; ara*** formunu kullanarak arama yapabilirsiniz. Örneğin, **power bi’da satışları ara**.
+Google arama kutusunda, ***power bi’da &lt;arama öğesini&gt; ara** _ formunu kullanarak arama yapabilirsiniz. Örneğin, _*power bi’da satışları ara**.
 
 * Yalnızca bir eşleşme bulunursa Power BI mobil uygulaması aradığınız öğeyi açar.
 * Birden fazla eşleşme bulunursa Power BI, arama ekranını isteğinize göre filtreleyerek açar.

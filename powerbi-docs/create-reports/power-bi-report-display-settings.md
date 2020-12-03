@@ -2,25 +2,25 @@
 title: Power BI raporlarında sayfa görüntüleme ayarları
 description: Rapor sayfa görüntüleme ayarları ve sayfa görünüm ayarları
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c08d4959b8e3958651282ac0fd52e6ed80a6b345
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9452a4a6340480bcb6c8b646c16125fe73f68235
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237252"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393497"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>Power BI raporuna sayfa görüntüleme ayarlarını uygulama
 Rapor düzeninizin kusursuz görünmesinin sizin için çok önemli olduğunu anlıyoruz. Siz ve iş arkadaşlarınız bu raporları farklı en boy oranlarına ve boyutlara sahip ekranlarda görüntülediğiniz için, bu bazen güç olabilir. 
 
-Varsayılan ekran görünümü **Sayfaya sığdır**, varsayılan görüntüleme boyutu ise **16:9** şeklindedir. Farklı bir en boy oranı kullanmak veya raporunuzu farklı şekilde sığdırmak istiyorsanız şu iki araçtan faydalanabilirsiniz: ***Sayfa görünümü*** ayarları ve ***Sayfa boyutu*** ayarları.
+Varsayılan ekran görünümü **Sayfaya sığdır**, varsayılan görüntüleme boyutu ise **16:9** şeklindedir. Farklı bir en boy oranı kullanmak veya raporunuzu farklı şekilde sığdırmak istiyorsanız şu iki araçtan faydalanabilirsiniz: **_Sayfa görünümü_* _ ayarları ve _*_Sayfa boyutu_*_ ayarları.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ Varsayılan ekran görünümü **Sayfaya sığdır**, varsayılan görüntüleme
 Sayfa görünümü ayarları hem Power BI hizmetinde hem de Power BI Desktop'ta bulunmaktadır ancak arabirimi biraz farklıdır. Aşağıdaki bölümde, her Power BI aracında Görünüm ayarlarını nerede bulabileceğiniz açıklanmaktadır.
 
 ### <a name="in-power-bi-desktop"></a>Power BI Desktop'ta
-Rapor görünümü'nde Sayfa görünümü ayarlarını ve telefon düzeni ayarlarını açmak için **Görünüm** sekmesini seçin.
+Rapor görünümü'nde Sayfa görünümü ayarlarını ve telefon düzeni ayarlarını açmak için _ *Görünüm** sekmesini seçin.
 
   ![Masaüstü sayfa görünümü ayarları](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
 

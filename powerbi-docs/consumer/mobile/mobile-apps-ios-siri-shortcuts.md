@@ -2,25 +2,28 @@
 title: Siri Kısayolları ile Power BI mobil uygulaması tümleştirmesi
 description: İhtiyacınız olan Power BI içeriğine doğrudan erişmek için Siri Kısayollarını kullanma.
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 01/15/2020
-ms.author: painbar
-ms.openlocfilehash: 8a0bafb505412db8d2126ba86df3c256d1b7d1c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 12/01/2020
+ms.openlocfilehash: 0bf1fb3f921b195be430e21f6f0b0bf2b0eeb473
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220253"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96501984"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app"></a>Power BI Mobil iOS Uygulamasında Siri Kısayollarını kullanma
 
 İhtiyacınız olan Power BI içeriğine doğrudan erişmek için Siri Kısayollarını kullanın.
 
-Sık kullandığınız raporlara ve panolara kolay ve hızlı erişim için Siri Kısayolları tümleştirmesini kullanın. Öğenize bir kısayol oluşturun; sonra verilerde neye bakmak istiyorsanız Siri'den onu başlatmasını isteyebilirsiniz.
+Sık kullandığınız raporlara ve panolara kolay ve hızlı erişim için ihtiyacınız olan Power BI içeriğine doğrudan erişim sağlayacak bir Siri Kısayolu oluşturabilirsiniz. Siri Kısayolu oluşturduktan sonra verilere göz atmak için tek yapmanız gereken Siri'den açmasını istemektir.
+
+> [!NOTE]
+> Power BI mobil uygulamasıyla Siri Kısayolları tümleştirmesi, iOS12 ve üstünü çalıştıran iPhone ve iPad'lerde kullanılabilir.
 
 ## <a name="create-siri-shortcut-for-a-report-or-dashboard"></a>Rapor veya pano için Siri kısayolu oluşturma
 
@@ -55,13 +58,11 @@ Power BI raporu için, kısayolu oluşturduğunuz sırada bulunduğunuz sayfaya 
 ## <a name="edit-siri-shortcut-phrase"></a>Siri kısayol tümceciği düzenleme 
 **Rapor** veya **Pano** eylemleri menüsündeki (...) **Siri kısayolu** düğmesini kullanarak kısayol tümceciğinizi düzenleyebilirsiniz. **Tümceciği yeniden kaydet** seçeneğinin bulunduğu Siri kısayol sayfası açılır. 
 
+## <a name="create-a-home-screen-shortcut-from-your-siri-shortcut"></a>Siri kısayolunuzdan giriş ekranı kısayolu oluşturma 
+Power BI içeriği için bir Siri kısayolu oluşturduktan sonra bunu cihazınızın giriş ekranına da ekleyebilir, bu sayede içeriği tek dokunuşla doğrudan giriş ekranınızdan açabilirsiniz. https://support.apple.com/guide/shortcuts/apd735880972/ios sayfasındaki yönergeleri izleyin.
+
 ## <a name="delete-siri-shortcut"></a>Siri kısayolunu silme 
 Kısayolu silmek için öğeye gidin ve eylemler menüsünde (...) **Siri kısayolu** eylemine dokunun. **Siri kısayolu** sayfası açılır. **Kısayolu Sil**'i seçin.
-
-
-> [!NOTE]
-> Power BI uygulamasıyla Siri Kısayolları tümleştirmesi, iOS12 ve üstünü çalıştıran iPhone ve iPad'lerde kullanılabilir.
-> 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Aşağıdakileri yaparak Power BI mobil uygulaması hakkında daha fazla bilgi edinin: 
@@ -69,4 +70,3 @@ Aşağıdakileri yaparak Power BI mobil uygulaması hakkında daha fazla bilgi e
 * [Power BI iPhone mobil uygulamasını](https://go.microsoft.com/fwlink/?LinkId=522062) indirin
 * [@MSPowerBI'ı Twitter'da](https://twitter.com/MSPowerBI) takip edin
 * [Power BI Topluluğu](https://community.powerbi.com/)'nda sohbete katılın
-

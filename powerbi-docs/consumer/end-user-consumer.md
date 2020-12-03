@@ -2,19 +2,19 @@
 title: Power BI "işletme kullanıcısı" nedir?
 description: İşletme kullanıcıları (son kullanıcılar veya iş kullanıcıları olarak da bilinir) için Power BI’a genel bakış.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: overview
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7616d84ca93c336e606b3a96e7a362a1b57e6a96
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 133ffefd32008a138c736094dadcfe154211e98c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982094"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391243"
 ---
 # <a name="the-power-bi-service-for-business-users"></a>İşletme kullanıcıları için Power BI hizmeti
 
@@ -28,7 +28,7 @@ Size her türden rapor, elektronik tablo, grafik içeren e-posta ve hatta basıl
 
 ## <a name="the-power-bi-service-for-business-users"></a>*İşletme kullanıcıları* için Power BI hizmeti
 
-Power BI işinizi hem kolaylaştırır hem de daha etkili hale getirir. Tüm bunlar, verilerinizin görselleştirildiği grafiklere dönüşür. Veri içgörüleriniz, uzun listelerin veya sayılardan ve kelimelerden oluşan tabloların yerine verilerinizdeki içgörülerin hikayesini anlatan renkli, ilgi çekici ve ***güzel*** görsellerden oluşur. 
+Power BI işinizi hem kolaylaştırır hem de daha etkili hale getirir. Tüm bunlar, verilerinizin görselleştirildiği grafiklere dönüşür. Veri içgörüleriniz, uzun listelerin veya sayılardan ve kelimelerden oluşan tabloların yerine verilerinizdeki içgörülerin hikayesini anlatan renkli, ilgi çekici ve ***güzel** _ görsellerden oluşur. 
 
 ![Farklı grafik türlerinin bulunduğu bir Power BI raporunu gösteren ekran görüntüsü.](media/end-user-consumer/power-bi-consumer-examples.png)
  
@@ -38,7 +38,7 @@ Power BI hizmetini bir tarayıcı ya da mobil cihazda açmanız yeterlidir. İş
 
 İçerik statik olmadığından eğilimleri, içgörüleri ve diğer iş zekası verilerini aramak için ayrıntılı incelemeler yapabilirsiniz. İçeriği ayrıntılı olarak inceleyin ve kendi cümlelerinizi kullanarak soru sorun. Dilerseniz arkanıza yaslanıp verilerinizin sizin için ilgi çekici içgörüleri keşfetmesini, veriler değişince sizi bilgilendirmesini ve ayarladığınız bir zamanlamada raporları size e-posta olarak göndermesini bekleyebilirsiniz. Verilerinize buluttan veya şirket içinden, herhangi bir cihazı kullanarak istediğiniz her zaman erişin. Bunlar yalnızca başlangıç. Power BI çok daha fazlasını yapabilir. 
 
-## <a name="am-i-a-power-bi-business-user"></a>Power BI *iş kullanıcısı* mıyım?
+## <a name="am-i-a-power-bi-_business-user"></a>Power BI _işletme kullanıcısı* mıyım?
 
 Power BI ile etkileşime girme şekliniz işteki rolünüze bağlı olacaktır. Tüketici veya *işletme kullanıcısı* olarak iş arkadaşlarınızdan içerik (panolar, raporlar ve uygulamalar) alan kişi sizsiniz. Power BI’ın, Power BI hizmeti adı verilen çevrimiçi veya mobil sürümünde çalışıp bu içerikleri inceler, bunlarla etkileşime geçer ya da iş kararları alırsınız. 
    
