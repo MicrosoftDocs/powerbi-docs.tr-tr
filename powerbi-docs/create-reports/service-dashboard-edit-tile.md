@@ -2,20 +2,20 @@
 title: Pano kutucuğunu düzenleme
 description: Bu eğitimde kutucuk oluşturup panoya sabitlemenin yanı sıra pano kutucuğunu nasıl düzenleyeceğinizi (yeniden boyutlandırma, taşıma, yeniden adlandırma, sabitleme, silme ve köprü ekleme) öğreneceksiniz.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fd6117e3f5de4e8e82535c2594eec53d71117301
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e217b0e75e8d2fadd2eff927ba3ef3c04e40e27
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219379"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417440"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Pano kutucuklarını düzenleme veya kaldırma
 

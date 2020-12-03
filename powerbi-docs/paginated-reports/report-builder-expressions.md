@@ -1,19 +1,19 @@
 ---
 title: Power BI Rapor Oluşturucusu’ndaki ifadeler
 description: İfadeler Power BI Report Builder sayfalandırılmış raporlarında verileri almak, hesaplamak, görüntülemek, gruplandırmak, sıralamak, filtrelemek parametreleştirmek ve biçimlendirmek için yaygın olanak kullanılır.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 7dbda608fcab3457a45c4ad93abf7143a19abcd1
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 24f9348bf23c8e5748121f6967fe7c826984adb9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298173"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416359"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’ndaki ifadeler
 

@@ -2,19 +2,19 @@
 title: Power BI Desktop’ta toplamaları kullanma ve yönetme
 description: Power BI Desktop'ta büyük verilerle etkileşimli analizler gerçekleştirmek için toplamaları kullanın.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 02/14/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: a6adf2136cbff1df6e673de16fd1673127df0192
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600348"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416313"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Power BI Desktop’ta toplamaları kullanma
 

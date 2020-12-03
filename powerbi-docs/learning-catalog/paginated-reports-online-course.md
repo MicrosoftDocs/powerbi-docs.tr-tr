@@ -2,19 +2,19 @@
 title: Bir Gündeki Power BI Sayfalandırılmış Raporları kursu
 description: Bu video tabanlı kurs, sizin gibi rapor yazarlarını Power BI sayfalandırılmış raporları oluşturmak, yayımlamak ve dağıtmak için gereken teknik bilgilerle donatmayı hedefler.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: maggies
 featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 11/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 44ca1f021001161a978875377a1315dc14e5245d
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: e05078bf51cd33fb565dc783386258fe9ea305d1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512988"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416382"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Bir Gündeki Power BI Sayfalandırılmış Raporları kursu
 

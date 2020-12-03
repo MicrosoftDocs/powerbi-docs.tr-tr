@@ -2,19 +2,19 @@
 title: Power BI tasarımcıları için panolara giriş
 description: Panolar, Power BI hizmetinin temel özelliklerinden biridir. Bunlar çoğunlukla tuval olarak adlandırılan, görselleştirmeler aracılığıyla bir hikaye anlatan tek tek sayfalardır.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/19/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a9aa24145fc07841bc14980cb2ba02a4b45400a2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 092ce10b527c6160cb27de5e3de0ed5852219f6a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238339"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417302"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Power BI tasarımcıları için panolara giriş
 

@@ -2,20 +2,20 @@
 title: Power BI hizmetine bireysel olarak kaydolma
 description: Power BI hizmetine kaydolmayı ve Power BI’ı veri analizi ile görselleştirme ihtiyaçlarınız için kullanmaya nasıl başlayacağınızı öğrenin.
 author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: db77d7f94665df7711f7b49dd2cc6d10a7c694df
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 4aa768aa6c041f4653a0bd7bf1ef873b3bc4a63b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216615"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416658"
 ---
 # <a name="sign-up-for-the-power-bi-service-as-an-individual"></a>Power BI hizmetine bireysel olarak kaydolma
 
@@ -46,7 +46,7 @@ Kayıt işlemine başlamadan önce, Power BI'a kaydolmak için kullanabileceğin
 Power BI hesabına kaydolmak için şu adımları izleyin. Bu işlemi tamamladıktan sonra Çalışma Alanım’ı kullanarak Power BI hizmetini kendi kendinize denemek, Power BI Premium kapasitesine atanmış bir Power BI çalışma alanından içerik kullanmak veya bireysel bir Power BI Pro deneme sürümü başlatmak için kullanabileceğiniz bir Power BI (ücretsiz) lisansına sahip olursunuz. Daha fazla bilgi için bkz. [Lisans türüne göre Power BI özellikleri](service-features-license-type.md). 
 
 Tam kaydolma adımları kuruluşunuza ve işlemi başlatmak için tıkladığınız öğeye göre değişiklik gösterebilir. Bu nedenle, aşağıda gösterilen tüm ekranlarla karşılaşmayabilirsiniz. Power BI hizmetine bireysel olarak kaydolmaya yönelik pek çok farklı yol vardır. Bu makaledeki adımlar, en yaygın iki yol için geçerlidir.
-- **Ücretsiz olarak deneyin** veya **Ücretsiz olarak başlayın** düğmelerinden<sup>1</sup> birini seçersiniz.     
+- **Ücretsiz olarak deneyin** veya **Ücretsiz olarak başlayın** düğmelerinden <sup>1</sup> birini seçersiniz.     
 - Power BI panosu, raporu veya uygulamasının bağlantısını içeren bir e-posta alırsınız. Daha önce Power BI hesabınızda oturum açmadınız.
 
     <sup>1</sup>powerbi.microsoft.com adresinde, ilgili Microsoft ürünlerinde ve belgeler ile pazarlama makalelerinde **Ücretsiz olarak deneyin** türünde düğmeler bulabilirsiniz.

@@ -1,19 +1,19 @@
 ---
 title: Power BI Rapor Oluşturucusu’nda İfade örnekleri
 description: İçerik ve rapor görünümünü denetlemek için Power BI Report Builder’da ifadeler sıklıkla kullanılır.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 11/08/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 762949dcce178628d387cd8f88c60080f74c5bae
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: a919efad0b9656327a766986456c533242d40c2e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397358"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416336"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda İfade örnekleri
 

@@ -1,22 +1,22 @@
 ---
 title: Power BI hizmetinde tasarımcılara yönelik temel kavramlar
 description: Power BI hizmeti kapasiteleri, çalışma alanları, panoları, raporları, çalışma kitapları, veri kümeleri ve veri akışları.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 manager: kfollis
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/14/2019
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2e4618988f743ba25795a2a3c3a0a55be1d80c6f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8da3446814d2c356acb24100eaa03df23be8f567
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397174"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416796"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI hizmetinde tasarımcılara yönelik temel kavramlar
 
@@ -45,7 +45,7 @@ Daha sonra bu özelliklerin ayrıntısına ineceğiz ancak şimdi bazı Power BI
 
 
 ## <a name="power-bi-concepts"></a>Power BI kavramları
-Power BI'ın başlıca beş yapı taşı şunlardır: *panolar* , *raporlar* , *çalışma kitapları* , *veri kümeleri* ve *veri akışları*. Bunların hepsi *çalışma alanları* olarak düzenlenir ve *kapasiteler* üzerinde oluşturulur.  Beş yapı taşını ayrıntılı olarak incelemeden önce kapasiteleri ve çalışma alanlarını anlamanız önemli olduğundan bu kavramla başlayacağız.
+Power BI'ın başlıca beş yapı taşı şunlardır: *panolar*, *raporlar*, *çalışma kitapları*, *veri kümeleri* ve *veri akışları*. Bunların hepsi *çalışma alanları* olarak düzenlenir ve *kapasiteler* üzerinde oluşturulur.  Beş yapı taşını ayrıntılı olarak incelemeden önce kapasiteleri ve çalışma alanlarını anlamanız önemli olduğundan bu kavramla başlayacağız.
 
 ## <a name="capacities"></a>Kapasiteler
 Kapasiteler, Power BI içeriğinizi barındırmak ve sunmak için kullanılan bir dizi kaynağı (depolama, işlemci ve bellek) temsil eden temel bir Power BI kavramıdır. Kapasiteler _paylaşımlı_ veya _ayrılmıştır_. Paylaşılan kapasite diğer Microsoft müşterileriyle paylaşılırken, ayrılmış kapasite ise tamamen tek bir müşteriye ayrılmıştır. Ayrılmış kapasiteler [abonelik](../admin/service-premium-what-is.md)gerektirir ve [Premium kapasiteleri yönetme](../admin/service-premium-capacity-manage.md) makalesinde tam olarak açıklanmaktadır.
@@ -57,9 +57,9 @@ Varsayılan olarak, çalışma alanları paylaşılan bir kapasitede oluşturulu
 
 İki tür çalışma alanı vardır: *Çalışma alanım* ve *çalışma alanları*.
 
-- *Çalışma alanım* , Power BI müşterilerinin kendi içeriği üzerinde çalışma yapabileceği kişisel çalışma alanıdır. Çalışma Alanım sayfasına yalnızca siz erişebilirsiniz. Çalışma Alanım sayfanızda panoları ve raporları paylaşabilirsiniz. Panolar ve raporlar üzerinde işbirliği yapmak veya uygulama oluşturmak istiyorsanız, bir çalışma alanında çalışmak istersiniz.
+- *Çalışma alanım*, Power BI müşterilerinin kendi içeriği üzerinde çalışma yapabileceği kişisel çalışma alanıdır. Çalışma Alanım sayfasına yalnızca siz erişebilirsiniz. Çalışma Alanım sayfanızda panoları ve raporları paylaşabilirsiniz. Panolar ve raporlar üzerinde işbirliği yapmak veya uygulama oluşturmak istiyorsanız, bir çalışma alanında çalışmak istersiniz.
 
--  *Çalışma alanları* , iş arkadaşlarıyla işbirliği yapmak ve içerik paylaşmak için kullanılır. Çalışma alanlarınıza iş arkadaşlarınızı ekleyerek panolar, raporlar, çalışma kitapları ve veri kümeleri üzerinde işbirliği yapabilirsiniz. Bir özel durum haricinde, tüm çalışma alanı üyelerinin Power BI Pro lisansı olmalıdır. [Yeni çalışma alanları](../collaborate-share/service-create-the-new-workspaces.md) hakkında daha fazla bilgi edinin. 
+-  *Çalışma alanları*, iş arkadaşlarıyla işbirliği yapmak ve içerik paylaşmak için kullanılır. Çalışma alanlarınıza iş arkadaşlarınızı ekleyerek panolar, raporlar, çalışma kitapları ve veri kümeleri üzerinde işbirliği yapabilirsiniz. Bir özel durum haricinde, tüm çalışma alanı üyelerinin Power BI Pro lisansı olmalıdır. [Yeni çalışma alanları](../collaborate-share/service-create-the-new-workspaces.md) hakkında daha fazla bilgi edinin. 
 
     Çalışma alanlarında ayrıca kuruluşunuz için *uygulama* oluşturur, yayımlar ve yönetirsiniz. Bunları bir Power BI uygulamasını oluşturacak içerik için hazırlık alanı ve kapsayıcı olarak düşünebilirsiniz. Peki *uygulama* nedir? Uygulama, kuruluşunuzdaki Power BI tüketicilerine ana ölçümleri sunmak için oluşturulmuş bir pano ve rapor koleksiyonudur. Uygulamalar etkileşimlidir ancak tüketiciler bunları düzenleyemez. Uygulama kullanıcılarının (uygulamalara erişim sahibi olan iş arkadaşlarınız) Pro lisansına sahip olmasına gerek yoktur.  
 
@@ -68,14 +68,14 @@ Paylaşma hakkında genel olarak daha fazla bilgi edinmek için [Çalışmanız�
 Şimdi Power BI'ın beş yapı taşına geçelim.
 
 ## <a name="dataflows"></a>Veri akışları
-*Veri akışı* , kuruluşların verileri farklı kaynaklardan birleştirmelerine yardımcı olur. Bunlar isteğe bağlıdır ve genellikle karmaşık ya da daha büyük projelerde kullanılır. Bunlar, veri kümeleri tarafından kullanılmak üzere hazırlanan verileri temsil eder. Ancak raporlama için doğrudan kaynak olarak kullanılamazlar. Bunlar, kapsamlı Microsoft veri bağlayıcıları koleksiyonundan yararlanarak şirket içi ve bulut tabanlı veri kaynaklarından veri alımını sağlar.
+*Veri akışı*, kuruluşların verileri farklı kaynaklardan birleştirmelerine yardımcı olur. Bunlar isteğe bağlıdır ve genellikle karmaşık ya da daha büyük projelerde kullanılır. Bunlar, veri kümeleri tarafından kullanılmak üzere hazırlanan verileri temsil eder. Ancak raporlama için doğrudan kaynak olarak kullanılamazlar. Bunlar, kapsamlı Microsoft veri bağlayıcıları koleksiyonundan yararlanarak şirket içi ve bulut tabanlı veri kaynaklarından veri alımını sağlar.
 
-Veri akışları yalnızca çalışma alanlarında oluşturulur ve yönetilir (ancak *Çalışma Alanım* ’da değil) ve Azure Data Lake Storage 2. Nesil’deki Common Data Model’da (CDM) varlık olarak depolanır. Bunlar genellikle güncel verileri depolamak için yinelenen şekilde yenilenmek üzere zamanlanır. Veri kümeleriniz tarafından kullanılmak ve muhtemelen yeniden kullanılmak üzere veri hazırlamak için harikadırlar. Daha fazla bilgi için [Power BI’da self servis veri hazırlama](../transform-model/dataflows/dataflows-introduction-self-service.md) makalesine bakın.
+Veri akışları yalnızca çalışma alanlarında oluşturulur ve yönetilir (ancak *Çalışma Alanım*’da değil) ve Azure Data Lake Storage 2. Nesil’deki Common Data Model’da (CDM) varlık olarak depolanır. Bunlar genellikle güncel verileri depolamak için yinelenen şekilde yenilenmek üzere zamanlanır. Veri kümeleriniz tarafından kullanılmak ve muhtemelen yeniden kullanılmak üzere veri hazırlamak için harikadırlar. Daha fazla bilgi için [Power BI’da self servis veri hazırlama](../transform-model/dataflows/dataflows-introduction-self-service.md) makalesine bakın.
 
 Veriler olmadan panonuz veya raporunuz olamayacağından (boş panolarınız veya raporlarınız olabilir ancak bunlar veri içerene kadar kullanışlı değildir) **veri kümelerini** tanıyalım.
 
 ## <a name="datasets"></a>Veri kümeleri
-Bir *veri kümesi* , *içeri aktardığınız* veya *bağlandığınız* bir veri koleksiyonudur. Power BI, her türden veri kaynağına bağlanmanın ve bunları içeri aktarmanın yanı sıra hepsini tek bir yerde toplamanızı sağlar. Veri kümeleri veri akışlarının verilerini de kaynak olarak kullanabilir.
+Bir *veri kümesi*, *içeri aktardığınız* veya *bağlandığınız* bir veri koleksiyonudur. Power BI, her türden veri kaynağına bağlanmanın ve bunları içeri aktarmanın yanı sıra hepsini tek bir yerde toplamanızı sağlar. Veri kümeleri veri akışlarının verilerini de kaynak olarak kullanabilir.
 
 Veri kümeleri, *çalışma alanlarıyla* ilişkilendirilmiştir ve tek bir veri kümesi, birden fazla çalışma alanına ait olabilir. Bir çalışma alanını açtığınızda ilişkilendirilmiş veri kümeleri, **Veri kümeleri** sekmesinde listelenir. Listelenen her bir veri kümesi tek bir veri kaynağını (örneğin; OneDrive'daki bir Excel çalışma kitabı veya tablosal bir şirket içi SSAS veri kümesi). Desteklenen birçok veri kaynağı olmakla birlikte yenilerini eklemeye de hiç ara vermiyoruz. [Power BI ile kullanılabilen veri kümesi türlerinin](../connect-data/service-get-data.md) listesine göz atın.
 
@@ -91,11 +91,11 @@ Aşağıdaki örnekte "Sales and marketing" çalışma alanını seçtim ve **Ve
 
   ![Veri kümesinin Rapor ve Pano ile olan ilişkisini gösteren diyagram.](media/service-basic-concepts/drawing2.png)
 
-[Bir veri kümesine bağlanmak veya veri kümesini içeri aktarmak](../connect-data/service-get-data.md) için gezinti bölmesinin en altındaki **Veri Al** 'ı seçin. İlgili kaynağa bağlanmak veya kaynağı içeri aktarmak ve veri kümesini etkin çalışma alanına eklemek için yönergeleri uygulayın. Yeni veri kümeleri sarı yıldız işareti ile gösterilir. Power BI'da gerçekleştirdiğiniz çalışmalar, temel alınan veri kümesinde değişikliğe neden olmaz.
+[Bir veri kümesine bağlanmak veya veri kümesini içeri aktarmak](../connect-data/service-get-data.md) için gezinti bölmesinin en altındaki **Veri Al**'ı seçin. İlgili kaynağa bağlanmak veya kaynağı içeri aktarmak ve veri kümesini etkin çalışma alanına eklemek için yönergeleri uygulayın. Yeni veri kümeleri sarı yıldız işareti ile gösterilir. Power BI'da gerçekleştirdiğiniz çalışmalar, temel alınan veri kümesinde değişikliğe neden olmaz.
 
-Bir çalışma alanı üyesi tarafından eklenen veri kümeleri *yönetici* , *üye* veya *katkıda bulunan* rolüne sahip diğer çalışma alanı üyeleri tarafından görülebilir.
+Bir çalışma alanı üyesi tarafından eklenen veri kümeleri *yönetici*, *üye* veya *katkıda bulunan* rolüne sahip diğer çalışma alanı üyeleri tarafından görülebilir.
 
-Veri kümeleri yenilenebilir, yeniden adlandırılabilir, araştırılabilir ve kaldırılabilir. Veri kümesi kullanarak sıfırdan rapor oluşturabilir veya [hızlı öngörülerden](../create-reports/service-insights.md) faydalanabilirsiniz.  Veri kümesi kullanan raporları ve panoları görmek için **İlişkilileri görüntüle** 'yi seçin. Araştırmak için veri kümesini seçmeniz gerekir. Aslında burada yaptığınız, veri kümesini, görselleştirmeler oluşturarak verilerinizin detaylarına gitmeye başlayabileceğiniz rapor düzenleyicisinde açmaktır.
+Veri kümeleri yenilenebilir, yeniden adlandırılabilir, araştırılabilir ve kaldırılabilir. Veri kümesi kullanarak sıfırdan rapor oluşturabilir veya [hızlı öngörülerden](../create-reports/service-insights.md) faydalanabilirsiniz.  Veri kümesi kullanan raporları ve panoları görmek için **İlişkilileri görüntüle**'yi seçin. Araştırmak için veri kümesini seçmeniz gerekir. Aslında burada yaptığınız, veri kümesini, görselleştirmeler oluşturarak verilerinizin detaylarına gitmeye başlayabileceğiniz rapor düzenleyicisinde açmaktır.
 
 Öyleyse, sonraki konumuz olan raporlara geçelim.
 
@@ -109,13 +109,13 @@ Veri kümeleri yenilenebilir, yeniden adlandırılabilir, araştırılabilir ve 
 ## <a name="reports"></a>Raporlar
 Power BI raporu çizgi grafikler, haritalar ve ağaç haritaları gibi görselleştirmeler içeren bir veya birden fazla sayfadan oluşur. Görselleştirmelere **_görseller_** adı da verilir. Bir rapordaki görselleştirmelerin tümü tek bir veri kümesinden gelir. Power BI'da sıfırdan rapor oluşturabilir, çalışma arkadaşlarınızın sizinle paylaştığı panolarla içeri aktarabilirsiniz veya Excel, Power BI Desktop, veritabanları ve SaaS uygulamaları’ndan veritabanlarına bağlanırken bunları Power BI oluşturabilir.  Örneğin, Power View sayfaları içeren bir Excel çalışma kitabına bağlandığınızda Power BI, söz konusu sayfaları temel alan bir rapor oluşturur. Bir SaaS uygulamasına bağlandığınızda ise Power BI, önceden oluşturulmuş bir raporu içeri aktarır.
 
-Raporları görüntülemek ve raporlarla etkileşimli çalışmak için iki mod vardır: *Okuma görünümü* ve *Düzenleme görünümü*. Bir raporu açtığınızda rapor Okuma görünümünde açılır. Düzenleme izinleriniz varsa, sol üst köşede **Raporu düzenle** seçeneğini görürsünüz ve raporu Düzenleme görünümünde görüntüleyebilirsiniz.  Rapor bir çalışma alanındaysa *yönetici* , *üye* veya *katkıda bulunan* rolüne sahip herkes tarafından düzenlenebilir. Bu kişiler raporun Düzenleme görünümünün tüm araştırma, tasarlama, derleme ve paylaşma özelliklerine erişebilirler. Raporu paylaştıkları kişiler Okuma görünümünde söz konusu raporu araştırabilir ve raporla etkileşimli çalışabilir.
+Raporları görüntülemek ve raporlarla etkileşimli çalışmak için iki mod vardır: *Okuma görünümü* ve *Düzenleme görünümü*. Bir raporu açtığınızda rapor Okuma görünümünde açılır. Düzenleme izinleriniz varsa, sol üst köşede **Raporu düzenle** seçeneğini görürsünüz ve raporu Düzenleme görünümünde görüntüleyebilirsiniz.  Rapor bir çalışma alanındaysa *yönetici*, *üye* veya *katkıda bulunan* rolüne sahip herkes tarafından düzenlenebilir. Bu kişiler raporun Düzenleme görünümünün tüm araştırma, tasarlama, derleme ve paylaşma özelliklerine erişebilirler. Raporu paylaştıkları kişiler Okuma görünümünde söz konusu raporu araştırabilir ve raporla etkileşimli çalışabilir.
 
 Bir çalışma alanını açtığınızda ilişkilendirilmiş raporlar, **Raporlar** sekmesinde listelenir. Listelenen her bir rapor, temel alınan veri kümelerinden yalnızca birine dayalı bir veya daha fazla görselleştirme sayfasını temsil eder. Bir raporu açmak için seçin.
 
 Bir uygulamayı açtığınızda bir pano görüntülenir.  Rapordan sabitlenmiş pano kutucuklarını (ilerleyen bölümlerde kutucuklar ayrıntılı olarak anlatılır) seçerek kaynak raporlara erişebilirsiniz. Tüm kutucukların raporlardan sabitlenmediğini, bir rapora ulaşmak için birden fazla kutucuğa tıklamanız gerekebileceğini unutmayın.
 
-Raporlar varsayılan olarak Okuma Görünümü'nde açılır.  Raporu, Düzenleme Görünümü'nde açmak için **Raporu düzenle** 'yi seçmeniz yeterlidir (gerekli izinlere sahipseniz).
+Raporlar varsayılan olarak Okuma Görünümü'nde açılır.  Raporu, Düzenleme Görünümü'nde açmak için **Raporu düzenle**'yi seçmeniz yeterlidir (gerekli izinlere sahipseniz).
 
 Aşağıdaki örnekte "Sales and marketing" çalışma alanını seçtim ve **Raporlar** sekmesine tıkladım.
 
@@ -134,7 +134,7 @@ Aşağıdaki örnekte "Sales and marketing" çalışma alanını seçtim ve **Ra
 - [Power BI mobil uygulamaları için raporları iyileştirme](../create-reports/desktop-create-phone-report.md)
 
 ## <a name="dashboards"></a>Panolar
-*Pano* , **Power BI hizmetinde** sizin oluşturduğunuz veya bir iş arkadaşınız tarafından **Power BI hizmetinde** oluşturulup sizinle paylaşılan bir öğedir. Bir veya daha fazla kutucuk ve pencere öğesi içeren (veya hiç içermeyen) tek bir tuvaldir. Bir rapordan veya [Soru-Cevap](../consumer/end-user-q-and-a.md) özelliğinden sabitlenmiş olan her bir kutucuk, veri kümesinden oluşturulmuş ve panoya sabitlenmiş tek bir [görselleştirme](../visuals/power-bi-report-visualizations.md) görüntüler. Rapor sayfalarının tamamı da bir panoya tek bir kutucuk olarak sabitlenebilir. Panonuza, bu genel bakış konusunda ele alınamayacak kadar fazla sayıda yöntemle kutucuklar ekleyebilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI'daki pano kutucukları](../create-reports/service-dashboard-tiles.md).
+*Pano*, **Power BI hizmetinde** sizin oluşturduğunuz veya bir iş arkadaşınız tarafından **Power BI hizmetinde** oluşturulup sizinle paylaşılan bir öğedir. Bir veya daha fazla kutucuk ve pencere öğesi içeren (veya hiç içermeyen) tek bir tuvaldir. Bir rapordan veya [Soru-Cevap](../consumer/end-user-q-and-a.md) özelliğinden sabitlenmiş olan her bir kutucuk, veri kümesinden oluşturulmuş ve panoya sabitlenmiş tek bir [görselleştirme](../visuals/power-bi-report-visualizations.md) görüntüler. Rapor sayfalarının tamamı da bir panoya tek bir kutucuk olarak sabitlenebilir. Panonuza, bu genel bakış konusunda ele alınamayacak kadar fazla sayıda yöntemle kutucuklar ekleyebilirsiniz. Daha fazla bilgi edinmek için bkz. [Power BI'daki pano kutucukları](../create-reports/service-dashboard-tiles.md).
 
 Panolar neden oluşturulur?  Nedenlerden bazıları şunlardır:
 
@@ -164,7 +164,7 @@ Bir çalışma alanını açtığınızda ilişkilendirilmiş panolar, **Panolar
 
 
 ## <a name="workbooks"></a>Çalışma kitapları
-Çalışma kitapları özel bir veri kümesi türüdür. Yukarıdaki **Veri kümeleri** bölümünü okuduysanız, çalışma kitapları hakkında da bilmeniz gereken hemen her şeyi biliyorsunuzdur. Ancak Excel çalışma kitaplarının Power BI'da neden bazen **Veri kümesi** , bazen de **Çalışma kitabı** olarak sınıflandırıldığını merak ediyor olabilirsiniz.
+Çalışma kitapları özel bir veri kümesi türüdür. Yukarıdaki **Veri kümeleri** bölümünü okuduysanız, çalışma kitapları hakkında da bilmeniz gereken hemen her şeyi biliyorsunuzdur. Ancak Excel çalışma kitaplarının Power BI'da neden bazen **Veri kümesi**, bazen de **Çalışma kitabı** olarak sınıflandırıldığını merak ediyor olabilirsiniz.
 
 Excel dosyalarını **Veri al** komutuyla kullandığınızda dosyada *İçeri Aktar* veya *Bağlan* seçeneklerine sahip olursunuz. Bağlan'ı seçtiğinizde çalışma kitabınız, Power BI'da tıpkı Excel Online'daki gibi görünecektir. Ancak, Excel Online’dan farklı olarak çalışma sayfalarınızdaki öğeleri doğrudan panolarınıza sabitlemenize yardımcı olacak harika özellikler edineceksiniz.
 
@@ -185,19 +185,19 @@ Gezinti bölmesini kullanarak çalışma alanlarınızı ve Power BI yapı taşl
 
   ![Gezinti bölmesini gösteren Power BI hizmetinin ekran görüntüsü.](media/service-basic-concepts/power-bi-navigation.png)
 
-* [Power BI'a veri kümesi, rapor ve pano eklemek için](../connect-data/service-get-data.md)**Veri Al** 'ı seçin.
+* [Power BI'a veri kümesi, rapor ve pano eklemek için](../connect-data/service-get-data.md)**Veri Al**'ı seçin.
 * Gezinti bölmesini bu simgeyle genişletip daraltın ![Gezinti bölmesi simgesini gösteren Power BI hizmetinin ekran görüntüsü.](media/service-basic-concepts/expand-icon.png).
-* **Sık Kullanılanlar** 'ı seçerek sık kullandığınız içerikleri açabilir veya yönetebilirsiniz.
-* **Son görüntülenen** 'i seçerek en son incelediğiniz içeriği görüntüleyebilir ve açabilirsiniz
-* **Uygulamalar** 'ı seçerek bir uygulamayı görüntüleyebilir, açabilir veya silebilirsiniz.
-* İş arkadaşlarınızdan biri sizinle bir içerik mi paylaştı? Aradığınız içeriği bulmak ve sıralamak için **Benimle paylaşılan** 'ı seçebilirsiniz.
-* **Çalışma alanları** 'nı seçerek çalışma alanlarınızı görüntüleyebilir ve açabilirsiniz.
+* **Sık Kullanılanlar**'ı seçerek sık kullandığınız içerikleri açabilir veya yönetebilirsiniz.
+* **Son görüntülenen**'i seçerek en son incelediğiniz içeriği görüntüleyebilir ve açabilirsiniz
+* **Uygulamalar**'ı seçerek bir uygulamayı görüntüleyebilir, açabilir veya silebilirsiniz.
+* İş arkadaşlarınızdan biri sizinle bir içerik mi paylaştı? Aradığınız içeriği bulmak ve sıralamak için **Benimle paylaşılan**'ı seçebilirsiniz.
+* **Çalışma alanları**'nı seçerek çalışma alanlarınızı görüntüleyebilir ve açabilirsiniz.
 
 Şu öğelere tek tıklayın:
 
 * bir simgeyi veya başlığı içerik görünümünde açabilirsiniz
 * sağ ok simgesinden (>) Sık Kullanılanlar, Son Görüntülenen ve Çalışma Alanları menülerini açabilirsiniz.
-* **Çalışma Alanım** 'daki kaydırılabilir pano, rapor, çalışma kitabı ve veri kümesi listesini görüntülemek için köşeli çift ayraç simgesi.
+* **Çalışma Alanım**'daki kaydırılabilir pano, rapor, çalışma kitabı ve veri kümesi listesini görüntülemek için köşeli çift ayraç simgesi.
 
 ### <a name="2-canvas"></a>2. **Tuval**
 Bir pano açtığımız için tuval alanında görselleştirme kutucukları görüntülenir. Örneğin, rapor düzenleyicisini açmış olsaydık tuval alanında bir rapor sayfası görüntülenecekti.
@@ -235,7 +235,7 @@ Uygulama başlatıcısını kullanarak tüm Microsoft 365 uygulamalarınıza tek
 ![Office uygulama başlatıcısını gösteren Power BI hizmetinin ekran görüntüsü.](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7. **Power BI giriş**
-**Power BI** 'ın seçilmesi sizi Power BI giriş sayfasına döndürür.
+**Power BI**'ın seçilmesi sizi Power BI giriş sayfasına döndürür.
 
    ![Power BI giriş sayfasına geri dönme simgesini gösteren Power BI hizmetinin ekran görüntüsü.](media/service-basic-concepts/version-new.png)
 

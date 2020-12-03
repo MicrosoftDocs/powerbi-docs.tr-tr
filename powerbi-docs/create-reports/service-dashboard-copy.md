@@ -2,20 +2,20 @@
 title: Bir Power BI panosunun kopyasını oluşturma
 description: 'Bir Power BI panosunu yineleme '
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4bb8a650ad4000f1ac582c54f32dee184a492184
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8d687aa29f45ebf9b37187ae8296f5f931d3b63e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231025"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417394"
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Power BI hizmetinde bir panonun kopyasını oluşturma
 ![pano](media/service-dashboard-copy/power-bi-dashboard.png)

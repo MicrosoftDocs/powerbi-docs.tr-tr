@@ -2,19 +2,19 @@
 title: Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 description: Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 05/28/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 5b2e9cc5cb07eebf3befebd1be1686fdbb0f653b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f843d2642228c7fbf1394174fe4334a58f169e2f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861832"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415899"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Power BI Desktop'ta ilişki oluşturma ve ilişkileri yönetme
 Birden çok tabloyu içeri aktardığınızda, analiz yaparken büyük olasılıkla tüm bu tablolardaki verileri kullanırsınız. Sonuçların düzgün şekilde hesaplanması ve raporlarınızda doğru bilgilerin gösterilmesi için bu tablolar arasında ilişki oluşturulması gerekir. Power BI Desktop, bu ilişkilerin oluşturulmasını kolaylaştırır. Aslında çoğu durumda bir şey yapmanız gerekmez ve otomatik algılama özelliği sizin yerinize bunları yapar. Öte yandan bazen ilişkileri kendiniz oluşturmanız veya bir ilişkide bazı değişiklikler yapmanız gerekebilir. Her iki durumda da, Power BI Desktop'taki ilişkileri ve bunların nasıl oluşturulup düzenlendiğini anlamanız önemlidir.

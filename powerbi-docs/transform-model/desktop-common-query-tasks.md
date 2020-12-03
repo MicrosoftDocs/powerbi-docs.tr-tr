@@ -2,19 +2,19 @@
 title: Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme
 description: Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/09/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 931c500cd2c2dbbf750eb3699ac5290a2977c21b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2346118350ca589a25635db9da976fa917e3ff7b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526272"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415968"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Power BI Desktop'taki genel sorgu görevlerini gerçekleştirme
 

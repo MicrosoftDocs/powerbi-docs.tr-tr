@@ -4,15 +4,15 @@ description: Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedde
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 7d4a548ab24e8493cef340026642021a2f923ee1
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: afff3023942352a25ff89fbed5f4a855b23d724d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397427"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416566"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 

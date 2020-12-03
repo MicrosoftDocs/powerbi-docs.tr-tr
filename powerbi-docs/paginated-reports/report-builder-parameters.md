@@ -1,20 +1,20 @@
 ---
 title: Power BI Rapor Oluşturucusu’nda Rapor parametreleri
 description: Bu konu başlığında, Power BI Report Builder’ın rapor parametrelerine, ayarlayabileceğiniz özelliklere ve çok daha fazlasına yönelik yaygın kullanımlar açıklanır.
+author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-author: maggiesMSFT
-ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 6c0a891257ae4e768c3952398eb8303906bf2ce4
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 77388e138451242ae54f4d1f0630599bbd9de829
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297806"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416297"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Power BI Rapor Oluşturucusu’nda Rapor parametreleri
 
@@ -48,13 +48,13 @@ Parametreleri olan bir raporu görüntülediğinizde, rapor görüntüleyici ara
   
 2. **@SalesDate parametresi**@SalesDate parametresi, **DateTime** veri türüdür. Metin kutusunun yanında Tarihi Seçin istemi görünür. Tarihi değiştirmek için metin kutusuna yeni bir tarih girin veya takvim denetimini kullanın.  
   
-3. **@ShowAll parametresi**@ShowAll parametresi, **Boole** veri türüdür. **True** veya **False** ’u belirtmek için radyo düğmelerini kullanın.  
+3. **@ShowAll parametresi**@ShowAll parametresi, **Boole** veri türüdür. **True** veya **False**’u belirtmek için radyo düğmelerini kullanın.  
   
 4. **Parametre Alanı tanıtıcısını Göster veya Gizle** Parametreler panosunu göstermek veya gizlemek için rapor görüntüleyici araç çubuğunda bu oka tıklayın.  
   
 5. **@CategoryQuota parametresi**@CategoryQuota parametresi **Float** veri türü olduğu için sayısal bir değer alır.  @CategoryQuota birden çok değere izin verecek şekilde ayarlanır.  
   
-6. **Raporu Görüntüle** Parametre değerlerini girdikten sonra raporu çalıştırmak için **Raporu Görüntüle** ’ye tıklayın. Tüm parametreler varsayılan değerlere sahipse rapor ilk görünümde otomatik olarak çalışır.  
+6. **Raporu Görüntüle** Parametre değerlerini girdikten sonra raporu çalıştırmak için **Raporu Görüntüle**’ye tıklayın. Tüm parametreler varsayılan değerlere sahipse rapor ilk görünümde otomatik olarak çalışır.  
   
 ## <a name="creating-parameters"></a><a name="bkmk_Create_Parameters"></a> Parametreleri oluşturma
 
@@ -145,7 +145,7 @@ El ile parametre oluşturmak için Rapor Verileri bölmesine gidin. Rapor parame
 ##  <a name="parameters-for-a-subscription"></a><a name="bkmk_Parameters_Subscription"></a> Abonelik için parametreler  
  Bir isteğe bağlı veya anlık görüntü için abonelik tanımlayıp, abonelik işleme sırasında kullanılacak parametre değerlerini belirtebilirsiniz.  
   
--   **İsteğe bağlı rapor.**  İsteğe bağlı bir raporda, raporda listelenen her parametre için yayımlanan değerden farklı bir parametre değeri belirtebilirsiniz. Örneğin, geçerli gün, hafta veya ay için müşteri hizmetleri isteklerini döndürmek amacıyla bir *Zaman Aralığı* kullanan Çağrı Merkezi raporunuzun olduğunu varsayalım. Raporun varsayılan parametre değeri **bugün** olarak ayarlandıysa, haftalık veya aylık rakamları içeren bir rapor oluşturmak için aboneliğiniz farklı bir parametre değeri ( **hafta** veya **ay** gibi) kullanabilir.  
+-   **İsteğe bağlı rapor.**  İsteğe bağlı bir raporda, raporda listelenen her parametre için yayımlanan değerden farklı bir parametre değeri belirtebilirsiniz. Örneğin, geçerli gün, hafta veya ay için müşteri hizmetleri isteklerini döndürmek amacıyla bir *Zaman Aralığı* kullanan Çağrı Merkezi raporunuzun olduğunu varsayalım. Raporun varsayılan parametre değeri **bugün** olarak ayarlandıysa, haftalık veya aylık rakamları içeren bir rapor oluşturmak için aboneliğiniz farklı bir parametre değeri (**hafta** veya **ay** gibi) kullanabilir.  
   
 ## <a name="next-steps"></a>Sonraki adımlar
 

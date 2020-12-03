@@ -2,17 +2,17 @@
 title: Power BI Soru-Cevap kullanarak verilerinizi araştırmak için doğal dil kullanma
 description: Verilerinizi keşfetmek ve sorgularda doğal dil kullanarak görselleştirme oluşturmak için Power BI Soru-Cevap özelliğini kullanma.
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.author: mohaali
-ms.openlocfilehash: d9339c0005f7f2af9fedd5cc5bfcce40469afb8c
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 71a78fe6b1af909079ca0a187ddb14d643c4e576
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749173"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416428"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI Soru-Cevap’a giriş
 
@@ -49,7 +49,7 @@ Soru-Cevap, sistemin anladığı veya tanımadığı sözcükleri görmenize yar
 
 ![Soru-Cevap mavi alt çizgi](media/qna-blue-underline.png)
 
- Turuncu alt çizgi, sözcüğün veya sözcüklerin*düşük güven düzeyinde* olduğunu belirtir. Şüpheli veya belirsiz bir sözcük yazarsanız alanın altına turuncu çizgi eklenir. 'Satış' sözcüğü örnek olabilir. Birden fazla alan “Satış” sözcüğünü içerebilir. Bu nedenle sistem, hedeflediğiniz alanı seçmenizi istemek için turuncu bir alt çizgi kullanır. 'Alan' sözcüğünü yazmanıza rağmen eşleştiği sütunun 'bölge' olması başka bir düşük güven örneğidir. Bing ve Office ile olan tümleştirme sayesinde Power BI Soru-Cevap, aynı anlama gelen sözcükleri tanıyarak rapordaki yeniden adlandırmaları olası öneriler olarak yorumlar. Soru-Cevap, sözcüğe turuncu alt çizgi ekler, böylece doğrudan eşleşme olmadığını bilirsiniz.
+ Turuncu alt çizgi, sözcüğün veya sözcüklerin *düşük güven düzeyinde* olduğunu belirtir. Şüpheli veya belirsiz bir sözcük yazarsanız alanın altına turuncu çizgi eklenir. 'Satış' sözcüğü örnek olabilir. Birden fazla alan “Satış” sözcüğünü içerebilir. Bu nedenle sistem, hedeflediğiniz alanı seçmenizi istemek için turuncu bir alt çizgi kullanır. 'Alan' sözcüğünü yazmanıza rağmen eşleştiği sütunun 'bölge' olması başka bir düşük güven örneğidir. Bing ve Office ile olan tümleştirme sayesinde Power BI Soru-Cevap, aynı anlama gelen sözcükleri tanıyarak rapordaki yeniden adlandırmaları olası öneriler olarak yorumlar. Soru-Cevap, sözcüğe turuncu alt çizgi ekler, böylece doğrudan eşleşme olmadığını bilirsiniz.
 
 Kırmızı alt çizgi, Soru-Cevap’ın kelimeyi hiçbir şekilde tanımadığı anlamına gelir. Verilerin hiçbir yerinde bahsedilmeyen, etki alanına özgü bir terim kullanarak bu sorunla karşılaşmış olabilirsiniz veya veri alanları yanlış adlandırılmıştır. Verilerin hiçbir yerinde mevcut olmamasına rağmen “Maliyetler” sözcüğünün kullanılması bu durumun örneği olabilir. Bu sözcük İngilizce sözlükte yer alır, ancak Soru-Cevap bu terimi veriler arasında bulamadığını belirtmek için sözcüğün altını kırmızıyla çizer.
 

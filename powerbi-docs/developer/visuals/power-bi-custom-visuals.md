@@ -6,16 +6,16 @@ ms.author: kesharab
 manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi-custom-visuals
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ea72198ded59f3ce5dce1362ab9320fc119fac6
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 91c9115f7d9ca0eb15606fcd77f99070e949842e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514401"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416773"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI’daki görseller
 

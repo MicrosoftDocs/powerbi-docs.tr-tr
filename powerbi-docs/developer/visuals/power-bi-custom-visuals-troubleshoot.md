@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
+ms.topic: troubleshooting
 ms.date: 11/06/2018
-ms.openlocfilehash: bfdca7f5652106271ba46f0cffd2759b7b4595eb
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: fda4bbddb2f0b1a878e0ddf85f31795405c66331
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485634"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417164"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Power BI görselleriyle ilgili sorunları giderme
 

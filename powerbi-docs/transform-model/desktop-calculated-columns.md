@@ -2,19 +2,19 @@
 title: Power BI Desktop'taki hesaplanmış sütunları kullanma
 description: Power BI Desktop'taki hesaplanmış sütunlar
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 05/07/2019
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 0d8510e1ef76ba07623e135f51eb0ce21ceac4c4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9c7285f90b963166c643c2bb20f9323eddb7ce85
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214383"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415945"
 ---
 # <a name="create-calculated-columns-in-power-bi-desktop"></a>Power BI Desktop'taki hesaplanmış sütunlar oluşturma
 Hesaplanmış sütunları kullanarak modelinizdeki tablolara yeni veriler ekleyebilirsiniz. Ancak bir veri kaynağından yeni sütununuza değer sorgulamak ve yüklemek yerine sütunun değerlerini tanımlayan bir Veri Çözümleme İfadeleri (DAX) formülü oluşturursunuz. Power BI Desktop'ta hesaplanmış sütunları oluşturmak için **Rapor** görünümündeki yeni sütun özelliğini kullanabilirsiniz.

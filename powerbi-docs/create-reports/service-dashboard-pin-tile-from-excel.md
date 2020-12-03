@@ -2,20 +2,20 @@
 title: Excel'deki kutucukları bir Power BI panosuna sabitleme
 description: OneDrive İş'teki bir Excel dosyasında bulunan kutucukları Power BI panolarına sabitleyin. Aralıkları, grafikleri ve tabloları sabitleyin
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2e47a09437bacfc905258bd6e23e82ff5554225
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b62a780bc504c0b2fc90aa368d8dc30ac745867e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219310"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417417"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Excel'deki kutucukları Power BI panolarına sabitleme
 Excel çalışma kitabınızdaki bir kutucuğu sabitleyebilmeniz için çalışma kitabı ile Power BI hizmeti (app.powerbi.com) arasında bağlantı kurmanız gerekir. Çalışma kitabı ile hizmet arasında bağlantı kurulduğunda çalışma kitabının bağlantılı, salt okunur bir sürümü Power BI hizmetine aktarılır ve böylece aralıkları panolara sabitleyebilirsiniz. Panolara bir çalışma sayfasının tamamını bile sabitleyebilirsiniz.  

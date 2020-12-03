@@ -1,20 +1,20 @@
 ---
 title: Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 description: Power BI'ın çalışmasına yönelik sorularınız konusunda yardım almanın 10 yolu
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 06/28/2018
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f5cb17187770c8c0b37c48a495c6844c462e83ec
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0ef9371b54fed4188b80bbb761cf61f3805a8eab
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525637"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416589"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>Power BI sorularınızla ilgili yardım almaya yönelik 10 ipucu
 Power BI sorularınıza "gereken zamanda" yanıt alamadığınız için hizmeti kullanırken zorlandığınız veya öfkelendiğiniz oldu mu? 

@@ -2,19 +2,19 @@
 title: Veri akışı oluşturma
 description: Veri akışı oluşturma seçeneklerine genel bakış
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: c98044303e46af46d36b98f0a1bdc8c7df29d94f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669213"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416175"
 ---
 # <a name="creating-a-dataflow"></a>Veri akışı oluşturma
 **Veri akışı**, Power BI hizmetindeki çalışma alanlarında oluşturulan ve yönetilen bir varlık koleksiyonudur (varlıklar, tablolara benzer). **Varlık/tablo**, veritabanlarındaki tablolara çok benzeyen ve verileri depolamak için kullanılan bir alan kümesidir. Veri akışınızda varlıkları/tabloları ekleyip düzenleyebilir, ayrıca doğrudan veri akışınızı oluşturduğunuz çalışma alanından veri yenileme zamanlamalarını yönetebilirsiniz.
