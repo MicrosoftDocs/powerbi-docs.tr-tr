@@ -2,20 +2,20 @@
 title: Power BI tasarımcıları için pano kutucuklarına giriş
 description: Bu makalede, SQL Server Reporting Services (SSRS) raporlarından oluşturulan kutucuklar da dahil olmak üzere Power BI'daki pano kutucukları açıklanmaktadır.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/17/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 84b3fafa3ae5e12a96b4e1117ee74baf94dba597
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 56f00568b22d236b498446065cf97ff565993e7a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861441"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418250"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI tasarımcıları için pano kutucuklarına giriş
 

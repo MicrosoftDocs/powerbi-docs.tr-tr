@@ -2,20 +2,20 @@
 title: Power BI raporuna yeni bir Power App ekleme
 description: Aynı veri kaynağını kullanan ve diğer rapor öğeleri gibi filtrelenebilen bir uygulamayı ekleme
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: tapan maniar
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 1c4086d6ab71bd96ba7ac6c6985161d28a4dcb8b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397542"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418889"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Öğretici: Power BI raporuna yeni bir Power Apps görseli ekleme
 
@@ -51,11 +51,11 @@ Raporunuza Power Apps görseli eklediğinizde Power Apps ile Power BI arasında 
 
     ![Power Apps simgesinin seçili olduğu Görselleştirmeler bölmesi](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
-3. **Alanlar** bölmesinde **Ad** , **Ürün Kodu** ve **Satış Aşaması** ’nı seçin. 
+3. **Alanlar** bölmesinde **Ad**, **Ürün Kodu** ve **Satış Aşaması**’nı seçin. 
 
     ![alanları seçme](media/power-bi-visualization-powerapp/power-bi-fields.png)
 
-4. Power Apps görselinde uygulamayı oluşturmak istediğiniz Power Apps ortamını seçin ve sonra da **Yeni oluştur** ’u seçin.
+4. Power Apps görselinde uygulamayı oluşturmak istediğiniz Power Apps ortamını seçin ve sonra da **Yeni oluştur**’u seçin.
 
     ![Yeni uygulama oluşturma](media/power-bi-visualization-powerapp/power-bi-create-new-powerapp.png)
 
@@ -65,7 +65,7 @@ Raporunuza Power Apps görseli eklediğinizde Power Apps ile Power BI arasında 
 
 5.  Galeriyi ekranın yalnızca yarısını kaplayacak şekilde yeniden boyutlandırın. 
 
-6. Sol bölmede **Scren1** ’i seçin, ardından ekranın **Fill** özelliğini "LightBlue" olarak (raporda daha iyi gösterilmesi için) ayarlayın.
+6. Sol bölmede **Scren1**’i seçin, ardından ekranın **Fill** özelliğini "LightBlue" olarak (raporda daha iyi gösterilmesi için) ayarlayın.
 
     ![renk paleti](media/power-bi-visualization-powerapp/power-bi-powerapps-fill.png)
 
@@ -74,7 +74,7 @@ Raporunuza Power Apps görseli eklediğinizde Power Apps ile Power BI arasında 
     ![galeri boyutlarını değiştirme](media/power-bi-visualization-powerapp/power-bi-powerapps-gallery.png)
 
 
-8. **Galeri** ’nin altına bir metin etiketi denetimi ekleyin.
+8. **Galeri**’nin altına bir metin etiketi denetimi ekleyin.
 
    ![etiket denetimi](media/power-bi-visualization-powerapp/power-bi-label.png)
 

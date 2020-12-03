@@ -5,14 +5,14 @@ author: KesemSharabi
 ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-deployment
 ms.date: 11/11/2020
-ms.openlocfilehash: 141364664b6608b252fc2be8620226ae8d9ce39b
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 3787f1cb61262f9f1fa64e04487c7d6395b4e549
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668638"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417647"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Dağıtım işlem hatlarıyla ilgili sorunları giderme
 

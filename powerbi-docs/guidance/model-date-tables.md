@@ -2,18 +2,18 @@
 title: Power BI Desktop’ta tarih tabloları oluşturma
 description: Power BI Desktop’ta tarih tabloları oluşturmaya yönelik teknikler ve kılavuz.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396652"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417854"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Power BI Desktop’ta tarih tabloları oluşturma
 
@@ -22,7 +22,7 @@ Bu makale, Power BI Desktop'la çalışan veri modelleyicilerine yöneliktir. Ve
 Veri Çözümleme İfadeleri (DAX) [akıllı zaman gösterimi işlevleri](/dax/time-intelligence-functions-dax) ile çalışmak için bir önkoşul modeli gereksinimi vardır: Modelinizde en az bir _tarih tablosu_ olmalıdır. Tarih tablosu, aşağıdaki gereksinimleri karşılayan bir tablodur:
 
 > [!div class="checklist"]
-> - _Tarih sütunu_ olarak bilinen **tarih** (veya **tarih/saat** ) veri türü sütununa sahip olması gerekir.
+> - _Tarih sütunu_ olarak bilinen **tarih** (veya **tarih/saat**) veri türü sütununa sahip olması gerekir.
 > - Tarih sütunu benzersiz değerler içermelidir.
 > - Tarih sütunu BOŞLUKLAR içermemelidir.
 > - Tarih sütununda eksik tarihler olmamalıdır.

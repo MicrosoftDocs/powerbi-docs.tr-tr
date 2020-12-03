@@ -1,20 +1,20 @@
 ---
 title: Bir görselleştirmeyi taşıma, yeniden boyutlandırma ve büyütme
 description: Power BI hizmetinde ve Desktop'ta raporlardaki görselleştirmeleri taşıma ve yeniden boyutlandırma
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/31/2018
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dd7920afb8438e577f0d800ed56c2a577f18807e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 09e1257bd1d9ee86a149ebf650e13da517292fd4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412821"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418912"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report"></a>Raporlardaki görselleştirmeleri taşıma ve yeniden boyutlandırma
 

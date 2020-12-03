@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: ''
+ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 41d59f12ad95430e13eb4d856bc1b7d321f7006f
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 6c44c0252e954c9a3b78aaa620c93a9ea97f47e2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297355"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418268"
 ---
 # <a name="set-report-views-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için rapor görünümlerini ayarlama
 
@@ -37,19 +37,19 @@ Sayfa Görünümü Yakınlaştırma, Uzaklaştırma ve Sayfaya sığdırma gibi 
 
 Sayfalandırılmış raporu açtığınızda varsayılan olarak etkileşimli görünümde işlenir. Raporun parametreleri varsa, parametreleri seçin ve ardından raporu görüntüleyin.
 
-1. Araç çubuğunda **Görünüm** > **Sayfa Görünümü** ’nü seçin.
+1. Araç çubuğunda **Görünüm** > **Sayfa Görünümü**’nü seçin.
 
     ![Sayfa Görünümüne geçme](media/page-view/power-bi-paginated-page-view-dropdown.png)
 
-2. Araç çubuğundaki **Görünüm** menüsünde **Sayfa Ayarları** ’nı seçerek sayfa görünümünün ayarlarını değiştirebilirsiniz. 
+2. Araç çubuğundaki **Görünüm** menüsünde **Sayfa Ayarları**’nı seçerek sayfa görünümünün ayarlarını değiştirebilirsiniz. 
 
     ![Sayfa Ayarları’nı seçme](media/page-view/power-bi-paginated-page-settings-dropdown.png)
     
-    **Sayfa Ayarları** iletişim kutusunda, Sayfa Görünümü için **Sayfa Boyutu** ve **Yönlendirme** ’yi ayarlama seçenekleri vardır. Siz sayfa ayarlarını uyguladıktan sonra, aynı seçenekler daha sonra sayfayı yazdırdığınızda da geçerli olur.
+    **Sayfa Ayarları** iletişim kutusunda, Sayfa Görünümü için **Sayfa Boyutu** ve **Yönlendirme**’yi ayarlama seçenekleri vardır. Siz sayfa ayarlarını uyguladıktan sonra, aynı seçenekler daha sonra sayfayı yazdırdığınızda da geçerli olur.
    
     ![Sayfa Ayarları iletişim kutusu](media/page-view/power-bi-paginated-page-settings-dialog.png)
 
-3. Etkileşimli görünümüne geri dönmek için **Görünüm** açılan kutusunda **Varsayılan** ’ı seçin.
+3. Etkileşimli görünümüne geri dönmek için **Görünüm** açılan kutusunda **Varsayılan**’ı seçin.
 
 ## <a name="browser-support"></a>Tarayıcı desteği
 

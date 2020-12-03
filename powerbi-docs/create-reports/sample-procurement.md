@@ -2,19 +2,19 @@
 title: 'Procurement Analysis Sample: Tura katılın'
 description: 'Power BI için Procurement Analysis Sample: Tura katılın'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/02/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0193d5a46204b6dcb7477911efcaef22e358045e
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 73384f2f2021d949fcaca26c5b9e55cd7f0407af
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348954"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417555"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için Procurement Analysis Sample: Tura katılın
 

@@ -1,20 +1,20 @@
 ---
 title: Power BI'daki görselleştirme türleri
 description: Power BI'daki görselleştirme türleri
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 24dce044cdd1c4eaef21f4d744ed672119241970
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 9f97db83f8793f251dc1d0d5c5b4133d7228022b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412752"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418797"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI'daki görselleştirme türleri
 ## <a name="power-bi-visualizations"></a>Power BI görselleştirmeleri
@@ -230,7 +230,7 @@ Daha fazla bilgi için bkz. [Power BI'daki şelale grafikleri](power-bi-visualiz
 ## <a name="tell-qa-which-visualization-to-use"></a>Soru-Cevap özelliğinin hangi görselleştirmeleri kullanacağını belirtme
 Power BI'ın Soru-Cevap özelliğini kullanarak doğal dil sorguları yazarken sorgunuzda görselleştirme türünü belirtebilirsiniz.  Örnek:
 
-" ***sales by state as a treemap*** " (ağaç haritası olarak eyalete göre satışlar)
+"***sales by state as a treemap***" (ağaç haritası olarak eyalete göre satışlar)
 
 Panonuzda Soru-Cevap alanı yoksa bu özellik Power BI yöneticiniz tarafından devre dışı bırakılmış olabilir. 
 

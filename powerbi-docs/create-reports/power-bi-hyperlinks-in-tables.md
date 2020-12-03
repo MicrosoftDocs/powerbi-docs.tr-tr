@@ -2,20 +2,20 @@
 title: Tabloya veya matrise köprü (URL) ekleme
 description: Bu konu başlığı altında bir tabloya köprü (URL) eklemeyi öğreneceksiniz. Veri kümesine köprü (URL) eklemek için Power BI Desktop kullanırsınız. Daha sonra, Power BI Desktop veya Power BI hizmetinde bu köprüleri rapor tablolarınıza ve matrislerinize ekleyebilirsiniz.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/15/2020
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 824dc74d2461f9bbf6350694a48b00a327f3f13d
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: c60c5824f20edd6d596d23fed56f8cdfaa19a01a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116604"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418061"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Tabloya veya matrise köprü (URL) ekleme
 Bu konu başlığı altında bir tabloya köprü (URL) eklemeyi öğreneceksiniz. Veri kümesine köprü (URL) eklemek için Power BI Desktop kullanırsınız. Söz konusu köprüleri Power BI Desktop’ta veya Power BI hizmetinde rapor tablolarınıza ve matrislerinize ekleyebilirsiniz. Ardından URL’yi veya bağlantı simgesini görüntüleyebilir ya da başka bir sütunu bağlantı metni olarak biçimlendirebilirsiniz.

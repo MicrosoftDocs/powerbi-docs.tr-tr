@@ -2,19 +2,19 @@
 title: Panoyu cep telefonları için en uygun duruma getirme - Power BI
 description: Özellikle cep telefonlarında görüntülemeye yönelik olarak Power BI hizmetindeki bir panonun özelleştirilmiş bir görünümünü oluşturmayı öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/18/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bc1c9987205e86ee9a123bf8ba9afd567c59ff52
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: b0bf14ec5229aae40ee4e3f43c65b6bef4a505ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264706"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417486"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Panoyu cep telefonları için en uygun duruma getirme - Power BI 
 Telefon kullanırken dikey modda panoları görüntülediğinizde, pano kutucuklarının tümü aynı boyutlarda olacak şekilde birbirleri ardına sıralandığını fark edersiniz. Power BI hizmetinde, telefonlardaki dikey moda özel olarak, panonun özelleştirilmiş bir görünümünü oluşturabilirsiniz. Bir telefon görünümü oluştursanız bile, telefonu yan çevirdiğinizde panoyu hizmette görüntülendiği şekilde görürsünüz.

@@ -2,18 +2,18 @@
 title: Power BI’daki sayfalandırılmış raporları kullanma zamanı
 description: Power BI sayfalandırılmış raporlarını kullanma zamanı hakkında kılavuz.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/04/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 169a94beab8cb5b4c44105aba4c1cdf02e902c06
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 2a13e5d697d4e0bda32068a3b6eb908959ce0643
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916878"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419004"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Power BI’daki sayfalandırılmış raporları kullanma zamanı
 
@@ -44,27 +44,27 @@ SSRS raporlarını geçirmek yerine sıfırdan geliştirmeniz önerilir. Bu duru
 
 Power BI sayfalandırılmış raporu geliştirmeyi tercih edebileceğiniz birçok cazip senaryo vardır. Bunların çoğu, Power BI raporları tarafından desteklenmeyen özellikler veya becerilerdir.
 
-- **Yazdırma için hazır** : Sayfalandırılmış raporlar yazdırma veya PDF oluşturma için iyileştirilmiştir. Veri bölgeleri gerektiğinde genişletilerek birden fazla sayfaya kontrollü bir şekilde taşırılabilir. Rapor düzenlerinde kenar boşluklarını, sayfa üst bilgilerini ve alt bilgilerini ayarlayabilirsiniz.
-- **İşleme biçimleri** : Power BI, sayfalandırılmış raporları farklı biçimlerde işleyebilir. Bu biçimler Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, CSV, XML ve MHTML biçimleridir. (MHTML biçimi, Power BI hizmeti tarafından raporları işlemek için kullanılır.) Rapor kullanıcılarınız, raporu istedikleri biçimde dışarı aktarabilir.
-- **Hassas düzen** : Yüksek düzeyde biçimli, kusursuz düzenler tasarlayabilir, inç veya santimetre düzeyinde istediğiniz boyutu ve konumu yapılandırabilirsiniz.
-- **Dinamik düzen** : Birçok rapor özelliğini VB.NET ifadelerini kullanacak şekilde ayarlayarak yüksek oranda dinamik düzenler oluşturabilirsiniz. İfadeler birçok temel .NET Framework kitaplığına erişim sağlayabilir.
-- **İşleme özgü düzen** : İfadeler kullanarak rapor düzenini uygulanan işleme biçimine göre değiştirebilirsiniz. Örneğin raporun PDF gibi etkileşimli olmayan bir biçim kullanılarak işlenmesi durumunda görünürlüğü açma/kapatma (detaya gitmek ve detaydan çıkmak için) özelliğini devre dışı bırakılmasını sağlayabilirsiniz.
-- **Yerel sorgular** : Bunun için öncelikle bir Power BI veri kümesi geliştirmenize gerek yoktur. [Desteklenen tüm veri kaynakları](../paginated-reports/paginated-reports-data-sources.md) için yerel sorgular yazabilirsiniz (veya saklı yordamları kullanabilirsiniz). Sorgulara parametre eklenebilir.
-- **Grafik sorgu tasarımcıları** : Power BI Report Builder'da veri kümesi sorgularınızı yazmanıza ve test etmenize yardımcı olacak grafik sorgu tasarımcıları vardır.
-- **Statik veri kümeleri** : Bir veri kümesi tanımlayabilir ve rapor tanımınıza doğrudan veri girişi yapabilirsiniz. Bu seçenek özellikle tanıtım amaçlı kullanımlar veya kavram kanıtı sunmak için kullanışlıdır.
-- **Veri tümleştirmesi** : Farklı veri kaynaklarında veya statik veri kümelerinde yer alan verileri birleştirebilirsiniz. Bunun için VB.NET ifadelerini kullanarak özel alanlar oluşturmanız gerekir.
-- **Parametre ekleme** : Veri tabanlı ve basamaklı parametreler dahil olmak üzere yüksek oranda özelleştirilebilen parametre deneyimleri tasarlayabilirsiniz. Ayrıca parametreler için varsayılan değerler de belirleyebilirsiniz. Bu deneyimler, rapor kullanıcılarınızın uygun filtreleri hızlı bir şekilde ayarlamasına yardımcı olabilir. Ayrıca parametrelerin rapor verilerini filtrelemesi gerekmez. Durum senaryolarını desteklemek veya dinamik filtreleme ya da stil oluşturma için kullanılabilir.
-- **Görüntü verileri** : Raporunuz, veri kaynağında ikili biçimde depolanan görüntüleri işleyebilir.
-- **Özel kod** : Raporunuzda VB.NET işlevlerinden oluşan kod bloklarını geliştirebilir ve bunları istediğiniz rapor ifadesinde kullanabilirsiniz.
-- **Alt raporlar** : Diğer Power BI sayfalandırılmış raporlarını (aynı çalışma alanında bulunan) raporunuza katıştırabilirsiniz.
-- **Esnek veri kılavuzları** : Tablix veri bölgesini kullanarak kılavuz düzenleri üzerinde ayrıntılı denetim sahibi olursunuz. İç içe geçmiş ve bitişik gruplar dahil olmak üzere karmaşık düzenler de desteklenir. Birden fazla sayfaya yazdırıldığında üst bilgileri yineleyecek şekilde de yapılandırılabilir. Ayrıca alt raporlar veya veri çubukları, mini grafikler ve göstergeler dahil olmak üzere diğer görselleştirmeler de katıştırılabilir.
-- **Uzamsal veri türleri** : Harita veri bölgesi, [SQL Server uzamsal veri türlerini](/sql/relational-databases/spatial/spatial-data-sql-server) görselleştirebilir. Bu sayede GEOGRAPHY ve GEOMETRY veri türleri ile noktalar, çizgiler veya çokgenler görselleştirilebilir. Ayrıca ESRI şekil dosyalarında tanımlanan çokgenler de görselleştirilebilir.
-- **Modern ölçerler** : KPI değerlerini ve durumunu göstermek için radyal ve doğrusal ölçerler kullanılabilir. Bunlar kılavuz veri bölgelerine de katıştırılarak gruplar içinde tekrarlanabilir.
-- **HTML işleme** : HTML olarak depolanan zengin biçimlendirilmiş metinleri görüntüleyebilirsiniz.
-- **Adres mektup birleştirme** : Metin kutusu yer tutucularını kullanarak metne veri değerleri ekleyebilirsiniz. Bu sayede adres mektup birleştirme raporu oluşturabilirsiniz.
-- **Etkileşim özellikleri** : Etkileşimli özellikler arasında görünürlüğü açma/kapatma (detaya gitmek ve detaydan çıkmak için), bağlantılar, etkileşimli sıralama ve araç ipuçları bulunur. Ayrıca Power BI raporlarına veya diğer Power BI sayfalandırılmış raporlarına giden bağlantılar da ekleyebilirsiniz. Bağlantılar aynı raporun farklı noktalarına da gidebilir.
-- **Abonelikler** : Power BI sayfalandırılmış raporları, raporların desteklenen biçimlerden birinde eklendiği e-postalar halinde belirli bir zamanda gönderebilir.
-- **Kullanıcıya özel düzenler** : Raporu açan kimliği doğrulanmış kullanıcıya göre ayarlanan dinamik rapor düzenleri oluşturabilirsiniz. Raporu verileri farklı şekilde filtreleyecek, veri bölgelerini veya görselleştirmeleri gizleyecek, farklı biçimler uygulayacak veya kullanıcıya özgü parametre varsayılanlarını ayarlayacak şekilde tasarlayabilirsiniz.
+- **Yazdırma için hazır**: Sayfalandırılmış raporlar yazdırma veya PDF oluşturma için iyileştirilmiştir. Veri bölgeleri gerektiğinde genişletilerek birden fazla sayfaya kontrollü bir şekilde taşırılabilir. Rapor düzenlerinde kenar boşluklarını, sayfa üst bilgilerini ve alt bilgilerini ayarlayabilirsiniz.
+- **İşleme biçimleri**: Power BI, sayfalandırılmış raporları farklı biçimlerde işleyebilir. Bu biçimler Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, CSV, XML ve MHTML biçimleridir. (MHTML biçimi, Power BI hizmeti tarafından raporları işlemek için kullanılır.) Rapor kullanıcılarınız, raporu istedikleri biçimde dışarı aktarabilir.
+- **Hassas düzen**: Yüksek düzeyde biçimli, kusursuz düzenler tasarlayabilir, inç veya santimetre düzeyinde istediğiniz boyutu ve konumu yapılandırabilirsiniz.
+- **Dinamik düzen**: Birçok rapor özelliğini VB.NET ifadelerini kullanacak şekilde ayarlayarak yüksek oranda dinamik düzenler oluşturabilirsiniz. İfadeler birçok temel .NET Framework kitaplığına erişim sağlayabilir.
+- **İşleme özgü düzen**: İfadeler kullanarak rapor düzenini uygulanan işleme biçimine göre değiştirebilirsiniz. Örneğin raporun PDF gibi etkileşimli olmayan bir biçim kullanılarak işlenmesi durumunda görünürlüğü açma/kapatma (detaya gitmek ve detaydan çıkmak için) özelliğini devre dışı bırakılmasını sağlayabilirsiniz.
+- **Yerel sorgular**: Bunun için öncelikle bir Power BI veri kümesi geliştirmenize gerek yoktur. [Desteklenen tüm veri kaynakları](../paginated-reports/paginated-reports-data-sources.md) için yerel sorgular yazabilirsiniz (veya saklı yordamları kullanabilirsiniz). Sorgulara parametre eklenebilir.
+- **Grafik sorgu tasarımcıları**: Power BI Report Builder'da veri kümesi sorgularınızı yazmanıza ve test etmenize yardımcı olacak grafik sorgu tasarımcıları vardır.
+- **Statik veri kümeleri**: Bir veri kümesi tanımlayabilir ve rapor tanımınıza doğrudan veri girişi yapabilirsiniz. Bu seçenek özellikle tanıtım amaçlı kullanımlar veya kavram kanıtı sunmak için kullanışlıdır.
+- **Veri tümleştirmesi**: Farklı veri kaynaklarında veya statik veri kümelerinde yer alan verileri birleştirebilirsiniz. Bunun için VB.NET ifadelerini kullanarak özel alanlar oluşturmanız gerekir.
+- **Parametre ekleme**: Veri tabanlı ve basamaklı parametreler dahil olmak üzere yüksek oranda özelleştirilebilen parametre deneyimleri tasarlayabilirsiniz. Ayrıca parametreler için varsayılan değerler de belirleyebilirsiniz. Bu deneyimler, rapor kullanıcılarınızın uygun filtreleri hızlı bir şekilde ayarlamasına yardımcı olabilir. Ayrıca parametrelerin rapor verilerini filtrelemesi gerekmez. Durum senaryolarını desteklemek veya dinamik filtreleme ya da stil oluşturma için kullanılabilir.
+- **Görüntü verileri**: Raporunuz, veri kaynağında ikili biçimde depolanan görüntüleri işleyebilir.
+- **Özel kod**: Raporunuzda VB.NET işlevlerinden oluşan kod bloklarını geliştirebilir ve bunları istediğiniz rapor ifadesinde kullanabilirsiniz.
+- **Alt raporlar**: Diğer Power BI sayfalandırılmış raporlarını (aynı çalışma alanında bulunan) raporunuza katıştırabilirsiniz.
+- **Esnek veri kılavuzları**: Tablix veri bölgesini kullanarak kılavuz düzenleri üzerinde ayrıntılı denetim sahibi olursunuz. İç içe geçmiş ve bitişik gruplar dahil olmak üzere karmaşık düzenler de desteklenir. Birden fazla sayfaya yazdırıldığında üst bilgileri yineleyecek şekilde de yapılandırılabilir. Ayrıca alt raporlar veya veri çubukları, mini grafikler ve göstergeler dahil olmak üzere diğer görselleştirmeler de katıştırılabilir.
+- **Uzamsal veri türleri**: Harita veri bölgesi, [SQL Server uzamsal veri türlerini](/sql/relational-databases/spatial/spatial-data-sql-server) görselleştirebilir. Bu sayede GEOGRAPHY ve GEOMETRY veri türleri ile noktalar, çizgiler veya çokgenler görselleştirilebilir. Ayrıca ESRI şekil dosyalarında tanımlanan çokgenler de görselleştirilebilir.
+- **Modern ölçerler**: KPI değerlerini ve durumunu göstermek için radyal ve doğrusal ölçerler kullanılabilir. Bunlar kılavuz veri bölgelerine de katıştırılarak gruplar içinde tekrarlanabilir.
+- **HTML işleme**: HTML olarak depolanan zengin biçimlendirilmiş metinleri görüntüleyebilirsiniz.
+- **Adres mektup birleştirme**: Metin kutusu yer tutucularını kullanarak metne veri değerleri ekleyebilirsiniz. Bu sayede adres mektup birleştirme raporu oluşturabilirsiniz.
+- **Etkileşim özellikleri**: Etkileşimli özellikler arasında görünürlüğü açma/kapatma (detaya gitmek ve detaydan çıkmak için), bağlantılar, etkileşimli sıralama ve araç ipuçları bulunur. Ayrıca Power BI raporlarına veya diğer Power BI sayfalandırılmış raporlarına giden bağlantılar da ekleyebilirsiniz. Bağlantılar aynı raporun farklı noktalarına da gidebilir.
+- **Abonelikler**: Power BI sayfalandırılmış raporları, raporların desteklenen biçimlerden birinde eklendiği e-postalar halinde belirli bir zamanda gönderebilir.
+- **Kullanıcıya özel düzenler**: Raporu açan kimliği doğrulanmış kullanıcıya göre ayarlanan dinamik rapor düzenleri oluşturabilirsiniz. Raporu verileri farklı şekilde filtreleyecek, veri bölgelerini veya görselleştirmeleri gizleyecek, farklı biçimler uygulayacak veya kullanıcıya özgü parametre varsayılanlarını ayarlayacak şekilde tasarlayabilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -1,20 +1,20 @@
 ---
 title: Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 description: Bu makalede Power BI Rapor Sunucusu ile Power BI hizmetinin özellikleri karşılaştırılmaktadır.
-keywords: ''
 author: maggiesMSFT
 ms.author: maggies
+keywords: ''
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 07/28/2020
-ms.openlocfilehash: 02d5b30f4e3f769e3c20cc7faa8b051e8114e5c5
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 6d63e8825965a18d2ea5b6d56112c3a063c3456e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599961"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418084"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Power BI Rapor Sunucusu ile Power BI hizmetini karşılaştırma
 

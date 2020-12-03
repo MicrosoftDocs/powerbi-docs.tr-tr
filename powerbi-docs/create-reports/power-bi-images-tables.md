@@ -2,20 +2,20 @@
 title: Bir tablo veya matristeki görüntüleri raporda görüntüleme
 description: Power BI Desktop’ta görüntülerin köprü bağlantılarını içeren bir sütun oluşturun. Ardından Power BI Desktop veya Power BI hizmetinde, bu köprüleri bir rapor tablosu, matris, dilimleyici veya çok satırlı karta ekleyerek görüntüyü gösterin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/11/2019
-ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 098bb6cc8df59dea38bb63f38c724e362c7219e5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4ba0042804d366ddfd80935c48246cadeadf3614
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228993"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417969"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Bir tablo, matris veya dilimleyicideki görüntüleri raporda görüntüleme
 

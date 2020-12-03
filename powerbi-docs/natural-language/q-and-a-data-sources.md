@@ -2,17 +2,17 @@
 title: Doğal dil özelliğini içeri aktarma, Live Connect ve Direct Query ile kullanma
 description: Bu makalede, Soru-Cevap özelliğinin Power BI’da sunulan farklı veri kaynağı türleriyle nasıl çalıştığını inceleyeceğiz. Dizin oluşturma ve önbelleğe alma kavramlarını da ele alacağız.
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.author: mohaali
-ms.openlocfilehash: 85ecc5adc55daee86922c39e417db1cac5ba4a52
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 23ecc8edd82f6c1694c850f73fef2a892230ff14
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88706244"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418981"
 ---
 # <a name="use-natural-language-with-import-live-connect-and-direct-query"></a>Doğal dil özelliğini içeri aktarma, Live Connect ve Direct Query ile kullanma
 

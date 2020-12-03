@@ -1,21 +1,21 @@
 ---
 title: Power BI rapor ve panolarındaki tablo görselleştirmeleri
 description: Sütun genişliklerini değiştirme dahil olmak üzere Power BI rapor ve panolarındaki tablo görselleştirmeleriyle çalışmaya ilişkin öğretici.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 02/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127e8b7033e60c70a4d541cfc4725e7340a514e6
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: aa99cd4efed9239d6685d53f2515d16549a0ae72
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412890"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418820"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI rapor ve panolarındaki tablolar
 
@@ -44,7 +44,7 @@ Tablolar şunlar için harika seçimdir:
 
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç** ’ı seçin
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
    
 2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
@@ -66,9 +66,9 @@ Satış değerlerini ürün kategorisine göre görüntülemek için makalenin b
 
     ![Kategori ekleme sonucu](media/power-bi-visualization-tables/power-bi-table1.png)
 
-1. **Sales > Average Unit Price** ve **Sales > Last Year Sales** ’i belirleyin
+1. **Sales > Average Unit Price** ve **Sales > Last Year Sales**’i belirleyin
 
-1. Ardından, **Sales > This Year Sales** ’i seçin ve şu üç seçeneğin üçünü de belirleyin: **Değer** , **Hedef** , ve **Durum**.
+1. Ardından, **Sales > This Year Sales**’i seçin ve şu üç seçeneğin üçünü de belirleyin: **Değer**, **Hedef**, ve **Durum**.
 
 1. **Görsel Öğeler** bölmesinde **Değerler** kutusunu bulun ve değerleri grafiğinizdeki sıralama bu sayfadaki ilk görüntüdeki gibi olana kadar seçin. Gerekirse kutudaki değerleri sürükleyin. **Değerler** kutunuz aşağıdaki gibi görünecektir:
 
@@ -91,7 +91,7 @@ Bir tabloyu biçimlendirmenin birçok yolu bulunur. Burada yalnızca birkaçı e
 
     ![tabloda biçimlendirilen başlıklar](media/power-bi-visualization-tables/power-bi-table-column2.png)
 
-* Hatta tek sütunlara ve sütun başlıklarına bile biçimlendirme uygulayabilirsiniz. İlk olarak **Alan biçimlendirme** ’yi genişletin ve açılır listeden biçimlendirilecek sütunu seçin. Sütun değerlerine bağlı olarak, **Alan biçimlendirme** şunun gibi ayarları yapmanızı sağlar: görüntüleme birimleri, yazı tipi rengi, ondalık basamak sayısı, arka plan, hizalama ve daha fazlası. Ayarları düzenledikten sonra bu ayarları üst bilgiye ve toplamlar satırına da uygulayıp uygulamayacağınıza karar verin.
+* Hatta tek sütunlara ve sütun başlıklarına bile biçimlendirme uygulayabilirsiniz. İlk olarak **Alan biçimlendirme**’yi genişletin ve açılır listeden biçimlendirilecek sütunu seçin. Sütun değerlerine bağlı olarak, **Alan biçimlendirme** şunun gibi ayarları yapmanızı sağlar: görüntüleme birimleri, yazı tipi rengi, ondalık basamak sayısı, arka plan, hizalama ve daha fazlası. Ayarları düzenledikten sonra bu ayarları üst bilgiye ve toplamlar satırına da uygulayıp uygulamayacağınıza karar verin.
 
     ![Bu yılın satışları için Alan biçimlendirme](media/power-bi-visualization-tables/power-bi-field-formatting.png)
 
@@ -119,7 +119,7 @@ Tablolar için koşullu biçimlendirme sayesinde gradyan renklerini kullanma dah
 
     ![Arka plan renk ölçekleri ekranı](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
-    Şimdi Average Unit Price değerlerine özel biçimlendirme uygulayalım. **Ayrılan** 'ı seçin, birkaç renk ekleyin ve **Tamam** 'ı belirleyin.
+    Şimdi Average Unit Price değerlerine özel biçimlendirme uygulayalım. **Ayrılan**'ı seçin, birkaç renk ekleyin ve **Tamam**'ı belirleyin.
 
     ![Ayrılan renkleri gösteren tablo](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
 1. Tabloya hem pozitif hem de negatif değerler içeren yeni bir alan ekleyin. **Sales > Total Sales Variance** öğesini seçin.
@@ -134,7 +134,7 @@ Tablolar için koşullu biçimlendirme sayesinde gradyan renklerini kullanma dah
 
     ![Yalnızca çubuğu gösterme onay işareti](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
-1. **Tamam** ’ı seçin.
+1. **Tamam**’ı seçin.
 
     Tabloda, veri çubukları sayısal değerlerin yerini alır ve bu sayede tablonun taranması kolaylaşır.
 
@@ -155,7 +155,7 @@ Tek bir hücrenin değerlerini kopyalamak için:
 
 1. Hücrenin içine sağ tıklayın.
 
-1. **Kopyala** > **Değeri kopyala** ’yı seçin.
+1. **Kopyala** > **Değeri kopyala**’yı seçin.
 
     ![Değeri kopyala seçeneğinin vurgulandığı Seçileni kopyala adımını gösteren ekran görüntüsü.](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
@@ -167,7 +167,7 @@ Birden fazla hücreyi kopyalamak için:
 
 1. Seçtiğiniz hücrelerden birinin içine sağ tıklayın.
 
-1. **Kopyala** > **Seçimi kopyala** ’yı seçin.
+1. **Kopyala** > **Seçimi kopyala**’yı seçin.
 
     ![Seçimi kopyala seçeneğinin vurgulandığı Seçileni kopyala adımını gösteren ekran görüntüsü.](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
@@ -180,7 +180,7 @@ Bazen Power BI bir rapordaki veya bir panodaki sütun başlığını kısaltabil
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
-* Sütun biçimlendirmesi uygularken her sütun için tek bir hizalama seçeneği belirleyebilirsiniz: **Otomatik** , **Sol** , **Orta** , **Sağ**. Genellikle, bir sütun tamamen metin veya tamamen sayı içerebilir ve bunların karışımını içeremez. Bir sütunun hem sayı hem de metin içerdiği durumlarda **Otomatik** seçeneği metni sola, sayıları ise sağa hizalar. Bu davranış, soldan sağa okunan dilleri destekler.
+* Sütun biçimlendirmesi uygularken her sütun için tek bir hizalama seçeneği belirleyebilirsiniz: **Otomatik**, **Sol**, **Orta**, **Sağ**. Genellikle, bir sütun tamamen metin veya tamamen sayı içerebilir ve bunların karışımını içeremez. Bir sütunun hem sayı hem de metin içerdiği durumlarda **Otomatik** seçeneği metni sola, sayıları ise sağa hizalar. Bu davranış, soldan sağa okunan dilleri destekler.
 
 * Tablonuzun hücrelerinde veya üst bilgilerinde yer alan metin verileri yeni satır karakterleri içeriyorsa, öğenin ilişkilendirilmiş biçimlendirme bölmesi kartında 'Sözcük Kaydırma' seçeneğine geçmediğiniz sürece bu karakterler yoksayılır. 
 

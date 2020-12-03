@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 09/02/2020
-ms.openlocfilehash: 447f73601362c9ee205fe64119d0c251e7b4eb9a
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 58ec11935e74131c17dc4c0755598c3c3341e259
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412292"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418705"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>Power BI görseli geliştirmek için ortamınızı ayarlama
 

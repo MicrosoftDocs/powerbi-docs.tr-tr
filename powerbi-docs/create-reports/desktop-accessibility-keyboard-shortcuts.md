@@ -2,19 +2,19 @@
 title: Power BI Desktop klavye kısayolları
 description: Power BI Desktop’a klavye kısayolları kullanılarak nasıl erişilebilir?
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bf3f25adb916e158ee879cb96ab43655c72903d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229129"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417601"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop klavye kısayolları
 

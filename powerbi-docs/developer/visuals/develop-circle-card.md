@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
+ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: 6c4b39fff9513143c946cc2e92294ae4cbe81427
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397473"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418728"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>Öğretici: Power BI daire kartı görseli geliştirme
 
@@ -78,7 +78,7 @@ Daire kartı görsellerini test etmek için kendi raporlarınızdan birini de ku
 
 1. [PowerBI.com](https://powerbi.microsoft.com/) adresinde oturum açıp **US Sales Analysis** adlı raporu açın.
 
-2. **Diğer seçenekler** > **Düzenle** 'yi seçin.
+2. **Diğer seçenekler** > **Düzenle**'yi seçin.
 
     >[!div class="mx-imgBorder"]
     >![Power BI hizmetindeki Düzenle seçeneğinin ekran görüntüsü.](media/develop-circle-card/edit-report.png)
@@ -88,7 +88,7 @@ Daire kartı görsellerini test etmek için kendi raporlarınızdan birini de ku
     >[!div class="mx-imgBorder"]
     >![Power BI hizmetindeki Yeni sayfa düğmesinin ekran görüntüsü.](media/develop-circle-card/new-page.png)
 
-4. **Görselleştirmeler** bölmesinde **Geliştirici Görseli** 'ni seçin.
+4. **Görselleştirmeler** bölmesinde **Geliştirici Görseli**'ni seçin.
 
     >[!div class="mx-imgBorder"]
     >![Görselleştirmeler bölmesindeki Geliştirici Görseli seçeneğinin ekran görüntüsü.](media/develop-circle-card/developer-visual.png)
@@ -128,7 +128,7 @@ Bu bölümde görselinizi daireye dönüştürmeyi ve metin eklemeyi öğrenecek
 
 Kod silerek ve ekleyerek **visual.ts** dosyasını oluşturun.
 
-1. Projenizi VS Code ( **Dosya** > **Klasör Aç** ) ile açın.
+1. Projenizi VS Code (**Dosya** > **Klasör Aç**) ile açın.
 
 2. **Gezgin bölmesinde** **src** klasörünü genişletip **visual.ts** dosyasını seçin.
 
@@ -155,7 +155,7 @@ Kod silerek ve ekleyerek **visual.ts** dosyasını oluşturun.
 
 4. import bölümünün sonuna aşağıdaki kod satırlarını ekleyin:
 
-    * *IVisualHost* : Görsel ana bilgisayarıyla (Power BI) etkileşim kurmak için kullanılabilen özelliklerden ve hizmetlerden oluşan bir koleksiyondur.
+    * *IVisualHost*: Görsel ana bilgisayarıyla (Power BI) etkileşim kurmak için kullanılabilen özelliklerden ve hizmetlerden oluşan bir koleksiyondur.
 
          ```typescript
         import IVisualHost = powerbi.extensibility.IVisualHost;
@@ -211,7 +211,7 @@ D3 Ölçeklenebilir Vektör Grafiği (SVG) ekleyin. Bu öğe, üç şekil oluşt
     ```
 
     >[!TIP]
-    >Okunabilirliği artırmak için her bir kod parçacığını projenize kopyaladıktan sonra belgeyi biçimlendirmeniz önerilir. VS Code'da herhangi bir yere sağ tıklayıp *Belgeyi Biçimlendir* 'i (Alt+Shift+F) seçin.
+    >Okunabilirliği artırmak için her bir kod parçacığını projenize kopyaladıktan sonra belgeyi biçimlendirmeniz önerilir. VS Code'da herhangi bir yere sağ tıklayıp *Belgeyi Biçimlendir*'i (Alt+Shift+F) seçin.
 
 3. **visual.ts** dosyasını kaydedin.
 
@@ -363,7 +363,7 @@ export class Visual implements IVisual {
 
 capabilities.json dosyasındaki gereksiz kod satırlarını silin.
 
-1. Projenizi VS Code ( **Dosya** > **Klasör Aç** ) ile açın.
+1. Projenizi VS Code (**Dosya** > **Klasör Aç**) ile açın.
 
 2. **capabilities.json** dosyasını seçin.
 
@@ -412,7 +412,7 @@ Projede yapılan değişiklikler kaydedildiğinde görselin otomatik olarak yeni
 
 2. Daire kartı görselini seçin.
 
-3. Kayan araç çubuğunda **Otomatik yeniden yüklemeyi aç/kapat** 'ı seçin.
+3. Kayan araç çubuğunda **Otomatik yeniden yüklemeyi aç/kapat**'ı seçin.
 
     >[!div class="mx-imgBorder"]
     >![Daire kartı görselinin kayan araç çubuğundaki Otomatik yeniden yüklemeyi aç/kapat seçeneğine tıklama işleminin ekran görüntüsü.](media/develop-circle-card/toggle-auto-reload.png)
@@ -482,7 +482,7 @@ Daire kartı görselinde *measure* alanının görüntülendiğini doğrulayın 
     > [!Note]
     > Görsel projesi henüz veri bağlama mantığını içermiyor.
 
-3. Kayan araç çubuğunda **Veri Görünümünü Göster** 'i seçin. 
+3. Kayan araç çubuğunda **Veri Görünümünü Göster**'i seçin. 
 
     >[!div class="mx-imgBorder"]
     >![Daire kartı kayan araç çubuğunda bulunan Veri görünümünü göster düğmesinin ekran görüntüsü.](media/develop-circle-card/show-dataview.png)
@@ -497,7 +497,7 @@ Daire kartı görselinde *measure* alanının görüntülendiğini doğrulayın 
     >[!div class="mx-imgBorder"]
     >![Daire kartı Veri görünümünü göster seçeneğinde görüntülenen format ve displayName değerlerinin ekran görüntüsü.](media/develop-circle-card/colunms.png)
 
-6. Görsele geri dönmek için görselin üzerindeki kayan araç çubuğunda **Veri Görünümünü Göster** ’i seçin.
+6. Görsele geri dönmek için görselin üzerindeki kayan araç çubuğunda **Veri Görünümünü Göster**’i seçin.
 
 ### <a name="configure-the-visual-to-consume-data"></a>Görseli veri kullanacak şekilde yapılandırma
 

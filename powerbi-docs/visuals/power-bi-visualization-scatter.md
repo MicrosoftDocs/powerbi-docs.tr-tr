@@ -1,21 +1,21 @@
 ---
 title: Power BI’daki dağılım, kabarcık ve noktalı çizim grafikleri
 description: Power BI’daki dağılım grafiği, noktalı çizim grafikleri ve kabarcık grafikleri
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/21/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b3b2dc8892b2b9b875621c6925c6f3c652da44c6
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 4fe8d7c4333c6c540a70c33fdd3e5f4747d347da
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412706"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418866"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI’daki dağılım grafikleri, kabarcık grafikleri ve noktalı çizim grafikleri
 
@@ -74,7 +74,7 @@ X ekseni üzerinde kategorik veriler dahil etmek istiyorsanız harika bir seçim
 
 Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır.
 
-1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç** ’ı seçin
+1. Menü çubuğunun sol üst köşesinden **Dosya** > **Aç**’ı seçin
    
 2. **Perakende Analizi örneği PBIX dosyasının** kopyasını bulun
 
@@ -101,7 +101,7 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
    ![Küme sütunu grafiğinin dağılım grafiğine dönüşmesi ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-scatter-new.png)
 
-1. **District** öğesini **Ayrıntılar** bölmesinden **Açıklama** 'ya sürükleyin.
+1. **District** öğesini **Ayrıntılar** bölmesinden **Açıklama**'ya sürükleyin.
 
     Power BI, Y ekseninde **Toplam Satış Varyansı %** verisini, X ekseninde ise **Fit Kare Başına Satış** verisi gösteren bir dağılım grafiğini görüntüler. Veri noktası renkleri bölgeleri göstermektedir:
 
@@ -119,7 +119,7 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
 
     ![araç ipuçlarını görüntüleme](media/power-bi-visualization-scatter/pbi-scatter-chart-hover.png)
 
-1. Kabarcık grafiğinizde gösterilecek veri noktalarının sayısını ayarlamak için **Görsel Öğeler** bölmesinin **Biçim** bölümünde **Genel** ’i genişletin ve **Veri Hacmi** 'ni ayarlayın.
+1. Kabarcık grafiğinizde gösterilecek veri noktalarının sayısını ayarlamak için **Görsel Öğeler** bölmesinin **Biçim** bölümünde **Genel**’i genişletin ve **Veri Hacmi**'ni ayarlayın.
 
     ![Biçim simgesi, Genel açılan öğesi ve Veri Hacmi seçeneği çağrılan Görsel Öğeler bölmesi ekran görüntüsü.](media/power-bi-visualization-scatter/pbi-scatter-data-volume.png)
 
@@ -128,14 +128,14 @@ Bu öğreticide [Perakende Analizi örneği .PBIX dosyası](https://download.mic
     > [!NOTE]
     > Daha fazla veri noktası, yükleme süresinin uzamasına neden olabilir. Raporları, ölçeğin üst uçlarında sınır koyarak yayımlamayı seçerseniz, raporlarınızı web ve mobilde test ettiğinizden emin olun. Grafiğin performansının kullanıcılarınızın beklentileriyle eşleştiğini doğrulayabilirsiniz.
 
-1. Görselleştirme renklerini, etiketlerini, başlıklarını, arka planını ve daha fazlasını biçimlendirmeye devam edin. [Erişilebilirliği artırmak](../create-reports/desktop-accessibility-overview.md) için her satıra işaretçi şekilleri eklemeyi deneyin. İşaretçi şeklini seçmek için **Şekiller** ’i genişletin ve bir **İşaretçi şekli** ’ni seçin ve bir şekil belirleyin.
+1. Görselleştirme renklerini, etiketlerini, başlıklarını, arka planını ve daha fazlasını biçimlendirmeye devam edin. [Erişilebilirliği artırmak](../create-reports/desktop-accessibility-overview.md) için her satıra işaretçi şekilleri eklemeyi deneyin. İşaretçi şeklini seçmek için **Şekiller**’i genişletin ve bir **İşaretçi şekli**’ni seçin ve bir şekil belirleyin.
 
     ![İşaretçi şekli seçeneği çağrılan Şekiller açılan öğesi ekran görüntüsü.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
     İşaret şeklini baklava, üçgen veya kare olarak değiştirebilirsiniz. Her çizgi için farklı bir işaretçi şekli kullanılması, rapor kullanıcılarının çizgileri (veya alanları) daha kolay bir şekilde ayırt edebilmesini sağlar.
 
 1. Görselleştirmenize ek bilgi eklemek için ![Analiz bölmesi simgesinin ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-analytics.png) Analiz bölmesini açın.  
-    - Ortanca çizgisi ekleyin. **Ortanca çizgisi** > **Ekle** 'yi seçin. Power BI varsayılan olarak *fit kare başına Satışlar* için bir ortanca çizgisi ekler. 10 veri noktası olduğunu görebildiğimiz ve ortancanın her tarafta beş veri noktası ile oluşturulacağını bildiğimiz için bu çok faydalı değildir. Bunun yerine **Ölçü** seçeneğini *Toplam satış varyansı yüzdesi* olarak değiştirin.  
+    - Ortanca çizgisi ekleyin. **Ortanca çizgisi** > **Ekle**'yi seçin. Power BI varsayılan olarak *fit kare başına Satışlar* için bir ortanca çizgisi ekler. 10 veri noktası olduğunu görebildiğimiz ve ortancanın her tarafta beş veri noktası ile oluşturulacağını bildiğimiz için bu çok faydalı değildir. Bunun yerine **Ölçü** seçeneğini *Toplam satış varyansı yüzdesi* olarak değiştirin.  
 
         ![Ortanca çizgisi eklenen balon grafiğinin ekran görüntüsü.](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
 

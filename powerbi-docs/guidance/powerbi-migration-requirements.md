@@ -2,18 +2,18 @@
 title: Power BI’a geçiş yapmak için gereksinimleri toplama
 description: Power BI’a geçiş yaparken gereksinimlerin toplanması ve önceliklendirilmesine yönelik rehberlik.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 21d619c42648f90746af9961475bb531dc24d5ab
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2aee1be1d5e221f8feaeae05f8284f0388b4b8af
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396668"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418567"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Power BI’a geçiş yapmak için gereksinimleri toplama
 
@@ -65,7 +65,7 @@ Verilerle ilgili şu ayrıntılı bilgileri derleyin:
 - **Mevcut sorgular:** Bir [DirectQuery modeli](../connect-data/desktop-use-directquery.md) veya [Bileşik model](../transform-model/desktop-composite-models.md) tarafından kullanılabilecek ya da bir İçeri aktarma modeline dönüştürülebilecek mevcut rapor sorgularının ve saklı yordamların olup olmadığını belirleyin.
 - **Veri kaynağı türleri:** Merkezi hale getirilmiş veri kaynakları (kurumsal veri ambarı gibi) ve standartlaştırılmamış veri kaynakları (düz dosyalar veya veri kaynaklarını raporlama için geliştiren Excel dosyaları gibi) da dahil olmak üzere gerekli olan veri kaynağı türlerini derleyin. [Veri ağ geçidi](../connect-data/service-gateway-onprem.md) bağlantısı için veri kaynaklarının konumunun bulunması da önemlidir.
 - **Veri yapısı ve temizlemeye yönelik ihtiyaçlar:** Her önkoşul veri kaynağına yönelik veri yapısını ve [veri temizleme](../transform-model/desktop-query-overview.md) etkinliklerinin ne ölçüde gerekli olduğunu belirleyin.
-- **Veri tümleştirmesi** : Birden fazla veri kaynağı olduğunda veri tümleştirmesinin nasıl işleneceğini ve [ilişkilerin](../transform-model/desktop-create-and-manage-relationships.md) her model tablosu arasında nasıl tanımlandığını değerlendirin. Modelin basitleştirilmesi ve [boyutunun azaltılması](import-modeling-data-reduction.md) için gereken belirli veri öğelerini tanımlayın.
+- **Veri tümleştirmesi**: Birden fazla veri kaynağı olduğunda veri tümleştirmesinin nasıl işleneceğini ve [ilişkilerin](../transform-model/desktop-create-and-manage-relationships.md) her model tablosu arasında nasıl tanımlandığını değerlendirin. Modelin basitleştirilmesi ve [boyutunun azaltılması](import-modeling-data-reduction.md) için gereken belirli veri öğelerini tanımlayın.
 - **Kabul edilebilir veri gecikmesi:** Her veri kaynağına yönelik veri gecikme süresi ihtiyaçlarını belirleyin. Bu, hangi [veri depolama modunun](../transform-model/desktop-storage-mode.md) kullanılacağına ilişkin kararları etkiler. İçeri aktarma model tabloları için veri yenileme sıklığının da bilinmesi önemlidir.
 - **Veri hacmi ve ölçeklenebilirlik:** [Büyük model desteği](../admin/service-premium-large-models.md) ve DirectQuery modellerinin veya [Bileşik modellerin](../transform-model/desktop-composite-models.md) tasarlanmasına ilişkin kararlarda göz önünde bulundurulan veri hacmi beklentilerini değerlendirin. Geçmiş verilere ilişkin önemli noktaların da bilinmesi önemlidir. Büyük veri kümeleri için [artımlı veri yenilemesi](../admin/service-premium-incremental-refresh.md) kurallarının belirlenmesi de önemlidir.
 - **Ölçümler, KPI’lar ve iş kuralları:** Ölçümlere, KPI’lara ve iş kurallarına yönelik ihtiyacı değerlendirin. Bunlar, mantığın nereye (veri kümesine veya veri tümleştirme işlemine) uygulanacağı konusunda verilen kararları etkiler.

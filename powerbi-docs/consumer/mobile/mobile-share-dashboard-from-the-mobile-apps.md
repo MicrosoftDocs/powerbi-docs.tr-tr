@@ -2,18 +2,18 @@
 title: Power BI mobil uygulamalarından pano veya rapor paylaşma
 description: Power BI mobil uygulamalarından bağlantı paylaşarak başkalarını panolarınızı ve raporlarınızı görüntülemeye davet edin. Nasıl yapıldığını öğrenin.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 5656e4b708cb52519b6dee25a8142b3c49af6532
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 0d0d4eea96c612f60f288ab9dd30e062c418c921
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668448"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417831"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarından pano veya rapor paylaşma
 Aşağıdakiler cihazlar için geçerlidir:

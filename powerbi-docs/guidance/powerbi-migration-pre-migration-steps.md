@@ -2,18 +2,18 @@
 title: Power BI’a geçişe hazırlanma
 description: Power BI’a geçiş yaparken uygulanan geçiş öncesi adımlara yönelik rehberlik.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 33bee844aced23973bd033cf0d9ae9d8caa4d267
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680987"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418590"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Power BI’a geçişe hazırlanma
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 217c1b571c01068d64283df0b25b5e56bbc8b956
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 7d874f2c9a7b8381ece151a4ac113bed5662c2e7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297217"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418176"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreler oluşturma
 
@@ -40,7 +40,7 @@ Aşağıdaki çizimde Tasarım görünümü, @BuyingGroup, @Customer, @FromDate 
   
 1.  Sayfalandırılmış raporunuzu Power BI Rapor Oluşturucusu'nda açın.
 
-1. **Rapor Verileri** bölmesinde **Parametreler** düğümüne sağ tıklayın > **Parametre Ekle** ’yi seçin. **Rapor Parametresi Özellikleri** iletişim kutusu açılır.  
+1. **Rapor Verileri** bölmesinde **Parametreler** düğümüne sağ tıklayın > **Parametre Ekle**’yi seçin. **Rapor Parametresi Özellikleri** iletişim kutusu açılır.  
   
 2.  **Ad** alanına parametre için bir ad girin ya da varsayılan adı kabul edin.  
   
@@ -48,21 +48,21 @@ Aşağıdaki çizimde Tasarım görünümü, @BuyingGroup, @Customer, @FromDate 
   
 4.  **Veri türü** alanında parametre değeri için veri türünü seçin.  
   
-5.  Parametre boş bir değer içeriyorsa **Boş değere izin ver** ’i seçin.  
+5.  Parametre boş bir değer içeriyorsa **Boş değere izin ver**’i seçin.  
   
-6.  Parametre bir null değer içeriyorsa **Null değere izin ver** ’i seçin.  
+6.  Parametre bir null değer içeriyorsa **Null değere izin ver**’i seçin.  
   
-7.  Kullanıcının bir parametre için birden fazla değer seçmesine izin vermek için **Birden çok değere izin ver** ’i seçin.  
+7.  Kullanıcının bir parametre için birden fazla değer seçmesine izin vermek için **Birden çok değere izin ver**’i seçin.  
   
 8.  Görünürlük seçeneğini ayarlayın.  
   
-    -   Parametreyi raporun üst kısmındaki araç çubuğunda göstermek için **Görünür** ’ü seçin.  
+    -   Parametreyi raporun üst kısmındaki araç çubuğunda göstermek için **Görünür**’ü seçin.  
   
-    -   Araç çubuğunda gösterilmemesi için parametreyi gizlemek istiyorsanız **Gizli** ’yi seçin.  
+    -   Araç çubuğunda gösterilmemesi için parametreyi gizlemek istiyorsanız **Gizli**’yi seçin.  
   
-    -   Parametreyi gizlemek ve rapor yayımlandıktan sonra rapor sunucusunda değiştirilmeye karşı korumak için **İç** ’i seçin. Bu durumda rapor parametresi yalnızca rapor tanımında görüntülenebilir. Bu seçenek için bir varsayılan değer ayarlamanız ya da parametrenin bir null değeri kabul etmesine izin vermeniz gerekir.  
+    -   Parametreyi gizlemek ve rapor yayımlandıktan sonra rapor sunucusunda değiştirilmeye karşı korumak için **İç**’i seçin. Bu durumda rapor parametresi yalnızca rapor tanımında görüntülenebilir. Bu seçenek için bir varsayılan değer ayarlamanız ya da parametrenin bir null değeri kabul etmesine izin vermeniz gerekir.  
   
-9. **Tamam** ’ı seçin. 
+9. **Tamam**’ı seçin. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
