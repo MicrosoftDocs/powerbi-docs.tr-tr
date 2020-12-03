@@ -2,18 +2,18 @@
 title: Yıldız şemasını ve Power BI açısından önemini anlama
 description: Yıldız şemasını ve bunun performans ve kullanılabilirlik için iyileştirilmiş Power BI veri modellerinin geliştirilmesine neden uygun olduğunu anlayın.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 09/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 193247aaf610d1712b7986394e08d3c21055d2fa
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 4d54a0d27ed7cbf0c464a6c4d770e39b99e8b384
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965477"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419119"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Yıldız şemasını ve Power BI açısından önemini anlama
 
