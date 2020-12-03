@@ -74,6 +74,8 @@
               href: mobile-apps-scan-barcode-iphone.md
             - name: Etkileşim ayarlarını yapılandırma
               href: mobile-app-interaction-settings.md
+            - name: Koyu mod
+              href: mobile-apps-dark-mode.md
             - name: Mobil cihaz yönetimini kullanarak yapılandırma
               href: mobile-app-configuration.md
         - name: iOS
@@ -86,8 +88,6 @@
               href: mobile-apps-iOS-siri-Shortcuts.md
             - name: iOS cihazı arama tümleştirmesi
               href: mobile-apps-iOS-search-integration.md
-            - name: Koyu mod
-              href: mobile-apps-dark-mode.md
             - name: Power BI Apple Watch uygulaması
               href: mobile-apple-watch.md
         - name: Android cihazlar

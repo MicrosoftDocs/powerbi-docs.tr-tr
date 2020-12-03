@@ -2,18 +2,18 @@
 title: Power BI'a dağıtma
 description: Power BI’a geçiş yaparken dağıtma, destekleme ve izlemeye ilişkin rehberlik.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: bfa3ffad111c7ab819ed1269586a7b32ccf43bba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396139"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419280"
 ---
 # <a name="deploy-to-power-bi"></a>Power BI'a dağıtma
 

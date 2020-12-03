@@ -2,19 +2,19 @@
 title: Power BI Desktop nedir?
 description: Power BI Desktop ve kullanmaya başlamak için yapmanız gerekenler hakkında bilgi edinin.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: overview
 ms.date: 07/23/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5a71999cc5358c1849a534ff2b3eb9d689791ceb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860797"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419556"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 

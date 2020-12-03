@@ -2,19 +2,19 @@
 title: Power BI Desktop videoları
 description: Power BI Desktop videoları
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 01/02/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8dbd72b310d6e62619a61d34001afc1f7bc44189
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: b48305d52697b7140fa8b62b3e69926213c123f3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361578"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419464"
 ---
 # <a name="power-bi-desktop-videos"></a>Power BI Desktop videoları
 

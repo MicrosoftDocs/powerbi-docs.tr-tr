@@ -2,18 +2,18 @@
 title: Power BI geçişine genel bakış
 description: Farklı bir üçüncü taraf iş zekası aracından Power BI’a geçişi planlamayı ve yönetmeyi öğrenin.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: aa17e6293a4bd946b1d6b7acad45623fa2393c57
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 8f8e58f61d2baa66cd0baf351857656588cfbe9f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803637"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419257"
 ---
 # <a name="power-bi-migration-overview"></a>Power BI geçişine genel bakış
 

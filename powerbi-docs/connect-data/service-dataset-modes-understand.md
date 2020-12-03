@@ -1,20 +1,20 @@
 ---
 title: Power BI hizmetindeki veri kümesi modları
 description: 'Power BI hizmeti veri kümesi modlarını anlama: İçeri Aktarma, DirectQuery ve Bileşik.'
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 4ec73f3dd09d1c83b07d1419256cd627a71ae2d4
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.date: 12/01/2020
+ms.openlocfilehash: 5b4c32296c7121fa3d161461af7e86caba617ee1
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332855"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96501961"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI hizmetindeki veri kümesi modları
 
@@ -102,8 +102,6 @@ Bileşik modeller İçeri Aktarma ve DirectQuery modlarının en iyisini sağlam
 Bileşik modeller geliştiren veri modelleyicileri boyut türündeki tabloları İçeri Aktarma ile İkili depolama modunda ve olgu türündeki tabloları da DirectQuery modunda yapılandırma eğilimi gösterir. Model tablo rolleri hakkında daha fazla bilgi için bkz. [Yıldız şemasını ve Power BI için önemini anlama](../guidance/star-schema.md).
 
 Örneğin boyut türündeki **Ürün** tablosunun İkili modda ve olgu türündeki **Satış** tablosunun DirectQuery modunda olduğu bir model düşünün. Bir rapor dilimleyicisi işlemek için **Ürün** tablosu bellek içinden verimli ve hızlı bir şekilde sorgulanabilir. **Satış** tablosu da ilgili **Ürün** tablosuyla DirectQuery modunda sorgulanabilir. İkinci sorgu **Ürün** ve **Satış** tablolarını birleştiren ve dilimleyici değerlerine göre filtreleyen tek bir verimli yerel SQL sorgusu oluşturabilir.
-
-Genel olarak, Bileşik modellerde tablonun nasıl yapılandırıldığına bağlı olarak avantajlar ve dezavantajlar İçeri Aktarma ve DirectQuery ile ilişkilendirilir.
 
 Daha fazla bilgi için bkz. [Power BI Desktop’ta bileşik modelleri kullanma](../transform-model/desktop-composite-models.md).
 
