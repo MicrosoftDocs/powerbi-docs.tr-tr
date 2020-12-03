@@ -5,14 +5,14 @@ author: KesemSharabi
 ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-deployment
 ms.date: 10/21/2020
-ms.openlocfilehash: 9d78a4cd8beb84402a4b3b586df6998810d1c8f7
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 60bc6a787cee735db4d77197f9a3e18260c5e65d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94513011"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415071"
 ---
 # <a name="deployment-pipelines-best-practices"></a>Dağıtım işlem hatlarına yönelik en iyi uygulamalar
 

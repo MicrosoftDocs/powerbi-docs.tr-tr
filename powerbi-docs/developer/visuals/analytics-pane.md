@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 85dc34a2dbdfba02623f4d369d72311d9a93e997
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749035"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414197"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI görsellerinde Analiz bölmesi
 

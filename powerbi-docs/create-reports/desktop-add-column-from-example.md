@@ -2,19 +2,19 @@
 title: Power BI Desktop'ta örnekten sütun ekleme
 description: Mevcut sütunları örnek olarak kullanıp Power BI Desktop'ta hızla yeni bir sütun oluşturun.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/16/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 68f2dc14b713345796ba0472fc3d55f6baedf819
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: f33a9f5656875825b70c7e51202431ba268fe86a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263186"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414519"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Power BI Desktop'ta örneklerden sütun ekleme
 Power Query Düzenleyicisi'nde *örneklerden sütun ekleme* ile, yalnızca yeni sütunlar için bir veya birden fazla örnek değer sağlayarak veri modelinize yeni sütunlar ekleyebilirsiniz. Bir seçimden yeni sütun örnekleri oluşturabileceğiniz gibi, tablodaki tüm mevcut sütunları temel alarak giriş de sağlayabilirsiniz.

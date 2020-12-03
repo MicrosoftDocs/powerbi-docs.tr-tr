@@ -2,19 +2,19 @@
 title: Power BI’da düğmeleri kullanma
 description: Power BI raporlarına, raporlarınızın uygulamalar gibi davranmasını sağlayan ve kullanıcılarla etkileşimi derinleştiren düğmeler ekleyebilirsiniz.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/21/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7597d135bc05783d0d43bb481e24fc197abd9d4b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 77f16bedb45b0730a7007da19a427b1832bc9969
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222404"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414473"
 ---
 # <a name="use-buttons-in-power-bi"></a>Power BI’da düğmeleri kullanma
 Power BI’daki **düğmeler**, uygulamalar gibi davranan raporlar oluşturmanızı, böylece kullanıcıların Power BI içeriklerinin üzerine gelip tıklayıp etkileşime gireceği ilgi çekici bir ortam elde etmenizi sağlar. **Power BI Desktop**’ta ve **Power BI hizmetinde** raporlara düğmeler ekleyebilirsiniz. Power BI hizmetinde raporlarınızı paylaştığınızda, bu raporlar kullanıcılarınız için uygulamaya benzer bir deneyim sağlar.

@@ -2,20 +2,20 @@
 title: Power BI Premium veri akışı iş yüklerini yapılandırma
 description: Power BI Premium'u veri akışı iş yükleri için yapılandırma
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 11/13/2020
-ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: e5d2e1f65ef326ac12f15ff14c8d07c22c2950fe
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 64ad881f4deb2d106254f49c588e9d34b15bea2f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94667994"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414059"
 ---
 # <a name="configure-power-bi-premium-dataflow-workloads"></a>Power BI Premium veri akışı iş yüklerini yapılandırma
 

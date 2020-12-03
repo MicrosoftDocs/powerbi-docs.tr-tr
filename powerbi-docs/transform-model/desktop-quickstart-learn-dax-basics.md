@@ -1,20 +1,20 @@
 ---
 title: Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
 description: Power BI Desktop'ta DAX kullanımıyla ilgili temel bilgiler
-author: davidiseminger
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 10/21/2019
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 96c80fbbf943ad1d03e9a2172a0711f6fd2e60ad
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 522dccb6f4e6e3cf3422bc85ba9727c9160d9d80
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239885"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413852"
 ---
 # <a name="apply-dax-basics-in-power-bi-desktop"></a>DAX kullanımıyla ilgili temel bilgileri Power BI Desktop’ta kullanma
 Bu makale, Power BI Desktop'ı kullanmaya yeni başlayan kullanıcılara yöneliktir. Bir dizi temel hesaplama ve veri çözümleme sorununu çözmek için Veri Çözümleme İfadeleri'ni (DAX) nasıl kullanabileceğinize ilişkin hızlı ve anlaşılır bir açıklama sunmaktadır. Bazı kavramsal bilgileri, gerçekleştirebileceğiniz bir dizi görevi inceleyeceğiz ve öğrendiklerinizi sınamaya yönelik bilgi kontrolü gerçekleştireceğiz. Bu makaleyi tamamladıktan sonra DAX'taki en temel kavramları iyi bir şekilde anlamış olacaksınız.

@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/01/2020
-ms.openlocfilehash: 43b63da5a8107a2e30d729142e2d36f2a4f30c08
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: be552df28bebb5876d24da8bbecf66ea503fdb04
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286763"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415255"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış raporlara abone yapma 
 

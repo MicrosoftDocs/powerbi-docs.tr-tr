@@ -2,19 +2,19 @@
 title: Power BI Desktop'taki ipuçlarını özelleştirme
 description: Sürükle ve bırak işlevini kullanarak görseller için özel araç ipuçları oluşturma
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a21bccb78df5ba84d3e9a7dc07d9d392c74c0153
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 18658937d1e53340f4bdd5075479bd2926f295bd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231950"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414220"
 ---
 # <a name="customize-tooltips-in-power-bi-desktop"></a>Power BI Desktop'taki araç ipuçlarını özelleştirme
 

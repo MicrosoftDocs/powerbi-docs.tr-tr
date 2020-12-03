@@ -2,18 +2,18 @@
 title: Power BI Rapor Sunucusu için kapasite planlaması rehberi
 description: Bu makalede, çeşitli iş yüklerine ilişkin yük testi yürütmelerinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlamaya yönelik rehberlik sunulmaktadır.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 04/02/2020
-ms.author: maggies
-ms.openlocfilehash: f82a3a9e1cf207a006319e6ac7e662baaf5d9d1f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 0c75590071437b8e9edcc0023516ad7f095f0dcc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216575"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414726"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için kapasite planlaması rehberi
 Power BI Rapor Sunucusu, müşterilerin şirketi içinde güvenlik duvarlarının arkasında dağıtabileceği bir self servis BI ve kurumsal raporlama çözümüdür. Power BI Desktop'ın etkileşimli rapor işlevleriyle SQL Server Reporting Services'in şirket içi sunucu platformunu birleştirir. Kuruluşlarda analiz ve raporlama kullanımının yoğun ve artan kullanımıyla birlikte, kurumsal kullanıcılar için ölçeklenmesi gereken donanım altyapısının ve yazılım lisanslarının karşılanması zorlaşabilir. Bu makalede, bir rapor sunucusunda çeşitli iş yükleriyle gerçekleştirilen çok sayıda yük testi yürütmesinin sonuçları paylaşılarak, Power BI Rapor Sunucusu için kapasite planlaması ile ilgili rehberlik sunmak hedeflenmektedir. Kuruluşların raporları, sorguları ve kullanım desenleri büyük çapta değişiklik göstermekle birlikte; kullanılan testler ve testlerin nasıl yürütüldüğüne ilişkin ayrıntılı bir açıklamayla birlikte bu makalede ortaya konan sonuçlar, Power BI Rapor Sunucusu dağıtma işleminin ilk aşamalarından olan planlama sürecindeki biri için başvuru noktası oluşturur.

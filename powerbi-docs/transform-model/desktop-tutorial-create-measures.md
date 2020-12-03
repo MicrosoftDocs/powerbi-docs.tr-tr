@@ -2,19 +2,19 @@
 title: "Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma"
 description: Power BI Desktop’ta Ölçüler, raporlarınızla etkileşim kurarken verileriniz üzerinde hesaplamalar gerçekleştirerek size yardımcı olur.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: tutorial
 ms.date: 11/08/2019
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 61eb4fc54966545858a7ebc85044696064027acd
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 16ce255f22d6242a1b8e78d34b27519d22fb5489
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858405"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413921"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta kendi ölçülerinizi oluşturma
 Ölçüleri kullanarak Power BI Desktop’taki en güçlü veri analizi çözümlerinden bazılarını oluşturabilirsiniz. Ölçüler, raporlarınızla etkileşim kurarken verileriniz üzerinde hesaplamalar gerçekleştirerek size yardımcı olur. Bu öğretici, Power BI Desktop’ta temel ölçüleri anlama ve kendi ölçülerinizin bazılarını oluşturma konusunda size yol gösterir.

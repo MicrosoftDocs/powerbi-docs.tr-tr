@@ -2,18 +2,18 @@
 title: Rapor etkileşim ayarlarını yapılandırma
 description: Raporlar için varsayılan etkileşim ayarlarını geçersiz kılmayı öğrenin.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.author: painbar
-ms.openlocfilehash: 67f34bfe04599ffa7d9f9f2c2c3d13545b4306ac
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: fdafc1cd5804bf62a715dc4161ce853c2690ce3a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635275"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414657"
 ---
 # <a name="configure-report-interaction-settings"></a>Rapor etkileşim ayarlarını yapılandırma
 

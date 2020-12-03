@@ -2,19 +2,19 @@
 title: Power BI Desktop'ta tarih tabloları ayarlama ve kullanma
 description: Power BI Desktop'ta bir tabloyu tarih tablosu ayarlama ve bunun ne anlama geldiği hakkında bilgi edinin
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: cdb992ba337118c9f7fcfef8335dbc31e6e48032
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 1a0782e7a80cc8d2cc824effe07a99df7ec64785
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215317"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415830"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Power BI Desktop'ta tarih tabloları ayarlama ve kullanma
 

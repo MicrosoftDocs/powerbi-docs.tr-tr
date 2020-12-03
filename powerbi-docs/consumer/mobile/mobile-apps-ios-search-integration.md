@@ -2,18 +2,18 @@
 title: Power BI ile iOS cihazı arama tümleştirmesi
 description: İhtiyacınız olan verileri bulmak ve bu verilere erişmek için cihaz araması (spotlight) kullanma
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: f3832e3fa452c68e30852c476a5149ff7bc5e470
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c289395e5d5529c7951b9102722999dfe22d699e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232903"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414588"
 ---
 # <a name="ios-device-search-spotlight-integration-with-power-bi-mobile-ios-app-preview"></a>Power BI Mobil iOS Uygulaması ile iOS Cihaz Araması (Spotlight) tümleştirmesi (önizleme)
 İhtiyacınız olan verileri bulmak ve bu verilere erişmek için iOS cihaz aramasını kullanın.

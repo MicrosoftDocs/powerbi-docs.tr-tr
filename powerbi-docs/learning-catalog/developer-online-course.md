@@ -2,19 +2,19 @@
 title: Bir Gündeki Power BI Geliştiricisi kursu
 description: Bu video tabanlı kurs, sizi geliştirici olarak Power BI içeriği eklemek için gereken teknik bilgiyle donatır.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: yana.berkovich
 featuredvideoid: dv-ep90wse8
 ms.service: powerbi
-ms.subservice: powerbi-developer
+ms.subservice: powerbi
 ms.topic: tutorial
 ms.date: 06/01/2020
-ms.author: v-pemyer
-ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 67633bf4362984d0a1e3b6a6aa8b74de3747191f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527896"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414910"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Bir Gündeki Power BI Geliştiricisi kursu
 
@@ -103,7 +103,7 @@ Ayıklandıktan sonra **PowerBIDevIAD** klasörünüz olur ve bu klasörün içi
 
 Önce çevrimiçi kursu izlemenizi öneririz. Daha sonra **&lt;CourseFolder&gt;\PowerBIDevIAD\Presentation\PowerBIDevIAD_Presentation.pdf** file. dosyasını açarak sunu teorisine yeniden başvurabilirsiniz. Sunuda, teorinin ne zaman uygulamaya geçirileceğini belirten beş laboratuvar slaydı yer alır. Ayrıca ilgili içeriği bulmanıza yardımcı olmak için birçok kaynak bağlantısı da içerir.
 
-İlk laboratuvara başlamaya hazır olduğunuzda **&lt;CourseFolder&gt;\PowerBIDevIAD\Lab01A\PowerBIDevIAD_Lab01A.pdf**dosyasını açın. Bu belge Power BI hizmetinde oturum açmak ve bir Power BI raporu hazırlamanız için size yol gösterir.
+İlk laboratuvara başlamaya hazır olduğunuzda **&lt;CourseFolder&gt;\PowerBIDevIAD\Lab01A\PowerBIDevIAD_Lab01A.pdf** dosyasını açın. Bu belge Power BI hizmetinde oturum açmak ve bir Power BI raporu hazırlamanız için size yol gösterir.
 
 > [!NOTE]
 > Kendi Power BI hesabınızı almak sizin sorumluluğunuzdadır. Henüz bir hesabınız yoksa bkz. [Power BI’a bireysel olarak kaydolma](../fundamentals/service-self-service-signup-for-power-bi.md).

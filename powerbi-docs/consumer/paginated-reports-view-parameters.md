@@ -5,15 +5,15 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 37ec4b9f38287b893469de2bcf152a6aba9886ad
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: db5e9ed91a61c26e9b118086ff6d970ebcc3306a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528241"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415209"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Power BI hizmetinde sayfalandırılmış raporlar için parametreleri görüntüleme
 

@@ -2,18 +2,18 @@
 title: Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
 description: Windows 10 için Power BI mobil uygulaması, işletme bilgilerinize tabletinizden veya telefonunuzdan güncel ve dokunmatik kullanıma uygun bir şekilde erişmenizi sağlar.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 5ef68bac75daf25e48cbd4d24279627d4b494764
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7c03ea1a8b05f4f9d07cf32cc5bb1d40bf7c0e40
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634378"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415324"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Windows 10 için Power BI mobil uygulamasını kullanmaya başlama
 Windows 10 için Power BI mobil uygulaması, Power BI’ı tabletinize veya telefonunuza getirir. İş bilgilerinize güncel, dokunmatik özellikli mobil erişim elde edersiniz. [Windows Başlangıç ekranından](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) şirket panolarınızı dilediğiniz yerde görüntüleyip etkileşime geçin.

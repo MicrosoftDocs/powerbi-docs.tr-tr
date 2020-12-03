@@ -2,20 +2,20 @@
 title: Lisans türüne göre Power BI hizmeti özellikleri
 description: Power BI hizmetinde kullanıcılar sahip oldukları kullanıcı başına lisans türüne (ücretsiz veya Pro) ve etkileşime girdikleri içeriğin bir Power BI Premium kapasitesine atanıp atanmamasına göre özellikleri tanımlamıştır.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 48e382db2866187f4394cf8a60789604f3d900b7
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 4c1b5256a411594521dcfe030af3490cd2e4780c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512804"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414174"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Lisans türüne göre Power BI hizmeti özellikleri
 

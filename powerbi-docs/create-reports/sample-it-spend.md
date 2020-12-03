@@ -2,19 +2,19 @@
 title: 'Power BI için IT Spend Analysis örneği: Tura katılın'
 description: 'Power BI için IT Spend Analysis örneği: Tura katılın'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: f132a68d537d8fa1a518e91823e1dc36a2969622
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cdde0e702333feed54637c72fa3193052fde139f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349046"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414979"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Power BI için IT Spend Analysis örneği: Tura katılın
 
@@ -98,7 +98,7 @@ Panonun solunda yer alan, **Var Plan %** ve **Variance Latest Estimate % Quarter
    Infrastructure alanının plandaki yüksek pozitif varyans ile göze çarptığına dikkat edin.
 
 1. Raporu açmak için kutucuğu seçin ve **YTD Spend by Cost Elements** sayfasını görüntüleyin.
-2. Sağ alt taraftaki **Var Plan % and Var LE3 % by IT Area** grafiğinde bulunan **Infrastructure** çubuğunu seçin ve sol alt taraftaki**Var Plan % by Sales Region** grafiğinde plana ilişkin varyansı gözlemleyin.
+2. Sağ alt taraftaki **Var Plan % and Var LE3 % by IT Area** grafiğinde bulunan **Infrastructure** çubuğunu seçin ve sol alt taraftaki **Var Plan % by Sales Region** grafiğinde plana ilişkin varyansı gözlemleyin.
 
     ![YTD Spend by Cost Elements sayfası](media/sample-it-spend/it6.png)
 3. **Cost Element Group** dilimleyicisinde her adı sırayla seçerek en büyük varyansa sahip maliyet öğesini bulun.

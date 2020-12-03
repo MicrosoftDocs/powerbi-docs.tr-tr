@@ -2,16 +2,16 @@
 title: Geliştirici öğrenme kataloğu
 description: Temel düzeyden ileri düzeye kadar geliştiriciler için Power BI'a yönelik tüm eğitim seçeneklerini bulun.
 author: margoc
+ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.author: margoc
-ms.openlocfilehash: 442ae8cb6c433cbc7501a6f354158c39a48e2d68
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 01aa3579fd837b36562dbed27f557d5efdf07c20
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746551"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414841"
 ---
 # <a name="developer-learning-catalog"></a>Geliştirici öğrenme kataloğu
 

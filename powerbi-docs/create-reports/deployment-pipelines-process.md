@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-deployment
 ms.custom: contperfq1
 ms.date: 10/21/2020
-ms.openlocfilehash: 5799b0367c903eea55357969a2d4383a5f4c0c7b
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: c9ae23a88bd557681ca89e541f082a69d449ed8c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514344"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415025"
 ---
 # <a name="understand-the-deployment-process"></a>Dağıtım işlemini anlama
 

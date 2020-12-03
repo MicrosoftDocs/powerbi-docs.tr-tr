@@ -2,19 +2,19 @@
 title: Power BI Desktop'ta sorgulara genel bakış
 description: Power BI Desktop'ta sorgulara genel bakış
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/11/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9202b94808624ca9e3332ba7acdca29a3ce759ca
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853621"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414013"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop'ta sorgulara genel bakış
 Power BI Desktop ile veri dünyasına bağlanabilir, ilgi çekici ve temel nitelikte raporlar oluşturabilir ve çalışmanızı başkalarıyla paylaşabilirsiniz. Bu kişiler de çalışmanızı temel alıp kendi iş zekası çalışmalarını geliştirir.

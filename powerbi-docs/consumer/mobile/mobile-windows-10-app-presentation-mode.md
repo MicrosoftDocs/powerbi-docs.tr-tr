@@ -2,18 +2,18 @@
 title: Surface Hub ve Windows 10 ’da sunu modunda görüntüleme - Power BI
 description: Power BI raporlarını Surface Hub'da görüntüleme ve Power BI panolarını, raporlarını ve kutucuklarını Windows 10 cihazlarda sunu modunda görüntüleme hakkında bilgi edinin.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
-ms.author: painbar
-ms.openlocfilehash: a982374bbf713d4e0c970da601fdca3249120cbe
-ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
+ms.openlocfilehash: 797b00210154e577275f486194f7e36f2cd0077e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683343"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415462"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Raporları ve panoları Surface Hub'da ve Windows 10 cihazlarında sunu modunda görüntüleme
 Windows 10 cihazlarında ve Surface Hub'da raporları ve panoları tam ekran modunda görüntülemek için sunu modunu kullanabilirsiniz. Sunu modu Power BI içeriğini toplantılarda, konferanslarda ya da ofisteki projektörde görüntülemek veya küçük ekranlarda daha fazla alan kullanmak için kullanışlıdır.
@@ -38,17 +38,17 @@ Araç çubuğunda dokunarak aşağıdaki eylemleri gerçekleştirebilirsiniz:
 
 | Simge | Eylem |
 |------|--------|
-|![geri simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|Önceki sayfaya **geri dönün** . Simgeye uzun süre dokunduğunuzda içerik haritası pencereleri açılır. Bu, raporunuzu veya panonuzu içeren klasöre gitmenize olanak tanır.|
-|![Sayfalandırma simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|Sunumunuzdaki raporun farklı bir sayfasına **geçiş yapın** .|
-|![Yer işaretleri simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|Verilerinizin, yer işareti tarafından yakalanan belirli bir görünümünü sunmak için **yer işareti uygulayın** . Hem kişisel hem de rapor yer işaretlerini uygulayabilirsiniz.|
-|![Mürekkep simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png)|Rapor sayfanıza çizmek veya açıklama eklemek için Surface kaleminizi kullanırken **bir mürekkep rengi seçin** .|
-|![Silgi simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png)|Rapor sayfanızda çizim yapmak ve buna açıklama eklemek için Surface kaleminizi kullanırken oluşabilen **mürekkep izlerini silin** .          |
+|![geri simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|Önceki sayfaya **geri dönün**. Simgeye uzun süre dokunduğunuzda içerik haritası pencereleri açılır. Bu, raporunuzu veya panonuzu içeren klasöre gitmenize olanak tanır.|
+|![Sayfalandırma simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|Sunumunuzdaki raporun farklı bir sayfasına **geçiş yapın**.|
+|![Yer işaretleri simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|Verilerinizin, yer işareti tarafından yakalanan belirli bir görünümünü sunmak için **yer işareti uygulayın**. Hem kişisel hem de rapor yer işaretlerini uygulayabilirsiniz.|
+|![Mürekkep simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-ink-icon.png)|Rapor sayfanıza çizmek veya açıklama eklemek için Surface kaleminizi kullanırken **bir mürekkep rengi seçin**.|
+|![Silgi simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png)|Rapor sayfanızda çizim yapmak ve buna açıklama eklemek için Surface kaleminizi kullanırken oluşabilen **mürekkep izlerini silin**.          |
 |![Sıfırlama simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-reset-icon.png)|**Varsayılan görünüme sıfırlayın** ve sunu sırasında uygulamış olabileceğiniz tüm filtreleri, dilimleyicileri veya diğer veri görünümü değişikliklerini temizleyin.|
-|![Paylaş simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png)|Sunum görünümünün bir görüntüsü iş arkadaşlarınızla **paylaşın** . Görüntü, sunum esnasında Surface kaleminizle yaptığınız tüm ek açıklamaları içerir.|
-|![Yenileme simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png)|Raporu **yenileyin** .|
-|![Oynat simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|Eylem çubuğunu gizleyip slayt gösterisini başlatarak **slayt gösterisini oynatın** . Seçici sayfalar, yer işaretleri veya her ikisi arasında otomatik dönmeyi seçmenizi sağlar. Slayt gösterisi varsayılan olarak her 30 saniyede bir sayfalar arasında otomatik olarak döner. Bu ayarları [**Ayarlar > Seçenekler**](#slideshow-settings)’den değiştirebilirsiniz. Slayt gösterileri hakkında daha fazla bilgi için bkz. [Diğer ayrıntılar](#slideshows)|
-|![Tam ekran modundan çık](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png)|Sunu modundan **çıkın** .|
-|![Arama simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png)|Power BI’daki diğer yapıtları **arayın** .|
+|![Paylaş simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png)|Sunum görünümünün bir görüntüsü iş arkadaşlarınızla **paylaşın**. Görüntü, sunum esnasında Surface kaleminizle yaptığınız tüm ek açıklamaları içerir.|
+|![Yenileme simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png)|Raporu **yenileyin**.|
+|![Oynat simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|Eylem çubuğunu gizleyip slayt gösterisini başlatarak **slayt gösterisini oynatın**. Seçici sayfalar, yer işaretleri veya her ikisi arasında otomatik dönmeyi seçmenizi sağlar. Slayt gösterisi varsayılan olarak her 30 saniyede bir sayfalar arasında otomatik olarak döner. Bu ayarları [**Ayarlar > Seçenekler**](#slideshow-settings)’den değiştirebilirsiniz. Slayt gösterileri hakkında daha fazla bilgi için bkz. [Diğer ayrıntılar](#slideshows)|
+|![Tam ekran modundan çık](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png)|Sunu modundan **çıkın**.|
+|![Arama simgesi](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png)|Power BI’daki diğer yapıtları **arayın**.|
 
 Araç çubuğunu yerinden çıkarabilir ve sürükleyip bırakarak ekranın herhangi bir yerine yerleştirebilirsiniz. Büyük ekranlarda, raporunuzun belirli bir alanına odaklanmayı tercih ettiğinizde ve araçları bu alanın yanında kullanabilmek istediğinizde bu yararlı olacaktır. Parmağınızı araç çubuğunun üzerine koyup rapor tuvaline doğru çekmeniz yeterlidir.
 
@@ -73,7 +73,7 @@ Power BI mobil uygulamasını, uygulama başlatıldığında otomatik olarak bir
 
 ### <a name="slideshow-settings"></a>Slayt gösterisi ayarları
 
-Bir slayt gösterisi varsayılan olarak yalnızca sayfalar arasında her 30 saniyede bir geçiş yapar. Bu varsayılan davranışı aşağıda gösterildiği gibi **Ayarlar > Seçenekler** ’e giderek değiştirebilirsiniz. Dilerseniz otomatik oynatmayı açabilir ve oynatılmak üzere bir rapor seçebilirsiniz.
+Bir slayt gösterisi varsayılan olarak yalnızca sayfalar arasında her 30 saniyede bir geçiş yapar. Bu varsayılan davranışı aşağıda gösterildiği gibi **Ayarlar > Seçenekler**’e giderek değiştirebilirsiniz. Dilerseniz otomatik oynatmayı açabilir ve oynatılmak üzere bir rapor seçebilirsiniz.
 
 1. Ayarlar simgesini seçin.
 
@@ -81,7 +81,7 @@ Bir slayt gösterisi varsayılan olarak yalnızca sayfalar arasında her 30 sani
 
 1. Dilerseniz varsayılan ayarı slayt gösterisinin döngüye gireceği öğeye göre (sayfalar, yer işaretleri veya her ikisi) ve slaytların ne sıklıkta geçeceğine yönelik değiştirebilirsiniz.
 
-1. Uygulama başlatıldığında raporunuzun otomatik olarak oynatılmaya başlamasını istiyorsanız ayarı açık duruma getirip **Rapor Seç** ’e tıklayın. Erişiminiz olan raporları da arayabilirsiniz.
+1. Uygulama başlatıldığında raporunuzun otomatik olarak oynatılmaya başlamasını istiyorsanız ayarı açık duruma getirip **Rapor Seç**’e tıklayın. Erişiminiz olan raporları da arayabilirsiniz.
 
 ![Slayt gösterisi ayarlarının ekran görüntüsü](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

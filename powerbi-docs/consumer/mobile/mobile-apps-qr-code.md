@@ -2,18 +2,18 @@
 title: Mobil cihazınızdan Power BI QR kodu tarama
 description: Power BI'daki QR kodları, gerçek dünyadaki herhangi bir öğeyi, iPhone'lar ve Android cihazlar için Power BI mobil uygulamasındaki ilgili BI bilgilerine doğrudan bağlayabilir.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.author: painbar
-ms.openlocfilehash: a551df2fb8ec668a9d8d29bdb8cdb37f9bb1652c
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: ab6d8f208300350a613cc63dab948f42376b905e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264846"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414565"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Mobil cihazınızdan Power BI QR kodu tarama
 Aşağıdakiler cihazlar için geçerlidir:

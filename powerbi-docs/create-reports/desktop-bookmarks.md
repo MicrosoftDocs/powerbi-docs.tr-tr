@@ -2,19 +2,19 @@
 title: Power BI Desktop'ta içgörüleri paylaşmak ve hikayeler oluşturmak için yer işaretlerini kullanma
 description: Power BI Desktop'taki yer işaretleri, raporlarınızdaki görünümleri ve ayarları kaydetmenize ve akıcı sunumlar oluşturmanıza olanak sağlar
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 110abfd3ac8d258a6f4e800d218c08af9dc3c983
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b1d9be5515680a199a2ae74c59aa1baeb30ef1f1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239299"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414496"
 ---
 # <a name="create-bookmarks-in-power-bi-desktop-to-share-insights-and-build-stories"></a>Power BI Desktop'ta içgörüleri paylaşmak ve hikayeler oluşturmak için yer işareti oluşturma
 Power BI Desktop'ta *yer işaretleriyle* filtreler ve görsellerin durumu da dahil olmak üzere rapor sayfasının mevcut yapılandırılmış görünümünü yakalarsınız. Daha sonra, kaydedilen yer işaretini seçerek söz konusu duruma geri dönebilirsiniz. 

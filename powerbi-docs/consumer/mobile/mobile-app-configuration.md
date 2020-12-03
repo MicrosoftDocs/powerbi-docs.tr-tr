@@ -2,17 +2,17 @@
 title: Power BI uygulama yapılandırma ayarları
 description: MDM aracını kullanarak Power BI'ın davranışını özelleştirme
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 07/14/2020
-ms.author: painbar
-ms.openlocfilehash: f9b6efd07aad3d2058e49f81ae21095b618123ee
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: a867c0480e9c0762d1594016fb807cab8261c14c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385941"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414611"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Mobil cihaz yönetimi (MDM) aracını kullanarak Power BI uygulamasını uzaktan yapılandırma
 

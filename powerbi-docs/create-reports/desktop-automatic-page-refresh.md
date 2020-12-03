@@ -2,20 +2,20 @@
 title: Power BI Desktop’ta otomatik sayfa yenileme
 description: Bu makalede, Power BI Desktop’ta DirectQuery kaynakları için sayfaları otomatik olarak yenileme işlemi gösterilmektedir.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/13/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3ffc865a4be18b8fa11dda2d94bc2c8892fc3000
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 3f68a056e6e31acaf5432c4e323ba8a293ee09ce
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116535"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414427"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Power BI’da otomatik sayfa yenileme
 

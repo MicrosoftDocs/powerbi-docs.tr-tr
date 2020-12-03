@@ -2,19 +2,19 @@
 title: "Öğretici: Power BI Desktop'ta, hesaplanmış sütun oluşturma"
 description: "Öğretici: Power BI Desktop'ta, hesaplanmış sütun oluşturma"
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: tutorial
 ms.date: 11/26/2019
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: ef84c2e5b8fb094206199129c0f25bd5fcb219eb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565845"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413875"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta, hesaplanmış sütun oluşturma
 

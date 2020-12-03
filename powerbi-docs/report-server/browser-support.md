@@ -2,18 +2,18 @@
 title: Power BI Rapor Sunucusu için tarayıcı desteği
 description: Power BI Rapor Sunucusu ve Rapor Görüntüleyicisi Denetimlerini yönetmek ve görüntülemek için desteklenen tarayıcı sürümlerini öğrenin.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
-ms.author: maggies
-ms.openlocfilehash: 264eb0c9079e1f54d53aeb41a1ef73016c2bf1b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7658e1943c1f0ac85904fc7b985f2bd764451052
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859286"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414772"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için tarayıcı desteği
 Power BI Rapor Sunucusu ve Rapor Görüntüleyicisi Denetimlerini yönetmek ve görüntülemek için desteklenen tarayıcı sürümlerini öğrenin.

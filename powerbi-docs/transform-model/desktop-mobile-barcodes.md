@@ -1,19 +1,19 @@
 ---
 title: Mobil uygulamalar için Power BI Desktop'taki bir barkod alanını etiketleme
 description: Power BI Desktop'taki modelinizde bir barkod alanını etiketlediğinizde iPhone'unuzdaki Power BI uygulamasında verileri otomatik olarak barkoda göre filtreleyebilirsiniz.
-author: maggiesMSFT
-ms.author: maggies
+author: paulinbar
+ms.author: painbar
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/16/2018
 LocalizationGroup: Model your data
-ms.openlocfilehash: d1def1d9686e5f764f8e6548f9ad4bce2432415d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 91cf4fb4101b710ad49e49c914dbc4bcaa03682a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232458"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413944"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Mobil uygulamada kullanmak için Power BI Desktop'taki barkodları etiketleme
 

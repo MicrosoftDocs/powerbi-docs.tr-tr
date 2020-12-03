@@ -2,19 +2,19 @@
 title: Power BI Desktop’ta çoka çok ilişkileri
 description: Power BI Desktop’ta çoka çok kardinalitesine sahip ilişkileri kullanın
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 12/19/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 17006405a495798618bf7562e6b94864b795a224
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 5f64a9a896fbb5ea3e080e1d07f6cc7d980430b8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528057"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415715"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta çoka çok ilişkilerini uygulama
 

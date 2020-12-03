@@ -2,18 +2,18 @@
 title: PowerShell - Power BI Rapor Sunucusu Ekim 2020 öncesi sürüm ile veri kaynağı bağlantı dizelerini değiştirme
 description: Power BI Rapor Sunucusu Ekim 2020 öncesi sürümde API’leri kullanarak veri kaynağı bağlantı dizelerini değiştirme.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: maggies
-ms.openlocfilehash: 9b4d31b2acc3ce7ec43bbd3fdb91df8e32c2e953
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: c063d145919dfc6f075cf8945b88a5f3644dead7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93049428"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415508"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server-pre-october-2020"></a>PowerShell - Power BI Rapor Sunucusu Ekim 2020 öncesi sürüm ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirin
 

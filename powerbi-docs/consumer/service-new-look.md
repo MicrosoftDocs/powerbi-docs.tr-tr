@@ -1,26 +1,26 @@
 ---
 title: Power BI hizmetinin 'yeni görünümü'
 description: Power BI hizmetinin (app.powerbi.com) görünümü yenilendi. Bu makalede, yeni görünüm kullanılarak raporlarda nasıl gezinebileceğiniz açıklanır.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/22/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f398b0b3331d5677419c824646108f8d04815338
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: ec7b24a4d8f2a94680444b4b9adf4612f1f1f474
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462367"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415163"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI hizmetinin 'yeni görünümü'
 
 Power BI hizmeti (app.powerbi.com) raporları görüntülemeyi ve bunlarla etkileşim kurmayı kolaylaştıran yeni bir görünüme kavuştu. Daha basit olan yeni görünüm diğer Microsoft ürünlerine yönelik bilgilerinizi temel alır. Power BI hizmeti içinde, daha açık bir renk temasına geçerek ve simgeleri güncelleştirerek, rapor içeriğini ana odak noktası haline getirdik. 
 
-**Power BI Desktop** ’taki yeni görünüm hakkında bilgi mi arıyorsunuz? [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](../create-reports/desktop-ribbon.md) bölümüne bakın.
+**Power BI Desktop**’taki yeni görünüm hakkında bilgi mi arıyorsunuz? [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](../create-reports/desktop-ribbon.md) bölümüne bakın.
 
 İşte yeni görünümde nelerin değiştiğine ilişkin genel bakış. Ayrıntılar için numaralandırılmış bölümlere bakın:
 

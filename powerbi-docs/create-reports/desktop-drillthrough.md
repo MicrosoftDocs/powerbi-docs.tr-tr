@@ -2,19 +2,19 @@
 title: Power BI raporlarında detaylandırmayı ayarlama
 description: Power BI raporlarında yeni bir rapor sayfasında verilerin detayına gitmek için detaylandırmanın nasıl kullanılacağını öğrenin
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/12/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cec22acab7cc44b96f3137df04777671964707a8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239176"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414243"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Power BI raporlarında detaylandırmayı ayarlama
 Power BI raporlarında *detaylandırma* özelliğini kullanarak raporunuzda tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan bir sayfa oluşturabilirsiniz. Rapor okuyucularınız detaylandırmayı kullandığında, diğer rapor sayfalarındaki bir veri noktasına sağ tıklar ve ilgili bağlama göre filtrelenmiş olan ayrıntılara ulaşmak için odaklanmış sayfayı detaylandırır. Tıklandığında [detaylandırma yapan bir düğme de oluşturabilirsiniz](desktop-drill-through-buttons.md).

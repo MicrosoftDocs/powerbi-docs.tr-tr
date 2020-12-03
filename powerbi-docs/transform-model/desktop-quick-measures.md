@@ -2,20 +2,20 @@
 title: Yaygın ve etkili hesaplamalar için hızlı ölçüler özelliğini kullanma
 description: Hızlı ölçüler, sık kullanılan hesaplama işini hızla gerçekleştiren kullanıma hazır DAX formülleri sağlar.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 11/22/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ba43290e0e076963a61a7211ad99e99636ebb2e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 77f15cb0fcb92a895c92bd93d8fa18896dafc7f8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853409"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413898"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Yaygın hesaplamalar için hızlı ölçüler özelliğini kullanma
 Yaygın ve güçlü hesaplamaları hızla ve kolayca yapabilmek için *hızlı ölçüleri* kullanabilirsiniz. Hızlı ölçü arka planda bir dizi Veri Çözümleme İfadeleri (DAX) komutu çalıştırır, sonra da raporunuzda kullanabilmeniz için sonuçları size sunar. DAX formülü yazmanız gerekmez; iletişim kutusunda sağladığınız giriş temelinde bu sizin yerinize yazılır. Kullanılabilen çok sayıda hesaplama kategorisi ve her hesaplamayı gereksinimlerinize uyacak şekilde değiştirmenin çeşitli yöntemleri vardır. Belki de en iyisi hızlı ölçü tarafından yürütülen DAX’ı görebilmeniz ve kendi DAX bilginizi hemen kullanmaya başlayabilmeniz veya genişletebilmenizdir.

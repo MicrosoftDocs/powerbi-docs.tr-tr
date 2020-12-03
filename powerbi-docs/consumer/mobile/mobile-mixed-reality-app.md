@@ -2,18 +2,18 @@
 title: HoloLens için Power BI (1. nesil)
 description: Karma Gerçeklik için Power BI uygulamasında (Önizleme) panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde veya ortamınız bağlamında görüntüleyin.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
-ms.author: painbar
-ms.openlocfilehash: b0288bf3980ac54b960160f011531f3667d8edff
-ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
+ms.openlocfilehash: c832217363f726e3eff469238fe9b3f29025837c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91005526"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415370"
 ---
 # <a name="power-bi-for-hololens-1st-gen"></a>HoloLens için Power BI (1. nesil)
 HoloLens için Power BI uygulamasında panolarınızı ve raporlarınızı, sanal dünyada çevreleyici bir şekilde görüntüleyin veya ortamınız bağlamında belirli konumlara yerleştirin. 
