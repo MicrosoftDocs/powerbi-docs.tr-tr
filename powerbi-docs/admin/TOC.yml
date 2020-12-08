@@ -118,7 +118,7 @@
               href: service-premium-metrics-app.md
             - name: Yönetim portalında kapasiteleri izleme
               href: service-admin-premium-monitor-portal.md
-            - name: Büyük modelleri yapılandırma (önizleme)
+            - name: Büyük veri kümelerini yapılandırma
               href: service-premium-large-models.md
             - name: Multi-Geo özelliğini yapılandırma
               href: service-admin-premium-multi-geo.md
