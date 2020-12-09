@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 02d73a2eb36636091ff6059fd6543bb950082c2a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668408"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907314"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme
 
@@ -40,7 +40,7 @@ Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.
 
 > [!IMPORTANT]
 > * Bir **hizmet sorumlusu** kullanmalısınız. Ana kullanıcı desteklenmiyor.
->* [Kullanıcı Başına Premium (PPU)](../../admin/service-premium-per-user-faq.md) desteklenmez. Çözümü denemek için PPU’yu kullanabilirsiniz, ancak [üretime taşıyamazsınız](embed-sample-for-customers.md#move-to-production).
+>* [Kullanıcı Başına Premium (PPU)](../../admin/service-premium-per-user-faq.md) desteklenmez. Çözümü denemek için PPU’yu kullanabilirsiniz, ancak [üretime taşıyamazsınız](move-to-production.md).
 > * Çoklu oturum açma (SSO) gerektiren veri kaynakları desteklenmez. Desteklenen veri kümelerinin ve bunlara ilişkin kimlik doğrulaması yöntemlerinin listesini görmek için bkz. [Power BI sayfalandırılmış raporları için desteklenen veri kaynakları](../../paginated-reports/paginated-reports-data-sources.md). 
 > * Power BI veri kümesi, [veri kaynağı](../../connect-data/service-get-data.md)olarak desteklenmez.
 

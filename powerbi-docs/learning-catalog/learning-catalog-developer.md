@@ -6,12 +6,12 @@ ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.openlocfilehash: 01aa3579fd837b36562dbed27f557d5efdf07c20
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: de460437225dd32c0e6db673a06006a711feb413
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414841"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906774"
 ---
 # <a name="developer-learning-catalog"></a>Geliştirici öğrenme kataloğu
 
@@ -31,7 +31,7 @@ Aşağıdaki katalog, temel bilgilerden belirli etki alanlarına ve en temel kon
 | [20 dakika içinde Power BI Embedded hakkında bilgi edinin](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Bu web semineri, Power BI Embedded hakkında giriş bilgileri vermek için sunulmaktadır. Bu web seminerinin sonunda kullanıcılar Power BI Embedded’in ne olduğunu, ürünü kullanmaya başlamak için uygulanacak adımları ve yardım/kaynaklar için nereye gidileceğini öğrenecektir. | Web Semineri       |                |
 | [Power BI Embedded ile geliştirme, Ted Pattison – Nisan 2018 Güncelleştirmesi](https://www.youtube.com/watch?v=swnGlrRy588)  | Geliştiricilere yönelik bu web seminerinde Power BI Embedded platformundaki son gelişmeleri ve ISV’lerle kurumsal geliştiricilerin bunlardan nasıl yararlanabileceğini açıklayacak. | YouTube videosu | 59 dk 49 sn  |
 | [Power BI Embedded Sürüm 2 – Hikayenin Tamamı](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | Web semineri 10 Ağustos 2017’de Kritik Yol Eğitimi Power BI MVP’si Ted Pattison tarafından sunulmuştu. Bu web semineri Power BI Premium aracılığıyla sağlanan yeni Power BI Embedded özelliklerini kullanarak nasıl uygulama geliştirileceği konusunu kapsıyor.  | Web Semineri       | 1 sa 7 dk 23 sn |
-| [Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme](../developer/embedded/embed-sample-for-customers.md#set-up-your-embedded-analytics-development-environment) | Azure’da Power BI Embedded veya Office’te Power BI Embedded ile verilerin sahibi uygulamadır örneğini kullanarak raporları, panoları veya kutucukları bir uygulamaya ekleyebilirsiniz.  | Belgeler |                |
+| [Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme](../developer/embedded/embed-sample-for-customers.md) | Azure’da Power BI Embedded veya Office’te Power BI Embedded ile verilerin sahibi uygulamadır örneğini kullanarak raporları, panoları veya kutucukları bir uygulamaya ekleyebilirsiniz.  | Belgeler |                |
 | [20 dakika içinde Power BI Embedded hakkında bilgi edinin](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Bu web semineri, Power BI Embedded hakkında giriş bilgileri vermek için sunulmaktadır. Bu web seminerinin sonunda kullanıcılar Power BI Embedded’in ne olduğunu, ürünü kullanmaya başlamak için uygulanacak adımları ve yardım/kaynaklar için nereye gidileceğini öğrenecektir. | Web Semineri       |                |
 ## <a name="dax"></a>DAX<a name="dax"></a>
 | İçerik | Açıklama | Biçim  | Uzunluk      |

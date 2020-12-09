@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: 0743a7ac0d12cba8bbde54464a275a78f7c88eff
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396714"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906946"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI uygulamanız için Azure AD erişim belirteci alma
 
@@ -29,7 +29,7 @@ Bu örnek, kullanıcılarınızın kurumsal oturum açma bilgilerini kullanarak 
 
 ### <a name="get-an-azure-ad-authorization-code"></a>Azure AD yetkilendirme kodunu alma
 
-**Erişim belirteci** almanın ilk adımı, **Azure AD** 'den bir yetkilendirme kodu almaktır. Aşağıdaki özelliklere sahip bir sorgu dizesi oluşturun ve bunu **Azure AD** 'ye yönlendirin.
+**Erişim belirteci** almanın ilk adımı, **Azure AD**'den bir yetkilendirme kodu almaktır. Aşağıdaki özelliklere sahip bir sorgu dizesi oluşturun ve bunu **Azure AD**'ye yönlendirin.
 
 #### <a name="authorization-code-query-string"></a>Yetkilendirme kodu sorgu dizesi
 
@@ -53,7 +53,7 @@ var @params = new NameValueCollection
 };
 ```
 
-Sorgu dizesi oluşturduktan sonra **Azure AD** 'ye yönlendirerek **yetkilendirme kodu** alabilirsiniz.  Aşağıda **yetkilendirme kodu** sorgu dizesi oluşturmak ve **Azure AD** 'ye yönlendirmek için kullanabileceğiniz tam kapsamlı bir C# yöntemi verilmiştir. Ardından **yetkilendirme kodunu** kullanarak bir **erişim belirteci** alırsınız.
+Sorgu dizesi oluşturduktan sonra **Azure AD**'ye yönlendirerek **yetkilendirme kodu** alabilirsiniz.  Aşağıda **yetkilendirme kodu** sorgu dizesi oluşturmak ve **Azure AD**'ye yönlendirmek için kullanabileceğiniz tam kapsamlı bir C# yöntemi verilmiştir. Ardından **yetkilendirme kodunu** kullanarak bir **erişim belirteci** alırsınız.
 
 Sonraki adımda redirect.aspx.cs dosyasında, [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) çağrısı yaparak belirteç oluşturulur.
 
@@ -206,6 +206,6 @@ Hata iletisi: "'AuthenticationContext' bir 'AcquireToken' tanımı içermiyor ve
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Erişim belirtecini aldığınıza göre Power BI REST API'sini çağırarak içerik ekleyebilirsiniz. Bilgi edinmek için bkz. [Power BI içeriğinizi ekleme](embed-sample-for-customers.md#embed-content-within-your-application).
+Erişim belirtecini aldığınıza göre Power BI REST API'sini çağırarak içerik ekleyebilirsiniz.
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

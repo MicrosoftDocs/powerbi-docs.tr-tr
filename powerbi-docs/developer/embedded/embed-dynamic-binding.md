@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: ba63b8be32600428075b9304a5a29fef62a9d6c8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b386800c37f80e7b33dc55bb691eed6606c04a1
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236852"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906807"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Dinamik bağlama kullanarak bir raporu veri kümesine bağlama 
 
@@ -33,7 +33,7 @@ Dinamik bağlama, *Kuruluşunuz için ekleme* ve *Müşterileriniz için ekleme*
 |Senaryo  |Veri sahipliği  |Belirteç  |Gereksinimler  |
 |---------|---------|---------|---------|
 |*Kuruluşunuz için içerik ekleme*    |Veriler kullanıcıya aittir         |Power BI kullanıcıları için erişim belirteci         |Azure AD belirteci kullanılan kullanıcının tüm yapıtlar için uygun izinlere sahip olması gerekir.         |
-|*Müşterileriniz için içerik ekleme*     |Veriler uygulamaya aittir         |Power BI kullanıcısı olmayan kişiler için erişim belirteci         |Hem rapora hem de dinamik olarak bağlı veri kümesine yönelik izinleri içermelidir. [Birden çok öğe için ekleme belirteci oluşturmayı sağlayan API](embed-sample-for-customers.md#multiEmbedToken)’yi kullanarak birden çok yapıtı destekleyen bir ekleme belirteci oluşturun.         |
+|*Müşterileriniz için içerik ekleme*     |Veriler uygulamaya aittir         |Power BI kullanıcısı olmayan kişiler için erişim belirteci         |Hem rapora hem de dinamik olarak bağlı veri kümesine yönelik izinleri içermelidir. [Birden çok öğe için ekleme belirteci oluşturmayı sağlayan API](/rest/api/power-bi/embedtoken/generatetoken)’yi kullanarak birden çok yapıtı destekleyen bir ekleme belirteci oluşturun.         |
 
 ## <a name="adjusting-the-config-object"></a>Yapılandırma nesnesini ayarlama
 Yapılandırma nesnesine `datasetBinding` ekleyin. Aşağıdaki örneği başvuru olarak kullanın.

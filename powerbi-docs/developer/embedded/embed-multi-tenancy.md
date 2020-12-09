@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: ed8f44e7dd1a7e713a9b2bd75dc33f259cb52f2a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 377f509248dbd2368b74bb9645f001ff7c6a97c0
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916349"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907291"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Power BI tümleşik analiziyle çok kiracılı çalışmayı yönetme
 
@@ -21,8 +21,8 @@ ms.locfileid: "92916349"
 
 Power BI Embedded ile, kiracılar arasındaki ayrımı korumak için iki ana yaklaşım vardır.
 
-   1. **Çalışma alanı tabanlı yalıtım** : kiracı başına ayrı bir Power BI Çalışma Alanı oluşturma.
-   2. **Satır düzeyi güvenlik tabanlı yalıtım** : kullanıcı veya grup başına veri erişimini denetlemek ve yönetmek için temel veriler kullanılır.
+   1. **Çalışma alanı tabanlı yalıtım**: kiracı başına ayrı bir Power BI Çalışma Alanı oluşturma.
+   2. **Satır düzeyi güvenlik tabanlı yalıtım**: kullanıcı veya grup başına veri erişimini denetlemek ve yönetmek için temel veriler kullanılır.
 
 Bu makalede farklı yaklaşımlar açıklanır ve bu yaklaşımlar çeşitli değerlendirme ölçütlerine göre analiz edilir.
 
@@ -30,29 +30,29 @@ Bu makalede farklı yaklaşımlar açıklanır ve bu yaklaşımlar çeşitli de�
 
 **[AAD](/azure/active-directory/fundamentals/active-directory-whatis)** : Azure Active Directory.
 
-**AAD uygulaması** : AAD'de bir uygulama kimliği. Kimlik doğrulaması için bir AAD uygulaması gereklidir.
+**AAD uygulaması**: AAD'de bir uygulama kimliği. Kimlik doğrulaması için bir AAD uygulaması gereklidir.
 
 **SaaS uygulaması (hizmet olarak yazılım)** : Bir kuruluş veya ISV tarafından gerçekleştirilen sistem (genellikle çevrimiçi bir hizmettir). Ayrıca birden çok müşteri kiracısına (organizasyon) hizmet vermeye yönelik ilgili yazılım sistemleri vardır. Bu makalede, **SaaS uygulaması farklı kiracılarına hizmet vermek için Power BI Embedded'i kullanır**. Power BI Embedded, çevrimiçi bağlantısı olan tüm uygulama türleri için de çalışabilir.
 
-**Kiracı** : SaaS uygulamasını ve müşterinin SaaS uygulamasına getirdiği tüm kaynakları veya verileri kullanan tek bir müşteri (organizasyon).
+**Kiracı**: SaaS uygulamasını ve müşterinin SaaS uygulamasına getirdiği tüm kaynakları veya verileri kullanan tek bir müşteri (organizasyon).
 
 **[Power BI](../../fundamentals/power-bi-overview.md)** : Power BI Embedded için platform işlevi gören Power BI bulut hizmeti.
 
-**Power BI kiracısı** : Tek bir AAD kiracısıyla ilişkilendirilmiş bir dizi Power BI kaynağı.
+**Power BI kiracısı**: Tek bir AAD kiracısıyla ilişkilendirilmiş bir dizi Power BI kaynağı.
 
 **[Power BI çalışma alanı](../../collaborate-share/service-create-workspaces.md)** : Power BI'daki içerik için bir kapsayıcı.
 
-**Power BI yapıtları** : Power BI çalışma alanlarında panolar, raporlar, veri kümeleri ve veri akışları gibi çeşitli Power BI yapıtları vardır.
+**Power BI yapıtları**: Power BI çalışma alanlarında panolar, raporlar, veri kümeleri ve veri akışları gibi çeşitli Power BI yapıtları vardır.
 
 **[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)** : Geliştiricilerin Power BI içeriğini yöneten ve Power BI öğelerini ekleyen uygulamalar derlemesine olanak tanıyan bir dizi genel API.
 
 **[Satır düzeyi güvenlik (RLS)](embedded-row-level-security.md)** : Tablodaki tek tek satırlar için verilere kullanıcı erişimini denetleme olanağı verir. Satır düzeyi güvenliği veri kaynağı düzeyinde veya Power BI anlamsal modelinde uygulanabilir.
 
-**Ana kullanıcı** : Power BI'da SaaS uygulamasını temsil eden ve SaaS uygulamasının Power BI API'lerini çağırırken kullandığı kimlik. Power BI Pro lisansına sahip bir AAD kullanıcısı olması gerekir.
+**Ana kullanıcı**: Power BI'da SaaS uygulamasını temsil eden ve SaaS uygulamasının Power BI API'lerini çağırırken kullandığı kimlik. Power BI Pro lisansına sahip bir AAD kullanıcısı olması gerekir.
 
 **AAD Uygulama kullanıcısı (hizmet sorumlusu)** : Power BI'da SaaS uygulamasını temsil eden ve SaaS uygulamasının Power BI API'lerini çağırırken kullandığı kimlik. Bir AAD web uygulaması olması gerekir. Power BI'da kimlik doğrulaması yapmak için *ana* kullanıcının yerine geçebilir.
 
-**Kapasite** : Power BI hizmetini çalıştırmaya ayrılmış kaynaklar. [Power BI Premium kapasiteleri](../../admin/service-premium-what-is.md) Power BI'ı şirket içinde kullanan kurumsal şirketlere yöneliktir. Buna karşılık [Power BI Embedded kapasiteleri](azure-pbie-create-capacity.md), üçüncü taraflar için SaaS uygulamaları geliştiren uygulama geliştiricilere yöneliktir.
+**Kapasite**: Power BI hizmetini çalıştırmaya ayrılmış kaynaklar. [Power BI Premium kapasiteleri](../../admin/service-premium-what-is.md) Power BI'ı şirket içinde kullanan kurumsal şirketlere yöneliktir. Buna karşılık [Power BI Embedded kapasiteleri](azure-pbie-create-capacity.md), üçüncü taraflar için SaaS uygulamaları geliştiren uygulama geliştiricilere yöneliktir.
 
 **[Power BI Pro lisansı](../../admin/service-admin-purchasing-power-bi-pro.md)** : Çalışma alanlarında içerik yayımlama, Premium kapasite olmadan uygulamaları kullanma ve panoları paylaşmanın yanı sıra panolara ve raporlara abone olma hakları veren kullanıcı tabanlı bir lisans.
 
@@ -163,7 +163,7 @@ Multi-Geo istenen bölgelerde kapasite satın almak ve bu kapasiteye çalışma 
 
 ### <a name="cost"></a>Maliyet
 
-Power BI Embedded kullanan uygulama geliştiricilerin [üretime geçmek için Power BI Embedded kapasitesi satın alması](embed-sample-for-customers.md#move-to-production) gerekir.  Çalışma alanı tabanlı yalıtım modelinin etkisini ve bu etkinin kapasitelere nasıl yansıdığını anlamak önemlidir.
+Power BI Embedded kullanan uygulama geliştiricilerin [üretime geçmek için Power BI Embedded kapasitesi satın alması](move-to-production.md) gerekir.  Çalışma alanı tabanlı yalıtım modelinin etkisini ve bu etkinin kapasitelere nasıl yansıdığını anlamak önemlidir.
 
 Çalışma alanı tabanlı yalıtım modeli aşağıdaki nedenlerle kapasitelere uygundur:
 
