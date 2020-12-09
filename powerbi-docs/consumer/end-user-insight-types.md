@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/12/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2487c8215d4c1f2c3bc905457d6b5d08c5955c0c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a5a3029a3afe3d48981338934090ad6b9719d6bb
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400144"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613452"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI tarafından desteklenen öngörü türleri
 
@@ -24,7 +24,7 @@ Power BI'dan verilerinizi gözden geçirmesini ve ilginç eğilimlerle desenleri
 
 İçgörüler'i kullanmayı öğrenmek için bkz. [Power BI İçgörüleri](end-user-insights.md)
 
-![bir grup İçgörü](media/end-user-insight-types/power-bi-insight.png)
+![bir grup İçgörü](media/end-user-insight-types/power-bi-insight-line.png)
 
 ## <a name="how-does-insights-work"></a>Öngörüler nasıl çalışır?
 Power BI veri kümenizin farklı alt kümelerini hızla arar. Power BI arama yaparken, ilginç olabilecek içgörüleri bulmak için bir dizi gelişmiş algoritma uygular. Power BI *iş kullanıcıları*, pano kutucuklarında İçgörüleri çalıştırabilir.

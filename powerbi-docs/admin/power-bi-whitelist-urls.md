@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: 433b3d53ccb653e1a945a83176ab9ebc19ccac5d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1495400a59d8250f407a5f7415a550871501e4e3
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409252"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577521"
 ---
 # <a name="add-power-bi-urls-to-your-allow-list"></a>Power BI URL’lerini izin verilenler listenize ekleme
 [//]: # "suparnap, miwehnia ve natham bu listeyi korumaya yönelik ilgili kişilerdir"
@@ -76,7 +76,7 @@ OneDrive gibi belirli veri kaynaklarından veri almak için aşağıdaki tabloda
 | 2 | **İsteğe bağlı:** Oturum açma ve içerik paketleri için veri alma | Kullanılan içerik paketlerine bağlıdır | Kullanılan içerik paketlerine bağlıdır |
 | 3 | **İsteğe bağlı:** Kişisel OneDrive hesabınızdaki dosyaları içeri aktarma | [OneDrive sitesindeki gerekli URL'ler ve bağlantı noktalarına](/onedrive/required-urls-and-ports) bakın | YOK |
 | 4 | **İsteğe bağlı:** 60 saniyede Power BI öğretici videosu | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
-| 5 | **İsteğe bağlı:** PubNub akış verisi kaynakları | [PubNub belgelerine](https://support.pubnub.com/support/solutions/articles/14000043522) bakın | YOK |
+| 5 | **İsteğe bağlı:** PubNub akış verisi kaynakları | [PubNub belgelerine](https://support.pubnub.com/hc/en-us/categories/360004336832-PubNub-101) bakın | YOK |
 | | | |
 
 ## <a name="dashboard-and-report-integration"></a>Pano ve rapor tümleştirmesi

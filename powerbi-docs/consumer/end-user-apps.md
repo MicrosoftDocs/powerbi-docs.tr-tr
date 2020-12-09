@@ -7,21 +7,20 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/03/2020
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3cf504d1df824840f8f3af134ac3e6e3cd8a3fca
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ed9e7f826c8b5e75e1192c16dc72315cf32c1b9a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391565"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578326"
 ---
 # <a name="apps-in-power-bi"></a>Power BI'daki uygulamalar
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 ## <a name="what-is-a-power-bi-app"></a>Power BI uygulamaları nedir?
 *Uygulama*, ilgili panoları ve raporları bir araya getiren bir Power BI içerik türüdür. Bir uygulamada bir veya daha fazla pano ve bir veya daha fazla rapor bir arada bulunabilir. Uygulamalar Power BI *tasarımcıları* tarafından oluşturulur ve bu tasarımcıların iş arkadaşlarına dağıtılarak paylaşılır. *Tasarımcının* uygulama paylaşmasına yönelik birçok farklı yol vardır. Daha fazla bilgi edinmek için aşağıdaki **Yeni uygulama alma** bölümüne bakın. 

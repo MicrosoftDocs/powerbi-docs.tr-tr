@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: c650b7ea282d928af512ce7948902bc4fd72613f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3a1fa1e137cc66fad48102d60869ee8ecd0cba61
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389978"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613866"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Power BI hizmetinin önizleme özelliklerini kullanmayı kabul etme
 
@@ -24,11 +24,7 @@ ms.locfileid: "96389978"
 ## <a name="what-are-preview-features"></a>*Önizleme özellikleri* nedir?
 Power BI hizmetini geliştirmeye devam ederken bazı yeni işlevleri, *önizleme özellikleri* olarak kullanıma sunarız. Önizleme özelliklerini etkinleştirebilir veya devre dışı bırakabilir ve dilediğiniz gibi deneyebilirsiniz.
 
-Bazı önizleme özellikleri Power BI panonuzdan, Giriş'ten veya raporun kendisinden açılabilir ve kapatılabilir. **Yeni görünüm** önizleme özelliği Giriş, raporlar ve panoların üzerinde görüntülenen Power BI menü çubuğundan açılıp kapatılabilir. 
-
-   ![Yeni Görünüm iki durumlu düğmesi](./media/end-user-preview-features/power-bi-toggle.png)
-
-Bu arada diğer önizleme özellikleri *Ayarlar* menünüzden kullanıma sunulur. Bu makalede size Ayarlar menüsü aracılığıyla önizleme özelliklerine nasıl erişebileceğiniz gösterilir.
+Bazı önizleme özellikleri Power BI panonuzdan, Giriş'ten veya raporun kendisinden açılabilir ve kapatılabilir. Bu arada diğer önizleme özellikleri *Ayarlar* menünüzden kullanıma sunulur. Bu makalede size Ayarlar menüsü aracılığıyla önizleme özelliklerine nasıl erişebileceğiniz gösterilir.
 
 ## <a name="find-previews-and-turn-them-on-and-off"></a>Önizlemeleri bulma ve açma (ve kapatma)
 1. Power BI ekranınızın sağ üst köşesindeki dişli simgesini ve ardından **Ayarlar**’ı seçerek Ayarlar menüsünü açın.

@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 11/13/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2be9c2c266c489dbb93f5e3f93c3c120cae5c3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9df90a41143ddb6d0657aa0d61dc83f25ecbae1a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390622"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578094"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Panolarınızı, raporlarınızı ve uygulamalarınızı bulma
 
@@ -42,13 +42,13 @@ Aşağıdaki konular, içeriği bulmaya ve görüntülemeye yönelik seçenekler
 ## <a name="home-canvas"></a>Giriş tuvali
 Giriş tuvalinde, kullanma iznine sahip olduğunuz tüm içerikleri görebilirsiniz. Giriş tuvaliniz, önerilen içerikler ve öğrenme kaynaklarıyla da güncelleştirilir. İlk aşamada Giriş tuvalinizde çok fazla içerik olmayabilir. Bu durum, iş arkadaşlarınızla birlikte Power BI’ı kullandıkça değişecektir.
 
-![Power BI hizmetindeki yeni bir kullanıcının Hoş Geldiniz ekranının görüntüsü.](media/end-user-home/power-bi-home-new-user.png)
+![Power BI hizmetindeki yeni bir kullanıcının Hoş Geldiniz ekranının görüntüsü.](media/end-user-home/power-bi-home-new-users.png)
 
 
  
 Power BI hizmetinde çalışıp iş arkadaşlarınızdan pano, rapor ve uygulama aldıkça Power BI Giriş tuvali de dolmaya başlar. Zamanla, aşağıdakine benzer bir hal alabilir.
 
-![Power BI hizmeti Hoş Geldiniz ekranının görüntüsü.](media/end-user-home/power-bi-experienced-user.png)
+![Power BI hizmeti Hoş Geldiniz ekranının görüntüsü.](media/end-user-home/power-bi-experienced-users.png)
 
  
 Aşağıdaki birkaç konu başlığında, deneyimli bir kullanıcının Giriş tuvali yukarıdan aşağıya doğru ayrıntılı şekilde incelenir.
