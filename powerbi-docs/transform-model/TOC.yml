@@ -51,6 +51,8 @@
           href: dataflows/dataflows-premium-features.md
         - name: Veri akışları ile Makine Öğrenimi ve Bilişsel Hizmetleri kullanma
           href: dataflows/dataflows-machine-learning-integration.md
+        - name: Veri akışları için en iyi yöntemler
+          href: ./dataflows/dataflows-best-practices.md
         - name: Veri akışı sınırlamaları ve önemli noktalar
           href: dataflows/dataflows-features-limitations.md
     - name: Nasıl yapılır kılavuzları
@@ -95,44 +97,6 @@
               href: desktop-import-and-display-kpis.md
             - name: Otomatik tarih ve saati uygulama
               href: desktop-auto-date-time.md
-        - name: Self servis veri hazırlığı
-          items:
-            - name: Veri akışları oluşturma ve kullanma
-              href: ./dataflows/dataflows-create.md
-            - name: Veri akışları için en iyi yöntemler
-              href: ./dataflows/dataflows-best-practices.md
-            - name: Power BI’da veri akışları ile DirectQuery kullanma (önizleme)
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: Geliştirilmiş işlem altyapısını veri akışları ile kullanma
-              href: ./dataflows/dataflows-premium-features.md
-            - name: Power BI Premium ile hesaplanan varlıklar
-              href: ./dataflows/dataflows-premium-features.md
-            - name: İş akışları ile veri kaynaklarına bağlanma
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: Şirket içi veri kaynakları ile veri akışlarını kullanma
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: Veri akışları arasındaki varlıkları ilişkilendirme
-              href: ./dataflows/dataflows-premium-features.md
-            - name: Veri akışları ile artımlı yenilemeyi kullanma
-              href: ./dataflows/dataflows-premium-features.md
-            - name: Veri akışları için geliştirici kaynakları
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: Power BI Desktop’taki veri akışlarına bağlanma
-              href: desktop-connect-dataflows.md
-            - name: Veri Akışları ve Azure Data Lake tümleştirmesi (Önizleme)
-              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
-            - name: Azure Data Lake Storage 2. Nesil'i veri akışı depolamasına bağlama
-              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
-            - name: Çalışma alanı veri akışı ayarlarını yapılandırma (Önizleme)
-              href: ./dataflows/dataflows-configure-consume.md
-            - name: Power BI'a veri akışı olarak bir CDM klasörü ekleme (Önizleme)
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: Power BI’da Machine Learning’i tümleştirme
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: Power BI’da Bilişsel Hizmetler’i kullanma
-              href: ./dataflows/dataflows-machine-learning-integration.md
-            - name: Power BI’da Otomatikleştirilmiş Makine Öğrenmesi
-              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: Başvuru
       items:
         - name: Power BI Desktop’ta Alan listesini kullanma (önizleme)

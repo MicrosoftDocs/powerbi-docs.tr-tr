@@ -48,6 +48,8 @@
           href: embed-service-principal.md
         - name: Hizmet sorumlusu ve sertifika kullanarak ekleme
           href: embed-service-principal-certificate.md
+        - name: Eklenmiş bir uygulamayı üretime taşıma
+          href: move-to-production.md
         - name: Uygulamadan ekleme
           href: embed-from-apps.md
         - name: Raporu dosyaya aktarma
