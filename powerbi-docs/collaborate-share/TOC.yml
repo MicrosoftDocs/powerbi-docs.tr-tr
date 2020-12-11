@@ -103,12 +103,16 @@
           items:
             - name: Veri uyarılarını Power Automate ile tümleştirme
               href: service-flow-integration.md
+            - name: Power Automate ile raporları dışarı aktarma ve e-posta ile gönderme
+              href: service-automate-power-bi-report-export.md
             - name: Sayfalandırılmış raporları Power Automate ile dışarı aktarma
               href: service-automate-paginated-integration.md
             - name: Sayfalandırılmış raporları OneDrive veya SharePoint Online'a kaydetme
               href: service-automate-paginated-onedrive-sharepoint.md
             - name: Sayfalandırılmış raporları Excel Online veya SharePoint listesinden dışarı aktarma
               href: service-automate-paginated-excel-sharepoint-list.md
+            - name: Sayfalandırılmış raporu yerel bir klasöre kaydetme
+              href: service-automate-paginated-local-file.md
         - name: Üçüncü taraf uygulamaları kullanma
           href: service-power-bi-get-started-third-party-apps.md
         - name: Kurumsal içerik paketleri
