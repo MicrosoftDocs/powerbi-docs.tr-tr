@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/02/2020
+ms.date: 12/03/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406791"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613889"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -198,6 +198,7 @@ Kuruluşunuzdaki [bu kişilerden birini bulmanız](/office365/admin/admin-overvi
 - Çoklu oturum açma veri sorgulama modelleri.
 - Gizli veya özel bilgilerin güvenliğini sağlama.
 - **Ekle** seçeneğiyle birlikte sağlanan otomatik kimlik doğrulama özelliği Power BI JavaScript API’si ile çalışmaz. Power BI JavaScript API'sinde, ekleme için [verilerin kullanıcıya ait olması](../developer/embedded/embed-sample-for-your-organization.md) yaklaşımını kullanın.
+- Yöneticiler, [Power BI’a erişmek için özel bağlantılar](../admin/service-security-private-links.md) sayfasında açıklandığı şekilde genel internet erişimini engelleyebilir. Bu durumda kiracınızın Power BI yönetici portalında **Web'de yayımla** seçeneği gri görünür. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

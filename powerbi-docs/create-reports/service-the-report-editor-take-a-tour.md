@@ -8,14 +8,14 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 12/01/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 560c03865519d1c5d2435dc333954f284ee726e6
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96387793"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536519"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI'da rapor düzenleyicisi turu
 
@@ -33,14 +33,14 @@ Power BI hizmetinde rapor düzenleyicisi yalnızca Düzenleme Görünümünde ku
 
 Power BI rapor düzenleyicisi birkaç ana bölüme ayrılır:  
 
-1. Üst gezinti bölmesi
+1. Şerit
 1. Rapor tuvali
 1. Filtreler bölmesi
 1. Görselleştirmeler bölmesi
 1. Alanlar bölmesi
 
-## <a name="1-the-top-nav-pane"></a>1. Üst gezinti bölmesi
-Üst gezinti bölmesinden birçok farklı eylem gerçekleştirilebilir ve sürekli olarak bu eylemlere yenileri eklenmektedir. Belirli bir eylem hakkında bilgi edinmek için Power BI belgelerinin içindekiler tablosunu veya Arama kutusunu kullanın.
+## <a name="1-the-ribbon"></a>1. Şerit
+Şeritten birçok farklı eylem gerçekleştirilebilir ve sürekli olarak bu eylemlere yenileri eklenmektedir. Belirli bir eylem hakkında bilgi edinmek için Power BI belgelerinin içindekiler tablosunu veya Arama kutusunu kullanın.
 
 
 ## <a name="2-the-report-canvas"></a>2. Rapor tuvali
@@ -135,23 +135,7 @@ Power BI Desktop'ta alanları gösterme/gizleme ve hesaplama ekleme gibi seçene
 
 ## <a name="the-field-icons"></a>Alan simgeleri
 
-Power BI rapordaki alanların türünü belirtmek için bir dizi farklı simge kullanır. Bunları tanıdığınızda farklı görsellerde nasıl davrandıklarını daha iyi anlarsınız. Yaygın özelliklerden bazıları şunlardır.
-
-
-|Simge  |Anlamı  |
-|---------|---------|
-| ![Klasör](media/service-the-report-editor-take-a-tour/power-bi-field-list-folder.png) | Alanlar listesinde klasör |
-|![Sayısal alan](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric.png) | Sayısal alan: Sayısal alanlar, örneğin toplamı veya ortalaması alınabilecek toplamlardır. Toplamlar, verilerle birlikte içeri aktarılır ve raporunuzun temel aldığı veri modelinde tanımlanır. Daha fazla bilgi için bkz. [Power BI raporlarındaki toplamlar](service-aggregates.md). |
-|![Sayısal olmayan hesaplanmış sütun](media/service-the-report-editor-take-a-tour/power-bi-field-list-calculated-column.png) | Sayısal olmayan veri türündeki hesaplanmış sütun: Veri Çözümleme İfadeleri (DAX) formülüyle oluşturduğunuz ve sütunun değerlerini tanımlayan yeni, sayısal olmayan sütun. [Hesaplanmış sütunlar](../transform-model/desktop-calculated-columns.md) hakkındaki diğer bilgileri okuyun. |
-|![Sayısal hesaplanmış sütun](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric-calculated-column.png)     |   Sayısal hesaplanmış sütun: Veri Çözümleme İfadeleri (DAX) formülüyle oluşturduğunuz ve sütunun değerlerini tanımlayan yeni sütun. [Hesaplanmış sütunlar](../transform-model/desktop-calculated-columns.md) hakkındaki diğer bilgileri okuyun. |
-|![Ölçü](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Ölçü: Her ölçünün kendi sabit kodlanmış formülü vardır. Hesaplama türünü değiştiremezsiniz. Örneğin, tür toplam olarak ayarlanmışsa bu şekilde olarak kalır. Değerler bir sütunda depolanmaz. Yalnızca görseldeki konumlarına bağlı olarak bunlar anında hesaplanır. Daha fazla bilgi için bkz. [Ölçüleri anlama](../transform-model/desktop-measures.md). |
-|![Ölçü grubu](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure-group.png)     | Ölçü grubu  |
-|![KPI simgesi](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      KPI: Ölçülebilen bir hedefe doğru ilerleme durumunu gösteren görsel bir ipucu. [Ana Performans Göstergesi (KPI)](../visuals/power-bi-visualization-kpi.md) görselleri hakkındaki diğer bilgileri okuyun |
-|![Hiyerarşi simgesi](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  Alanların hiyerarşisi: Hiyerarşiyi oluşturan alanları görmek için oku seçin.  Daha fazla bilgi için YouTube'da [Hiyerarşileri oluşturma ve bunlarla çalışma](https://www.youtube.com/watch?v=q8WDUAiTGeU) hakkındaki bu Power BI videosunu izleyin. |
-|![Coğrafi veriler](media/service-the-report-editor-take-a-tour/power-bi-field-list-geo-data.png)     | Coğrafi veriler: Bu konum alanları kullanılarak harita görselleştirmeleri oluşturulabilir. |
-| ![Kimlik alanı](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | Kimlik alanı: Bu simgeye sahip alanlar, yinelenen değerlere sahip olsalar bile tüm değerleri gösterecek şekilde ayarlanmış *benzersiz alanlardır*. Örneğin, verilerinizde adları "Can Kaya" olan iki farklı kişinin kaydı olabilir ve bunların her biri benzersiz olarak kabul edilir. Bunlar toplanmaz.   |
-|![Parametre](media/service-the-report-editor-take-a-tour/power-bi-field-list-parameter.png)   | Parametre: Raporlarınızın ve veri modellerinizin bazı bölümlerini (sorgu filtresi, veri kaynağı başvurusu, ölçü tanımı vb.) bir veya birden çok parametre değerine bağımlı yapmak için parametreler ayarlayın. Daha fazla bilgi için [sorgu parametreleri](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) hakkındaki bu Power BI blog gönderisine bakın. |
-| ![Takvim](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | Yerleşik tarih tablosu olan takvim tarih alanı |
+Power BI rapordaki alanların türünü belirtmek için bir dizi farklı simge kullanır. Bunları tanıdığınızda farklı görsellerde nasıl davrandıklarını daha iyi anlarsınız. Tam kapsamlı liste için [Power BI Desktop’ta Alan listesini kullanma sayfasının Alan listesi simgeleri bölümüne](../transform-model/desktop-field-list.md#field-list-changes) bakın.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Rapor oluşturma](service-report-create-new.md)

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/29/2020
-ms.openlocfilehash: 30e8f1cb1ef8f12d9573d77a70771eef915a2704
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 12/07/2020
+ms.openlocfilehash: 10fb104d1c03ae5d08836b8e865178c347d848ce
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044794"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781785"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yüklemeye ilişkin donanım ve yazılım gereksinimleri
 
@@ -23,7 +23,7 @@ Bu makalede, Power BI Rapor Sunucusu'nu yüklemeye ve çalıştırmaya ilişkin 
 
 | Bileşen | Gereksinim |
 | --- | --- |
-| .NET Framework |4.8<br><br>.NET Framework’ü [Windows için Microsoft .NET Framework 4.8 (Web Yükleyicisi)](https://support.microsoft.com/en-us/help/4503548/) sayfasından el ile yükleyebilirsiniz.<br/><br/> NET Framework 4.8 ile ilgili daha fazla bilgi, öneri ve yardım için bkz. [Geliştiriciler için .NET Framework Dağıtım Kılavuzu](/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Windows 8.1 ve Windows Server 2012 R2 için .NET Framework 4.8 yüklemesinden önce [KB2919355](https://support.microsoft.com/kb/2919355) güncelleştirmesinin yapılması gerekir. |
+| .NET Framework |4.8<br><br>Sunucuda internet erişimi yoksa .NET Framework’ü [Windows için Microsoft .NET Framework 4.8 (Çevrimdışı Yükleyici)](https://support.microsoft.com/en-us/help/4503548/) sayfasından el ile yükleyebilirsiniz.<br/><br/> NET Framework 4.8 ile ilgili daha fazla bilgi, öneri ve yardım için bkz. [Geliştiriciler için .NET Framework Dağıtım Kılavuzu](/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Windows 8.1 ve Windows Server 2012 R2 için .NET Framework 4.8 yüklemesinden önce [KB2919355](https://support.microsoft.com/kb/2919355) güncelleştirmesinin yapılması gerekir. |
 | Sabit Disk |Power BI Rapor Sunucusu için en az 1 GB'lık kullanılabilir sabit disk alanı gerekir.<br><br>Rapor sunucusu veritabanını barındıran veritabanı sunucusunda da ek alan gerekir. |
 | Bellek |**Minimum:** 1 GB<br/><br/> **Önerilen:** En az 4 GB |
 | İşlemci hızı |**En az:** x64 İşlemci: 1,4 GHz<br/><br/> **Önerilen:** 2,0 GHz veya daha yüksek |

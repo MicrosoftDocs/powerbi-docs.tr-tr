@@ -10,14 +10,14 @@ ms.topic: reference
 ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e2bd6a752d94bd2a549d0149512707fbd7832319
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390737"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613797"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>*Tüketicilere* ve diğer ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
+# <a name="power-bi-feature-list-for-business-users-and-others-with-free-licenses"></a>*İşletme kullanıcılarına* ve diğer ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -58,7 +58,7 @@ Her Power BI hizmeti kullanıcısının bir ücretsiz lisansı veya Pro lisansı
 
    
 
-## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>*Tüketicilere* ve ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
+## <a name="power-bi-feature-list-for-business-users-and-free-users"></a>*İşletme kullanıcılarına* ve ücretsiz lisans kullanıcılarına yönelik Power BI özellik listesi
 Aşağıdaki grafik, Premium kapasitede içerikle etkileşime giren bir *iş kullanıcısı* tarafından hangi görevlerin gerçekleştirilebileceğini tanımlar.    
 
 İlk sütun **Çalışma alanım**’daki içerikle çalışan ücretsiz lisans kullanıcısını temsil eder. Bu kullanıcı Power BI hizmetinde iş arkadaşlarıyla işbirliği yapamaz. İş arkadaşları bu kullanıcıyla doğrudan içerik paylaşamaz ve bu kullanıcı **Çalışma alanım**’dan paylaşamaz. 

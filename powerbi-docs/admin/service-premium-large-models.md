@@ -1,42 +1,59 @@
 ---
-title: Power BI Premium'da büyük modeller (önizleme)
-description: Büyük modeller özelliği, Power BI Premium'daki veri kümelerinin 10 GB'ın üzerine çıkmasını sağlar.
+title: Power BI Premium'daki büyük veri kümeleri
+description: Büyük veri kümesi depolama biçimi, Power BI Premium'daki veri kümelerinin 10 GB'ın üzerine çıkmasını sağlar.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 12/04/2020
+ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 0bb6f7bf46875e0af7c09d221c73ae5e4b70b2df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1f9a34b68f465eda5b8921e48576c9bef5d17f36
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412242"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781712"
 ---
-# <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium'da büyük modeller (önizleme)
+# <a name="large-datasets-in-power-bi-premium"></a>Power BI Premium'daki büyük veri kümeleri
 
-Power BI veri kümeleri, sorgu performansını iyileştirerek büyük veri kümeleri üzerinde daha hızlı kullanıcı etkileşimine olanak tanımak için verileri yüksek oranda sıkıştırılmış bellek içi önbellekte depolayabilir. Büyük modeller özelliği, Power BI Premium'daki veri kümelerinin 10 GB'ın üzerine çıkmasını sağlar. Buna karşılık veri kümesinin boyutu Power BI Premium kapasitenin boyutuyla sınırlıdır. Bu durum Azure Analysis Services’in model boyutu sınırlamaları açısından çalışmasına benzer. Power BI Premium'daki kapasite boyutları hakkında daha fazla bilgi için Kapasite düğümlerini inceleyin. Büyük modelleri tüm Premium P SKU'ları ve Embedded A SKU'ları için ayarlayabilirsiniz ancak bu modeller yalnızca [yeni çalışma alanlarıyla](../collaborate-share/service-create-the-new-workspaces.md) çalışır.
+Power BI veri kümeleri, sorgu performansını iyileştirerek daha hızlı kullanıcı etkileşimine olanak tanımak için verileri yüksek oranda sıkıştırılmış bellek içi önbellekte depolayabilir. Premium kapasitelerde **Büyük veri kümesi depolama biçimi** ayarıyla veri kümelerinin varsayılan 10 GB'lık sınırın üzerine çıkmasını sağlamak mümkündür. Bu özellik etkinleştirildiğinde veri kümesinin boyutu, Premium *kapasitenin* boyutuyla sınırlanmış olur.
 
-Büyük modeller, PBIX yükleme boyutunu etkilemez ve bu boyut yine 10 GB ile sınırlı olur. Bunun yerine veri kümeleri yenilendiğinde hizmette 10 GB'ı aşar. Bir veri kümesini 10 GB'ın üzerine çıkacak şekilde yapılandırmak için artımlı yenileme özelliğini kullanabilirsiniz.
+Büyük veri kümeleri tüm Premium P SKU'ları ve Embedded A SKU'ları için etkinleştirilebilir. Premium'daki büyük veri kümesi boyutu sınırı, veri modeli boyutu sınırlamaları açısından Azure Analysis Services ile benzerdir.
 
-## <a name="enable-large-models"></a>Büyük modelleri etkinleştirme
+Veri kümelerinin 10 GB'ın üzerine çıkabilmesi için etkinleştirilmesi gereken Büyük veri kümesi depolama biçimi ayarının sunduğu ek avantajlar da vardır. Veri kümesi yazma işlemleri için XMLA uç noktası tabanlı araçlar kullanmayı planlıyorsanız bu ayarı *büyük* olmayan veri kümeleri için dahi etkinleştirmeniz önerilir. Büyük veri kümesi depolama biçimi etkinleştirildiğinde XMLA yazma işlemlerinin performansını artırabilir.
 
-10 GB'ı aşan bir veri kümesi oluşturmak için şu adımları izleyin:
+Hizmetteki büyük veri kümeleri, 10 GB ile sınırlı olan Power BI Desktop model yükleme boyutunu etkilemez. Bunun yerine veri kümeleri yenilendiğinde hizmette 10 GB'ı aşabilir.
 
-1. Power BI Desktop'ta bir veri kümesi oluşturun ve [artımlı yenileme](service-premium-incremental-refresh.md) yapılandırın.
+## <a name="enable-large-datasets"></a>Büyük veri kümelerini etkinleştirme
 
-1. Veri kümesini Power BI Premium hizmetinde yayımlayın.
+Buradaki adımlar, hizmette yeni yayımlanan bir modelde büyük veri kümelerini etkinleştirmeye yöneliktir. Var olan veri kümeleri için yalnızca üçüncü adımı gerçekleştirmeniz yeterli olacaktır.
 
-1. Aşağıdaki PowerShell cmdlet'lerini çalıştırarak veri kümesinde büyük modelleri etkinleştirin. Bu cmdlet’ler Power BI’ın veri kümesini Azure Premium Dosyalar’da depolamasına ve 10 GB’lık sınırı zorunlu tutmamasına neden olur.
+1. Power BI Desktop'ta bir model oluşturun. Veri kümeniz büyüyecek ve büyüdükçe daha fazla bellek kullanacaksa [Artımlı yenileme](service-premium-incremental-refresh.md) ayarını yapılandırmayı unutmayın.
 
-1. Geçmiş verileri artımlı yenileme ilkesine göre yüklemek için yenileme gerçekleştirin. İlk yenileme işleminin geçmiş verileri yüklemesi uzun sürebilir. Sonraki yenileme işlemleri artımlı olacağından daha hızlı tamamlanacaktır.
+1. Modeli veri kümesi olarak hizmette yayımlayın.
 
-### <a name="powershell-cmdlets"></a>PowerShell cmdlet'leri
+1. Hizmet > Veri kümesi > **Ayarlar** sayfasında **Büyük veri kümesi depolama biçimi**'ni genişletin, kaydırıcıyı **Açık** konumuna getirin ve **Uygula**'ya tıklayın.
 
-Büyük modellerin geçerli sürümünde PowerShell cmdlet'lerini kullanarak veri kümesinin Premium Dosyalar depolama alanını kullanmasını sağlayın. PowerShell cmdlet'lerini çalıştırabilmek için kapasite yöneticisi ve çalışma alanı yöneticisi ayrıcalıklarına sahip olmanız gerekir.
+    :::image type="content" source="media/service-premium-large-models/enable-large-dataset.png" alt-text="Büyük veri kümesini etkinleştirme kaydırıcısı":::
+
+1. Geçmiş verileri artımlı yenileme ilkesine göre yüklemek için yenileme gerçekleştirin. İlk yenileme işleminin geçmiş verileri yüklemesi uzun sürebilir. Artımlı yenileme ilkenize bağlı olarak sonraki yenileme işlemlerinin daha hızlı tamamlanması gerekir.
+
+## <a name="set-default-storage-format"></a>Varsayılan depolama biçimini ayarlama
+
+Büyük veri kümesi depolama biçimi ayarı, Premium kapasiteye atanmış olan çalışma alanı içindeki tüm yeni veri kümeleri için varsayılan olarak etkin hale getirilebilir.
+
+1. Çalışma alanında **Ayarlar** > **Premium**'a tıklayın.
+
+1. **Varsayılan depolama biçimi** bölümünde **Büyük veri kümesi depolama biçimi**'ni seçip **Kaydet**'e tıklayın.
+
+    :::image type="content" source="media/service-premium-large-models/default-storage-format.png" alt-text="Varsayılan depolama biçimini etkinleştirme":::
+
+### <a name="enable-with-powershell"></a>PowerShell ile etkinleştirme
+
+Büyük veri kümesi depolama biçimini etkinleştirmek için PowerShell'i de kullanabilirsiniz. PowerShell cmdlet'lerini çalıştırabilmek için kapasite yöneticisi ve çalışma alanı yöneticisi ayrıcalıklarına sahip olmanız gerekir.
 
 1. Veri kümesi kimliğini (GUID) bulun. Kimlik değerini, çalışma alanının **Veri kümeleri** sekmesinin veri kümesi ayarlarında yer alan URL'de görebilirsiniz.
 
@@ -66,7 +83,7 @@ Büyük modellerin geçerli sürümünde PowerShell cmdlet'lerini kullanarak ver
     <Dataset ID>         Abf
     ```
 
-1. Depolama modunu Premium Dosyalar olarak değiştirmek ve bunu denetlemek için aşağıdaki cmdlet'leri çalıştırın. Premium Dosyalara dönüştürme işlemi birkaç saniye sürebilir.
+1. Depolama modunu ayarlamak için aşağıdaki cmdlet'leri çalıştırın. Premium Dosyalara dönüştürme işlemi birkaç saniye sürebilir.
 
     ```powershell
     Set-PowerBIDataset -Id <Dataset ID> -TargetStorageMode PremiumFiles
@@ -112,20 +129,18 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
-Büyük modelleri kullanırken aşağıdaki kısıtlamalara dikkat edin:
+Büyük veri kümelerini kullanırken aşağıdaki kısıtlamalara dikkat edin:
 
-- **Multi-geo desteği**: Premium Dosyaların etkinleştirildiği veri kümeleri, [multi-geo](service-admin-premium-multi-geo.md) özelliğinin de etkin olduğu kapasitelerde hata verecektir.
+- **Yeni çalışma alanlarını kullanmanız gerekir**: Büyük veri kümeleri yalnızca [Yeni çalışma alanları](../collaborate-share/service-create-the-new-workspaces.md) ile uyumludur.
 
 - **Power BI Desktop'a indirme**: Premium Dosyalarda depolanan veri kümeleri için [.pbix olarak indirme](../create-reports/service-export-to-pbix.md) işlemi başarısız olur.
-- **Desteklenen bölgeler**: Büyük modeller Premium Dosya Depolama'yı destekleyen tüm Azure bölgelerinde desteklenir. Daha fazla bilgi edinmek için [Bölgeye göre kullanılabilir ürünler](https://azure.microsoft.com/global-infrastructure/services/?products=storage) konusuna bakın ve aşağıdaki bölümde verilen tabloya başvurun.
+- **Desteklenen bölgeler**: Büyük veri kümeleri Premium Dosya Depolama'yı destekleyen tüm Azure bölgelerinde desteklenir. Daha fazla bilgi edinmek için [Bölgeye göre kullanılabilir ürünler](https://azure.microsoft.com/global-infrastructure/services/?products=storage) konusuna bakın ve aşağıdaki bölümde verilen tabloya başvurun.
 
+## <a name="region-availability"></a>Bölge kullanılabilirliği
 
-## <a name="availability-in-regions"></a>Bölgelerdeki kullanılabilirlik
+Power BI’da büyük veri kümeleri yalnızca [Azure Premium Dosyalar Depolaması](/azure/storage/files/storage-files-planning#storage-tiers)’nı destekleyen bazı Azure bölgelerinde kullanılabilir.
 
-Power BI’da büyük modeller yalnızca [Azure Premium Dosyalar Depolaması](/azure/storage/files/storage-files-planning#storage-tiers)’nı destekleyen bazı Azure bölgelerinde kullanılabilir.
-
-Aşağıdaki listede, Power BI’da büyük modellerin kullanılabildiği bölgeler listelenir. Aşağıdaki listede yer almayan bölgeler, büyük modeller için desteklenmez:
-
+Aşağıdaki listede, Power BI’da büyük veri kümelerinin kullanılabildiği bölgeler listelenir. Aşağıdaki listede yer almayan bölgeler, büyük modeller için desteklenmez:
 
 |Azure bölgesi  |Azure bölgesi kısaltması  |
 |---------|---------|
@@ -149,8 +164,6 @@ Aşağıdaki listede, Power BI’da büyük modellerin kullanılabildiği bölge
 |Batı ABD     | westus        |
 |Batı ABD 2     | westus2        |
 
-
-
 ## <a name="next-steps"></a>Sonraki adımlar
 
 Aşağıdaki bağlantılarda, büyük modellerle çalışırken yararlı olabilecek bilgiler sağlanır:
@@ -160,7 +173,6 @@ Aşağıdaki bağlantılarda, büyük modellerle çalışırken yararlı olabile
 * [Power BI için kendi anahtarını getir şifrelemesi](service-encryption-byok.md)
 * [Kapasiteler nasıl çalışır?](service-premium-what-is.md#how-capacities-function)
 * [Artımlı yenileme](service-premium-incremental-refresh.md).
-
 
 Power BI, aşağıdaki iyileştirmelerle Power BI Premium deneyimini geliştiren bir önizleme teklifi olarak Power BI Premium 2. Nesil’i kullanıma sundu:
 * Performans

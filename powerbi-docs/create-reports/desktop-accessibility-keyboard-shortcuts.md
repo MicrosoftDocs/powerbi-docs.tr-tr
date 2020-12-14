@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/28/2019
+ms.date: 12/04/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b2439af22e32f1e0a8cbd3ce326252d6b28fab1
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417601"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613935"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Power BI Desktop klavye kısayolları
 
@@ -92,7 +92,7 @@ Erişilebilirliği geliştirmek için devam eden çalışmalarımız kapsamında
 | :------------------- | :------------------- |
 | Satırı yukarı / aşağı taşıma | **Alt + Yukarı ok tuşu** / **Aşağı ok tuşu** |
 | Üstteki /alttaki satırı kopyalama | **Shift + Alt + Yukarı ok tuşu** / **Aşağı ok tuşu** |
-| Altına satır ekle | **Ctrl + Enter** |
+| Altına satır ekle | **Shift + Enter** |
 | Üstüne satır ekle | **Ctrl + Shift + Enter** |
 | Eşleşen köşeli ayraca atla | **Ctrl + Shift +**  \ |
 | Satırı girintileme / Satırı kenar boşluğuna genişletme | **Ctrl + ]**  /  **[** |
@@ -100,6 +100,10 @@ Erişilebilirliği geliştirmek için devam eden çalışmalarımız kapsamında
 | Geçerli satırı seç | **Ctrl + I** |
 | Geçerli seçimin tüm oluşumlarını seç | **Ctrl + Shift + L** |
 | Kelimenin tüm oluşumlarını seç | **Ctrl + F2** |
+| Satırı açıklamaya dönüştür | **Ctrl + /** veya **Ctrl + K + C** |
+| Satırı açıklama durumundan çıkar | **Ctrl + /** veya **Ctrl + K + U** |
+| Yazı tipi boyutunu büyüt | **Ctrl + +** veya **Yukarı Kaydır** |
+| Yazı tipi boyutunu küçült | **Ctrl + -** veya **Aşağı Kaydır** |
 
 ## <a name="enter-data"></a>Veri girme
 | Bu eylemi gerçekleştirmek için           | Buna basın                |
@@ -122,7 +126,7 @@ Power BI erişilebilirliği ile ilgili makale koleksiyonu aşağıda verilmişti
 * [Power BI’da erişilebilirliğe genel bakış](desktop-accessibility-overview.md) 
 * [Erişilebilir Power BI raporları oluşturma](desktop-accessibility-creating-reports.md) 
 * [Power BI’da raporları erişilebilirlik araçlarıyla kullanma](desktop-accessibility-consuming-tools.md)
-* [Power BI raporlarını erişilebilirlik araçlarıyla oluşturma](desktop-accessibility-creating-tools.md)
+* [Erişilebilirlik araçlarıyla Power BI raporları oluşturma](desktop-accessibility-creating-tools.md)
 * [Rapor erişilebilirliği denetim listesi](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
 
 Aşağıdaki makaleler de ilginizi çekebilir:

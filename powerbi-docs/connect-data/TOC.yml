@@ -30,10 +30,10 @@
           href: service-tutorial-connect-to-github.md
         - name: Bilişsel Hizmetler'i kullanma
           href: service-tutorial-use-cognitive-services.md
-        - name: Machine Learning tümleştirmesi
-          href: service-tutorial-invoke-machine-learning-model.md
-        - name: Makine Öğrenmesi modeli oluşturma
+        - name: Makine öğrenmesi modeli oluşturma
           href: service-tutorial-build-machine-learning-model.md
+        - name: Raporda makine öğrenmesi modeli kullanma
+          href: service-aml-integrate.md
         - name: Verileri SQL Server'dan yenileme
           href: service-gateway-sql-tutorial.md
     - name: Kavramlar

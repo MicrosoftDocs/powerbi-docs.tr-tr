@@ -7,20 +7,19 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/26/2020
+ms.date: 12/03/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa199547f6cad0b7d4dbfc6b75e9d9e25b2b153
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391496"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578349"
 ---
 # <a name="what-are-bookmarks"></a>Yer işaretleri nedir?
 
 [!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Yer işaretleri; filtreler, dilimleyiciler ve görsellerin durumu da dahil olmak üzere rapor sayfasının mevcut yapılandırılmış görünümünü yakalar. Bir yer işaretini seçtiğinizde, Power BI sizi o görünüme geri götürür. Sizin oluşturduklarınız ve rapor *tasarımcıları* tarafından oluşturulanlar olmak üzere iki tür yer işareti bulunur. Tüm Power BI kullanıcıları kişisel yer işaretleri oluşturabilir. Ancak başkaları tarafından oluşturulan yer işaretlerini kullanabilmek için Power BI Pro veya Premium lisansı gerekir. [Hangi lisansa sahibim?](end-user-license.md)
 
@@ -30,6 +29,16 @@ Yer işaretlerinin birçok kullanımı vardır. İlgi çekici bir içgörü keş
 Ayrıca, bir yer işareti koleksiyonu oluşturabilir, bu yer işaretlerinin sırasını istediğiniz gibi düzenleyebilir ve birbiriyle ilişkili bir dizi içgörüyü vurgulamak için sunu sırasında her bir yer işareti üzerinden ilerleyebilirsiniz.  
 
 ![Şeritten seçerek, Yer İşaretleri Bölmesi’ni gösterin.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
+
+Yer işareti eklediğiniz raporu, aynı raporda okuma erişimine sahip olan iş arkadaşlarınızla paylaşabilirsiniz. Raporun yer işareti eklenmiş görünümü, tasarımcının özgün raporunun üzerine yazılmaz.  Okuma erişimine sahip olmayan iş arkadaşlarınızla paylaşmak için yeniden paylaşma iznine sahip olmanız gerekir. Raporun görünümünü paylaşamıyorsanız rapor sahibiyle iletişime geçerek yeniden paylaşma izni isteyin.  
+
+
+### <a name="share-changes"></a>Değişiklikleri paylaşma 
+Okuma ve yeniden paylaşma izinleriniz varsa, raporu paylaşırken değişikliklerinizi eklemeyi seçebilirsiniz.
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-share-changes.png" alt-text="Değişiklikleri paylaşma":::
+ 
+
 
 ## <a name="open-bookmarks"></a>Yer işaretlerini açın
 Yer İşaretleri bölmesini açmak için menü çubuğundan **Yer işaretleri** > **Daha fazla yer işareti göster**’i seçin. 
@@ -60,7 +69,7 @@ Bir raporu görüntüleyebiliyorsanız kişisel yer işaretleri ekleyebilirsiniz
 * Filtreler
 * Dilimleyici türü (açılan menü veya liste) ve dilimleyici durumu dahil olmak üzere dilimleyiciler
 * Görsel seçim durumu (çapraz vurgulama filtreleri gibi)
-* Sıralama ölçütü
+* Sıralama düzeni
 * Detay konumu
 * Görünürlük (**Seçim** bölmesi kullanıldığında, bir nesnenin görünürlüğü)
 * Herhangi bir görünür nesnenin odak veya **Spotlight** modları
@@ -164,17 +173,22 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 -->
 
 
+### <a name="reset-all-your-changes-to-a-report"></a>Raporda yaptığınız tüm değişiklikleri sıfırlama
+
+Rapor tuvalinizin sağ üst köşesinden **Varsayılana sıfırla**'yı seçin. Bunu yaptığınızda raporda yaptığınız tüm değişiklikler sıfırlanır ve rapor yeniden yazarın son kaydettiği görünüme ayarlanır.
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-reset-all.png" alt-text="Tüm değişiklikleri sıfırlama":::
 
 
 
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 **Yer işaretlerinin** bu sürümünde dikkat etmeniz gereken bazı sınırlamalar ve önemli noktalar bulunmaktadır.
 
-* Çoğu Power BI görselinin yer işareti eklemeyle iyi çalışması gerekir. Yer işareti eklemeyle ve Power BI görseliyle ilgili bir sorunla karşılaşırsanız, bu Power BI görselini oluşturan kişiye başvurun ve görseline yer işareti desteği eklemesini isteyin.
+* Çoğu Power BI özel görselinin yer işareti eklemeyle iyi çalışması gerekir. Yer işareti eklemeyle ve Power BI özel görselleriyle ilgili bir sorunla karşılaşırsanız, bu görseli oluşturan kişiye başvurun ve yer işareti desteği eklemesini isteyin.    
 * Yer işareti oluşturduktan sonra rapor sayfasına bir görsel eklerseniz bu görsel, varsayılan durumunda görüntülenir. Bu, önceden yer işaretleri oluşturduğunuz bir sayfaya dilimleyici eklediğinizde dilimleyicinin varsayılan durumunda davranış göstereceği anlamına da gelir.
 * Genellikle, rapor *tasarımcısı* raporu güncelleştirdiğinde veya yeniden yayımladığında yer işaretleriniz etkilenmez. Ancak, tasarımcı bir yer işareti tarafından kullanılan alanları kaldırma gibi önemli değişikleri rapora uygularsa, ilgili yer işaretini bir sonraki açışınızda hata iletisi alırsınız. 
+* Bu özellik, iOS ve Android tabletler için Power BI mobil uygulamalarında ve Power BI Windows uygulamasında desteklenir; telefonlar için Power BI mobil uygulamalarında desteklenmez. Bununla birlikte, Power BI hizmetindeyken kişisel yer işaretine kayıtlı bir görselde yapılan değişiklikler, tüm Power BI mobil uygulamalarında dikkate alınır.
 
-<!--
-## Next steps
-spotlight?
--->
+
+## <a name="next-steps"></a>Sonraki adımlar
+[Rapordaki görselleri kişiselleştirme](end-user-personalize-visuals.md)

@@ -1,5 +1,5 @@
 ---
-title: Salt okunur yönetici API’leri için hizmet ilkesi kimlik doğrulamasını etkinleştirme (önizleme)
+title: Salt okunur yönetici API’leri için hizmet sorumlusu kimlik doğrulamasını etkinleştirme (önizleme)
 description: Salt okunur yönetici API'lerinin kullanılmasına izin vermek için hizmet sorumlusu kimlik doğrulamasını nasıl etkinleştirebileceğinizi öğrenin.
 author: paulinbar
 ms.reviewer: ''
@@ -10,14 +10,14 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: fb2d25b4cc000f0a7b9c659f25264ffd1ab936d7
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96506758"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906831"
 ---
-# <a name="enable-service-principle-authentication-for-read-only-admin-apis-preview"></a>Salt okunur yönetici API’leri için hizmet ilkesi kimlik doğrulamasını etkinleştirme (önizleme)
+# <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>Salt okunur yönetici API’leri için hizmet sorumlusu kimlik doğrulamasını etkinleştirme (önizleme)
 
 Hizmet sorumlusu, bir Azure Active Directory (Azure AD) uygulamasının Power BI hizmet içeriğine ve API’lerine erişmesine izin vermek için kullanılan bir kimlik doğrulaması yöntemidir.
 Bir Azure AD uygulaması oluşturduğunuzda, bir [hizmet sorumlusu nesnesi](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) oluşturulur. Yalnızca hizmet sorumlusu olarak da bilinen hizmet sorumlusu nesnesi, Azure AD’nin uygulamanızın kimliğini doğrulamasına olanak sağlar. Kimlik doğrulandıktan sonra uygulama, Azure AD kiracı kaynaklarına erişebilir.
@@ -63,7 +63,7 @@ Power BI salt okunur API'leri için hizmet sorumlusu kimlik doğrulamasını etk
     * [GetDataflowUpstreamDataflowsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
     * [GetCapacitiesAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/getcapacitiesasadmin)
     * [GetActivityLog](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents)
-    * GetModifiedWorkspaces
-    * WorkspaceGetInfo
-    * WorkspaceScanStatus
-    * WorkspaceScanResult
+    * [GetModifiedWorkspaces](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
+    * [WorkspaceGetInfo](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
+    * [WorkspaceScanStatus](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
+    * [WorkspaceScanResult](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanresult)

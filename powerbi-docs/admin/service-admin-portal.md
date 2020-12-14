@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/22/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c83efa55cc1c35bb7e6fa8e62de3bca228553fe3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409413"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578188"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -307,7 +307,7 @@ Kullanıcılar **Web’de yayımla** ayarına göre kullanıcı arabiriminde far
 |---------|---------|---------|---------|
 |Raporun **Diğer seçenekler (...)** menüsündeki **Web'de yayımla** seçeneği|Tüm kullanıcılar için etkindir|Herkes için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
 |**Ayarlar** bölümündeki **Ekleme kodlarını yönet** seçeneği|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir<br><br>* **Sil** seçeneği yalnızca yetkili kullanıcılar veya gruplar için görünür.<br>* **Kod al** seçeneği tüm kullanıcılar için etkindir.|
-|Yönetici portalındaki **Ekleme kodları** seçeneği|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi|Durum **Devre dışı** görünür|Durum olarak şunlardan biri görüntülenir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi<br><br>Bir kullanıcı, kiracı ayarına göre yetkilendirilmemişse durum, **İhlal edildi** olarak görüntülenir.|
+|Yönetici portalındaki **Ekleme kodları** seçeneği|Durum aşağıdaki değerlerden biri olabilir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi|Durum **Devre dışı** görünür|Durum aşağıdaki değerlerden biri olabilir:<br>* Etkin<br>* Desteklenmiyor<br>* Engellendi<br><br>Bir kullanıcı, kiracı ayarına göre yetkilendirilmemişse durum, **İhlal edildi** olarak görüntülenir.|
 |Mevcut yayımlanmış raporlar|Tümü etkindir|Tümü devre dışıdır|Raporlar tüm kullanıcılar için görünür olmaya devam eder.|
 
 ### <a name="copy-and-paste-visuals"></a>Görselleri kopyala ve yapıştır
@@ -336,7 +336,7 @@ Kuruluştaki kullanıcılar .pbix dosyalarını ve sayfalandırılmış raporlar
 
 ### <a name="allow-live-connections"></a>Canlı bağlantılara izin ver
 
-Kuruluştaki kullanıcılar Power BI Live Connect hizmetini kullanabilir. Excel'de Analiz Et özelliği de buna dahildir.
+Kuruluştaki kullanıcılar Power BI Live Connect hizmetini kullanabilir. Canlı bağlantılara izin verilmesi kullanıcıların Excel'de Analiz Et seçeneğini de kullanmasını sağlar.
 
 ![Canlı bağlantılara izin ver ayarının ekran görüntüsü.](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
@@ -483,7 +483,7 @@ Kuruluştaki kullanıcılar, pano güvenlik düzeyleri belirten sınıflandırma
 
 ### <a name="web-content-on-dashboard-tiles"></a>Pano kutucuklarında web içeriği
 
-Kuruluştaki kullanıcılar, Power BI panolarındaki web içeriği kutucuklarını ekleyip görüntüleyebilir. [Daha fazla bilgi](../create-reports/service-dashboard-add-widget.md)
+Kuruluştaki kullanıcılar, Power BI panolarındaki web içeriği kutucuklarını ekleyip görüntüleyebilir. [Daha fazla bilgi edinin](../create-reports/service-dashboard-add-widget.md)
 
 > [!NOTE]
 > Bu, kuruluşunuzu kötü amaçlı web içerikleri aracılığıyla güvenlik risklerine açık hale getirebilir.
@@ -577,10 +577,11 @@ Yönetici olarak, kiracınızda bulunan çalışma alanlarını **Çalışma Ala
 - Çalışma alanının kimliği, panoları, raporları, veri kümeleri, kullanıcıları ve bu kullanıcıların rolleri gibi çalışma alanıyla ilgili ayrıntıları görüntüleme.
 - Erişim iznine sahip kişilerin listesini düzenleme. Başka bir deyişle, çalışma alanını silebilirsiniz. Kendinizi bir çalışma alanına yönetici olarak ekleyebilir, sonra çalışma alanını açıp silebilirsiniz.
 - Ad ve Açıklama alanlarını düzenleme.
+- Klasik çalışma alanlarını yeni çalışma alanı deneyimine yükseltme
 
 ![Çalışma alanları listesi](media/service-admin-portal/workspaces-list.png)
 
-Yöneticiler, kullanıcıların yeni çalışma alanı deneyimi sunan çalışma alanlarını ve klasik çalışma alanlarını oluşturabilme yeteneğini de denetleyebilir. Ayrıntılar için bu makalenin [Çalışma alanı ayarları](#workspace-settings) bölümüne bakın. 
+Yöneticiler, kullanıcıların yeni çalışma alanı deneyimi sunan çalışma alanlarını ve klasik çalışma alanlarını oluşturabilme yeteneğini de denetleyebilir. Ayrıntılar için bu makalenin [Çalışma alanı ayarları](#workspace-settings) bölümüne bakın.
 
 **Çalışma alanları** sekmesindeki tablo sütunları, çalışma alanları için [Power BI yönetici Rest API’si](/rest/api/power-bi/admin) tarafından döndürülen özelliklere karşılık gelir. Kişisel çalışma alanları **PersonalGroup** türünde, klasik çalışma alanları **Group** türünde ve yeni çalışma alanları deneyimi **Workspace** türündedir. Daha fazla bilgi için bkz. [Yeni çalışma alanlarında çalışmayı düzenleme](../collaborate-share/service-new-workspaces.md).
 
@@ -596,6 +597,18 @@ Yöneticiler, kullanıcıların yeni çalışma alanı deneyimi sunan çalışma
 Yöneticiler ayrıca yönetici portalını veya PowerShell cmdlet'lerini kullanarak çalışma alanlarını yönetebilir ve kurtarabilir. 
 
 ![Çalışma alanları listesi](media/service-admin-portal/workspaces-list.png)
+
+Yöneticiler, klasik çalışma alanlarını yeni çalışma alanı deneyimine yükseltebilir. Yöneticiler, yükseltmek için **Grup** türünde bir veya daha fazla çalışma alanını seçebilir. Yükseltme istekleri sıraya alınır ve zaman uyumsuz bir şekilde yürütülür. Hizmetin sorunsuz bir şekilde çalışmaya devam etmesini sağlamak için yönetici tarafından başlatılan yükseltme işlemlerinin hızı sınırlandığından **Bekliyor** durumundaki tüm yükseltme işlemlerinin tamamlanması dakikalar, hatta günler sürebilir. Yönetici tarafından başlatılan yükseltme işlemlerinin ilerleme durumunu **Çalışma alanı yükseltmesi durumu** sütunundan takip edebilirsiniz. Yöneticiler, **Bekliyor** durumundaki yükseltme işlemlerini iptal edebilir. Çalışma alanının hemen yükseltilmesi için Çalışma alanı yöneticisi ile iletişime geçerek yükseltme işlemini çalışma alanı ayarları bölmesinden başlatmasını isteyin. [Power BI'da yönetici tarafından başlatılan çalışma alanı yükseltmesini gerçekleştirmeden öne çalışma alanı yükseltme işlemi hakkında daha fazla bilgi edinin](../collaborate-share/service-upgrade-workspaces.md).
+
+Aşağıdaki tabloda yükseltme durumları hakkında daha ayrıntılı bilgiler verilmiştir.
+
+|Durum  |Açıklama  |
+|---------|---------|
+| **(Boş)** | Çalışma alanı bir Power BI yöneticisi tarafından yükseltilmiyor. |
+| **Bekleniyor** | Çalışma alanı yükseltilmek üzere sıraya alındı. Yükseltme iptal edilebilir. |
+| **Sürüyor** | Çalışma alanı etkin bir şekilde yükseltiliyor. Yükseltme iptal edilemez. |
+| **Tamamlandı** | Çalışma alanı, son 30 gün içinde bir Power BI yöneticisi tarafından yükseltildi. Çalışma alanı yöneticisi, çalışma alanını yükselttikten sonraki 30 günlük süre içinde klasik seçeneğe geri döndürebilir. |
+
 
 ## <a name="custom-branding"></a>Özel marka
 

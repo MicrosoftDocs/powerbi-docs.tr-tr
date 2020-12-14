@@ -7,29 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 08/22/2018
+ms.date: 12/02/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9167a5931976cdcec710ee79b347fcd0f33ba378
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 23e0c37d6f2cefc7197a873138dadc2e8ef6968e
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395314"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613958"
 ---
-# <a name="use-dashboard-themes-in-power-bi-service"></a>Power BI hizmetinde Pano Temaları kullanma
-**Pano Temaları** ile, bir renk temasını (kurumsal renkler, mevsim renkleri ve uygulamak isteyebileceğiniz diğer renk temaları) panonuzun tamamına uygulayabilirsiniz. Bir **Pano Teması** uyguladığınızda panonuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. (Bu makalenin devamında da açıklandığı üzere bazı özel durumlar söz konusudur.)
+# <a name="use-dashboard-themes-in-the-power-bi-service"></a>Power BI hizmetinde pano temaları kullanma
+**Pano temaları** ile, bir renk temasını (kurumsal renkler, mevsim renkleri ve uygulamak isteyebileceğiniz diğer renk temaları) panonuzun tamamına uygulayabilirsiniz. Bir pano teması uyguladığınızda panonuzdaki tüm görsellerde, seçtiğiniz temanın renkleri kullanılır. Bu makalenin [Önemli noktalar ve sınırlamalar](#considerations-and-limitations) bölümünde de açıklandığı üzere bazı özel durumlar söz konusudur.
 
-![tema içeren örnek pano](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
+![Tema arka plan görüntüsüne sahip örnek panonun ekran görüntüsü.](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-Panodaki rapor görsellerinin renklerini değiştirmek, rapordaki görselleri etkilemez. Ayrıca, bir raporun [rapor teması uygulanmış](desktop-report-themes.md) kutucuklarını sabitlediğinizde geçerli temayı tutma veya pano temasını kullanma seçeneği sunulur.
+Bir panodaki rapor görsellerinin renklerini değiştirmek ilgili rapordaki görselleri etkilemez. Ayrıca, bir raporun [rapor teması uygulanmış](desktop-report-themes.md) kutucuklarını sabitlediğinizde geçerli temayı tutabilir veya pano temasını kullanabilirsiniz.
 
 
 ## <a name="prerequisites"></a>Önkoşullar
 * Birlikte ilerleyebilmek için, [Satış ve Pazarlama örneği panosunu](sample-datasets.md) açın.
 
 
-## <a name="how-dashboard-themes-work"></a>Pano Temalarının işleyişi
-Başlamak için oluşturduğunuz (veya düzenleme iznine sahip olduğunuz) ve özelleştirmek istediğiniz bir panoyu açın. **Diğer seçenekler**’i (...) ve **Pano teması**’nı seçin. 
+## <a name="how-dashboard-themes-work"></a>Pano temalarının işleyişi
+Başlamak için kendi oluşturduğunuz veya düzenleme izinlerine sahip olduğunuz bir panoyu açın. **Düzenle** > **Pano teması**'nı seçin. 
 
 ![pano teması seçeneği](media/service-dashboard-themes/power-bi-dashboard-theme.png)
 
@@ -47,8 +47,8 @@ Power BI panoları için varsayılan tema **Açık**’tır. Renkleri özelleşt
 
 Kendi pano temanızı oluşturmak için özel seçenekleri kullanın. Arka plan görüntüsü ekleyecekseniz görüntünüzün en az 1920x1080 çözünürlüğe sahip olması önerilir. Bir görüntüyü arka plan olarak kullanmak için herkese açık bir web sitesine yükleyin, URL'yi kopyalayın ve **Görüntü URL'si** alanına yapıştırın. 
 
-### <a name="using-json-themes"></a>JSON temaları kullanma
-Özel tema oluşturmanın başka bir yolu ise panonuz için kullanmak istediğiniz tüm renklere ilişkin ayarları olan bir JSON dosyasını karşıya yüklemektir. Power BI Desktop'ta rapor oluşturucular, [raporlar için tema oluşturmak](desktop-report-themes.md) üzere JSON dosyalarını kullanır. Aynı JSON dosyaları panolar için karşıya yüklenebilir veya JSON dosyalarını Power BI Topluluğu’ndaki [Tema galeri sayfasından](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery) karşıya yükleyebilirsiniz 
+## <a name="use-a-json-theme"></a>JSON teması kullanma
+Özel tema oluşturmanın başka bir yolu ise panonuz için kullanmak istediğiniz tüm renklere ilişkin ayarları olan bir JSON dosyasını karşıya yüklemektir. Power BI Desktop'ta rapor oluşturucular, [raporlar için tema oluşturmak](desktop-report-themes.md) üzere JSON dosyalarını kullanır. Panolar için aynı JSON dosyalarını karşıya yükleyebilir veya Power BI Topluluğu’ndaki [Tema galeri sayfasından](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery) farklı JSON dosyaları bulup bunları karşıya yükleyebilirsiniz. 
 
 ![Tema galeri sitesi](media/service-dashboard-themes/power-bi-theme-gallery.png)
 
@@ -56,7 +56,7 @@ Ayrıca, özel temanızı bir JSON dosyası olarak kaydedebilir ve sonra diğer 
 
 ### <a name="use-a-theme-from-the-theme-gallery"></a>Tema Galerisinden tema kullanma
 
-Yerleşik ve özel seçeneklerde olduğu gibi, tema karşıya yüklendiğinde renkler panodaki tüm kutucuklara otomatik olarak uygulanır. 
+Yerleşik ve özel seçeneklerde olduğu gibi karşıya bir tema yüklediğinizde renkler panodaki tüm kutucuklara otomatik olarak uygulanır. 
 
 1. Bir temanın üzerine gelin ve **Raporu görüntüle**’yi seçin.
 
@@ -76,19 +76,66 @@ Yerleşik ve özel seçeneklerde olduğu gibi, tema karşıya yüklendiğinde re
 
     ![yeni tema uygulanmış](media/service-dashboard-themes/power-bi-json.png)
 
-## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
+## <a name="reports-and-dashboards-with-different-themes"></a>Farklı temalara sahip raporlar ve panolar
 
-* Raporunuzda panodan farklı bir tema kullanılıyorsa görselin geçerli temayı mı yoksa farklı kaynaklardan gelen görsellerde tutarlılığı yakalamak için pano temasını mı kullanacağını belirleyebilirsiniz. Panoya bir kutucuk sabitlerken rapor temasını tutmak için **Geçerli temayı tut**’u seçin. Panodaki görsel, şeffaflık ayarları ile birlikte rapor temasını tutar. 
+Raporunuzda panodan farklı bir tema kullanılıyorsa çoğu durumda görselin geçerli temayı mı yoksa pano temasını mı kullanacağını belirleyebilirsiniz. Ancak panolardaki kart görselleri için "DIN" yazı tipi ailesi ve siyah metinler kullanılır. Özel bir pano teması oluşturarak kartlar dahil olmak üzere bir panodaki tüm kutucukların metin rengini değiştirebilirsiniz.
 
-    **Kutucuk Teması Oluşturma** seçeneklerini yalnızca raporu Power BI Desktop’ta oluşturduysanız, [bir rapor teması eklediyseniz](desktop-report-themes.md) ve sonra raporu Power BI hizmetinde yayımladıysanız görürsünüz. 
+- Panoya bir kutucuk sabitlerken rapor temasını tutmak için **Geçerli temayı tut**’u seçin. Panodaki görsel, şeffaflık ayarları ile birlikte rapor temasını tutar.
+
+    **Kutucuk Teması Oluşturma** seçeneklerini yalnızca raporu Power BI Desktop’ta oluşturduysanız, [bir rapor teması eklediyseniz](desktop-report-themes.md) ve sonra raporu Power BI hizmetinde yayımladıysanız görürsünüz.
 
     ![Geçerli temayı tut seçilmiş](media/service-dashboard-themes/power-bi-keep-current.png)
 
-    Kutucuğu yeniden sabitlemeyi ve **Pano teması kullan**’ı seçmeyi deneyin.
+- Kutucuğu yeniden sabitlemeyi ve **Pano teması kullan**’ı seçmeyi deneyin.
 
     ![Hedef temayı kullan](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* Pano temaları; sabitlenmiş canlı rapor sayfaları, iframe kutucukları, SSRS kutucukları, çalışma kitabı kutucukları ya da görüntülere uygulanamaz.
-* Pano temaları, mobil cihazlar üzerinde görüntülenebilir ancak bir pano teması yalnızca Power BI hizmetinde oluşturulabilir. 
-* Pano özel temaları yalnızca raporlardan sabitlenmiş kutucuklarla çalışır. 
+## <a name="dashboard-theme-json-file-format"></a>Pano teması JSON dosya biçimi
 
+En temel düzeyinde, tema JSON dosyasında yalnızca bir gerekli satır vardır: **name**.
+
+```json
+{
+    "name": "Custom Theme"
+}
+```
+
+**name** dışındaki her şey isteğe bağlıdır. Tema dosyasına yalnızca özellikle istediğiniz özellikleri eklemekte ve geri kalanı için Power BI’ın varsayılan özelliklerini kullanmakta serbestsiniz.
+
+Pano teması oluşturmak için kullanılan JSON dosyasında şunlar bulunur:
+
+- name: Temanın adı (gerekli olan tek alandır).
+- foreground ve background: Panoda kullanılacak renkler.
+- dataColors: Grafiklerdeki veriler için kullanılacak onaltılık renk kodlarının listesi. İstediğiniz kadar renk ekleyebilirsiniz.
+- tiles: Panolar için arka plan ve renk yapılandırmaları.
+- visualStyles: Görseller için ayrıntılı biçimlendirme.
+
+Aşağıda varsayılan Açık temaya ait örnek tema JSON dosyası verilmiştir:
+
+```json
+{
+
+"name":"Light",
+
+"foreground":"#000000",
+
+"background":"#EAEAEA",
+
+"dataColors":["#01B8AA","#374649","#FD625E","#F2C80F","#5F6B6D","#8AD4EB","#FE9666","#A66999"],
+
+"tiles":{"background":"#FFFFFF","color":"#000000"},
+
+"visualStyles":{"*":{"*":{"*":[{"color":{"solid":{"color":"#000000"}}}]}}}
+
+}
+```
+
+## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
+
+* Pano temalarını sabitlenmiş canlı rapor sayfalarına, iframe kutucuklarına, SSRS kutucuklarına, çalışma kitabı kutucuklarına ya da görüntülere uygulayamazsınız.
+* Pano temalarını mobil cihazlarda görürsünüz ancak pano temalarını yalnızca Power BI hizmetinde oluşturabilirsiniz.
+* Pano özel temaları yalnızca raporlardan sabitlenmiş kutucuklarla çalışır.
+
+## <a name="next-steps"></a>Sonraki adımlar
+
+- [Raporlara tema uygulama](desktop-report-themes.md)

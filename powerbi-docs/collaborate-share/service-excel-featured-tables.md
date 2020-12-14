@@ -1,22 +1,22 @@
 ---
-title: Excel’de Power BI öne çıkan tablolarına erişme (önizleme)
-description: Excel’de Veri Türleri Galerisinde Power BI veri kümelerindeki öne çıkan tablolardan veri bulabilirsiniz.
+title: Excel’de Power BI öne çıkan tablolarına erişme
+description: Excel’de Kuruluş Veri Türleri Galerisinde Power BI veri kümelerindeki öne çıkan tablolardan veri bulabilirsiniz.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/04/2020
+ms.date: 12/07/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 95ccc80a37ad9703c60c82ce928d35b5e301947b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b5f84f67231393dfed78bd9f90142fbd1b4f6c91
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407320"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907051"
 ---
-# <a name="access-power-bi-featured-tables-in-excel-preview"></a>Excel’de Power BI öne çıkan tablolarına erişme (önizleme)
+# <a name="access-power-bi-featured-tables-in-excel-organization-data-types"></a>Excel kuruluş veri türlerindeki Power BI öne çıkan tablolarına erişme
 
 *Öne çıkan tablolar*, Excel’deki verilerinizi Power BI’daki verilerle bağlantılandırmanın bir yoludur. Bu, Excel sayfalarınıza kurumsal veriler eklemenizi kolaylaştırır. Excel’de Veri Türleri Galerisinde Power BI veri kümelerindeki öne çıkan tablolardan veri bulabilirsiniz. Bu makalede nasıl olduğu açıklanmaktadır.
 
@@ -41,11 +41,11 @@ Power BI öne çıkan tablosunda verileri aramak için, Excel sayfanızda öne �
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-types-more.png" alt-text="Excel Veri Türleri Galerisindeki Diğer simgesinin ekran görüntüsü.":::
 
-Aradığınız tabloyu görürseniz seçin. Aksi takdirde, **Kuruluşunuzdaki diğerleri**’ni seçin. Excel, erişiminiz olan tüm öne çıkan tablolarda eşleşme arar.
+Aradığınız tabloyu görürseniz seçin. Aksi takdirde, **Kuruluşunuzdaki diğerleri**’ni seçin. Excel, erişim sahibi olduğunuz tüm öne çıkan tabloları bu bölmede görüntüler.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-more-your-organization.png" alt-text="Kuruluşunuzdan (önizleme) seçeneğini belirleme ekran görüntüsü.":::
  
-Excel tüm olası tabloları görüntüler. **Veri Seçicisi** bölmesinde **Filtre** kutusuna giriş yaparak seçeneklerinizi daraltın. Eşleşen tabloyu seçin.
+Excel, erişim sahibi olduğunuz tüm öne çıkan tabloları görüntüler. **Veri Seçicisi** bölmesinde **Filtre** kutusuna giriş yaparak seçeneklerinizi daraltın. Kullanmak istediğiniz tabloyu seçin.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-selector-store.png" alt-text="Excel Kuruluş Verileri, Sağlayıcılar veri türü tablosunun ekran görüntüsü.":::
  
@@ -120,15 +120,13 @@ Ayrıca tek tek hücreleri de yenileyebilirsiniz. Hücreye sağ tıklayın ve **
 
 ## <a name="licensing"></a>Lisanslama
 
-Excel Veri Türleri Galerisi ve Power BI öne çıkan tablolarına bağlantı deneyimleri yalnızca Excel E5 ve G5 müşterilerine yöneliktir. 
+Excel Veri Türleri Galerisi ve Power BI öne çıkan tablolarına bağlantı deneyimleri, Power BI Pro hizmet planına sahip Excel aboneleri tarafından kullanılabilir. 
 
 ## <a name="security"></a>Güvenlik
 
 Yalnızca Power BI’da izniniz olan veri kümelerindeki öne çıkan tabloları görürsünüz. Verileri yenilerken, satırları almak için Power BI’daki veri kümesine erişim izniniz olmalıdır. Power BI’da [Veri kümesi üzerinde Oluşturma veya Yazma izni](../connect-data/service-datasets-build-permissions.md) gerekir.
  
 Excel, satırın tamamı için döndürülen verileri önbelleğe alır. Excel dosyasını paylaştığınız herkes tüm bağlantılı hücrelerdeki alanların tümünü görebilir.
-
-Power BI veri kümesinin satır düzeyi güvenliği varsa veya veri kümesine Microsoft Bilgi Koruması duyarlılık etiketi uygulandıysa, bu veri kümesindeki öne çıkan tablolar Excel Veri Türleri Galerisi’ne eklenmez. Bu ilk önizlemenin sınırlamalarından biridir.
 
 ## <a name="administrative-control"></a>Yönetim denetimi
 
@@ -145,28 +143,25 @@ Denetim günlüğü olaylarının tam listesi için bkz. [Power BI’da kullanı
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-İlk önizlemenin sınırlamaları şunlardır:
+Geçerli sınırlamalar şunlardır:
 
-- Tümleştirme Excel Insider Derlemelerinde kullanılabilir.
-- Excel Veri Türleri Galerisi, Power BI Desktop ve Power BI hizmetinde uygun lisansa sahip olan kullanıcılara yönelik öne çıkan tabloları içerir. Power BI hizmeti desteği önizlemenin lansmanında sağlanmıyor olabilir ama eklenecektir.
+- Tümleştirme geçerli kanaldaki Excel ile kullanılabilir.
 - Aşağıdaki özelliklerin kullanıldığı Power BI veri kümelerindeki öne çıkan tablolar Excel’de gösterilmez: 
 
-    - Satır düzeyi güvenlik veri kümeleri.
-    - Microsoft Information Protection’ın etkinleştirildiği veri kümeleri.
     - DirectQuery veri kümeleri.
     - Canlı bağlantısı olan veri kümeleri.
 
-- Excel yalnızca öne çıkan tablonun sütunlarında ve hesaplanan sütunlarında bulunan verileri gösterir. İlk önizlemede aşağıdakiler sağlanmaz:
+- Excel yalnızca öne çıkan tablonun sütunlarında, hesaplanan sütunlarında ve tanımlanmış ölçülerde bulunan verileri gösterir. Aşağıdakiler sağlanmaz:
+   
+    - İlgili tablolarda tanımlanmış ölçüler.
+    - İlişkilerden hesaplanan örtülü ölçüler.
 
-    - Öne çıkan tabloda tanımlanan ölçüler.
-    - İlgili tablolarda tanımlanan ölçüler ve ilişkilerden hesaplanan örtük ölçüler.
-
-- Excel yalnızca yeni Power BI çalışma alanlarında depolanan öne çıkan tabloları (*veri türlerini*) görüntüler. Klasik çalışma alanlarında veya Çalışma Alanım’da depolanan öne çıkan tablolar Excel’de veri türleri olarak gösterilmez. Power BI'da [klasik çalışma alanlarını yeni çalışma alanlarına yükseltebilirsiniz](service-upgrade-workspaces.md).
+- Excel yalnızca yeni Power BI çalışma alanlarında depolanan öne çıkan tabloları (*veri türlerini*) görüntüler. Klasik çalışma alanlarında depolanan öne çıkan tablolar Excel’de veri türleri olarak gösterilmez. Power BI'da [klasik çalışma alanlarını yeni çalışma alanlarına yükseltebilirsiniz](service-upgrade-workspaces.md).
 
 Excel’deki Veri Türleri deneyimi arama işlevine benzer. Excel sayfası tarafından sağlanan bir hücre değerini alır ve Power BI öne çıkan tablolardaki eşleşen satırlar için arama yapar. Arama deneyiminin şöyle davranışları vardır:
 
-- Arama yapmak için **Kuruluş Verileri** düğmesi kullanıldığında Excel yalnızca Power BI veri kümelerinde öne çıkan tablolarda arama yapar.
-- Satır eşleşmesi öne çıkan tablodaki metin sütunlarına dayanır. Power BI Soru-Cevap özelliğiyle aynı dizini kullanır. Bu dizin İngilizce dilinde yapılan aramalar için iyileştirilmiştir. Başka dillerde yapılan aramaların sonucunda doğru eşleşmeler bulunamayabilir. Eşleşmede sayısal sütunlar dikkate alınmaz.
+- Satır eşleşmesi öne çıkan tablodaki metin sütunlarına dayanır. Power BI Soru-Cevap özelliğiyle aynı dizini kullanır. Bu dizin İngilizce dilinde yapılan aramalar için iyileştirilmiştir. Başka dillerde yapılan aramaların sonucunda doğru eşleşmeler bulunamayabilir. 
+- Eşleşmede çoğu sayısal sütun dikkate alınmaz. Satır Etiketi veya Anahtar Sütunu sayısal ise eşleşme için dahil edilir.
 - Eşleşme tek tek arama terimlerinin Tam ve Ön Ek eşleşmelerine dayanır. Hücrenin değeri boşluklara ve sekme gibi boşluk karakterlerine göre bölünür. Sonra da her sözcük bir arama terimi olarak kabul edilir. Satırın metin alanı değerleri, Tam ve Ön Ek eşleşmeleri için her arama terimiyle karşılaştırılır. Satırın metin alanı arama terimiyle başlıyorsa Ön Ek eşleşmesi döndürülür. Örneğin hücre “Bölgesel Harita” ifadesini içeriyorsa, “Bölgesel” ve “Harita” ayrı arama terimleridir. 
 
     - Metin sütunlarının değeri “Bölgesel” veya “Harita” ile tam olarak eşleşen satırlar döndürülür. 
@@ -174,10 +169,11 @@ Excel’deki Veri Türleri deneyimi arama işlevine benzer. Excel sayfası taraf
     - Burada önemli olan, “Bölgesel” veya “Harita” terimini içeren ama bu terimlerle başlamayan satırlar döndürülmez.
 
 - Power BI her hücre için en çok 100 satır önerisi döndürür.
+- Bazı simgeler desteklenmez.
 - Öne çıkan tablonun ayarlanması veya güncelleştirilmesi XMLA uç noktasında desteklenmez
 - Öne çıkan tabloları yayımlamak için veri modeli olan Excel dosyaları kullanılabilir. Verileri Power BI Desktop’a yükleyin ve ardından öne çıkan tabloyu yayımlayın.
 - Öne çıkan tabloda Tablo Adı, Satır Etiketi veya Anahtar Sütunu’nun değiştirilmesi, tablodaki satırlara bağlı hücreleri olan Excel kullanıcılarını etkileyebilir. 
-- Excel verilerin Power BI veri kümesinden ne zaman alındığını gösterir. Bu, Power BI’da verilerin yenilendiği zaman veya veri kümesindeki en son veri noktası olmayabilir. Örneğin veri kümesinin Power BI’da bir hafta önce yenilendiğini ama yenileme yapıldığında temel kaynak verilerin bir haftalık olduğunu düşünün. Gerçek veriler iki haftalık olacaktır ama Excel verilerin alınma zamanı olarak, verilerin Excel’e alındığı tarihi/saati gösterecektir.
+- Excel verilerin Power BI veri kümesinden ne zaman alındığını gösterir. Bu, Power BI’da verilerin yenilendiği zaman veya veri kümesindeki en son veri noktası olmayabilir. Örneğin veri kümesinin Power BI’da bir hafta önce yenilendiğini ama yenileme yapıldığında temel kaynak verilerin bir haftalık olduğunu düşünün. Gerçek veriler iki haftalık olacaktır ama Excel verilerin alınma zamanı olarak, verilerin Excel’e alındığı tarihi/saati gösterecektir. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

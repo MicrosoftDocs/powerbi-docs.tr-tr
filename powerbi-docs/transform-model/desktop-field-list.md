@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 11/11/2020
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 834df274d4cc75af1087ab4fa7d24c2fd7dd4fec
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ced861f0d229153866c1d52616494f8b444220ae
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416014"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536496"
 ---
 # <a name="using-the-field-list-in-power-bi-desktop-preview"></a>Power BI Desktop’ta Alan listesini kullanma (önizleme)
 
@@ -55,6 +55,8 @@ Aşağıdaki tablolarda alan listesi güncelleştirmeleri gösterilir:
 |![Tablo için özgün bağlam menüsü](media/desktop-field-list/field-list-03a.png)     |![Tablo için yeni bağlam menüsü](media/desktop-field-list/field-list-03b.png)    |
 |**Araç İpuçları**       ||
 |![özgün araç ipucu](media/desktop-field-list/field-list-04a.png)     |![yeni araç ipucu](media/desktop-field-list/field-list-04b.png)    |
+
+## <a name="field-list-icons"></a>Alan listesi simgeleri
 
 Ayrıca, yeni Alan listesi simgeleri de vardır. Aşağıdaki tabloda, özgün simgeler ve yeni karşılıklarının gösterilmesinin yanı sıra, her birine ilişkin kısa bir açıklama sağlanır. 
 

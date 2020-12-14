@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 17c0a4d0809aa87f50225e0c59ca3962776bd2b1
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 41b8cfe8515efbf3cc42794afcb2562f7d0c171a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514520"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907107"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
 
@@ -170,7 +170,7 @@ Azure AD’de oluşturduğunuz güvenlik grubunu **Geliştirici ayarlarının** 
 >Hizmet sorumlusu erişimini belirli kiracı ayarlarıyla sınırlamak için yalnızca belirli güvenlik gruplarına erişim izni verin. Dilerseniz hizmet sorumluları için ayrılmış bir güvenlik grubu oluşturabilir ev bu grubu istediğiniz kiracı ayarlarından dışlayabilirsiniz.
 
 >[!div class="mx-imgBorder"]
->:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="Power BI portalındaki yönetici seçeneklerinde bulunan geliştirici ayarlarını gösteren ekran görüntüsü.":::
+>:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="Power BI hizmetindeki yönetici seçeneklerinde bulunan geliştirici ayarlarını gösteren ekran görüntüsü.":::
 
 ## <a name="step-4---add-the-service-principal-to-your-workspace"></a>4\. Adım: Hizmet sorumlusunu çalışma alanınıza ekleme
 
@@ -195,12 +195,9 @@ Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama
 
 ## <a name="step-5---embed-your-content"></a>5\. Adım: İçeriğinizi ekleme
 
-İçeriğinizi örnek bir uygulamanın veya kendi uygulamanızın içine ekleyebilirsiniz.
+[İçeriğinizi örnek bir uygulamanın](embed-sample-for-customers.md) veya kendi uygulamanızın içine ekleyebilirsiniz.
 
-* [Örnek uygulamayı kullanarak içeriği ekleme](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-* [İçeriği uygulamanızın içine ekleme](embed-sample-for-customers.md#embed-content-within-your-application)
-
-İçeriğinizi ekledikten sonra [üretime taşımaya](embed-sample-for-customers.md#move-to-production) hazırsınızdır.
+İçeriğinizi ekledikten sonra [üretime taşımaya](move-to-production.md) hazırsınızdır.
 
 >[!NOTE]
 >İçeriğinizin güvenliğini sertifika kullanarak sağlamak için [Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme](embed-service-principal-certificate.md) makalesindeki adımları izleyin.

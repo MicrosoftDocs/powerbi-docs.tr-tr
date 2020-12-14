@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/12/2020
-ms.openlocfilehash: e26e273ff16d67defb9299c226a8435a75b93661
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/07/2020
+ms.openlocfilehash: 4368230812d90031d1f7cf83d426fc1508382412
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398419"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781946"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporları için desteklenen veri kaynakları
 
@@ -30,7 +30,7 @@ Sayfalandırılmış raporlar aşağıdaki veri kaynakları listesini yerel olar
 | Azure SQL Veritabanı <br>Azure SQL Veri Ambarı | Temel, çoklu oturum açma (SSO), OAuth2 | Azure SQL Veritabanı ile Kurumsal Ağ Geçidi kullanabilirsiniz. Bununla birlikte söz konusu senaryolarda kimlik doğrulaması için SSO veya oAuth2 kullanamazsınız.   |
 | Azure SQL Yönetilen Örneği | Temel | Ortak veya Özel Uç Nokta aracılığıyla (Özel Uç Nokta’nın Kurumsal Ağ Geçidi üzerinden yönlendirilmesi gerekir)  |
 | Azure Analysis Services | SSO, OAuth2 | AAS güvenlik duvarının BlackForest bölgesindeki tüm IP aralıklarına izin verecek şekilde devre dışı bırakılması ve yapılandırılması gerekir. Bu yalnızca BlackForest bölgesinde geçerlidir.  Dış kiracılardan SSO desteklenmez. |
-| Power BI veri kümesi | SSO | Premium ve Premium olmayan Power BI veri kümeleri. Okuma izni gerektirir |
+| Power BI veri kümesi | SSO | Premium ve Premium olmayan Power BI veri kümeleri. Okuma izni gerektirir. Yalnızca İçeri Aktarma modu ve DirectQuery Power BI veri kümeleri desteklenir. |
 | Premium Power BI veri kümesi (XMLA) | SSO | Power BI veri kümeleri, “uygulamanın verilere sahip olması” senaryolarındaki ekli sayfalandırılmış raporlar için veri kaynağı olarak desteklenmez.  Power BI Rapor Oluşturucusu’nda düzgün bağlantıyı güvence altına almak için, veri kaynağınızı ayarlarken “Kimlik bilgilerini kullanma” seçeneğinin belirlendiğinden emin olun.   |
 | Veri Gir | YOK | Veriler rapora katıştırılmıştır. |
 

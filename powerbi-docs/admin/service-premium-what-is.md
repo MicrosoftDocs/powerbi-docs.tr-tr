@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/20/2020
+ms.date: 12/04/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6fcbdeef8c7c02656e5637f6103fda76faeb26c9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1ab5fb15f910b420781564da8f26cf5cd7ccd7df
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412288"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781831"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -74,9 +74,9 @@ Aşağıdaki resimde, Premium 2. Nesil’i nasıl etkinleştirebileceğiniz gös
 
 Şu anda aşağıdaki sınırlamaların Premium 2. Nesil’de uygulandığı bilinmektedir:
 
-1.  Premium 2. Nesil kapasite kullanımı ölçümler uygulamasında izlenemez.
+1.    Premium 2. Nesil kapasite kullanımı ölçümler uygulamasında izlenemez.
 
-2.  Belirli iş yüklerine yönelik Premium 2. Nesil kapasite ayarları henüz yönetici portalındaki Premium 2. Nesil kapasite ayarları sayfasında görünmez. Ayarları değiştirmek için kapasiteyi özgün Premium sürümüne geçirin, ayarları değiştirin ve sonra kapasiteyi yeniden Premium 2. Nesil’i kullanacak şekilde ayarlayın. Bellek ayırma ayarları Premium 2. Nesil kapasiteler için geçerli değildir.
+2.    Belirli iş yüklerine yönelik Premium 2. Nesil kapasite ayarları henüz yönetici portalındaki Premium 2. Nesil kapasite ayarları sayfasında görünmez. Ayarları değiştirmek için kapasiteyi özgün Premium sürümüne geçirin, ayarları değiştirin ve sonra kapasiteyi yeniden Premium 2. Nesil’i kullanacak şekilde ayarlayın. Bellek ayırma ayarları Premium 2. Nesil kapasiteler için geçerli değildir.
 
 3.  Premium 2. Nesil üzerinde XMLA kullanıyorsanız [veri modelleme ve yönetim araçlarının](service-premium-connect-tools.md#data-modeling-and-management-tools) en güncel sürümlerini kullandığınızdan emin olun. 
 
@@ -272,11 +272,13 @@ Aşağıdaki tabloda, .pbix dosyasını karşıya yüklemek veya Power BI hizmet
    |---------|---------|
    |P1    | 3 GB’tan küçük        |
    |P2    | 6 GB’tan küçük        |
-   |P3, P4, P5    | 10 GB'a kadar   |
+   |P3, P4, P5    | 10 GB'a kadar  |
 
 Power BI Embedded A4 SKU’su P1 SKU, A5 = P2 ve A6 = P3’e eşittir.
 
-Bir veri kümesinde [büyük modelleri](service-premium-large-models.md) etkinleştirirseniz, .pbix dosya boyutu sınırlamaları dosyaları karşıya yükleme veya yayımlama işlemleri için geçerli olmaya devam eder. Ancak, artımlı yenileme ve büyük modellerin birleştirilmesiyle, veri kümeleri bu sınırlamalardan çok daha fazla büyüyebilir. Büyük modellerle veri kümesi boyutu yalnızca Power BI Premium kapasitesi boyutuyla sınırlıdır.
+### <a name="large-dataset-storage-format"></a>Büyük veri kümesi depolama biçimi
+
+Bir veri kümesinde [Büyük veri kümesi depolama biçimi](service-premium-large-models.md) ayarını etkinleştirirseniz, .pbix dosya boyutu sınırlamaları dosyaları karşıya yükleme veya yayımlama işlemleri için geçerli olmaya devam eder. Büyük veri kümesi depolama biçimi, karşıya yükleme boyutu sınırını etkilemez. Ancak artımlı yenileme ve büyük veri kümesi depolama biçimi etkinleştirilmiş şekilde hizmette yayımlanan veri kümeleri bu sınırların üzerine çıkabilir. Büyük veri kümesi depolama biçiminde veri kümesi boyutu yalnızca Power BI Premium kapasitesi boyutuyla sınırlıdır.
 
 .pbix dosyalarınız, verileri *yüksek oranda sıkıştırılmış durumda* gösterir. Muhtemelen veriler belleğe yüklenirken genişletilir ve veri yenileme sırasında birkaç kez daha genişletilebilir.
 

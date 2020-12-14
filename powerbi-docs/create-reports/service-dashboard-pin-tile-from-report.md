@@ -8,14 +8,14 @@ featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/23/2019
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5aa34834df49d54be885d94a1a1c06e13891ead1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ad3a38fa8aef4f5404196213ebd3c7b26d3fc3b8
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417348"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578418"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Raporlardan Power BI panolarına kutucuk sabitleme
 
@@ -58,10 +58,12 @@ Diğer bir seçenek de bir rapor sayfasının tamamını panoya sabitlemektir ve
 
 Daha fazla bilgi için bkz. [Rapor sayfasının tamamını sabitleme](service-dashboard-pin-live-tile-from-report.md).
 
-> [!NOTE]
-> Bazı biçimlendirme seçenekleri, bir panoya sabitlendiğinde görsellere uygulanmaz. Sabitlenmiş kutucukta kenarlık, gölge ve arka plan ayarları yoksayılır. Kart görselleri için, değerde kullanılan metin “DIN” yazı tipi ailesi kullanılarak her zaman panolarda gösterilir. 
-> 
->
+## <a name="limitations"></a>Sınırlamalar
+Bazı rapor biçimlendirme seçenekleri veya temalar, panoya sabitlediğiniz görsellere uygulanmaz.
+- Sabitlenmiş kutucukta kenarlık, gölge ve arka plan ayarları yoksayılır.
+- Kart görselleri için, değerde kullanılan metin panolarda “DIN” yazı tipi ailesi kullanılarak ve siyah metinle gösterilir. [Özel bir pano teması oluşturarak](service-dashboard-themes.md) bir panodaki tüm kutucukların metin rengini değiştirebilirsiniz.
+- Koşullu biçimlendirme uygulanmaz.
+- Görsellerin boyutu, kutucuğun boyutuna göre ayarlanır. Bu nedenle görsel raporda yeniden boyutlandırılmış gibi görünebilir ve rapor düzeni değişebilir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 - [Panoların Power BI hizmeti tüketicileri için anlamı](../consumer/end-user-dashboards.md)

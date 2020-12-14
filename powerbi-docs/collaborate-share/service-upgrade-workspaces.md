@@ -9,12 +9,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f5a76783d91da610a447667a9ea648bbcebbdc8b
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411621"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577636"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Power BI'da klasik çalışma alanlarını yeni çalışma alanlarına yükseltme
 
@@ -22,6 +22,10 @@ Bu makalede klasik bir çalışma alanını yeni çalışma alanı deneyimine y�
 
 >[!NOTE]
 >Çalışma alanı yükseltmesi Genel Önizleme olarak kullanıma sunuldu. 
+
+>[!NOTE]
+>Çalışma alanı yükseltmesi bir Power BI yöneticisi tarafından başlatılabilir. Çalışma alanı yöneticileri, çalışma alanı Power BI yöneticileri tarafından yükseltildiğinde bir e-posta alır. [Daha fazla bilgi](../admin/service-admin-portal.md#workspaces) 
+
 
 ![Yükseltme başarılı](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -68,6 +72,7 @@ Yükseltmeyi az sayıda kullanıcının etkin olarak çalışma alanını görü
 - Klasik çalışma alanınızın Microsoft 365 grubu Power BI'daki çalışma alanı yükseltmesinden etkilenmez. Microsoft 365 tarafından yönetilen Teams, SharePoint siteleri, posta kutuları veya diğer kaynaklar değişmez. Power BI çalışma alanınızı yükselttikten sonra bunlar olduğu gibi kalır. Microsoft 365 grubu daha önce olduğu gibi var olmaya devam eder.
 - Yükseltmeden sonra çalışma alanınızın güvenliği sağlama yönteminde değişiklikler olur. Ayrıntılar için [yükseltmeden sonra çalışma alanı izinleri](#permissions-after-upgrade) bölümüne bakın.
 - İhtiyacınız olabileceği düşünülerek **klasik çalışma alanına dönme** seçeneği sağlanmıştır. Öte yandan bu seçenek çalışma alanının yükseltme öncesi durumunu tüm yönleriyle geri yüklemez. Yalnızca yeni çalışma alanı deneyiminde çalışan özellikleri kullanmaya başladıysanız geri dönemezsiniz. Geri dönme seçeneği, yükseltmeyi izleyen 30 gün içinde kullanılabilir.
+- Power BI yöneticileri, çalışma alanı yükseltmesi başlatabilir. Çalışma alanı yöneticileri, çalışma alanı Power BI yöneticisi tarafından yükseltildiğinde bir e-posta alır.
 
 ## <a name="permissions-after-upgrade"></a>Yükseltmeden sonraki izinler
 
@@ -193,12 +198,14 @@ Klasik çalışma alanına dönün, özgün çalışma alanının eksiksiz bir k
 
 ## <a name="manage-migration-to-the-new-workspaces-for-your-tenant"></a>Kiracınız için yeni çalışma alanlarına geçişi yönetme 
 
-Bazı kuruluşlar çalışma alanlarının çoğunu veya tümünü yeni çalışma alanı deneyimine taşımak ister. Çalışma alanı yükseltme araçları, çalışma alanı yöneticilerinin yükseltme yapabilmesine odaklanır. Böyle bir işlemi yönetmek isteyen kuruluşlar aşağıdaki adımları uygulayabilir.
+Yeni çalışma alanı deneyimine önceden geçiş yapmak isteyen kuruluşlar bunun için Power BI yönetici portalını kullanabilir. Power BI yöneticisi yükseltmek üzere bir veya daha fazla çalışma alanı seçebilir. Power BI yöneticisi tarafından başlatılan çalışma alanı yükseltmeleri, çalışma alanı yöneticisi tarafından başlatılan çalışma alanı yükseltmeleriyle aynı önemli noktalara ve sınırlamalara tabidir. [Daha fazla bilgi edinin](../admin/service-admin-portal.md#workspaces) 
+
+Bu tür bir süreç izlemek isteyen kuruluşların durumdan etkilenen çalışma alanı yöneticileriyle sağlıklı iletişim kurma amacıyla aşağıdaki adımları izlemeleri önerilir.
 
 1. Power BI yönetim portalında çalışma alanı listesi ve buna karşılık gelen API, Power BI'da tüm çalışma alanlarının listesini sağlar. Klasik çalışma alanları listede Grup türünde gösterilir.
-2. Çalışma alanlarını yükseltmeleri için tek tek grup sahipleriyle veya Microsoft 365 yöneticinizle birlikte çalışın. Çalışma alanını yükseltmek istiyorsanız grubun Sahibi olmanız gerekir.
+2. Grup sahipleriyle veya Microsoft 365 yöneticinizle birlikte çalışarak klasik çalışma alanlarını yükseltme planlarınız hakkında onlara bilgi verin.
 
-Çalışma alanı yükseltme özelliği toplu veya programlı yükseltme için araç sağlamaz. Bunlara ek olarak, kuruluşunuzda yeni oluşturulan Microsoft 365 grupları Power BI'da gösterilmeye devam eder.
+Çalışma alanı yükseltme özelliği, program aracılığıyla yükseltme için araç sağlamaz. Bunlara ek olarak, kuruluşunuzda yeni oluşturulan Microsoft 365 grupları Power BI'da gösterilmeye devam eder.
    
    
 ## <a name="known-issues"></a>Bilinen sorunlar
@@ -213,4 +220,5 @@ Yükseltme sonrasında bilinen bazı sorunlarla karşılaşabilirsiniz:
 * [Yeni çalışma alanı deneyimlerinde çalışmayı düzenleme](service-new-workspaces.md)
 * [Yeni çalışma alanlarını oluşturma](service-create-the-new-workspaces.md)
 * [Klasik çalışma alanları oluşturma](service-create-workspaces.md)
+* [Power BI yöneticisi tarafından başlatılan çalışma alanı yükseltmesini gerçekleştirme](../admin/service-admin-portal.md#workspaces)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

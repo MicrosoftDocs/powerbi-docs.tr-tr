@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c8d756a80cf6d748f3ff33298b3a243f82197734
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 845499bc236489932bf1347c43f7a5ba71c21a6b
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668661"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907337"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI ile kullanmak için Azure AD uygulamasını kaydetme
 
@@ -32,7 +32,7 @@ Müşterileriniz için tasarlanan bir uygulama oluşturmayı planlıyorsanız [m
 
 * **Ana kullanıcı** hesabı (Power BI'da oturum açmak için kullanılan bir Power BI Pro lisansı)
 
-*  [Hizmet sorumlusu](embed-service-principal.md)
+* [Hizmet sorumlusu](embed-service-principal.md)
 
 Müşterileriniz için ekleme çözümü genellikle bağımsız yazılım satıcıları (ISV) ve üçüncü taraflar için uygulama tasarlayan geliştiriciler tarafından kullanılır.
 
@@ -115,7 +115,16 @@ Bu adımlarda bir Azure AD uygulamasını Power BI [kuruluşunuz için ekleme](e
 
 # <a name="manual-registration"></a>[El ile kayıt](#tab/manual)
 
-Azure AD el ile uygulama kaydı seçeneğini yalnızca *kuruluşunuz için ekleme* çözümüyle birlikte kullanın. Uygulamalarınızı Azure Active Directory'ye kaydetme hakkında bilgi almak için bkz. [Azure Active Directory’ye uygulama kaydetme](/azure/active-directory/develop/quickstart-v2-register-an-app).
+Azure AD el ile uygulama kaydı seçeneğini yalnızca aşağıdaki çözümlerden birini oluşturmak için kullanın:
+
+* *Kuruluşunuz için ekleme* uygulaması.
+
+* *Hizmet sorumlusu* ile *müşterileriniz için ekleme* uygulaması.
+
+    >[!NOTE]
+    >Bu seçeneği belirlerseniz Azure AD uygulamanızı kaydettikten sonra [Power BI izinleri eklemeniz](#change-your-azure-ad-apps-permissions) gerekir.
+
+Uygulamalarınızı Azure Active Directory'ye kaydetme hakkında bilgi almak için bkz. [Azure Active Directory’ye uygulama kaydetme](/azure/active-directory/develop/quickstart-v2-register-an-app).
 
 1. [Azure portalında](https://portal.azure.com) oturum açın.
 
@@ -140,6 +149,9 @@ Azure AD el ile uygulama kaydı seçeneğini yalnızca *kuruluşunuz için eklem
 ## <a name="change-your-azure-ad-apps-permissions"></a>Azure AD uygulamanızın izinlerini değiştirme
 
 Uygulamanızı kaydettikten sonra izinlerinde değişiklikler yapabilirsiniz. İzin değişikliklerini program aracılığıyla veya Azure portalından gerçekleştirebilirsiniz.
+
+>[!NOTE]
+>Azure AD uygulama izinleri yalnızca *ana kullanıcı* kimlik doğrulama yöntemini kullanan *müşterileriniz için ekleme* çözümüyle kullanılabilir.
 
 # <a name="azure"></a>[Azure](#tab/Azure)
 

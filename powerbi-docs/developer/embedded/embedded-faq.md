@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 1166f51c21e765e5710d33ad45a47057ea773bd8
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 348032345a56d538e1e5ffbb6036d411e42b2954
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397450"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907084"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -112,14 +112,14 @@ Power BI için kuruluş hesabıyla kaydolmanız gerekir. Microsoft hesabı kulla
 
 ### <a name="can-i-use-apis-to-create-and-manage-azure-capacities"></a>Azure kapasitelerini oluşturmak ve yönetmek için API'leri kullanabilir miyim?
 
-Evet, PBIE kaynaklarını oluşturmak ve yönetmek için kullanabileceğiniz Powershell cmdlet'leri ve Azure Resource Manager REST API'leri vardır.
+Evet, PBIE kaynaklarını oluşturmak ve yönetmek için kullanabileceğiniz PowerShell cmdlet'leri ve Azure Resource Manager REST API'leri vardır.
 
 * [Rest API'leri](/rest/api/power-bi-embedded/) 
 * [PowerShell cmdlet'leri](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded çözümünde PBI Embedded kapasite rolü nedir?
 
-[Çözümünüzü üretime yükseltmek](embed-sample-for-customers.md#move-to-production) için uygulamanızın kullandığı Power BI içeriğini (çalışma alanı) bir Power BI Embedded (A SKU) kapasitesine atamanız gerekir.
+[Çözümünüzü üretime yükseltmek](move-to-production.md) için uygulamanızın kullandığı Power BI içeriğini (çalışma alanı) bir Power BI Embedded (A SKU) kapasitesine atamanız gerekir.
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>PBI Embedded hangi Azure bölgelerinde kullanılabilir?
 
@@ -184,7 +184,7 @@ RLS ile JavaScript filtrelerinden hangisinin ne zaman kullanılacağı hakkında
 
 RLS’de, ISV geliştiricisi model oluşturma ve ekleme belirteci oluşturmanın bir parçası olarak veri filtrelemesini denetler. Son kullanıcı yalnızca ISV’nin görmesine izin verdiği kadarını görür. Bu durumda kullanıcı filtrelenenlerden daha azını görmeyi seçebilir ancak RLS yapılandırmasını atlayarak izin verilenden daha fazlasını göremez.
 
-İstemci tarafı filtrelemede (JavaScript), ISV son kullanıcının ilk görünümde neler göreceğini belirleyebilir ancak kullanıcının görünümün kendisinde gerçekleştirdiği değişiklikleri denetleyemez. Kullanıcının Javascript istemci kodu arka uçta veri filtrelemeyi tetikleyebildiğinden, güvenli olarak kabul edilemez.
+İstemci tarafı filtrelemede (JavaScript), ISV son kullanıcının ilk görünümde neler göreceğini belirleyebilir ancak kullanıcının görünümün kendisinde gerçekleştirdiği değişiklikleri denetleyemez. Kullanıcının JavaScript istemci kodu arka uçta veri filtrelemeyi tetikleyebildiğinden, güvenli olarak kabul edilemez.
 
 Diğer ayrıntılar için bkz. [RLS ve JavaScript filtreleri](embedded-row-level-security.md#using-rls-vs-javascript-filters).
 
@@ -198,7 +198,7 @@ Bu durum, hizmet sorumlusunu yeni çalışma alanına bir **yönetici** olarak e
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>Uygulama kimliği ve hizmet sorumlusu nesne kimliği ne zaman kullanılır?
 
-**[Uygulama kimliği](embed-sample-for-customers.md#application-id)** , kimlik doğrulaması için uygulama kimliği geçirilirken erişim belirtecini oluşturmak için kullanılır.
+*İstemci kimliği* olarak da bilinen **[uygulama kimliği](embed-sample-for-customers.md#client-id)** , kimlik doğrulaması için uygulama kimliği geçirilirken erişim belirtecini oluşturmak için kullanılır.
 
 İşlemlerde hizmet sorumlusuna başvurmak veya değişiklikler yapmak için (örneğin, hizmet sorumlusunu çalışma alanına yönetici olarak uygulama) **[hizmet sorumlusu nesne kimliğini](embed-service-principal.md)** kullanırsınız.
 

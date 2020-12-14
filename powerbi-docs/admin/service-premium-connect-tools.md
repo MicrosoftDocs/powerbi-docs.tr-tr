@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/05/2020
+ms.date: 12/01/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4e71580857827a370676c4d05274c4c57b1d56c5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413507"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613728"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>XMLA uç noktasıyla veri kümesi bağlantısı
 
@@ -23,7 +23,7 @@ ms.locfileid: "96413507"
 
 ## <a name="whats-an-xmla-endpoint"></a>XMLA uç noktası nedir?
 
-Power BI Premium, istemci uygulamalarıyla Power BI çalışma alanınızı ve veri kümelerinizi yöneten altyapı arasında iletişimi sağlamak için [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true) (XMLA) protokolünü kullanır. Bu iletişimler genellikle XMLA olarak adlandırılan uç noktalar üzerinden gerçekleştirilir. XMLA, Microsoft Analysis Services altyapısı tarafından kullanılan iletişim protokolüyle aynıdır. Bu protokol, yakından bakıldığında Power BI’ın anlamsal modellemesi, yönetim, yaşam döngüsü ve veri yönetimini çalıştırır.
+Power BI Premium, istemci uygulamalarıyla Power BI çalışma alanınızı ve veri kümelerinizi yöneten altyapı arasında iletişimi sağlamak için [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true) (XMLA) protokolünü kullanır. Bu iletişimler genellikle XMLA olarak adlandırılan uç noktalar üzerinden gerçekleştirilir. XMLA, Microsoft Analysis Services altyapısı tarafından kullanılan iletişim protokolüyle aynıdır. Bu protokol, yakından bakıldığında Power BI’ın anlamsal modellemesi, yönetim, yaşam döngüsü ve veri yönetimini çalıştırır. XMLA protokolü üzerinden gönderilen veriler tamamen şifrelenir.
 
 Varsayılan olarak, uç noktayı kullanan *salt okunur* bağlantı, bir kapasitedeki **Veri kümeleri iş yükü** için etkindir. Veri görselleştirme uygulamaları ve araçları, salt okunur ile veri kümesi model verilerini, meta verileri, olayları ve şemayı sorgulayabilir. Uç noktayı kullanan *okuma/yazma* işlemleri ek veri kümesi yönetimi, idare, gelişmiş anlam modelleme, hata ayıklama ve izleme sağlanarak etkinleştirilebilir. Okuma/Yazma etkinken Power BI Premium veri kümeleri, Azure Analysis Services ve SQL Server Analysis Services kurumsal düzeyde tablosal modelleme araçları ve işlemleriyle daha fazla eşliğe sahiptir.
 
@@ -32,7 +32,7 @@ Varsayılan olarak, uç noktayı kullanan *salt okunur* bağlantı, bir kapasite
 
 ## <a name="data-modeling-and-management-tools"></a>Veri modelleme ve yönetim araçları
 
-Bunlar Azure Analysis Services ve SQL Server Analysis Services ile kullanılan en yaygın araçlardan bazılarıdır ve artık Power BI Premium veri kümeleri tarafından desteklenir:
+Aşağıda listelenenler Azure Analysis Services ve SQL Server Analysis Services ile kullanılan en yaygın araçlardan bazılarıdır ve artık Power BI Premium veri kümeleri tarafından desteklenir:
 
 **Analysis Services projeleri ile Visual Studio** : SQL Server Veri Araçları (veya **SSDT**) olarak da bilinen bu araçlar, Analysis Services tablosal modellere yönelik kurumsal düzeyde bir model yazma aracıdır. Analysis Services projeleri uzantıları, ücretsiz Topluluk sürümü de dahil olmak üzere tüm Visual Studio 2017 ve üzeri sürümlerde desteklenir. Tablosal modelleri bir Premium çalışma alanına dağıtmak için uzantının 2.9.6 veya üzeri sürümleri gerekir. Premium çalışma alanına dağıtırken model 1500 veya üzeri uyumluluk düzeyinde olmalıdır. XMLA okuma/yazma, veri kümeleri iş yükünde gereklidir. Daha fazla bilgi için bkz. [Analysis Services Araçları](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true).
 
@@ -70,7 +70,7 @@ Varsayılan olarak, Premium kapasitede XMLA Uç Noktası özelliği ayarı salt 
 
 ### <a name="to-enable-read-write-for-a-capacity"></a>Bir kapasitede okuma/yazma özelliğini etkinleştirmek için:
 
-1. Yönetim portalında **Kapasite ayarları** > **Power BI Premium** > kapasite adına tıklayın.
+1. Yönetim portalında **Kapasite ayarları** > **Power BI Premium** > kapasite adını seçin.
 2. **İş yüklerini** genişletin. **XMLA Uç Noktası** ayarında **Okuma/Yazma**’yı seçin.
 
     ![XMLA uç noktasını etkinleştirin](media/service-premium-connect-tools/xmla-endpoint-enable.png)
@@ -91,7 +91,7 @@ B2B kullanıcılarının kiracı adında kuruluş UPN’lerini belirtmeleri gere
 
 ### <a name="to-get-the-workspace-connection-url"></a>Çalışma alanı bağlantı URL’sini almak için:
 
-Çalışma alanında **Ayarlar** > **Premium** > **Çalışma Alanı Bağlantısı** adımlarını izleyip **Kopyala**’ya tıklayın.
+Çalışma alanında **Ayarlar** > **Premium** > **Çalışma Alanı Bağlantısı** adımlarını izleyip **Kopyala**’yı seçin.
 
 ![Çalışma alanı bağlantı dizesi](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
 
@@ -99,7 +99,7 @@ B2B kullanıcılarının kiracı adında kuruluş UPN’lerini belirtmeleri gere
 
 ### <a name="initial-catalog"></a>İlk katalog
 
-SQL Server Profiler gibi bazı araçlarda *İlk Katalog* belirtmeniz gerekebilir. Çalışma alanınızdaki bir veri kümesini (veritabanı) belirtin. **Sunucuya Bağlan** iletişim kutusunda **Seçenekler** > **Bağlantı Özellikleri** > **Veritabanına bağlan** adımlarını izleyip veri kümesi adını girin.
+SQL Server Profiler gibi bazı araçlarda *İlk Katalog* belirtmeniz gerekebilir. Çalışma alanınızdaki bir veri kümesini (veritabanı) belirtin. **Sunucuya Bağlan** iletişim kutusunda **Seçenekler** > **Bağlantı Özellikleri** > **Veritabanına bağlan**'ı seçip veri kümesi adını girin.
 
 ### <a name="duplicate-workspace-names"></a>Yinelenen çalışma alanı adı
 
@@ -129,9 +129,15 @@ Aşağıdaki veri kümelerine XMLA uç noktalarından erişilemez. Bu veri küme
 
 ## <a name="security"></a>Güvenlik
 
-XMLA Uç Noktası özelliğinin okuma/yazma özelliği kapasite yöneticisi tarafından etkinleştirilir. Buna ek olarak, Excel’deki Analiz için de gerekli olan, Power BI Yönetici Portalı’nda kiracı düzeyindeki **Verileri dışarı aktarma** ayarının da etkinleştirilmesi gerekir.
+XMLA Uç Noktası özelliğinin okuma/yazma özelliği kapasite yöneticisi tarafından etkinleştirilir. Buna ek olarak kiracı düzeyindeki **Şirket içi veri kümeleriyle XMLA uç noktalarına ve Excel'de Çözümle özelliğine izin ver** ayarının da yönetici portalından etkinleştirilmesi gerekir. XMLA Uç Noktasına bağlanacak AIXL dosyaları oluşturmanız gerekiyorsa kiracı düzeyindeki **Canlı bağlantılara izin ver** ayarı da etkinleştirilmelidir. Bu ayarların ikisi de varsayılan olarak etkindir.
 
-![Verileri dışarı aktarmayı etkinleştirme](media/service-premium-connect-tools/xmla-endpoint-export-data.png)
+**Şirket içi veri kümeleriyle XMLA uç noktalarına ve Excel'de Çözümle özelliğine izin ver** bir tümleştirme ayarıdır.
+
+:::image type="content" source="media/service-premium-connect-tools/allow-xmla-endpoints.png" alt-text="Tümleştirme ayarı: XMLA uç noktalarına izin ver.":::
+
+**Canlı bağlantılara izin ver** bir dışarı aktarma ve paylaşma ayarıdır.
+
+:::image type="content" source="media/service-premium-connect-tools/allow-live-connections.png" alt-text="Dışarı aktarma ve paylaşma ayarı: Canlı bağlantılara izin ver.":::
 
 XMLA uç noktası üzerinden erişim, çalışma alanı/uygulama düzeyine ayarlanan güvenlik grubu üyelerini kabul eder.
 
@@ -184,7 +190,7 @@ Proje, Dağıtım Sunucusu özelliği belirtildikten sonra dağıtılabilir.
 
 **İlk kez dağıtıldığında**, model.bim öğesindeki meta veriler kullanılarak çalışma alanında bir veri kümesi oluşturulur. Dağıtım işleminin bir parçası olarak, çalışma alanında model verilerinden bir veri kümesi oluşturulduktan sonra, veri kaynaklarından veri kümesine veri yükleme işlemi başarısız olur.
 
-Azure veya SQL Server Analysis Server örneğine dağıtırken veri kaynağı kimlik bilgileri dağıtım işleminin bir parçası olarak istenirken, Premium çalışma alanına dağıtım yapılırken çalışma alanı veri kaynağı kimlik bilgileri, dağıtım işleminin bir parçası olarak belirtilemeyeceği için işlem başarısız olur. Bu işlemde veri kaynağı kimlik bilgileri, ancak meta veri dağıtımı başarılı olduktan ve veri kümesi oluşturulduktan sonra Power BI hizmetinde veri kümesi ayarlarında belirtilir. Çalışma alanında **Veri kümeleri** > **Ayarlar** > **Veri kaynağı kimlik bilgileri** > **Kimlik bilgilerini düzenle**’ye tıklayın.
+Azure veya SQL Server Analysis Server örneğine dağıtırken veri kaynağı kimlik bilgileri dağıtım işleminin bir parçası olarak istenirken, Premium çalışma alanına dağıtım yapılırken çalışma alanı veri kaynağı kimlik bilgileri, dağıtım işleminin bir parçası olarak belirtilemeyeceği için işlem başarısız olur. Bu işlemde veri kaynağı kimlik bilgileri, ancak meta veri dağıtımı başarılı olduktan ve veri kümesi oluşturulduktan sonra Power BI hizmetinde veri kümesi ayarlarında belirtilir. Çalışma alanında **Veri kümeleri** > **Ayarlar** > **Veri kaynağı kimlik bilgileri** > **Kimlik bilgilerini düzenle**’yi seçin.
 
 ![Veri kaynağı kimlik bilgileri](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
 
@@ -198,7 +204,7 @@ Bir çalışma alanına bağlanmak için SSMS kullanmak, Azure veya SQL Server A
 
 ### <a name="connect-to-a-workspace-by-using-ssms"></a>SSMS kullanarak çalışma alanına bağlanma
 
-1. SQL Server Management Studio’da **Bağlan** > **Sunucuya Bağlan**’a tıklayın.
+1. SQL Server Management Studio’da **Bağlan** > **Sunucuya Bağlan**’ı seçin.
 
 2. **Sunucu Türü**’nde **Analysis Services**’i seçin. **Sunucu adı**’na çalışma alanı URL’sini girin. **Kimlik Doğrulaması**’nda **Active Directory - MFA ile Evrensel**’i seçin ve **Kullanıcı adı** olarak kurumsal kullanıcı kimliğinizi girin.
 

@@ -1,6 +1,6 @@
 ---
 title: Müşterileriniz için uygulamanıza içerik ekleme
-description: Müşterileriniz için tümleşik analize yönelik Power BI API’lerini kullanarak bir raporu, panoyu veya kutucuğu bir uygulamayla tümleştirmeyi veya uygulamaya eklemeyi öğrenin. Tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin.
+description: Power BI tümleşik analiz örneğine rapor, pano veya kutucuk eklemeyi öğrenin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,463 +8,593 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 06/02/2020
-ms.openlocfilehash: dab16218406a4b97c9e2aa01974380ba09dde003
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.date: 12/02/2020
+ms.openlocfilehash: 7bc825992f5c7382e1c0a24783f732957913c588
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719018"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907192"
 ---
-# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme
+# <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Öğretici: Örnek *müşterileriniz için ekleme* uygulamasını kullanarak Power BI içeriği ekleme
 
-**Azure’da Power BI Embedded** veya **Office’te Power BI Embedded** ile verilerin sahibi uygulamadır örneğini kullanarak raporları, panoları veya kutucukları bir uygulamaya ekleyebilirsiniz. **Verilerin sahibi uygulamadır** örneği, eklenmiş analiz platformu olarak Power BI’ı kullanan bir uygulamanız olması durumunda kullanılır. Bir **ISV** veya **geliştirici** olarak, tamamen tümleşik ve etkileşimli bir uygulamada raporlar, panolar veya kutucuklar görüntüleyen Power BI içeriği oluşturabilirsiniz. Üstelik kullanıcıların Power BI lisansı olması gerekmez. Bu öğreticide, müşterileriniz için Power BI JavaScript API’siyle birlikte Power BI .NET SDK’sını kullanıp bir raporu uygulama ile tümleştirme işlemi gösterilir.
-
-![Power BI Rapor Ekleme](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
+**Tümleşik analiz** ve **Power BI Embedded** (Azure teklifi) raporlar, panolar ve kutucuklar gibi Power BI içeriklerini uygulamanıza eklemenizi sağlar.
 
 Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
-> [!div class="checklist"]
-> * Azure’da bir uygulama kaydetme.
-> * Bir uygulamaya Power BI raporu ekleme.
+>[!div class="checklist"]
+>* Tümleşik analiz ortamınızı ayarlama.
+>* Örnek *müşterileriniz için ekleme* (*veriler uygulamaya aittir*) uygulamasını yapılandırma.
+
+Kullanıcıların uygulamanızı kullanabilmek için Power BI'da oturum açmaları veya Power BI lisansına sahip olmaları gerekmez.
+
+*Müşterileriniz için ekleme* yöntemi, üçüncü taraflar için oluşturdukları uygulamalara Power BI içeriği eklemek isteyen bağımsız yazılım satıcıları (ISV) veya geliştiriciler için önerilir.
+
+## <a name="code-sample-specifications"></a>Kod örneği belirtimleri
+
+Bu öğreticide örnek *müşterileriniz için ekleme* uygulamasını aşağıdaki dillerde yapılandırmaya yönelik yönergeler bulunmaktadır:
+
+* .NET Framework
+* .NET Core
+* Java
+* Node JS
+* Python
+
+Kod örneği aşağıdaki tarayıcıları destekler:
+
+* Google Chrome
+
+* Microsoft Edge
+
+* Mozilla Firefox
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Başlamak için şunlara sahip olmalısınız:
+Bu öğreticiye başlamadan önce hem Power BI'a hem de aşağıda listelenen kod bağımlılıklarına sahip olduğunuzdan emin olun:
 
-* [Power BI Pro hesabı](../../fundamentals/service-self-service-signup-for-power-bi.md) (Power BI Pro hesabınızda oturum açmak için bir kullanıcı adıyla paroladan oluşan ana hesap) veya [hizmet sorumlusu (yalnızca uygulama belirteci)](embed-service-principal.md).
-* [Azure Active Directory kiracınız](create-an-azure-active-directory-tenant.md) ayarlanmış olmalıdır.
+* **Power BI bağımlılıkları**
 
-**Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
+    * Kendi [Azure Active Directory kiracınız](create-an-azure-active-directory-tenant.md).
+
+    * Uygulamanızın Power BI kimlik doğrulamasından geçebilmesi için aşağıdakilerden birini kullanmanız gerekir:
+
+        * [Hizmet sorumlusu](embed-service-principal.md): Azure AD'nin uygulamanızın kimlik doğrulamasından geçmesini sağlayan bir Azure Active Directory (Azure AD) [hizmet sorumlusu nesnesi](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
+
+        * [Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md) lisansı: Bu, **ana kullanıcınız** olur ve uygulamanız Power BI kimlik doğrulamasından geçmek için bunu kullanır.
+
+        * Power BI [Kullanıcı Başına Premium (PPU)](../../admin/service-premium-per-user-faq.md) lisansı: Bu, **ana kullanıcınız** olur ve uygulamanız Power BI kimlik doğrulamasından geçmek için bunu kullanır.
+
+    >[!NOTE]
+    >[Üretim ortamına geçmek](move-to-production.md) için bir [kapasiteye](embedded-capacity.md) ihtiyacınız olacaktır.
+
+* **Kod bağımlılıkları**
+
+    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
+    
+    * [ .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+    
+    # <a name="net-core"></a>[.NET Core](#tab/net-core)
+    
+    * [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core) (veya üzeri)
+    
+    * Bir tümleşik geliştirme ortamı (IDE). Aşağıdakilerden birini kullanmanız önerilir:
+    
+        * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+        * [Visual Studio Code](https://code.visualstudio.com/)
+
+    # <a name="java"></a>[Java](#tab/java)
+    
+    * [JDK (veya JRE)](https://www.oracle.com/java/technologies/)
+    
+    * [Eclipse IDE](https://www.eclipse.org/downloads/packages/): *Eclipse for Java EE Developers* (Enterprise Edition) paketine sahip olduğunuzdan emin olun
+    
+    * [Apache Tomcat İkili Dağıtımları](https://tomcat.apache.org/)
+    
+    # <a name="node-js"></a>[Node JS](#tab/node-js)
+    
+    * [ .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * Bir tümleşik geliştirme ortamı (IDE). Aşağıdakilerden birini kullanmanız önerilir:
+    
+        * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+        * [Visual Studio Code](https://code.visualstudio.com/)
+    
+    # <a name="python"></a>[Python](#tab/python)
+    
+    * [Python 3](https://www.python.org/downloads/) (veya üzeri)
+    
+        >[!NOTE]
+        >* *Python*'ı ilk kez yüklüyorsanız yüklemeyi `PATH` değişkenine eklemek için **Add Python to PATH** (Python'ı PATH değişkenine ekle) seçeneğini işaretleyin.
+        >* *Python* sisteminizde yüklüyse, yükleme yolunun `PATH` değişkenine eklenmiş olduğunu doğrulayın. Daha fazla bilgi için Python belgelerinin [Excursus: Setting environment variables](https://docs.python.org/3/using/windows.html#excursus-setting-environment-variables) (Ek Açıklama: Ortam değişkenlerini ayarlama) bölümüne bakın (bu bağlantı Python 3'e aittir).
+    
+    * Bir tümleşik geliştirme ortamı (IDE). Aşağıdakilerden birini kullanmanız önerilir:
+    
+        * [Visual Studio](https://visualstudio.microsoft.com/)
+    
+        * [Visual Studio Code](https://code.visualstudio.com/)
+    
+    ---
+
+## <a name="method"></a>Yöntem
+
+Örnek bir *müşterileriniz için ekleme* uygulaması oluşturmak için aşağıdaki adımları izleyin:
+
+1. [Kullanacağınız kimlik doğrulama yöntemini seçin](#step-1---select-your-authentication-method).
+
+2. [Bir Azure AD uygulaması kaydedin](#step-2---register-an-azure-ad-application).
+
+3. [Power BI çalışma alanı oluşturun](#step-3---create-a-power-bi-workspace).
+
+4. [Power BI raporu oluşturup yayımlayın](#step-4---create-and-publish-a-power-bi-report).
+
+5. [Ekleme parametrelerinin değerlerini alın](#step-5---get-the-embedding-parameter-values).
+
+6. [Hizmet sorumlusu API erişimi](#step-6---service-principal-api-access)
+ 
+7. [Çalışma alanı erişimini etkinleştirin](#step-7---enable-workspace-access).
+
+8. [İçeriğinizi ekleyin](#step-8---embed-your-content).
+
+## <a name="step-1---select-your-authentication-method"></a>1\. Adım: Kullanacağınız kimlik doğrulama yöntemini seçin
+
+Tümleşik analiz çözümünüz, seçtiğiniz kimlik doğrulama yöntemine göre farklılık gösterecektir. Bu nedenle kimlik doğrulama yöntemleri arasındaki farkları anlamak ve çözümünüze en uygun olanı belirlemek önemlidir.
+
+Aşağıdaki tabloda [hizmet sorumlusu](embed-service-principal.md) ile **ana kullanıcı** kimlik doğrulama yöntemleri arasındaki temel farklar listelenmiştir.
+
+|Değerlendirme  |Hizmet sorumlusu  |Ana kullanıcı  |
+|---------|---------|---------|
+|Mechanism     |Azure AD uygulamanızın [hizmet sorumlusu nesnesi](/azure/active-directory/develop/app-objects-and-service-principals.md#service-principal-object), Azure AD'nin tümleşik analiz çözümünüzü Power BI kimlik doğrulamasından geçirmesini sağlar.        |Azure AD uygulamanız, Power BI'da kimlik doğrulamasından geçmek için bir Power BI kullanıcısının kimlik bilgilerini (kullanıcı adı ve parola) kullanır.         |
+|Güvenlik     |*Hizmet sorumlusu*, Azure AD tarafından önerilen yetkilendirme yöntemidir. Hizmet sorumlusu kullanıyorsanız *uygulama gizli dizisi* veya *sertifika* kullanarak kimlik doğrulamasından geçebilirsiniz.</br></br>Bu öğreticide yalnızca *hizmet sorumlusu* ile *uygulama gizli dizisi* kullanımı gösterilmektedir. *Hizmet sorumlusu* ve *sertifika* kullanarak eklemek için [hizmet sorumlusu ve sertifika](embed-service-principal-certificate.md) makalesine bakın.         |Bu kimlik doğrulama yöntemi, *hizmet sorumlusu* kullanmak kadar güvenli kabul edilmez. Bunun nedeni, *ana kullanıcı* kimlik bilgilerini (kullanıcı adı ve parola) korumak zorunda olmanızdır. Örneğin bu bilgileri tümleşik analiz uygulamanızda göstermemeniz ve parolayı sık sık değiştirmeniz gerekir.         |
+|Azure AD temsilci izinleri |Gerekli değildir. |*Ana kullanıcınızın* veya bir yöneticinin, uygulamanızın Power BI REST API [izinlerine](/azure/active-directory/develop/v2-permissions-and-consent) (kapsamlar olarak da bilinir) erişmesine onay vermesi gerekir. Örneğin, *Report.ReadWrite.All*. |
+|Power BI hizmeti erişimi |*Hizmet sorumlusu* ile Power BI hizmetine erişemezsiniz.|Power BI hizmetine erişmek için *ana kullanıcı* kimlik bilgilerinizi kullanmanız gerekir.|
+|Lisans     |Pro lisansı gerektirmez. Üye veya yönetici olduğunuz tüm çalışma alanlarında bulunan içerikleri kullanabilirsiniz.         |[Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md) lisansı gereklidir.         |
+
+## <a name="step-2---register-an-azure-ad-application"></a>2\. Adım: Bir Azure AD uygulaması kaydedin
+
+Uygulamanızı Azure AD'ye kaydederek şunları yapabilirsiniz:
+> [!div class="checklist"]
+>* Uygulamanız için bir kimlik oluşturma
+>* Uygulamanızın [Power BI REST API'lerine](/rest/api/power-bi/) erişmesine izin verme
+>* *Ana kullanıcı* kullanıyorsanız: Uygulamanızın [Power BI REST izinlerini](/azure/active-directory/develop/v2-permissions-and-consent) belirtme
+
+Uygulamanızı Azure AD'ye kaydetmek için [Uygulamanızı kaydetme](register-app.md) bölümündeki yönergeleri izleyin.
 
 >[!NOTE]
->[Kullanıcı Başına Premium (PPU)](../../admin/service-premium-per-user-faq.md) desteklenmez. PPU, *müşterileriniz için eklemeyi* denemek üzere kullanılabilir, ancak [üretime taşınamaz](embed-sample-for-customers.md#move-to-production).
+>Uygulamanızı kaydetmeden önce kullanacağınız kimlik doğrulama yöntemini (*hizmet sorumlusu* veya *ana kullanıcı*) belirlemeniz gerekir.
 
-## <a name="set-up-your-embedded-analytics-development-environment"></a>Eklediğiniz analiz geliştirme ortamını ayarlama
+## <a name="step-3---create-a-power-bi-workspace"></a>3\. Adım: Power BI çalışma alanı oluşturun
 
-Raporları, panoları veya kutucukları uygulamanıza eklemeye başlamadan önce ortamınızın Power BI ile ekleme işlevlerine izin verdiğinden emin olmanız gerekir.
+Power BI'da raporlarınız, panolarınız ve kutucuklarınız bir çalışma alanında saklanır. Bu öğeleri eklemek için onları oluşturup bir çalışma alanına yüklemeniz gerekir.
 
-Hızla çalışmaya başlayıp ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı indirmek için [Ekleme kurulum aracı](https://app.powerbi.com/embedsetup) bölümünün üzerinden geçebilirsiniz.
+>[!TIP]
+>Çalışma alanınız varsa bu adımı atlayabilirsiniz.
 
-Ancak, ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsiniz.
+Çalışma alanı oluşturmak için aşağıdakileri yapın:
 
-### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Azure Active Directory'de (Azure AD) bir uygulamayı kaydetme
+1. Power BI'da oturum açın.
 
-Uygulamanızın [Power BI REST API'lerine](/rest/api/power-bi/) erişmesini sağlamak için [uygulamanızı Azure Active Directory'ye kaydedin](register-app.md). Uygulamanızı kaydettiğinizde uygulamanız için bir kimlik oluşturabilir ve [Power BI REST kaynaklarıyla ilgili izinleri](/azure/active-directory/develop/v2-permissions-and-consent) belirleyebilirsiniz. Uygulama kaydına nasıl başlayacağınız, ana hesap mı yoksa [hizmet sorumlusu ](embed-service-principal.md) mu kullanmak istediğinize bağlıdır.
+2. **Çalışma alanları**'nı seçin.
 
-İzlediğiniz yöntem, Azure'a kaydettiğiniz uygulamanın türünü etkiler.
+3. **Çalışma alanı oluştur**'u seçin.
 
-Ana hesap kullanarak devam ediyorsanız, **Yerel** uygulama kaydetme işlemini kullanın. Yerel uygulama kullanmanızın nedeni etkileşimli olmayan bir oturum açma yöntemiyle çalışmanızdır.
+4. Çalışma alanınıza bir ad verin ve **Kaydet**'i seçin.
 
-Öte yandan hizmet sorumlusu kullanarak devam ederseniz, **sunucu tarafı web uygulaması** kaydetme işlemini kullanmalısınız. Sunucu tarafı web uygulamasını kaydederek bir uygulama gizli dizisi oluşturursunuz.
+## <a name="step-4---create-and-publish-a-power-bi-report"></a>4\. Adım: Power BI raporu oluşturup yayımlayın
 
-## <a name="set-up-your-power-bi-environment"></a>Power BI ortamınızı ayarlama
+Bir sonraki adım bir rapor oluşturup çalışma alanınıza yüklemektir. Power BI Desktop'ı kullanarak [kendi raporunuzu oluşturabilir](/powerbi-docs/fundamentals/desktop-getting-started#build-reports) ve ardından çalışma alanınızda [yayımlayabilirsiniz](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work). Alternatif olarak çalışma alanınıza örnek raporlardan birini yükleyebilirsiniz.
 
-### <a name="create-a-workspace"></a>Çalışma alanı oluşturma
+>[!Tip]
+>İçinde rapor bulunan bir çalışma alanınız varsa bu adımı atlayabilirsiniz.
 
-Müşterileriniz için raporlar, panolar ve kutucuklar yerleştiriyorsanız, çalışma alanı içine içeriğinizi yerleştirmeniz gerekir. Ayarlayabileceğiniz farklı türlerde çalışma alanları vardır: [geleneksel çalışma alanları](../../collaborate-share/service-create-workspaces.md) veya [yeni çalışma alanları](../../collaborate-share/service-create-the-new-workspaces.md). *Ana* hesap kullanıyorsanız, hangi tür çalışma alanı kullandığınız önemli değildir. Ama uygulamanızda oturum açarken *[hizmet sorumlusu](embed-service-principal.md)* kullanıyorsanız, yeni çalışma alanlarını kullanmanız gerekir. Her iki senaryoda da, hem *ana* hesap hem de *hizmet sorumlusu* uygulamaya katılan çalışma alanlarında yönetici olmalıdır.
+Örnek raporu indirip çalışma alanınızda yayımlamak için şu adımları izleyin:
 
-### <a name="create-and-publish-your-reports"></a>Raporlarınızı oluşturma ve yayımlama
+1. GitHub'daki [Power BI Desktop samples](https://github.com/microsoft/PowerBI-Developer-Samples) klasörünü açın.
 
-Power BI Desktop'ı kullanarak raporlarınızı ve veri kümelerinizi oluşturabilir, ardından bu raporları çalışma alanında yayımlayabilirsiniz. Bu görevi gerçekleştirmenin iki yolu vardır: Son kullanıcı olarak, raporları bir ana hesapla (Power BI Pro lisansı) geleneksel çalışma alanına yayımlayabilirsiniz. Hizmet sorumlusu kullanıyorsanız, raporları [Power BI REST API'lerini](/rest/api/power-bi/imports/postimportingroup) kullanarak yeni çalışma alanlarına yayımlayabilirsiniz.
+2. **Kod**'u ve ardından **ZIP'i indir**'i seçin.
 
-Aşağıdaki adımlar PBIX raporunuzu Power BI çalışma alanınıza yayımlama işleminde yol gösterir.
+    :::image type="content" source="media/embed-sample-for-customers/download-sample-report.png" alt-text="Power BI Desktop Samples GitHub klasöründeki ZIP'i indir seçeneğini gösteren ekran görüntüsü":::
 
-1. GitHub'dan örnek [Blog Tanıtımı](https://github.com/Microsoft/powerbi-desktop-samples)’nı indirin.
+3. İndirdiğiniz ZIP arşivini ayıklayıp **Samples Reports** klasörüne gidin.
 
-    ![rapor örneği](media/embed-sample-for-customers/embed-sample-for-customers-026-1.png)
+4. Eklemek istediğiniz raporu seçip çalışma alanınızda [yayımlayın](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work).
 
-2. **Power BI Desktop**’ta örnek PBIX raporunu açın.
+## <a name="step-5---get-the-embedding-parameter-values"></a>5\. Adım: Ekleme parametrelerinin değerlerini alın
 
-   ![PBI desktop raporu](media/embed-sample-for-customers/embed-sample-for-customers-027.png)
+İçeriğinizi eklemek için belirli parametre değerlerini almanız gerekir. Aşağıdaki tabloda gerekli değerler verilmiş ve *hizmet sorumlusu* kimlik doğrulama yöntemi, *ana kullanıcı* kimlik doğrulama yöntemi veya her ikisi için uyumlu olup olmadıkları gösterilmiştir.
 
-3. **Çalışma alanlarında** yayımlayın. Bu işlem, ana hesap (Power Pro lisansı) veya hizmet sorumlusu kullanmanıza göre farklılık gösterir. Ana hesap kullanıyorsanız, raporunuzu Power BI Desktop aracılığıyla yayımlayabilirsiniz.  Şimdi hizmet sorumlusu kullanıyorsanız Power BI REST API'lerini kullanmanız gerekir.
+İçeriğinizi eklemeden önce aşağıda listelenen tüm değerlere sahip olduğunuzdan emin olun. Bazı değerler kullandığınız kimlik doğrulama yöntemine göre farklılık gösterecektir.
 
-## <a name="embed-content-using-the-sample-application"></a>Örnek uygulamayı kullanarak içeriği ekleme
+|Parametre   |Hizmet sorumlusu   |Ana kullanıcı  |
+|-------------------|---|---|
+|[İstemci Kimliği](#client-id) |![Şunun için geçerlidir:](../../media/yes.png) |![Şunun için geçerlidir:](../../media/yes.png) |
+|[Çalışma Alanı Kimliği](#workspace-id)     |![Şunun için geçerlidir:](../../media/yes.png) |![Şunun için geçerlidir:](../../media/yes.png) |
+|[Rapor Kimliği](#report-id)           |![Şunun için geçerlidir:](../../media/yes.png) |![Şunun için geçerlidir:](../../media/yes.png) |
+|[Gizli anahtar](#client-secret) |![Şunun için geçerlidir:](../../media/yes.png) |![Geçerli değildir.](../../media/no.png) |
+|[Kiracı Kimliği](#tenant-id)                 |![Şunun için geçerlidir:](../../media/yes.png) |![Geçerli değildir.](../../media/no.png) |
+|[Power BI kullanıcı adı](#power-bi-username-and-password)   |![Geçerli değildir.](../../media/no.png) |![Şunun için geçerlidir:](../../media/yes.png) |
+|[Power BI parolası](#power-bi-username-and-password)   |![Geçerli değildir.](../../media/no.png) |![Şunun için geçerlidir:](../../media/yes.png) |
 
-Bu örnek tanıtım amacıyla bilerek basit tutulmuştur. Uygulama gizli dizisinin veya ana hesap kimlik bilgilerinin korunması size veya geliştiricilerinize bağlıdır.
+### <a name="client-id"></a>İstemci Kimliği
 
-Örnek uygulamayı kullanarak içeriğinizi eklemeye başlamak için aşağıdaki adımları izleyin.
+>[!TIP]
+>**Uygulama hedefi:** ![Şunun için geçerlidir:](../../media/yes.png)Hizmet sorumlusu ![Şunun için geçerlidir:](../../media/yes.png)Ana kullanıcı
 
-1. [Visual Studio](https://www.visualstudio.com/)'yu (sürüm 2013 veya üzeri) indirin. En son [NuGet paketini](https://www.nuget.org/profiles/powerbi) indirdiğinizden emin olun.
+İstemci kimliği GUID değerini (*uygulama kimliği* olarak da bilinir) almak için şu adımları izleyin:
 
-2. Başlamak için GitHub’dan [Verilerin Sahibi Uygulamadır örneğini](https://github.com/Microsoft/PowerBI-Developer-Samples) indirin.
+1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)’da oturum açın.
 
-    ![Verilerin Sahibi Uygulamadır uygulama örneği](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
+2. **Uygulama kayıtlarını** arayın ve **Uygulama kayıtları** bağlantısını seçin.
 
-3. Örnek uygulamada **Web.config** dosyasını açın. Uygulamayı çalıştırmak için doldurmanız gereken alanlar vardır. **AuthenticationType** olarak **MasterUser** veya **ServicePrincipal**'ı seçebilirsiniz. Seçtiğiniz kimlik doğrulama yöntemine bağlı olarak, tamamlanması gereken farklı alanlar vardır.
+3. Power BI içeriğinizi eklemek için kullandığınız Azure AD uygulamasını seçin.
 
-    > [!Note]
-    > Bu örnekte varsayılan **AuthenticationType** MasterUser'dır.
-
-    <center>
-
-    | **MasterUser** <br> (Power BI Pro lisansı) | **ServicePrincipal** <br> (yalnızca uygulama belirteci)|
-    |---------------|-------------------|
-    | [applicationId](#application-id) | [applicationId](#application-id) |
-    | [workspaceId](#workspace-id) | [workspaceId](#workspace-id) |
-    | [reportId](#report-id) | [reportId](#report-id) |
-    | [pbiUsername](#power-bi-username-and-password) |  |
-    | [pbiPassword](#power-bi-username-and-password) |  |
-    |  | [applicationsecret](#application-secret) |
-    |  | [tenant](#tenant) |
-
-   </center>
-
-    ![Web Config dosyası](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
-
-### <a name="application-id"></a>Uygulama Kimliği
-
-Bu öznitelik her iki AuthenticationType ayarı (ana hesap ve [hizmet sorumlusu](embed-service-principal.md)) için de gereklidir.
-
-**applicationId** bilgilerini **Azure**’daki **Uygulama Kimliği** ile doldurun. Uygulama, izin istediğiniz kullanıcılara kendini tanıtmak için **applicationId** değerini kullanır.
-
-**applicationId** değerini almak için aşağıdaki adımları izleyin:
-
-1. [Azure portalında](https://portal.azure.com) oturum açın.
-
-2. Sol gezinti bölmesinde **Tüm Hizmetler**'i, sonra da **Uygulama Kayıtları**'nı seçin.
-
-    ![Uygulama kaydı araması](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-
-3. **applicationId** değerinin gerektiği uygulamayı seçin.
-
-    ![Uygulama Seçme](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
-
-4. GUID olarak listelenen bir **Uygulama Kimliği** vardır. Bu **Uygulama Kimliği**’ni uygulamanın **applicationId** değeri olarak kullanın.
-
-    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+4. **Genel bakış** bölümünde **Uygulama (istemci) kimliği** GUID değerini kopyalayın.
 
 ### <a name="workspace-id"></a>Çalışma Alanı Kimliği
 
-Bu öznitelik her iki AuthenticationType ayarı (ana hesap ve [hizmet sorumlusu](embed-service-principal.md)) için de gereklidir.
+>[!TIP]
+>**Uygulama hedefi:** ![Şunun için geçerlidir:](../../media/yes.png)Hizmet sorumlusu ![Şunun için geçerlidir:](../../media/yes.png)Ana kullanıcı
 
-**workspaceId** bilgisini Power BI’daki çalışma alanı (grup) GUID’si ile doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken URL'den alabileceğiniz gibi PowerShell'i kullanarak da alabilirsiniz.
+Çalışma alanı kimliği GUID değerini almak için şu adımları izleyin:
 
-URL <br>
+1. Power BI hizmetinde oturum açın.
 
-![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+2. Eklemek istediğiniz raporu açın.
 
-PowerShell <br>
+3. URL'deki GUID değerini kopyalayın. GUID değeri, **/groups/** ile **/reports/** arasındaki sayıdır.
 
-```powershell
-Get-PowerBIworkspace -name "App Owns Embed Test"
-```
-
-   ![PowerShell'den workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031-ps.png)
+    :::image type="content" source="media/embed-sample-for-customers/workspace-id.png" alt-text="Power BI hizmeti URL'sindeki çalışma alanı kimliği GUID değerini gösteren ekran görüntüsü":::
 
 ### <a name="report-id"></a>Rapor Kimliği
 
-Bu öznitelik her iki AuthenticationType ayarı (ana hesap ve [hizmet sorumlusu](embed-service-principal.md)) için de gereklidir.
+>[!TIP]
+>**Uygulama hedefi:** ![Şunun için geçerlidir:](../../media/yes.png)Hizmet sorumlusu ![Şunun için geçerlidir:](../../media/yes.png)Ana kullanıcı
 
-**reportId** bilgisini Power BI’daki rapor GUID’si ile doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken URL'den alabileceğiniz gibi PowerShell'i kullanarak da alabilirsiniz.
+1. Power BI hizmetinde oturum açın.
 
-URL<br>
+2. Eklemek istediğiniz raporu açın.
 
-![reportId](media/embed-sample-for-customers/embed-sample-for-customers-032.png)
+3. URL'deki GUID değerini kopyalayın. GUID değeri, **/reports/** ile **/ReportSection/** arasındaki sayıdır.
 
-PowerShell <br>
+    :::image type="content" source="media/embed-sample-for-customers/report-id.png" alt-text="Power BI hizmeti URL'sindeki rapor kimliği GUID değerini gösteren ekran görüntüsü":::
 
-```powershell
-Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
-```
+### <a name="client-secret"></a>Gizli anahtar
 
-![PowerShell'den reportId](media/embed-sample-for-customers/embed-sample-for-customers-032-ps.png)
+>[!TIP]
+>**Uygulama hedefi:** ![Şunun için geçerlidir:](../../media/yes.png)Hizmet sorumlusu ![Şunun için geçerli değildir:](../../media/no.png)Ana kullanıcı
 
-### <a name="power-bi-username-and-password"></a>Power BI kullanıcı adı ve parolası
+İstemci gizli dizisini almak için şu adımları izleyin:
 
-Bu öznitelikler yalnızca AuthenticationType ayarı ana hesap olduğunda gereklidir.
+1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)’da oturum açın.
 
-Kimlik doğrulaması için [hizmet sorumlusu](embed-service-principal.md) kullanıyorsanız, kullanıcı adı ve parola özniteliklerini doldurmanız gerekmez.
+2. **Uygulama kayıtlarını** arayın ve **Uygulama kayıtları** bağlantısını seçin.
 
-* **pbiUsername** bilgisini Power BI ana hesabıyla doldurun.
-* **pbiPassword** bilgisini Power BI ana hesabının parolasıyla doldurun.
-
-### <a name="application-secret"></a>Uygulama gizli dizisi
-
-Bu öznitelik yalnızca [hizmet sorumlusu](embed-service-principal.md) AuthenticationType ayarı için gereklidir.
-
-**ApplicationSecret** alanına **Azure**'daki **Uygulama kayıtları** bölümünden alacağınız **Anahtarlar** bilgilerini girin.  Bu öznitelik [hizmet sorumlusu](embed-service-principal.md) kullanıldığında çalışır.
-
-**ApplicationSecret** değerini almak için aşağıdaki adımları izleyin:
-
-1. [Azure portalında](https://portal.azure.com) oturum açın.
-
-2. Sol gezinti bölmesinde **Tüm hizmetler**'i, sonra da **Uygulama kayıtları**'nı seçin.
-
-    ![Uygulama kaydı araması](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-
-3. **ApplicationSecret** değerini kullanması gereken uygulamayı seçin.
-
-    ![Bir uygulama seçin](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
+3. Power BI içeriğinizi eklemek için kullandığınız Azure AD uygulamasını seçin.
 
 4. **Yönet**’in altında **Sertifikalar ve gizli diziler**’i seçin.
 
-5. **Yeni istemci gizli dizileri**’ni seçin.
+5. **İstemci gizli dizileri** bölümünde **Yeni istemci gizli dizisi**'ni seçin.
 
-6. **Açıklama** kutusuna bir ad girin ve bir süre seçin. Ardından **Kaydet**’i seçerek uygulamanız için **Değer**’i alın. Anahtar değerini kaydettikten sonra **Anahtarlar** bölmesini kapattığınızda değer alanı yalnızca gizlenmiş olarak gösterilir. Bu aşamada anahtar değerini alamazsınız. Anahtar değerini kaybederseniz Azure portalında yeni bir anahtar değeri oluşturun.
+6. Açılan **İstemci gizli dizisi ekle** penceresinde uygulama gizli dizisi için bir açıklama girin, uygulama gizli dizisinin süre sonunu belirtin ve **Ekle**'yi seçin.
 
-    ![Anahtar değeri](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
+7. **İstemci gizli dizileri** bölümünde yeni oluşturulan uygulama gizli dizisinin **Değer** sütunundaki dizeyi kopyalayın. İstemci gizli dizisi değeri, *istemci kimliğidir*.
 
-### <a name="tenant"></a>Kiracı
+### <a name="tenant-id"></a>Kiracı Kimliği
 
-Bu öznitelik yalnızca [hizmet sorumlusu](embed-service-principal.md) AuthenticationType ayarı için gereklidir.
+>[!TIP]
+>**Uygulama hedefi:** ![Şunun için geçerlidir:](../../media/yes.png)Hizmet sorumlusu ![Şunun için geçerli değildir:](../../media/no.png)Ana kullanıcı
 
-**tenant** bilgisini Azure kiracı kimliğinizle doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken [Azure AD yönetim merkezinden](/onedrive/find-your-office-365-tenant-id) alabileceğiniz gibi PowerShell'i kullanarak da alabilirsiniz.
+Kiracı kimliği GUID değerini almak için şu adımları izleyin:
 
-### <a name="run-the-application"></a>Uygulamayı çalıştırma
+1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)’da oturum açın.
 
-1. **Visual Studio**’da **Çalıştır**’ı seçin.
+2. **Uygulama kayıtlarını** arayın ve **Uygulama kayıtları** bağlantısını seçin.
 
-    ![Uygulamayı çalıştırma](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
+3. Power BI içeriğinizi eklemek için kullandığınız Azure AD uygulamasını seçin.
 
-2. Ardından **Rapor Ekle**’yi seçin. Test etmeyi seçtiğiniz içeriğe (raporlar, panolar veya kutucuklar) bağlı olarak uygulamada bu seçeneği belirleyin.
+4. **Genel bakış** bölümünde **Dizin (kiracı) kimliği** GUID değerini kopyalayın.
 
-    ![İçerik seçme](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
+### <a name="power-bi-username-and-password"></a>Power BI kullanıcı adı ve parolası
 
-3. Artık raporu örnek uygulamada görüntüleyebilirsiniz.
+>[!TIP]
+>**Uygulama hedefi:** ![Şunun için geçerli değildir:](../../media/no.png)Hizmet sorumlusu ![Şunun için geçerlidir:](../../media/yes.png)Ana kullanıcı
 
-    ![Uygulamayı görüntüleme](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
+**Ana kullanıcı** olarak seçtiğiniz Power BI kullanıcısının *kullanıcı adı* ve *parola* değerlerini alın. Bu, Power BI hizmetinde çalışma alanı oluşturmak ve rapor yüklemek için kullandığınız kullanıcı hesabıdır.
 
-## <a name="embed-content-within-your-application"></a>İçeriği uygulamanızın içine ekleme
+## <a name="step-6---service-principal-api-access"></a>6\. Adım: Hizmet sorumlusu API erişimi
 
-İçeriğinizi ekleme adımları [Power BI REST API’leri](/rest/api/power-bi/) ile uygulanabilse de, bu makalede açıklanan örnek kodlar **.NET SDK** ile hazırlanır.
+>[!TIP]
+>**Uygulama hedefi:** ![Şunun için geçerlidir:](../../media/yes.png)Hizmet sorumlusu ![Şunun için geçerli değildir:](../../media/no.png)Ana kullanıcı
+>
+>Bu adım yalnızca *hizmet sorumlusu* kimlik doğrulama yöntemini kullanıyorsanız geçerlidir. *Ana kullanıcı* yöntemini kullanıyorsanız bu adımı atlayıp [7. Adım: Çalışma alanı erişimini etkinleştirin](#step-7---enable-workspace-access) ile devam edin.
 
-Uygulamanıza müşterileriniz için içerik ekleme işlemi, **Azure AD**’den ana hesabınız veya [hizmet sorumlunuz](embed-service-principal.md) için bir **erişim belirteci** alınmasını gerektirir. [Power BI REST API’lerine](/rest/api/power-bi/) çağrı yapmadan önce, Power BI uygulamanız için [Azure AD erişim belirteci](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) almanız gerekir.
+Bir Azure AD uygulamasının Power BI içeriğine ve API’lerine erişebilmesi için, bir Power BI yöneticisinin Power BI yönetici portalında hizmet sorumlusu erişimini etkinleştirmesi gerekir. Kiracınızın yöneticisi siz değilseniz yöneticiden *Kiracı ayarlarını* sizin için etkinleştirmesini isteyin.
+        
+1. *Power BI hizmetinde* **Ayarlar** > **Ayarlar** > **Yönetici portalı**'nı seçin.
+        
+    :::image type="content" source="media/embed-sample-for-customers/admin-settings.png" alt-text="Power BI hizmetinin Ayarlar menüsündeki Yönetici ayarları menü seçeneğini gösteren ekran görüntüsü":::
+        
+2. **Kiracı ayarları**'nı seçtikten sonra açılan sayfada **Geliştirici ayarları** bölümüne inin.
+        
+3. **Hizmet sorumlularının Power BI API'leri kullanmasına izin ver** seçeneğini genişletip etkinleştirin.
+        
+    :::image type="content" source="media/embed-sample-for-customers/developer-settings.png" alt-text="Power BI hizmetinde Kiracı ayarları menü seçeneğinin altındaki Geliştirici ayarları seçeneğini etkinleştirmeyi gösteren ekran görüntüsü":::
+        
+>[!NOTE]
+>*Hizmet sorumlusu* kullanıyorsanız bir *güvenlik grubu* kullanarak erişimini kiracı ayarlarıyla sınırlandırmanız önerilir. Bu özellik hakkında daha fazla bilgi edinmek için [hizmet sorumlusu](embed-service-principal.md) makalesinin şu bölümlerine bakın:
+> * [Azure AD güvenlik grubu oluşturma](embed-service-principal.md#step-2---create-an-azure-ad-security-group)
+>* [Power BI hizmeti yönetici ayarlarını etkinleştirme](embed-service-principal.md#step-3---enable-the-power-bi-service-admin-settings)
 
-**Erişim belirtecinizle** Power BI İstemcisi'ni oluşturmak için, [Power BI REST API'leriyle](/rest/api/power-bi/) etkileşim kurmanızı sağlayacak Power BI istemci nesnenizi oluşturmanız gerekir. Power BI istemci nesnesini oluşturmak için **AccessToken** öğesini **_Microsoft.Rest.TokenCredentials_* _ nesnesine sarmanız gerekir.
+## <a name="step-7---enable-workspace-access"></a>7\. Adım: Çalışma alanı erişimini etkinleştirin
 
-```csharp
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Microsoft.Rest;
-using Microsoft.PowerBI.Api.V2;
+Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama erişim yapıtlarınızı etkinleştirmek için *hizmet sorumlusunu* veya *ana kullanıcıyı* çalışma alanınıza *üye* veya *yönetici* olarak ekleyin.
 
-var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
+1. Power BI hizmetinde oturum açın.
 
-// Create a Power BI Client object. it's used to call Power BI APIs.
-using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
-{
-    // Your code to embed items.
-}
-```
+2. Erişimini etkinleştirmek istediğiniz çalışma alanına gidin ve **Daha fazla** menüsünden **Çalışma alanı erişimini** seçin.
 
-### <a name="get-the-content-item-you-want-to-embed"></a>Eklemek istediğiniz içerik öğesini alma
+    :::image type="content" source="media/embed-service-principal/workspace-access.png" alt-text="Power BI çalışma alanının Daha fazla menüsündeki Çalışma alanı erişimi düğmesini gösteren ekran görüntüsü.":::
 
-Eklemek istediğiniz öğeye ilişkin bir başvuru almak için Power BI istemci nesnesini kullanabilirsiniz.
+3. **Erişim** bölmesinde kullandığınız kimlik doğrulama yöntemine göre *hizmet sorumlusunu* veya *ana kullanıcıyı* **E-posta adresini girin** metin kutusuna yapıştırın.
 
-Burada belirli bir çalışma alanının ilk raporunu nasıl alacağınızı gösteren bir kod örneği vardır.
+    >[!NOTE]
+    >*Hizmet sorumlusu* kullanıyorsanız Azure AD uygulamanıza verdiğiniz adı belirtmeniz gerekir.
 
-_Eklemek istediğiniz içerik öğesini (rapor, pano veya kutucuk) alma örneği, [örnek uygulama](https://github.com/Microsoft/PowerBI-Developer-Samples) içindeki Services\EmbedService.cs dosyasında sağlanır.*
+5. **Ekle**’yi seçin.
 
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+## <a name="step-8---embed-your-content"></a>8\. Adım: İçeriğinizi ekleyin
 
-// You need to provide the workspaceId where the dashboard resides.
-ODataResponseListReport reports = await client.Reports.GetReportsInGroupAsync(workspaceId);
+Power BI Embedded örnek uygulaması, *müşterileriniz için ekleme* yöntemiyle bir Power BI uygulaması oluşturmanızı sağlar.
 
-// Get the first report in the group.
-Report report = reports.Value.FirstOrDefault();
-```
+Örnek *Müşterileriniz için ekleme* uygulamasını değiştirerek Power BI raporunuzu eklemek için aşağıdaki adımları izleyin.  
 
-### <a name="create-the-embed-token"></a>Ekleme belirtecini oluşturma
-JavaScript API’sinden kullanılabilecek bir ekleme belirteci oluşturun. İki tür API vardır; ilk grup her biri belirli bir öğe için ekleme belirteci oluşturan beş API içerir. Yalnızca bir API içeren ikinci grup ise birden çok öğe eklemek için kullanılabilecek bir belirteç üretir.
+1. [Power BI developer samples](https://github.com/microsoft/PowerBI-Developer-Samples) klasörünü açın.
 
-**Belirli bir öğe için ekleme belirteci oluşturmaya yönelik API'ler**
+2. **Kod**'u ve ardından **ZIP'i indir**'i seçin.
 
-Bu API’lerle oluşturulan ekleme belirteci, eklediğiniz öğeye özeldir. Bu API'lerle bir Power BI öğesi (rapor, pano veya kutucuk gibi) eklediğiniz her durumda öğe için yeni bir ekleme belirteci oluşturmanız gerekir.
-* [Panolar GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [Veri kümeleri GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [Raporlar GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [Raporlar GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [Kutucuklar GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
+    :::image type="content" source="media/embed-sample-for-customers/developer-samples.png" alt-text="Power BI Developer Samples GitHub klasöründeki ZIP'i indir seçeneğini gösteren ekran görüntüsü":::
 
-Bir rapor, pano veya kutucuk için ekleme belirteci oluşturma örnekleri, [örnek uygulama](https://github.com/Microsoft/PowerBI-Developer-Samples) içinde aşağıdaki dosyalarda bulunabilir.
-* Services\EmbedService.cs
-* Models\EmbedConfig.cs
-* Models\TileEmbedConfig.cs
+3. İndirdiğiniz ZIP dosyasını ayıklayıp **PowerBI-Developer-Samples-master** klasörüne gidin.
 
-Raporlar GenerateTokenInGroup ekleme belirteci API’sini kullanmaya yönelik bir kod örneği aşağıda verilmiştir.
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
+4. Uygulamanızda kullanmak istediğiniz dile bağlı olarak şu klasörlerden birini açın:
 
-// Generate Embed Token.
-var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
+* .NET Core
+* .NET Framework
+* Java
+* Node JS
+* Python
+    >[!NOTE]
+    >Örnek *müşterileriniz için ekleme* uygulamaları yalnızca yukarıdaki dilleri destekler. *React TS* örnek uygulaması yalnızca *[kuruluşunuz için ekleme](embed-sample-for-your-organization.md)* çözümünü destekler.
 
-// Generate Embed Configuration.
-var embedConfig = new EmbedConfig()
-{
-    EmbedToken = tokenResponse,
-    EmbedUrl = report.EmbedUrl,
-    Id = report.Id
-};
-```
-
-**Birden çok öğe için ekleme belirteci oluşturmaya yönelik API**<a id="multiEmbedToken"></a>
-
-[Belirteç Oluşturma](/rest/api/power-bi/embedtoken/generatetoken) ekleme API’si, birden çok öğeyi eklemek için kullanılabilecek bir belirteç oluşturur.
-
-Ayrıca, bir raporu eklerken veri kümesini dinamik olarak seçmek için kullanılabilir. API’nin bu kullanımı hakkında daha fazla bilgi için bkz. [dinamik bağlama](embed-dynamic-binding.md).
-
-
-Bu API'yi kullanma örneklerinden biri aşağıda verilmiştir.
- 
-```csharp
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-var reports = new List<GenerateTokenRequestV2Report>()
-{ 
-    new GenerateTokenRequestV2Report()
-    {
-        AllowEdit = false,
-        Id = report1.Id
-    },
-    new GenerateTokenRequestV2Report()
-    {
-        AllowEdit = true,
-        Id = report2.Id
-    }
-};
-
-var datasets= new List<GenerateTokenRequestV2Dataset>()
-{
-    new GenerateTokenRequestV2Dataset(dataset1.Id),
-    new GenerateTokenRequestV2Dataset(dataset2.Id),
-    new GenerateTokenRequestV2Dataset(dataset3.Id),
-};
-
-var targetWorkspaces = new List<GenerateTokenRequestV2TargetWorkspace>()
-{
-    new GenerateTokenRequestV2TargetWorkspace(workspace1.Id),
-    new GenerateTokenRequestV2TargetWorkspace(workspace2.Id),
-};
+5. **Embed for your customers** klasörünü açın.
 
-var request = new GenerateTokenRequestV2()
-{
-    Datasets = datasets,
-    Reports = reports,
-    TargetWorkspaces = targetWorkspaces,
-};
+# <a name="net-core"></a>[.NET Core](#tab/net-core)
 
-var token = client.GetClient().EmbedToken.GenerateToken(request);
-```
+6. Aşağıdaki yöntemlerden birini kullanarak *örnek müşterileriniz için ekleme uygulamasını* açın:
 
-### <a name="load-an-item-using-javascript"></a>JavaScript kullanarak öğe yükleme
+    * [Visual Studio](https://visualstudio.microsoft.com/) kullanıyorsanız **AppOwnsData.sln** dosyasını açın.
 
-JavaScript kullanarak web sayfanızdaki bir div öğesine rapor yükleyebilirsiniz.
+    * [Visual Studio Code](https://code.visualstudio.com/) kullanıyorsanız **App Owns Data** klasörünü açın.
 
-JavaScript API kullanan tam bir örnek için [Playground aracı](https://microsoft.github.io/PowerBI-JavaScript/demo)'nı kullanabilirsiniz. Deneme Alanı aracı, farklı türde Power BI Embedded örnekleri ile yürütmenin hızlı bir yoludur. Ayrıca [PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) sayfasını ziyaret ederek JavaScript API’si hakkında daha fazla bilgi alabilirsiniz.
+7. **appsettings.json** dosyasını açın.
 
-Burada, **EmbedConfig** modeliyle **TileEmbedConfig** modelinin yanı sıra rapor görünümünü de kullanan bir örnek verilmiştir.
+8. Seçtiğiniz kimlik doğrulama yönteminize göre aşağıdaki parametre değerlerini girin:
 
-*Rapor, pano veya kutucuk görünümü ekleme örneği, [örnek uygulama](#embed-content-using-the-sample-application) içindeki Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml veya Views\Home\Embedtile.cshtml dosyasında sağlanır.*
+    |Parametre            |Hizmet sorumlusu  |Ana kullanıcı  |
+    |---------------------|---------|---------|
+    |`AuthenticationMode` |ServicePrincipal         |MasterUser         |
+    |`ClientId`           |Azure AD uygulamanızın [istemci kimliği](#client-id)         |Azure AD uygulamanızın [istemci kimliği](#client-id)         |
+    |`TenantId`           |Azure AD [kiracı kimliğiniz](#tenant-id)         |Yok         |
+    |`PbiUsername`        |Yok         |*Ana kullanıcının* kullanıcı adı; bkz. [Power BI kullanıcı adı ve parolası](#power-bi-username-and-password)         |
+    |`PbiPassword`        |Yok         |*Ana kullanıcının* parolası; bkz. [Power BI kullanıcı adı ve parolası](#power-bi-username-and-password)         |
+    |`ClientSecret`       |Azure AD [istemci gizli diziniz](#client-secret)         |Yok         |
+    |`WorkspaceId`        |Eklenmiş raporunuzun bulunduğu çalışma alanının kimliği; bkz. [Çalışma alanı kimliği](#workspace-id)          |Eklenmiş raporunuzun bulunduğu çalışma alanının kimliği; bkz. [Çalışma alanı kimliği](#workspace-id)         |
+    |`ReportId`           |Eklediğiniz raporun kimliği; bkz. [Rapor kimliği](#report-id)            |Eklediğiniz raporun kimliği; bkz. [Rapor kimliği](#report-id)         |
 
-```javascript
-<script src="~/scripts/powerbi.js"></script>
-<div id="reportContainer"></div>
-<script>
-    // Read embed application token from Model
-    var accessToken = "@Model.EmbedToken.Token";
+9. Uygun seçeneği belirleyerek projeyi çalıştırın:
 
-    // Read embed URL from Model
-    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
+    * **Visual Studio** kullanıyorsanız **IIS Express** (yürüt) öğesini seçin.
 
-    // Read report Id from Model
-    var embedReportId = "@Model.Id";
+    * **Visual Studio Code** kullanıyorsanız **Çalıştır > Hata Ayıklamayı Başlat**'ı seçin.
 
-    // Get models. models contains enums that can be used.
-    var models = window['powerbi-client'].models;
+# <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
 
-    // Embed configuration used to describe what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // This also includes settings and options such as filters.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'report',
-        tokenType: models.TokenType.Embed,
-        accessToken: accessToken,
-        embedUrl: embedUrl,
-        id: embedReportId,
-        permissions: models.Permissions.All,
-        settings: {
-            filterPaneEnabled: true,
-            navContentPaneEnabled: true
-        }
-    };
+6. [Visual Studio](https://visualstudio.microsoft.com/)'yu kullanarak **AppOwnsData.sln** dosyasını açın.
 
-    // Get a reference to the embedded report HTML element
-    var reportContainer = $('#reportContainer')[0];
+7. **Web.config** dosyasını açın.
 
-    // Embed the report and display it within the div container.
-    var report = powerbi.embed(reportContainer, config);
-</script>
-```
+8. Seçtiğiniz kimlik doğrulama yönteminize göre aşağıdaki parametre değerlerini girin:
 
-## <a name="move-to-production"></a>Üretime geçme
+    |Parametre            |Hizmet sorumlusu  |Ana kullanıcı  |
+    |---------------------|---------|---------|
+    |`authenticationType` |ServicePrincipal         |MasterUser         |
+    |`applicationId`           |Azure AD uygulamanızın [istemci kimliği](#client-id)         |Azure AD uygulamanızın [istemci kimliği](#client-id)         |
+    |`workspaceId`        |Eklenmiş raporunuzun bulunduğu çalışma alanının kimliği; bkz. [Çalışma alanı kimliği](#workspace-id)          |Eklenmiş raporunuzun bulunduğu çalışma alanının kimliği; bkz. [Çalışma alanı kimliği](#workspace-id)         |
+    |`reportId`           |Eklediğiniz raporun kimliği; bkz. [Rapor kimliği](#report-id)            |Eklediğiniz raporun kimliği; bkz. [Rapor kimliği](#report-id)         |
+    |`pbiUsername`        |Yok         |*Ana kullanıcının* kullanıcı adı; bkz. [Power BI kullanıcı adı ve parolası](#power-bi-username-and-password)         |
+    |`pbiPassword`        |Yok         |*Ana kullanıcının* parolası; bkz. [Power BI kullanıcı adı ve parolası](#power-bi-username-and-password)         |
+    |`applicationSecret`       |Azure AD [istemci gizli diziniz](#client-secret)         |Yok         |
+    |`tenant`           |Azure AD [kiracı kimliğiniz](#tenant-id)         |Yok         |
 
-Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi kapasite ile çalışma alanınızı destekleme işlemine geçmelisiniz.
+9. **IIS Express** (yürüt) öğesini seçerek projeyi çalıştırın.
 
-> [!Important]
-> Üretime geçmek için bir kapasite gerekir. Tüm çalışma alanları (raporları veya panoları içeren çalışma alanı ile veri kümesini içeren çalışma alanı) bir kapasiteye atanmalıdır.
+>[!NOTE]
+>Örnek uygulamayı çalıştırdığınızda eklenen raporu görmüyorsanız aşağıdaki adımları izleyerek Power BI paketlerini yenileyin:
+>1. Proje adına (AppOwnesData) sağ tıklayıp **NuGet paketlerini yönet**'i seçin.
+>2. **Power BI JavaScript** paketini arayıp bulun ve yeniden yükleyin.
+>
+>Daha fazla bilgi için bkz. [Paketleri yeniden yükleme ve güncelleştirme](/nuget/consume-packages/reinstalling-and-updating-packages).
 
-### <a name="create-a-capacity"></a>Kapasite oluşturma
+# <a name="java"></a>[Java](#tab/java)
 
-Kapasite oluşturduğunuzda, müşterinize yönelik bir kaynaktan yararlanabilirsiniz. İki tür kapasiteden birini seçebilirsiniz:
-* **Power BI Premium** - *EM* ve *P* şeklinde iki SKU ailesinde kullanılabilen kiracı düzeyindeki bir Office 356 aboneliği. Power BI içeriği eklerken bu çözüm *Power BI ekleme* olarak adlandırılır. Bu abonelikle ilgili daha fazla bilgi için bkz. [Power BI Premium nedir?](../../admin/service-premium-what-is.md)
-* **Azure Power BI Embedded**: [Microsoft Azure portalından](https://portal.azure.com) kapasite satın alabilirsiniz. Bu abonelik *A* SKU’ları kullanır. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
-> [!NOTE]
-> A SKU’larla, ÜCRETSİZ Power BI lisansını kullanarak Power BI içeriğine erişemezsiniz.
+6. **Eclipse**'i açıp aşağıdaki yönergeleri izleyin.
 
-Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım?](./embedded-faq.md#which-solution-should-i-choose) tablosuna bakın.
+    >[!NOTE]
+    >Java *örnek müşterileriniz için ekleme uygulaması* yönergeleri, [Eclipse IDE for Java EE Developers](https://www.eclipse.org/downloads/packages/) (Enterprise Edition) sürümüne aittir. Farklı bir uygulama kullanıyorsanız kendi kendinize ayarlamanız gerekir.
 
-| Kapasite Düğümleri | Toplam sanal çekirdek sayısı | Arka uç sanal çekirdek sayısı | RAM (GB) | Ön uç sanal çekirdek sayısı | DirectQuery/Canlı Bağlantı (saniyede) | Model Yenileme Paralelliği |
-| --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
-| EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
-| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| | | | | | | |
+7. Eclipse'e Tomcat sunucusunu ekleme:
 
-### <a name="development-testing"></a>Geliştirme testi
+    a. **Pencere** > **Görünümü Göster** > **Sunucular**'ı seçin.
 
-Geliştirme testi için Pro lisansıyla ekleme deneme belirteçlerini kullanabilirsiniz. Üretim ortamında ekleme yapmak için bir kapasite kullanın.
+    b. Sunucular sekmesinde **Kullanılabilir sunucu yok. Yeni sunucu oluşturmak için bu bağlantıya tıklayın**'ı seçin.
 
-Bir Power BI hizmet sorumlusunun veya ana hesabının oluşturabileceği ekleme deneme belirteci sayısı sınırlıdır. Geçerli ekleme kullanım yüzdenizi kontrol etmek için [Kullanılabilir Özellikler](/rest/api/power-bi/availablefeatures/getavailablefeatures) API'sini kullanın. Hizmet sorumlusu veya ana hesap başına kullanım miktarı görüntülenir.
+    c. **Yeni sunucu tanımla** penceresinde **Apache**'yi genişletip makinenizde çalıştırdığınız Tomcat sunucusunu seçin. Örneğin, *Tomcat v9.0 Sunucusu*.
 
-Test sırasında ekleme belirteçleriniz tükenirse Power BI Embedded veya Premium [kapasitesi](embedded-capacity.md) satın almanız gerekir. Kapasiteyle oluşturabileceğiniz ekleme belirteçlerinin sayısıyla ilgili bir sınır yoktur.
+    d. **İleri**’yi seçin.
 
+    e. **Tomcat Sunucusu** penceresinde **Göz at**'ı seçip Tomcat sunucusunun bulunduğu klasöre gidin.
 
-### <a name="assign-a-workspace-to-a-capacity"></a>Bir kapasiteye çalışma alanı atama
+    f. **Tomcat Sunucusu** penceresinde **Yüklü JRE'ler** öğesini seçin.
 
-Kapasite oluşturduktan sonra, çalışma alanınızı bu kapasiteye atayabilirsiniz.
+    örneğin: **Yüklü JRE'ler** penceresinde kullanılabilir durumdaki *jre* girişini ve ardından **Uygula ve Kapat**'ı seçin.
 
-Eklenen içerikle (veri kümeleri, raporlar ve panolar dahil) ilgili Power BI kaynaklarını içeren tüm çalışma alanları kapasitelere atanmalıdır. Örneğin eklenen rapor ve ona bağlı olan veri kümesi farklı çalışma alanlarında bulunuyorsa, her iki çalışma alanı da kapasitelere atanmalıdır.
+    h. **Tomcat Sunucusu** penceresinde **Son**'u seçin. *Sunucular* sekmesinde Tomcat sunucusunu görebiliyor olacaksınız.
 
-[Hizmet sorumlusu](embed-service-principal.md) kullanarak çalışma alanına kapasite atamak için [Power BI REST API'sini](/rest/api/power-bi/capacities/groups_assigntocapacity) kullanın. Power BI REST API'lerini kullanırken [hizmet sorumlusu nesne kimliğini](embed-service-principal.md) kullandığınızdan emin olun.
+8. Projeyi Eclipse ile açın:
 
-**Ana hesap** kullanarak çalışma alanına kapasite atamak için aşağıdaki adımları izleyin.
+    >[!IMPORTANT]
+    >Yolunuz çok uzun olursa Eclipse sorunlarla karşılaşabilir. Bu sorundan kaçınmak için örnek uygulama klasörünün makinenizin klasör yapısının çok derinlerinde olmadığından emin olun.
 
-1. **Power BI hizmetinde**, çalışma alanlarını genişletin ve içeriğinizi eklemek için kullandığınız çalışma alanına yönelik olan üç noktayı seçin. Ardından **Çalışma alanlarını düzenle**’yi seçin.
+    a. **Dosya**'yı ve ardından **Dosya Sisteminden Proje Aç**'ı seçin.
 
-    ![Çalışma Alanını Düzenleme](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
+    b. **Dosya Sisteminden veya Arşivden Proje Aktar** penceresinde **Dizin**'i seçip **AppOwnsData** klasörünü açın.
 
-2. **Gelişmiş**’i genişletin, ardından **Kapasite**’yi etkinleştirin, sonra da oluşturduğunuz kapasiteyi seçin. Sonra **Kaydet**'i seçin.
+    c. **Son**'u seçin.
 
-    ![Kapasite atama](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+9. Eclipse'e projeyi ekleme:
 
-3. **Kaydet**’i seçtikten sonra, çalışma alanının yanında bir **baklava** işareti görmeniz gerekir.
+    a. **Paket Gezgini** bölmesinde **AppOwnsData**'ya sağ tıklayıp **Özellikler**'i seçin.
 
-    ![Kapasiteye bağlanmış çalışma alanı](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
+    b. **AppOwnesData Özellikleri** penceresinde **Hedeflenen Çalışma Zamanları**'nı ve ardından **Apache Tomcat**'i seçin. Bu seçim, kullanmakta olduğunuz *Apache Tomcat* sürümünü içerecektir; örneğin, *Apache Tomact v9.0*.
+
+    c. **Uygula ve Kapat**'ı seçin.
+
+10. Gereken parametreleri doldurma
+
+    a. **Paket Gezgini**'nde **AppOwnsData** projesini genişletin.
+
+    b. **Java Kaynakları**'nı genişletin.
+
+    c. **src** öğesini genişletin.
+
+    d. **com.embedsample.appoensdata.config** öğesini genişletin.
+
+    e. **Config.java** dosyasını açın.
+
+    f. Seçtiğiniz kimlik doğrulama yönteminize göre aşağıdaki parametre değerlerini girin:
+
+    |Parametre            |Hizmet sorumlusu  |Ana kullanıcı  |
+    |---------------------|---------|---------|
+    |`authenticationType` |ServicePrincipal         |MasterUser         |
+    |`workspaceId`        |Eklenmiş raporunuzun bulunduğu çalışma alanının kimliği; bkz. [Çalışma alanı kimliği](#workspace-id)          |Eklenmiş raporunuzun bulunduğu çalışma alanının kimliği; bkz. [Çalışma alanı kimliği](#workspace-id)         |
+    |`reportId`           |Eklediğiniz raporun kimliği; bkz. [Rapor kimliği](#report-id)            |Eklediğiniz raporun kimliği; bkz. [Rapor kimliği](#report-id)         | 
+    |`clientId`           |Azure AD uygulamanızın [istemci kimliği](#client-id)         |Azure AD uygulamanızın [istemci kimliği](#client-id)         |
+    |`pbiUsername`        |Yok         |*Ana kullanıcının* kullanıcı adı; bkz. [Power BI kullanıcı adı ve parolası](#power-bi-username-and-password)         |
+    |`pbiPassword`        |Yok         |*Ana kullanıcının* parolası; bkz. [Power BI kullanıcı adı ve parolası](#power-bi-username-and-password)         |
+    |`tenantId`           |Azure AD [kiracı kimliğiniz](#tenant-id)         |Yok         |
+    |`appSecret`       |Azure AD [istemci gizli diziniz](#client-secret)         |Yok         |
+
+11. Projeyi çalıştırma
+
+    a. **Paket Gezgini**'nde **AppOwnesData** girişine sağ tıklayın.
+
+    b. **Farklı Çalıştır**  > **Sunucuda Çalıştır**'ı seçin.
+
+    c. **Sunucuda Çalıştır** penceresinde **Var olan bir sunucuyu seç**'i ve ardından *Tomcat* sunucusunu seçin.
+
+    d. **Son**'u seçin.
+
+# <a name="node-js"></a>[Node JS](#tab/node-js)
+
+6. Tercih ettiğiniz IDE ortamını kullanarak **App Owns Data** klasörünü açın. Aşağıdakilerden birini kullanmanız önerilir:
+
+    * [Visual Studio](https://visualstudio.microsoft.com/)
+
+    * [Visual Studio Code](https://code.visualstudio.com/)
+
+7. Bir terminal açın ve şu komutu yürüterek gerekli bağımlılıkları yükleyin: `npm install`.
+
+8. **Config** klasörünü genişletip **config.json** dosyasını açın.
+
+9. Seçtiğiniz kimlik doğrulama yönteminize göre aşağıdaki parametre değerlerini girin:
+
+    |Parametre            |Hizmet sorumlusu  |Ana kullanıcı  |
+    |---------------------|---------|---------|
+    |`authenticationMode` |ServicePrincipal         |MasterUser         |
+    |`clientId`           |Azure AD uygulamanızın [istemci kimliği](#client-id)         |Azure AD uygulamanızın [istemci kimliği](#client-id)         |
+    |`workspaceId`        |Eklenmiş raporunuzun bulunduğu çalışma alanının kimliği; bkz. [Çalışma alanı kimliği](#workspace-id)          |Eklenmiş raporunuzun bulunduğu çalışma alanının kimliği; bkz. [Çalışma alanı kimliği](#workspace-id)         |
+    |`reportId`           |Eklediğiniz raporun kimliği; bkz. [Rapor kimliği](#report-id)            |Eklediğiniz raporun kimliği; bkz. [Rapor kimliği](#report-id)         |
+    |`pbiUsername`        |Yok         |*Ana kullanıcının* kullanıcı adı; bkz. [Power BI kullanıcı adı ve parolası](#power-bi-username-and-password)         |
+    |`pbiPassword`        |Yok         |*Ana kullanıcının* parolası; bkz. [Power BI kullanıcı adı ve parolası](#power-bi-username-and-password)         |
+    |`clientSecret`       |Azure AD [istemci gizli diziniz](#client-secret)         |Yok         |
+    |`tenantId`           |Azure AD [kiracı kimliğiniz](#tenant-id)         |Yok         |
+
+10. Aşağıdaki adımları izleyerek projeyi çalıştırın:
+
+    a. IDE terminalinde `npm start` komutunu yürütün.
+
+    b. Tarayıcınızda yeni bir sekme açıp [http://localhost:5300](http://localhost:5300) adresine gidin.
+
+# <a name="python"></a>[Python](#tab/python)
+
+6. **PowerShell**'i veya **komut istemini** açın.
+
+7. **Python** > **Embed for your customers** klasöründe olduğunuzdan ve **requirements.txt** dosyasının klasörün içinde olduğundan emin olduktan sonra `pip3 install -r requirements.txt` komutunu çalıştırın.
+
+8. Tercih ettiğiniz IDE ortamını kullanarak **App Owns Data** klasörünü açın. Aşağıdakilerden birini kullanmanız önerilir:
+
+    * [Visual Studio](https://visualstudio.microsoft.com/)
+
+    * [Visual Studio Code](https://code.visualstudio.com/)
+
+9. **config.py** dosyasını açın.
+
+10. Seçtiğiniz kimlik doğrulama yönteminize göre aşağıdaki parametre değerlerini girin:
+
+    |Parametre            |Hizmet sorumlusu  |Ana kullanıcı  |
+    |---------------------|---------|---------|
+    |`AUTHENTICATION_MODE` |ServicePrincipal         |MasterUser         |
+    |`WORKSPACE_ID`        |Eklenmiş raporunuzun bulunduğu çalışma alanının kimliği; bkz. [Çalışma alanı kimliği](#workspace-id)          |Eklenmiş raporunuzun bulunduğu çalışma alanının kimliği; bkz. [Çalışma alanı kimliği](#workspace-id)         |
+    |`REPORT_ID`           |Eklediğiniz raporun kimliği; bkz. [Rapor kimliği](#report-id)            |Eklediğiniz raporun kimliği; bkz. [Rapor kimliği](#report-id)         |
+    |`TENANT_ID`           |Azure AD [kiracı kimliğiniz](#tenant-id)         |Yok         |
+    |`CLIENT_ID`           |Azure AD uygulamanızın [istemci kimliği](#client-id)         |Azure AD uygulamanızın [istemci kimliği](#client-id)         |
+    |`CLIENT_SECRET`       |Azure AD [istemci gizli diziniz](#client-secret)         |Yok         |
+    |`POWER_BI_USER`        |Yok         |*Ana kullanıcının* kullanıcı adı; bkz. [Power BI kullanıcı adı ve parolası](#power-bi-username-and-password)         |
+    |`POWER_BI_PASS`        |Yok         |*Ana kullanıcının* parolası; bkz. [Power BI kullanıcı adı ve parolası](#power-bi-username-and-password)         |
+
+11. Dosyayı kaydedin.
+
+12. Aşağıdaki adımları izleyerek projeyi çalıştırın:
+
+    a. **PowerShell** veya **komut istemi** ile **Python** > **Embed for your customers** > **AppOwnesData** klasörüne gidip `flask run` komutunu yürütün.
+
+    b. Tarayıcınızda yeni bir sekme açıp [http://localhost:5300](http://localhost:5300) adresine gidin.
+
+---
+
+## <a name="developing-your-application"></a>Uygulamanızı geliştirme
+
+Örnek *müşterileriniz için ekleme* uygulamasını yapılandırdıktan sonra kendi uygulamanızı geliştirmeye başlayabilirsiniz.
+
+Hazır olduğunuzda [üretime taşıma](move-to-production.md) gereksinimlerini gözden geçirin. Ayrıca bir [kapasiteye](embedded-capacity.md) ihtiyacınız olacağından gereksinimlerinize en uygun SKU'yu belirleme amacıyla [kapasite planlaması](embedded-capacity-planning.md) makalesini de incelemeniz gerekir.
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bu öğreticide müşterileriniz için bir uygulamaya Power BI içeriği eklemeyi öğrendiniz. Kuruluşunuz için de Power BI içeriği ekleme denemeleri yapabilirsiniz.
-
 > [!div class="nextstepaction"]
+>[Üretime taşıma](move-to-production.md)
+
+>[!div class="nextstepaction"]
 >[Kuruluşunuz için ekleme](embed-sample-for-your-organization.md)
 
-Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+> [!div class="nextstepaction"]
+>[Müşterileriniz için sayfalandırılmış raporlar ekleme](embed-paginated-reports-customers.md)
+
+> [!div class="nextstepaction"]
+>[Kuruluşunuz için sayfalandırılmış raporlar ekleme](embed-paginated-reports-organization.md)
+
+>[!div class="nextstepaction"]
+>[Power BI Topluluğu'na sorun](https://community.powerbi.com/)
