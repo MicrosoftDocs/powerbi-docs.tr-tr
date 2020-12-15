@@ -9,6 +9,8 @@
           href: service-get-data.md
         - name: Şirket içi veri ağ geçidi nedir?
           href: service-gateway-onprem.md
+        - name: Power BI hizmetinde veri kümesi bulma
+          href: service-datasets-hub.md
     - name: Hızlı Başlangıçlar
       expanded: true
       items:
