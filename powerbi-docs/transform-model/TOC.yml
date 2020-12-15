@@ -7,8 +7,6 @@
       items:
         - name: Sorgu Düzenleyicisi’ne genel bakış
           href: desktop-query-overview.md
-        - name: Veri akışları ile self servis veri hazırlığı
-          href: ./dataflows/dataflows-introduction-self-service.md
     - name: Öğreticiler
       expanded: true
       items:
