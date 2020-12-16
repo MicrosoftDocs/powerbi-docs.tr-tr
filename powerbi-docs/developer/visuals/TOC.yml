@@ -82,6 +82,8 @@
           href: drill-down-support.md
         - name: Görselinize renkler ekleme
           href: add-colors-power-bi-visual.md
+        - name: Koşullu biçimlendirme ekleme
+          href: conditional-format.md
         - name: Görsellerde verileri vurgulama
           href: highlight.md
         - name: Yüksek Karşıtlıklı mod desteği ekleme
