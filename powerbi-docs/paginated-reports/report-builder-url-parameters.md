@@ -8,13 +8,13 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.reviewer: cfinlan
 ms.custom: ''
-ms.date: 09/09/2020
-ms.openlocfilehash: 4284ba559bff0ba0a3bde7dd34c6f26034ecf12e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/15/2020
+ms.openlocfilehash: 4dc7d3dbb68a06f1b18714d2070b7c305390ef6b
+ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415577"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97558482"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI’da bulunan sayfalandırılmış raporlardaki URL parametreleri
 
@@ -163,8 +163,6 @@ PPTX (PowerPoint):
 
 XML:
 
-- rdl:XSLT=string
-- rdl:MIMEType=string
 - rdl:UseFormattedValues=true/false
 - rdl:Indented=true/false
 - rdl:OmitNamespace=true/false

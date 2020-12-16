@@ -8,14 +8,14 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/28/2020
+ms.date: 12/14/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1efc83ac18b2d2cf44aae05003e533f45ae11864
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e38e88966066d2a4df3bbffbd32bdbb840affe02
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413047"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492231"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop’ta rapor temalarını kullanma
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 05/06/2020
+ms.date: 12/14/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 421ccbe08435e03fe43cf6f0e7f2b71c99ec6901
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9e0ec57b2b37c237db94cf5710d853cbbb2cd6ed
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414404"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492208"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Tablolarda koşullu biçimlendirme kullanma 
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/18/2019
+ms.date: 12/14/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa1c620bc722fa6382974734129dc7930e94d728
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 88a77f7bb626b8e6395650c96cd957ab11600179
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414450"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492139"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Power BI Desktop'ta özel sütun ekleme
 

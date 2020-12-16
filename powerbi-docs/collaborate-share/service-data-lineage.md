@@ -9,12 +9,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
 LocalizationGroup: ''
-ms.openlocfilehash: d2cd60a62d321910e280ebd8b38411b393d96bca
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8b119f5134fdaf4e251f9a8da560a2a3f7f3a4eb
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407412"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492116"
 ---
 # <a name="data-lineage"></a>Veri kökeni
 Modern iş zekası (BI) projelerinde verilerin veri kaynağından hedefine akışını anlamak güç olabilir. Birden çok veri kaynağına, yapıta ve bağımlılığa yayılan gelişmiş analiz projeleri oluşturduğunuzda bu güçlük daha da artar. "Bu verileri değiştirirsem ne olur?" veya "Bu rapor neden güncel değil?" gibi soruları yanıtlamak kolay olmayabilir. Bunu anlamak için bir uzman takımı veya derin bir araştırma gerekebilir. Veri kökeni görünümünü, bu soruları yanıtlamanıza yardımcı olmak için tasarladık.
@@ -26,10 +26,6 @@ Power BI'da panolar, raporlar, veri kümeleri ve veri akışları gibi çeşitli
 Köken görünümünde çalışma alanında yer alan tüm yapıtlar arasındaki köken ilişkilerini ve çalışma alanının tüm dış bağımlılıklarını görürsünüz. Hem yukarı hem de aşağı doğru akan veri akışlarıyla bağlantılar da dahil olmak üzere tüm çalışma alanı yapıtları arasındaki bağlantıları gösterir.    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rUj06dqB98g" frameborder="0" allowfullscreen></iframe>
-
-
-
-> [!VIDEO https://youtu.be/rUj06dqB98g]
 
 ## <a name="explore-lineage-view"></a>Köken görünümünü inceleme
 
