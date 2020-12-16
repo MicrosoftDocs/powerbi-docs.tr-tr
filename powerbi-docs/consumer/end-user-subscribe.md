@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/06/2020
+ms.date: 12/08/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 138107761a03866e1a04f5efc1f7e40da84b9627
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 52e4e34a8e081f7ca37d4216f7f021c308942a8d
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781877"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998542"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 

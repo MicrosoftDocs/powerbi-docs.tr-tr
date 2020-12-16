@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 12/09/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 9bf482f14b197acda93b6411525a98e865706721
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: da9a143921c640f6933af572a7ac14fc04c96c47
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578530"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998519"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop için önceki aylarda yapılan güncelleştirmeler
 
@@ -546,13 +546,6 @@ Kuruluşunuza gerekiyorsa Power BI Desktop'ın önceki sürümlerini de indirebi
 * Power BI Desktop'ın yeni sürümleriyle oluşturulan veya kaydedilen dosyaları Power BI Desktop'ın önceki sürümleriyle açmanız mümkün olmayabilir. 
 * Power BI Desktop'ın daha yeni sürümüyle kaydettiğiniz bir raporu yüklerken uyarı alırsanız ve o raporu önceki sürümde kaydederseniz, yeni özelliklerle ilgili tüm bilgileri kaybedersiniz.
 * Power BI Desktop'ın yalnızca İngilizce sürümlerini arşivliyoruz.
-
-Önceki sürümü indirmek için bağlantıları izleyin: 
-
-* [Power BI Desktop’ın Mayıs 2020 sürümü - 32 bit](https://download.microsoft.com/download/9/0/3/903DCAE8-44D9-4A7E-856C-40C0754723ED/PBIDesktopRS.msi)
-* [Power BI Desktop’ın Mayıs 2020 sürümü - 64 bit](https://download.microsoft.com/download/9/0/3/903DCAE8-44D9-4A7E-856C-40C0754723ED/PBIDesktopRS_x64.msi)
-
-
 
 
 

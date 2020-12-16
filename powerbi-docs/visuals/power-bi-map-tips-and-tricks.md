@@ -5,17 +5,18 @@ author: mihart
 ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ajTPGNpthcg
+ms.custom: video-ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8bbcd6eafc2a0b8eaac7424700bbbb68314730d2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3e0d944f8058ddc5dfb64c8f960bd354571bb23c
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412518"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999071"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI harita görselleştirmelerine ilişkin ipuçları ve püf noktaları
 

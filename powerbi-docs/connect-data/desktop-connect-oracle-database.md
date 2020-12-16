@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2e25ab87d042fdc2f0e88ee00a0b0f8f9dbd83a0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 907435fbf5b920d46b1db32c7d652a347245e9b2
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411414"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491886"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Power BI Desktop'la Oracle veritabanına bağlanma
 Power BI Desktop'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklediğiniz Power BI Desktop sürümüne göre değişiklik gösterir: 32 bit veya 64 bit. Ayrıca Oracle sunucunuzun sürümüne de bağlıdır.

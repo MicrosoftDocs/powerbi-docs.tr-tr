@@ -9,13 +9,13 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.custom: video
-ms.openlocfilehash: 9a78ac3aa63ee65ea0e60a384a41ac4a6544c610
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.custom: ''
+ms.openlocfilehash: ec4c2581101b11beeb8bc907a1f745ed8cfab7c2
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578211"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998611"
 ---
 # <a name="view-a-dashboard"></a>Pano görüntüleme
 

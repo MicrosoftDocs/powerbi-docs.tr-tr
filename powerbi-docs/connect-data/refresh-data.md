@@ -7,14 +7,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 06/16/2020
+ms.date: 12/14/2020
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 212aa0648a2677536912c15a17ba6916bb871313
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 009954c8496d5644f1dbe4b51372afca6a758f6e
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404514"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491909"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI'da veri yenileme
 

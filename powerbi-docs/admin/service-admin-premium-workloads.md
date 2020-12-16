@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: d4f9ba18a036c7416689a05476bd1cba6fec72e4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 04340be9c7e3700630657306093e3d96e3e9e693
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408355"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491426"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -25,7 +25,8 @@ Bu makalede, Power BI Premium kapasiteleri için iş yüklerini etkinleştirme v
 
 ## <a name="default-memory-settings"></a>Varsayılan bellek ayarları
 
-Sorgu iş yükleri, Premium kapasite SKU’nuza göre belirlenen kaynaklar için iyileştirilmiştir ve bunlarla sınırlıdır. Premium kapasiteler ayrıca kapasitenizin kaynaklarını kullanabilen ek iş yüklerini de destekler. Bu iş yükleri için varsayılan bellek değerleri, SKU’nuz için kullanılabilir kapasite düğümlerini temel alır. En yüksek bellek ayarları kümülatif değildir. Belirtilen en yüksek değere kadar bellek, AI ve veri akışları için dinamik olarak ayrılır ancak sayfalandırılmış raporlar için statik olarak ayrılır.
+Sorgu iş yükleri, Premium kapasite SKU’nuza göre belirlenen kaynaklar için iyileştirilmiştir ve bunlarla sınırlıdır. Premium kapasiteler ayrıca kapasitenizin kaynaklarını kullanabilen ek iş yüklerini de destekler. Bu iş yükleri için varsayılan bellek değerleri, SKU’nuz için kullanılabilir kapasite düğümlerini temel alır. En yüksek bellek ayarları kümülatif değildir. 
+
 
 |                       | EM1 / A1                  | EM2 / A2                  | EM3 / A3                  | P1 / A4                  | P2 / A5                  | P3 / A6                   |
 |-----------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|

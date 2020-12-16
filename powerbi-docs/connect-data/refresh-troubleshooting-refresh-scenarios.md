@@ -7,14 +7,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
-ms.date: 05/28/2020
+ms.date: 12/14/2020
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7f8193971176a738b46f628e11736ac6016ec83e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: eba044de4918ad3cc62ce8b47144eab25c34702a
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96403778"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491817"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Yenileme ile ilgili sorun giderme senaryoları
 

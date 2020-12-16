@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e9c64a3da7d5026045a64f58c814004df6d327b6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 038d0fc4b136f89db290010289d24ee41454c9ea
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411345"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353347"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop'taki veri kaynakları
 
@@ -117,7 +117,7 @@ Aşağıda, **Veritabanı** kategorisine ilişkin **Veri Al** penceresi gösteri
 
 * Power BI veri kümeleri
 * Power BI veri akışları
-* Common Data Service
+* Microsoft Dataverse
 * Power Platform veri akışları (Beta)
 
 Aşağıdaki görüntüde **Power Platform** kategorisine ilişkin **Veri Al** penceresi gösterilmektedir.

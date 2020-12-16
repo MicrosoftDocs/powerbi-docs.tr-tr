@@ -4,18 +4,18 @@ description: Power BI'da şelale grafikler
 author: mihart
 ms.author: mihart
 ms.reviewer: mihart
-featuredvideoid: maTzOJSRB3g
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/5/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1a651afd0aee0777f8f4c945f208eec8c46db047
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6c358c2e12ee3526445efeab1e45b5f193f8b654
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416681"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96997944"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Power BI'da şelale grafikler
 
