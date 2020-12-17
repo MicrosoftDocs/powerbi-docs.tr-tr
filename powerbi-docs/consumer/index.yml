@@ -2,20 +2,20 @@
 title: Tüketiciler için Power BI belgeleri
 summary: Tüketici olarak, iş arkadaşlarınızdan pano ve raporlar alırsınız. İş kararları almak üzere bu içeriği incelemek ve içerikle etkileşim kurmak için Power BI’da çalışırsınız.
 metadata:
-  title: Tüketiciler için Power BI
+  title: Kullanıcılar için Power BI
   description: Power BI ile çalışmaya yeni mi başlıyorsunuz? Power BI hizmetinin özelliklerini ve yeteneklerini öğrenin; Power BI tüketicisi veya son kullanıcısı olarak bunlarla ne yapabileceğinizi görün.
   ms.service: powerbi
-  ms.subservice: powerbi-consumer
+  ms.subservice: pbi-explore
   ms.topic: landing-page
   author: mihart
   ms.author: mihart
   ms.date: 03/22/2020
-  ms.openlocfilehash: 46a4e6af0f1f843b5b6e9ad22f845f073a48e804
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 6799190e5256b275f10c85695c495689102d94b4
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80302314"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621821"
 landingContent:
 - title: Tüketiciler için Power BI hakkında
   linkLists:
@@ -31,7 +31,7 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: Oturum aç
+    - text: Oturum açın
       url: end-user-sign-in.md
   - linkListType: concept
     links:
@@ -59,7 +59,7 @@ landingContent:
     links:
     - text: Power BI’da gezinme
       url: end-user-experience.md
-    - text: Bir görselde detaya gitme
+    - text: Görselde detaya gitme
       url: end-user-drill.md
     - text: Görsellerin sıralanma şeklini değiştirme
       url: end-user-change-sort.md
@@ -71,7 +71,7 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: Benimle paylaşılıyor mu?
+    - text: Benimle paylaşılan
       url: end-user-shared-with-me.md
     - text: PowerPoint’e rapor yayımlama
       url: end-user-powerpoint.md
@@ -79,7 +79,7 @@ landingContent:
       url: end-user-pdf.md
     - text: İçeriğe abone olma
       url: end-user-subscribe.md
-- title: İleri düzey konular
+- title: Gelişmiş konular
   linkLists:
   - linkListType: how-to-guide
     links:
