@@ -6,18 +6,18 @@ metadata:
   description: Power BI belgeleri, Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak ihtiyaçlarınızı karşılamaya yönelik, uzmanlar tarafından sunulmuş bilgiler ve yanıtlar sağlar.
   services: powerbi
   ms.service: powerbi
-  ms.subservice: powerbi-service
+  ms.subservice: powerbi-admin
   ms.topic: landing-page
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 03/17/2020
-  ms.openlocfilehash: 583a42a230b869f2692cc35202dbd496a4f2b602
-  ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+  ms.openlocfilehash: 9a8a47df351d3990763b8e44da2aee6271e4e94f
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 06/02/2020
-  ms.locfileid: "84272483"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621062"
 landingContent:
 - title: Yöneticiler ve kurumlar için Power BI
   linkLists:

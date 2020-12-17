@@ -120,6 +120,7 @@
             - name: En iyi uygulamalar
               href: deployment-pipelines-best-practices.md
     - name: Nasıl yapılır kılavuzları
+      expanded: true
       items:
         - name: Power BI raporları
           items:

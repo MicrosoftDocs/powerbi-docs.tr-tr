@@ -14,12 +14,14 @@
         - name: Power BI Desktop ile hizmeti karşılaştırma
           href: service-service-vs-desktop.md
     - name: Öğreticiler
+      expanded: true
       items:
         - name: Power BI Desktop ile çalışmaya başlama
           href: desktop-getting-started.md
         - name: Power BI hizmeti ile çalışmaya başlama
           href: service-get-started.md
     - name: Kavramlar
+      expanded: true
       items:
         - name: Son Power BI Desktop güncelleştirmesindeki yenilikler
           href: desktop-latest-update.md
@@ -44,6 +46,7 @@
             - name: Güvenlik temeli
               href: security-baseline.md
     - name: Nasıl yapılır kılavuzları
+      expanded: true
       items:
         - name: Power BI Desktop uygulamasını edinme
           href: desktop-get-the-desktop.md
