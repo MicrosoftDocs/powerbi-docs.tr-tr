@@ -30,8 +30,6 @@
           href: mobile-apps-offline-data.md
         - name: HoloLens 2 için Power BI
           href: mobile-hololens2-app.md
-        - name: HoloLens için Power BI (1. nesil)
-          href: mobile-mixed-reality-app.md
     - name: Nasıl yapılır
       items:
         - name: Tüm mobil uygulamalar
