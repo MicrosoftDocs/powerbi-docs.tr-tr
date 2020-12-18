@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b20bb007c55f7d7d618b70690475d34d9f53fc06
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410126"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491725"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Power BI’da şablon uygulaması yazma ipuçları
 
@@ -144,6 +144,10 @@ Uygulamayı oluşturmadan önce kaliteli örnek verilere sahip olmanızı öneri
 Power BI'da kullanıcıyı uygulamanın indirme bağlantısına yönlendirmek için aşağıdaki kod örneğine bakın: [GitHub deposu](https://github.com/microsoft/Template-apps-examples).
 
 [![Uygulama İndirme bağlantısı](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+## <a name="automate-parameter-configuration-during-installation"></a>Yükleme sırasında parametre yapılandırmasını otomatikleştirme
+
+Bir ISV iseniz ve şablon uygulamanızı web hizmetiniz aracılığıyla dağıtıyorsanız, müşterileriniz şablon uygulamasını Power BI hesaplarına yüklediklerinde uygulama parametrelerini otomatik olarak yapılandıran bir otomasyon oluşturabilirsiniz. Bu yöntem müşterilerinizin işini kolaylaştırır ve başarılı yükleme olasılığını artırır çünkü bilmiyor olabilecekleri ayrıntıları sağlamaları gerekmez. Ayrıntılar için bkz. [Şablon uygulaması yüklemesini otomatik yapılandırma](../developer/template-apps/template-apps-auto-install.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

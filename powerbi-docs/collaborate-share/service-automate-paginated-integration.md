@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 2689597e35801d6829b29790309ea53ad410ff47
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5c69abe925751e8b065f262e151bfee65c487238
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412035"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492070"
 ---
 # <a name="export-power-bi-paginated-reports-with-power-automate"></a>Power Automate ile Power BI sayfalandırılmış raporlarını dışarı aktarma
 
@@ -40,7 +40,7 @@ Adım adım yönergelerle kullanmaya başlamak için listeden bir şablon seçin
 
 - [Power BI sayfalandırılmış raporlarını OneDrive İş'e veya SharePoint Online klasörüne kaydetme](service-automate-paginated-onedrive-sharepoint.md).  
 - [SharePoint Online listesindeki öğeler veya Excel Online tablosundaki her satır için bir Power BI sayfalandırılmış raporunu dışarı aktarma](service-automate-paginated-excel-sharepoint-list.md).
-- Power BI sayfalandırılmış raporunu yerel sistem klasörüne kaydetme.
+- [Power BI sayfalandırılmış raporunu yerel sistem klasörüne kaydetme](service-automate-paginated-local-file.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

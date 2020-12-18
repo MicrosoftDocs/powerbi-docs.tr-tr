@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/04/2020
+ms.date: 12/10/2020
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 1f9a34b68f465eda5b8921e48576c9bef5d17f36
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781712"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353117"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Power BI Premium'daki büyük veri kümeleri
 
-Power BI veri kümeleri, sorgu performansını iyileştirerek daha hızlı kullanıcı etkileşimine olanak tanımak için verileri yüksek oranda sıkıştırılmış bellek içi önbellekte depolayabilir. Premium kapasitelerde **Büyük veri kümesi depolama biçimi** ayarıyla veri kümelerinin varsayılan 10 GB'lık sınırın üzerine çıkmasını sağlamak mümkündür. Bu özellik etkinleştirildiğinde veri kümesinin boyutu, Premium *kapasitenin* boyutuyla sınırlanmış olur.
+Power BI veri kümeleri, sorgu performansını iyileştirerek daha hızlı kullanıcı etkileşimine olanak tanımak için verileri yüksek oranda sıkıştırılmış bellek içi önbellekte depolayabilir. Premium kapasitelerde **Büyük veri kümesi depolama biçimi** ayarıyla veri kümelerinin varsayılan 10 GB'lık sınırın üzerine çıkmasını sağlamak mümkündür. Etkinleştirildiğinde, veri kümesi boyutu Premium *kapasite* boyutuyla veya yönetici tarafından ayarlanmış en büyük boyutla sınırlıdır.
 
 Büyük veri kümeleri tüm Premium P SKU'ları ve Embedded A SKU'ları için etkinleştirilebilir. Premium'daki büyük veri kümesi boyutu sınırı, veri modeli boyutu sınırlamaları açısından Azure Analysis Services ile benzerdir.
 
@@ -136,6 +136,8 @@ Büyük veri kümelerini kullanırken aşağıdaki kısıtlamalara dikkat edin:
 - **Power BI Desktop'a indirme**: Premium Dosyalarda depolanan veri kümeleri için [.pbix olarak indirme](../create-reports/service-export-to-pbix.md) işlemi başarısız olur.
 - **Desteklenen bölgeler**: Büyük veri kümeleri Premium Dosya Depolama'yı destekleyen tüm Azure bölgelerinde desteklenir. Daha fazla bilgi edinmek için [Bölgeye göre kullanılabilir ürünler](https://azure.microsoft.com/global-infrastructure/services/?products=storage) konusuna bakın ve aşağıdaki bölümde verilen tabloya başvurun.
 
+- **Veri kümesi boyutu üst sınırını ayarlama**: Veri boyutu üst sınırı yöneticiler tarafından ayarlanabilir. Üst sınır 0,1 GB'tan SKU'nun kapasite üst sınırına kadar bir değere ayarlanabilir.
+
 ## <a name="region-availability"></a>Bölge kullanılabilirliği
 
 Power BI’da büyük veri kümeleri yalnızca [Azure Premium Dosyalar Depolaması](/azure/storage/files/storage-files-planning#storage-tiers)’nı destekleyen bazı Azure bölgelerinde kullanılabilir.
@@ -146,6 +148,9 @@ Aşağıdaki listede, Power BI’da büyük veri kümelerinin kullanılabildiği
 |---------|---------|
 |Doğu Avustralya     | australiaeast        |
 |Avustralya Güneydoğu     | australiasoutheast        |
+|Doğu Kanada     | canadaeast        |
+|Orta Kanada     | canadacentral        |
+|Orta Hindistan     | centralindia        |
 |Central US     | centralus        |
 |Doğu Asya     | eastasia        |
 |Doğu ABD     | eastus        |
@@ -161,6 +166,7 @@ Aşağıdaki listede, Power BI’da büyük veri kümelerinin kullanılabildiği
 |Güney Birleşik Krallık     | uksouth        |
 |Batı Birleşik Krallık     | ukwest        |
 |West Europe     | westeurope        |
+|Batı Hindistan     | westindia        |
 |Batı ABD     | westus        |
 |Batı ABD 2     | westus2        |
 

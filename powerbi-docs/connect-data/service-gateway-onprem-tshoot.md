@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 09/25/2020
+ms.date: 12/10/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: de8d24af0dbaa0ed4b27efca140cf29acda9df76
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634655"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353429"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Ağ geçidiyle ilgili sorunları giderme - Power BI
 
@@ -238,6 +238,37 @@ Active Directory’de temsilciniz doğru yapılandırılmadıysa "-10709 Bağlan
 * Ağ geçidi hizmet hesabı için Active Directory’de temsilci sekmesinde SAP Hana sunucunuzun olduğundan emin olun.
 
    ![Temsilci sekmesi](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
+## <a name="export-logs-for-a-support-ticket"></a>Destek bileti için günlükleri dışarı aktarma
+
+Sorun giderme ve destek bileti oluşturma işlemleri için ağ geçidi günlükleri gereklidir. Söz konusu günlükleri ayıklamak için aşağıdaki adımları kullanın.
+
+1. Ağ geçidi kümesini belirleyin.
+
+    Veri kümesi sahibiyseniz önce veri kümenizle ilişkilendirilmiş ağ geçidi küme adını denetleyin. Aşağıdaki resimde ağ geçidi kümesi *IgniteGateway*'dir.
+
+    ![Ağ geçidi kümesi](media/service-gateway-onprem-tshoot/gateway-cluster.png)
+
+2. Ağ geçidi özelliklerini denetleyin.
+
+    Bundan sonra ağ geçidi yöneticisi kümedeki ağ geçidi üyelerinin sayısını ve yük dengelemenin etkinleştirilip etkinleştirilmediğini denetler.
+
+    Yük dengeleme etkinse, 3. adım tüm ağ geçidi üyeleri için tekrarlanmalıdır. Etkin değilse, günlükleri birincil ağ geçidine aktarmak yeterli olur.
+
+3. Ağ geçidi günlüklerini alın ve dışarı aktarın.
+
+    Ardından ağ geçidi sisteminin de yöneticisi olan ağ geçidi yöneticisi aşağıdaki adımları uygulamalıdır:
+
+    a. Ağ geçidi makinesinde oturum açın ve ardından ağ geçidinden oturum açmak için [şirket içi veri ağ geçidi uygulamasını](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-app) başlatın.
+    
+    b. [Ek günlükleri](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#slow-performing-queries) etkinleştirin.
+    
+    c. İsteğe bağlı olarak, sorun giderme işlemine ek ayrıntılar sağlamak için [performans izleme özelliklerini etkinleştirebilir](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#enable-performance-logging) ve performans günlüklerini ekleyebilirsiniz.
+    
+    d. Ağ geçidi günlüklerini yakalamaya çalıştığınız senaryoyu çalıştırın.
+    
+    e. [Ağ geçidi günlüklerini dışarı aktarın](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
+
 
 ## <a name="refresh-history"></a>Yenileme geçmişi
 

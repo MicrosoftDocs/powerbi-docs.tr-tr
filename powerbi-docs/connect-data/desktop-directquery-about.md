@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 12/03/2020
+ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 01ba6c2e01b3e17a3ef9c878890877e0a0b976ea
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 84d60fce95172b419663ed7889d69e22ae1947cd
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613751"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492001"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma hakkında
 
@@ -81,7 +81,7 @@ SQL Server Analysis Services hizmetine bağlanılırken, seçili veri modelinden
 Önceki paragrafta açıklanan durum aşağıdaki kaynaklarla bağlantı kurulurken de geçerlidir ancak verileri içeri aktarma seçeneği sunulmaz:
 
 * Power BI veri kümeleri (örneğin, önceden oluşturulmuş ve hizmette yayımlanmış bir Power BI veri kümesine, üzerine yeni bir rapor yazmak amacıyla bağlanılırken).
-* Common Data Services.
+* Microsoft Dataverse.
 
 SQL Server Analysis Services üzerinden alınan raporların Power BI hizmetinde yayımlandıktan sonraki davranışı, şu açılardan DirectQuery raporları ile benzerlik gösterir:
 
@@ -334,6 +334,9 @@ Ayarın etkinleştirilmesi için geçerli raporda en az bir DirectQuery kaynağ�
 **Veri kaynağı başına en fazla bağlantı sayısı** değerini yükseltmek temel veri kaynağına daha fazla sorgu (belirtilen en yüksek sayıya kadar) gönderilebilmesini sağlar. Bu yaklaşım, tek sayfada çok sayıda görsel bulunduğunda veya rapora aynı anda çok sayıda kullanıcı eriştiğinde yararlı olur. En fazla bağlantı sayısına ulaşıldığında, bağlantı kullanılabilir duruma gelene kadar diğer sorgular kuyruğa alınır. Bu sınırın yükseltilmesi temel kaynakta daha fazla yüke yol açtığından bu ayar genel performansın artırılmasını garanti etmez.
 
 Rapor yayımlandıktan sonra temel alınan veri kaynağına gönderilen en fazla eş zamanlı sorgu sayısı da sabit sınırlara bağlı olarak değişir. Sınırlar, raporun yayımlandığı hedef ortama bağlıdır. Farklı ortamların (Power BI, Power BI Premium veya Power BI Rapor Sunucusu gibi) her biri farklı sınırlar uygulayabilir.
+
+> [!NOTE]
+> Ekim 2020'den başlayarak Power BI Desktop'ta oluşturulan tüm modellerde varsayılan ayar olan [geliştirilmiş meta veriler](desktop-enhanced-dataset-metadata.md) etkinleştirildiğinde, en fazla DirectQuery bağlantı sayısı ayarı tüm DirectQuery kaynaklarına uygulanır. 
 
 ### <a name="diagnosing-performance-issues"></a>Performans sorunlarını tanılama
 

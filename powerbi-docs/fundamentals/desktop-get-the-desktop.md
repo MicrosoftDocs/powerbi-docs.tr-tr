@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: how-to
 ms.date: 10/12/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c46188318ca5659f109ba8483c552d9ab43f932
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3d233736c55ea736da1ecc561c2936a0a9f42a09
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418682"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492185"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop uygulamasını edinme
 Power BI Desktop verileri görselleştiren gelişmiş sorgular, modeller ve raporlar oluşturmanıza olanak sağlar. Power BI Desktop ile veri modelleri kurabilir, raporlar oluşturabilir ve Power BI hizmetinde yayımlayarak işinizi paylaşabilirsiniz. Power BI Desktop ücretsiz olarak indirilir.
@@ -102,7 +102,7 @@ Power BI Desktop'ı çalıştırmaya yönelik minimum gereksinimler aşağıdaki
 > Power BI Desktop, 31 Ocak 2021’den sonra Windows 7’de desteklenmeyecektir. Bu tarihten sonra Power BI Desktop, yalnızca en son sürümü için Windows 8 veya daha yeni sürümlerde desteklenecektir. 
 
 * Windows 7/Windows Server 2008 R2 veya sonraki sürümler
-* .NET 4.5
+* .NET 4.6.2
 * Internet Explorer 10 veya sonraki sürümler
 * Bellek (RAM): En az 1 GB kullanılabilir bellek. (1,5 GB veya daha fazla bellek önerilir.)
 * Ekran: En az 1440x900 veya 1600x900 (16:9) çözünürlük gerekir. Belirli denetimler (başlangıç ekranını kapatma gibi) bu çözünürlükleri aşacağı için 1024x768 veya 1280x800 gibi daha düşük çözünürlükler desteklenmez.

@@ -1,5 +1,5 @@
 ---
-title: Katıştırılmış uygulamanızla ilgili sorunları giderme
+title: Power BI Embedded analiz uygulamanızın sorunlarını giderme
 description: Bu makalede, Power BI'dan içerik katıştırma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanmaktadır.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749081"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098088"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -101,7 +101,7 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>Kimlik doğrulaması şu hatayla başarısız oldu: AADSTS90002: Kiracı 'yetkilendirmesi' bulunamadı
 
- İleti günlüğünde ***hata: invalid_request, error_description: AADSTS90002: Kiracı 'yetkilendirmesi' bulunamadı*** gibi iletiler alırsanız, bunun nedeni ADAL 4.x'in yetki url'si olarak "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" url'sini desteklememesidir.
+ İleti günlüğünde ***hata: invalid_request, error_description: AADSTS90002: Kiracı 'yetkilendirmesi' bulunamadı** _ gibi iletiler alırsanız, bunun nedeni ADAL 4.x'in yetki url'si olarak "https://login.microsoftonline.com/{Tenant}/oauth2/authorize/" url'sini desteklememesidir.
  
 Bu sorunu çözmek için yetki url'nizin sonundaki "oauth2/authorize/" bölümünü kırpmalısınız. Bu konuda başvuru için [Power BI Geliştirici Örnekleri](https://github.com/Microsoft/PowerBI-Developer-Samples)'ne bakın.
 
@@ -109,15 +109,15 @@ Bu sorunu çözmek için yetki url'nizin sonundaki "oauth2/authorize/" bölümü
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>AADSTS70002 veya AADSTS50053 ile kimlik doğrulaması başarısız oldu
 
-**_(AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği veya parolayla çok fazla sayıda oturum açma denemesi yaptınız)_**
+_*_ (AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği veya parolayla çok fazla sayıda oturum açma denemesi yaptınız)_**
 
-Power BI Embedded'i ve Azure AD Doğrudan kimlik doğrulamasını kullanıyorsanız ve oturum açarken ***error:unauthorized_client, error_description:AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız*** gibi iletiler alıyorsanız bunun nedeni, doğrudan kimlik doğrulamasının 14 Haziran 2018'den itibaren artık kullanımda olmamasıdır.
+Power BI Embedded'i ve Azure AD Doğrudan kimlik doğrulamasını kullanıyorsanız ve oturum açarken **_hata:unauthorized_client, error_description:AADSTS70002: Kimlik bilgileri doğrulanırken hata oluştu. AADSTS50053: Hatalı bir Kullanıcı Kimliği ve parolayla çok fazla sayıda oturum açma denemesi yaptınız_* gibi iletiler alıyorsanız bunun nedeni, doğrudan kimlik doğrulamasının 14 Haziran 2018'den itibaren artık kullanımda olmamasıdır.
 
 Kapsam olarak kuruluşun veya bir [hizmet sorumlusunun](/azure/active-directory/develop/active-directory-application-objects#service-principal-object) belirlendiği bir [Azure AD İlkesi](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) kullanarak bu işlemi geri almanın bir yolu vardır.
 
 Bu ilkeyi yalnızca uygulama özelinde etkinleştirmenizi öneririz.
 
-Bu ilkeyi oluşturmak için, ilkeyi oluşturduğunuz ve atadığınız dizinin **Genel Yöneticisi** olmanız gerekir. Burada, bu uygulama için ilkeyi oluşturmaya ve SP'ye atamaya yönelik örnek bir betik verilmiştir:
+Bu ilkeyi oluşturmak için, ilkeyi oluşturduğunuz ve atadığınız dizinin _ *Genel Yönetici** olmanız gerekir. Burada, bu uygulama için ilkeyi oluşturmaya ve SP'ye atamaya yönelik örnek bir betik verilmiştir:
 
 1. [Azure AD Preview PowerShell Modülü](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)'nü yükleyin.
 

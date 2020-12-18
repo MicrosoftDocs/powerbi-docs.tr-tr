@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 09/15/2020
-ms.openlocfilehash: fc62d291b890d840b89997cd5d5253572f91bf3e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: cfd9302c9c64760298eb78be10affad8be510a65
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410241"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491771"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Power BI’da şablon uygulaması oluşturma
 
 Power BI *şablon uygulamaları*, Power BI iş ortaklarının çok az kodlamayla veya hiç kodlama kullanmadan Power BI uygulamaları oluşturmasını ve bunları Power BI müşterilerine dağıtmasını sağlar.  Bu makalede, Power BI şablon uygulaması oluşturmaya yönelik adım adım yönergeler yer almaktadır.
 
-Power BI raporları ve panoları oluşturabiliyorsanız, *şablon uygulaması oluşturucusu* olabilir ve analitik içeriklerini derleyip *uygulama* içinde paketleyebilirsiniz. Uygulamanızı, AppSource gibi herhangi bir kullanılabilir platform aracılığıyla veya kendi web hizmetinizde kullanarak diğer Power BI kiracılarına dağıtabilirsiniz. Bir oluşturucu olarak dağıtım için korumalı bir analiz paketi oluşturabilirsiniz.
+Power BI raporları ve panoları oluşturabiliyorsanız, *şablon uygulaması oluşturucusu* olabilir ve analitik içeriklerini derleyip *uygulama* içinde paketleyebilirsiniz. Ardından uygulamanızı, AppSource veya kendi web hizmetiniz gibi herhangi bir kullanılabilir platform aracılığıyla diğer Power BI kiracılarına dağıtabilirsiniz. Şablon uygulamanızı kendi web hizmetiniz aracılığıyla dağıtıyorsanız, müşterilerinizin işini kolaylaştırmak için [yükleme işleminin bir bölümünü otomatikleştirmeniz](../developer/template-apps/template-apps-auto-install.md) bile mümkündür.
 
 Kuruluşlarında kimlerin şablon uygulamaları oluşturabileceğini ve kimlerin bu uygulamaları yükleyebileceğini Power BI yöneticileri yönetir ve denetler. Yetkili kullanıcılar şablon uygulamanızı yükleyebilir, sonra uygulamada değişiklik yapabilir ve bunu kendi kuruluşlarındaki Power BI müşterilerine dağıtabilir.
 
@@ -178,12 +178,10 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
     Yükleme başarılı olduğunda yeni uygulamanın hazır olduğuna ilişkin bir bildirim görürsünüz.
 
 6. **Uygulamaya gidin**'i seçin.
-7. **Yeni uygulamanızı kullanmaya başlayın** penceresinde uygulamanızı aynı müşterilerinizin göreceği gibi görürsünüz.
 
-    ![Yeni uygulamanızı kullanmaya başlayın](media/service-template-apps-create/power-bi-template-app-get-started.png)
-8. Test uygulamasını örnek verilerle doğrulamak için **Uygulamayı Keşfet**’i seçin.
-9. Değişiklik yapmak için özgün çalışma alanındaki uygulamaya geri dönün. Sonuçtan memnun kalana kadar test uygulamasını güncelleştirin.
-10. Uygulamanızı kiracınızın dışında test edilmek üzere üretim öncesi aşamaya yükseltmek için, **Sürüm Yönetimi** bölmesine dönün ve **Uygulamayı yükselt**’i seçin.
+    Test uygulamasının örnek verileri olduğunu doğrulayın. Değişiklik yapmak için özgün çalışma alanındaki uygulamaya geri dönün. Sonuçtan memnun kalana kadar test uygulamasını güncelleştirin.
+
+1. Uygulamanızı kiracınızın dışında test edilmek üzere üretim öncesi aşamaya yükseltmek için, **Sürüm Yönetimi** bölmesine dönün ve **Uygulamayı yükselt**’i seçin.
 
     ![Uygulamayı üretim öncesi aşamaya yükseltme](media/service-template-apps-create/power-bi-template-app-promote.png)
     >[!NOTE]
@@ -200,6 +198,10 @@ Sürüm aşamaları arasında hareket ettiğinizde URL değişmez. Yükseltme UR
     ![Üretim ortamında uygulama](media/service-template-apps-create/power-bi-template-app-production.png)
 
 Uygulamanızın dünya genelinde binlerce Power BI kullanıcısına sunulabilmesi için, uygulamayı AppSource’a göndermenizi öneririz. Ayrıntılar için bkz. [Power BI Uygulama teklifi](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+
+## <a name="automate-parameter-configuration-during-installation"></a>Yükleme sırasında parametre yapılandırmasını otomatikleştirme
+
+Bir ISV iseniz ve şablon uygulamanızı web hizmetiniz aracılığıyla dağıtıyorsanız, müşterileriniz şablon uygulamasını Power BI hesaplarına yüklediklerinde uygulama parametrelerini otomatik olarak yapılandıran bir otomasyon oluşturabilirsiniz. Bu yöntem müşterilerinizin işini kolaylaştırır ve başarılı yükleme olasılığını artırır çünkü bilmiyor olabilecekleri ayrıntıları sağlamaları gerekmez. Ayrıntılar için bkz. [Şablon uygulaması yüklemesini otomatik yapılandırma](../developer/template-apps/template-apps-auto-install.md).
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

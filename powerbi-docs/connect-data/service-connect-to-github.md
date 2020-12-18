@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/19/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e92afdbad41f212ac93245583430ae44fe0abaf9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f0d756b7909043a644ab8220cd71a9fca9b1c0e0
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410655"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998719"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Power BI ile GitHub'a bağlanma
 Bu makalede, verileri GitHub hesabınızdan Power BI şablon uygulamasıyla çekme işlemi adım adım açıklanmaktadır. Şablon uygulaması, GitHub verilerinizi araştırmanıza olanak tanımak için pano, rapor kümesi ve veri kümesi içeren bir çalışma alanı oluşturur. Power BI için GitHub uygulaması; yapılan katkılar, sorunlar, çekme istekleri ve etkin kullanıcılar ile ilgili veriler içeren bir GitHub deposuna (depo olarak da bilinir) ilişkin içgörüler gösterir.
@@ -41,7 +41,7 @@ Ayrıca [GitHub öğreticisini](service-tutorial-connect-to-github.md) de deneye
 
 1. **Yükle**'yi seçin. 
 
-    ![GitHub şablon uygulamasını yükleme](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
+    ![GitHub şablon uygulamasını yükleme](media/service-connect-to-github/power-bi-github-install-dialog.png)
 
     Uygulamayı yükledikten sonra Uygulamalarınız sayfasında görebilirsiniz.
 
@@ -51,30 +51,23 @@ Ayrıca [GitHub öğreticisini](service-tutorial-connect-to-github.md) de deneye
 
 1. Uygulamanızı açmak için Uygulamalar sayfanızdaki simgeyi seçin.
 
-1. Karşılama ekranında **Uygulamayı keşfet**’i seçin.
-
-   ![Şablon uygulaması karşılama ekranı](media/service-connect-to-github/service-github-app-splash-screen.png)
-
    Uygulama, örnek verileri göstererek açılır.
 
 1. Sayfanın üst kısmındaki başlıkta yer alan **Verilerinize bağlanın** seçeneğini belirleyin.
 
    ![GitHub uygulaması verilerinize bağlanma](media/service-connect-to-github/service-github-app-connect-data.png)
 
-1. Görüntülenen iletişim kutusunda depo adını ve deponun sahibini girin. [Bu parametreleri bulmaya](#FindingParams) ilişkin ayrıntılı bilgi için aşağıya bakın. İşiniz bittiğinde **İleri**’ye tıklayın.
+1. Bu, örnek verilerin kaynağını kendi veri kaynağınız (bkz. [bilinen sınırlamalar](service-template-apps-overview.md#known-limitations)) olarak değiştirebileceğiniz parametreler iletişim kutusunu açar, ardından kimlik doğrulama yöntemi iletişim kutusu açılır. Bu iletişim kutularındaki değerleri yeniden tanımlamanız gerekebilir.
 
-   ![Power BI GitHub depo adı](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+   ![Verilere bağlanma iletişim kutularının ekran görüntüsü.](media/service-connect-to-github/power-bi-template-app-connect-to-data-dialogs.png)
 
-1. Karşınıza çıkan sonraki iletişim kutusunda kimlik doğrulaması yönteminin **OAuth2** olarak ayarlandığından emin olun. Gizlilik ayarında bir şey yapmanız gerekmez. Hazır olduğunuzda **Oturum aç**’a tıklayın.
-
-   ![Power BI GitHub kimlik doğrulama yöntemi](media/service-connect-to-github/power-bi-github-authentication.png)
 
 1. GitHub kimlik bilgilerinizi girin ve GitHub kimlik doğrulama işlemini izleyin (tarayıcınızda önceden oturum açtıysanız bu adımı atlayabilirsiniz).
 
    ![Power BI GitHub kimlik doğrulama işlemi](media/service-connect-to-github/power-bi-github-authenticate-process.png)
 
 
-Oturum açtıktan sonra rapor veri kaynaklarına bağlanıp güncel verilerle doldurulur. Bu sırada, etkinlik izleyicisi açılır.
+Bağlantı iletişim kutularını doldurma işlemini tamamladıktan ve GitHub'da oturum açtıktan sonra bağlantı işlemi başlar. Bir başlıkta verilerin yenilenmekte olduğu ve bu arada örnek verilerin görüntülendiği size bildirilir.
 
 ![Power BI GitHub uygulama yenileme devam ediyor](media/service-connect-to-github/service-github-app-refresh-monitor.png)
 

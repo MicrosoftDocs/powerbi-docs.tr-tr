@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.openlocfilehash: b60728978a3429249d7376fdfe1477bf67ef293a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e6499d9e4547f1bd2b8cf4ac29fbc375af871f8a
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96402007"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998680"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Kuruluşunuzda şablon uygulamalarını yükleme ve dağıtma
 
@@ -64,10 +64,6 @@ Bir şablon uygulamasını yüklemek, özelleştirmek ve dağıtmak için şunla
 ## <a name="connect-to-data"></a>Verilere bağlanma
 
 1. **Uygulamaya git**’i seçin.
-
-1. **Yeni uygulamanızı kullanmaya başlayın** penceresinde **Keşfet**’i seçin.
-
-   ![Şablon uygulaması karşılama ekranı](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
    Uygulama, örnek verileri göstererek açılır.
 
@@ -138,6 +134,20 @@ Uygulamayı başlangıçta AppSource’dan indirdiyseniz, şablon uygulamasını
 
 >[!IMPORTANT]
 >Kuruluş uygulaması kullanıcılarınız için raporlara ve panolara yapılan değişiklikleri uygulamak için üzerine yazdıktan sonra [uygulamayı güncelleştirmeyi](#customize-and-share-the-app) unutmayın.
+
+## <a name="delete-a-template-app"></a>Şablon uygulamasını silme
+
+Yüklü bir şablon uygulaması, uygulamadan ve ilişkili çalışma alanından oluşur. Şablon uygulamasını kaldırmak istiyorsanız iki seçeneğiniz vardır:
+* **Uygulamayı ve ilişkili çalışma alanını tamamen kaldırma**: Şablon uygulamasını ve ilişkili çalışma alanını tamamen kaldırmak için Uygulamalar sayfasında uygulama kutucuğuna gidin, çöp kutusu simgesini seçin ve ardından görüntülenen iletişim kutusunda **Sil**'e tıklayın.
+* **Uygulamayı yayımdan kaldırma**: Bu seçenek uygulamayı kaldırır ama ilişkili çalışma alanını korur. Örneğin korumak istediğiniz özelleştirmeler yaptıysanız bu seçenek yararlı olur.
+
+    Uygulamayı yayımdan kaldırmak için:
+    1. Uygulamayı açın.
+    1. Uygulamayı düzenleme kalem simgesine tıklayarak şablon uygulamasının çalışma alanını açın.
+    1. Şablon uygulamasının çalışma alanında **Diğer seçenekler (...)** öğesini ve sonra da **Uygulamayı Yayımdan Kaldır**'ı seçin.
+
+        ![Uygulamayı yayımdan kaldırma seçeneğinin ekran görüntüsü.](media/service-template-apps-install-distribute/power-bi-template-app-unpublish.png)
+
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

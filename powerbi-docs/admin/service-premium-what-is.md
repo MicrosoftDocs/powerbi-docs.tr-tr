@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 12/04/2020
+ms.date: 12/09/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1ab5fb15f910b420781564da8f26cf5cd7ccd7df
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 62df55257864069a1e3a03f8378869fe76052120
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781831"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491978"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -50,7 +50,7 @@ Premium 2. Nesil şu güncelleştirmeleri ve iyileştirilmiş deneyimleri sunar:
     * Daha az bellek kısıtlaması
     * Rapor etkileşimi ve zamanlanmış yenilemeler arasında eksiksiz ayrım
 
-* Boyutuna, analiz işlemleri sırasında sistemdeki yük düzeyine veya diğer faktörlere değil, yalnızca kapasitenin gerçekleştirdiği analiz işlemlerinin karmaşıklığına bağlı olan net ve normalleştirilmiş kapasite kullanım verilerine sahip **iyileştirilmiş ölçümler**. İyileştirilmiş ölçümler, kullanım analizi, bütçe planlaması, ücret yansıtma ve yükseltme gereksinimi yerleşik raporlama sayesinde net bir şekilde görülebilir. İyileştirilmiş ölçümler önizleme süresinde kullanıma sunulacak ve geliştirilecektir.
+* Boyutuna, analiz işlemleri sırasında sistemdeki yük düzeyine veya diğer faktörlere değil, yalnızca kapasitenin gerçekleştirdiği analiz işlemlerinin karmaşıklığına bağlı olan net ve normalleştirilmiş kapasite kullanım verilerine sahip **iyileştirilmiş ölçümler**. İyileştirilmiş ölçümler, kullanım analizi, bütçe planlaması, ücret yansıtma ve yükseltme gereksinimi yerleşik raporlama sayesinde net bir şekilde görülebilir. İyileştirilmiş ölçümler sonra önizleme süresinde daha sonra kullanıma sunulacaktır. Son 7 günün kullanım ölçümlerine erişmeye çalışan müşteriler, müşteri desteğine başvurarak bunu yapabilir. 
 
 * Kapasitedeki yük kapasite sınırını aştığında **Otomatik Ölçeklendirme**, 24 saatlik süreler boyunca bir sanal çekirdeğin *otomatik olarak eklenmesine* olanak sağlar ve böylece yük kaynaklı yavaşlamaları önler. Sanal çekirdekler, boşta süresi algılandığında otomatik olarak kaldırılır. Ek sanal çekirdeklerin ücreti Azure aboneliğinize, kullandıkça öde fiyatlandırması temel alınarak yansıtılır. Otomatik Ölçeklendirme, önizleme aşaması sırasında kullanıma sunulacaktır. 
 
@@ -247,7 +247,8 @@ Uygulamanın panosunda bir ölçüm hücresine tıklayarak daha kapsamlı bir ra
 Kapasiteleri izleme hakkında daha fazla bilgi edinmek için bkz. [Power BI Yönetim portalında izleme](service-admin-premium-monitor-portal.md) ve [Power BI Premium Kapasite Ölçümleri uygulamasıyla izleme](service-admin-premium-monitor-capacity.md).
 
 #### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
-**Premium 2. Nesil** kapasitelerde Ölçümler uygulaması kullanılmaz. Bunun yerine, önizleme aşamasında kullanıma sunulacak olan Kapasite Kullanımı Uygulaması kullanılır. Kapasite Kullanımı Uygulaması, her kapasite için **Yönetici portalındaki** kapasite yönetim sayfanızdan başlatılabilir.
+**Premium 2. Nesil** kapasitelerde Ölçümler uygulaması kullanılmaz. Bunun yerine, önizleme aşamasında kullanıma sunulacak olan Kapasite Kullanımı Uygulaması kullanılır. Kullanımlarını gözden geçirmek isteyen müşteriler, müşteri desteğinden istekte bulunarak son 7 günün kullanım raporlarının bir kopyasını alabilir. Rapor, isteğin gönderilmesini izleyen 72 saat içinde sağlanacaktır. Kapasite Kullanımı Uygulaması, her kapasite için **Yönetici portalındaki** kapasite yönetim sayfanızdan başlatılır ve 30 günlük veya daha uzun analize olanak tanır.
+
 
 
 ### <a name="optimizing-capacities"></a>Kapasiteleri iyileştirme
@@ -279,6 +280,8 @@ Power BI Embedded A4 SKU’su P1 SKU, A5 = P2 ve A6 = P3’e eşittir.
 ### <a name="large-dataset-storage-format"></a>Büyük veri kümesi depolama biçimi
 
 Bir veri kümesinde [Büyük veri kümesi depolama biçimi](service-premium-large-models.md) ayarını etkinleştirirseniz, .pbix dosya boyutu sınırlamaları dosyaları karşıya yükleme veya yayımlama işlemleri için geçerli olmaya devam eder. Büyük veri kümesi depolama biçimi, karşıya yükleme boyutu sınırını etkilemez. Ancak artımlı yenileme ve büyük veri kümesi depolama biçimi etkinleştirilmiş şekilde hizmette yayımlanan veri kümeleri bu sınırların üzerine çıkabilir. Büyük veri kümesi depolama biçiminde veri kümesi boyutu yalnızca Power BI Premium kapasitesi boyutuyla sınırlıdır.
+
+Power BI veri kümeleri, sorgu performansını iyileştirerek büyük veri kümeleri üzerinde daha hızlı kullanıcı etkileşimine olanak tanımak için verileri yüksek oranda sıkıştırılmış bellek içi önbellekte depolayabilir. Daha önce Power BI Premium'da veri kümeleri sıkıştırma sonrası 10 GB ile sınırlıydı. Daha büyük modellerle sınırlama kaldırıldı. Veri kümesi boyutları yalnızca kapasite boyutuyla veya yönetici tarafından ayarlanan boyut üst sınırıyla sınırlanır. Böyle büyük veri kümesi boyutlarının etkinleştirilmesi, Power BI veri kümesi boyutlarının Azure Analysis Services model boyutlarıyla daha iyi hizalanmasına olanak tanır.
 
 .pbix dosyalarınız, verileri *yüksek oranda sıkıştırılmış durumda* gösterir. Muhtemelen veriler belleğe yüklenirken genişletilir ve veri yenileme sırasında birkaç kez daha genişletilebilir.
 

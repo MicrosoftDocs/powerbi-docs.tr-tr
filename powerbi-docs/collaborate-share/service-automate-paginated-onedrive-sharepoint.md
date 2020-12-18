@@ -9,16 +9,17 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/17/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 4a0a504db15d78bec112aaafd2a972f066e88193
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6aaad48fb3e97aa6c1b4fc51834ee593a49a8192
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407688"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097743"
 ---
 # <a name="save-a-paginated-report-to-onedrive-for-business-or-sharepoint-online"></a>Sayfalandırılmış raporları OneDrive İş'e veya SharePoint Online'a kaydetme
 
 [Power Automate](/power-automate/getting-started) ile Power BI sayfalandırılmış raporlarını birçok farklı biçim ve senaryo kapsamında dışarı aktarma ve dağıtma işlemlerini otomatikleştirebilirsiniz. Bu makalede Power Automate'i kullanarak Power BI sayfalandırılmış raporlarını OneDrive İş'e veya SharePoint Online klasörüne kaydetme sürecini otomatikleştireceksiniz.
+
 
 :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/paginated-onedrive-flow.png" alt-text="Sayfalandırılmış raporu OneDrive'a veya SharePoint Online'a kaydetmeye yönelik Power Automate akışının ekran görüntüsü":::
 
@@ -28,7 +29,7 @@ Power BI sayfalandırılmış raporlarına yönelik farklı Power Automate şabl
 
 Buradaki adımları takip etmek için aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Power BI kiracınızda ayrılmış kapasiteye sahip olan en az bir çalışma alanı. Bu kapasite A4/P1 - A6/P3 arası SKU'lardan herhangi biri olabilir. [Power BI Premium'daki ayrılmış kapasiteler](../admin/service-premium-what-is.md) hakkında daha fazla bilgi edinin.
+- Power BI kiracınızda ayrılmış kapasiteye sahip olan en az bir çalışma alanı. Bu kapasite A4/P1 - A6/P3 arası SKU'lardan herhangi biri olabilir. [Power BI Premium'da sayfalandırılmış raporlar için ayrılmış kapasiteler](../admin/service-premium-what-is.md#paginated-reports) hakkında daha fazla bilgi edinin
 - Power Automate'teki standart bağlayıcılara erişim (tüm Office 365 abonelikleriyle sunulur).
 
 ## <a name="save-a-paginated-report-to-onedrive-for-business-or-a-sharepoint-online-folder"></a>Sayfalandırılmış raporları OneDrive İş'e veya SharePoint Online klasörüne kaydetme 
@@ -57,7 +58,7 @@ Bu şablonlardan birini kullanarak sayfalandırılmış raporların istenen biç
 
     :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/onedrive-template-3-advanced-recurrence.png" alt-text="Yinelenme için gelişmiş seçenekler gösteriliyor.":::
 
-1. **Çalışma alanı** kutusunda ayrılmış kapasitede bulunan bir çalışma alanını seçin. **Rapor** kutusunda seçtiğiniz çalışma alanında bulunan ve dışarı aktarmak istediğiniz sayfalandırılmış raporu seçin. **Dışarı Aktarma Biçimi** kutusunda istediğiniz dışarı aktarma biçimini seçin. İsteğe bağlı olarak sayfalandırılmış rapora yönelik parametreler belirtebilirsiniz. Parametrelerle ilgili ayrıntılı açıklamalar için bkz. [Power BI Rest API için bağlayıcı başvurusu](/connectors/powerbi/#export-to-file-for-paginated-reports).  
+1. **Çalışma alanı** kutusunda ayrılmış kapasitede bulunan bir çalışma alanını seçin. **Rapor** kutusunda seçtiğiniz çalışma alanında bulunan ve dışarı aktarmak istediğiniz sayfalandırılmış raporu seçin. **Dışarı Aktarma Biçimi** kutusunda istediğiniz dışarı aktarma biçimini seçin. İsteğe bağlı olarak sayfalandırılmış rapora yönelik parametreler belirtebilirsiniz. Parametrelerle ilgili ayrıntılı açıklamalar için bkz. [Power BI REST API için bağlayıcı başvurusu](/connectors/powerbi/#export-to-file-for-paginated-reports).  
 
     :::image type="content" source="media/service-automate-paginated-onedrive-sharepoint/onedrive-template-4-export-format.png" alt-text="Sayfalandırılmış raporu, çalışma alanını ve dışarı aktarma biçimini seçme.":::
 

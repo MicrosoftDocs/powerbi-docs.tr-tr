@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 5c897909d9fe31e4b22743a77058caba4767a579
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: a11ac8edb9abab29f58c3e4eda15ae204d105b26
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410149"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491748"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI şablon uygulamaları nedir?
 
@@ -98,6 +98,7 @@ Power BI Şablon Uygulamaları Power BI Pro veya Power BI Premium kullanıcılar
 - Uygulamanızı barındırmak için çevrimiçi deponuz olarak AppSource’u kullanın. Bu şekilde Power BI kullanan herkesi uygulamanızı bulabilir. 
 - Ayrı benzersiz senaryolar için birden fazla şablon uygulaması sunmayı göz önüne alın. 
 - Veri özelleştirmesini etkinleştirin, örneğin yükleyicinin özel bağlantısını ve parametre yapılandırmasını destekleyin.
+- Bir ISV iseniz ve uygulamanızı web hizmetiniz aracılığıyla dağıtıyorsanız, müşterilerinizin işini kolaylaştırmak ve başarılı yükleme olasılığını artırmak için yükleme sırasında parametre yapılandırmasını otomatikleştirmeyi göz önünde bulundurun. Ayrıntılar için bkz. [Şablon uygulaması yüklemesini otomatik yapılandırma](../developer/template-apps/template-apps-auto-install.md).
 
 Diğer öneriler için bkz. [Power BI’da şablon uygulaması yazma ipuçları](service-template-apps-tips.md).
 

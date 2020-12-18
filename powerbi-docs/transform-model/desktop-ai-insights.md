@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 06/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3654bc77ebdbd41ef608378157bf0d24bb94c88
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f4128939bd90f0b6514a792a60d583b830bea0d2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416129"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353462"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>Power BI Desktop’ta Yapay Zeka İçgörüleri’ni kullanma
 
@@ -223,7 +223,7 @@ Aşağıdaki önemli noktalar ve sınırlamalar Power BI Desktop'ta Azure ML iç
 
 Bu makalede Machine Learning'i Power BI Desktop'a tümleştirme işlemine genel bakış sağlanır. Aşağıdaki makaleleri de ilginç ve yararlı bulabilirsiniz.
 
-- [Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma](../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [Öğretici: Power BI’da Azure Machine Learning modellerini kullanma](../connect-data/service-aml-integrate.md)
 - [Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma](../connect-data/service-tutorial-use-cognitive-services.md)
 - [Power BI'da Bilişsel Hizmetler](./dataflows/dataflows-machine-learning-integration.md)
 - [Power BI'da Azure Machine Learning tümleştirmesi](./dataflows/dataflows-machine-learning-integration.md)

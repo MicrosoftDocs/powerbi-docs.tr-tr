@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 60214c16cbd287a30631e7ad9fbab274cb8f4cb0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22fa980230b01132c8cb4faa6e7e959409f19f1b
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414312"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353140"
 ---
 # <a name="ai-with-dataflows"></a>Veri akışları ve yapay zeka
 
@@ -454,9 +454,9 @@ Veri akışınızı kaydettikten sonra, varlık tablosundaki yeni veya güncelle
 
 Bu makalede, Power BI hizmetinde Veri Akışları için Otomatik Makine Öğrenmesi’ne genel bir bakış verilmiştir. Aşağıdaki makaleler de yararlı olabilir.
 
-- [Öğretici: Power BI’da Makine Öğrenmesi modeli oluşturma ](../../connect-data/service-tutorial-build-machine-learning-model.md)
+- [Öğretici: Power BI’da Makine Öğrenmesi modeli oluşturma](../../connect-data/service-tutorial-build-machine-learning-model.md)
 - [Öğretici: Power BI’da Bilişsel Hizmetler’i kullanma](../../connect-data/service-tutorial-use-cognitive-services.md)
-- [Öğretici: Power BI'da Machine Learning Studio (klasik) modelini çağırma (Önizleme)](../../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [Öğretici: Power BI’da Azure Machine Learning modellerini kullanma](../../connect-data/service-aml-integrate.md)
 
 Aşağıdaki makaleler veri akışları ve Power BI hakkında daha fazla bilgi sunmaktadır:
 

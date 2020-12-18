@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 10/21/2019
+ms.date: 12/09/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f8d24c672fa3e9d5cda007e061eac8c4ea9c6d4c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b144412ee322aa9bec0a35bb3876a949abcd3f13
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406055"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998910"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Power BI Desktop'ta Access ve Excel .xls dosyalarını içeri aktarma sorunlarını giderme
 
@@ -24,6 +24,8 @@ Power BI Desktop'ta hem Access veritabanları hem de Excel çalışma kitapları
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>1\. Durum: Access Veritabanı Altyapısı’nın yüklenmemiş olması
 
 Power BI Desktop hata iletisi Access Veritabanı Altyapısı'nın yüklenmediğini belirtiyorsa, Power BI Desktop sürümünüzle eşleşen (32 bit veya 64 bit) Access Veritabanı Altyapısı sürümünü yüklemeniz gerekir. Access Veritabanı Altyapısı'nı [indirmeler sayfasından](https://www.microsoft.com/download/details.aspx?id=13255) yükleyebilirsiniz.
+
+Veri akışlarıyla çalışıyorsanız ve verilere bağlanırken bir ağ geçidi kullanıyorsanız, ağ geçidini çalıştıran bilgisayara Access Veritabanı Altyapısı'nı yüklemeniz gerekir. 
 
 >[!NOTE]
 >Yüklenen Access Veritabanı Altyapısı bit sürümü, Microsoft Office yüklemenizin bit sürümünden farklıysa Office uygulamaları, Access Veritabanı Altyapısı'nı kullanamaz.

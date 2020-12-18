@@ -8,14 +8,14 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 09/30/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6d99e91657d0c5f0bbd1e9c665f00d16c34ba24f
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411483"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353255"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Power BI Desktop'ta Azure Maliyet Yönetimi bağlayıcısı ile görseller ve raporlar oluşturma
 
@@ -35,7 +35,7 @@ Azure Maliyet Yönetimi bağlayıcısı, Azure’da kimlik doğrulaması için O
 Power BI Desktop’ta **Azure Maliyet Yönetimi bağlayıcısını** kullanmak için:
 
 1.  **Giriş** şeridinde **Veri Al**’ı seçin.
-2.  Veri kategorileri listesinden **Azure**’ı seçin.
+2.  Veri kategorileri listesinden **Azure**'ı seçin.
 3.  **Azure Maliyet Yönetimi**’ni seçin.
 
     ![Verileri alma](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
@@ -56,7 +56,7 @@ Bir **Microsoft Müşteri Sözleşmesi** hesabına bağlanmak için, Azure porta
 
     ![Faturalama Profili Kimliği kapsamındaki Azure Maliyet Yönetimi özelliklerini gösteren ekran görüntüsü.](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
-7.  İstendiğinde, Azure kullanıcı hesabı ve parolanızla oturum açın. 
+7.  İstendiğinde, Azure kullanıcı hesabı ve parolanızla oturum açın. Erişimin başarılı olması için bir Fatura hesabı kullanmalısınız. 
 
 
 ## <a name="connect-to-an-enterprise-agreement-account"></a>Kurumsal Anlaşma hesabına bağlanma
@@ -71,13 +71,11 @@ Bir Kurumsal Anlaşma (EA) hesabıyla bağlantı kurmak için, Azure portalında
 
     ![Kayıt Numarası kapsamındaki Azure Maliyet Yönetimi özelliklerini gösteren ekran görüntüsü.](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
-6.  İstendiğinde, Azure kullanıcı hesabı ve parolanızla oturum açın. 
+6.  İstendiğinde, Azure kullanıcı hesabı ve parolanızla oturum açın. Kurumsal Anlaşmalar için Kurumsal Yönetici hesabı kullanmalısınız.
 
 ## <a name="data-available-through-the-connector"></a>Bağlayıcı aracılığıyla kullanılabilir olan veriler
 
 Başarıyla kimlik doğrulaması yapmanızın ardından **Gezgin** penceresi, aşağıdaki kullanılabilir veri tablolarıyla birlikte görüntülenir:
-
-
 
 | **Tablo** | **Açıklama** |
 | --- | --- |
@@ -109,7 +107,7 @@ Seçtiğiniz veriler yüklendiğinde, veri tabloları ve alanları **Alanlar** b
 Power BI Desktop’ı kullanarak birçok farklı veri kaynağına bağlanabilirsiniz. Daha fazla bilgi için aşağıdaki makaleleri inceleyin:
 
 * [Power BI Desktop nedir?](../fundamentals/desktop-what-is-desktop.md)
-* [Power BI Desktop'ta Veri Kaynakları](desktop-data-sources.md)
+* [Power BI Desktop'taki veri kaynakları](desktop-data-sources.md)
 * [Power BI Desktop'ta Verileri Şekillendirme ve Birleştirme](desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](desktop-connect-excel.md)   
 * [Verileri doğrudan Power BI Desktop'a girme](desktop-enter-data-directly-into-desktop.md)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cce4f9e78fce27fedf795a4a0016593580f061a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e9fd1179dc15776cef701476d38b18823f3a8deb
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96403180"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998811"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Kriz İletişimi Durum Raporu’na Bağlanma
 
@@ -57,9 +57,6 @@ Kriz İletişimi örneğini yüklerken [“CI_Employee Status” SharePoint list
 
 1. Uygulamanızı açmak için Uygulamalar sayfanızdaki simgeyi seçin.
 
-1. Karşılama ekranında **Keşfet**’i seçin.
-
-   ![Şablon uygulaması karşılama ekranı](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-splash-screen.png)
 
    Uygulama, örnek verileri göstererek açılır.
 

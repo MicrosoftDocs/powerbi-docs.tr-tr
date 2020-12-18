@@ -6,15 +6,16 @@ ms.author: mihart
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: pbi-visuals
+ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 598865676a4cb5ea5378937cebe75f76cc460ce3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f76203e00bb691abe9a4d212c930595d180798d8
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419096"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999140"
 ---
 # <a name="create-key-influencers-visualizations"></a>Ana etmenler görselleştirmelerini oluşturma
 
@@ -145,7 +146,7 @@ Sağ bölmedeki dağılım grafiği, her Kullanım Süresi değeri için ortalam
 
 Bazı durumlarda, sürekli faktörlerinizin otomatik olarak kategorik faktörlere dönüştürüldüğünü görebilirsiniz. Bu, değişkenlerin arasındaki ilişkinin doğrusal olmadığını fark edip ilişkiyi yalnızca artan veya azalan olarak (yukarıdaki ilk örnekte yaptığımız gibi) tanımlayamadığımız için yaşandı.
 
-Etmenlerin hedef açısından ne kadar doğrusal olduğunu belirlemek için bağıntı testleri gerçekleştiririz. Hedef sürekli ise Pearsons, kategorik ise çift serili bağıntı testleri gerçekleştiririz. İlişkinin yeterince doğrusal olmadığını algılarsak, denetimli bölme gerçekleştirip en fazla 5 grup oluştururuz. Hangi bölmelerin en mantıklı olduğunu anlamak için açıklayıcı faktör ve analiz edilen hedef arasındaki ilişkiyi inceleyen bir denetimli bölme yöntemi kullanırız.
+Etmenlerin hedef açısından ne kadar doğrusal olduğunu belirlemek için bağıntı testleri yaparız. Hedef sürekli ise Pearsons, kategorik ise çift serili bağıntı testleri gerçekleştiririz. İlişkinin yeterince doğrusal olmadığını algılarsak, denetimli bölme gerçekleştirip en fazla 5 grup oluştururuz. Hangi bölmelerin en mantıklı olduğunu anlamak için açıklayıcı faktör ve analiz edilen hedef arasındaki ilişkiyi inceleyen bir denetimli bölme yöntemi kullanırız.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Ana etmenler olarak ölçüleri/toplamları yorumlama 
  

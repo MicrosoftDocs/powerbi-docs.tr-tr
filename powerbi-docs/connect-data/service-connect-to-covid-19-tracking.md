@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fc421f7635a3d6e3b2336d5bce081d7914c0fad5
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410632"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998876"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>COVID-19 ABD izleme raporuna bağlanma
 Bu makalede COVID-19 izleme raporuna yönelik şablon uygulamasını yükleme ve veri kaynaklarına bağlanma yöntemi açıklanır.
@@ -38,11 +38,11 @@ Sorumluluk reddi ve veriler hakkındaki bilgiler de dahil olmak üzere raporun k
 
 ## <a name="connect-to-data-sources"></a>Veri kaynaklarına bağlanma
 
-1. Uygulamanızı açmak için Uygulamalar sayfanızdaki simgeye tıklayın.
+1. Uygulamanızı açmak için Uygulamalar sayfanızdaki simgeye tıklayın. Uygulama, örnek verileri göstererek açılır.
 
-1. Görüntülenen karşılama ekranında **Bağlan**’ı seçin.
+1. Sayfanın üst kısmındaki başlıkta yer alan **Verilerinize bağlanın** seçeneğini belirleyin.
 
-   ![Şablon uygulaması karşılama ekranı](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
+   ![GitHub uygulaması verilerinize bağlanma](media/service-connect-to-covid-19-tracking/power-bi-covid-19-connect-data.png)
 
 1. Parametreler iletişim kutusu açılır. Gerekli parametre yoktur. **İleri**’ye tıklayın.
 

@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetinden doğrudan Microsoft Teams’de paylaşma
+title: Doğrudan Power BI hizmetinden Microsoft Teams'de sohbet
 description: Power BI panolarını ve raporlarını Power BI hizmetinden doğrudan Microsoft Teams'le paylaşabilirsiniz.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,37 +9,35 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 0a6f73c14c8dd8ebb48f856f3079ec8f5922ef9e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: af1fac127d1a20f13bc99fc2d05510491a01be5a
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411575"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492047"
 ---
-# <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>Power BI hizmetinden doğrudan Microsoft Teams’de paylaşma
+# <a name="chat-in-microsoft-teams-directly-from-the-power-bi-service"></a>Doğrudan Power BI hizmetinden Microsoft Teams'de sohbet
 
-Power BI panolarını, raporlarını ve görsellerini Power BI hizmetinden doğrudan Microsoft Teams'le paylaşabilirsiniz. Power BI hizmetinde raporları ve panoları görüntülerken hızla konuşma başlatmak için **Teams’de Paylaş** özelliğini kullanın.
+Power BI hizmetinden doğrudan Microsoft Teams'de Power BI panoları, raporları ve görselleri hakkında sohbet edebilirsiniz. Power BI hizmetinde raporları ve panoları görüntülerken hızla konuşma başlatmak için **Teams’de Sohbet** özelliğini kullanın.
 
 ## <a name="requirements"></a>Gereksinimler
 
-Power BI’da **Teams'de Paylaş** işlevini kullanmak için bu ayarın aşağıdaki gibi olduğundan emin olun:
-
-- Power BI yöneticileri Power BI yönetici portalındaki **Teams’de Paylaş** kiracı ayarını devre dışı bırakmamış. Bu ayar kuruluşların **Teams’de Paylaş** düğmelerini gizlemesini sağlar. Ayrıntılar için [Power BI yönetici portalı](../admin/service-admin-portal.md#share-to-teams) makalesine bakın.
+Power BI'da **Teams'de Sohbet** işlevini kullanmak için, Power BI yöneticisinin Power BI yönetici portalında **Teams'le Paylaş** kiracı ayarını devre dışı bırakmadığından emin olun. Bu ayar kuruluşların **Teams’de Sohbet** düğmelerini gizlemesini sağlar. Ayrıntılar için [Power BI yönetici portalı](../admin/service-admin-portal.md#share-to-teams) makalesine bakın.
 
 Power BI ile Microsoft Teams’in birlikte nasıl çalıştığı hakkındaki arka plan bilgileri ve diğer gereksinimler için bkz. [Power BI ile Microsoft Teams’de işbirliği yapma](service-collaborate-microsoft-teams.md).
 
-## <a name="share-power-bi-content-to-microsoft-teams"></a>Power BI içeriğini Microsoft Teams’de paylaşma
+## <a name="chat-about-power-bi-content-in-microsoft-teams"></a>Microsoft Teams'de Power BI içeriği hakkında sohbet etme
 
-Power BI hizmetindeki raporlar, panolar ve görsellerin bağlantılarını Microsoft Teams kanalları ve sohbetlerinde paylaşmak için şu adımları izleyin.
+Power BI hizmetindeki raporlar, panolar ve görsellerin bağlantılarını paylaşmak ve Microsoft Teams kanalları ve sohbetlerinde bunlar hakkında sohbet etmek için şu adımları izleyin.
 
 1. Şu seçeneklerden birini belirtin:
 
-   * Pano veya raporun eylem çubuğunda **Teams'de Paylaş**:
+   * Pano veya raporun eylem çubuğunda **Teams'de Sohbet**:
 
        ![Eylem çubuğundaki Teams’de Paylaş düğmesinin ekran görüntüsü.](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
     
-   * Tek bir görselin bağlam menüsündeki **Teams'de Paylaş**:
+   * Tek bir görselin bağlam menüsündeki **Teams'de Sohbet**:
     
       ![Görselin bağlam menüsündeki Teams’de Paylaş düğmesinin ekran görüntüsü.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
@@ -63,10 +61,10 @@ Power BI hizmetindeki raporlar, panolar ve görsellerin bağlantılarını Micro
 ## <a name="known-issues-and-limitations"></a>Bilinen sorunlar ve sınırlamalar
 
 - Power BI lisansına veya rapora erişim izni olmayan kullanıcılar “İçerik kullanılamıyor” iletisiyle karşılaşır.
-- Tarayıcınızda katı gizlilik ayarları kullanılıyorsa **Teams’de Paylaş** düğmeleri çalışmayabilir. İletişim kutusu doğru biçimde açılmazsa **Sorun mu yaşıyorsunuz? Yeni bir pencerede açmayı deneyin** seçeneğini kullanın.
-- **Teams’de Paylaş** düğmesinde bağlantı önizlemesi bulunmaz.
-- Bağlantı önizlemeleri ve **Teams’de Paylaş**, kullanıcılara öğeyi görüntüleme izni vermez. İzinlerin ayrı yönetilmesi gerekir.
-- Bir rapor yazarı görsel için **Daha fazla** seçeneğini **Kapalı** olarak ayarladığında görselin bağlam menülerinde **Teams’de Paylaş** düğmesi kullanılamaz.
+- Tarayıcınız katı gizlilik ayarları kullanıyorsa **Teams'de Sohbet** düğmeleri çalışmayabilir. İletişim kutusu doğru biçimde açılmazsa **Sorun mu yaşıyorsunuz? Yeni bir pencerede açmayı deneyin** seçeneğini kullanın.
+- **Teams’de Sohbet** düğmesinde bağlantı önizlemesi bulunmaz.
+- Bağlantı önizlemeleri ve **Teams’de Sohbet**, kullanıcılara öğeyi görüntüleme izni vermez. İzinlerin ayrı yönetilmesi gerekir.
+- Bir rapor yazarı görsel için **Daha fazla** seçeneğini **Kapalı** olarak ayarladığında görselin bağlam menülerinde **Teams’de Sohbet** düğmesi kullanılamaz.
 - Diğer sorunlar için "Microsoft Teams'de İşbirliği Yapma" makalesinin [Bilinen sorunlar ve sınırlamalar](service-collaborate-microsoft-teams.md#known-issues-and-limitations) bölümüne bakın.
 
 ## <a name="next-steps"></a>Sonraki adımlar

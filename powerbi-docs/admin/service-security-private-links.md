@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-security
 ms.topic: how-to
-ms.date: 11/12/2020
+ms.date: 12/14/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 446c3620cf3b2a7435897108cfcd9c8972ad8bb4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: da5ee837345b6f26dd6636bc93f6b38c1e0f5ea7
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412173"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491863"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Power BI’a erişmek için özel bağlantılar
 
@@ -118,9 +118,9 @@ Sonraki adım, sanal ağ ve alt ağ oluşturmaktır. Bir sanal ağ ve alt ağ ol
 | ```<resource-group-name>```   | myResourceGroup |
 | ```<virtual-network-name>```  | myVirtualNetwork |
 | ```<region-name>```   | Orta ABD  |
-| ```<IPv4-address-space>```    | 10.1.0.0/16 |
+| ```<IPv4-address-space>```    | 10.5.0.0/16 |
 | ```<subnet-name>```   | mySubnet |
-| ```<subnet-address-range>```  | 10.1.0.0/24 |
+| ```<subnet-address-range>```  | 10.5.0.0/24 |
 
 1. Ekranın sol üst kısmındaki **Kaynak oluştur > Ağ > Sanal ağ** seçeneğini belirleyin veya arama kutusuna **Sanal ağ** yazarak arama yapın.
 2. **Sanal ağ oluştur** bölümündeki **Temel Bilgiler** sekmesinde aşağıdaki bilgileri seçin:
@@ -166,7 +166,6 @@ Bu adımları tamamladıktan sonra, bir sonraki bölümde açıklandığı gibi 
 
 ## <a name="create-a-virtual-machine-vm"></a>Sanal makine (VM) oluşturma
 
-
 Bir sonraki adım, sanal ağ ve sanal makinenin barındırılacağı alt ağın oluşturulmasıdır.
 
 1. Azure portalınızdaki ekranın sol üst tarafında **Kaynak oluştur > İşlem > Sanal Makine** seçeneğini belirleyin.
@@ -200,8 +199,8 @@ Bir sonraki adım, sanal ağ ve sanal makinenin barındırılacağı alt ağın 
     |Ayarlar | Değer |
     |-------------------|---------|
     |Sanal ağ|   Varsayılan **MyVirtualNetwork** değerini değiştirmeyin|
-    |Adres alanı| Varsayılan **10.1.0.0/24** değerini değiştirmeyin|
-    |Alt ağ |Varsayılan **mySubnet (10.1.0.0/24)** değerini değiştirmeyin|
+    |Adres alanı| Varsayılan **10.5.0.0/24** değerini değiştirmeyin|
+    |Alt ağ |Varsayılan **mySubnet (10.5.0.0/24)** değerini değiştirmeyin|
     |Genel IP| Varsayılan **(new) myVm-ip** değerini değiştirmeyin|
     |Genel gelen bağlantı noktaları|  **Seçilenlere izin ver** seçeneğini belirleyin|
     |Gelen bağlantı noktalarını seçin|  **RDP**’yi seçin|
@@ -289,7 +288,7 @@ Bir sonraki adım, aşağıdaki adımlar kullanılarak, önceki adımda oluştur
     
     Non-authoritative answer:
     Name:    52d40f65ad6d48c3906f1ccf598612d4-api.privatelink.analysis.windows.net
-    Address:  10.1.0.4
+    Address:  10.5.0.4
     ```
 
 4. Tarayıcıyı açın ve app.powerbi.com adresine giderek Power BI’a özel olarak erişin.
@@ -306,12 +305,10 @@ Hepsi bu kadar. Bu adımlar izlendikten sonra kurumlarınız için Power BI’a 
 
 Power BI’da özel bağlantılarla çalışılırken dikkate alınması gereken birkaç önemli nokta vardır:
 
-* Özel bağlantı ortamı kullanılırken dış resimler veya temalar kullanılamaz ve bunlar özel görselleri etkileyebilir
-* Özel bağlantı ortamı kullanılırken PDF’ye dışarı aktarma, rapordan Excel’e dışarı aktarma gibi dışarı aktarma hizmetleri ve diğer dışarı aktarma hizmetleri çalışmaz
-* Genellikle RDL dosyaları (*.rdl biçiminde dosyalar) olarak bilinen SQL Server Reporting Services raporları, özel bağlantı ortamlarında işlenmez
-* İnternet erişimi devre dışıysa ve veri kümesi ya da veri akışı, veri kaynağı olarak bir Power BI veri kümesine veya veri akışına bağlanıyorsa bağlantı başarısız olur
-* Özel Bağlantılar etkinleştirildiğinde kullanım ölçümleri *çalışmaz*
-* Power BI’da **Genel İnternet erişimini engellemeyi** etkinleştirdiğinizde, Web’de Yayımla işlevi desteklenmez (ve gri olur)
+* Özel bağlantı ortamı kullanılırken dış resimler veya temalar kullanılamaz ve bunlar özel görselleri etkileyebilir.
+* İnternet erişimi devre dışıysa ve veri kümesi ya da veri akışı, veri kaynağı olarak bir Power BI veri kümesine veya veri akışına bağlanıyorsa bağlantı başarısız olur.
+* Özel Bağlantılar etkinleştirildiğinde kullanım ölçümleri *çalışmaz*.
+* Power BI’da **Genel İnternet erişimini engellemeyi** etkinleştirdiğinizde, Web’de Yayımla işlevi desteklenmez (ve gri olur).
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

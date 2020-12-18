@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 06/18/2020
+ms.date: 12/14/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b26f8fe04c7aaf6847de50398c54db6a3870844
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411805"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513793"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Power BI’da işbirliği yapma ve paylaşma yöntemleri
 
@@ -27,22 +27,22 @@ Panolar ve raporlar oluşturdunuz. Bu pano ve raporlar üzerinde iş arkadaşlar
 
 **İşbirliği yapma**
 
-- Anlamlı raporlar ve panolar oluşturmak üzere iş arkadaşlarınızla *çalışma alanlarında* işbirliği yapma.
-- *Microsoft Teams*’de işbirliği yapma.
+- Anlamlı raporlar ve panolar oluşturmak üzere [iş arkadaşlarınızla *çalışma alanlarında* işbirliği yapma](#collaborate-in-a-workspace).
+- [*Microsoft Teams*’de işbirliği yapma](#collaborate-in-microsoft-teams).
 
 **Panoları ve raporları dağıtma veya paylaşma**
 
-- Çalışma Alanım bölümünüzden veya başka bir çalışma alanından *panoları ve raporları paylaşma*.
-- Power BI *mobil uygulamalarından* not ekleme ve paylaşma.
-- Çalışma alanlarındaki panoları ve raporları *uygulamalarda* gruplandırma ve bunları daha büyük bir grupta ya da kuruluş genelinde dağıtma.
-- Raporları *güvenli portallara* veya *genel web sitelerine* ekleme.
-- Raporları yazdırma.
-- Microsoft AppSource üzerinden dış Power BI kullanıcılarına dağıtabileceğiniz bir *şablon uygulaması* oluşturma.
+- Çalışma Alanım bölümünüzden veya başka bir çalışma alanından [*panoları ve raporları paylaşma*](#share-dashboards-and-reports).
+- Power BI [*mobil uygulamalarından* not ekleme ve paylaşma](#annotate-and-share-from-the-power-bi-mobile-apps).
+- Çalışma alanlarındaki panoları ve raporları *uygulamalarda* gruplandırma ve daha büyük bir grupta ya da kuruluş genelinde [uygulamalarınızı dağıtma](#distribute-insights-in-an-app).
+- *Güvenli portallara* veya *genel web sitelerine* [raporları ekleme](#embed-reports-in-secure-portals-or-public-web-sites).
+- [Raporları yazdırma](#print-or-save-as-pdf-or-other-static-file).
+- Microsoft AppSource üzerinden dış Power BI kullanıcılarına dağıtabileceğiniz [bir *şablon uygulaması* oluşturma](#create-and-deploy-template-apps).
  
 **Veri paylaşımı**
 
-- İş arkadaşlarının kendi çalışma alanlarında kendi raporları için temel olarak kullanabilecekleri *paylaşılan veri kümeleri* oluşturma.
-- Ortak veri kaynağı paylaşma yöntemi olarak *veri akışları* oluşturma.
+- İş arkadaşlarının kendi çalışma alanlarında kendi raporları için temel olarak kullanabilecekleri [*paylaşılan veri kümeleri* oluşturma](#share-a-dataset).
+- Ortak veri kaynağını paylaşma yöntemi olarak [*veri akışları* oluşturma](#create-dataflows).
 
 Hangisini seçerseniz seçin içeriğinizi paylaşmak için [Power BI Pro lisansınız](../fundamentals/service-features-license-type.md) olmalı veya içerik [Premium kapasitede](../admin/service-premium-what-is.md) yer almalıdır. Lisans gereksinimleri, seçiminize bağlı olarak içeriğinizi görüntüleyen iş arkadaşlarınıza göre farklılık gösterir. Aşağıda ayrıntılara yer verilmiştir. 
 
@@ -67,7 +67,7 @@ Birlikte çalışan ekiplerin kolayca işbirliği yapabilmesi için aynı belgel
 
 ## <a name="collaborate-in-microsoft-teams"></a>Microsoft Teams’de işbirliği yapma
 
-Microsoft Teams’e Power BI raporlarınızı ve Power BI sayfalandırılmış raporlarınızı ekleyerek kuruluşunuzda veri odaklı işbirliğini artırın. Power BI hizmeti, raporlar için **Teams’de Paylaş** düğmesine sahiptir. Her bir rapor için ayrı Power BI sekmeleri ekleyebilir ve her bir sekmeye raporun adını veya başka bir ad verebilirsiniz. 
+Microsoft Teams’e Power BI raporlarınızı ve Power BI sayfalandırılmış raporlarınızı ekleyerek kuruluşunuzda veri odaklı işbirliğini artırın. Power BI hizmetinin raporlar için **Teams’de sohbet** düğmesi vardır. Her bir rapor için ayrı Power BI sekmeleri ekleyebilir ve her bir sekmeye raporun adını veya başka bir ad verebilirsiniz. 
 
 Microsoft Teams’e bir Power BI raporu sekmesi eklediğinizde Teams, rapor için otomatik olarak bir sekme görüşmesi oluşturur. Microsoft Teams kanalındaki herkes konuşmada raporu görebilir ve rapor hakkında tartışabilir. 
 
@@ -77,7 +77,7 @@ Microsoft Teams’e bir Power BI raporu sekmesi eklediğinizde Teams, rapor içi
 
 ## <a name="share-dashboards-and-reports"></a>Panoları ve raporları paylaşma
 
-Power BI Desktop’ta bir raporu tamamladığınızı ve diğer kişilerin bu rapora erişmesini istediğinizi varsayalım. Bunu yapmanın bir yolu, söz konusu panoyu ve raporu Power BI hizmetinde *paylaşmaktır*. Bunu kendi Çalışma Alanım bölümünüzde veya başka bir çalışma alanında paylaşabilirsiniz. Belki de bununla çalışmak için bir pano oluşturabilirsiniz, artık hazırsınız.
+Power BI Desktop’ta raporunuzun hazır olduğunu ve diğer kişilerin bu rapora erişmesini istediğinizi varsayalım. Bunu yapmanın bir yolu, söz konusu panoyu ve raporu Power BI hizmetinde *paylaşmaktır*. Bunu kendi Çalışma Alanım bölümünüzde veya başka bir çalışma alanında paylaşabilirsiniz. Belki de bununla çalışmak için bir pano oluşturabilirsiniz, artık hazırsınız.
 
 ![Rapor paylaşma](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
@@ -125,7 +125,7 @@ Power BI hizmetindeki **SharePoint Online’da Ekle** ve **Ekle** seçenekleri s
 
 ### <a name="publish-to-public-web-sites"></a>Genel web sitelerine yayımlama
 
-**Web’de yayımla** özelliğiyle blog gönderileri, web siteleri, sosyal medya ve diğer çevrimiçi iletişimlere görselleştirmeler ekleyerek Power BI raporlarını İnternet’te yayımlayabilirsiniz. Raporlarınız, İnternet'te herkes tarafından görüntülenebilir ve yayımladığınız içeriği kimlerin görebildiğini denetleyemezsiniz. Kullanıcıların bu işlemler için bir Power BI lisansına sahip olması gerekmez. Web'de yayımlama özelliği yalnızca düzenleyebileceğiniz raporlar için kullanılabilir. Sizinle paylaşılan veya bir uygulamada bulunan raporları web'de yayımlayamazsınız. [Web’de yayımlama](service-publish-to-web.md) hakkında bilgi edinin.
+**Web’de yayımla** özelliği blog gönderileri, web siteleri, sosyal medya ve diğer çevrimiçi iletişimlere görselleştirmeler ekleyerek Power BI raporlarını İnternet’te yayımlamanızı sağlar. Raporlarınız İnternet'te herkes tarafından görüntülenebilir ve yayımladığınız içeriği kimlerin göreceğini denetleyemezsiniz. Kullanıcıların bu işlemler için bir Power BI lisansına sahip olması gerekmez. Web'de yayımlama özelliği yalnızca düzenleyebileceğiniz raporlar için kullanılabilir. Sizinle paylaşılan veya bir uygulamada bulunan raporları web'de yayımlayamazsınız. [Web’de yayımlama](service-publish-to-web.md) hakkında bilgi edinin.
 
 >[!Warning]
 >[Web'de yayımla](service-publish-to-web.md)'yı yalnızca içeriği şirket içinde değil de herkese açık olarak paylaşmak için kullanın.

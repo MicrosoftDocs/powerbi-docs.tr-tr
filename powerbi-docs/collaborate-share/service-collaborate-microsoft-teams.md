@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 09/15/2020
-ms.openlocfilehash: bcd7d94e4fd3d50277ddd2a33c1d10407b9400de
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: 80aa8097ce38a9b1bac228ea61dcc959e4aba60d
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412012"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492024"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Power BI ile Microsoft Teams’de işbirliği yapma
 
@@ -23,7 +23,7 @@ Dağıtılmış iş gücü norm haline geldikçe daha fazla kuruluş, uzaktan ç
 
 - Microsoft Teams için **Power BI sekmesi** sayesinde [etkileşimli raporları Microsoft Teams kanallarına ve sohbetlerine ekleyebilirsiniz](service-embed-report-microsoft-teams.md). Power BI sekmesi iş arkadaşlarınızın ekibinizin verilerini bulmasına ve verileri ekip kanalınızda tartışmalarına yardımcı olur. 
 - Microsoft Teams ileti kutusuna raporlarınızın, panolarınızın ve uygulamalarınızın bağlantılarını yapıştırdığınızda bir [bağlantı önizlemesi](service-teams-link-preview.md) oluşturun. Bağlantı önizlemesi bağlantı ile ilgili bilgileri gösterir. 
-- Microsoft Teams’de konuşmaları hemen başlatmak için Power BI hizmetinde raporları ve panoları görüntülerken [Microsoft Teams’de Paylaş](service-share-report-teams.md)’ı kullanın.
+- Microsoft Teams’de konuşmaları hemen başlatmak için Power BI hizmetinde raporları ve panoları görüntülerken [Microsoft Teams’de Sohbet](service-share-report-teams.md)’i kullanın.
 - Temel Power BI hizmeti deneyiminizin tamamını Microsoft Teams’e aktarmak için [Microsoft Teams’deki Power BI uygulamasını](service-microsoft-teams-app.md) kullanın.
  
 :::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="Microsoft Teams kanalına eklenmiş Power BI raporunun ekran görüntüsü.":::
@@ -70,6 +70,6 @@ Diğer Microsoft Power Platform uygulamaları da Microsoft Teams ile tümleşir.
 
 - [Microsoft Teams’e Power BI içeriği ekleme](service-embed-report-microsoft-teams.md)
 - [Microsoft Teams’de Power BI bağlantı önizlemesi alma](service-teams-link-preview.md)
-- [Power BI hizmetinden doğrudan Microsoft Teams’de paylaşma](service-share-report-teams.md)
+- [Doğrudan Power BI hizmetinden Microsoft Teams'de sohbet](service-share-report-teams.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/).

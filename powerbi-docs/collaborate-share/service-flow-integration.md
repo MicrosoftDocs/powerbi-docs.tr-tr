@@ -1,5 +1,5 @@
 ---
-title: Veri uyarılarını Power Automate ile tümleştirme
+title: Power BI veri uyarılarını Power Automate ile tümleştirme
 description: Power BI veri uyarıları ile tetiklenen Power Automate akışları oluşturmayı öğrenin.
 author: maggiesMSFT
 ms.author: maggies
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/09/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 65c7c00a705ed95c26c32a4fc5bcb9e0c18c13bf
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8f73bd959691ea8359a8584966e0b83f439d8652
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407182"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097651"
 ---
-# <a name="integrate-data-alerts-with-power-automate"></a>Veri uyarılarını Power Automate ile tümleştirme
+# <a name="integrate-power-bi-data-alerts-with-power-automate"></a>Power BI veri uyarılarını Power Automate ile tümleştirme
 
 [Power Automate](/power-automate/getting-started)'i kullanarak Power BI'ı sık kullandığınız uygulamalar ve hizmetlerle tümleştirebilirsiniz. Power Automate ile bildirimleri almak, dosyaları eşitlemek, veri toplamak ve daha fazlası için otomatik iş akışları oluşturabilirsiniz. Bu makalede Power BI veri uyarısından otomatik olarak bir e-posta oluşturma adımları anlatılmıştır.
 
@@ -90,6 +90,5 @@ Bu görevde, bir Power BI veri uyarısı (bildirim) ile tetiklenen basit bir ak�
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power Automate kullanmaya başlama](/power-automate/getting-started/)
-* [Power BI hizmetinde veri uyarısı oluşturma](../create-reports/service-set-data-alerts.md)
-* [iPhone'unuzda veri uyarısı oluşturma](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Power Automate ile Power BI raporunu dışarı aktarma ve e-posta ile gönderme](service-automate-power-bi-report-export.md)
 * Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

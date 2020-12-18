@@ -7,17 +7,19 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 06/18/2019
-ms.openlocfilehash: b8be5b68603f818e26e7f731e4f163bc626b5053
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.date: 12/13/2020
+ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483708"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492093"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Power BI’dan daha fazla veri getirme
 
-Bu makalede `fetchMoreData` yöntemi kullanılarak nasıl 30 KB olan veri noktası sınırını atlayıp daha fazla veri yüklenebileceği açıklanır. Bu yaklaşım öbekler halinde veri sağlar. Performansı artırmak için öbek boyutunu kullanım örneğinize uyacak şekilde yapılandırabilirsiniz.
+`fetchMoreData` API'si Power BI görsellerinin 30.000 satırlık veri görünümü sabit sınırını atlamasına olanak sağlar. Yeni 3.4 API sürümü, `fetchMoreData` API’sinin işlevselliğini yeni bir veri öbeği yükleme yaklaşımını destekleyecek şekilde genişletir. Tüm istenen öbekleri toplayan mevcut yaklaşıma ek olarak, API yalnızca artımlı veri öbeklerini yüklemeyi de destekleyecektir.
+
+Yeni yaklaşım ek veri öbeklerini görsele yükleme yöntemine daha fazla esneklik getirir. Performansı artırmak için öbek boyutunu kullanım örneğinize uyacak şekilde yapılandırabilirsiniz.
 
 ## <a name="limitations-of-fetchmoredata"></a>fetchMoreData için geçerli sınırlamalar
 

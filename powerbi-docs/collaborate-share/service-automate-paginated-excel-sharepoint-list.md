@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 74d61d40c4447f2649f5cce5fbcdcba68cd31afe
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7a48a9a594364de4261aa66de48c1a4262392364
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408010"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097858"
 ---
 # <a name="export-a-paginated-report-for-each-row-in-an-excel-online-table-or-sharepoint-list"></a>Excel Online tablosu veya SharePoint listesindeki her satır için bir sayfalandırılmış rapor dışarı aktarma
 
@@ -30,7 +30,7 @@ Power BI sayfalandırılmış raporlarına yönelik farklı Power Automate şabl
 
 Buradaki adımları takip etmek için aşağıdakilere sahip olduğunuzdan emin olun:
 
-- Power BI kiracınızda ayrılmış kapasiteye sahip olan en az bir çalışma alanı. Bu kapasite A4/P1 - A6/P3 arası SKU'lardan herhangi biri olabilir. [Power BI Premium'daki ayrılmış kapasiteler](../admin/service-premium-what-is.md) hakkında daha fazla bilgi edinin.
+- Power BI kiracınızda ayrılmış kapasiteye sahip olan en az bir çalışma alanı. Bu kapasite A4/P1 - A6/P3 arası SKU'lardan herhangi biri olabilir. [Power BI Premium'da sayfalandırılmış raporlar için ayrılmış kapasiteler](../admin/service-premium-what-is.md#paginated-reports) hakkında daha fazla bilgi edinin.
 - Power Automate'teki standart bağlayıcılara erişim (tüm Office 365 abonelikleriyle sunulur).
 - Excel Online tablosu kullanıyorsanız bu tablonun Excel'de tablo olarak biçimlendirilmesi gerekir. Nasıl yapılacağını öğrenmek için bkz. [Tablo oluşturma](https://support.microsoft.com/office/create-a-table-in-excel-bf0ce08b-d012-42ec-8ecf-a2259c9faf3f).
 
@@ -75,7 +75,7 @@ Buradaki adımları takip etmek için aşağıdakilere sahip olduğunuzdan emin 
 
 1. **Çalışma alanı** kutusunda ayrılmış kapasitede bulunan bir çalışma alanını seçin. **Rapor** kutusunda seçtiğiniz çalışma alanında bulunan ve dışarı aktarmak istediğiniz sayfalandırılmış raporu seçin. Açılan menüden **Özel değer girin**'i seçerseniz **Çalışma alanı** ve **Rapor** için Excel Online tablonuzda veya SharePoint Online listenizde bulunan bir sütunu seçebilirsiniz. Bu sütunlarda Çalışma Alanı Kimlikleri ve Rapor Kimlikleri bulunmalıdır.  
 
-1. Açılan menüden **Dışarı Aktarma Biçimi** seçin veya Excel Online tablonuzda bulunan ve istenen dışarı aktarma biçimlerini içeren bir sütun olarak ayarlayın. Örneğin PDF, DOCX veya PPTX olabilir. İsteğe bağlı olarak sayfalandırılmış rapora yönelik parametreler belirtebilirsiniz. Parametrelerle ilgili ayrıntılı açıklamalar için bkz. [Power BI Rest API için bağlayıcı başvurusu](/connectors/powerbi/#export-to-file-for-paginated-reports).
+1. Açılan menüden **Dışarı Aktarma Biçimi** seçin veya Excel Online tablonuzda bulunan ve istenen dışarı aktarma biçimlerini içeren bir sütun olarak ayarlayın. Örneğin PDF, DOCX veya PPTX olabilir. İsteğe bağlı olarak sayfalandırılmış rapora yönelik parametreler belirtebilirsiniz. Parametrelerle ilgili ayrıntılı açıklamalar için bkz. [Power BI REST API için bağlayıcı başvurusu](/connectors/powerbi/#export-to-file-for-paginated-reports).
 
     :::image type="content" source="media/service-automate-paginated-excel-sharepoint-list/excel-template-export-format-9.png" alt-text="Sayfalandırılmış Raporlar için Dosyaya Aktar bölümünü doldurma.":::
 
