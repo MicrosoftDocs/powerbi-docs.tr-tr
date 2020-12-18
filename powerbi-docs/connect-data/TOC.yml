@@ -17,6 +17,7 @@
         - name: Power BI Desktop'taki verilere bağlanma
           href: desktop-quickstart-connect-to-data.md
     - name: Öğreticiler
+      expanded: true
       items:
         - name: Birden çok veri kaynağını şekillendirme ve birleştirme
           href: desktop-shape-and-combine-data.md
@@ -39,6 +40,7 @@
         - name: Verileri SQL Server'dan yenileme
           href: service-gateway-sql-tutorial.md
     - name: Kavramlar
+      expanded: true
       items:
         - name: Power BI veri kaynakları
           href: power-bi-data-sources.md
@@ -50,6 +52,8 @@
           href: desktop-default-member-multidimensional-models.md
         - name: Power BI'da DirectQuery kullanma hakkında
           href: desktop-directquery-about.md
+        - name: Power BI veri kümeleri ve Azure Analysis Services için DirectQuery kullanma (önizleme)
+          href: desktop-directquery-datasets-azure-analysis-services.md
         - name: Ağ geçitleri
           items:
             - name: Veri ağ geçidi dağıtmaya ilişkin yönergeler
@@ -57,6 +61,7 @@
             - name: Şirket içi veri ağ geçidi hakkında SSS
               href: service-gateway-power-bi-faq.md
     - name: Nasıl yapılır kılavuzları
+      expanded: true
       items:
         - name: Veri kaynaklarına bağlanma
           href: desktop-connect-to-data.md

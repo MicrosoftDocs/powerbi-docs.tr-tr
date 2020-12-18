@@ -7,29 +7,29 @@ metadata:
   description: Power BI, hem öngörülerinizi hem de verilerinizin değerini artırır. Power BI uygulamasını nasıl kullandığınızdan bağımsız olarak uzmanlar tarafından sunulmuş bilgileri ve yanıtları burada bulabilirsiniz.
   services: service
   ms.service: powerbi
-  ms.subservice: subservice
+  ms.subservice: powerbi-service
   ms.topic: hub-page
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 09/09/2020
-  ms.openlocfilehash: a21230b02654b6335dd8631fb0df1db6bb4e830a
-  ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+  ms.date: 12/16/2020
+  ms.openlocfilehash: be6ec499d78d3ba5f3899fcb8556296568a40319
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 09/22/2020
-  ms.locfileid: "90857945"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621867"
 highlightedContent:
   items:
   - title: Power BI Desktop ile çalışmaya başlama
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: Microsoft Teams’de Power BI ile işbirliği yapma
+  - title: Power BI veri kümeleri ve Azure Analysis için DirectQuery
     itemType: concept
-    url: collaborate-share/service-collaborate-microsoft-teams.md
-  - title: Power BI içeriğini bir uygulamaya ekleme
+    url: connect-data/desktop-directquery-datasets-azure-analysis-services.md
+  - title: Power BI’da Azure Machine Learning modellerini kullanma
     itemType: tutorial
-    url: developer/embedded/embed-sample-for-customers.md
+    url: connect-data/service-aml-integrate.md
   - title: Microsoft Learn’de Power BI
     itemType: learn
     url: /learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
@@ -99,9 +99,9 @@ conceptualContent:
     - url: connect-data/service-gateway-onprem.md
       itemType: concept
       text: Şirket içi veri ağ geçitleri
-    - url: connect-data/refresh-data.md
+    - url: connect-data/service-datasets-hub.md
       itemType: concept
-      text: Veri yenileme
+      text: Veri kümeleri merkezinde veri keşfetme
     footerLink:
       url: connect-data/index.yml
       text: Daha fazlasını göster
@@ -155,9 +155,9 @@ conceptualContent:
     - url: collaborate-share/service-create-the-new-workspaces.md
       itemType: how-to-guide
       text: Yeni çalışma alanları oluşturma
-    - url: connect-data/service-datasets-across-workspaces.md
+    - url: collaborate-share/service-collaborate-microsoft-teams.md
       itemType: concept
-      text: Paylaşılan veri kümelerine giriş
+      text: Microsoft Teams’de işbirliği yapma
     footerLink:
       url: collaborate-share/index.yml
       text: Daha fazlasını göster
@@ -169,9 +169,9 @@ conceptualContent:
     - url: collaborate-share/service-analyze-in-excel.md
       itemType: concept
       text: Excel’de Analiz Et
-    - url: collaborate-share/service-embed-report-spo.md
+    - url: collaborate-share/service-automate-power-bi-report-export.md
       itemType: concept
-      text: SharePoint Online'a ekle
+      text: Power Automate ile dışarı aktarma ve e-posta gönderme
     footerLink:
       url: collaborate-share/index.yml
       text: Daha fazlasını göster
