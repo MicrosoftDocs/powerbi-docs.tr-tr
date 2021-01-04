@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ms.date: 10/21/2020
-ms.openlocfilehash: 1f094f762c87f9b35433a5572f2b30e7f020fbe4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ba2aedd4d503d468ba47640dd29fcfe004825ba5
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415002"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621131"
 ---
 # <a name="introduction-to-deployment-pipelines"></a>Dağıtım işlem hatlarına giriş
 

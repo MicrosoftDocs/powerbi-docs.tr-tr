@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/07/2020
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 LocalizationGroup: Consumer
-ms.openlocfilehash: e944cabc72e60825f286fd86e96257a780b121b6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bfefe8a8efcbaf45808b251f287eb8c74c09d9e3
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399224"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621959"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI’daki görsel türleri
 

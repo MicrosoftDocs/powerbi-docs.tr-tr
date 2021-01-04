@@ -4,18 +4,18 @@ description: Bir Power BI raporunu PowerPoint'e nasıl aktaracağınızı öğre
 author: mihart
 ms.author: mihart
 ms.reviewer: mihart
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/17/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: a01b140f368ec04111f1273e3afb57ff8e6a8aee
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3d32851c5ff0722f59caa5536b67fb1c3267907b
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399753"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97622074"
 ---
 # <a name="export-reports-to-powerpoint"></a>Raporları PowerPoint dosyasına dışarı aktarma
 

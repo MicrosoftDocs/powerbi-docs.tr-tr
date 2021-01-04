@@ -5,17 +5,18 @@ author: mihart
 ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: lnv66cTZ5ho
+ms.custom: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f5731f8660fc27e6aef44878f5410819ce0c0eae
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 662b385ac88754afaa1e5178d77bfd335f63456b
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409942"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675362"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Power BI'da birleşik haritalar oluşturma ve kullanma
 

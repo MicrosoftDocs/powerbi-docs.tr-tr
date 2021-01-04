@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: reference
 ms.date: 11/21/2020
-ms.custom: contperfq1
-ms.openlocfilehash: 197ebcd029dbe6a6e87b1858da8f35325772237e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: contperf-fy21q1
+ms.openlocfilehash: 758d663f758a3d43f4621cb735f30e34bee4a590
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400029"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621936"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI hizmetinin iş kullanıcılarına yönelik sözlük    
 Power BI hizmeti yabancı veya kafa karıştırıcı terimleri kullanıma almış olabilir. Sözlük, terminolojiyi gözden geçirmek için harika bir yerdir ve buraya yer işareti eklemek isteyebilirsiniz. Power BI hizmetini oluşturan yapı taşları hakkında bir diğer harika bilgi kaynağı da [Temel Kavramlar](end-user-basic-concepts.md)'dır. Temel Kavramlar'da Power BI *parçalarına* ve bunların arasındaki bağlantılara üst düzey bir genel bakış sağlanır.

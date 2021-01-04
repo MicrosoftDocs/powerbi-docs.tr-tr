@@ -4,18 +4,18 @@ description: Power BI Desktop ile çalışmaya başlayın.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
 ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: e9bb735668290068e0503f3823fe35482437f9c0
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 749b6601d4602ad2737cebb6c68bb98274d784d1
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492254"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97622005"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Power BI Desktop ile çalışmaya başlama
 Power BI Desktop'la çalışmaya başlama kılavuzuna hoş geldiniz. Bu turda Power BI Desktop'ın nasıl çalıştığı, neler yapabileceği ve iş zekanızı artırmak için nasıl güçlü veri modelleri ve büyüleyici raporlar oluşturulabileceği gösterilir.

@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 12/14/2020
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5b26f8fe04c7aaf6847de50398c54db6a3870844
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 1efce480d911e5aca878f2a1b3c34e2050c1f8cd
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513793"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621591"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Power BI’da işbirliği yapma ve paylaşma yöntemleri
 

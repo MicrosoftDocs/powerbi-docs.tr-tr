@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 10/21/2020
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 43af5a2ea924ababdba7b328b814045b75be5316
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5aabc825ecd22ed49d05428148133be17156645d
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411759"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621499"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Yeni çalışma alanlarında çalışmayı düzenleme
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
-ms.topic: conceptual
+ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/22/2020
-ms.openlocfilehash: 866ef0776a9332cbe88c5e9775fb872bae04892b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 97fe9d4371a52ce92da5e5a228c171363b0711ba
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411552"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621660"
 ---
 # <a name="get-a-power-bi-link-preview-in-microsoft-teams"></a>Microsoft Teams’de Power BI bağlantı önizlemesi alma
 
