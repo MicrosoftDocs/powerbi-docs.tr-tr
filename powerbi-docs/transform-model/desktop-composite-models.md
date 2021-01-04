@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
-ms.date: 01/15/2020
+ms.date: 12/16/2020
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 078596c91f86f635cb69f543ee0ea828e5cef62d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c29728641560502e19486f47e3ec06e370399640
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415876"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600542"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop’ta bileşik modeller kullanma
 
@@ -188,3 +188,4 @@ Bileşik modeller ve DirectQuery hakkında daha fazla bilgi için aşağıdaki m
 * [Power BI Desktop’ta depolama Modu](desktop-storage-mode.md)
 * [Power BI'da DirectQuery'yi kullanma](../connect-data/desktop-directquery-about.md)
 * [Power BI'da DirectQuery tarafından desteklenen veri kaynakları](../connect-data/power-bi-data-sources.md)
+* [Power BI veri kümeleri ve Azure Analysis Services için DirectQuery kullanma (önizleme)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)

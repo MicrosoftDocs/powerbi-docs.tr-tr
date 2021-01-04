@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 12/02/2020
-ms.openlocfilehash: e79a73880b50a0edb5e507726cb0c995ba13cd77
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.date: 12/22/2020
+ms.openlocfilehash: 5417266658a493bc81da882761431aa3db072dbe
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098433"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745128"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Öğretici: Örnek *müşterileriniz için ekleme* uygulamasını kullanarak Power BI içeriği ekleme
 
@@ -192,7 +192,7 @@ Bir sonraki adım bir rapor oluşturup çalışma alanınıza yüklemektir. Powe
 
 Örnek raporu indirip çalışma alanınızda yayımlamak için şu adımları izleyin:
 
-1. GitHub'daki [Power BI Desktop samples](https://github.com/microsoft/PowerBI-Developer-Samples) klasörünü açın.
+1. GitHub'daki [Power BI Desktop samples](https://github.com/Microsoft/PowerBI-Desktop-Samples) klasörünü açın.
 
 2. **Kod**'u ve ardından **ZIP'i indir**'i seçin.
 

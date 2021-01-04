@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ms.date: 11/11/2020
-ms.openlocfilehash: d40d46ca2de6fee5a928955fed6e69cb03decf24
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9d0c10b80aeb1bf4745bb8a646933bcfea9bafc6
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415094"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621223"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>Dağıtım işlem hatlarını kullanmaya başlama
 
