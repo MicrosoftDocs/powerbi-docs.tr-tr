@@ -1,6 +1,6 @@
 ### YamlMime:Landing
-title: Power BI görselleri belgeleri
-summary: Kendi Power BI görsellerinizi geliştirin ve bunları kendi başınıza, kuruluşunuzla veya Power BI topluluğunun tamamıyla birlikte kullanın. Belgelerimiz, ihtiyacınız olan bilgileri sağlar.
+title: Power BI tümleşik analiz içinde daha iyi tümleşik BI içgörüleri elde etmek için Power BI görselleri belgeleri
+summary: Kendi Power BI görsellerinizi geliştirin ve bunları kendi başınıza, kuruluşunuzla veya Power BI topluluğunun tamamıyla birlikte kullanın. Belgelerimiz, ihtiyacınız olan bilgileri sağlar. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 metadata:
   title: Power BI görselleri belgeleri
   description: Kendi Power BI görsellerinizi geliştirin ve bunları kendi başınıza, kuruluşunuzla veya Power BI topluluğunun tamamıyla birlikte kullanın. Belgelerimiz, ihtiyacınız olan bilgileri sağlar.
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 92eb2ebc5eaff00c5c83cd32b0fa90b631906237
-  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+  ms.openlocfilehash: d6673e5a44b315c3c54fca53231efe97a4342fcd
+  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 10/14/2020
-  ms.locfileid: "92049327"
+  ms.lasthandoff: 01/05/2021
+  ms.locfileid: "97888248"
 landingContent:
 - title: Kullanmaya başlayın
   linkLists:
