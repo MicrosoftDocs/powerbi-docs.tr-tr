@@ -26,7 +26,7 @@
       items:
         - name: Power BI görselleri proje yapısı
           href: visual-project-structure.md
-        - name: ' Power BI görselleri sistem tümleştirmesi'
+        - name: Power BI görselleri sistem tümleştirmesi
           href: power-bi-visuals-concept.md
         - name: Power BI’da kuruluşlara yönelik görseller
           href: power-bi-custom-visuals-organization.md
@@ -42,7 +42,7 @@
           href: dataview-mappings.md
         - name: Nesneler ve özellikler
           href: objects-properties.md
-        - name: Gelişmiş Düzenleme Modu
+        - name: Gelişmiş düzenleme modu
           href: advanced-edit-mode.md
         - name: supportsKeyboardFocus özelliği
           href: supportskeyboardfocus-feature.md
@@ -78,7 +78,7 @@
           href: bookmarks-support.md
         - name: Bağlam menüsünü desteği ekleme
           href: context-menu.md
-        - name: Detaya gitme desteği ekleme
+        - name: Detaylandırma desteği ekleme
           href: drill-down-support.md
         - name: Görselinize renkler ekleme
           href: add-colors-power-bi-visual.md
@@ -86,7 +86,7 @@
           href: conditional-format.md
         - name: Görsellerde verileri vurgulama
           href: highlight.md
-        - name: Yüksek Karşıtlıklı mod desteği ekleme
+        - name: Yüksek karşıtlıklı mod desteği ekleme
           href: high-contrast-support.md
         - name: Eşitleme dilimleyicilerini etkinleştirme
           href: enable-sync-slicers.md
@@ -106,7 +106,7 @@
           href: launch-url.md
         - name: Görsel API
           href: visual-api.md
-        - name: Yerel Depolama API’si
+        - name: Yerel depolama alanı API’si
           href: local-storage.md
         - name: Olayları işleme
           href: event-service.md

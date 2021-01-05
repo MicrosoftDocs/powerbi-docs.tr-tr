@@ -124,7 +124,9 @@
       items:
         - name: Power BI raporları
           items:
-            - name: Hizmette rapor oluşturma
+            - name: Hizmette hızlı raporlar oluşturma
+              href: service-quick-create-report.md
+            - name: Hizmette Excel’den rapor oluşturma
               href: service-report-create-new.md
             - name: Otomatik sayfa yenilemeyi etkinleştirme
               href: desktop-automatic-page-refresh.md
