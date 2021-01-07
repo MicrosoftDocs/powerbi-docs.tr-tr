@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 879f931797786ee1bb9f12a56323c50642716afb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 806869b10b52ff7c161484f3e8d38fbc61b85f60
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398603"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961282"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -33,7 +33,7 @@ ms.locfileid: "96398603"
 
 **Power BI** , Microsoft 'un sunduğu ve kolayca self servis iş zekası panoları, raporları, veri kümeleri ve görselleştirmeler oluşturmanıza olanak sağlayan bir çevrimiçi yazılım hizmetidir (_SaaS_ veya hizmet olarak yazılım). Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
 
-Power BI hizmeti [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda Microsoft 365 uyumluluk çerçevesinin katman D ' sidir. [Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/compliance/compliance-overview)'nde uyumluluk hakkında daha fazla bilgi edinin.
+Power BI hizmeti [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/product-overview) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda Microsoft 365 uyumluluk çerçevesinin katman D ' sidir. [Microsoft Güven Merkezi](https://docs.microsoft.com/compliance/regulatory/offering-home)'nde uyumluluk hakkında daha fazla bilgi edinin.
 
 Bu makalede, Power BI mimarisini açıklanıp kullanıcıların nasıl Power BI’da kimlik doğrulayarak veri bağlantıları oluşturdukları anlatıldıktan sonra Power BI’ın hizmet üzerinden nasıl veri taşıdığı ve depoladığı açıklanarak Power BI güvenliği tanımlanır. Son bölüm güvenlikle ilgili sorulara ve bu soruların yanıtlarına ayrılmıştır.
 
@@ -119,13 +119,13 @@ Aşağıdaki bağlantılar Azure veri merkezleri hakkında ek bilgi sağlar.
 - [Azure Bölgeleri](https://azure.microsoft.com/regions/): Azure’ın küresel varlığı ve konumları hakkında bilgiler
 - [Bölgeye göre Azure Hizmetleri](https://azure.microsoft.com/regions/#services): Her bölgede Microsoft tarafından sunulan Azure hizmetlerinin (hem altyapı hizmetleri hem de platform hizmetleri) tam listesi.
 
-Şu anda Power BI hizmeti, [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)'nde açıklandığı şekilde veri merkezleri tarafından hizmet verilen belirli bölgelerde kullanılabilir. Şu bağlantı Power BI veri merkezlerinin haritasını gösterir; bir bölgedeki veri merkezlerini görmek için bölgenin üzerine gelin:
+Şu anda Power BI hizmeti, [Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/product-overview)'nde açıklandığı şekilde veri merkezleri tarafından hizmet verilen belirli bölgelerde kullanılabilir. Şu bağlantı Power BI veri merkezlerinin haritasını gösterir; bir bölgedeki veri merkezlerini görmek için bölgenin üzerine gelin:
 
 * [Power BI Veri Merkezleri](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
 Microsoft özerk bölgeler için de veri merkezleri sağlar. Ulusal bulutlar için Power BI hizmetinin kullanılabilirliği hakkında daha fazla bilgi için bkz. [Power BI ulusal bulutları](https://powerbi.microsoft.com/clouds/).
 
-Verilerinizin nerede depolandığı ve nasıl kullanıldığı hakkında daha fazla bilgi için [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where)’ne bakın. Bekleyen müşteri verilerinin konumuyla ilgili taahhütler [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)'nın **Bilgi İşlem Koşulları** bölümünde belirtilir.
+Verilerinizin nerede depolandığı ve nasıl kullanıldığı hakkında daha fazla bilgi için [Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/product-overview)’ne bakın. Bekleyen müşteri verilerinin konumuyla ilgili taahhütler [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31)'nın **Bilgi İşlem Koşulları** bölümünde belirtilir.
 
 ## <a name="user-authentication"></a>Kullanıcı Kimlik Doğrulaması
 
