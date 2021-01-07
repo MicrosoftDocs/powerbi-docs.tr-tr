@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 01/13/2020
+ms.date: 12/16/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e177eb9e124a26e62d392b7dd97562c11c8f9d5a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 432db58636866afe0dfda9e77e989f8469b66e34
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411046"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600427"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Power BI Desktop'tan Power BI hizmetindeki veri kümelerine bağlanma
 
@@ -107,7 +107,7 @@ Power BI hizmeti canlı bağlantısını kullanırken dikkat etmeniz gereken baz
 
 * Yalnızca veri kümesi üzerinde Derleme izni olan kullanıcılar yayımlanmış bir veri kümesine Power BI hizmeti canlı bağlantısını kullanarak bağlanabilir.
 * Ücretsiz kullanıcılar yalnızca **Çalışma Alanım**'daki ve Premium tabanlı çalışma alanlarındaki veri kümelerini görebilir.
-* Bu canlı bir bağlantı olduğundan sol gezinti ve modelleme devre dışı bırakılır. Her raporda tek bir veri kümesine bağlanabilirsiniz. Bu davranış, *SQL Server Analysis Services*’e bağlanma davranışına benzer.
+* Bu canlı bir bağlantı olduğundan sol gezinti ve modelleme devre dışı bırakılır. Her raporda tek bir veri kümesine bağlanabilirsiniz. Bu davranış, *SQL Server Analysis Services*’e bağlanma davranışına benzer. Bununla birlikte aşağıdaki makalede Power BI'daki yeni bir özelliğin bunu nasıl mümkün kıldığı açıklanır: [Power BI veri kümeleri ve Azure Analysis Services için DirectQuery'yi kullanma (önizleme)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
 * Bu canlı bir bağlantı olduğundan satır düzeyi güvenlik (RLS) ve bu tür diğer bağlantı davranışları zorunlu tutulur. SQL Server Analysis Services’e bağlanırken de aynı durum geçerlidir.
 * Paylaşılan özgün *.pbix* dosyasında dosyanın sahibi tarafından yapılan değişiklikler, Power BI hizmetinde paylaşılan veri kümesinin ve raporun üzerine yazılır. Bu veri kümesine dayalı raporların üzerine yazılmaz ama veri kümesinde yapılan tüm değişiklikler rapora yansıtılır.
 * Bir çalışma alanının üyeleri paylaşılan özgün raporu başka bir raporla değiştiremez. Bunu denediğinizde dosyanızı yeniden adlandırıp yayımlamanızı isteyen bir uyarı belirecektir.
@@ -116,3 +116,18 @@ Power BI hizmeti canlı bağlantısını kullanırken dikkat etmeniz gereken baz
 * *Kuruluşum*'dan gelen İçerik Paketlerini kopyaladığınızda, hizmette oluşturulan raporu veya canlı bağlantıyla İçerik Paketini kopyalama işleminin bir parçası olarak oluşturulmuş bir raporu başka bir raporla değiştiremezsiniz. Bunu denediğinizde dosyanızı yeniden adlandırıp yayımlamanızı isteyen bir uyarı belirecektir. Bu durumda yalnızca yayımlanmış canlı bağlantılı raporları başka raporlarla değiştirebilirsiniz.
 * Power BI hizmetindeki paylaşılan veri kümesini silerseniz artık o veri kümesine kimse Power BI Desktop'tan ulaşamaz.
 * Power BI hizmetinde veri kümesi paylaşan raporlar Power BI REST API’si kullanılarak yapılan otomatikleştirilmiş dağıtımları desteklemez.
+
+## <a name="next-steps"></a>Sonraki adımlar
+DirectQuery ve diğer Power BI veri bağlantısı özellikleri hakkında daha fazla bilgi için aşağıdaki kaynakları gözden geçirin:
+
+- [Power BI'da DirectQuery kullanma](desktop-directquery-about.md)
+- [DirectQuery tarafından desteklenen veri kaynakları](power-bi-data-sources.md)
+- [Power BI veri kümeleri ve Azure Analysis Services için DirectQuery kullanma (önizleme)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
+
+Burada Power BI hakkında daha fazla bilgi sağlayan bazı ek bağlantılar verilmiştir:
+
+* [Power BI Desktop nedir?](../fundamentals/desktop-what-is-desktop.md)
+* [Power BI Desktop ile sorgulara genel bakış](../transform-model/desktop-query-overview.md)
+* [Power BI Desktop'taki veri türleri](desktop-data-types.md)
+* [Power BI Desktop'ta verileri şekillendirme ve birleştirme](desktop-shape-and-combine-data.md)
+* [Power BI Desktop'taki genel sorgu görevleri](../transform-model/desktop-common-query-tasks.md)

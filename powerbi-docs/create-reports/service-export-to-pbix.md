@@ -1,5 +1,5 @@
 ---
-title: Power BI hizmetindeki raporları Power BI Desktop’a indirme (Önizleme)
+title: Power BI hizmetindeki raporları Power BI Desktop’a indirme (önizleme)
 description: Power BI hizmetindeki raporları Power BI Desktop dosyalarına indirme
 author: maggiesMSFT
 ms.author: maggies
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: c83b7d1e52a0d443c52348bec91f935e288830d4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1a196d149a6519f9bcad6bd70ef02d62ef16f69b
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388690"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600680"
 ---
-# <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI hizmetindeki raporları Power BI Desktop’a indirme (Önizleme)
+# <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Power BI hizmetindeki raporları Power BI Desktop’a indirme (önizleme)
       
 Power BI Desktop’ta bir raporu ( *.pbix* dosyası) yerel bilgisayarınızdan Power BI hizmetine yayımlayabilirsiniz. Power BI raporları diğer yöne de gidebilir: Power BI hizmetindeki bir raporu Power BI Desktop’a indirebilirsiniz. Power BI raporunun uzantısı, her iki durumda da .pbix olur.
 
@@ -54,7 +54,7 @@ Power BI hizmetinden .pbix dosyası indirirken dikkat etmeniz gereken bazı öne
 * Raporun Power BI Desktop kullanılarak oluşturulmuş ve Power BI hizmetinde *yayımlanmış* olması ya da .pbix dosyasının Power BI hizmetine *yüklenmiş* olması gerekir.
 * Raporların 23 Kasım 2016'dan sonra yayımlanmış veya güncelleştirilmiş olması gerekir. Daha önce yayımlanan raporlar indirilemez.
 * Bu özelik, ilk olarak Power BI hizmetinde oluşturulmuş olan raporlar ve içerik paketleriyle birlikte kullanılamaz.
-* İndirilen dosyaları açarken mutlaka Power BI Desktop uygulamasının son sürümünü kullanın. İndirilen .pbix dosyaları Power BI Desktop’ın eski sürümlerinde açılmayabilir.
+* İndirilen dosyaları açarken mutlaka Power BI Desktop uygulamasının son sürümünü kullanın. İndirilen .pbix dosyaları Power BI Desktop’ın eski sürümlerinde açılmayabilir. Örneğin bilgi korumasını desteklemeyen bir Desktop sürümü kullanarak indirilen .pbix dosyalarını açamazsınız.
 * Yöneticiniz verileri indirme özelliğini devre dışı bıraktıysa bu özellik Power BI hizmetinde görüntülenmez.
 * Artımlı yenileme özelliği olan veri kümeleri .pbix dosyasına indirilemez.
 * [Büyük modeller](../admin/service-premium-large-models.md) için etkinleştirilmiş veri kümeleri .pbix dosyasına indirilemez.

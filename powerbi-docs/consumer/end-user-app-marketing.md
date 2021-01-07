@@ -1,63 +1,56 @@
 ---
 title: Power BI hizmetinde Satış ve Pazarlama uygulamasını yükleme ve kullanma
-description: Power BI'da uygulamalar, ilişkili panoları ve raporları tek bir yerde bir araya getirir. Power BI Uygulamaları marketinden Satış ve Pazarlama uygulamasını yükleyin.
+description: Power BI'da uygulamalar, ilişkili panoları ve raporları tek bir yerde bir araya getirir. Power BI AppSource'tan Satış ve Pazarlama uygulamasını yükleyin.
 author: mihart
 ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 12/22/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: ba9b0f461d609cea2efd6d737f86b00554e9c0f1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1cc67af5a545f18867fa3c47ebf2568c687dcef2
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391772"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745036"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>Power BI hizmetinde örnek Satış ve Pazarlama uygulamasını yükleme ve kullanma
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-Artık [Power BI içeriğini almayı temelde anladığınıza](end-user-app-view.md) göre şimdi de Pazarlama ve Satış uygulamasını almak için Microsoft AppSource’u kullanalım. 
+Artık [Power BI içeriğini almayı temelde anladığınıza](end-user-app-view.md) göre şimdi de Pazarlama ve Satış şablonu uygulamasını almak için Microsoft AppSource’u kullanalım. Pazarlama ve Satış şablonu uygulaması, Power BI hizmetini incelemek için kullanabileceğiniz örnek veriler içerir. Bu özel uygulamanın tek panosu ve birkaç rapor sayfası vardır. 
 
+> [!IMPORTANT]
+> Microsoft AppSource'tan bu uygulamayı yüklemek için **Power BI Pro** lisansınızın olması gerekir.  Daha fazla bilgi için bkz. [Lisanslar](end-user-license.md).
 
 ## <a name="get-the-app-from-microsoft-appsource"></a>Uygulamayı Microsoft AppSource'tan alma
 
 1. [https://appsource.microsoft.com](https://appsource.microsoft.com) sayfasını açın.
 
-   ![AppSource sitesini açın  ](./media/end-user-app-marketing/power-bi-appsource.png)
+   ![AppSource sitesini açın  ](./media/end-user-app-marketing/power-bi-appsource-start.png)
 
-1. Arama kutusuna **Pazarlama** yazın ve **Ürüne göre daralt > Power BI uygulamaları**’nın yanına bir onay işareti koyun. 
+1. Arama kutusuna **Microsoft örneği** girin ve **Microsoft örneği - Satış ve Pazarlama** öğesini seçin. 
 
-    ![Uygulamaları edinin  ](./media/end-user-app-marketing/power-bi-search-appsource.png)
+    ![Uygulamaları edinin  ](./media/end-user-app-marketing/power-bi-appsource-search.png)
 
+1. İsteğe bağlı olarak, genel bakışları ve incelemeleri okuyup resimlere göz atın.  Ardından, **Şimdi al**’ı seçin.
 
-1. **Microsoft örneği - Satış ve Pazarlama** uygulama kutucuğunu seçin. İsteğe bağlı olarak, genel bakışları ve incelemeleri okuyup resimlere göz atın.  Ardından, **Şimdi al**’ı seçin.
-
-   ![AppSource’daki uygulama teklifi](./media/end-user-app-marketing/power-bi-app-offering.png)
+   ![AppSource’daki uygulama teklifi](./media/end-user-app-marketing/power-bi-app-offer.png)
 
 1. Bu uygulamayı yüklemek istediğinizi onaylayın.
 
-   ![Bu uygulama yüklensin mi?](./media/end-user-app-marketing/power-bi-installs.png)
+   ![Bu uygulama yüklensin mi?](./media/end-user-app-marketing/power-bi-install-confirm.png)
 
-5. Uygulama yüklendikten sonra, Power BI hizmeti yükleme başarılı iletisi gösterir. Uygulamayı açmak için **Uygulamaya git** seçeneğini belirleyin. Tasarımcının uygulamayı nasıl oluşturduğuna bağlı olarak uygulama panosu veya uygulama raporu görüntülenir.
-
-    ![Uygulama başarıyla yüklendi ](./media/end-user-app-marketing/power-bi-app-ready.png)
-
-    **Uygulamalar**’ı ve ardından **Satış ve Pazarlama** uygulama kutucuğunu seçerek, uygulamayı uygulama içerikleri listenizden doğrudan da açabilirsiniz.
-
-    ![Power BI'daki uygulamalar](./media/end-user-app-marketing/power-bi-sales-marketing.png)
+5. Uygulama yüklendikten sonra, Power BI hizmeti yükleme başarılı iletisi gösterir. **Uygulamaya gidin**'i seçin. İsterseniz **Uygulamalar** tuvalinden uygulamanın kendisini de seçebilirsiniz. Tasarımcının uygulamayı nasıl oluşturduğuna bağlı olarak uygulama panosu veya uygulama raporu görüntülenir.
 
 
-6. Kendi verilerinizi bağlama, örnek verilerle keşfetme veya yeni uygulamanızı özelleştirip paylaşma seçeneklerinden birini belirleyin. Microsoft örnek uygulamasını seçtiğimiz için keşfetme ile başlayalım. 
+    ![Power BI'daki uygulamalar](./media/end-user-app-marketing/power-bi-marketing.png)
 
-    ![Örnek verilerle keşfedin seçeneğinin vurgulandığı Yeni uygulamanızı kullanmaya başlayın ekranını gösteren ekran görüntüsü.](./media/end-user-app-marketing/power-bi-explore-app.png)
+7.  Bu şablon uygulaması panoda açılacak şekilde ayarlanmıştır. Uygulama *tasarımcısı* bunun yerine uygulamayı rapor sayfalarından birinde açılacak şekilde ayarlamış da olabilir.  
 
-7.  Yeni uygulamanız bir pano ile açılır. Uygulama *tasarımcısı*, uygulamayı bir raporu açacak şekilde ayarlamış da olabilir.  
-
-    ![Uygulamanızın panosunu gösteren ekran görüntüsü.](./media/end-user-app-marketing/power-bi-app-new.png)
+    ![Uygulamanızın panosunu gösteren ekran görüntüsü.](./media/end-user-app-marketing/power-bi-dashboard.png)
 
 
 

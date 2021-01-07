@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/18/2020
-ms.openlocfilehash: 2331785b14cd8cbcf9aec1232293cb601b1e2dc6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/16/2020
+ms.openlocfilehash: c292e1ccaa03904ee0bfa4825a539430fed71867
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418130"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621890"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -40,8 +40,12 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
             - Adında nokta bulunan raporların dışarı aktarılmasıyla ilgili bir sorun düzeltildi.
             - Tablix’teki ekran okuyucusu sorunları düzeltildi.
             - Günlük dosyalarının bazı durumlarda boş olmasıyla ilgili bir sorun düzeltildi.
-            - “Power BI’a bağlan” iletişim kutusuyla ilgili bir sorun düzeltildi
-            - MHTML işleyicisi, daha yeni HTML DOCTYPE’ı kullanacak şekilde güncelleştirildi
+            - Karşıya yükleme sırasında Excel dosyasının üzerine yazılmasıyla ilgili sorun düzeltildi.
+            - Model.UpdateCacheSnapshot REST API yöntemiyle ilgili sorun düzeltildi.
+            - XMLA yoluyla SAP BW veri kaynağı bağlantıları ile ilgili sorun düzeltildi.
+            - “Power BI’a bağlan” iletişim kutusuyla ilgili bir sorun düzeltildi.
+            - CustomHeaders gelişmiş özelliğinin varsayılan değeriyle ilgili sorun düzeltildi.
+            - MHTML işleyicisi, daha yeni HTML DOCTYPE’ı kullanacak şekilde güncelleştirildi.
 
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
    - *Sürüm: 2.86.961.0 (Ekim 2020), Yayın Tarihi: 27 Ekim 2020* (yeni derleme ve yeni sürüm)

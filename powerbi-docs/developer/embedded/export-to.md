@@ -1,18 +1,18 @@
 ---
 title: Power BI ekli analizi raporlarını dışarı aktarma API'si
-description: Eklenmiş bir Power BI raporunu dışarı aktarmayı öğrenin
+description: Power BI ekli analizi ekli BI deneyimini iyileştirmek için bir ekli Power BI raporunu dışarı aktarmayı öğrenin
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 10/01/2020
-ms.openlocfilehash: a0aa5839272529a0217ea4a4355342c51d55a6c3
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.date: 12/28/2020
+ms.openlocfilehash: da0f5f155552a8a53b53789f3bfb6ebe839367c5
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098295"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805154"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 
@@ -30,7 +30,7 @@ Dışarı aktarma özelliği çeşitli yollarla kullanabilirsiniz. Aşağıda bi
 
 * **Yazdırmaya gönder düğmesi** - Uygulamanızda tıklandığında dışarı aktarma işi başlatan bir düğme oluşturun. İş görüntülenen raporu .pdf veya .pptx olarak dışarı aktarabilir ve tamamlandığında kullanıcı dosyayı bir indirme olarak alabilir. Yer işaretlerini kullanarak, yapılandırılmış filtreler, dilimleyiciler ve ek ayarlar da dahil olmak üzere raporu belirli bir durumda dışarı aktarabilirsiniz. API zaman uyumsuz olduğundan dosyanın kullanılabilir duruma gelmesi biraz zaman alabilir.
 
-* **E-posta eki** - Önceden ayarlanmış aralıklarla .pdf raporunun eklendiği otomatik bir e-posta gönderin. Yöneticilere haftalık rapor gönderme işlemini otomatikleştirmek isterseniz bu senaryo yararlı olabilir.
+* **E-posta eki** - Önceden ayarlanmış aralıklarla .pdf raporunun eklendiği otomatik bir e-posta gönderin. Yöneticilere haftalık rapor gönderme işlemini otomatikleştirmek isterseniz bu senaryo yararlı olabilir. Daha fazla bilgi için bkz. [Power Automate ile bir Power BI raporunu dışarı aktarma ve e-posta ile gönderme](../../collaborate-share/service-automate-power-bi-report-export.md)
 
 ## <a name="using-the-api"></a>API'yi kullanma
 
@@ -65,7 +65,24 @@ Dışarı aktarma tamamlandığında yoklama API çağrısı dosyayı almak içi
 >[!NOTE]
 >[Kişisel yer işaretleri](../../consumer/end-user-bookmarks.md#personal-bookmarks) ve [kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) desteklenmez.
 
-### <a name="authentication"></a>Kimlik Doğrulama
+### <a name="filters"></a>Filtreler
+
+[PowerBIReportExportConfiguration](/rest/api/power-bi/reports/exporttofile#powerbireportexportconfiguration)'da `reportLevelFilters` kullanarak raporu filtrelenmiş durumda dışarı aktarabilirsiniz.
+
+Filtrelenmiş raporu dışarı aktarmak için, filtre olarak kullanmak istediğiniz [URL sorgu dizesi parametrelerini](../../collaborate-share/service-url-filters.md) [ExportFilter](/rest/api/power-bi/reports/exporttofile#exportfilter) öğesine ekleyin. Dizeyi girerken URL sorgu parametresinin `?filter=` bölümünü kaldırmalısınız.
+
+Aşağıdaki tabloda `ExportFilter` öğesine geçirebileceğiniz dizeler için birkaç söz dizimi örneği yer alır.
+
+|Filtre    |Syntax    |Örnek    |
+|---|----|----|----|
+|Alanda bir değer    |Table/Field eq 'değer'    |Store/Territory eq 'NC'    |
+|Alanda birden fazla değer    |Table/Field in ('değer1', 'değer2')     |Store/Territory in ('NC', 'TN')    |
+|Bir alanda benzersiz bir değer ve başka bir alanda farklı bir benzersiz değer    |Table/Field1 eq 'değer1' and Table/Field2 eq 'değer2'    |Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'    |
+
+>[!NOTE]
+>`ReportLevelFilters` tek bir [ExportFilter](/rest/api/power-bi/reports/exporttofile#exportfilter) içerebilir.
+
+### <a name="authentication"></a>Kimlik Doğrulaması
 
 Bir kullanıcı (veya ana kullanıcı) ya da [hizmet sorumlusunu](embed-service-principal.md) kullanarak kimlik doğrulaması yapabilirsiniz.
 
@@ -142,7 +159,8 @@ private async Task<string> PostExportRequest(
     Guid reportId,
     Guid groupId,
     FileFormat format,
-    IList<string> pageNames = null /* Get the page names from the GetPages REST API */)
+    IList<string> pageNames = null, /* Get the page names from the GetPages REST API */
+    string urlFilter = null)
 {
     var powerBIReportExportConfiguration = new PowerBIReportExportConfiguration
     {
@@ -153,6 +171,9 @@ private async Task<string> PostExportRequest(
         // Note that page names differ from the page display names
         // To get the page names use the GetPages REST API
         Pages = pageNames?.Select(pn => new ExportReportPage(Name = pn)).ToList(),
+        // ReportLevelFilters collection needs to be instantiated explicitly
+        ReportLevelFilters = !string.IsNullOrEmpty(urlFilter) ? new List<ExportFilter>() { new ExportFilter(urlFilter) } : null,
+
     };
 
     var exportRequest = new ExportReportRequest
@@ -263,7 +284,8 @@ private async Task<ExportedFile> ExportPowerBIReport(
     FileFormat format,
     int pollingtimeOutInMinutes,
     CancellationToken token,
-    IList<string> pageNames = null  /* Get the page names from the GetPages REST API */)
+    IList<string> pageNames = null,  /* Get the page names from the GetPages REST API */
+    string urlFilter = null)
 {
     const int c_maxNumberOfRetries = 3; /* Can be set to any desired number */
     const int c_secToMillisec = 1000;
@@ -273,7 +295,7 @@ private async Task<ExportedFile> ExportPowerBIReport(
         int retryAttempt = 1;
         do
         {
-            var exportId = await PostExportRequest(reportId, groupId, format, pageNames);
+            var exportId = await PostExportRequest(reportId, groupId, format, pageNames, urlFilter);
             var httpMessage = await PollExportRequest(reportId, groupId, exportId, pollingtimeOutInMinutes, token);
             export = httpMessage.Body;
             if (export == null)
@@ -339,3 +361,6 @@ Müşterileriniz ve kuruluşunuz için nasıl içerik ekleyeceğinizi gözden ge
 
 > [!div class="nextstepaction"]
 >[Kuruluşunuz için ekleme](embed-sample-for-your-organization.md)
+
+> [!div class="nextstepaction"]
+>[Power Automate ile Power BI raporunu dışarı aktarma ve e-posta ile gönderme](../../collaborate-share/service-automate-power-bi-report-export.md)

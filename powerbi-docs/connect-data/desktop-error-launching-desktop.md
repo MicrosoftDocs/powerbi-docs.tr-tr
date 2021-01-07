@@ -7,20 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
-ms.date: 01/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8d33973f1a11050d104399c98866fdae0ffb1f8a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404905"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600243"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Power BI Desktop uygulamasını açma sorunlarını giderme
 
-Power BI Desktop’ta eski *Power BI Şirket içi veri ağ geçidi* sürümlerini yüklemiş ve çalıştırıyor olan kullanıcıların, Power BI şirket içi veri ağ geçidinin yerel makinedeki adlandırılmış kanallara uyguladığı yönetimle ilgili ilke kısıtlamaları nedeniyle Power BI Desktop uygulamasını açması engellenebilir.
+Bu makalede Power BI'ın açılamadığı çeşitli durumlar açıklanır ve bunlara çözüm sağlanır. 
+
+## <a name="resolve-issues-with-opening-encrypted-pbix-files"></a>Şifrelenmiş PBIX dosyalarını açma sorunlarını çözme
+
+Bilgi korumasını desteklemeyen bir Power BI Desktop sürümü kullanarak şifrelenmiş PBIX dosyalarını açamazsınız.
+
+Power BI Desktop'ı kullanmaya devam etmeniz gerekiyorsa, önerilen çözüm bu uygulamayı bilgi korumasını destekleyen bir sürümü güncelleştirmektir. [Power BI Desktop'ın en son sürümünü](https://www.microsoft.com/download/confirmation.aspx?id=58494) indirebilirsiniz (bu bağlantı, yükleme yürütülebilir dosyasını doğrudan indirme bağlantısıdır). Power BI Desktop'ın en son sürümü bilgi korumasını destekler ve şifrelenmiş PBIX dosyalarının şifresini çözüp bu dosyaları açabilir.
+
+###
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Şirket içi veri ağ geçidi ve Power BI Desktop ile ilgili sorunları giderme
+
+Power BI Desktop’ta eski *Power BI Şirket içi veri ağ geçidi* sürümlerini yüklemiş ve çalıştırıyor olan kullanıcıların, Power BI şirket içi veri ağ geçidinin yerel makinedeki adlandırılmış kanallara uyguladığı yönetimle ilgili ilke kısıtlamaları nedeniyle Power BI Desktop uygulamasını açması engellenebilir.
 
 Şirket içi veri ağ geçidiyle ilgili sorunları gidermek ve Power BI Desktop’ın açılmasını sağlamak için kullanabileceğiniz üç seçenek vardır:
 

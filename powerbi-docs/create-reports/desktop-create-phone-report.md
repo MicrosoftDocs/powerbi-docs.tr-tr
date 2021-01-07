@@ -4,23 +4,24 @@ description: Raporun telefon ve tabletlere özgü bir dikey sürümünü oluştu
 author: paulinbar
 ms.author: painbar
 ms.reviewer: ''
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 06/15/2020
+ms.date: 12/22/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0780b11cb1e95578be144f65f8adb1bf641d1c1c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1bfbbcb1b722bbb2504307815860b977a6ab0709
+ms.sourcegitcommit: 2adb60a70bfc29c5fdc49cf6defb905e580288ab
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414335"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "97760758"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Power BI raporlarını mobil uygulama için iyileştirme
+
 Mobil kullanıcılar bir Power BI rapor sayfasını yatay yönlendirmede görüntüleyebilir. Ancak rapor yazarları, mobil cihazlar için iyileştirilmiş ek bir görünüm oluşturabilir ve dikey yönlendirmede görüntüleyebilirler. Hem Power BI Desktop’ta hem de Power BI hizmetinde kullanılabilir olan bu tasarım seçeneği, yazarların yalnızca hareket halindeki mobil kullanıcılar için anlamlı olan bu görselleri seçip yeniden düzenlemesine olanak verir.
 
-![Mobil cihazlar için iyileştirilmiş rapor](media/desktop-create-phone-report/desktop-mobile-optimized-report.png).
+![Dikey ve yatay yönlendirmede mobil cihaz için iyileştirilmiş raporların ekran görüntüsü.](media/desktop-create-phone-report/desktop-mobile-optimized-report.png)
 
 Power BI, raporlarınızın mobil cihazlar için iyileştirilmiş sürümlerini oluşturmanıza yardımcı olacak çok sayıda özellik sağlar:
 * Görselleri bir telefon öykünücüsü tuvaline sürükleyip bırakarak mobil cihazlar için iyileştirilmiş raporunuzu oluşturabileceğiniz bir mobil düzen görünümü.
@@ -30,18 +31,18 @@ Bu özellikler mobil cihazlar için iyileştirilmiş, ilgi çekici ve etkileşim
 
 ## <a name="create-a-mobile-optimized-portrait-version-of-a-report-page"></a>Bir rapor sayfasının mobil cihazlar için iyileştirilmiş dikey sürümünü oluşturma
 
-İlk adım, raporu normal web görünümünde tasarlayıp oluşturmaktır. Raporu oluşturduktan sonra, telefonlar ve tabletler için iyileştirebilirsiniz.
+**Önkoşul**: İlk adım, raporu normal web görünümünde tasarlayıp oluşturmaktır. Raporu oluşturduktan sonra, telefonlar ve tabletler için iyileştirebilirsiniz.
 
-Mobil cihazlar için iyileştirilmiş görünümü oluşturmak için mobil düzen görünümünü açın:
+Mobil cihaz için iyileştirilmiş görünümü oluşturmak istiyorsanız raporu Power BI Desktop'ta veya Power BI hizmetinde açın. Rapor açık durumdayken mobil düzen görünümüne geçin:
    * Power BI Desktop’ta **Görünüm** şeridini ve sonra **Mobil düzen**’i seçin.
-   * Power BI hizmetinde **Diğer seçenekler (...) > Raporu düzenle > Mobil Düzen**’i seçin.
+   * Power BI hizmetinde **Raporu düzenle > Mobil Düzen**’i seçin. Düzenle seçeneği görünmüyorsa **Diğer seçenekler (...)** bölümünün altına bakın.
 
    Telefon şekline sahip kaydırılabilir bir tuval ve özgün rapor sayfasında yer alan tüm görsellerin listelendiği bir **Görselleştirme** sekmesi görürsünüz.
 
-   ![Mobil düzen görünümü](media/desktop-create-phone-report/desktop-mobile-layout.png).
-
 * **Görselleştirmeler** bölmesindeki her görsel, kolayca tanımlayabilmek amacıyla için adıyla birlikte görünür.
 * Her görselde bir görünürlük göstergesi vardır. Bir görselin görünürlük göstergesi, web raporu görünümünün geçerli halindeki görselin durumuna bağlı olarak değişir. Görünürlük göstergesi, yer işaretleriyle çalışırken kullanışlıdır.
+
+   ![Mobil düzen görünümü](media/desktop-create-phone-report/desktop-mobile-layout.png)
 
 ## <a name="add-visuals-to-the-mobile-layout-canvas"></a>Mobil düzen tuvaline görseller ekleme
 Mobil düzene eklemek istediğiniz görselleri **Görsel Öğeler** bölmesinden telefon tuvaline sürükleyin. Görseli tuvale sürüklediğinizde kılavuza yaslanır. Alternatif olarak, görselleştirme bölmesindeki görsele çift tıklayarak görselin tuvale eklenmesini sağlayabilirsiniz.
@@ -51,7 +52,7 @@ Web raporu sayfasındaki görsellerin bazılarını veya tümünü mobil cihazla
 >[!NOTE]
 > Gizli görselleri tuvale sürükleyip bırakabilirsiniz. Bunlar yerleştirilir, ancak geçerli web raporu görünümündeki görünürlük durumları değişmediği sürece gösterilmez.
 
-Görseller yer işaretleri kullanılarak etkileşimli raporlar oluşturmak amacıyla birbirinin üzerine katmanlanabilir veya görseller resimlerin üzerine katmanlanarak ilgi çekici raporlar oluşturulabilir.
+Görseller yer işaretleri kullanılarak etkileşimli raporlar oluşturmak amacıyla birbirinin üzerine katmanlanabilir veya görseller resimlerin üzerine katmanlanarak ilgi çekici raporlar oluşturulabilir. [Seçim bölmesinde](#set-the-layering-order-of-visuals-on-the-mobile-layout-canvas) görsellerin katman sırasını değiştirebilirsiniz.
 
 Tuvale bir görsel yerleştirdikten sonra, görseli seçtiğinizde kenarlarında görünen tutamaçları sürükleyerek yeniden boyutlandırabilirsiniz. Yeniden boyutlandırma sırasında görselin boyut oranını korumak için, yeniden boyutlandırma tutamaçlarını sürüklerken **Shift** tuşuna basın.
 
@@ -60,6 +61,18 @@ Aşağıdaki resimde, hem **Görselleştirmeler** bölmesindeki görselleri tuva
    ![Görselleri sürükleyip bırakma, yeniden boyutlandırma ve katmanlandırma](media/desktop-create-phone-report/desktop-mobile-layout-overlay-resize.gif)
 
 Telefon raporu kılavuzu farklı boyutlardaki telefonlara göre değişir. Bu sayede raporunuz hem küçük hem de büyük ekranlı telefonlarda güzel görünür.
+
+## <a name="set-the-layering-order-of-visuals-on-the-mobile-layout-canvas"></a>Mobil düzen tuvalinde görsellerin katman sırasını ayarlama
+
+Tuvale sürüklediğiniz her görsel, önceden tuvalde bulunan diğer tüm görsellerin üzerinde, kendi katmanına eklenir. **Seçim** bölmesi katman sırasını değiştirmenize olanak tanır.
+
+**Seçim** bölmesini açmak için **Görünüm** sekmesinin **Bölmeleri göster** bölümünde **Seçim** öğesine tıklayın. 
+
+**Seçim** bölmesinde tuvaldeki tüm görseller listelenir. Listenin sırası tuvaldeki katman sıralamasını yansıtır; listelenen ilk görsel en üst katmanda ve listelenen son görsel de en alt katmanda yer alır. Sıraya değiştirmek için listede görseli sürükleyip başka bir konuma bırakabilir veya bir görsel seçip bunu ok düğmeleriyle yukarı veya aşağı taşıyabilirsiniz.
+
+Ayrıca **Seçim** bölmesinin her görsel için bir görünürlük göstergesi vardır ama mobil düzen görünümünde görünürlüğü değiştirmek mümkün değildir; bu işlemin normal web düzeni görünümünde yapılması gerekir.
+
+![Seçim bölmesini ve bu bölmenin nasıl açılacağını gösteren ekran görüntüsü.](media/desktop-create-phone-report/selection-pane-mobile-layout.png)
 
 ## <a name="remove-visuals-from-the-mobile-layout-canvas"></a>Mobil düzen tuvalindeki görselleri kaldırma
 Bir görseli mobil düzenden kaldırmak için, telefon tuvalinde yer alan görselin sağ üst köşesindeki **X**‘e tıklayın veya görseli seçip **Sil**’e basın.

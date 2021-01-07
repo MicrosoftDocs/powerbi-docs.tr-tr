@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f68a056e6e31acaf5432c4e323ba8a293ee09ce
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: eb572c17705f06b989f15323322c0da11b1d85ac
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414427"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600703"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Power BI’da otomatik sayfa yenileme
 
@@ -33,11 +33,11 @@ Bu yenileme türü, bir rapor sayfasındaki tüm görselleri bir saniye veya be�
 
 ### <a name="change-detection"></a>Değişiklik algılama
 
-Bu yenileme türü, belirli bir aralık yerine verilerdeki değişiklikleri algılayarak sayfadaki görselleri yenilemenize olanak verir. Ayrıntılı ifade etmek gerekirse bu ölçüm, [DirectQuery kaynağınıza](../connect-data/desktop-directquery-about.md) yapılan değişikleri yoklar. Ölçüyü tanımlamanın yanı sıra, Power BI Desktop’ın değişiklikleri denetleme sıklığını da seçmeniz gerekir. Hizmette yayımladığınızda, bu yenileme türü yalnızca bir Premium kapasitenin parçası olan çalışma alanlarında desteklenir.
+Bu yenileme türü, belirli bir aralık yerine verilerdeki değişiklikleri algılayarak sayfadaki görselleri yenilemenize olanak verir. Ayrıntılı ifade etmek gerekirse bu ölçüm, [DirectQuery kaynağınıza](../connect-data/desktop-directquery-about.md) yapılan değişikleri yoklar. Ölçüyü tanımlamanın yanı sıra, Power BI Desktop’ın değişiklikleri denetleme sıklığını da seçmeniz gerekir. Hizmette yayımladığınızda, bu yenileme türü yalnızca bir Premium kapasitenin parçası olan çalışma alanlarında desteklenir. Analysis Services ve Power BI veri kümeleri gibi LiveConnect kaynakları desteklenmez.
 
 ## <a name="authoring-reports-with-automatic-page-refresh-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik sayfa yenileme ile rapor yazma
 
-Otomatik sayfa yenileme yalnızca [DirectQuery sorguları](../connect-data/desktop-directquery-about.md) için kullanılabileceğinden, yalnızca bir DirectQuery veri kaynağına bağlandığınızda kullanılabilir hale gelir. Bu kısıtlama, her iki otomatik sayfa yenileme türü için de geçerlidir.
+Otomatik sayfa yenileme [DirectQuery sorguları](../connect-data/desktop-directquery-about.md) ve bazı LiveConnect senaryolarında kullanılabileceğinden, yalnızca desteklenen bir veri kaynağına bağlandığınızda kullanılabilir duruma gelir. Bu kısıtlama, her iki otomatik sayfa yenileme türü için de geçerlidir.
 
 Power BI Desktop’ta otomatik sayfa yenilemeyi kullanmak için, otomatik sayfa yenilemeyi etkinleştirmek istediğiniz rapor sayfasını seçin. **Görsel Öğeler** bölmesinde **Biçimlendirme** düğmesini (boya rulosu) seçin ve bölmenin alt kısmından **Sayfa yenileme** bölümünü bulun.
 
@@ -160,7 +160,7 @@ Power BI Desktop’ın yenileme aralığı için bir kısıtlaması yoktur ve ye
 
 ### <a name="restrictions-on-refresh-intervals"></a>Yenileme aralıklarındaki kısıtlamalar
 
-Power BI hizmetinde, otomatik sayfa yenileme kısıtlamaları raporun yayımlandığı çalışma alanına göre uygulanır. Premium hizmetleri veya Premium kapasitesi yönetici ayarlarını kullanmanız fark etmez.
+Power BI hizmetinde, otomatik sayfa yenileme kısıtlamaları raporun yayımlandığı çalışma alanına göre uygulanır. Premium hizmetleri veya Premium kapasitesi yönetici ayarlarını kullanmanız ve veri kaynağının türü bunu etkilemez.
 
 Bu kısıtlamaların nasıl çalıştığını netleştirmek için kapasiteler ve çalışma alanıyla ilgili bazı arka plan bilgileriyle başlayalım.
 
@@ -182,32 +182,35 @@ Burada, iki çalışma alanı senaryosu için bazı ayrıntılara yer verilmişt
 
  - **En kısa yürütme aralığı**. Değişiklik algılama etkinleştirildiğinde, kapasite yöneticinizin bir en kısa yürütme aralığı (varsayılan değer beş saniyedir) ayarlaması gerekir. Zaman aralığınız minimumdan düşükse Power BI hizmeti, kapasite yöneticiniz tarafından ayarlanan minimum aralığa göre aralığınızı geçersiz kılar.
 
+> [!WARNING]
+> Veri kümenizde etkinleştirildiğinde değişiklik algılama ölçümü DirectQuery veri kaynağınıza bağlanarak ölçümü hesaplayıp değişiklikleri yoklar. Bu bağlantı, Power BI tarafından yapılan Düşük Öncelikli yenileme bağlantılarından farklıdır.
+
 ![Kapasite yönetim portalında otomatik sayfa yenileme ayarları](media/desktop-automatic-page-refresh/automatic-page-refresh-09.png)
 
 Bu tabloda, bu özelliğin nerede kullanılabildiğine dair daha fazla ayrıntı ve her bir kapasite türü ve [depolama moduna](../connect-data/service-dataset-modes-understand.md) ilişkin sınırlar açıklanmaktadır:
 
-| Depolama modu | Ayrılmış kapasite | Paylaşılan kapasite |
-| --- | --- | --- |
-| DirectQuery | **SA destekli**: Evet <br>**DA destekli**: Evet <br>**Minimum**: 1 saniye <br>**Yöneticiyi geçersiz kılma**: Evet | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Hayır |
-| İçeri Aktar | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK |
-| Karma mod (DirectQuery ve diğer veri kaynakları) | **SA destekli**: Evet <br>**DA destekli**: Evet <br>**Minimum**: 1 saniye <br>**Yöneticiyi geçersiz kılma**: Evet | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Hayır |
-| Live connect AS | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK |
-| Live connect PBI | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK |
+| Depolama modu                                  | Ayrılmış kapasite                                                                                     | Paylaşılan kapasite                                                                                       |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| DirectQuery                                   | **SA destekli**: Evet <br>**DA destekli**: Evet <br>**Minimum**: 1 saniye <br>**Yöneticiyi geçersiz kılma**: Evet  | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Hayır |
+| İçeri Aktar                                        | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK         | **SA destekli**: Hayır <br>**DA destekli**: Hayır <br>**Minimum**: YOK <br>**Yöneticiyi geçersiz kılma**: YOK        |
+| Karma mod (DirectQuery ve diğer veri kaynakları) | **SA destekli**: Evet <br>**DA destekli**: Evet <br>**Minimum**: 1 saniye <br>**Yöneticiyi geçersiz kılma**: Evet  | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Hayır |
+| Analysis Services (Azure ve Şirket İçi)     | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Evet | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Hayır |
+| Power BI veri kümeleri (DirectQuery kaynağı ile)   | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 1 saniye <br>**Yöneticiyi geçersiz kılma**: Evet  | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Hayır |
+| Power BI Push veri kümeleri                        | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Evet | **SA destekli**: Evet <br>**DA destekli**: Hayır <br>**Minimum**: 30 dakika <br>**Yöneticiyi geçersiz kılma**: Hayır        |
 
 *Tablo göstergesi:*
 1. *SA: Sabit aralık*
 2. *DA: Değişiklik algılama*
 
 > [!WARNING]
-> Veri kümenizde etkinleştirildiğinde değişiklik algılama ölçümü DirectQuery veri kaynağınıza bağlanarak ölçümü hesaplayıp değişiklikleri yoklar. Bu bağlantı, Power BI tarafından yapılan Düşük Öncelikli yenileme bağlantılarından farklıdır.
+> Power BI Desktop'tan Analysis Services veya Power BI veri kümelerine bağlandığınızda ve yenileme aralığı 30 dakika veya daha uzun olduğunda bilinen bir sorunumuz vardır. Rapor sayfasındaki görseller 30 dakika sonra bir hata gösterebilir.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
 Power BI Desktop veya Power BI hizmetinde otomatik sayfa yenilemeyi kullanırken göz önünde bulundurulması gereken birkaç nokta vardır:
 
-* İçeri Aktarma, LiveConnect ve Push depolama modları, otomatik sayfa yenileme için desteklenmez.  
+* İçeri aktarma depolama modu otomatik sayfa yenileme için desteklenmez.  
 * En az bir DirectQuery veri kaynağı olan bileşik modeller desteklenir.
-* Power BI Desktop’ta yenileme aralıklarına yönelik bir kısıtlama yoktur. Aralık, hem sabit aralık hem de değişiklik algılama yenileme türü için her saniye gerçekleşecek sıklıkta olabilir. Raporlar Power BI hizmetinde yayımlandığında, bu makalenin [önceki](#restrictions-on-refresh-intervals) kısmında açıklandığı gibi belirli kısıtlamalar uygulanır.
 * Veri kümesi başına yalnızca bir değişiklik algılama ölçüsüne sahip olabilirsiniz.
 * Bir Power BI kiracısında değişiklik algılama ölçüsüne sahip en fazla 10 model olabilir.
 
@@ -277,6 +280,10 @@ Kapasitenizin düşük öncelikli sorgularla aşırı yüklendiğini fark ederse
 * Ekli Premium kapasiteye sahip bir çalışma alanına yükleyip yüklemediğinizi kontrol edin. Bunu yapmadıysanız değişiklik algılama çalışmayacaktır.
 * Raporunuz bir Premium çalışma alanındaysa bu özelliğin ekli kapasite için etkin olup olmadığını yöneticinize sorun. Ayrıca, kapasite için minimum yürütme aralığının raporunuzla aynı veya raporunuzdan daha düşük olduğundan da emin olun.
 * Önceden bahsedilen tüm öğeleri denetlediyseniz ölçünün değişip değişmediğini görmek için Power BI Desktop’ta veya Düzenleme modunda denetleyin. Bunu yapmak için ölçüyü tuvale sürükleyin ve değerin değişip değişmediğini denetleyin. Değer değişmezse ölçü veri kaynağı değişikliklerini yoklamak için iyi bir tercih olmayabilir.
+
+**Analysis Services'e bağlanırken APR düğmesini göremiyorum**
+
+* Analysis Services modelinizin [Direct Query modunda](https://docs.microsoft.com/analysis-services/tabular-models/directquery-mode-ssas-tabular) olduğundan emin olun.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar

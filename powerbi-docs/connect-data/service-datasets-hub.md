@@ -1,5 +1,5 @@
 ---
-title: Veri kümesi merkezini kullanarak veri kümelerini bulma
+title: Veri kümesi merkezini kullanarak veri kümelerini bulma (önizleme)
 description: Kuruluşunuzdaki veri kümelerini ve onlarla ilgili raporları bulmayı, incelemeyi ve kullanmayı öğreneceksiniz.
 author: paulinbar
 ms.author: painbar
@@ -8,14 +8,14 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c6b7170df78b6d544f7eb97ec62516577f9267b6
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 4e09eb9e0b44fbddf8787f474fe1a93b0b4c2d71
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513816"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97707985"
 ---
-# <a name="datasets-discovery-using-the-datasets-hub"></a>Veri kümesi merkezini kullanarak veri kümelerini bulma
+# <a name="datasets-discovery-using-the-datasets-hub-preview"></a>Veri kümesi merkezini kullanarak veri kümelerini bulma (önizleme)
 
 Veri kümeleri merkezi kuruluşunuzdaki veri kümelerini bulmanızı, incelemenizi ve kullanmanızı kolaylaştırır. Ayrıca hem veri kümeleri hakkında bilgi hem de bu veri kümeleri üzerinde raporlar oluşturmak ve Excel'de Analiz Et özelliğiyle bu veri kümelerini kullanmak için giriş noktaları sağlar.
 

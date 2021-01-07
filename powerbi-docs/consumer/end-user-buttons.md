@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/10/2020
+ms.date: 12/21/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 140ca42dc34e98133beac5fff671cf1ef244501c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400972"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721444"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI hizmetindeki düğmeler
 İş arkadaşlarınızın gönderdiği raporlardaki düğmeleri fark etmiş ve bunların nasıl kullanılacağını öğrenmek istemiş olabilirsiniz. Bu düğmelerin bazılarının üzerinde sözcükler, bazılarında oklar, diğerlerinde ise grafikler ve hatta açılan menüler bulunur. Bu makale, düğmeleri tespit etme ve gerçekleştirdikleri işlemleri öğrenme konusunda size yol gösterecektir.
@@ -53,17 +53,17 @@ Yer işareti düğmesini seçtiğinizde Power BI, ilgili yer işareti için tan�
 ## <a name="drillthrough-buttons"></a>Detaylandır düğmeleri
 Power BI hizmetinde detaylandırmak için kullanabileceğiniz iki yöntem vardır. Detaylandırma sizi farklı bir rapor sayfasına götürür ve hedef sayfadaki veriler, kaynak sayfada belirlediğiniz filtrelere ve seçimlere göre sunulur.
 
-Rapor verilerini detaylandırma yöntemlerinden biri, görseldeki veri noktalarından birine sağ tıklayıp **Detaylandır**'ı ve ardından hedefi seçmektir. Bu yöntem yukarıdaki **Geri düğmesi** başlıklı bölümde anlatılmıştır. Ancak rapor tasarımcıları bazen eylemi daha belirgin hale getirmek ve önemli içgörülere dikkat çekmek için detaylandırma *düğmesi* kullanır.  
+Raporda detaylandırmayı kullanma yöntemlerinden biri, görseldeki veri noktalarından birine sağ tıklayıp **Detaylandır**'ı ve ardından hedefi seçmektir. Bu yöntem yukarıdaki **Geri düğmesi** başlıklı bölümde anlatılmıştır. Ancak rapor tasarımcıları bazen eylemi daha belirgin hale getirmek ve önemli içgörülere dikkat çekmek için detaylandırma *düğmesi* kullanır.  
 
 Detaylandırma düğmelerinde birden fazla önkoşul olabilir. Tüm önkoşulları yerine getirmediğinizde düğme çalışmaz. Bir örneğe göz atalım.
 
 Aşağıda bizi *Mağaza ayrıntıları* sayfasına götürecek olan bir detaylandırma düğmesi gösterilmiştir. Düğmenin üzerine geldiğinizde mağaza ve ürün seçmemiz gerektiğini bildiren bir araç ipucu görüntülenir. İki seçimi de yapana kadar düğmeyi seçemezsiniz.
 
-![Üzerine gelindiğinde görünen ipucuna sahip Detaylandır düğmesinin ekran görüntüsü.](media/end-user-buttons/power-bi-drill-two-selections.png)
+![Üzerine gelindiğinde görünen ipucuna sahip detaylandırma düğmesinin ekran görüntüsü.](media/end-user-buttons/power-bi-drill-two-selections.png)
 
 Bir ürün (**Sözcük**) ve bir mağaza (**Leo**) seçtiğimize göre düğmenin rengi değişir ve düğme etkin duruma gelir.
 
-![Mağaza ayrıntıları için Detaylandır düğmesinin ekran görüntüsü.](media/end-user-buttons/power-bi-select-both.png)
+![Mağaza ayrıntıları için detaylandır düğmesinin ekran görüntüsü.](media/end-user-buttons/power-bi-select-both.png)
 
 Detaylandırma düğmesini seçtiğinizde *Mağaza* rapor sayfası açılır. *Mağaza* sayfası **Sözcük** ve **Leo** seçimlerinize göre filtrelenir.
 

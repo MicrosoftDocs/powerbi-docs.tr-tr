@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/12/2020
-ms.openlocfilehash: 5d361a749f947f8d45b052a8a2b6455007745d20
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/17/2020
+ms.openlocfilehash: 944f840133fd2ae8fee558e26d44fa31456bd565
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413093"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675443"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında raporları araştırma
 Aşağıdakiler cihazlar için geçerlidir:
@@ -155,6 +155,29 @@ Raporun yer işareti görünümü açık durumdayken, yer işaretinin adı rapor
 ![yer işareti görünümü](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [Power BI hizmetinde yer işaretleri hakkında daha fazla bilgi edinin](../end-user-bookmarks.md).
+
+## <a name="investigate-anomalies-in-time-series-data"></a>Zaman serisi verilerindeki anomalileri araştırma
+
+[Anomali algılama](https://powerbi.microsoft.com/blog/anomaly-detection-preview/), zaman serisi verilerinin yer aldığı çizgi grafiklerdeki anomalileri (beklenen aralıkların dışında kalan değerler) otomatik olarak algılayan bir Power BI özelliğidir. Buna ek olarak, anormal değerlerin nedenine ilişkin olası açıklamalar sağlar ve bunlar açıklama gücüne göre sıralanır. Anomali algılamanın kullanılabilmesi için rapor oluşturucu tarafından grafikte etkinleştirilmiş olması gerekir. 
+
+Zaman serisi verilerinin yer aldığı grafikte anomali algılamanın etkinleştirildiği bir raporu görüntülediğinizde, aynı Power BI hizmetinde ve Power BI Desktop'ta görebileceğiniz gibi grafikte belirtilen anomalileri görürsünüz. 
+
+![Anomali göstergeleri olan çizgi grafiğin ekran görüntüsü.](media/mobile-reports-in-the-mobile-apps/mobile-detected-anomalies.png)
+
+Ek bilgileri ve açıklamaları görmek için Anomaliler panelini açmalısınız. Bunu yapmanın çeşitli yolları vardır:
+* Grafikte anomali göstergesine dokunun. 
+* **Diğer seçenekler (…)** düğmesine dokunun ve görüntülenen menüde **Anomalileri göster**'i seçin.    
+* Veri noktasına dokunarak araç ipucunu görüntüleyin ve **Anomaliler**'i seçin.
+
+Aşağıdaki resimde Anomaliler panelini açmanın üç yolu gösterilir.
+
+![Anomaliler panelinin nasıl açıldığını gösteren ekran görüntüleri.](media/mobile-reports-in-the-mobile-apps/mobile-opening-anomalies-panel.png)
+
+Anomaliler panelinde, hem algılanan anomalinin doğal dildeki açıklamasını hem de bununla ilişkili faktörleri (açıklayıcı gücüne göre sıralanmış olarak) görürsünüz. Tüm ilgili faktörleri ve bunların gücünü görüntülemek için sağdan sola doğru çekin.
+
+![Anomali açıklamalarını görüntülemek için sağdan sola doğru çekmeyi gösteren ekran görüntüsü.](media/mobile-reports-in-the-mobile-apps/mobile-swipe-to-see-explanations.png)
+
+Anomaliler paneli görünür durumdayken altındaki mobil rapor yine kaydırılabilir. Dolayısıyla raporunuzla etkileşim kurmaya devam edebilir, verilerinizdeki anomalileri daha iyi anlamak için ayrıntılı olarak inceleyebilirsiniz. Her etkileşimde, kapsamdaki verilerin anomalilerini algılamak için Power BI anomali algılamayı yeniden çalıştırır. 
 
 ## <a name="refresh-your-data"></a>Verilerinizi yenileme
 

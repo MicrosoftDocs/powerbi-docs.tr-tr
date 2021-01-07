@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 12/16/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: f2eacca4571b8d00c8fc7e5ca5c6ef7935afaf29
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e239b95fe18ba9ddfad399c5b53b10a3f1f4a4c2
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419510"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97674902"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop'taki Yenilikler
 
-## <a name="november-2020-update-2872610"></a>Kasım 2020 Güncelleştirmesi (2.87.261.0)
+## <a name="december-2020-update-2883210"></a>Aralık 2020 Güncelleştirmesi (2.88.321.0)
 
-Power BI Desktop’ın Kasım güncelleştirmeleri yeni ve iyileştirilmiş özellikleri bir arada içerir. 
+Aralık Power BI Desktop güncelleştirmelerimiz ışıklar ve kızaklarla dolu karlı bir yol gibi sizi etkileyecek. 
 
 Power BI Desktop’a yönelik aylık blog ve video güncelleştirmelerinde Power BI mobil ve Power BI hizmetine yönelik yeni güncelleştirmeler yer alıyor. Bu makalede, Power BI Desktop’a yönelik güncelleştirmeler ele alınmaktadır. Mobil ve Power BI hizmetine yönelik güncelleştirmeler hakkında bilgi edinmek için ilgili yenilikler makalelerine göz atın:
 
@@ -46,30 +46,29 @@ Power BI Desktop güncelleştirme listesinde yer alan her özelliğin yanındaki
 
 Power BI Desktop'ta bu ay yapılan yeni güncelleştirmeleri aşağıda bulabilirsiniz:
 
-
 ### <a name="reporting"></a>Raporlama
-* Yeni Alan Listesi (önizleme) [[video]](https://youtu.be/DT_tOas5YIo?t=15)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467053) 
-* Yeni Model Görünümü (önizleme) [[video]](https://youtu.be/DT_tOas5YIo?t=61)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467054) [[makale]](../create-reports/power-bi-personalize-visuals.md)
-* Tüm filtreleri uygula işlevi genel kullanıma sunuldu [[video]](https://youtu.be/DT_tOas5YIo?t=98)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467055)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Görsel yakınlaştırma kaydırıcısı [[video]](https://youtu.be/DT_tOas5YIo?t=160)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467056)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Veri noktası dikdörtgeni seçimi Harita görselini kapsayacak şekilde genişletildi [[video]](https://youtu.be/DT_tOas5YIo?t=185)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467057)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Web bağlantıları için sertifika iptal denetimi [[video]](https://youtu.be/DT_tOas5YIo?t=292)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467058)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Sayfalandırılmış rapor güncelleştirmeleri [[video]](https://youtu.be/DT_tOas5YIo?t=292)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467059)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Power BI veri kümeleri ve Azure Analysis Services için DirectQuery (önizleme) [[video]](https://youtu.be/68YvRs49VZM?t=33)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831296)   [[makale]](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
+* Küçük katlar (önizleme) [[video]](https://youtu.be/68YvRs49VZM?t=378)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831297)
+* Power BI Desktop'ta veri koruması duyarlılık etiketleri (önizleme) [[video]](https://youtu.be/68YvRs49VZM?t=656)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831298) 
+* Artırılan dikdörtgen seçim veri noktası sınırı [[video]](https://youtu.be/68YvRs49VZM?t=734)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831299) 
+* Mobil düzen görünümünde artık Seçim bölmesi kullanılabilir [[video]](https://youtu.be/68YvRs49VZM?t=757)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831300) 
+* Analysis Services kaynakları için otomatik sayfa yenileme [[video]](https://youtu.be/68YvRs49VZM?t=789)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831301) 
 
-### <a name="analytics"></a>Analiz
-* Anomali algılama (önizleme) [[video]](https://youtu.be/DT_tOas5YIo?t=199)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467061) 
-* Soru-Cevap şimdi kısmi eşleşen veri değerlerini destekliyor [[video]](https://youtu.be/DT_tOas5YIo?t=438)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467062)  [[makale]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+
+### <a name="data-preparation"></a>Verileri hazırlama
+* Power Query ve veri akışlarındaki değişiklikler [[video]](https://youtu.be/68YvRs49VZM?t=851)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831302)
 
 ### <a name="data-connectivity"></a>Veri bağlantısı
-* Hive LLAP bağlayıcısı genel kullanıma sunuldu [[video]](https://youtu.be/DT_tOas5YIo?t=461)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467064)
-* Yeni veri bağlayıcıları: Actian, Anaplan, Starburst Presto [[video]](https://youtu.be/DT_tOas5YIo?t=487)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467065)
+* Microsoft Dataverse bağlayıcısı [[video]](https://youtu.be/68YvRs49VZM?t=886)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831566)
+* Azure Time Series Insights güncelleştirmesi [[video]](https://youtu.be/68YvRs49VZM?t=919)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831305)
+* SurveyMonkey güncelleştirmesi [[video]](https://youtu.be/68YvRs49VZM?t=926)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831568)
+* Cognite güncelleştirmesi [[video]](https://youtu.be/68YvRs49VZM?t=933)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831307)
 
 
 ### <a name="visuals"></a>Görsel Nesneler
-* Çeşitli sağlayıcılardan yeni görseller [[video]](https://youtu.be/DT_tOas5YIo?t=688)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467072)
+* Çeşitli sağlayıcılardan yeni görseller [[video]](https://youtu.be/68YvRs49VZM?t=1330)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831588)
 
-
-Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI Desktop özellik özeti blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/).
+Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI Desktop özellik özeti blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/).
 
 
 > [!NOTE]
@@ -79,7 +78,7 @@ Bu yeni özelliklerin her biri hakkında ayrıntılı bilgi için bkz. [Power BI
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop aylık güncelleştirme videosu
 Aşağıdaki videoda bu güncelleştirmelerin her biri açıklanır. Bu videoyu blog gönderisinden de izleyebilirsiniz:
 
-> [!VIDEO https://www.youtube.com/embed/DT_tOas5YIo]
+> [!VIDEO https://www.youtube.com/embed/68YvRs49VZM]
 
 ## <a name="more-videos"></a>Daha fazla video
 

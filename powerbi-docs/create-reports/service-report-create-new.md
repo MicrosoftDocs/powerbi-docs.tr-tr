@@ -9,19 +9,19 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 806198b783785a06562411b53f7bd6f644b16918
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a971e0d0b35b0a3988a1c10ea2b7b801830229d6
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388207"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721559"
 ---
 # <a name="create-a-report-from-an-excel-file-in-the-power-bi-service"></a>Power BI hizmetinde Excel dosyasından rapor oluşturma
 [Power BI'daki raporlar](../consumer/end-user-reports.md) başlıklı makaleyi okudunuz ve artık kendi raporlarınızı oluşturmak isteyebilirsiniz. Rapor oluşturmanın farklı yolları vardır. Bu makalede, Power BI hizmetinde bir Excel dosyasından temel bir rapor oluşturarak başlayacağız. Rapor oluşturmanın temeli anladıktan sonra, raporlara yönelik daha gelişmiş konu başlıkları için [sonraki adımlara](#next-steps) göz atın.  
 
 ## <a name="prerequisites"></a>Önkoşullar
 - [Power BI hizmetine kaydolma](../fundamentals/service-self-service-signup-for-power-bi.md). 
-- [Perakende Analizi Örneği adlı Excel dosyasını indirin](https://go.microsoft.com/fwlink/?LinkId=529778) ve bunu OneDrive İş'e veya yerel bir konuma kaydedin.
+- [Perakende Analizi adlı örnek Excel dosyasını indirin](https://go.microsoft.com/fwlink/?LinkId=529778) ve bunu bilgisayarınıza veya OneDrive İş'e kaydedin.
 
 ## <a name="import-the-excel-file"></a>Excel dosyasını içeri aktarma
 Bu rapor oluşturma yöntemi için bir dosya ve boş bir tuval ile başlayacağız. Siz de Perakende Analizi Örneği Excel dosyasıyla takip edebilirsiniz.

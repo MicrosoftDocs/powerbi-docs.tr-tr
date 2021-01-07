@@ -10,12 +10,12 @@ ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f76203e00bb691abe9a4d212c930595d180798d8
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 4b41ea6310cb644aeae92db17f52680734f68803
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999140"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721582"
 ---
 # <a name="create-key-influencers-visualizations"></a>Ana etmenler görselleştirmelerini oluşturma
 
@@ -167,7 +167,7 @@ Başlangıçta, En üst segmentler Power BI’ın bulduğu tüm segmentlere gene
 
 ![En üst segmentler sekmesini seçin](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
 
-Kabarcık seçildiğinde ilgili segmentin detayına gidilir. Örneğin, 1. segmenti seçerseniz, nispeten uzun vadeli müşterilerden oluştuğunu görürsünüz. Bunlar, 29 ayı aşkın bir süredir müşteri olan ve dörtten fazla destek bileti bulunan kişilerdir. Son olarak, bu müşteriler yayımcı değildir. Yani bunlar tüketici veya yöneticidir. 
+Kabarcık seçildiğinde ilgili segmentin ayrıntıları görüntülenir. Örneğin, 1. segmenti seçerseniz, nispeten uzun vadeli müşterilerden oluştuğunu görürsünüz. Bunlar, 29 ayı aşkın bir süredir müşteri olan ve dörtten fazla destek bileti bulunan kişilerdir. Son olarak, bu müşteriler yayımcı değildir. Yani bunlar tüketici veya yöneticidir. 
  
 Bu grupta, müşterilerin %74,3’ü düşük bir puan verdi. Ortalama müşterinin düşük derecelendirme yapma oranı %11,7 olduğuna göre, bu segmentte düşük derecelendirme oranı yüksektir. Bu değer, yüzde 63 puan daha yüksektir. Ayrıca 1. segment verilerin yaklaşık %2,2'sini içerdiğinden nüfusun dikkate alınabilir bir oranını temsil eder. 
 
@@ -260,7 +260,7 @@ Bu analiz fazlasıyla özetlenmiş olduğundan regresyon modelinin verilerde ö�
 
 ![Bu bölümde anlatılan üç sütunu temel alan ev fiyatı görselleştirmesini gösteren ekran görüntüsü.](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
-Önemli etmenler görselleştirmesiyle ölçüleri nasıl analiz edebileceğiniz konusunda daha fazla bilgi edinmek istiyorsanız lütfen aşağıdaki öğreticiyi izleyin.
+Önemli etmenler görselleştirmesiyle ölçüleri nasıl analiz edebileceğiniz konusunda daha fazla bilgi edinmek istiyorsanız lütfen aşağıdaki videoyu izleyin. Power BI'ın doğal bir şekilde verileri gerekçelendirmek ve içgörüleri ortaya çıkarmak amacıyla arka planda ML.NET'i nasıl kullandığını öğrenmek için bkz. [Power BI'ın ML.NET'i kullanarak önemli etmenleri tanımlaması](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi).
 
 <iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -410,3 +410,4 @@ Raporunuzu bir Power BI iş arkadaşınızla paylaşmak için her ikinizin de bi
 ## <a name="next-steps"></a>Sonraki adımlar
 - [Power BI'daki birleşik grafikler](power-bi-visualization-combo-chart.md)
 - [Power BI'daki görselleştirme türleri](power-bi-visualization-types-for-reports-and-q-and-a.md)
+- [Power BI'ın ML.NET'i kullanarak önemli etmenleri tanımlaması](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi)

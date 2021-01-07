@@ -11,12 +11,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3e0d944f8058ddc5dfb64c8f960bd354571bb23c
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 24ad57ca976fa7a7a859b1c0d07523895236787e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999071"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721628"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI harita görselleştirmelerine ilişkin ipuçları ve püf noktaları
 
@@ -88,9 +88,9 @@ Veri kümelerinizde farklı konum verisi düzeyleri bulunuyorsa siz ve iş arkad
 
 Coğrafi hiyerarşilerle ayrıntılandırma yaparken, her bir ayrıntılandırma düğmesinin nasıl çalıştığını ve Bing Haritalar'a hangi verilerin gönderildiğini bilmekte yarar vardır. 
 
-* En sağda bulunan, Ayrıntı Modu ![Ayrıntı modu simgesi](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) adlı ayrıntı düğmesi, bir harita Konumu seçmenize ve her seferde söz konusu konuma ilişkin bir sonraki düzeye gitmenize olanak sağlar. Örneğin, Detaya Git özelliğini etkinleştirir ve North America seçeneğine tıklarsanız hiyerarşideki bir sonraki düzeye (Kuzey Amerika'daki eyaletler) inersiniz. Coğrafi kodlama için, Power BI, yalnızca Kuzey Amerika'ya ilişkin ülke ve eyalet verilerini Bing Haritalar'a gönderir.  
+* En sağda bulunan, Ayrıntı Modu ![Ayrıntı modu simgesi](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) adlı ayrıntı düğmesi, bir harita Konumu seçmenize ve her seferde söz konusu konuma ilişkin bir sonraki düzeye gitmenize olanak sağlar. Örneğin, Detaya git özelliğini etkinleştirir ve North America seçeneğine tıklarsanız hiyerarşideki bir sonraki düzeye (Kuzey Amerika'daki eyaletler) inersiniz. Coğrafi kodlama için, Power BI, yalnızca Kuzey Amerika'ya ilişkin ülke ve eyalet verilerini Bing Haritalar'a gönderir.  
 * Sol tarafta 2 ayrıntılandırma seçeneği daha bulunur. İlk seçenek olan ![ilk detay simgesi](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) tek seferde tüm konumlar için hiyerarşideki bir sonraki düzeye gidilmesini sağlar. Örneğin, ülkelere göz attığınız sırada bir sonraki düzey olan eyaletlere gitmek için bu seçeneği kullandığınızda, Power BI, tüm ülkeler için eyalet verilerini görüntüler. Coğrafi kodlama için, Power BI, tüm konumlara ilişkin eyalet verilerini (ülke verilerini değil) Bing Haritalar'a gönderir. Bu seçenek, hiyerarşinizdeki düzeylerin bir üstlerindeki düzey ile ilgisiz olması durumunda kullanışlıdır. 
-* İkinci seçenek olan ![haritalarda detaya gitme,](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) Detaya Git özelliğine benzer ancak bu seçenek için haritaya tıklamanız gerekmez.  Geçerli düzeyin bağlamı hatırlanarak hiyerarşinin bir sonraki düzeyine genişletilir. Örneğin, ülkelere göz attığınız sırada bu simgeyi seçerseniz hiyerarşideki bir sonraki düzeye (eyaletler) inersiniz. Coğrafi kodlama için, Power BI, coğrafi kodlamayı daha tutarlı bir şekilde gerçekleştirmesini sağlamak üzere, her bir eyalete ve ilgili ülkeye ilişkin verileri Bing Haritalar'a gönderir. Çoğu haritada, doğru konum bilgilerini almak üzere Bing'e mümkün olduğunca fazla bilgi gönderebilmek için bu seçeneği veya en sağdaki Detaya Git seçeneğini kullanırsınız. 
+* İkinci seçenek olan ![haritalarda detaya gitme](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) Detaya git özelliğine benzer ancak bu seçenek için haritaya tıklamanız gerekmez.  Geçerli düzeyin bağlamı hatırlanarak hiyerarşinin bir sonraki düzeyine genişletilir. Örneğin, ülkelere göz attığınız sırada bu simgeyi seçerseniz hiyerarşideki bir sonraki düzeye (eyaletler) inersiniz. Coğrafi kodlama için, Power BI, coğrafi kodlamayı daha tutarlı bir şekilde gerçekleştirmesini sağlamak üzere, her bir eyalete ve ilgili ülkeye ilişkin verileri Bing Haritalar'a gönderir. Çoğu haritada, doğru konum bilgilerini almak üzere Bing'e mümkün olduğunca fazla bilgi gönderebilmek için bu seçeneği veya en sağdaki detaya git seçeneğini kullanırsınız. 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 [Power BI görselleştirmelerinde detaya gitme](../consumer/end-user-drill.md)

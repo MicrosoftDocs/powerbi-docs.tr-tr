@@ -6,17 +6,18 @@ ms.author: mihart
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
+ms.custom: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/21/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7aae0e05c74209e66503612d3c89bb430cb5185
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bf388f28b83ad67fd246d23ba7113e74f0630a0e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414795"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721490"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>Görselleştirmeyi oluşturmak için kullanılan verileri dışa aktarma
 
@@ -105,7 +106,7 @@ Görselde gördükleriniz için verileri dışarı aktarmak istiyorsanız _ *Öz
 
     ![Özetlenmiş veriler, xlsx ve öne çıkarılan Dışarı Aktarma seçenekleriyle Verileri dışarı aktar'ın ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-1. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
+1. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın. Microsoft Teams'de Power BI uygulamasını kullanıyorsanız aynı bilgi istemlerini alamazsınız. Dışarı aktarılan dosyanız yerel İndirilenler klasörünüze kaydedilir. 
 
     ![Excel çıkışının ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
@@ -144,7 +145,7 @@ Görseldeki verileri _*_ve_*_ veri kümesinden ek verileri görmek istiyorsanız
 
     ![Temel verilerin işaretlendiği Verileri dışarı aktar işleminin ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-1. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.
+1. **Dışarı Aktar** seçeneğini belirlediğinizde, tarayıcınız sizi dosyayı kaydetmeye yönlendirir. Kaydedilen dosyayı Excel'de açın.  Microsoft Teams'de Power BI uygulamasını kullanıyorsanız aynı bilgi istemlerini alamazsınız. Dışarı aktarılan dosyanız yerel İndirilenler klasörünüze kaydedilir. 
 
     ![Dışarı aktarılan verilerin görüntülendiği .xlsx dosyasının ekran görüntüsü.](media/power-bi-visualization-export-data/power-bi-excel.png)
     

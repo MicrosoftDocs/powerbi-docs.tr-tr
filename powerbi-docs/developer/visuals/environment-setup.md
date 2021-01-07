@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 09/02/2020
-ms.openlocfilehash: 58ec11935e74131c17dc4c0755598c3c3341e259
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e5b176ac9e8d334b6dec9af70c189d2767bace1c
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418705"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805246"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>Power BI görseli geliştirmek için ortamınızı ayarlama
 
@@ -198,7 +198,7 @@ npm i powerbi-visuals-api --save-dev
 
 ### <a name="optional-verify-that-the-d3-library-is-installed"></a>(İsteğe bağlı) D3 kitaplığının yüklendiğini doğrulama
 
-[Visual Studio Code](https://code.visualstudio.com/) (VS Code), TypeScript uygulaması geliştirmek için ideal tümleşik geliştirme ortamıdır (IDE). Bu bölümde VS Code'u kullanarak Power BI görseli geliştirmek için gerekli olan D3 kitaplığının doğru şekilde yüklenip yüklenmediğini doğrulayacaksınız.
+[Visual Studio Code](https://code.visualstudio.com/) (VS Code), TypeScript uygulaması geliştirmek için ideal tümleşik geliştirme ortamıdır (IDE). Bu bölümde VS Code'u kullanarak Power BI görseli geliştirmek için gerekli olan D3 kitaplığının düzgün şekilde yüklendiğini doğrulayacaksınız.
 
 >[!NOTE]
 >Bu bölümde anlatılan doğrulama sürecinde bir Power BI görseli projesine sahip olduğunuz kabul edilmektedir. Power BI görseli projeniz yoksa [daire kartı projesi oluşturma](develop-circle-card.md#create-a-development-project) yönergelerini izleyerek bir proje oluşturabilirsiniz.

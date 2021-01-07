@@ -63,8 +63,6 @@
               href: power-bi-reports-filters-and-highlighting.md
             - name: Yüksek yoğunluklu çizgi örnekleme
               href: desktop-high-density-sampling.md
-            - name: Soru-Cevap görselleri hakkında
-              href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Erişilebilirlik hakkında
               href: desktop-accessibility-overview.md
             - name: Doğal dil Soru-Cevap
@@ -320,7 +318,7 @@
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: Doğal dil Soru-Cevap
           items:
-            - name: Soru-Cevap görseli
+            - name: Soru-Cevap görseli oluşturma
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Soru-Cevap’a soruları anlamayı öğretme
               href: ../natural-language/q-and-a-tooling-teach-q-and-a.md

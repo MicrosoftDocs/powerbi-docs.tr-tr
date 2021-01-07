@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/01/2020
-ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.date: 12/17/2020
+ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502099"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675591"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -26,8 +26,17 @@ ms.locfileid: "96502099"
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="december-2020"></a>Aralık 2020
-### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Power BI mobil uygulamasına koyu mod ekledik (Android)
+### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>Mobil uygulamalara anomali algılama ekledik
+Rapor oluşturucusu bir rapor görselinde anomali algılamayı ayarladıysa, verilerinizde aykırı verilerin (anomalilerin) neden olduğu beklenmeyen zirveler veya düşüşler olup olmadığını görebilirsiniz. [Daha fazla bilgi edinin!](mobile-reports-in-the-mobile-apps.md#investigate-anomalies-in-time-series-data)
 
+![Anomali algılamanın ekran görüntüsü.](media/mobile-whats-new-in-the-mobile-apps/mobile-anomaly-detection.png)
+
+### <a name="easily-find-your-orgs-endorsed-content"></a>Kuruluşunuzun onaylı içeriğini kolayca bulun
+Power BI hizmetinde [yükseltilmiş veya onaylanmış](../../collaborate-share/service-endorsement-overview.md) içerik artık uygulamada bir rozetle etiketleniyor. Rapor oluşturucuları içeriklerini yükselterek kullanımınıza hazır olduğunu gösterebilir (yükseltilmiş) veya içeriklerini onaylayarak kuruluşunuz tarafından onaylandıklarını belirtebilir (onaylanmış).
+
+![Mobil cihazda rapor bilgilerinde onaylanmış raporun ekran görüntüsü.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-certified-badge.png)
+
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Power BI mobil uygulamasına koyu mod ekledik (Android)
 Android cihazlar için Power BI mobil uygulamasındaki yeni koyu modu deneyin. Koyu modda, içeriğinizi görmenizi kolaylaştırmak amacıyla ekran parlaklığı azaltmış şekilde koyu renkli arka planda açık renkli metin görürsünüz. Uygulama görünüm ayarlarından temalar arasında geçiş yapabilirsiniz. [Daha fazla bilgi](mobile-apps-dark-mode.md)
 
 ![Android için Power BI mobil uygulamasındaki koyu modun ekran görüntüsü.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
@@ -433,7 +442,7 @@ BT yöneticiniz artık bir MDM aracı kullanarak rapor sunucusuna erişmek için
 
 #### <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
 
-Karma Gerçeklik için Power BI uygulaması artık Microsoft Mağazası’nda mevcut. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. İçerik için yeni [Hololens’te Power BI Tanıtımı](https://www.youtube.com/watch?v=J_X_nOFUBss) videosuna bakın veya yeni [Karma Gerçeklik için Power BI uygulaması](mobile-mixed-reality-app.md) ile ilgili makaleyi okuyun.
+Karma Gerçeklik için Power BI uygulaması artık Microsoft Mağazası’nda mevcut. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. İçerik için yeni [HoloLens’te Power BI Tanıtımı](https://www.youtube.com/watch?v=J_X_nOFUBss) videosuna bakın veya yeni [Karma Gerçeklik için Power BI uygulaması](mobile-mixed-reality-app.md) ile ilgili makaleyi okuyun.
 
 
 ### <a name="april-2018"></a>Nisan 2018

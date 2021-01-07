@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.custom: contperfq1
-ms.date: 10/21/2020
-ms.openlocfilehash: c9ae23a88bd557681ca89e541f082a69d449ed8c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: contperf-fy21q1
+ms.date: 12/28/2020
+ms.openlocfilehash: 4bb709e41698bc0dc32341f517593717f64f9b6d
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415025"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805223"
 ---
 # <a name="understand-the-deployment-process"></a>Dağıtım işlemini anlama
 
@@ -149,13 +149,21 @@ Dağıtım sırasında şu veri kümesi özellikleri de kopyalanmaz:
 
 * Onay ayarları
 
-## <a name="incremental-refresh"></a>Artımlı yenileme
+## <a name="supported-dataset-features"></a>Desteklenen veri kümesi özellikleri
+
+Dağıtım işlem hatları birçok Power BI veri kümesi özelliğini destekler. Bu bölümde dağıtım işlem hatları deneyiminizi iyileştirebilecek iki Power BI veri kümesi özelliği listelenir:
+
+* [Artımlı yenileme](#incremental-refresh)
+
+* [Bileşik modeller](#composite-models)
+
+### <a name="incremental-refresh"></a>Artımlı yenileme
 
 Dağıtım işlem hatları, daha düşük tüketimle büyük veri kümelerinin daha hızlı ve güvenilir yenilemeler yapmasına olanak sağlayan [artımlı yenileme](../admin/service-premium-incremental-refresh.md) özelliğini destekler.
 
 Dağıtım işlem hatları sayesinde, hem verileri hem de bölümleri korurken artımlı yenileme ile veri kümesinde güncelleştirmeler yapabilirsiniz. Veri kümesini dağıttığınızda ilke de birlikte kopyalanır.
 
-### <a name="activating-incremental-refresh-in-a-pipeline"></a>İşlem hattında artımlı yenilemeyi etkinleştirme
+#### <a name="activating-incremental-refresh-in-a-pipeline"></a>İşlem hattında artımlı yenilemeyi etkinleştirme
 
 Artımlı yenilemeyi etkinleştirmek için [Power BI Desktop’ta açın](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh) ve sonra veri kümenizi yayımlayın. Yayımladıktan sonra, artımlı yenileme ilkesi işlem hattı genelinde benzerdir ve yalnızca Power BI Desktop’ta yazılabilir.
 
@@ -169,7 +177,7 @@ Artımlı yenilemeyi etkinleştirmek için [Power BI Desktop’ta açın](../adm
 
 4. *Test* aşamasında yaptığınız değişiklikleri gözden geçirin ve bunları doğruladıktan sonra *üretim* aşamasına dağıtın.
 
-### <a name="usage-examples"></a>Kullanım örnekleri
+#### <a name="usage-examples"></a>Kullanım örnekleri
 
 Artımlı yenilemeyi dağıtım işlem hatlarıyla nasıl tümleştirebileceğinizi gösteren birkaç örnek aşağıda verilmiştir.
 
@@ -181,7 +189,7 @@ Artımlı yenilemeyi dağıtım işlem hatlarıyla nasıl tümleştirebileceğin
 
 * Artımlı yenileme kullanan bir veri kümesini, mevcut bir işlem hattının bir parçası olan çalışma alanında yayımlayın.
 
-### <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
+#### <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 
 Artımlı yenileme için, dağıtım işlem hatları yalnızca [gelişmiş veri kümesi meta verilerini](../connect-data/desktop-enhanced-dataset-metadata.md) kullanan veri kümelerini destekler. Power BI Desktop’ın Eylül 2020 sürümünden itibaren, Power BI Desktop ile oluşturulan veya değiştirilen tüm veri kümeleri otomatik olarak gelişmiş veri kümesi meta verilerini uygular.
 
@@ -194,6 +202,24 @@ Artımlı yenilemenin etkin olduğu bir veri kümesi, etkin bir işlem hattında
 * Artımlı yenilemenin etkin olduğu bir tabloda, hesaplanmamış sütunları yeniden adlandırma.
 
 Sütun ekleme, kaldırma ve hesaplanmış bir sütunu yeniden adlandırma gibi diğer değişikliklere izin verilir. Ancak değişiklikler görüntüyü etkiliyorsa değişiklik görünür olmadan önce yenilemeniz gerekir.
+
+### <a name="composite-models"></a>Bileşik modeller
+
+[Bileşik modelleri](../transform-model/desktop-composite-models.md) kullanarak birden çok veri bağlantısı olan bir rapor ayarlayabilirsiniz.
+
+Power BI veri kümesini Azure Analysis Services gibi bir dış veri kümesine bağlamak için bileşik modeller işlevini kullanabilirsiniz. Daha fazla bilgi için bkz. [Power BI veri kümeleri ve Azure Analysis Services için DirectQuery kullanma](../connect-data/desktop-directquery-datasets-azure-analysis-services.md).
+
+Dağıtım işlem hattında bir veri kümesini işlem hattının dışında kalan başka bir Power BI veri kümesine bağlamak için bileşik modelleri kullanabilirsiniz.  
+
+#### <a name="limitations"></a>Sınırlamalar
+
+Aşağıdaki bileşik model bağlantıları desteklenmez:
+
+* Aynı çalışma alanında bulunan veri kümelerini bağlama.
+
+* Ayrı işlem hatlarında bulunan veri kümelerini bağlama.
+
+* Aynı işlem hattında bulunan veri kümelerini bağlama. 
 
 ## <a name="deploying-power-bi-apps"></a>Power BI uygulamalarını dağıtma
 

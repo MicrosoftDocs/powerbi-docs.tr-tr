@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/14/2020
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: 2341306672da4c1923dc5bc97f0d1537604a1a7c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bc8c3147efc9037fef7207f62856f3f9a0b1b5a8
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398718"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97674948"
 ---
 # <a name="collaborate-in-workspaces"></a>Çalışma alanında işbirliği yapma
 
@@ -49,7 +49,7 @@ Görüntüleyici rolüyle *işletme kullanıcısı* olarak yapabileceklerinizin 
 
 ### <a name="workspace-permissions-and-roles"></a>Çalışma alanı izinleri ve rolleri
 
-Dört rolün özellikleri şunlardır: Yöneticiler, Üyeler, Katkıda Bulunanlar ve Görüntüleyiciler. Görüntüleme ve etkileşim dışında bu özelliklerin tamamı için bir Power BI Pro lisansı gerekir.
+Dört rolün özellikleri şunlardır: Yöneticiler, Üyeler, Katkıda Bulunanlar ve Görüntüleyiciler. *Öğeyi görüntüleme ve öğeyle etkileşim kurma* dışında bu özelliklerin hepsi bir Power BI Pro lisansı gerektirir.
 
 [!INCLUDE[power-bi-workspace-roles-table](../includes/power-bi-workspace-roles-table.md)]
 

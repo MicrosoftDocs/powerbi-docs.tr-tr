@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/28/2020
-ms.openlocfilehash: 795b2e7e1b9ef0c705f7240e9a20a5c2da2f81a3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/18/2020
+ms.openlocfilehash: be256a0ed861ae7ebc26fe4e2a74e0d597ef5542
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414933"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699313"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Power BI Rapor Sunucusu’nu Azure Uygulama Ara Sunucusu’yla yapılandırma
 
@@ -260,6 +260,9 @@ Uygulamanızı ayarlamayı bitirmek için **Kullanıcılar ve gruplar** bölüm�
 ### <a name="configure-the-application-registration"></a>Uygulama kaydını yapılandırma
 
 Power BI mobil uygulamasının Power BI Rapor Sunucusu’na bağlanabilmesi ve erişebilmesi için önce bu makalenin başlarındaki [Azure AD Uygulama Ara Sunucusu aracılığıyla yayımlama](#publish-through-azure-ad-application-proxy) bölümünde sizin için otomatik olarak oluşturulmuş olan uygulama kaydını yapılandırmanız gerekir.
+
+> [!NOTE]
+> Power BI mobil uygulamasının onaylı bir istemci uygulaması olmasını gerektiren koşullu erişim ilkeleri kullanıyorsanız, Power BI mobil uygulamasını Power BI Rapor Sunucusu'na bağlamak için Azure AD Uygulama Ara Sunucusu'nu kullanamazsınız.
 
 1. Azure Active Directory **Genel Bakış** sayfasında **Uygulama kayıtları**'nı seçin.
 2. **Tüm uygulamalar** sekmesinde Power BI Rapor Sunucusu için oluşturduğunuz uygulamayı arayın.

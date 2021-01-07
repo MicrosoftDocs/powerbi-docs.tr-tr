@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/4/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 960a3dec2276acba994190e73de671f2b071bc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa15bae7ab94619a9f652aa20da9222e3d4af41
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409735"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721651"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Görselleştirmenin temel alınan verilerini görüntüleme
 
@@ -52,7 +52,7 @@ Power BI görselleştirmeleri, veri kümelerinizdeki veriler kullanılarak oluş
 6. Verileri gizlemek için **Araştır** > **verileri göster** seçimini kaldırın.
 
 ## <a name="using-show-records"></a>Kayıtları göster seçeneğini kullanma
-Ayrıca bir görselleştirmedeki tek bir veri kaydına odaklanıp bu öğenin temel aldığı verilerin de detayına gidebilirsiniz. 
+Ayrıca bir görselleştirmedeki tek bir veri kaydına odaklanıp bu öğenin temelindeki detaylara da gidebilirsiniz. 
 
 1. **Kayıtları görüntüle** seçeneğini kullanmak için, bir görselleştirmeyi seçerek etkin duruma getirin. 
 

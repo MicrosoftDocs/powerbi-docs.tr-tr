@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a2616b5f77a03056de03b213369d55e9b590b1b6
+ms.sourcegitcommit: 7599622381f35a161bfc54726675ed3c9cf13816
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417854"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97827584"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Power BI Desktop’ta tarih tabloları oluşturma
 
@@ -54,10 +54,7 @@ Bir DirectQuery modeli geliştiriyorsanız ve veri kaynağınızda bir tarih tab
 
 ## <a name="generate-with-power-query"></a>Power Query ile oluşturma
 
-Power Query kullanarak bir tarih tablosu oluşturabilirsiniz. Size nasıl yapılacağını gösteren iki blog girişi aşağıda verilmiştir:
-
-- [Creating a Date Dimension with a Power Query Script](https://www.mattmasson.com/2014/02/creating-a-date-dimension-with-a-power-query-script/) (Power Query Betiğiyle Tarih Boyutu Oluşturma) - Matt Masson
-- [Generating A Date Dimension Table In Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) (Power Query’de Tarih Boyutu Tablosu Oluşturma) - Chris Webb
+Power Query kullanarak bir tarih tablosu oluşturabilirsiniz. Daha fazla bilgi için Chris Webb'in blog girdisine bakın: [Power Query'de Tarihi Boyutu Tablosu Oluşturma](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/).
 
 > [!TIP]
 > Kuruluşunuzda zaman için veri ambarı veya başka bir tutarlı tanım yoksa [veri akışı](../transform-model/dataflows/dataflows-introduction-self-service.md) yayımlamak için Power Query’yi kullanmanız faydalı olabilir. Daha sonra, tüm veri modelleyicileri kendi modellerine tarih tablosu eklemek için veri akışına bağlanır. Böylece veri akışı, kuruluşunuzda zaman için tek gerçek kaynak haline gelir.

@@ -1,28 +1,28 @@
 ---
 title: Power BI görselleştirmelerini biçimlendirmeye başlama
-description: Görselleştirme başlığını, arka planı ve açıklamayı özelleştirme
+description: Görselleştirme başlıklarını, arka planlarını, etiketlerini ve göstergelerini özelleştirme
 author: mihart
 ms.author: mihart
 ms.reviewer: mihart
-featuredvideoid: IkJda4O7oGs
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 03/06/2020
+ms.date: 12/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c974161e4cc7d52bf412ea14800bf720a297cd25
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409827"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745151"
 ---
-# <a name="customize-visualization-titles-backgrounds-and-legends"></a>Görselleştirme başlıklarını, arka planlarını ve göstergelerini özelleştirme
+# <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Görselleştirme başlıklarını, arka planlarını, etiketlerini ve göstergelerini özelleştirme
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-Bu öğreticide, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz. Görselleştirmelerinizi özelleştirmeye yönelik çok sayıda seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu **Biçimlendirme** bölmesi keşfetmektir (boya rulosu simgesini seçin). Başlamanıza yardımcı olmak için bu makalede görselleştirme başlığını, göstergesini, arka planını özelleştirme ve tema ekleme işlemleri gösterilir.
+Bu öğreticide, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz. Görselleştirmelerinizi özelleştirmeye yönelik çok sayıda seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu **Biçimlendirme** bölmesi keşfetmektir (boya rulosu simgesini seçin). Başlamanıza yardımcı olmak için bu makalede görselleştirme başlığını, göstergesini, arka planını, etiketini özelleştirme ve tema ekleme işlemleri gösterilir.
 
 Tüm görselleştirmeler özelleştirilemez. Ayrıntılar için görselleştirmelerin [tam listesine](#visualization-types-that-you-can-customize) bakın.
 
@@ -126,6 +126,29 @@ Yaptığınız değişiklikleri kaydedin ve sonraki bölüme geçin.
 
 Yaptığınız tüm değişiklikleri geri almanız gerekirse, **Gösterge** özelleştirme bölmesinin altındaki **Varsayılana dön** seçeneğini belirleyin.
 
+## <a name="customize-total-labels-for-stacked-visuals"></a>Yığılmış görseller için toplam etiketlerini özelleştirme
+Yığılmış görseller veri etiketlerini ve toplam etiketlerini görüntüleyebilir. Yığılmış sütun grafiğinde veri etiketleri sütunun her bölümü için değeri tanımlar. Toplam etiketleri sütunun tamamı için toplam değeri görüntüler. 
+
+Rien'in yığılmış grafiğe toplam etiketlerini eklemesini izleyin ve ardından aşağıdaki adımları izleyerek bu işlemi kendiniz deneyin.
+
+> [!VIDEO https://www.youtube.com/embed/OgjX-pFGgfM]
+
+1. **Genel bakış** rapor sayfasını açın ve **Zincir ve mağaza türüne göre ortalama satış alanı** çubuk grafiğini seçin.
+
+1. **Görselleştirme** sekmesinde ![yığılmış çubuk grafik simgesini](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png) seçerek bu çubuk grafiği yığılmış çubuk grafiğe dönüştürün. Görselin veri etiketlerini koruduğuna dikkat edin. 
+
+    ![Yeni yığılmış çubuk grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-chart.png)
+
+1. **Görselleştirme** sekmesinde, Biçimlendirme bölmesini açmak için boya fırçası simgesini seçin.
+
+1. **Toplam etiketleri** kaydırıcısını **Açık** konumuna getirin. 
+
+    ![Toplam etiketi kaydırıcısının Açık olarak ayarlandığını gösteren ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-totals.png)
+
+1. İsteğe bağlı olarak toplam etiketlerini biçimlendirin. Bu örnekte rengini siyah olarak değiştirdik, yazı tipi boyutunu artırdık ve değerleri **Binler** olarak görüntülemeyi kabul ettik.
+
+    ![Toplam etiketlerini içeren yeni yığılmış çubuk grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
+
 ## <a name="customize-colors-using-a-theme"></a>Tema kullanarak renkleri özelleştirme
 
 Rapor temalarıyla raporunuzun tamamında kurumsal renkler kullanmak, simge kümelerini değiştirmek veya yeni varsayılan görsel biçimlendirmeyi uygulamak gibi tasarım değişiklikleri uygulayabilirsiniz. Rapor teması uyguladığınızda, raporunuzdaki tüm görsellerde seçtiğiniz temanın renkleri ve biçimlendirmesi kullanılır.
@@ -139,32 +162,32 @@ Raporunuza tema uygulamak için menü çubuğundan **Temayı değiştir**'i seç
 
 Görselleştirmelerin ve her biri için kullanılabilir özelleştirme seçeneklerinin bir listesi aşağıda verilmiştir:
 
-| Görselleştirme | Başlık | Arka Plan | Gösterge |
-|:--- |:--- |:--- |:--- |
-| Alan | evet | evet |evet |
-| Çubuk | evet | evet |evet |
-| Kart | evet | evet |yok |
-| Çok Satırlı Kart | evet | evet | yok |
-| Sütun | evet | evet | evet |
-| Birleşik | evet | evet | evet |
-| Halka | evet | evet | evet |
-| Kartogram | evet | evet | evet |
-| Huni | evet | evet | yok |
-| Ölçer | evet | evet | yok |
-| Ana Etmen | evet | evet | yok |
-| KPI | evet | evet | yok |
-| Çizgi | evet | evet | evet |
-| Harita | evet | evet | evet |
-| Matris | evet | evet | yok |
-| Pasta | evet | evet | evet |
-| Soru-Cevap | evet | evet | yok |
-| Dağılım | evet | evet | evet |
-| Şekil | evet | evet | evet |
-| Dilimleyici | evet | evet | yok |
-| Tablo | evet | evet | yok |
-| Metin Kutusu | hayır | evet | yok |
-| Treemap | evet | evet | evet |
-| Şelale | evet | evet | evet |
+| Görselleştirme | Başlık | Arka Plan | Gösterge | Toplam etiketleri
+|:--- |:--- |:--- |:--- |:--- |
+| Alan | evet | evet |evet | evet  |
+| Çubuk | evet | evet |evet | evet |
+| Kart | evet | evet |yok | yok |
+| Çok Satırlı Kart | evet | evet | yok | yok |
+| Sütun | evet | evet | evet |  evet |
+| Birleşik | evet | evet | evet | evet |
+| Halka | evet | evet | evet | yok |
+| Kartogram | evet | evet | evet |yok |
+| Huni | evet | evet | yok |yok |
+| Ölçer | evet | evet | yok |yok |
+| Ana Etmen | evet | evet | yok |yok |
+| KPI | evet | evet | yok |yok |
+| Çizgi | evet | evet | evet |yok |
+| Harita | evet | evet | evet |yok |
+| Matris | evet | evet | yok |evet |
+| Pasta | evet | evet | evet |yok |
+| Soru-Cevap | evet | evet | yok |yok |
+| Dağılım | evet | evet | evet |yok |
+| Şekil | evet | evet | evet |yok |
+| Dilimleyici | evet | evet | yok |yok |
+| Tablo | evet | evet | yok |evet |
+| Metin Kutusu | hayır | evet | yok |yok |
+| Treemap | evet | evet | evet |yok |
+| Şelale | evet | evet | evet |yok |
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

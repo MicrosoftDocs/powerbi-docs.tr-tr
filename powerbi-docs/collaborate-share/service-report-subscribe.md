@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 12/18/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9d9d628ea2d478eb6a09ae8ca53b98837349a224
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 4a8234176dd44fd265ff2d4a6af8e1b5568a642c
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613842"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699303"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -25,10 +25,10 @@ Kendinizi ve iş arkadaşlarınızı, sizin için en önemli rapor sayfalarına,
 - Günlük, haftalık, saatlik veya aylık seçtiyseniz, e-postayı almak istediğiniz saati seçme.
 - Her Power BI raporu veya panosu için 24 farklı abonelik ayarlama.  Sayfalandırılmış raporlar için ayarlayabileceğiniz abonelik sayısıyla ilgili bir sınırlama yoktur.
 - Raporun bir resmini ve raporun hizmetteki bağlantısını içeren bir e-posta gönderilmesini sağlama.  Power BI uygulamalarının yüklü olduğu mobil cihazlarda bu bağlantı seçildiğinde rapor veya pano Power BI web sitesinde açılmaz. Bunun yerine Power BI uygulaması başlatılır.
-- Sayfalandırılmış rapora abone olduysanız, tam raporu ekleme.
+- Tam raporun ekini dahil etme.
 - Power BI içeriğiniz Premium kapasitede barındırılıyorsa kiracınızın dışındaki kullanıcılara e-posta gönderme.  Yöneticiler Power BI yönetim merkezindeki mevcut dış paylaşım denetimi ayarlarından yararlanarak kimlerin dış kullanıcılara e-posta abonelikleri gönderme erişimi olacağını denetleyebilir.
 
-![panonun anlık görüntüsünü e-posta ile gönderme](media/service-report-subscribe/power-bi-dashboard-email-new.jpg)
+![panonun anlık görüntüsünü e-posta ile gönderme](media/service-report-subscribe/power-bi-subscriptions-email.png)
 
 ## <a name="requirements"></a>Gereksinimler
 
@@ -54,7 +54,7 @@ Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları iç
 
 1. Aboneliği açıp kapatmak için sarı kaydırıcıyı kullanın. Kaydırıcı **Kapalı** olarak ayarlandığında abonelik silinmez. Aboneliği silmek için çöp kutusu simgesini seçin.
 
-2. E-postanız zaten **Abone ol** kutusundadır. Aboneliğe aynı etki alanındaki başka e-posta adresleri de ekleyebilirsiniz. Rapor veya pano [Premium kapasitede](../admin/service-premium-what-is.md) barındırılıyorsa, sizin etki alanınızda olup olmadıklarına bakılmaksızın tek tek e-posta adreslerini ve grup diğer adlarını abone yapabilirsiniz. Rapor veya pano Premium kapasitede barındırılmıyorsa, başkalarını yine abone yapabilirsiniz ama o kişilerin de Power BI Pro lisansları olmalıdır. Ayrıntılar için aşağıdaki [Önemli noktalar ve sorun giderme](#considerations-and-troubleshooting) bölümüne bakın.
+2. E-posta adresiniz zaten **Abone ol** kutusundadır. Aboneliğe aynı etki alanındaki başka e-posta adresleri de ekleyebilirsiniz. Rapor veya pano [Premium kapasitede](../admin/service-premium-what-is.md) barındırılıyorsa, sizin etki alanınızda olup olmadıklarına bakılmaksızın tek tek e-posta adreslerini ve grup diğer adlarını abone yapabilirsiniz. Rapor veya pano Premium kapasitede barındırılmıyorsa, başkalarını yine abone yapabilirsiniz ama o kişilerin de Power BI Pro lisansları olmalıdır. Ayrıntılar için aşağıdaki [Önemli noktalar ve sorun giderme](#considerations-and-troubleshooting) bölümüne bakın.
 
 3. E-posta iletisinin **Konu** ve **İleti** ayrıntılarını doldurun.
 
@@ -64,16 +64,21 @@ Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları iç
 
 6. Varsayılan olarak, aboneliğinizin başlangıç tarihi aboneliği oluşturduğunuz tarihtir. İsterseniz bir bitiş tarihi belirleyebilirsiniz. Siz bir bitiş tarihi ayarlamazsanız, otomatik olarak başlangıç tarihinden bir yıl sonrası olarak belirlenir. Bu tarihi, aboneliğiniz bitmeden önce gelecekte istediğiniz herhangi bir tarihle değiştirebilirsiniz (en fazla 9999 yıl). Abonelik bitiş tarihine ulaşıldığında, siz yeniden etkinleştirene kadar abonelik durdurulur. Zamanlanan bitiş tarihinden önce, süreyi uzatmayı isteyip istemediğinizi soran bildirimler alırsınız.
 
-    Aşağıdaki ekran görüntüsünde, bir rapora abone olduğunuzda aslında bir rapor _sayfasına_ abone olduğunuzu görebilirsiniz. Bir rapordaki birden çok sayfaya abone olmak için **Başka bir abonelik ekle**’yi seçip farklı bir sayfa seçin.
+    Aşağıdaki ekran görüntüsünde, bir rapora abone olduğunuzda aslında bir rapor _sayfasına_ abone olduğunuzu görebilirsiniz. Raporda birden çok sayfaya abone olmak için **Tam rapor eki**'ni seçebilir veya **Başka bir abonelik ekle**'yi seçerek yeni abonelik ayarlayabilirsiniz.
 
-    ![Abone ol bölmesi](media/service-report-subscribe/power-bi-subscribe-pane.png)
+    ![Abone ol bölmesi](media/service-report-subscribe/power-bi-email.png)
 
 1. (İsteğe bağlı) Power BI’daki içeriğe götüren bir bağlantı eklenip eklenmeyeceğini ve kullanıcılara abone yaptığınız içeriğe erişim verilip verilmeyeceğini seçin.  Bağlantı eklemeyi seçerseniz en iyi deneyimi elde etmek için tüm kullanıcıların rapora erişimi olduğundan emin olun.
-2. **Kaydet ve kapat**’ı seçin. Abone olan kişiler seçtiğiniz sıklıkta ve saatlerde e-postayla pano veya rapor sayfasının anlık görüntüsünü alır. Toplamda rapor veya pano başına en fazla 24 abonelik oluşturabilirsiniz ve her abonelik için benzersiz alıcılar, saatler ve sıklıklar sağlayabilirsiniz. Panonuz veya raporunuz için **Veri Yenilemesinden Sonra** olarak ayarlanan tüm abonelikler, yine de yalnızca zamanlanmış ilk yenilemeden sonra e-posta gönderir.
+
+1. (İsteğe bağlı) Tek bir rapor sayfası yerine _raporun tamamını_ ek olarak dahil etmek isteyip istemediğinizi seçin. PDF'yi veya PowerPoint'i seçin. Ekin boyutu 20 sayfayı aşamaz ve 25 MB'tan küçük olmalıdır. Ek, raporun tüm gizlilik etiketlerine uyar.
+
+1. **Kaydet ve kapat**’ı seçin. Abone olan kişiler seçtiğiniz sıklıkta ve saatlerde e-postayla pano veya rapor sayfasının anlık görüntüsünü alır. Toplamda rapor veya pano başına en fazla 24 abonelik oluşturabilirsiniz ve her abonelik için benzersiz alıcılar, saatler ve sıklıklar sağlayabilirsiniz. Panonuz veya raporunuz için **Veri Yenilemesinden Sonra** olarak ayarlanan tüm abonelikler, yine de yalnızca zamanlanmış ilk yenilemeden sonra e-posta gönderir.
 
     > [!NOTE]
     > Kaydedip kapattıktan sonra aboneliği düzenlerseniz önceli seçimleriniz fark etmeksizin, abone olduğunuz içerik için kullanıcılara erişim verme seçimi etkinleştirilir.
     >
+
+
 
     > [!TIP]
     > Abonelikten e-postayı hemen mi yoksa isteğe bağlı olarak herhangi bir zamanda mı göndermek istiyorsunuz? Göndermek istediğiniz panonun veya raporun abonelikleri için **Şimdi Çalıştır**’ı seçin. Bu abonelik için herkese e-posta gönderildiğine ilişkin bir bildirim görürsünüz. Bu eylemi uygularsanız, Rapor veya pano başına günde 24 zamanlanmış abonelik çalıştırması sınırınızda bu hesaba katılmaz. Temel alınan veri kümesi için bir veri yenilemesi TETİKLEMEZ.
@@ -147,10 +152,8 @@ Power BI yöneticileri aboneliklerle ilgili ayrıntıları görüntülemek için
     - Ek dosyasının boyutunun 25 MB'ın altında olması.
     - Raporun 20 sayfadan az olması. 
     
-    Rapor bu üç koşulu karşılamıyorsa raporların tamamını ekleyebileceğiniz abonelikler oluşturamazsınız. Tam raporların eklenmiş olduğu mevcut abonelikler devre dışı bırakılır ve hatayı açıklayan bir e-posta gönderilir:
+    Rapor bu üç koşulu karşılamıyorsa raporların tamamını ekleyebileceğiniz abonelikler oluşturamazsınız. Tam raporların eklenmiş olduğu mevcut abonelikler devre dışı bırakılır ve hatayı açıklayan bir e-posta gönderilir.
     
-    :::image type="content" source="media/service-report-subscribe/full-report-attachment-error-email.png" alt-text="Tam rapor eki hata e-postası.":::
-
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI hizmetinde sayfalandırılmış raporlar: Kendinizin ve başkalarının abone olmasını sağlama](../consumer/paginated-reports-subscriptions.md)

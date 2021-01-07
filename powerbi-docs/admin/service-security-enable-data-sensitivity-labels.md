@@ -6,14 +6,14 @@ ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 08/10/2020
+ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: eb2afe2e7fa21bc0583185cfc8a160b20f56236c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1732c1b6b8b748c4f3a820b31c4e4fe050a66fcd
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412127"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600335"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Power BI’da duyarlılık etiketlerini etkinleştirme
 
@@ -21,27 +21,37 @@ ms.locfileid: "96412127"
 
 Duyarlılık etiketleri etkinleştirildiğinde:
 
-* Kuruluştaki belirli kullanıcılar ve güvenlik grupları Power BI rapor, pano, veri kümesi ve veri akışlarına [duyarlılık etiketleri uygulayabilir](./service-security-apply-data-sensitivity-labels.md) ve bu etiketleri sınıflandırabilir.
-* Kuruluşun tüm üyeleri bu etiketleri görebilir.
+* Kuruluştaki belirli kullanıcılar ve güvenlik grupları Power BI içeriğine [duyarlılık etiketleri uygulayabilir](./service-security-apply-data-sensitivity-labels.md) ve bu etiketleri sınıflandırabilir. Power BI hizmetinde bu, raporları, panoları, veri kümeleri ve veri akışları anlamına gelir. Power BI Desktop'ta .pbix dosyaları anlamına gelir.
+* Hizmette, kuruluşun tüm üyeleri söz konusu etiketleri görebilir. Desktop'ta, kuruluşun yalnızca etiketlerin yayımlandığı üyeleri bu etiketleri görebilir.
 
 Duyarlılık etiketlerinin etkinleştirilmesi için Azure Information Protection lisansı gerekir. Ayrıntılar için bkz. [Lisanslama ve gereksinimler](#licensing-and-requirements).
+
+>[!NOTE]
+>Kullanıcılar Bilgi Koruması önizleme özelliğini kabul ettikten sonraki ilk 48 saat boyunca **duyarlılık etiketlerinin uygulandığı .pbix dosyalarında sorunlarla karşılaşabilir (örneğin .pbix dosyasını hizmete yayımlarken, hizmetten .pbix dosyasını indirirken)** . Bunlar beklenen sorunlardır ve 48 saat içinde otomatik olarak çözülür.
 
 ## <a name="licensing-and-requirements"></a>Lisanslama ve gereksinimler
 
 * Power BI’da Microsoft Information Protection duyarlılık etiketlerini uygulamak veya görüntülemek için bir Azure Information Protection Premium P1 veya Premium P2 lisansı gerekir. Azure Information Protection tek başına ya da Microsoft lisanslama paketlerinden biri aracılığıyla satın alınabilir. Ayrıntılı bilgi için [Azure Information Protection fiyatlandırmasına](https://azure.microsoft.com/pricing/details/information-protection/) bakın.
 
-* Kullanıcının, Power BI içeriğine etiketler uygulayabilmek için yukarıda bahsedilen Azure Information Protection lisanslarından birine ek olarak Power BI Pro lisansına sahip olması gerekir.
+    >[!NOTE]
+    > Kuruluşunuz Azure Information Protection duyarlılık etiketlerini kullanıyorsa bunların Power BI’da kullanılabilmesi için Microsoft Information Protection Birleşik Etiketleme platformuna geçirilmesi gerekir. [Duyarlılık etiketlerini geçirme hakkında daha fazla bilgi edinin](/azure/information-protection/configure-policy-migrate-labels).
+
+* Kullanıcının, Power BI içeriğine ve dosyalarına etiket uygulayabilmek için yukarıda bahsedilen Azure Information Protection lisanslarından birine ek olarak Power BI Pro lisansına sahip olması gerekir.
 
 * Office uygulamalarının [duyarlılık etiketlerini görüntülemeye ve uygulamaya yönelik kendi lisanslama gereksinimleri]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels ) vardır.
 
 * Kiracınızda duyarlılık etiketlerini etkinleştirmeden önce, ilgili kullanıcılar ve gruplar için duyarlılık etiketlerinin tanımlandığından ve yayımlandığından emin olun. Ayrıntılar için bkz. [Duyarlılık etiketlerini ve ilkelerini oluşturma ve yapılandırma](/microsoft-365/compliance/create-sensitivity-labels).
 
->[!NOTE]
-> Kuruluşunuz Azure Information Protection duyarlılık etiketlerini kullanıyorsa bunların Power BI’da kullanılabilmesi için Microsoft Information Protection Birleşik Etiketleme platformuna geçirilmesi gerekir. [Duyarlılık etiketlerini geçirme hakkında daha fazla bilgi edinin](/azure/information-protection/configure-policy-migrate-labels).
+* Desktop'ta duyarlılık etiketlerini kullanabilmek için Desktop Aralık 2020 ve sonraki sürümleri gerekir.
+
+    >[!NOTE]
+    > Korumalı bir .pbix dosyasını Aralık 2020'den önceki bir Desktop sürümüyle açmayı denerseniz, işlem başarısız olur ve Desktop sürümünüzü yükseltmeniz istenir.
 
 ## <a name="enable-sensitivity-labels"></a>Duyarlılık etiketlerini etkinleştirme
 
-Power BI **Yönetici portalına** gidin, **Kiracı ayarları** bölmesini açın ve **Bilgi koruma** bölümünü bulun.
+Duyarlılık etiketlerinin hem hizmette hem de Desktop'ta kullanılabilmesi için önce kiracıda etkinleştirilmesi gerekir. Bu bölümde etiketlerin kiracı ayarlarında nasıl etkinleştirileceği açıklanır. Desktop ile ilgili diğer önemli noktalar için aşağıdaki [Duyarlılık etiketlerini kuruluşunuz genelinde Desktop'ta devre dışı bırakma](#disable-sensitivity-labels-in-desktop-across-your-org) bölümüne bakın. 
+
+Kiracıda duyarlılık etiketlerini etkinleştirmek için Power BI **Yönetici portalına** gidin, **Kiracı ayarları** bölmesini açın ve **Bilgi koruma** bölümünü bulun.
 
 ![Information Protection bölümünü bulma](media/service-security-enable-data-sensitivity-labels/enable-data-sensitivity-labels-01.png)
 
@@ -60,6 +70,18 @@ Power BI **Yönetici portalına** gidin, **Kiracı ayarları** bölmesini açın
 
 > [!IMPORTANT]
 > Yalnızca varlık üzerinde *oluştur* ve *düzenle* izinlerine sahip olan ve bu bölümde ayarlanmış ilgili güvenlik grubuna dahil olan Power BI Pro kullanıcıları, duyarlılık etiketlerini ayarlayabilir ve düzenleyebilir. Bu gruba dahil olmayan kullanıcılar etiketleri ayarlayamaz veya düzenleyemez.  
+
+## <a name="disable-sensitivity-labels-in-desktop-across-your-org"></a>Duyarlılık etiketlerini kuruluşunuz genelinde Desktop'ta devre dışı bırakma
+
+.Pbix dosyalarının duyarlılık etiketleriyle **çalışmadığından** emin olmak istiyorsanız, Power BI yöneticisi tarafından Power BI'ın kullanıcıların .pbix dosyalarını sınıflandırmasını ve korumasını veya zaten koruma uygulanmış olan dosyaları açmasını engellemesine neden olacak bir grup ilkesi oluşturulabilir. Böyle bir ilke oluşturmak için:
+
+1. [Kayıt Defteri Düzenleyicisi](https://support.microsoft.com/windows/how-to-open-registry-editor-in-windows-10-deab38e6-91d6-e0aa-4b7c-8878d9e07b11)'ni açın.
+
+1. **HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop** anahtarını bulun.
+
+1. valueName **EnableInformationProtection** öğesini bulun ve **false** olarak ayarlayın.
+
+Power BI Desktop'ta duyarlılık etiketlerini kullanmayla ilgili diğer sınırlamalar ve önemli noktalar için bkz. [Duyarlılık etiketine genel bakış](./service-security-sensitivity-label-overview.md#limitations).
 
 ## <a name="troubleshooting"></a>Sorun giderme
 

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 09/30/2020
+ms.date: 12/16/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33065a518f99cf7be6c8ea494088440e7ab45474
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 879c52166d3a4c57c3638466e7f85e6faaccd3c5
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96397959"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600726"
 ---
 # <a name="create-arcgis-maps-in-power-bi"></a>Power BI'da ArcGIS haritaları oluşturma
 
@@ -24,52 +24,52 @@ ms.locfileid: "96397959"
 > [!NOTE]
 > Bu görseller hem Power BI Desktop hem de Power BI hizmetinde oluşturulup görüntülenebilir. Bu makaledeki adımlar ve gösterimler Power BI Desktop’tan alınmıştır.
 
-Bu genel bakış, Power BI için ArcGIS Haritası oluşturan bir kişinin bakış açısından yazılmıştır. Bir _tasarımcı_ bir iş arkadaşıyla Power BI için ArcGIS Haritası paylaştıktan sonra, iş arkadaşı haritayı görüntüleyebilir ve haritayla etkileşim kurabilir ancak değişiklikleri kaydedemez. ArcGIS haritasını görüntüleme hakkında daha fazla bilgi için bkz. [ArcGIS Maps for Power BI'ı keşfetme](https://doc.arcgis.com/en/maps-for-powerbi/use/explore-maps.htm).
+Bu genel bakış Power BI için bir ArcGIS haritası oluşturan kişinin bakış açısından yazılmıştır. _Tasarımcı_ ArcGIS for Power BI haritasını bir iş arkadaşıyla paylaştıktan sonra, iş arkadaşı haritayı görüntüleyebilir ve haritayla etkileşim kurabilir ancak değişiklikleri kaydedemez. ArcGIS haritasını görüntüleme hakkında daha fazla bilgi için bkz. [ArcGIS for Power BI'ı keşfetme](https://doc.arcgis.com/en/power-bi/use/explore-maps.htm).
 
-ArcGIS haritaları ile Power BI birlikte kullanıldığında eşleme deneyimi, haritada belirli noktaları göstermenin ötesinde yepyeni bir boyut kazanıyor. Harika, bilgilendirici harita görselleştirmeleri oluşturmak için altlık haritalar, konum türleri, temalar, sembol stilleri ve başvuru katmanları arasından seçiminizi yapın. Haritalarda yetkilendirmeli veri katmanlarıyla uzamsal çözümlemenin bir arada kullanılması, görselleştirmenizdeki verilerin daha kapsamlı şekilde anlaşılmasını sağlar. Mobil cihazlarda ArcGIS Maps for Power BI haritası oluşturamazsınız ancak haritaları görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz.
+ArcGIS haritaları ile Power BI birlikte kullanıldığında eşleme deneyimi, haritada belirli noktaları göstermenin ötesinde yepyeni bir boyut kazanıyor. Harika, bilgilendirici harita görselleştirmeleri oluşturmak için altlık haritalar, konum türleri, temalar, sembol stilleri ve başvuru katmanları arasından seçiminizi yapın. Haritalarda yetkilendirmeli veri katmanlarıyla uzamsal çözümlemenin bir arada kullanılması, görselleştirmenizdeki verilerin daha kapsamlı şekilde anlaşılmasını sağlar. Mobil cihazlarda ArcGIS for Power BI haritası oluşturamazsınız ancak haritaları görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz.
 
 > [!NOTE]
-> ArcGIS Maps for Power BI şu anda Power BI Rapor Sunucusu için kullanılamaz.
+> ArcGIS for Power BI yalnızca çevrimiçi ortamlarda Power BI Rapor Sunucusu'nu destekler; çevrimdışı ortamda bu desteklenmez.
 
 > [!TIP]
 > GIS, Coğrafi Bilgi Sistemleri anlamına gelir.
 
-Aşağıdaki örnekte, 2016 yılına ait ortanca harcanabilir gelir demografik katmanındaki bölgesel satışların yoğunluk haritası yoluyla gösterilmesi için koyu gri bir tuval kullanılmıştır. Okumaya devam ettikçe fark edeceğiniz üzere, ArcGIS Maps for Power BI kullandığınızda hikayenizi en iyi şekilde anlatabilmeniz için gelişmiş eşleme özelliği, demografik bilgiler ve çok daha ilgili çekici harita görselleştirmeleri elde edersiniz.
+Aşağıdaki örnekte, 2016 yılına ait ortanca harcanabilir gelir demografik katmanındaki bölgesel satışların yoğunluk haritası yoluyla gösterilmesi için koyu gri bir tuval kullanılmıştır. Okumaya devam ettikçe fark edeceğiniz üzere, ArcGIS for Power BI kullandığınızda hikayenizi en iyi şekilde anlatabilmeniz için gelişmiş eşleme özelliği, demografik bilgiler ve çok daha ilgili çekici harita görselleştirmeleri elde edersiniz.
 
 ![ArcGIS açılış görüntüsü](media/power-bi-visualizations-arcgis/arcgis-tutorial-01.png)
 
 > [!TIP]
-> Birçok örneğe göz atmak ve referansları okumak için [**Esri'nin ArcGIS Maps for Power BI sayfasını**](https://www.esri.com/powerbi) ziyaret edin. Ayrıca Esri'nin **[ArcGIS Maps for Power BI çevrimiçi](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm) yardım** sayfasını görüntüleyin.
+> Birçok örneği gözden geçirmek ve referansları okumak için [**Esri'nin ArcGIS for Power BI sayfasını**](https://www.esri.com/powerbi) ziyaret edin. Ayrıca Esri'nin **[ArcGIS Maps for Power BI çevrimiçi](https://doc.arcgis.com/en/power-bi/get-started/about-maps-for-power-bi.htm) yardım** sayfasını görüntüleyin.
 
 ## <a name="user-consent"></a>Kullanıcı onayı
 
-ArcGIS Maps for Power BI, Esri ([https://www.esri.com](https://www.esri.com/)) tarafından sağlanmaktadır. ArcGIS Maps for Power BI kullanımınız Esri'nin [koşullarına](https://go.microsoft.com/fwlink/?LinkID=826322) ve [gizlilik ilkesine](https://go.microsoft.com/fwlink/?LinkID=826323) tabidir. ArcGIS Maps for Power BI görsellerini kullanmak isteyen Power BI kullanıcılarının, onay iletişim kutusunu kabul etmesi gerekir. Bu iletişim kutusu yalnızca ArcGIS Maps for Power BI'ı ilk kez kullandığınızda görüntülenir.
+ArcGIS for Power BI, Esri ([https://www.esri.com](https://www.esri.com/)) tarafından sağlanmaktadır. ArcGIS for Power BI kullanımınız Esri'nin [koşullarına](https://go.microsoft.com/fwlink/?LinkID=826322) ve [gizlilik ilkesine](https://go.microsoft.com/fwlink/?LinkID=826323) tabidir. ArcGIS for Power BI görsellerini kullanmak isteyen Power BI kullanıcılarının, onay iletişim kutusunu kabul etmesi gerekir. Bu iletişim kutusu yalnızca ArcGIS for Power BI'ı ilk kez kullandığınızda görüntülenir.
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Bu öğreticide Power BI Desktop ve PBIX [Perakende Analizi örneği](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır. ArcGIS Maps for Power BI, Power BI hizmeti kullanılarak da oluşturulabilir.
+Bu öğreticide Power BI Desktop ve PBIX [Perakende Analizi örneği](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) kullanılmıştır. ArcGIS for Power BI haritaları Power BI hizmeti kullanılarak da oluşturulabilir.
 
 1. Menü çubuğunun sol üst kısmından **Dosya** > **Rapor aç**'ı seçin.
 2. Yerel makinenizde kayıtlı **Perakende Analizi örneği PBIX dosyasını** bulun.
 3. **Perakende Analizi Örneği](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-01.png)'ni rapor görünümünde** Rapor görünümü simgesi![ açın.
 4. Seçim ![Yeni sayfa ekle simgesini](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-02.png) seçerek rapora yeni bir sayfa ekleyin.
 
-## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>ArcGIS Maps for Power BI harita görselleştirmesi oluşturma
+## <a name="create-an-arcgis-for-power-bi-map-visualization"></a>ArcGIS for Power BI harita görselleştirmesi oluşturma
 
 Rapora harita eklemek için şu adımları izleyin:
 
-1. Görselleştirmeler bölmesinde ArcGIS Maps for Power BI simgesini seçin.
+1. Görselleştirmeler bölmesinde ArcGIS for Power BI simgesini seçin.
 
     ![Görselleştirmeler bölmesindeki ArcGIS haritaları simgesi](media/power-bi-visualizations-arcgis/arcgis-tutorial-02.png)
 
-2. Power BI, rapor tuvaline boş bir şablon ekler. Bu genel bakışta Power BI'da bulunan **Standart** sürümü kullanacağız. Uygun lisanslara sahip geçerli bir ArGIS hesabında oturum açarsanız daha fazla özelliğe erişebilirsiniz. Ayrıntılar için [ArcGIS Maps for Power BI çevrimiçi yardım sayfasını](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm) inceleyin.
+2. Power BI, rapor tuvaline boş bir şablon ekler. Bu genel bakışta Power BI'da bulunan **Standart** sürümü kullanacağız. Uygun lisanslara sahip geçerli bir ArcGIS hesabında oturum açarsanız daha fazla özelliğe erişebilirsiniz. Ayrıntılar için [ArcGIS for Power BI çevrimiçi yardım sayfasını](https://doc.arcgis.com/en/power-bi/get-started/account-types.htm) inceleyin.
 
     ![ArcGIS oturumu açma](media/power-bi-visualizations-arcgis/arcgis-tutorial-03.png)
 
 3. **Alanlar** bölmesindeki veri alanlarından birini **Konum** alanına sürükleyin veya koordinatları uygun **Enlem** ve/veya **Boylam** kutularına sürükleyin. Biz bu örnekte **Store > City** seçeneğini kullanıyoruz.
 
     > [!NOTE]
-    > ArcGIS Maps for Power BI, seçtiğiniz alanların haritada şekil mi yoksa nokta olarak mı en iyi şekilde görüntüleneceğini otomatik olarak algılar. Varsayılan değeri ayarlardan değiştirebilirsiniz (bkz. [ArcGIS Maps for Power BI görselleştirmesini biçimlendirme](#format-the-arcgis-maps-for-power-bi-visualization)).
+    > ArcGIS for Power BI, seçtiğiniz alanların haritada şekil mi yoksa nokta olarak mı en iyi şekilde görüntüleneceğini otomatik olarak algılar. Varsayılan değeri ayarlardan değiştirebilirsiniz (bkz. [ArcGIS for Power BI görselleştirmesini biçimlendirme](#format-the-arcgis-for-power-bi-visualization)).
 
     ![ArcGIS şehir alanı](media/power-bi-visualizations-arcgis/arcgis-tutorial-04.png)
 
@@ -77,29 +77,29 @@ Rapora harita eklemek için şu adımları izleyin:
 
     ![ArcGIS boyut alanı](media/power-bi-visualizations-arcgis/arcgis-tutorial-05.png)
 
-Power BI için ilk ArcGIS Haritanızı oluşturdunuz. Şimdi de temel haritalar, konum türleri, temalar ve daha fazlasını kullanarak haritamızı iyileştirip biçimlendirelim.
+İlk ArcGIS for Power BI haritanızı oluşturdunuz. Şimdi de temel haritalar, konum türleri, temalar ve daha fazlasını kullanarak haritamızı iyileştirip biçimlendirelim.
 
-## <a name="format-the-arcgis-maps-for-power-bi-visualization"></a>ArcGIS Maps for Power BI görselleştirmesini biçimlendirme
+## <a name="format-the-arcgis-for-power-bi-visualization"></a>ArcGIS for Power BI görselleştirmesini biçimlendirme
 
-**ArcGIS Maps for Power BI** biçimlendirme özelliklerine erişmek için:
+**ArcGIS for Power BI** biçimlendirme özelliklerine erişmek için:
 
 1. Görselleştirmeler bölmesinde **Biçim** sekmesine tıklayarak biçimlendirme seçeneklerini açın.
 
     ![Biçim sekmesi](media/power-bi-visualizations-arcgis/arcgis-tutorial-06.png)
 
-    ArcGIS Maps biçimlendirme seçenekleri şunlardır:
+    ArcGIS haritası biçimlendirme seçenekleri şunlardır:
 
     * **Katmanlar:** Katmanlar listesinin (içindekiler listesi) başlığını değiştirin, katmanlar listesini açın veya kapatın, listeyi haritanın üzerine sabitleyin, sabit listenin konumunu tanımlayın. Katmanlar listesi varsayılan olarak açıktır ve genişletilmiş harita araçları ![Harita simgesi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-03.png) ile kullanılabilir.
     * **Harita araçları:** Gezinti araçlarını açın veya kapatın, harita kapsamını geçerli konuma kilitleyin, harita üzerindeki bilgi grafiği kartlarının konumunu tanımlayın. Yakınlaştır ve Uzaklaştır düğmeleri varsayılan olarak kapalıdır.
     * **Konum türü:** Verilerinizin bulunduğu ülkeyi/bölgeyi belirtmek, haritanızdaki konumların doğruluğunu artırmaya yardımcı olur. Verileriniz tek bir ülkeye/bölgeye aitse açılan listeden ilgili ülkeyi/bölgeyi seçin. Verileriniz dünya geneline yayılmış durumdaysa Dünya'yı seçin.
     * **Arama:** Arama işlevini açın veya kapatın, varsayılan raptiye rengini değiştirin. Arama varsayılan olarak açıktır ve genişletilmiş harita araçları ![arama simgesi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-04.png) ile kullanılabilir.
 
-### <a name="edit-an-arcgis-maps-for-power-bi-map"></a>ArcGIS Maps for Power BI haritasını düzenleme
+### <a name="edit-an-arcgis-for-power-bi-map"></a>ArcGIS for Power BI haritasını düzenleme
 
 Harita görselleştirmesi eklediğinizde harita araçları kullanılabilir duruma gelir.
 
 > [!NOTE]
-> Bu öğreticide yalnızca ArcGIS Maps for Power BI'ın **Standart** sürümünde sunulan özellikler ve seçenekler gösterilmektedir. Uygun lisanslara sahip geçerli bir [ArGIS hesabında](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm) oturum açarsanız daha fazla özelliğe erişebilirsiniz.
+> Bu öğreticide yalnızca ArcGIS for Power BI'ın **Standart** sürümünde sunulan özellikler ve seçenekler gösterilmektedir. Uygun lisanslara sahip geçerli bir [ArGIS hesabında](https://doc.arcgis.com/en/power-bi/get-started/account-types.htm) oturum açarsanız daha fazla özelliğe erişebilirsiniz.
 
 Harita araçlarını genişletmek için:
 
@@ -110,7 +110,7 @@ Harita araçlarını genişletmek için:
 Harita araçları genişletilerek kullanılabilir özellikler gösterilir. Her bir özellik seçildiğinde, ayrıntılı seçeneklerin sunulduğu bir görev bölmesi açılır.
 
 > [!TIP]
-> Esri, ArcGIS Maps for Power BI kullanımıyla ilgili [kapsamlı belgeler](https://go.microsoft.com/fwlink/?LinkID=828772) sunar.
+> Esri, ArcGIS for Power BI kullanımıyla ilgili [kapsamlı belgeler](https://go.microsoft.com/fwlink/?LinkID=828772) sunar.
 
 #### <a name="change-the-base-map"></a>Temel haritayı değiştirme
 
@@ -125,11 +125,11 @@ Temel haritayı değiştirmek için şu adımları izleyin:
 
     Harita güncelleştirilir ve yeni temel harita kullanılır.
 
-Daha fazla bilgi için ArcGIS Maps for Power BI çevrimiçi yardım sayfasının [Temel haritayı değiştirme](https://doc.arcgis.com/en/maps-for-powerbi/design/change-the-basemap.htm) bölümünü inceleyin.
+Daha fazla bilgi için ArcGIS for Power BI çevrimiçi yardım sayfasının [Temel haritayı değiştirme](https://doc.arcgis.com/en/power-bi/design/change-the-basemap.htm) bölümünü inceleyin.
 
 #### <a name="show-map-layers"></a>Harita katmanların gösterme
 
-ArcGIS Maps for Power BI'da katmanlar halindeki coğrafi veriler üzerinde çalışırsınız. Katmanlar, haritaları oluşturmak için kullanılan coğrafi verilerden oluşan mantıksal koleksiyonlardır. Katmanlar ayrıca coğrafi analiz için de temel olarak kullanılır.
+ArcGIS for Power BI'da katmanlar halindeki coğrafi veriler üzerinde çalışırsınız. Katmanlar, haritaları oluşturmak için kullanılan coğrafi verilerden oluşan mantıksal koleksiyonlardır. Katmanlar ayrıca coğrafi analiz için de temel olarak kullanılır.
 
 Katmanlar listesini görüntülemek için harita araçlarında **Katmanlar** ![Katmanlar simgesi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-06.png) düğmesine tıklayın.
 
@@ -137,11 +137,11 @@ Katmanlar listesi, haritayı oluşturan tüm katmanları görüntüler. Her katm
 
 ![ArcGIS katmanları düğmesi](media/power-bi-visualizations-arcgis/arcgis-tutorial-09.png)
 
-Daha fazla bilgi için ArcGIS Maps for Power BI çevrimiçi yardım sayfasının [Katmanlarla çalışma](https://doc.arcgis.com/en/maps-for-powerbi/design/work-with-layers.htm) bölümünü inceleyin.
+Daha fazla bilgi için ArcGIS for Power BI çevrimiçi yardım sayfasının [Katmanlarla çalışma](https://doc.arcgis.com/en/power-bi/design/work-with-layers.htm) bölümünü inceleyin.
 
 #### <a name="specify-the-location-type"></a>Konum türünü belirtme
 
-ArcGIS Maps for Power BI, konum verilerini haritaya doğru şekilde yerleştirmek için güçlü coğrafi teknolojilerinden faydalanır ve öğeleri veri türüne bağlı olarak nokta veya sınır biçiminde oluşturur. Örneğin enlem-boylam koordinatı haritada nokta olarak oluşturulurken eyalet alanı sınır veya çokgen olarak oluşturulur. Konum türünü belirterek konumların oluşturulma şeklini değiştirebilirsiniz.
+ArcGIS for Power BI, konum verilerini haritaya doğru şekilde yerleştirmek için güçlü coğrafi teknolojilerinden faydalanır ve öğeleri veri türüne bağlı olarak nokta veya sınır biçiminde oluşturur. Örneğin enlem-boylam koordinatı haritada nokta olarak oluşturulurken eyalet alanı sınır veya çokgen olarak oluşturulur. Konum türünü belirterek konumların oluşturulma şeklini değiştirebilirsiniz.
 
 Konumların haritanızdaki doğruluğunu artırmak için Konum türü özelliğini kullanın. Bunu hızlıca gerçekleştirmek için görselleştirmenin Biçim bölmesinde bir ülke/bölge seçebilirsiniz (Konum türü kategorisini genişletin ve uygun ülkeyi/bölgeyi seçin). İsterseniz katman seçenekleri bölmesinde yer alan tam kapsamlı Konum türü özelliğini kullanarak daha fazla seçeneğe erişebilirsiniz.
 
@@ -158,11 +158,11 @@ Verilerinizin konum türünü değiştirmek için şu adımları izleyin:
 
     ![Konum türü isteğe bağlı değerleri](media/power-bi-visualizations-arcgis/arcgis-tutorial-11.png)
 
-Daha fazla bilgi için ArcGIS Maps for Power BI çevrimiçi yardım sayfasının [Konum türünü belirtme](https://doc.arcgis.com/en/maps-for-powerbi/design/specify-location-type.htm) bölümünü inceleyin.
+Daha fazla bilgi için ArcGIS for Power BI çevrimiçi yardım sayfasının [Konum türünü belirtme](https://doc.arcgis.com/en/power-bi/design/specify-location-type.htm) bölümünü inceleyin.
 
 #### <a name="customize-the-maps-symbology"></a>Haritanın sembollerini özelleştirme
 
-ArcGIS Maps for Power BI, konumları haritada nasıl oluşturacağını belirlemek için Alanlar bölmesindeki değerleri kullanır. **Semboller** özelliği, varsayılan stili değiştirerek hikayenizi daha iyi anlatmanızı sağlar. Farklı bir harita teması seçebilir ve haritada konumları göstermek için kullanılan sembolleri ve renkleri özelleştirebilirsiniz. Harita görselinin Alanlar bölmesine eklediğiniz değerlere bağlı olarak farklı harita temaları ve stil seçenekleri sunulur.
+ArcGIS for Power BI, konumları haritada nasıl oluşturacağını belirlemek için Alanlar bölmesindeki değerleri kullanır. **Semboller** özelliği, varsayılan stili değiştirerek hikayenizi daha iyi anlatmanızı sağlar. Farklı bir harita teması seçebilir ve haritada konumları göstermek için kullanılan sembolleri ve renkleri özelleştirebilirsiniz. Harita görselinin Alanlar bölmesine eklediğiniz değerlere bağlı olarak farklı harita temaları ve stil seçenekleri sunulur.
 
 Bir katmanın sembollerini değiştirmek için şu adımları izleyin:
 
@@ -184,7 +184,7 @@ Harita temasını değiştirmek için şu adımları izleyin:
 
 2. **Boyut** temasını seçin.
 
-Ayrıntılı bilgi için ArcGIS Maps for Power BI çevrimiçi yardım sayfasının [Harita temasını değiştirme](https://doc.arcgis.com/en/maps-for-powerbi/design/change-the-map-theme.htm) bölümünü inceleyin.
+Ayrıntılı bilgi için ArcGIS for Power BI çevrimiçi yardım sayfasının [Harita temasını değiştirme](https://doc.arcgis.com/en/power-bi/design/change-the-map-theme.htm) bölümünü inceleyin.
 
 ##### <a name="layer-transparency"></a>Katman saydamlığı
 
@@ -214,7 +214,7 @@ Sembol stilini değiştirmek için şu adımları izleyin:
 
 ### <a name="analyze-your-data"></a>Verilerinizi analiz etme
 
-ArcGIS Maps for Power BI, verilerinizdeki desenleri bulmanızı ve harita ile etkileyici bir hikaye anlatmanızı sağlayan birçok farklı araç sunar.
+ArcGIS for Power BI, verilerinizdeki desenleri bulmanızı ve harita ile etkileyici bir hikaye anlatmanızı sağlayan birçok farklı araç sunar.
 
 Analiz özellikleri şunlardır:
 
@@ -226,7 +226,7 @@ Analiz özellikleri şunlardır:
 
 #### <a name="select-locations"></a>Konum seçme
 
-ArcGIS Maps for Power BI, haritadaki konumları seçmenize yardımcı olacak birçok farklı seçim aracı sunar. Görüntülenen araçlar, Katmanlar listesinde seçili olan katman türüne göre değişir.
+ArcGIS for Power BI, haritadaki konumları seçmenize yardımcı olacak birçok farklı seçim aracı sunar. Görüntülenen araçlar, Katmanlar listesinde seçili olan katman türüne göre değişir.
 
 Seçim araçlarını görüntülemek için şu adımları izleyin:
 
@@ -243,7 +243,7 @@ Seçim araçlarını görüntülemek için şu adımları izleyin:
     
 2. Haritada bir veya daha fazla konum seçin. Aynı anda en fazla 250 veri noktası seçebilirsiniz.
 
-Daha fazla bilgi için ArcGIS Maps for Power BI çevrimiçi yardım sayfasının [Haritada konum seçme](https://doc.arcgis.com/en/maps-for-powerbi/design/select-features-on-the-map.htm) bölümünü inceleyin.
+Daha fazla bilgi için ArcGIS for Power BI çevrimiçi yardım sayfasının [Haritada konum seçme](https://doc.arcgis.com/en/power-bi/design/select-features-on-the-map.htm) bölümünü inceleyin.
 
 #### <a name="pin-a-location"></a>Bir konumu sabitleme
 
@@ -263,9 +263,9 @@ Bir konumu sabitlemek için aşağıdaki adımları izleyin:
 4. Raptiyenin rengini değiştirmek için harita görselinin **Biçim** bölmesinde **Arama** kategorisini genişletin ve yeni bir renk seçin.
 
 > [!NOTE]
-> **Arama** özelliği daha önce ArcGIS Maps for Power BI'da bulunan Raptiyeler özelliğinin yerini almıştır.
+> **Arama** özelliği daha önce ArcGIS for Power BI'da bulunan Raptiyeler özelliğinin yerini almıştır.
 
-Daha fazla bilgi için ArcGIS Maps for Power BI çevrimiçi yardım sayfasının [Bir konumu sabitleme](https://doc.arcgis.com/en/maps-for-powerbi/design/pin-locations.htm) bölümünü inceleyin.
+Daha fazla bilgi için ArcGIS for Power BI çevrimiçi yardım sayfasının [Bir konumu sabitleme](https://doc.arcgis.com/en/power-bi/design/pin-locations.htm) bölümünü inceleyin.
 
 #### <a name="add-a-reference-layer"></a>Başvuru katmanı ekleme
 
@@ -273,7 +273,7 @@ Başvuru katmanları, harita üzerinde görüntülediğiniz Power BI verileri i�
 
 ##### <a name="add-a-demographic-layer"></a>Demografik bilgi katmanı ekleme
 
-ArcGIS Maps for Power BI Standart sürümü, ABD demografik bilgilerine ilişkin katmanlar sunarak Power BI'daki verilerin bağlama göre ele alınmasına yardımcı olur.
+ArcGIS for Power BI Standart sürümü, ABD demografik bilgilerine ilişkin katmanlar sunarak Power BI'daki verilerin bağlama göre ele alınmasına yardımcı olur.
 
 Demografik bilgi katmanı eklemek için şu adımları izleyin:
 
@@ -290,11 +290,11 @@ Demografik bilgi katmanı eklemek için şu adımları izleyin:
     
     ![Demografik bilgi katmanı](media/power-bi-visualizations-arcgis/arcgis-tutorial-14.png)
     
-Demografik başvuru katmanları etkileşimlidir. Bir alana tıkladığınızda daha fazla bilgi içeren bir araç ipucu görüntülenir. Ayrıca **Başvuru seçimi** aracını kullanarak başvuru katmanındaki bir alanın içinde yer alan [harita alanlarını da seçebilirsiniz](https://doc.arcgis.com/en/maps-for-powerbi/design/select-features-on-the-map.htm).
+Demografik başvuru katmanları etkileşimlidir. Bir alana tıkladığınızda daha fazla bilgi içeren bir araç ipucu görüntülenir. Ayrıca **Başvuru seçimi** aracını kullanarak başvuru katmanındaki bir alanın içinde yer alan [harita alanlarını da seçebilirsiniz](https://doc.arcgis.com/en/power-bi/design/select-features-on-the-map.htm).
 
 ##### <a name="add-a-reference-layer-from-arcgis"></a>ArcGIS'ten başvuru katmanı ekleme
 
-ArcGIS Maps for Power BI ile ArcGIS üzerinde bulunan ve herkese açık olarak paylaşılan özellik katmanları arasında arama yapabilirsiniz. Bu sayede veri katmanınızdaki konumların etrafındaki alanlarla ilgili binlerce başvuru katmanına erişebilirsiniz. Geçerli bir ArcGIS hesabıyla ArcGIS Maps for Power BI oturumu açtıktan sonra kuruluşunuzda, kuruluşunuzun gruplarında veya herkese açık içerik arasında arama yapabilirsiniz. Bu örnekte Standart hesap kullandığınız için arama sonuçlarında yalnızca herkese açık içerik görüntülenir.
+ArcGIS for Power BI ile ArcGIS üzerinde bulunan ve herkese açık olarak paylaşılan özellik katmanları arasında arama yapabilirsiniz. Bu sayede veri katmanınızdaki konumların etrafındaki alanlarla ilgili binlerce başvuru katmanına erişebilirsiniz. Geçerli bir ArcGIS hesabıyla ArcGIS for Power BI oturumu açtıktan sonra kuruluşunuzda, kuruluşunuzun gruplarında veya herkese açık içerik arasında arama yapabilirsiniz. Bu örnekte Standart hesap kullandığınız için arama sonuçlarında yalnızca herkese açık içerik görüntülenir.
 
 ArcGIS başvuru katmanı eklemek için şu adımları izleyin:
 
@@ -310,7 +310,7 @@ ArcGIS başvuru katmanı eklemek için şu adımları izleyin:
     
     ![Referans katmanı](media/power-bi-visualizations-arcgis/arcgis-tutorial-15.png)
     
-ArcGIS başvuru katmanları etkileşimlidir. Bir alana tıkladığınızda daha fazla bilgi içeren bir araç ipucu görüntülenir. Ayrıca **Başvuru seçimi** aracını kullanarak başvuru katmanındaki bir alanın içinde yer alan [harita alanlarını da seçebilirsiniz](https://doc.arcgis.com/en/maps-for-powerbi/design/select-features-on-the-map.htm).
+ArcGIS başvuru katmanları etkileşimlidir. Bir alana tıkladığınızda daha fazla bilgi içeren bir araç ipucu görüntülenir. Ayrıca **Başvuru seçimi** aracını kullanarak başvuru katmanındaki bir alanın içinde yer alan [harita alanlarını da seçebilirsiniz](https://doc.arcgis.com/en/power-bi/design/select-features-on-the-map.htm).
 
 #### <a name="find-nearby-locations"></a>Yakındaki konumları bulma
 
@@ -340,75 +340,75 @@ Bu örnekte daha önce sabitlediğiniz Pittsburgh International Airport'u başla
 
     Arama alanı içindeki konumlar seçilir. Haritadaki seçilmeyen konumlar daha küçük görünür veya daha saydam hale gelir. Diğer görselleştirmeler, seçilen konumlara göre güncelleştirilir.
 
-Daha fazla bilgi için ArcGIS Maps for Power BI çevrimiçi yardım sayfasının [Yakındaki konumları bulma](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm) bölümünü inceleyin.
+Daha fazla bilgi için ArcGIS for Power BI çevrimiçi yardım sayfasının [Yakındaki konumları bulma](https://doc.arcgis.com/en/power-bi/design/find-nearby-locations.htm) bölümünü inceleyin.
 
 #### <a name="add-infographics-cards"></a>Bilgi grafiği kartı ekleme
 
-Başvuru katmanları gibi bilgi grafiği kartları da haritadaki alanlarla ilgili ek bilgi sağlar. Bilgi grafiği kartları haritanın üzerine uygulanır ve seçili konumun etrafındaki alanla veya geçerli harita kapsamında görüntülenen genel alanla ilgili demografik bilgiler görüntüler. Ayrıntılı bilgi için ArcGIS Maps for Power BI çevrimiçi yardım sayfasının [Bilgi grafiği kartı ekleme](https://doc.arcgis.com/en/maps-for-powerbi/design/add-infographics.htm) bölümünü inceleyin.
+Başvuru katmanları gibi bilgi grafiği kartları da haritadaki alanlarla ilgili ek bilgi sağlar. Bilgi grafiği kartları haritanın üzerine uygulanır ve seçili konumun etrafındaki alanla veya geçerli harita kapsamında görüntülenen genel alanla ilgili demografik bilgiler görüntüler. Ayrıntılı bilgi için ArcGIS for Power BI çevrimiçi yardım sayfasının [Bilgi grafiği kartı ekleme](https://doc.arcgis.com/en/power-bi/design/add-infographics.htm) bölümünü inceleyin.
 
 ### <a name="get-help"></a>Yardım alın
 
-Esri, ArcGIS Maps for Power BI için kapsamlı çevrimiçi belgeler sunar.
+Esri, ArcGIS for Power BI için kapsamlı çevrimiçi belgeler sunar.
 
-Görselleştirmeden ArcGIS Maps for Power BI çevrimiçi yardımına erişmek için şu adımları izleyin:
+Görselleştirmeden ArcGIS for Power BI çevrimiçi yardımına erişmek için şu adımları izleyin:
 
 1. Harita araçlarından **Ayarlar** düğmesine ![ayarlar simgesi](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-15.png) tıklayın.
 
 2. **Ayarlar** bölmesinde **Yardım** düğmesine tıklayın.
 3. Açılan onay penceresinde **Tamam**'a tıklayın.
 
-    ArcGIS Maps for Power BI çevrimiçi yardımı tarayıcıda açılır.
+    ArcGIS for Power BI çevrimiçi yardımı tarayıcıda açılır.
     
-    - ArcGIS Maps for Power BI çevrimiçi yardım sayfasında [sık sorulan soruların](https://doc.arcgis.com/en/maps-for-powerbi/get-started/pbi-faq.htm#anchor5) yanıtlarını bulabilirsiniz.
-    - Power BI [topluluğunun **ArcGIS Maps for Power BI**'a yönelik tartışma sayfasında](https://go.microsoft.com/fwlink/?LinkID=828771) soru sorabilir, en güncel bilgilere ulaşabilir, sorunları bildirebilir ve sorularınıza cevap bulabilirsiniz.
+    - ArcGIS for Power BI çevrimiçi yardım sayfasında [sık sorulan soruların](https://doc.arcgis.com/en/power-bi/get-started/pbi-faq.htm#anchor5) yanıtlarını bulabilirsiniz.
+    - Power BI [topluluğunun **ArcGIS for Power BI**'a yönelik tartışma sayfasında](https://go.microsoft.com/fwlink/?LinkID=828771) soru sorabilir, en güncel bilgilere ulaşabilir, sorunları bildirebilir ve sorularınıza cevap bulabilirsiniz.
     - İyileştirme önerileriniz varsa lütfen [Power BI Ideas listesinde](https://ideas.powerbi.com/) paylaşın.
     
-### <a name="manage-the-use-of-arcgis-maps-for-power-bi-within-your-organization"></a>Kuruluşunuzda ArcGIS Maps for Power BI kullanımını yönetme
+### <a name="manage-the-use-of-arcgis-for-power-bi-within-your-organization"></a>Kuruluşunuzda ArcGIS for Power BI kullanımını yönetme
 
-Tasarımcılar, Power BI yöneticileri ve kullanıcı yöneticileri, ArcGIS Maps for Power BI hizmetinin kullanımını yönetebilir. Bu rollerin gerçekleştirebileceği eylemler aşağıdaki bölümlerde özetlenmiştir.
+Tasarımcılar, Power BI yöneticileri ve kullanıcı yöneticileri, ArcGIS for Power BI hizmetinin kullanımını yönetebilir. Bu rollerin gerçekleştirebileceği eylemler aşağıdaki bölümlerde özetlenmiştir.
 
 #### <a name="designer-options"></a>Tasarımcı seçenekleri
 
-Power BI Desktop’ta tasarımcılar ArcGIS Maps for Power BI’yı güvenlik sekmesinden devre dışı bırakabilir. **Dosya**  >  **Seçenekler ve ayarlar**’ı ve sonra **Seçenekler**  >  **Güvenlik**’i seçin. ArcGIS Haritaları devre dışı bırakıldığında varsayılan olarak yüklenmez.
+Power BI Desktop’ta tasarımcılar ArcGIS for Power BI’ı güvenlik sekmesinden devre dışı bırakabilir. **Dosya**  >  **Seçenekler ve ayarlar**’ı ve sonra **Seçenekler**  >  **Güvenlik**’i seçin. ArcGIS devre dışı bırakıldığında varsayılan olarak yüklenmez.
 
-![Tasarımcı seçenekleri](media/power-bi-visualizations-arcgis/arcgis-tutorial-17.png)
+![Tasarımcı seçenekleri](media/power-bi-visualizations-arcgis/arcgis-tutorial-17a.png)
 
 #### <a name="administrator-options"></a>Yönetici seçenekleri
 
-Power BI hizmetinde yöneticiler, ArcGIS Maps for Power BI’ı tüm kullanıcılar için kapatabilir. **Ayarlar** > **Yönetim Portalı** > **Kiracı ayarları**’nı seçin. Bu seçenek devre dışı bırakıldığında, Power BI Görsel Öğeler bölmesinde artık ArcGIS Maps for Power BI simgesi gösterilmez.
+Power BI hizmetinde yöneticiler, ArcGIS for Power BI’ı tüm kullanıcılar için kapatabilir. **Ayarlar** > **Yönetim Portalı** > **Kiracı ayarları**’nı seçin. Bu seçenek devre dışı bırakıldığında, Power BI Görsel Öğeler bölmesinde artık ArcGIS for Power BI simgesi gösterilmez.
 
-![Yönetici seçenekleri](media/power-bi-visualizations-arcgis/arcgis-tutorial-18.png)
+![Yönetici seçenekleri](media/power-bi-visualizations-arcgis/arcgis-tutorial-18a.png)
 
 #### <a name="user-administrator-options"></a>Kullanıcı Yöneticisi seçenekleri
 
-Power BI Desktop, bir kuruluşta dağıtılan bilgisayarlar genelinde ArcGIS Maps for Power BI’ı devre dışı bırakmak amacıyla **Grup İlkesi** kullanımını destekler.
+Power BI Desktop, bir kuruluşta dağıtılan bilgisayarlar genelinde ArcGIS for Power BI’ı devre dışı bırakmak amacıyla **Grup İlkesi** kullanımını destekler.
 
 | **Öznitelik** | **Değer** |
 | --- | --- |
 | Anahtar | Software\Policies\Microsoft\Power BI Desktop |
 | valueName | EnableArcGISMaps |
 
-1 (ondalık) değeri, ArcGIS Maps for Power BI'ı etkinleştirir.
+1 (ondalık) değeri, ArcGIS for Power BI'ı etkinleştirir.
 
-0 (ondalık) değeri, ArcGIS Maps for Power BI'ı devre dışı bırakır.
+0 (ondalık) değeri, ArcGIS for Power BI'ı devre dışı bırakır.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-ArcGIS Maps for Power BI aşağıdaki hizmetlerde ve uygulamalarda kullanılabilir:
+ArcGIS for Power BI aşağıdaki hizmetlerde ve uygulamalarda kullanılabilir:
 
 | Hizmet/Uygulama | Kullanılabilirlik |
 | --- | --- |
 | Power BI Desktop | Evet |
 | Power BI hizmeti (powerbi.com) | Evet |
 | Power BI mobil uygulamaları\* | Evet |
-| Power BI - web'de yayımlama | Hayır |
-| Power BI Embedded | Hayır |
+| Power BI - web'de yayımlama | Evet, uygun eklenti lisansına sahip geçerli bir ArcGIS hesabıyla oturum açan tasarımcılar için. Tüketicilerin yayımlanan içeriği görüntülemek için eklenti lisansına ihtiyacı yoktur. |
+| Power BI Embedded | Evet, uygun eklenti lisansına sahip geçerli bir ArcGIS hesabıyla oturum açan tasarımcılar için. Tüketicilerin yayımlanan içeriği görüntülemek için eklenti lisansına ihtiyacı yoktur. |
 | Power BI hizmeti - ekleme (powerbi.com) | Hayır |
-| Power BI Rapor Sunucusu | Hayır |
+| Power BI Rapor Sunucusu | Evet, yalnızca çevrimiçi ortamlarda; bağlantısız ortamlarda desteklenmez. |
 
-\*Mobil ortamlarda Power BI içinde bulunan ve ArcGIS Maps for Power BI görselleştirmesi kullanılarak oluşturulan haritaları görüntüleyebilirsiniz ([Standart hesap](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm)). Premium ArcGIS içeriğine sahip olan haritalar mobil ortamlar için desteklenmez.
+\*Mobil ortamlarda Power BI içinde bulunan ve ArcGIS for Power BI görselleştirmesi kullanılarak oluşturulan haritaları görüntüleyebilirsiniz ([Standart hesap](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm)). Premium ArcGIS içeriğine sahip olan haritalar mobil ortamlar için desteklenmez.
 
-ArcGIS Maps for Power BI'ın kullanılamadığı hizmet veya uygulamalarda ilgili görselleştirme, Power BI logosu içeren boş bir görsel olarak gösterilir.
+ArcGIS for Power BI'ın kullanılamadığı hizmet veya uygulamalarda ilgili görselleştirme, Power BI logosu içeren boş bir görsel olarak gösterilir.
 
 Aşağıdaki tabloda tüm Power BI kullanıcılarına sunulan standart özelliklerle oturum açmış olan ArcGIS kullanıcılarına sunulan özellikler karşılaştırılmıştır:
 
@@ -429,6 +429,6 @@ Aşağıdaki tabloda tüm Power BI kullanıcılarına sunulan standart özellikl
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-- [Sizinle paylaşılan bir ArcGIS haritasıyla etkileşim kurma](https://doc.arcgis.com/en/maps-for-powerbi/use/explore-maps.htm)
-- [ArcGIS Maps for Power BI güncelleştirmelerinin duyurulduğu blog gönderileri](https://www.esri.com/arcgis-blog/?s=#ArcGIS%20Maps%20for%20Power%20BI)
+- [Sizinle paylaşılan bir ArcGIS haritasıyla etkileşim kurma](https://doc.arcgis.com/en/power-bi/use/explore-maps.htm)
+- [ArcGIS for Power BI güncelleştirmelerinin duyurulduğu blog gönderileri](https://www.esri.com/arcgis-blog/?s=#ArcGIS%20for%20Power%20BI)
 - Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

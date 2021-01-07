@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 07/30/2020
+ms.date: 12/14/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a3ee3ac5cd23942878395f942a32dbe573cb0798
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388874"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721605"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Öğretici: Excel çalışma kitabından Power BI hizmetindeki bir rapora ve Microsoft Teams'e
-Yöneticiniz gün sonuna kadar en son satış ve kâr rakamlarınızı içeren bir rapor görmek istiyor. Ama en yeni verileriniz çeşitli üçüncü taraf sistemlerinde ve dizüstü bilgisayarınızdaki dosyalarda bulunur. Daha önce, görseller oluşturmak ve bir raporu biçimlendirmek saatler sürüyor ve sonunda endişelenmeye başlıyordunuz.
+Yöneticiniz gün sonuna kadar en son satış ve kâr rakamlarınızı içeren bir rapor görmek istiyor. Ama en son veriler dizüstü bilgisayarınızdaki dosyalarda duruyor. Daha önce, raporu oluşturmak saatler sürüyordu ve sonunda endişelenmeye başlıyordunuz.
 
 Endişelenmeyin. Power BI ile büyüleyici bir rapor oluşturabilir ve bunu hiç zaman harcamadan Microsoft Teams'de paylaşabilirsiniz!
 
@@ -32,6 +32,11 @@ Bu öğreticide, bir Excel dosyasını karşıya yükleyecek, yeni bir rapor olu
 > * Rapor görsellerini panoya sabitleme.
 > * Panoya bir bağlantı paylaşma.
 > * Panoyu Microsoft Teams'de paylaşma
+
+## <a name="prerequisites"></a>Önkoşullar
+- [Power BI hizmetine kaydolma](../fundamentals/service-self-service-signup-for-power-bi.md). 
+- [Finansal Örnek çalışma kitabını](https://go.microsoft.com/fwlink/?LinkID=521962) indirin ve bunu bilgisayarınıza veya OneDrive İş'e kaydedin.
+
 
 ## <a name="prepare-data-in-excel"></a>Excel’de verileri hazırlama
 Örnek olarak basit bir Excel dosyasını ele alalım. 
@@ -49,10 +54,7 @@ Bu öğreticide, bir Excel dosyasını karşıya yükleyecek, yeni bir rapor olu
    ![Tablo olarak biçimlendirilmiş verilerin ekran görüntüsü.](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-to-the-power-bi-service"></a>Excel dosyanızı Power BI hizmetine yükleme
-Power BI hizmeti, bilgisayarınızda bulunan Excel dosyaları da dahil olmak üzere birçok veri kaynağına bağlanır. 
-
- > [!NOTE] 
- > Bu öğreticinin kalan kısmında birlikte ilerleyebilmemiz için [Financial Sample çalışma kitabını](https://go.microsoft.com/fwlink/?LinkID=521962) indirin.
+Power BI hizmeti, bilgisayarınızda bulunan Excel dosyaları da dahil olmak üzere birçok veri kaynağına bağlanır.
 
 1. Çalışmaya başlamak için Power BI hizmetinde oturum açın. Henüz kaydınız yoksa [ücretsiz kaydolabilirsiniz](https://powerbi.com).
 1. **Çalışma alanım**'da **Yeni** > **Karşıya dosya yükle**'yi seçin.
@@ -190,9 +192,9 @@ Artık panonuzu yöneticinizle paylaşmanın zamanı geldi. Panonuzu ve bağlant
 
 Ayrıca Microsoft Teams'de raporları ve panoları doğrudan iş arkadaşlarınızla paylaşabilirsiniz.
 
-1. Teams'de paylaşmak için panonun üst kısmında bulunan **Teams'de Paylaş**'ı seçin.
+1. Teams'de paylaşmak için panonun üst kısmında bulunan **Teams'de Sohbet**'i seçin.
 
-   ![Teams'de Paylaş seçeneğinin ekran görüntüsü.](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
+   ![Teams'de Sohbet seçeneğinin ekran görüntüsü.](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
 
 2. Power BI **Teams'de paylaş** iletişim kutusunu görüntüler. Bir kişinin, grubun veya kanalın adını girin ve **Paylaş**'ı seçin. 
    

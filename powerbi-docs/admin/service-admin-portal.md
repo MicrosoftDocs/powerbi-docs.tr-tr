@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 12/18/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: 2e89dc43f467aec8edcefaa4ecdbd2fc6cbf6dea
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578188"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699534"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
-Yönetici portalı, kuruluşunuz için Power BI ayarlarını yönetmenize olanak sağlar. Portalda kullanım ölçümleri, Microsoft 365 yönetim merkezine erişim ve kiracı ayarları gibi öğeler bulunur.
+Yönetici portalı, kuruluşunuz için Power BI ayarlarını yönetmenize olanak sağlar. Portal; kullanım ölçümleri, Microsoft 365 yönetim merkezine erişim ve tüm kullanıcılarınız için Power BI'ı yöneten ayarlar gibi öğeleri içerir.
 
 Tam yönetici portalına, genel yöneticiler ve Power BI hizmet yöneticisi rolüne sahip kullanıcılar tarafından erişilebilir. Bu rollerden birinde değilseniz portalda yalnızca **Kapasite ayarlarını** görürsünüz. Power BI hizmet yöneticisi rolü ile ilgili daha fazla bilgi için bkz. [Power BI yönetici rolünü anlama](service-admin-role.md).
 
@@ -31,14 +31,15 @@ Power BI yönetici portalına erişmek için genel yönetici veya Power BI hizme
 
 1. Sayfa üst bilgisinde, **Ayarlar** > **Yönetici portalı** seçeneğini belirleyin.
 
-    ![Yönetici portalı ayarları](media/service-admin-portal/powerbi-admin-settings.png)
+   :::image type="content" source="media/service-admin-portal/settings-portal.png" alt-text="Yönetici portalının seçilin olduğu Ayarlar menüsü.":::
 
 Yönetici portalında birkaç bölüm vardır. Bu makalenin kalan kısmında bu bölümlerin her biriyle ilgili bilgiler sağlanır.
 
-![Yönetici portalı gezintisi](media/service-admin-portal/powerbi-admin-landing-page.png)
+   :::image type="content" source="media/service-admin-portal/portal-menu.png" alt-text="Yönetici portalı menüsü.":::
 
 * [Kullanım ölçümleri](#usage-metrics)
 * [Kullanıcılar](#users)
+* [Kullanıcı başına Premium (önizleme)](#premium-per-user-preview)
 * [Denetim günlükleri](#audit-logs)
 * [Kiracı ayarları](#tenant-settings)
 * [Kapasite ayarları](#capacity-settings)
@@ -125,6 +126,14 @@ Mevcut kullanım ve kullanıcı başına ölçümleri içeriğini silme işlemi 
 Power BI kullanıcılarını, gruplarını ve yöneticilerini Microsoft 365 yönetim merkezinde yönetirsiniz. **Kullanıcılar** sekmesi, yönetim merkezine bağlantı sağlar.
 
 ![Microsoft 365 yönetim merkezine gidin](media/service-admin-portal/powerbi-admin-manage-users.png)
+
+## <a name="premium-per-user-preview"></a>Kullanıcı başına Premium (önizleme)
+
+Kullanıcı başına Premium, Premium özelliklerini kullanıcı başına lisanslamaya yönelik yeni bir yöntemdir. Bu özellik şu anda önizleme sürümündedir. En az bir kullanıcıya kullanıcı başına Premium lisansı atandıktan sonra, ilişkili özellikler herhangi bir çalışma alanında etkinleştirilebilir. Yöneticiler kullanıcılara gösterilen otomatik yenileme ve veri kümesi iş yükü ayarlarını, ayrıca bu ayarların varsayılan değerlerini yönetebilir. Örneğin XMLA Uç Noktasına erişim kapatılabilir, salt okunur olarak veya okuma-yazma olarak ayarlanabilir.
+
+   :::image type="content" source="media/service-admin-portal/premium-per-user-options.png" alt-text="Kullanıcı başına Premium ayarları.":::
+
+Bu lisanslama modeli hakkında daha fazla bilgi edinmek için [Power BI Kullanıcı Başına Premium SSS (önizleme)](service-premium-per-user-faq.md) belgesine bakın.
 
 ## <a name="audit-logs"></a>Denetim günlükleri
 
@@ -432,7 +441,7 @@ Rapor oluşturucular, kullanıcıların [AppSource](https://appsource.microsoft.
 
 ### <a name="allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets"></a>Şirket içi veri kümeleriyle XMLA uç noktalarına ve Excel'de Çözümle özelliğine izin ver
 
-Kuruluştaki kullanıcılar Excel'i kullanarak şirket içi Power BI veri kümelerini görüntüleyebilir ve bunlarla etkileşime geçebilir. Bu ayar ayrıca XMLA uç noktalarıyla bağlantı kurulmasına izin verir. [Daha fazla bilgi edinin](../collaborate-share/service-analyze-in-excel.md)
+Kuruluştaki kullanıcılar Excel'i kullanarak şirket içi Power BI veri kümelerini görüntüleyebilir ve bunlarla etkileşime geçebilir. Bu ayar ayrıca XMLA uç noktalarıyla bağlantı kurulmasına izin verir. [Daha fazla bilgi](../collaborate-share/service-analyze-in-excel.md)
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI kullanma
 
@@ -483,7 +492,7 @@ Kuruluştaki kullanıcılar, pano güvenlik düzeyleri belirten sınıflandırma
 
 ### <a name="web-content-on-dashboard-tiles"></a>Pano kutucuklarında web içeriği
 
-Kuruluştaki kullanıcılar, Power BI panolarındaki web içeriği kutucuklarını ekleyip görüntüleyebilir. [Daha fazla bilgi edinin](../create-reports/service-dashboard-add-widget.md)
+Kuruluştaki kullanıcılar, Power BI panolarındaki web içeriği kutucuklarını ekleyip görüntüleyebilir. [Daha fazla bilgi](../create-reports/service-dashboard-add-widget.md)
 
 > [!NOTE]
 > Bu, kuruluşunuzu kötü amaçlı web içerikleri aracılığıyla güvenlik risklerine açık hale getirebilir.

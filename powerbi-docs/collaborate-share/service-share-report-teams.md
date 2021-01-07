@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 12/14/2020
-ms.openlocfilehash: af1fac127d1a20f13bc99fc2d05510491a01be5a
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: fde06eaa3b2dd44b91e8a47981ac4e9fecba5af3
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492047"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721421"
 ---
 # <a name="chat-in-microsoft-teams-directly-from-the-power-bi-service"></a>Doğrudan Power BI hizmetinden Microsoft Teams'de sohbet
 
@@ -35,11 +35,11 @@ Power BI hizmetindeki raporlar, panolar ve görsellerin bağlantılarını payla
 
    * Pano veya raporun eylem çubuğunda **Teams'de Sohbet**:
 
-       ![Eylem çubuğundaki Teams’de Paylaş düğmesinin ekran görüntüsü.](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
+       ![Eylem çubuğundaki Teams’de Sohbet düğmesinin ekran görüntüsü.](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
     
    * Tek bir görselin bağlam menüsündeki **Teams'de Sohbet**:
     
-      ![Görselin bağlam menüsündeki Teams’de Paylaş düğmesinin ekran görüntüsü.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
+      ![Görselin bağlam menüsündeki Teams’de Sohbet düğmesinin ekran görüntüsü.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
 1. **Microsoft Teams’de Paylaş** iletişim kutusunda, bağlantıyı göndermek istediğiniz takımı veya kanalı seçin. Dilerseniz ileti ekleyebilirsiniz. Önce Microsoft Teams’de oturum açmanız istenebilir.
 

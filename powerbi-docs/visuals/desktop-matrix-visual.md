@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 401d8905c4fe2ca0f27a8f0c58bd756c87a10456
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398143"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721513"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Power BI'da matris görselleştirmesi oluşturma
 
@@ -71,7 +71,7 @@ Matris görseli ile daha önce kullanılabilir olmayan her türlü ilgi çekici 
 
 Görselleştirme bölmesinde, **Alanlar** kutusunun **Satırlar** bölümüne birden çok alan eklediğinizde matris görselinin satırlarında detaya gitme özelliğini etkinleştirmiş olursunuz. Bu, detayına inmenize (ve ardından detaydan çıkmanıza) olanak sağlayacak bir hiyerarşi oluşturup her bir düzeydeki verileri çözümlemeye benzer.
 
-Aşağıdaki görüntüde, **Satırlar** bölümü *Sales stage* ve *Opportunity size* alanlarını içerir ve satırlarda detaylandırabileceğimiz bir gruplandırma (veya hiyerarşi) oluşturur.
+Aşağıdaki resimde, **Satırlar** bölümü *Sales stage* ve *Opportunity size* alanlarını içerir ve satırlarda ayrıntıları görmek için detaylandırabileceğimiz bir gruplandırma (veya hiyerarşi) oluşturur.
 
 ![Hangi satırların seçildiğini gösteren Filtreler kartı](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 
@@ -79,7 +79,7 @@ Görsel, **Satırlar** bölümünde oluşturulmuş bir gruplama içeriyorsa sol 
 
 ![detaylandırma denetimlerinin vurgulandığı matris](media/desktop-matrix-visual/power-bi-matrix-drilldown.png)
 
-Tıpkı diğer görsellerdeki detaya gitme ve genişletme davranışında olduğu gibi bu düğmeler seçildiğinde de hiyerarşide detaya gidebilir veya detaydan çıkabilirsiniz. Bu örnekte, aşağıdaki görüntüde gösterilen şekilde bir düzey detaya git simgesini (yaba) seçerek *Sales stage*'den *Opportunity size*'a gidebiliriz.
+Tıpkı diğer görsellerdeki detaya gitme ve genişletme davranışında olduğu gibi bu düğmeler seçildiğinde de hiyerarşide detaya gidebilir veya detaydan çıkabilirsiniz. Bu örnekte, aşağıdaki görüntüde gösterilen şekilde **bir düzey detaya git** simgesini (yaba) seçerek *Sales stage*'den *Opportunity size*'a gidebiliriz.
 
 ![yaba simgesinin vurgulandığı matris](media/desktop-matrix-visual/power-bi-matrix-drill3.png)
 
