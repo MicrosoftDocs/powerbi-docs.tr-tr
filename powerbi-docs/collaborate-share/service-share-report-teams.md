@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 12/14/2020
-ms.openlocfilehash: fde06eaa3b2dd44b91e8a47981ac4e9fecba5af3
-ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
+ms.date: 01/04/2020
+ms.openlocfilehash: 63ea4772610bd7112823f38c66abced1f0654b77
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97721421"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926941"
 ---
 # <a name="chat-in-microsoft-teams-directly-from-the-power-bi-service"></a>Doğrudan Power BI hizmetinden Microsoft Teams'de sohbet
 
