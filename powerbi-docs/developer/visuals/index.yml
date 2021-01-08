@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: d6673e5a44b315c3c54fca53231efe97a4342fcd
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+  ms.openlocfilehash: 79d5b385bab83d07423184518a00106f660b8d68
+  ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97888248"
+  ms.lasthandoff: 01/07/2021
+  ms.locfileid: "97969409"
 landingContent:
 - title: Kullanmaya başlayın
   linkLists:
@@ -56,4 +56,4 @@ landingContent:
     - text: Örnek Power BI görselleri
       url: https://microsoft.github.io/PowerBI-visuals/samples/
     - text: Git deposu
-      url: https://github.com/Microsoft/PowerBI-visuals
+      url: https://github.com/PowerBi-Projects/PowerBI-visuals
