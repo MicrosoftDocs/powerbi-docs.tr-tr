@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/16/2020
-ms.openlocfilehash: c292e1ccaa03904ee0bfa4825a539430fed71867
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.date: 12/31/2020
+ms.openlocfilehash: 7c1df405c80f50b7b98803b68ae2d3887013a623
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621890"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886201"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -48,6 +48,8 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
             - MHTML işleyicisi, daha yeni HTML DOCTYPE’ı kullanacak şekilde güncelleştirildi.
 
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+   - *Sürüm: 2.86.1321.0 (Ekim 2020), Yayın tarihi: 18 Kasım 2020*
+        - Hata düzeltmeleri
    - *Sürüm: 2.86.961.0 (Ekim 2020), Yayın Tarihi: 27 Ekim 2020* (yeni derleme ve yeni sürüm)
         - Power BI Rapor Sunucusu bağlantısı için gerekli değişiklikleri içerir (Ekim 2020)        
    
