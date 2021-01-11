@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17fc02131f13fe7fe7d8fb17af4380f6a013b9e7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 520a3673d34019c6045988cd5d501e187849a5c6
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413530"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927050"
 ---
 # <a name="enable-content-certification"></a>İçerik onayını etkinleştirme
 
@@ -39,7 +39,7 @@ Bu işlev, Power BI'ın *onay* özelliğinin bir parçasıdır. Daha fazla bilgi
 
 1. İki durumlu düğmeyi **Etkinleştirildi** olarak ayarlayın.
 1. Kuruluşunuz onaylama ilkesi yayımladıysa burada ilkenin URL’sini sağlayın. Bu URL [onay ayarları iletişim kutusunun](../collaborate-share/service-endorse-content.md#request-content-certification) onaylama bölümünde **Daha fazla bilgi edinin** bağlantısına dönüşür. Burada bir bağlantı sağlamazsanız içeriklerinin onaylanmasını isteyen kullanıcılara Power BI yöneticileriyle iletişime geçmeleri önerilir.
-1. Üyeleri içerik onaylama yetkisine sahip olacak bir veya daha fazla güvenlik grubu belirtin. Bu yetkili onaylayıcılar [onay ayarları iletişim kutusunun](../collaborate-share/service-endorse-content.md#certify-content) onaylama bölümündeki Onaylama düğmesini kullanabilir.
+1. Üyeleri içerik onaylama yetkisine sahip olacak bir veya daha fazla güvenlik grubu belirtin. Bu yetkili onaylayıcılar [onay ayarları iletişim kutusunun](../collaborate-share/service-endorse-content.md#certify-content) onaylama bölümündeki Onaylama düğmesini kullanabilir. Bu alan yalnızca güvenlik gruplarını kabul eder. Adlandırılmış kullanıcı giremezsiniz.
     
     Bir güvenlik grubunun altında onay yetkisi vermek istemediğiniz güvenlik grupları varsa **Belirli güvenlik grupları hariç** kutusunu işaretleyip açılan kutuya ilgili grupların adını girebilirsiniz.
 1. **Uygula**'ya tıklayın.

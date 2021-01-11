@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 71ed2610ea77900fe51542b2257f4795f201694f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: aac8eac050a3c864833d16a12016a1cc0ae398b7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394969"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888363"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI hizmetindeki yenilikler
 **Power BI hizmetine** ilişkin bilinen sorunlar ve yeni eklenen özellikler için bu sayfayı ziyaret edin. İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -55,13 +55,13 @@ Ayrıca, "Yenilikler" hakkında bilgiler ve yeni özellikler için YouTube kanal
 * Power BI hizmeti yöneticilerinin kiracılarındaki kullanıcı ve yönetici etkinliklerini izlemesini sağlayan yeni etkinlik günlüğü API’si.
 
 ### <a name="november-2019"></a>Kasım 2019
-* [Power BI Premium'daki büyük modeller] genel önizlemesi (../admin/service-premium-large-models.md].
+* [Power BI Premium'daki büyük modellerin](../admin/service-premium-large-models.md) herkese açık önizlemesi.
 * Power BI’da Microsoft bulut uygulaması güvenlik denetimlerini kullanma özelliğinin genel önizlemesi.
 
 ### <a name="october-2019"></a>Ekim 2019
 * Power BI veri kümelerini yenilemek için yeni Power Automate eylemi.
 * Power BI hizmetinde raporlar ve panolar için [Kişi listesi](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/).
-* [Otomatik Makine Öğrenmesi] özelliğinin genel kullanılabilirliği (../transform-model/service-machine-learning-automated
+* [Otomatik Makine Öğrenmesi](../transform-model/service-machine-learning-automated.md) genel kullanılabilirliği
 * Power BI veri kökeni görünümünün genel önizlemesi.
 
 ### <a name="september-2019"></a>Eylül 2019

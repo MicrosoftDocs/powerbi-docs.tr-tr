@@ -1,6 +1,6 @@
 ---
-title: Performans İpuçları
-description: Yüksek performanslı Power BI görseli oluşturma
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde performans ipuçları
+description: Yüksek performanslı Power BI görseli oluşturma. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c8bcf5e13ba769b976ab123adb3ba37f46b0359e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746091"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885948"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>Yüksek performanslı Power BI görseli oluşturma
 Bu makalede, bir geliştiricinin görselleri işlerken yüksek performans elde edebilmesine yönelik teknikler ele alınır. 

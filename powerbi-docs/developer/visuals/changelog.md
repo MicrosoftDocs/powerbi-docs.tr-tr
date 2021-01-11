@@ -1,6 +1,6 @@
 ---
-title: Power BI görselleri API’si değişiklik günlüğü
-description: Bu makalede Power BI görselleri API'sinin farklı sürümleri arasındaki temel farklar açıklanmaktadır.
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerinde Power BI görselleri API'si değişiklik günlüğü
+description: Bu makalede Power BI görselleri API'sinin değişik sürümleri arasındaki temel farklar anlatılmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 4ed42f8c9c3acf740b68bf6c28aaa201efb0d5ba
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501961"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927118"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI görselleri API’si değişiklik günlüğü
 Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen sürümlerin kararlı sürümler olduğu kabul edilir ve bu sürümler değişmeyecektir.
@@ -26,7 +26,7 @@ Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen 
   * **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)** ’ı destekler
 
 ## <a name="api-v260"></a>API v2.6.0
-  * Güncelleştirme seçeneğine **isInFocus** , görsel konak için de **switchFocusModeState** yöntemi ekler
+  * Güncelleştirme seçeneğine **isInFocus**, görsel konak için de **switchFocusModeState** yöntemi ekler
   * **subtotals** özelleştirmesini destekler
 
 ## <a name="api-v250"></a>API v2.5.0
@@ -43,6 +43,7 @@ Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen 
 ## <a name="api-v220"></a>API v2.2.0
   * **[JSON Filtresini DataView’dan geri yükleme](./filter-api.md#restore-the-json-filter-from-the-data-view)** desteği sunar
   * **[ContextMenu API'si](./context-menu.md)**
+  * **[Detaylandırma](../../create-reports/desktop-drillthrough.md)** özelliğini destekler
 
 ## <a name="api-v210"></a>API v2.1.0
   * Performans iyileştirmeleri:

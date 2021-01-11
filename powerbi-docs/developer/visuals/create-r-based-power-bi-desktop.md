@@ -1,6 +1,6 @@
 ---
-title: 'Öğretici: R destekli Power BI görselleri oluşturma'
-description: Bu öğreticide Power BI Desktop’taki R betik düzenleyicisini kullanarak R tabanlı bir görselin nasıl oluşturulacağı açıklanır.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde R ile çalışan bir Power BI görseli oluşturma
+description: Bu öğreticide Power BI Desktop’taki R betik düzenleyicisini kullanarak R tabanlı bir görselin nasıl oluşturulacağı açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dde18b9945d808cc6b2630bdad4d83768b0e2e8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749334"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889053"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>Öğretici: R destekli Power BI görselleri oluşturma
 
@@ -33,7 +33,7 @@ Bu öğreticide şunların nasıl yapıldığını öğreneceksiniz:
 * **Power BI Pro hesabı**. Başlamadan önce [ücretsiz deneme sürümüne kaydolun](https://powerbi.microsoft.com/pricing/).
 * R altyapısı. R'yi [Revolution Open indirme sayfası](https://mran.revolutionanalytics.com/download/) ve [CRAN Repository](https://cran.r-project.org/bin/windows/base/) de dahil olmak üzere pek çok konumdan ücretsiz olarak indirebilirsiniz. Daha fazla bilgi için bkz. [R kullanarak Power BI görselleri oluşturma ](../../create-reports/desktop-r-visuals.md).
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md).
-* Windows kullanıcıları için [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) sürüm 4 veya üstü YA DA OSX kullanıcıları için [Terminal](https://macpaw.com/how-to/use-terminal-on-mac).
+* Windows kullanıcıları için [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) sürüm 4 veya üstü YA DA OSX kullanıcıları için [Terminal](https://macpaw.com/how-to/use-terminal-on-mac).
 
 ## <a name="getting-started"></a>Başlarken
 

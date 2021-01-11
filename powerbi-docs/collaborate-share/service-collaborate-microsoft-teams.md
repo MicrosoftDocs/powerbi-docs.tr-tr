@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 12/14/2020
-ms.openlocfilehash: 80aa8097ce38a9b1bac228ea61dcc959e4aba60d
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 7c8fa59521be1cfc8bb25fb04c3904f257fb62be
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492024"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926701"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Power BI ile Microsoft Teams’de işbirliği yapma
 
@@ -44,6 +44,14 @@ Bir raporu Microsoft Teams’e eklediğinizde veya bir öğeye bağlantı gönde
 > Power BI hizmetinde, raporu görebilecek olan kullanıcıları belirleyip listede olmayanlara erişim izni vermeyi unutmayın.
 
 Ekipteki herkesin raporlara erişmesini sağlamak için raporları tek bir çalışma alanına yerleştirip ekibinizin Microsoft 365 Grubuna erişim izni verebilirsiniz.
+
+## <a name="share-with-external-users"></a>Dış kullanıcılarla paylaşma
+
+Power BI raporlarını Teams ile tümleştirebilir ve dış kullanıcılarla paylaşabilirsiniz. İzlenmesi gereken adımlar şunlardır.
+
+1.  Dış kullanıcıyı kuruluşa davet edersiniz ve bu kişi davetinizi kabul eder. Ayrıntılar için bkz. [Azure Active Directory B2B'yi kullanarak Power BI içeriğini dış konuk kullanıcılara dağıtma](../guidance/whitepaper-azure-b2b-power-bi.md).
+2.  Rapora dış kullanıcı izni verin. Bireysel izinler atama en iyi sonucu verir.
+3.  Dış kullanıcının kendisine atanmış bir Power BI lisansı olduğundan emin olun. İçerik bir Premium kapasitede ise, kullanıcının yalnızca Ücretsiz bir lisansa ihtiyacı vardır. Değilse, kullanıcı bir [Power BI Pro ücretsiz deneme sürümüne kaydolabilir](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro).
 
 ## <a name="known-issues-and-limitations"></a>Bilinen sorunlar ve sınırlamalar
 

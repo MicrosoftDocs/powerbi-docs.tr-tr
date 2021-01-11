@@ -1,6 +1,6 @@
 ---
-title: Power BI görselleri için sıralama seçenekleri
-description: Bu makalede Power BI görselleri için varsayılan sıralama davranışı açıklanır.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI görselleri için sıralama seçenekleri
+description: Bu makalede Power BI görselleri için varsayılan sıralama davranışı açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 3cb8f5af63960667dc46cab1d818ba48943fd582
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0d24719b486608c283ec73f0188092a1ece3155e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378098"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889260"
 ---
 # <a name="sorting-options-for-power-bi-visuals"></a>Power BI görselleri için sıralama seçenekleri
 
@@ -39,8 +39,8 @@ Sıralama özelliği aşağıdaki parametrelerden birini gerektirir.
 
 `clauses` parametreleri iki parametre ile birkaç nesne içerebilir:
 
-- `role` Sıralama için `DataMapping` nesnesini belirler
-- `direction` Sıralama yönünü belirler (1 = Artan, 2 = Azalan)
+- `role`: Sıralama için `DataMapping` nesnesini belirler
+- `direction`: Sıralama yönünü belirler (1 = Artan, 2 = Azalan)
 
 ```json
     "sorting": {

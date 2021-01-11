@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded Geçiş Aracı
-description: Power BI Embedded Azure hizmetindeki (PaaS) raporlarınızı Power BI hizmetine (SaaS) kopyalamak için bu geçiş aracından faydalanabilirsiniz.
+title: Daha iyi tümleşik BI içgörüleri için, Çalışma Alanı Koleksiyonundan Power BI tümleşik analizleri Power BI Embedded çözümüne Geçiş Aracı
+description: Power BI Embedded Azure hizmetindeki (PaaS) raporlarınızı Power BI hizmetine (SaaS) kopyalamak için bu geçiş aracından faydalanabilirsiniz. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 60e80311ff12da2bc79b7f844c81c7b5c8f4c3ac
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 7156d0e414a4469cb4e0cba5ea5958e02e4e2e43
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354881"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885304"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Power BI Embedded geçiş aracı
 
@@ -272,7 +272,7 @@ Daha fazla bilgi için bkz. [Power BI Embedded çalışma alanı koleksiyon içe
 [Power BI ile ekleme](embedding.md)  
 [Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md)  
 [Power BI Premium nedir?](../../admin/service-premium-what-is.md)  
-[JavaScript API Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
+[JavaScript API'si Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git deposu](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript ekleme örneği](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper)  

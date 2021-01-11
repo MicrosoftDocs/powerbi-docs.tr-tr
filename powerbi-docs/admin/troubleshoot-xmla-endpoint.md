@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 11/16/2020
+ms.date: 01/04/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: ca9dd1b18fb037013e6d1d5c6e6c3510065068b4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 191cf3ce71ca30f257276df78ad43cdb2e49a1e1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413300"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886098"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA uç nokta bağlantı sorunlarını giderme
 
@@ -151,7 +151,7 @@ Executing the query ...
 Error -1052311437:
 ```
 
-Bu, SSMS v18.7.1 ile yüklenen istemci kitaplıkları oturum izlemeyi desteklemediğinden gerçekleşir. Bu, SSMS’nin sonraki bir sürümünde çözümlenecektir.
+Bu, SSMS v18.7.1 ile yüklenen istemci kitaplıkları oturum izlemeyi desteklemediğinden gerçekleşir. Bunun için SSMS 18.8 ve üzeri kullanılmalıdır. [En son SSMS'yi indirin](/sql/ssms/download-sql-server-management-studio-ssms).
 
 ### <a name="refresh-operations"></a>Yenileme işlemleri
 
@@ -168,7 +168,51 @@ Date (UTC): 11/13/2020 7:57:16 PM
 Run complete
 ```
 
-Bunun nedeni, yenileme isteğinin durumunun hatalı bir şekilde izlendiği istemci kitaplıklarındaki bilinen bir sorundan kaynaklanır. Bu, SSMS’nin sonraki bir sürümünde çözümlenecektir.
+Bunun nedeni, yenileme isteğinin durumunun hatalı bir şekilde izlendiği istemci kitaplıklarındaki bilinen bir sorundan kaynaklanır. Bunun için SSMS 18.8 ve üzeri kullanılmalıdır. [En son SSMS'yi indirin](/sql/ssms/download-sql-server-management-studio-ssms).
+
+## <a name="editing-role-memberships-in-ssms"></a>SSMS'de rol üyeliklerini düzenleme
+
+Veri kümesinde rol üyeliğini düzenlemek için SQL Server Management Studio (SSMS) v18.8 kullanılırken, SSMS aşağıdaki hatayı gösterebilir:
+
+```
+Failed to save modifications to the server. 
+Error returned: ‘Metadata change of current operation cannot be resolved, please check the command or try again later.’ 
+```
+
+Bunun nedeni, uygulama hizmetleri REST API'deki bilinen bir sorundur. Bu sorun yakında çıkacak bir sürümde çözülecektir. Bu sırada, bu hata için geçici bir çözüm olarak **Rol Özellikleri**'nde **Betik**'e tıklayın ve ardından aşağıdaki TMSL komutunu girip yürütün:
+
+```json
+{ 
+  "createOrReplace": { 
+    "object": { 
+      "database": "AdventureWorks", 
+      "role": "Role" 
+    }, 
+    "role": { 
+      "name": "Role", 
+      "modelPermission": "read", 
+      "members": [ 
+        { 
+          "memberName": "xxxx", 
+          "identityProvider": "AzureAD" 
+        }, 
+        { 
+          "memberName": “xxxx” 
+          "identityProvider": "AzureAD" 
+        } 
+      ] 
+    } 
+  } 
+} 
+```
+
+## <a name="publish-error---live-connected-dataset"></a>Yayımlama Hatası - Canlı bağlantılı veri kümesi
+
+Analysis Services bağlayıcısından yararlanan canlı bağlantılı bir veri kümesini yeniden yayımlarken aşağıdaki hata gösterilebilir:
+
+:::image type="content" source="media/troubleshoot-xmla-endpoint/couldnt-publish-to-power-bi.png" alt-text="Power BI'da yayımlanamadı hatası.":::
+
+Hata iletisinde belirtildiği gibi, bu sorunu çözmek için mevcut veri kümesini silin ya da yeniden adlandırın. Ayrıca, rapora bağımlı olan uygulamaları yeniden yayımlamayı da unutmayın. Gerekirse sonraki kullanıcıların da en son rapora eriştiklerinden emin olmak için yer işaretlerini yeni rapor adresiyle güncelleştirmeleri yönünde bilgilendirilmeleri gerekir.  
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

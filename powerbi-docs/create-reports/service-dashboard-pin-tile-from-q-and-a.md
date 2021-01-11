@@ -7,25 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 03/02/2018
+ms.date: 01/05/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ec0b384efb4b43afad76e18feb1b5a53d5f3738c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5ae148feaa294c8779a7140ef450c832bd3376d8
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395222"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927166"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Soru-Cevap'tan kutucukları panolara sabitleme
-## <a name="how-to-pin-a-tile-from-qa"></a>Soru-Cevap'tan kutucuk sabitleme
-Soru-Cevap, Power BI'daki özel raporlama aracıdır. Belirli bir öngörüyü bulmanız mı gerekiyor? Verileriniz hakkında soru sorun ve görselleştirme şeklinde yanıt alın.
 
-Bu Nasıl yapılır makalesinde bir panoyu açmak, doğal dil kullanıp soru sorarak görselleştirme oluşturmak ve bu görselleştirmeyi bir panoya sabitlemek için Power BI hizmetini (app.powerbi.com) kullanacağız. Panolar Power BI Desktop'ta kullanılamaz. Soru-Cevap özelliğini diğer Power BI araçları ve içerikleri ile kullanma hakkında bilgi edinmek için bkz. [Power BI Soru-Cevap özelliğine genel bakış](../consumer/end-user-q-and-a.md). 
+Soru-Cevap; verilerinizi doğal bir dil kullanarak keşfetmenizi sağlayan bir Power BI aracıdır. Belirli bir öngörüyü bulmanız mı gerekiyor? Verileriniz hakkında soru sorun ve görselleştirme şeklinde yanıt alın.
+
+Bu nasıl yapılır makalesinde, Power BI hizmetinde (app.powerbi.com) bir [panoyu](../consumer/end-user-dashboards.md) açacak, bir görselleştirme oluşturmak için doğal dille bir soru soracak ve bu görselleştirmeyi panoya sabitleyeceğiz. Panolar Power BI Desktop'ta bulunmaz. Soru-Cevap özelliğini diğer Power BI araçları ve içerikleri ile kullanma hakkında bilgi edinmek için bkz. [Power BI Soru-Cevap özelliğine genel bakış](../consumer/end-user-q-and-a.md). 
 
 Örneği takip etmek için [Retail Analysis sample panosunu](sample-retail-analysis.md) açın.
 
+## <a name="how-to-pin-a-tile-from-qa"></a>Soru-Cevap'tan kutucuk sabitleme
 
-1. Raporlardan sabitlenmiş en az bir kutucuk içeren bir [panoyu](../consumer/end-user-dashboards.md) açın. Soru sorduğunuzda Power BI, ilgili panoya sabitlenmiş kutucuğa sahip olan veri kümelerinde yanıt arar.  Daha fazla bilgi edinmek için bkz. [Veri alma](../connect-data/service-get-data.md).
+1. Raporlardan sabitlenmiş en az bir kutucuk içeren bir panoyu açın. Soru sorduğunuzda Power BI, ilgili panoya sabitlenmiş kutucuğa sahip olan veri kümelerinde yanıt arar.
 2. Panonuzun en üstündeki soru kutusuna verilerinizle ilgili olarak öğrenmek istediklerinizi yazmaya başlayın.  
    ![Soru-Cevap soru kutusu](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Örneğin, "last year sales by month and territory" (aya ve bölgeye göre geçen yılın satışları)...  
@@ -62,5 +63,5 @@ Bu Nasıl yapılır makalesinde bir panoyu açmak, doğal dil kullanıp soru sor
 ## <a name="next-steps"></a>Sonraki adımlar
 [Kutucukla ilgili yeniden adlandırma, yeniden boyutlandırma, köprü ekleme, yeniden konumlandırma ve diğer işlemleri gerçekleştirme](service-dashboard-edit-tile.md)    
 [Pano kutucuğunuzu Odak modunda görüntüleme](../consumer/end-user-focus.md)     
-[Power BI'daki Soru-Cevap özelliği](../consumer/end-user-q-and-a.md)  
+[Power BI'da Soru-Cevap özelliğine genel bakış](../consumer/end-user-q-and-a.md)  
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)

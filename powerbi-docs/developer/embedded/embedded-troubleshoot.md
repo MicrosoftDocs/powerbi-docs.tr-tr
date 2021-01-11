@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded analiz uygulamanızın sorunlarını giderme
-description: Bu makalede, Power BI'dan içerik katıştırma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanmaktadır.
+title: Daha iyi tümleşik BI içgörüleri sağlamak için Power BI tümleşik analiz uygulamanızda sorun giderme
+description: Bu makalede, Power BI'dan içerik katıştırma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: db2ae20436eddc4cb06287b6266488b65588dcb5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098088"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887213"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Ekli uygulamanızla ilgili sorunları giderme
 
@@ -119,7 +119,7 @@ Bu ilkeyi yalnızca uygulama özelinde etkinleştirmenizi öneririz.
 
 Bu ilkeyi oluşturmak için, ilkeyi oluşturduğunuz ve atadığınız dizinin _ *Genel Yönetici** olmanız gerekir. Burada, bu uygulama için ilkeyi oluşturmaya ve SP'ye atamaya yönelik örnek bir betik verilmiştir:
 
-1. [Azure AD Preview PowerShell Modülü](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)'nü yükleyin.
+1. [Azure AD Preview PowerShell Modülü](/powershell/azure/active-directory/install-adv2)'nü yükleyin.
 
 2. Aşağıdaki PowerShell komutlarını satır satır çalıştırın ($sp değişkeninin sonucunda birden çok uygulama olmadığından emin olun).
 

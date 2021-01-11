@@ -1,6 +1,6 @@
 ---
-title: Power BI görsellerinin yetenekleri ve özellikleri
-description: Bu makalede Power BI görsellerinin yetenekleri ve özellikleri açıklanır.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI görsellerinin olanak ve özellikleri
+description: Bu makalede Power BI görsellerinin yetenekleri ve özellikleri açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: e3af800696fd593f092cc46f9a59df2d0a5f94e2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e0fb17053ff8e6d17321994d515d8b69dbe8e22b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380329"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888271"
 ---
 # <a name="capabilities-and-properties-of-power-bi-visuals"></a>Power BI görsellerinin yetenekleri ve özellikleri 
 
@@ -41,9 +41,9 @@ Verilere bağlı olabilecek alanları tanımlamak için `dataRoles` nesnesini ku
 
 * **name**: Bu veri alanının iç adı (benzersiz olmalıdır).
 * **kind**: Alanın türü:
-    * `Grouping` Ölçü alanlarını gruplandırmak için kullanılan farklı değerler.
-    * `Measure` Sayısal veri değerleri.
-    * `GroupingOrMeasure` Gruplandırma veya ölçü olarak kullanılabilecek değerler.
+    * `Grouping`: Ölçü alanlarını gruplandırmak için kullanılan farklı değerler.
+    * `Measure`: Sayısal veri değerleri.
+    * `GroupingOrMeasure`: Gruplandırma veya ölçü olarak kullanılabilecek değerler.
 * **displayName**: **Özellikler** bölmesinde kullanıcıya görüntülenen ad.
 * **description**: Alanın kısa açıklaması (isteğe bağlı).
 * **requiredTypes**: Bu veri rolü için gerekli veri türü. Eşleşmeyen değerler null olarak ayarlanır (isteğe bağlı).

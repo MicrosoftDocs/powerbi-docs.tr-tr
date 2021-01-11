@@ -1,6 +1,6 @@
 ---
-title: Daire kartı görseli örneğini kullanarak kendi Power BI görselinizi geliştirmeyi öğrenin
-description: Bu öğreticide Power BI görseli geliştirme süreci açıklanmaktadır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde daire kartı görselini örnek olarak kullanarak kendi Power BI görselinizi geliştirme hakkında bilgi edinin
+description: Bu öğreticide Power BI görseli geliştirme anlatılmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0bfc36a37dbcc4c595ea467eb3b365c30d4ed781
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418728"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885649"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>Öğretici: Power BI daire kartı görseli geliştirme
 

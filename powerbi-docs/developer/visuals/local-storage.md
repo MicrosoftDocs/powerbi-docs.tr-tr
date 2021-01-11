@@ -1,6 +1,6 @@
 ---
-title: Power BI Görsellerinde Yerel Depolama API'si
-description: Makalede, tarayıcı yerel depolama alanına erişim elde etmek için Power BI Görselleri API'sinin nasıl kullanılacağı açıklanmaktadır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI Görselleri Yerel Depolama Alanı API'si
+description: Makalede yerel depolama alanına göz atmak üzere erişim almak için Power BI Görselleri API'sinin kullanılması anlatılmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 01/21/2019
-ms.openlocfilehash: e2cb11ea9be85916e6b5557e7933f6a6b5a7159a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: abec68c5622d3dcd96746148ed7a6da4f06c8ec0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380606"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888202"
 ---
 # <a name="local-storage-api"></a>Yerel Depolama API’si
 
@@ -60,4 +60,4 @@ export class Visual implements IVisual {
 ## <a name="known-limitations-and-issues"></a>Bilinen sınırlamalar ve sorunlar
 
 Yerel Depolama API’si, Power BI görselleri için varsayılan olarak etkin değildir. Power BI görseliniz için etkinleştirmek isterseniz Power BI görselleri Desteği’ne istek gönderin `pbicvsupport@microsoft.com`.  
-**Görselinizin[AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)'ta kullanılabilir ve [sertifikalı](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/) olması gerektiğini lütfen unutmayın.**
+**Görselinizin [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals)'ta kullanılabilir ve [sertifikalı](https://powerbi.microsoft.com/en-us/documentation/powerbi-custom-visuals-certified/) olması gerektiğini lütfen unutmayın.**

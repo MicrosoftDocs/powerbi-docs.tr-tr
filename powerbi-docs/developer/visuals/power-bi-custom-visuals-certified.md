@@ -1,6 +1,6 @@
 ---
-title: Sertifikalı Power BI görselleri
-description: Sertifika için özel görsel gönderme işlemi ve gereksinimleri, ayrıca sertifikalı Power BI görsellerinin listesi.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde sertifikalı Power BI görselleri
+description: Sertifika için özel görsel gönderme işlemi ve gereksinimleri, ayrıca sertifikalı Power BI görsellerinin listesi. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386721"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888179"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI görseli için sertifika alın
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI görsellerinde araç ipuçları
-description: Bu makalede Power BI görsellerinde araç ipuçlarını nasıl görüntüleyebileceğiniz açıklanır.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI görsellerinde araç ipuçları
+description: Bu makalede Power BI görsellerinde araç ipuçlarını nasıl görüntüleyebileceğiniz açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/09/2020
-ms.openlocfilehash: 60933d1a44cbf83f719c808b658b06009217ff53
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e3f5486faec033b48ba59b7076d5835035458584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239951"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889237"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Power BI görsellerinde araç ipuçları
 
@@ -211,11 +211,11 @@ Rapor sayfası araç ipuçlarını **Biçim** bölmesinde tanımlayabilirsiniz.
 
 ![Rapor sayfası araç ipucu](media/add-tooltips/report-page-tooltips.png)
 
-* `supportedTypes` Görsel tarafından desteklenen ve alanlarda da yansıtılan araç ipucu yapılandırması. 
-   * `default` Veri alanı aracılığıyla "otomatik" araç ipuçları bağlamasının desteklenip desteklenmediğini belirtir. 
-   * `canvas` Rapor sayfası araç ipuçlarının desteklenip desteklenmediğini belirtir.
+* `supportedTypes`: Görsel tarafından desteklenen ve alanlarda da yansıtılan araç ipucu yapılandırması. 
+   * `default`: Veri alanı aracılığıyla "otomatik" araç ipuçları bağlamasının desteklenip desteklenmediğini belirtir. 
+   * `canvas`: Rapor sayfası araç ipuçlarının desteklenip desteklenmediğini belirtir.
 
-* `roles` (İsteğe bağlı) Tanımlandıktan sonra, alanlar kutusunda seçili araç ipucu seçeneğine hangi veri rollerinin bağlı olduğunu bildirir.
+* `roles`: (İsteğe bağlı) Tanımlandıktan sonra, alanlar kutusunda seçili araç ipucu seçeneğine hangi veri rollerinin bağlı olduğunu bildirir.
 
 Daha fazla bilgi için bkz. [Rapor sayfası araç ipuçları kullanım yönergeleri](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips).
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI görsellerinize giriş sayfası ekleme
-description: Bu makalede Power BI görsellerine giriş sayfası ekleme işlemi açıklanır.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerindeki Power BI görsellerinize bir giriş sayfası ekleme
+description: Bu makalede Power BI görsellerine giriş sayfası ekleme işlemi açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 6f1590d5635ed6e55833350027c52379e5d7cf51
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4381ecf63c0864c4d68e48959efc14baa9d4553b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379984"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886362"
 ---
 # <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Power BI görsellerinize giriş sayfası ekleme
 

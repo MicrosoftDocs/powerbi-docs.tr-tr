@@ -1,6 +1,6 @@
 ---
-title: Koşullu biçimlendirme
-description: Power BI görsel projenize koşullu biçimlendirme uygulamayı öğrenin
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerinde koşullu biçimlendirme
+description: Power BI görsel projenize koşullu biçimlendirme uygulamayı öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 10/27/2020
-ms.openlocfilehash: 5243d1eda3fef2c7b82350fb0ca2669eb43c7623
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 13f9dae542b8e0a340a880ab50b2f57c660e0ed9
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513880"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888777"
 ---
 # <a name="add-conditional-formatting"></a>Koşullu biçimlendirme ekleme
 

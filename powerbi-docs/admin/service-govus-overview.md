@@ -1,21 +1,21 @@
 ---
 title: ABD kamu müşterileri için Power BI - Genel Bakış
-description: ABD Kamu müşterileri Microsoft 365 kamu planlarına bir Power BI Pro aboneliği ekleyebilir. Bu hizmet açıklamasında özelliğe kaydolmayı, bağlanmayı ve özellik kullanılabilirliğini gözden geçirmeyi öğrenin.
+description: ABD kamu müşterileri, Microsoft 365 kamu planlarına bir Power BI aboneliği ekleyebilir. Bu hizmet açıklamasında özelliğe kaydolmayı, bağlanmayı ve özellik kullanılabilirliğini gözden geçirmeyi öğrenin.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/17/2020
-ms.custom: licensing support
+ms.date: 01/05/2021
+ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: e8cf03d90165463fd1e59bf4c4394c1da94e995e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9b52e0698f6b9c1ae779bf21738acee30db7447d
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407872"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927084"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -113,9 +113,14 @@ SQL veritabanlarına özgü güvenlik duvarı ayarları için bkz. [IP güvenlik
 
 ## <a name="power-bi-feature-availability"></a>Power BI özellik kullanılabilirliği
 
-Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planlarıyla ticari planlar arasında bazı farklılıklar vardır. Hedefimiz, tüm özellikleri kamu bulutlarında 30 günlük genel kullanılabilirlik süresi içinde kullanılabilir hale getirmektir. Bazı durumlarda temel bağımlılıklar bir özelliği kullanıma sunmamızı engeller.
+Kamu bulutu müşterilerinin gereksinimlerini karşılamak için, kamu planlarıyla ticari planlar arasında bazı farklılıklar vardır. Hedefimiz, tüm özellikleri kamu bulutlarında 30 günlük genel kullanılabilirlik süresi içinde kullanılabilir hale getirmektir. Bazı durumlarda temel bağımlılıklar bir özelliği kullanıma sunmamızı engeller. Aşağıdaki listede henüz bir kamu ortamında bulunmayan ya da sınırlı işlevsellikle kullanılabilen özellikler gösterilmektedir. Liste aşağıdaki anahtarı kullanır:
 
-Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler listelenmiştir. Sürüm planlanıyorsa tahmini kullanılabilirlik zamanı da belirtilmiştir:
+|Anahtar |Description|
+|-----|------|
+|![kullanılabilir](../media/yes.png)|Özellik ortam bulunmaktadır; özel durumlar dipnotlarda tanımlanmıştır.|
+|![kullanılamaz](../media/no.png)| Özellik ortamda bulunmamaktadır ve teslimat için tahmini bir takvim belirlenmemiştir.|
+
+Bir ortam için yayınlama planlanıyorsa, tahmini çıkacağı zaman için yılın çeyreği dahil edilmiştir.
 
 |Öne çıkan özelliği |GCC |GCC High |DoD|
 |------|------|------|------|
@@ -123,18 +128,18 @@ Aşağıdaki tabloda, belirli bir kamu ortamında bulunmayan özellikler listele
 |[Power BI web bölümünü kullanarak SharePoint Online’a ekleme](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![kullanılabilir](../media/yes.png)|![Kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
 |[Veri odaklı uyarılar için Power Automate bağlantısı](../connect-data/power-bi-data-sources.md)|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
 |[Teams’de Power BI sekmesi](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
-|[Büyük modeller](service-premium-large-models.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
-|[Veri akışları - SQL İşlem altyapısı iyileştirmesi](../transform-model/dataflows/dataflows-premium-features.md) | Ç4 2020 |Ç4 2020| ![kullanılamaz](../media/no.png) |
-|[Veri akışları - Doğrudan Sorgu](../transform-model/dataflows/dataflows-configure-consume.md) | Ç4 2020 |Ç4 2020|![kullanılamaz](../media/no.png)|
-|[Veri Koruması (MIP etiketleri)](service-security-sensitivity-label-overview.md)|Ç4 2020|Ç4 2020 |Ç4 2020|
-|[Şablon uygulamaları](../connect-data/service-template-apps-overview.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
-|[Özel Görseller](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|Ç4 2020 |Ç4 2020| Ç4 2020|
-|[Azure Akış Analizi](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| Ç4 2020|Ç4 2020|Ç4 2020|
+|[Büyük modeller](service-premium-large-models.md) | ![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)| ![kullanılamaz](../media/no.png) |
+|[Veri akışları - SQL İşlem altyapısı iyileştirmesi](../transform-model/dataflows/dataflows-premium-features.md) | ![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)| ![kullanılamaz](../media/no.png) |
+|[Veri akışları - Doğrudan Sorgu](../transform-model/dataflows/dataflows-configure-consume.md) | ![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
+|[Veri Koruması (MIP etiketleri)](service-security-sensitivity-label-overview.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)|
+|[Şablon uygulamaları](../connect-data/service-template-apps-overview.md)<sup>3</sup>|![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)| ![kullanılamaz](../media/no.png)|
+|[Özel Görseller](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)| ![kullanılamaz](../media/no.png)|
+|[Azure Akış Analizi](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| ![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[Çağrı Kalitesi Veri Bağlayıcısı](/microsoftteams/cqd-power-bi-connector)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[Kendi Depolama Alanını Getir (Azure Data Lake 2. Nesil)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[QR Kodu oluşturma](../create-reports/service-create-qr-code-for-tile.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 
-<sup>1</sup> B2B İşbirliği GCC için sunulur. Ancak, dış kullanıcıya bu ortamda bir lisans verilmesi gerekir. Ticari bulut lisansları GCC’de geçerli değildir. ABD Kamu için B2B İşbirliğine ilişkin bilinen sınırlamalar hakkında daha fazla bilgi edinmek için bkz. [Azure Kamu ile genel Azure karşılaştırması](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2)
+<sup>1</sup> B2B İşbirliği GCC için sunulur. Ancak, dış kullanıcıya bu ortamda bir lisans verilmesi gerekir. Ticari bulut lisansları GCC’de geçerli değildir. ABD devleti B2B İşbirliği ile ilgili bilinen sınırlamalar hakkında daha fazla bilgi için [Azure Kamu ve küresel Azure'u karşılaştırın](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2).
 
 <sup>2</sup> GCC için Teams’de Power BI deneyimi sınırlıdır, yalnızca klasik çalışma alanları için çalışır ve [Power BI içeriğini Microsoft Teams’e ekleme](../collaborate-share/service-embed-report-microsoft-teams.md) bölümünde açıklanan gelişmiş işlevleri içermez.
 

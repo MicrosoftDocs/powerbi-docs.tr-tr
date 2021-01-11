@@ -1,6 +1,6 @@
 ---
-title: Power BI görselleri için SSL sertifikası oluşturma
-description: Windows, Mac veya Linux'ta Power BI Görsel Araçlar paketini kullanarak veya el ile SSL sertifikası oluşturmayı öğrenin.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerindeki Power BI görselleri için SSL sertifikaları oluşturma
+description: Windows, Mac veya Linux'ta Power BI Görsel Araçlar paketini kullanarak veya el ile SSL sertifikası oluşturmayı öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: f6f458d2fe82668074d7cfb046cb5a72afa35c38
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 7897d25f3ac49c0f1b728f2aaf05b8612de67055
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92048798"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885534"
 ---
 # <a name="create-an-ssl-certificate"></a>SSL sertifikası oluşturma
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI görseli proje yapısı
-description: Bu makalede Power BI görseli projesinin klasör ve dosya yapısı açıklanır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI görsel projesi yapısı
+description: Bu makalede Power BI görsel projesinin klasör ve dosya yapısı anlatılmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 01/12/2020
-ms.openlocfilehash: df7a2909e3ccd745fdaa990ba5281a723ef6360d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 4c946021138e49c0aed9668d9b3ea6079f458ccd
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416728"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888041"
 ---
 # <a name="power-bi-visual-project-structure"></a>Power BI görseli proje yapısı
 

@@ -1,6 +1,6 @@
 ---
-title: Kuruluşunuz için Power BI ekli analiz uygulamasında içerik ekleme
-description: Kuruluşunuz için tümleşik analize yönelik Power BI API’lerini kullanarak bir raporu (Power BI veya Sayfalandırılmış), panoyu veya kutucuğu bir uygulamayla tümleştirmeyi veya uygulamaya eklemeyi öğrenin. Tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin.
+title: Power BI tümleşik analiz uygulamanıza içerik ekleyerek kuruluşunuz için daha iyi tümleşik BI içgörüleri sağlama
+description: Tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak Power BI’ı uygulamanızla tümleştirmeyi öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 223495b68f160b637f5bcf40b37f1f1a1365fffd
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 78ba14c8a715c927f35c32244734e66a5fb80473
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098180"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888984"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 

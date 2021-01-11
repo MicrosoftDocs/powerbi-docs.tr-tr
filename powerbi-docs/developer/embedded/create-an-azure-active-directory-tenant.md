@@ -1,6 +1,6 @@
 ---
-title: Power BI ile kullanmak üzere bir Azure Active Directory kiracısı oluşturma
-description: Power BI REST API'lerini çağıran özel uygulama için yeni bir Azure Active Directory (Azure AD) kiracısı oluşturmayı öğrenin.
+title: Power BI tümleşik analizi tümleşik BI'da kullanılmak üzere bir Azure Active Directory kiracısı oluşturma
+description: Power BI REST API'lerini çağıran ve müşterilere tümleşik BI iş zekası sağlayan özel bir tümleşik analiz uygulaması için yeni bir Azure Active Directory (Azure AD) kiracısının nasıl oluşturulacağı hakkında bilgi edinin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 24e1d8678234b7b355d99985f8e8a567954d6211
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748782"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889030"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Power BI ile kullanmak üzere bir Azure Active Directory kiracısı oluşturma
 

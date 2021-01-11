@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded Analytics’te kapasite ve SKU’lar
-description: Power BI tümleşik analize ilişkin kapasite ve SKU’lar hakkında bilgi edinin.
+title: Power BI tümleşik analizlerindeki, daha iyi tümleşik BI içgörüleri sağlayan Kapasite ve SKU'lar
+description: Power BI tümleşik analize ilişkin kapasite ve SKU’lar hakkında bilgi edinin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 7ff6ada14128a6231b84adf83d90b3871e1c7537
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916947"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888823"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI Embedded Analytics’te kapasite ve SKU’lar
 
-Üretim ortamına geçerken, Power BI tümleşik analiz ile ekli Power BI içeriği yayımlamak için bir kapasite ( *A* , *EM* veya *P* SKU’su) gerekir.
+Üretim ortamına geçerken, Power BI tümleşik analiz ile ekli Power BI içeriği yayımlamak için bir kapasite (*A*, *EM* veya *P* SKU’su) gerekir.
 
 Kapasite, yalnızca özel kullanım için ayrılmış kaynak kümesidir. Kullanıcı başına lisans satın almak zorunda kalmadan, kullanıcılara pano, rapor ve veri kümesi yayımlamanıza olanak tanır. Ayrıca, içeriğiniz için güvenilir ve tutarlı performans sunar.
 
@@ -27,8 +27,8 @@ Kapasite, yalnızca özel kullanım için ayrılmış kaynak kümesidir. Kullan�
 ## <a name="what-is-embedded-analytics"></a>Tümleşik analiz nedir?
 
 Power BI tümleşik analiz iki çözümü içerir:
-* *Power BI Embedded* : Azure teklifi
-* *Power BI Premium* ’un bir parçası olarak Power BI ekleme: Office teklifi
+* *Power BI Embedded*: Azure teklifi
+* *Power BI Premium*’un bir parçası olarak Power BI ekleme: Office teklifi
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 

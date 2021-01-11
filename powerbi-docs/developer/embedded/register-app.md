@@ -1,6 +1,6 @@
 ---
-title: Ekli analiz uygulamasına Power BI içeriği eklemek için uygulamayı kaydetme
-description: Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye kaydetmeyi öğrenin.
+title: Daha iyi tümleşik BI içgörüleri için bir Power BI tümleşik analizleri uygulamasında Power BI içeriklerini tümleştirmek üzere uygulama kaydetme
+description: Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye kaydetmeyi öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 98956beb3e5a106b885ecbca187521f85917f25e
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: c30b8f7ebe403e38fa59fa248aacc4b3086bf9ed
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098226"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885879"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI ile kullanmak için Azure AD uygulamasını kaydetme
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613889"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926840"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -50,18 +50,19 @@ Aşağıdaki adımlar **Web'de yayımla** özelliğinin nasıl kullanılacağın
 
    ![Uyarıyı gözden geçirme](media/service-publish-to-web/publish_to_web3_ga.png)
 
-5. İletişim kutusuyla birlikte bir bağlantı görüntülenir. Bağlantıyı e-postada göndermek üzere seçin veya HTML’yi kopyalayın. Bu bağlantıyı iFrame gibi bir koda ekleyebilir veya web sayfasına ya da bloga doğrudan yapıştırabilirsiniz.
+5. **Başarı** iletişim kutusunda raporunuzun bir önizlemesini görebilirsiniz. **Boyut** ve **Varsayılan sayfa**'yı seçin. 
+
+    Web sayfasının daha hızlı yüklenmesi için bir **Yer tutucu** görüntüsü ekleyebilirsiniz. Bir yer tutucu görüntüsü ile, raporunuzu Web'de görüntüleyen kişiler, raporun kendisini görüntülemek için **Etkileşimli içeriği görüntüle** düğmesini seçebilir. 
+
+    Önce bu değişiklikleri yapın. Sonra e-posta ile göndermek üzere bağlantıyı kopyalayın veya HTML kodunu kopyalayarak bir Web sitesine yapıştırın. Bu bağlantıyı iFrame gibi bir koda ekleyebilir veya web sayfasına ya da bloga doğrudan yapıştırabilirsiniz.
 
    ![Başarılı: bir bağlantı ve HTML](media/service-publish-to-web/publish_to_web4.png)
 
-6. Daha önce rapor için bir ekleme kodu oluşturduysanız ve **Web'de yayımla**’yı seçerseniz 2-4 arası adımlardaki iletişim kutusunu görmezsiniz. Bunun yerine **Ekleme kodu** iletişim kutusu açılır:
+6. Daha önce rapor için bir ekleme kodu oluşturduysanız ve **Web'de yayımla**’yı seçerseniz 2-4 arası adımlardaki iletişim kutusunu görmezsiniz. Bunun yerine **Ekleme kodu** iletişim kutusunu görürsünüz.
 
    ![Kod ekleme iletişim kutusu](media/service-publish-to-web/publish_to_web5.png)
 
    Her rapor için yalnızca bir ekleme kodu oluşturabilirsiniz.
-
-İletişim kutusunda değişiklik yaparsanız güncelleştirilmiş ayarları sayfanızda kullanmak için, güncelleştirilmiş URL’yi veya iFrame’i kopyaladığınızdan emin olun.
-
 
 ### <a name="tips-for-view-modes"></a>Görünüm modları için ipuçları
 
@@ -128,7 +129,7 @@ Rapor kısa sürede çok sayıda sorgu alırsa ağır kullanım deneyimi oluşab
 
 Raporunuz için bir yer tutucu resmi ayarlamanızı öneririz. Ağır kullanım oluşursa kullanıcılar yer tutucu resmi görürler. 
 
-Ağır kullanım deneyimini önlemeye yardımcı olmak amacıyla, raporunuzun oluşturabileceği farklı sorgu sayısını ve veri yenileme sıklığını sınırlayın.
+Ağır kullanım deneyimini önlemeye yardımcı olmak amacıyla, raporunuzun oluşturabileceği farklı sorgu sayısını ve veri yenileme sıklığını sınırlayın. Raporlarınızı sorun hale getirme hakkında ipuçları için bkz. [Power BI iyileştirme kılavuzu](../guidance/power-bi-optimization.md).
 
 ## <a name="power-bi-visuals"></a>Power BI görselleri
 

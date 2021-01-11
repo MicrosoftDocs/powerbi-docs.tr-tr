@@ -1,6 +1,6 @@
 ---
-title: Power BI görselinde araç çubuğu yardımcı programlarını kullanmaya giriş
-description: Bu makalede araç ipucu yardımcı programlarının kullanımı ve Power BI görselleri için araç ipucunu özelleştirme işlemi açıklanır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI görselinde araç ipucu yardımcı programları kullanmaya giriş
+description: Bu makalede Power BI görselleri araç ipuçlarının özelleştirilmesini basitleştirmek için araç ipucu yardımcı programlarının kullanılması anlatılmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: b2ddc85d9ba2530dc394b4106d72b4af702bd9b4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197645"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888662"
 ---
 # <a name="tooltip-utils"></a>Araç ipucu yardımcı programları
 Bu makale araç ipucu yardımcı programlarını yükleme, içeri aktarma ve kullanma işlemlerinde size yardımcı olur. Bu yardımcı program Power BI görsellerinde yapılan tüm araç ipucu özelleştirmelerinde yararlı olur.
@@ -48,7 +48,7 @@ Bu modül aşağıdaki arabirimi ve işlevi sağlar:
   * [addTooltip](#itooltipservicewrapperaddtooltip)
   * [hide](#itooltipservicewrapperhide)
 
-* [Interfaces](#interfaces)
+* [Arabirimler](#interfaces)
   * [TooltipEventArgs](#tooltipeventargs)
   * [TooltipEnabledDataPoint](#tooltipenableddatapoint)
   * [TooltipServiceWrapperOptions](#tooltipservicewrapperoptions)

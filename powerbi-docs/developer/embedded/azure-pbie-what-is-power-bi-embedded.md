@@ -1,6 +1,6 @@
 ---
-title: Azure Power BI Embedded ve tümleşik analiz nedir? | Microsoft Docs
-description: Power BI Embedded, ISV’lerin ve geliştiricilerin uygulamalarına hızlıca etkileyici görseller, raporlar ve panolar eklemelerine yardımcı olarak Power BI özelliklerini daha kolay bir şekilde kullanmalarını amaçlayan tümleşik analiz aracı olarak tasarlanmıştır. Power BI Embedded kullanarak tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanma hakkında bilgi edinin.
+title: Power BI tümleşik analizindeki tümleşik BI Power BI Azure Power BI Embedded nedir?
+description: Power BI Embedded, ISV’lerin ve geliştiricilerin uygulamalarına hızlıca etkileyici görseller, raporlar ve panolar eklemelerine yardımcı olarak tümleşik BI Power BI özelliklerini daha kolayca kullanmalarını sağlamayı hedefleyen tümleşik bir analiz aracı olarak tasarlanmıştır. Power BI Embedded kullanarak tümleşik analiz yazılımını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanma hakkında bilgi edinin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -10,12 +10,12 @@ ms.devlang: csharp, javascript
 ms.topic: overview
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: fb2c9046b5812ae027e60f5661c50f573bea8976
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1c2227e376879693833af18c5c30acda9f6b16dd
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417256"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887236"
 ---
 # <a name="what-is-power-bi-embedded-in-azure"></a>Azure’da Power BI Embedded nedir?
 

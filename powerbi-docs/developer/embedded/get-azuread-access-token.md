@@ -1,6 +1,6 @@
 ---
-title: Kullanıcıların kimliğini doğrulama ve uygulamanız için Azure AD erişim belirteci alma
-description: Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye kaydetmeyi öğrenin.
+title: Müşterilerin tümleşik BI deneyimini geliştirmek için Power BI tümleşik analizleriniz için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci edinme
+description: Power BI içeriği eklemek üzere bir uygulamayı Azure Active Directory'ye kaydetmeyi öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 8001dd0e15ef713fa67256a45f645b0d7a0890c0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906946"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888455"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Power BI uygulamanız için Azure AD erişim belirteci alma
 
@@ -97,7 +97,7 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>Yetkilendirme kodundan erişim belirteci alma
 
-**Azure AD** **yetkilendirme kodu** ile web uygulamanıza yönlendirme yaptığında, bunu kullanarak erişim belirteci alabilirsiniz. Aşağıda yönlendirme sayfanızda ve default.aspx sayfasının `Page_Load` olayında kullanabileceğiniz örnek C# kodu verilmiştir.
+**Azure AD****yetkilendirme kodu** ile web uygulamanıza yönlendirme yaptığında, bunu kullanarak erişim belirteci alabilirsiniz. Aşağıda yönlendirme sayfanızda ve default.aspx sayfasının `Page_Load` olayında kullanabileceğiniz örnek C# kodu verilmiştir.
 
 **Microsoft.IdentityModel.Clients.ActiveDirectory** ad alanını [Active Directory Authentication Library](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/) NuGet paketinden alabilirsiniz.
 

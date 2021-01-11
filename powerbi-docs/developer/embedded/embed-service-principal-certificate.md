@@ -1,6 +1,6 @@
 ---
-title: Hizmet sorumlusu ve bir sertifikayla ekli bir analiz uygulamasına Power BI içeriği ekleme
-description: Azure Active Directory uygulama hizmet sorumlusu ve sertifika kullanarak ekli analizin kimliğini doğrulamayı öğrenin.
+title: Bir Power BI tümleşik analiz uygulamasına hizmet sorumlusu ve sertifika ile Power BI içeriği ekleyerek daha iyi tümleşik BI içgörüleri sağlama
+description: Azure Active Directory uygulama hizmet sorumlusu ve sertifika kullanarak Power BI tümleşik analizlerinde kimlik doğrulama hakkında bilgi edinin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: f36f77ec1b6648bcb9ab45622fd9888366803b11
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 647b9cce0835d21028da586ce3cf09f3383e544b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098410"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888892"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Hizmet sorumlusu ve sertifikayla Power BI içeriği ekleme
 

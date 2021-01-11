@@ -1,6 +1,6 @@
 ---
-title: Satır eklemek için veri kümesi alma
-description: Veri göndermeye ilişkin adım adım kılavuz - Bir Power BI tablosuna satır eklemek için veri kümesi alma
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde satır eklemek üzere veri kümesi alma
+description: Veri göndermeye ilişkin adım adım kılavuz - Bir Power BI tablosuna satır eklemek için veri kümesi alma. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: a150666eafd8dc11b573150455775d2ecf6f7f1b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: e1be761f68dfcd58de8623618acd859694b95bde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748322"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887466"
 ---
-# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4\. Adım: Power BI tablosuna satır eklemek için veri kümesi alma
+# <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>4. Adım: Bir Power BI tablosuna satır eklemek için veri kümesi alma
 
 Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzunun bir parçasıdır.
 
@@ -27,20 +27,20 @@ Bir veri kümesinin nasıl alınacağı aşağıda açıklanmıştır.
 
 ## <a name="get-a-power-bi-dataset"></a>Bir Power BI veri kümesi alma
 
-> **NOT**: Başlamadan önce, [bir veri kümesine veri gönderme](walkthrough-push-data.md) kılavuzundaki adımları izlediğinizden emin olun.
+> **NOT**: Başlamadan önce [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrıntılı kılavuzundaki adımları uyguladığınızdan emin olun.
 
-1. 2\. Adım: Veri göndermeye ilişkin adım adım kılavuz, [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) kapsamında oluşturduğunuz Konsol Uygulaması projesinde Newtonsoft.Json NuGet paketini yükleyin. Paket aşağıdaki gibi yüklenir:
+1. 2. Adım: Veri göndermeye ilişkin adım adım kılavuz, [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md) kapsamında oluşturduğunuz Konsol Uygulaması projesinde Newtonsoft.Json NuGet paketini yükleyin. Paket aşağıdaki gibi yüklenir:
 
      a. Visual Studio 2015'te **Araçlar** > **NuGet Paket Yöneticisi** > **Paket Yöneticisi Konsolu**'nu seçin.
 
      b. **Paket Yöneticisi Konsolu**'na şunu girin: Install-Package Newtonsoft.Json.
-2. Paket yüklendikten sonra Program.cs'ye şunu ekleyin: **using Newtonsoft.Json;** .
+2. Paket yüklendikten sonra Program.cs'ye şunu ekleyin: **using Newtonsoft.Json;**.
 3. Bir **Veri Kümesi Kimliği** almak için Program.cs'ye aşağıda bulunan kodu ekleyin.
 4. Konsol Uygulaması'nı çalıştırın ve Power BI hesabınızda oturum açın. Konsol Penceresinde, bir kimliğin izlediği **Dataset ID:** (Veri Kümesi Kimliği:) ifadesini görmeniz gerekir.
 
 **Veri kümesi alma işlemi örneği**
 
-Program.cs'ye aşağıdaki kodu ekleyin.
+Bu kodu Program.cs'ye ekleyin.
 
 * static void Main(string[] args) bölümüne:
   
@@ -268,7 +268,7 @@ namespace walkthrough_push_data
 
 * [Bir Power BI tablosuna satır ekleme](walkthrough-push-data-add-rows.md)  
 * [Newtonsoft.Json](https://www.newtonsoft.com/json)  
-* [Get Datasets (Veri Kümelerini Al)](/rest/api/power-bi/datasets/getdatasets)  
+* [Veri Kümelerini Al](/rest/api/power-bi/datasets/getdatasets)  
 * [Power BI'a veri gönderme](walkthrough-push-data.md)  
 * [Overview of Power BI REST API (Power BI REST API'sine Genel Bakış)](overview-of-power-bi-rest-api.md)  
 * [Power BI REST API başvurusu](/rest/api/power-bi/)  

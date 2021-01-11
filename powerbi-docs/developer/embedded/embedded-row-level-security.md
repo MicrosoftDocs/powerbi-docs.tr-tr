@@ -1,6 +1,6 @@
 ---
-title: Power BI ekli analizinde eklenen içerikle satır düzeyi güvenlik kullanma
-description: Power BI içeriğini uygulamanıza eklemek için gerçekleştirmeniz gereken işlemler hakkında bilgi edinin
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerinde tümleşik içerik ile satır düzeyinde güvenlik kullanma
+description: Power BI içeriğini uygulamanıza eklemek için gerçekleştirmeniz gereken işlemler hakkında bilgi edinin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 6f65bf5b430c5435936acbd3a7cdfbe4c57d1dec
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 408b5a03b415e6b1dabdb762eefee81e1a4fe483
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098019"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887384"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 

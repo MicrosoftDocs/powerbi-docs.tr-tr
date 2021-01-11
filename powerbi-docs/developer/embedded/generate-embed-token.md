@@ -1,6 +1,6 @@
 ---
-title: Power BI ekli analizinde bir ekleme belirteci oluşturma konusuyla ilgili önemli noktalar
-description: Ekleme belirteci oluşturmak için dikkat edilmesi gerekenler, sınırlamalar ve gerekli izinler hakkında bilgi edinin
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde bir ekleme belirteci oluşturmayla ilgili önemli noktalar
+description: Ekleme belirteci oluşturmak için dikkat edilmesi gerekenler, sınırlamalar ve gerekli izinler hakkında bilgi edinin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 10/15/2020
-ms.openlocfilehash: 45a88d93e7ac5a63b269350451f39991ba153dd5
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 2f8da415b40bc5d9a621e5a0df8c1edffbbc8791
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098042"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886868"
 ---
 # <a name="considerations-when-generating-an-embed-token"></a>Ekleme belirteci oluştururken dikkate alınması gerekenler
 

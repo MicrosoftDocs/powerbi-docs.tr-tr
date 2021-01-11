@@ -1,6 +1,6 @@
 ---
-title: Power BI görselleri için yönergeler
-description: Özel görselinizi diğer kullanıcıların keşfetmesi ve satın alma yoluyla kullanması amacıyla Microsoft AppSource’ta nasıl yayımlayabileceğinizi öğrenin.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerindeki Power BI görsellerine yönelik yönergeler
+description: Özel görselinizi diğer kullanıcıların keşfetmesi ve satın alma yoluyla kullanması amacıyla Microsoft AppSource’ta nasıl yayımlayabileceğinizi öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 427fba66b34fefb0b7ca9d70a29b08ebe7d743cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 67875f9b571e0a0376046a3cb080551d23e579e4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416152"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889306"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI görselleri için yönergeler
 Power BI görselinizi başkalarının bulması ve kullanması amacıyla Microsoft AppSource’ta [yayımlamadan](office-store.md) önce kullanıcılarınıza yönelik harika bir deneyim oluşturmak için aşağıdaki yönergeleri izlediğinizden emin olun.

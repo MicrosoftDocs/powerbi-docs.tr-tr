@@ -1,6 +1,6 @@
 ---
-title: Power BI özel görsellerine biçimlendirme seçenekleri ekleme
-description: Power BI özel görseli biçimlendirme seçenekleri geliştirme öğreticisi
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerindeki bir Power BI özel görseline biçimlendirme seçenekleri ekleme
+description: Power BI özel görseli biçimlendirme seçenekleri geliştirme öğreticisi. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: ec3ba601eb6cd5db4fbc19298d76ce0cd7346f53
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ec5dbe338cc27379d69781a83f58091d94011f08
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418751"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886592"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Öğretici: Power BI görsellerine biçimlendirme seçenekleri ekleme
 
 Bu öğreticide görsellere ortak özellikler ekleme adımları açıklanır.
 
-Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
+Bu öğreticide şunların nasıl yapıldığını öğreneceksiniz:
 > [!div class="checklist"]
 > * Görsel özelliklerini ekleme.
 > * Görseli paketleme.
@@ -281,7 +281,7 @@ Paket, projenin **dist** klasörüne kaydedilir. Pakette özel görseli Power BI
 
 8. **Daire Kartı** simgesinin üzerine geldiğinizde açılan araç ipucunu inceleyin.
 
-## <a name="debugging"></a>Hata ayıklama
+## <a name="debugging"></a>Hata Ayıklama
 
 Özel görseliniz için hata ayıklamaya yönelik ipuçlarına, [hata ayıklama kılavuzuna](./visuals-how-to-debug.md#how-to-debug-power-bi-visuals) giderek göz atabilirsiniz.
 

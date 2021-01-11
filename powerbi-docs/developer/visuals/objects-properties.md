@@ -1,6 +1,6 @@
 ---
-title: Power BI görsellerinin nesneleri ve özellikleri
-description: Bu makalede Power BI görsellerinin özelleştirilebilir özellikleri açıklanır.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI görsellerinin nesne ve özellikleri
+description: Bu makalede Power BI görsellerinin özelleştirilebilir özellikleri açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 4596465fcd9f59768b18282ec3ad39d2531b7768
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120214"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885971"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Power BI görsellerinin nesneleri ve özellikleri
 
@@ -202,7 +202,7 @@ public enumerateObjectInstances(options: EnumerateVisualObjectInstancesOptions):
 
 `enumerateObjectInstances` içindeki seçici, her nesnenin dataView içinde nereye bağlandığını belirler. Dört farklı seçenek vardır.
 
-#### <a name="static"></a>statik
+#### <a name="static"></a>static
 
 Bu nesne burada gösterildiği gibi `dataviews[index].metadata.objects` meta verilerine bağlıdır.
 

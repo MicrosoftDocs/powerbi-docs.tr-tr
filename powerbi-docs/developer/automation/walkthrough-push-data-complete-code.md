@@ -1,6 +1,6 @@
 ---
-title: Tam kod listesi
-description: Veri göndermeye ilişkin adım adım kılavuz - Tam kod listesi
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizleri tam kod listesi
+description: Veri göndermeye ilişkin adım adım kılavuz - Tam kod listesi. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f2e421297eb942e6e9a622c91e9d5a074cb042ba
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d478c742112c15c80657ec424f5a4d6739a3c6d7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746505"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887489"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Veri kümesine veri gönderme için tam kod listesi
 
@@ -227,7 +227,7 @@ Bu makale, [bir veri kümesine veri gönderme](walkthrough-push-data.md) ayrınt
 * [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md)
 * [Bir uygulamayı Azure AD'ye kaydetme](../embedded/register-app.md)  
 * [Kimlik doğrulaması erişim belirteci alma](walkthrough-push-data-get-token.md)  
-* [Power BI'da bir veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)  
+* [Power BI'da veri kümesi oluşturma](walkthrough-push-data-create-dataset.md)  
 * [Bir Power BI tablosuna satır eklemek için veri kümesi alma](walkthrough-push-data-get-datasets.md)  
 * [Bir Power BI tablosuna satır ekleme](walkthrough-push-data-add-rows.md)  
 * [Power BI Rest API başvurusu](/rest/api/power-bi/)  

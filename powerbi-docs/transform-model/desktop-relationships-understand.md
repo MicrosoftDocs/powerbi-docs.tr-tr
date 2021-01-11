@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 32e6cccf738d85ed58922c199c3a6093a54019db
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413806"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888626"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta model ilişkileri
 
@@ -146,21 +146,21 @@ Model ilişkileri, değerlendirme açısından _normal_ veya _sınırlı_ olarak
 
 İçeri aktarma veya DirectQuery model kaynakları, tüm verilerini Vertipaq önbelleğinden veya kaynak veritabanından alır. Her iki örnekte de Power BI, ilişkinin "bir" tarafının mevcut olduğunu tespit edebilir.
 
-Ancak bir Bileşik model, farklı depolama modları (İçeri aktarma, DirectQuery veya İkili) veya DirectQuery kaynakları kullanan tablolardan oluşabilir. İçeri aktarılan verilerin Vertipaq önbelleği dahil olmak üzere her kaynak bir _veri adası_ olarak kabul edilir. Bu şekilde model ilişkileri de _ada içi_ veya _adalar arası_ olarak sınıflandırılabilir. Ada içi ilişkide iki tablo bir veri adasına bağlanırken adalar arası ilişkide farklı veri adalarından alınan tablolar arasında ilişki kurulur. İçeri aktarma veya DirectQuery modellerindeki ilişkiler her zaman ada içi olur.
+Ancak bir Bileşik model, farklı depolama modları (İçeri aktarma, DirectQuery veya İkili) veya DirectQuery kaynakları kullanan tablolardan oluşabilir. İçe aktarma verileri Vertipaq önbelleği de dahil olmak üzere her kaynağın bir _kaynak grubu_ olduğu kabul edilir. Model ilişkileri daha sonra _kaynak grubu içi_ ya da _kaynak grupları arası_ olarak sınıflandırılabilir. Kaynak grubu içinde bir ilişki, bir kaynak grubundaki iki tabloyu; buna karşın kaynak grupları arasında bir ilişki, farklı kaynak gruplarından tabloları ilişkilendirir. İçeri aktarma veya DirectQuery modellerindeki ilişkilerin her zaman kaynak grubu içinde olduğunu unutmayın.
 
 Şimdi bir Bileşik model örneğine göz atalım.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="İki adadan oluşan Bileşik model örneği.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example.png" alt-text="İki kaynak grubundan oluşan Kompozit model örneği.":::
 
-Bu örnekteki Bileşik model, iki adadan oluşmaktadır: Vertipaq veri adası ve DirectQuery kaynağı veri adası. Vertipaq veri adasında üç tablo, DirectQuery kaynağı veri adasında ise iki tablo vardır. Vertipaq veri adasındaki bir tablo ile DirectQuery kaynağı veri adasındaki bir tablo arasında ilişki kuran bir adalar arası ilişki mevcuttur.
+Bu örnekte, Bileşik model iki kaynak grubundan oluşmaktadır: Vertipaq kaynak grubu ve DirectQuery kaynak grubu. Vertipaq kaynak grubunda üç tablo, DirectQuery kaynak grubunda ise iki tablo bulunmaktadır. Vertipaq kaynak grubundaki bir tabloyu DirectQuery kaynak grubundaki bir tabloyla ilişkilendiren bir kaynak grupları arası ilişki mevcuttur.
 
 ### <a name="regular-relationships"></a>Normal ilişkiler
 
-Sorgu altyapısının ilişkinin "bir" tarafını belirleyebildiği model ilişkileri, _normal_ ilişki olarak kabul edilir. Bu durum, "bir" taraftaki sütunun benzersiz değerler içerdiğini onaylar. Bir-çok türündeki ada içi ilişkiler, normal ilişkilerdir.
+Sorgu altyapısının ilişkinin "bir" tarafını belirleyebildiği model ilişkileri, _normal_ ilişki olarak kabul edilir. Bu durum, "bir" taraftaki sütunun benzersiz değerler içerdiğini onaylar. Tüm kaynak grubu içi bire çoklu ilişkiler normal ilişkilerdir.
 
-Aşağıdaki örnekte iki normal ilişki vardır ve ikisi de **R** harfiyle gösterilmiştir. İlişkiler, Vertipaq adası içinde yer alan Bir-çok ilişkisi ile DirectQuery kaynağında yer alan Bir-çok ilişkisini kapsamaktadır.
+Aşağıdaki örnekte iki normal ilişki vardır ve ikisi de **R** harfiyle gösterilmiştir. İlişkiler, Vertipaq kaynak grubu içinde yer alan bire-çok ilişkisini ve DirectQuery kaynak grubunda yer alan bire-çok ilişkisini kapsamaktadır.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="Normal ilişkilerin işaretlenmiş olduğu iki adadan oluşan Bileşik model örneği.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-regular.png" alt-text="İki kaynak grubundan oluşan Bileşik model örneği. Normal ilişkiler işaretlenmiştir.":::
 
 Tüm verilerin Vertipaq önbelleğinde depolandığı İçeri aktarma modellerinde, veriler yenilendiğinde her bir normal ilişki için bir veri yapısı oluşturulur. Veri yapıları, tüm sütunlar arası değerlerin dizinlenmiş eşleşmelerini içerir ve sorgu zamanında tabloların daha hızlı birleştirilmesini sağlamak için kullanılır.
 
@@ -171,7 +171,7 @@ Normal ilişkiler, sorgu zamanında _tablonun genişletilmesini_ sağlar. Tablo 
 
 Bire çok ilişkilerde tablo genişletme işlemi, LEFT OUTER JOIN semantiği kullanılarak "çok" tarafından "bir" tarafına doğru gerçekleştirilir. "Çok" tarafından "bir" tarafına eşleşen bir değer yoksa "bir" tarafındaki tabloya boş bir sanal satır eklenir.
 
-Tablo genişletme işlemi Bir-bir ada içi ilişkiler için de gerçekleşir ancak bu durumda FULL OUTER JOIN semantiği kullanılır. Bu işlem, gerekli olduğunda bir tarafa boş sanal satırların eklenmesini sağlar.
+Tablo genişletmesi ayrıca bire-bir grup içi ilişkilerde de oluşur, ancak bu yalnızca FULL OUTER JOIN semantiği kullanıldığında söz konusudur. Bu işlem, gerekli olduğunda bir tarafa boş sanal satırların eklenmesini sağlar.
 
 Boş sanal satırlar, _Bilinmeyen Üyeler_ olarak adlandırılır. Bilinmeyen üyeler, "çok" tarafındaki değere "bir" tarafında karşılık gelen bir değerin bulunmadığı bilgi tutarlılığı ihlallerini temsil eder. İdeal bir ortamda boş satır bulunmaması gerekir ve bu satırlar kaynak verilerin temizlenmesi veya onarılmasıyla ortadan kaldırılabilir.
 
@@ -186,11 +186,11 @@ Bu örnekte model üç tablodan oluşmaktadır: **Kategori**, **Ürün** ve **Sa
 "Bir" taraf garantisi bulunmayan model ilişkileri, _sınırlı_ ilişki olarak kabul edilir. Bu durumun iki farklı nedeni olabilir:
 
 - İlişki Çok-çok kardinalite türünü kullanmaktadır (sütunların biri veya her ikisi benzersiz değer içeriyor olsa da)
-- Adalar arası ilişki vardır (Bileşik modellerde yalnızca bu ilişki türü kullanılabilir)
+- İlişki kaynak grupları arasındadır (bu durumda yalnızca Bileşik modellerde görülebilir)
 
-Aşağıdaki örnekte iki sınırlı ilişki vardır ve ikisi de **L** harfiyle gösterilmiştir. İki ilişki, Vertipaq adası içinde yer alan Çok-çok ilişkisi ile Bir-çok adalar arası ilişkiyi kapsamaktadır.
+Aşağıdaki örnekte iki sınırlı ilişki vardır ve ikisi de **L** harfiyle gösterilmiştir. İki ilişki, Vertipaq kaynak grubunda yer alan çoktan-çoğa ilişkisi ile kaynak grupları arasındaki birden-çoğa ilişkiyi kapsamaktadır.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="Sınırlı ilişkilerin işaretlenmiş olduğu iki adadan oluşan Bileşik model örneği.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-limited.png" alt-text="İki kaynak grubundan oluşan Bileşik model örneği. Sınırlı ilişkiler işaretlenmiştir.":::
 
 İçeri aktarma modellerinde sınırlı ilişkiler için veri yapısı oluşturulmaz. Bu da tablo birleşimlerinin sorgu zamanında çözümlenmesi gerektiği anlamına gelir.
 
@@ -202,7 +202,7 @@ Sınırlı ilişkilerle ilgili ek kısıtlamalar da mevcuttur:
 - RLS'nin zorunlu kılınması, bazı topoloji kısıtlamalarını da beraberinde getirir
 
 > [!NOTE]
-> Power BI Desktop model görünümünde bir modelin normal mi yoksa sınırlı mı olduğunu tespit etmek her zaman mümkün olmayabilir. Çok-çok ilişkileri ve adalar arası Bir-çok ilişkileri her zaman sınırlı olacaktır. İlişkinin adalar arası ilişki olup olmadığını belirlemek için tablo depolama modlarını ve veri kaynaklarını incelemeniz gerekir.
+> Power BI Desktop model görünümünde bir modelin normal mi yoksa sınırlı mı olduğunu tespit etmek her zaman mümkün olmayabilir. Çoktan-çoğa ilişkiler; kaynak grupları arasındaki birden-çoğa ilişkiler gibi her zaman sınırlı olacaktır. İlişkinin kaynak grupları arasında mı olduğunu belirlemede doğru sonuca varmak için tablo depolama modellerini ve veri kaynaklarını incelemeniz gerekir.
 
 ### <a name="precedence-rules"></a>Öncellik kuralları
 
@@ -216,10 +216,10 @@ Sınırlı ilişkilerle ilgili ek kısıtlamalar da mevcuttur:
 
 Aşağıdaki listede en hızlıdan en yavaşa doğru olmak üzere filtre yayma performansları listelenmiştir:
 
-1. Bir-çok ada içi ilişkiler
+1. Birden-çoğa kaynak grubu içi ilişkiler
 2. Çok-çok kardinalite ilişkileri
 3. Ara tablo ile elde edilen ve en az bir iki yönlü ilişki içeren çok-çok model ilişkileri
-4. Adalar arası ilişkiler
+4. Kaynak grupları arası ilişkiler
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

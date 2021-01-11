@@ -1,6 +1,6 @@
 ---
-title: Power BI ekli analizi için Multi-Geo desteği
-description: İçeriği Power BI Embedded'ın ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine nasıl dağıtabileceğinizi öğrenin.
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analiz Multi-Geo desteği
+description: Power BI tümleşik analiz çözümünüzün ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine nasıl içerik dağıtabileceğinizi öğrenin. Müşterilerinize daha iyi tümleşik BI içgörüleri sağlamak için Multi-Geo desteğini kullanın.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 1868bab823408377ab600146b21592d902b59ff6
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 4b9aacb460966f633161238cae82ba6731196ed4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098111"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888294"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded için Multi-Geo desteği
 

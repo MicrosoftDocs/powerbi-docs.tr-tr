@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7232cad4fc1216ac6e1aa7c8a01136239a2f09d2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5485f59e11f3c971c719b2604b9e1280a072c5b1
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407067"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926767"
 ---
 # <a name="endorse-your-content"></a>İçeriğinizi onaylama
 
@@ -25,7 +25,7 @@ Power BI değerli, yüksek kaliteli içeriklerinizin görünürlüğünü artır
 
 * **Onaylama**: Onaylama içeriğin kuruluş kalite standartlarını karşıladığı ve kuruluş genelinde kullanılmaya hazır, güvenilir ve yetkilendirilmiş olarak kabul edilebileceği anlamına gelir.
 
-    İçerikleri yalnızca yetkili gözden geçirenler onaylayabilir. İçeriklerinin onaylanmasını isteyen ancak bunu kendileri yapamayan içerik sahiplerinin gerekli onay işlemleri için kuruluşa özgü yönergeleri izlemesi gerekir.
+    Yalnızca [yetkili (Power BI yöneticisi tarafından tanımlanmış) inceleyiciler](../admin/service-admin-setup-certification.md) içeriğe onay verebilir. İçeriklerinin onaylanmasını isteyen ancak bunu kendileri yapamayan içerik sahiplerinin gerekli onay işlemleri için kuruluşa özgü yönergeleri izlemesi gerekir.
 
 Şu anda aşağıdakiler için onaylama işlemi yapılabilir
 * Veri kümeleri

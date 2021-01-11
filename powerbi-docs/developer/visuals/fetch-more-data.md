@@ -1,6 +1,6 @@
 ---
-title: Power BI’dan daha fazla veri getirme
-description: Bu makalede Power BI görselleri için büyük veri kümelerini parçalı olarak getirmeyi etkinleştirme işlemi açıklanır.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI'dan daha fazla veri getirme
+description: Bu makalede Power BI görselleri için büyük veri kümelerini parçalı olarak getirmeyi etkinleştirme işlemi açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 12/13/2020
-ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 345efe91be1af5ee61d713c576f04657b182ad47
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492093"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886316"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Power BI’dan daha fazla veri getirme
 

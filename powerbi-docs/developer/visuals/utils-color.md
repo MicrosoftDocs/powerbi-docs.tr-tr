@@ -1,6 +1,6 @@
 ---
-title: Power BI görselinde renk yardımcı programlarını kullanmaya giriş
-description: Bu makalede Power BI görsellerinde görselin veri noktalarına temaları ve paletleri basit bir şekilde uygulamak için renk yardımcı programlarının nasıl kullanabileceği açıklanır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI görselinde renk kullanma yardımcı programlarına giriş
+description: Bu makalede Power BI görsellerinde görselin veri noktalarına temaları ve paletleri basit bir şekilde uygulamak için renk yardımcı programlarının nasıl kullanabileceği açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc75188d806d653766860b2fada9028477a75f71
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379364"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887857"
 ---
 # <a name="color-utils"></a>Renk yardımcı programları
 Bu makale renk yardımcı programlarını yükleme, içeri aktarma ve kullanma işlemlerinde size yardımcı olur. Bu makalede Power BI görsellerinde görselin veri noktalarına temaları ve paletleri basit bir şekilde uygulamak için renk yardımcı programlarının nasıl kullanabileceği açıklanır.
@@ -236,7 +236,7 @@ hexToRGBString('#112233');
 // returns: "rgb(17,34,51)"
 ```
 
-### <a name="rotate"></a>rotate
+### <a name="rotate"></a>Döndür
 RGB rengini döndürür.
 
 ```typescript

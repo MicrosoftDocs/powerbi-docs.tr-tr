@@ -1,6 +1,6 @@
 ---
-title: Çubuk grafik oluşturma
-description: Kod içeren bir örnek Power BI çubuk grafiği görseli oluşturmak için bu adım adım kılavuzu kullanın.
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerinde çubuk grafik oluşturma
+description: Kod içeren bir örnek Power BI çubuk grafiği görseli oluşturmak için bu adım adım kılavuzu kullanın. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/01/2020
-ms.openlocfilehash: 0f8f97e5f707e813d316ae4d5388f0793f8c1aa0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a3210c2fdb86632d9fa47b4c9c4add6fff5f052e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149147"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889099"
 ---
 # <a name="build-a-bar-chart"></a>Çubuk grafik oluşturma
 

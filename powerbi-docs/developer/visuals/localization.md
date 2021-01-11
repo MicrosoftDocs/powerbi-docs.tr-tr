@@ -1,6 +1,6 @@
 ---
-title: Power BI'da Power BI görselleri için yerel ayar ekleme
-description: Görsellerin, içeriklerini uygun dilde yerelleştirmek için Power BI yerel ayarını nasıl alabileceğini öğrenin.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizleri Power BI görselleri için Power BI'da yerel ayarlar ekleme
+description: Görsellerin, içeriklerini uygun dilde yerelleştirmek için Power BI yerel ayarını nasıl alabileceğini öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7492b70b9a82fe6c5579c4251000e9af7509e8fb
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 4df09979eeae476578b247e729a31f5f5c9c9baa
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746086"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888225"
 ---
 # <a name="add-the-locale-in-power-bi-for-power-bi-visuals"></a>Power BI'da Power BI görselleri için yerel ayar ekleme
 

@@ -1,19 +1,19 @@
 ---
-title: Vurgulama
-description: Power BI Görselleri’nde veri noktası seçimlerini vurgulama
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde vurgulama
+description: Power BI Görselleri'nde veri noktası seçimlerini vurgulama. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/31/2019
-ms.openlocfilehash: a472db6c6dcc1266a11e78d72ab8465df7682042
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f45b363ce4616a725d19d0b06f4f9fb96110ac8a
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114164"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886546"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Power BI Görselleri’nde veri noktalarını vurgulama
 
@@ -32,7 +32,7 @@ Varsayılan olarak, bir öğe seçildiğinde `dataView` nesnesindeki `values` di
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Kategorik veri görünümü eşlemesi ile veri noktalarını vurgulama
 
-Kategorik veri görünümü eşlemesine sahip görseller `"supportsHighlight": true` parametresi ile birlikte `capabilities.json` içerir. Örnek:
+Kategorik veri görünümü eşlemesine sahip görseller `"supportsHighlight": true` parametresi ile birlikte `capabilities.json` içerir. Örneğin:
 
 ```json
 {
@@ -275,7 +275,7 @@ Sonuç olarak, görselin aşağıdaki görünümünü elde etmeniz gerekir.
 
 ## <a name="highlight-data-points-with-matrix-data-view-mapping"></a>Matris veri görünümü eşlemesi ile veri noktalarını vurgulama
 
-Matris veri görünümü eşlemesine sahip görseller `"supportsHighlight": true` parametresiyle birlikte `capabilities.json` içerir. Örnek:
+Matris veri görünümü eşlemesine sahip görseller `"supportsHighlight": true` parametresiyle birlikte `capabilities.json` içerir. Örneğin:
 
 ```json
 {

@@ -8,21 +8,21 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 06/26/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7a85021ee1931b2d5f7c247d7caa4c2813f86a8c
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: 1069a000daf3f46055f45118f4442e4b19037234
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621614"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926720"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI panolarını ve raporları iş arkadaşlarıyla ve diğer kullanıcılarla paylaşma
 *Paylaşım*, başkalarına Power BI hizmetindeki pano ve raporlarınıza erişim vermenin en kolay yoludur. Kuruluşunuz hem içindeki hem de dışındaki kişilerle paylaşabilirsiniz.
 
 Bir pano veya raporu paylaştığınızda, paylaştığınız kişiler panoyu görüntüleyebilir ve panoyla etkileşim kurabilir ancak panoyu düzenleyemez. Temeldeki veri kümesine satır düzeyi güvenlik (RLS) uygulanmadığı sürece, sizin pano ve raporlarda gördüğünüz verilerin aynısını görürler ve veri kümesinin tamamına erişim elde ederler.  Paylaşımda bulunduğunuz iş arkadaşlarınız, izin vermeniz durumunda panoyu veya raporu kendi iş arkadaşlarıyla da paylaşabilir. Kuruluşunuz dışındaki kişiler panoyu ya da raporu görüntüleyebilir ve bunlarla etkileşim kurabilir ancak paylaşamaz. 
 
-![Bir pano listesindeki Paylaş simgesi](media/service-share-dashboards/power-bi-share-new-look.png)
+![Rapor için paylaşma simgesi](media/service-share-dashboards/power-bi-share-new-look.png)
 
 Panoları ve raporları Power BI hizmetindeki pek çok yerden paylaşabilirsiniz: Sık Kullanılanlar, En Son, Çalışma Alanım. Çalışma alanında [Yönetici, Üye veya Katkıda Bulunan rolüne](service-new-workspaces.md#roles-in-the-new-workspaces) sahipseniz, diğer çalışma alanlarından da paylaşabilirsiniz. Sahibi izin veriyorsa Benimle paylaşılanlar bölümündeki panoları ve raporları da paylaşabilirsiniz. 
 

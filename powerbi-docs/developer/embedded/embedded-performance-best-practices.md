@@ -1,6 +1,6 @@
 ---
-title: Performans açısından en iyi Power BI Embedded yöntemleri
-description: Bu makalede en iyi tümleşik analiz yöntemlerine yönelik rehberlik sağlanır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizleri performansı en iyi deneyimleri
+description: Bu makalede Power BI tümleşik analizleri en iyi deneyimlerine yönelik rehberlik sunulmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f8bf41ae9a4b6f2e16aae2c05df8fa4448a0457c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746689"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888800"
 ---
-# <a name="power-bi-embedded-performance-best-practices"></a>Performans açısından en iyi Power BI Embedded yöntemleri
+# <a name="power-bi-embedded-analytics-performance-best-practices"></a>Power BI tümleşik analizleri performansı en iyi deneyimleri
 
 Bu makalede uygulamanızdaki raporları, panoları ve kutucukları daha hızlı işlemeye yönelik öneriler sağlanır.
 
@@ -65,7 +65,7 @@ Power BI Premium kapasitesi veya Power BI Embedded kapasitesi ile kuruluşlar bi
 
 Son kullanıcı performansını iyileştirmek için `powerbi.preload()` kullanın. `powerbi.preload()` yöntemi, daha sonra raporu ekleme amacıyla kullanılacak JavaScript kodlarını, css dosyalarını ve diğer yapıtları indirir.
 
-Raporu hemen eklemiyorsanız `powerbi.preload()` çağrısı yapın. Örneğin, Power BI Embedded içeriği giriş sayfasında görünmezse, içeriği eklemek için kullanılan yapıtları indirmek ve önbelleğe almak için `powerbi.preload()` kullanın.
+Raporu hemen eklemiyorsanız `powerbi.preload()` çağrısı yapın. Örneğin, tümleşik Power BI içeriği ana sayfada görünmezse, içerik eklemek için kullanılan yapıtları indirmek ve önbelleğe almak için `powerbi.preload()` kullanın.
 
 ## <a name="bootstrapping-the-iframe"></a>Iframe'i önyükleme
 
@@ -107,5 +107,5 @@ Performans Analizi, rapor öğelerinizin her birinin nasıl performans gösterdi
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Power BI iyileştirme kılavuzu](../../guidance/power-bi-optimization.md)
-* [Power BI Embedded sorunlarını giderme](embedded-troubleshoot.md)
-* [Power BI Embedded SSS](embedded-faq.md)
+* [Power BI tümleşik analiz sorunlarını giderme](embedded-troubleshoot.md)
+* [Power BI tümleşik analizleri SSS](embedded-faq.md)

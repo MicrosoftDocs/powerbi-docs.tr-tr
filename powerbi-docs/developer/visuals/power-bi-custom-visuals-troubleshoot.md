@@ -1,6 +1,6 @@
 ---
-title: Power BI görsellerini geliştirme sorunlarını giderme
-description: Bu makalede, özel Power BI görseli geliştirme veya oluşturma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanır.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI görselleri oluşturma sorunlarını giderme
+description: Bu makalede, özel Power BI görseli geliştirme veya oluşturma sırasında karşılaşabileceğiniz bazı yaygın sorunlar açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: troubleshooting
 ms.date: 11/06/2018
-ms.openlocfilehash: fda4bbddb2f0b1a878e0ddf85f31795405c66331
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 440bb6648dca1eaa85b697a10e9fd41180c66d7e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417164"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888110"
 ---
 # <a name="troubleshoot-power-bi-visuals"></a>Power BI görselleriyle ilgili sorunları giderme
 
-## <a name="debug"></a>Hata Ayıklama
+## <a name="debug"></a>Hata ayıklama
 
 **Pbiviz komutunun bulanamaması (veya benzer hatalar)**
 

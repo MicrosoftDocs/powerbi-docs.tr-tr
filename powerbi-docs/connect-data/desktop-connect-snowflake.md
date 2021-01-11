@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 115fba44c69fceb3a4f309cd92358ef5bc2eff42
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 00f78fef9f1abd11d7c553009db5541822c59c85
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405756"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926368"
 ---
-# <a name="connect-to-a-snowflake-computing-warehouse-in-power-bi-desktop"></a>Power BI Desktop'ta bir Snowflake bilgi işlem ambarına bağlanma
+# <a name="connect-to-snowflake-in-power-bi-desktop"></a>Power BI Desktop'ta Snowflake'e bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **Snowflake** bilgi işlem ambarına bağlanabilir ve temel alınan verileri kullanabilirsiniz. 
 
 ## <a name="connect-to-a-snowflake-computing-warehouse"></a>Bir Snowflake bilgi işlem ambarına bağlanma
@@ -33,7 +33,7 @@ Açılan **Snowflake** penceresindeki kutuya Snowflake bilgi işlem ambarınız�
 ![Kullanıcı Adı ve Parola alanlarını gösteren Snowflake kimlik bilgileri isteminin ekran görüntüsü.](media/desktop-connect-snowflake/connect-snowflake-4.png)
 
 > [!NOTE]
-> Belirli bir **Snowflake** sunucusu için kullanıcı adı ve parolanızı girdiğinizde Power BI Desktop, sonraki bağlantı denemelerinde de aynı kimlik bilgilerini kullanır. **Dosya > Seçenekler ve ayarlar > Veri kaynağı ayarları**'na giderek bu kimlik bilgilerini değiştirebilirsiniz.
+> Belirli bir **Snowflake** sunucusu için kullanıcı adı ve parola girildikten sonra, Power BI Desktop bu kimlik bilgilerini sonraki bağlanma denemelerinde de kullanır. **Dosya > Seçenekler ve ayarlar > Veri kaynağı ayarları**'na giderek bu kimlik bilgilerini değiştirebilirsiniz.
 > 
 > 
 

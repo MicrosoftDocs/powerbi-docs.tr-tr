@@ -1,6 +1,6 @@
 ---
-title: Power BI görsel projeleri için birim testlerine giriş
-description: Bu makalede Power BI görsel projeleri için birim testlerinin nasıl yazıldığı açıklanır
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerindeki Power BI görsel projelerine yönelik ünite testlerine giriş
+description: Bu makalede Power BI görsel projeleri için ünite testlerinin nasıl yazılacağı açıklanmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 996e409e634292ca0767f34c49931cfbcdcd4b94
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ee7ed48043a902a9b5ebd3c548ebec7505e76ab1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379585"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887926"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Öğretici: Power BI görsel projeleri için birim testleri ekleme
 
@@ -251,23 +251,23 @@ Gerekirse bu yapılandırmayı değiştirebilirsiniz.
 
 *Karma.conf.js* dosyasındaki kod aşağıdaki değişkenleri içerir:
 
-* `recursivePathToTests` Test kodunu bulur
+* `recursivePathToTests`: Test kodunu bulur
 
-* `srcRecursivePath` Derleme sonrasında çıkış JavaScript kodunu bulur
+* `srcRecursivePath`: Derleme sonrasında çıkış JavaScript kodunu bulur
 
-* `srcCssRecursivePath` Stillerle daha az dosya derlendikten sonra çıkış CSS’yi bulur
+* `srcCssRecursivePath`: Stillerle daha az dosya derlendikten sonra çıkış CSS’yi bulur
 
-* `srcOriginalRecursivePath` Görselinizin kaynak kodunu bulur
+* `srcOriginalRecursivePath`: Görselinizin kaynak kodunu bulur
 
-* `coverageFolder` Kapsam raporunun nerede oluşturulacağını belirler
+* `coverageFolder`: Kapsam raporunun nerede oluşturulacağını belirler
 
 Yapılandırma dosyası aşağıdaki özellikleri içerir:
 
-* `singleRun: true` Testler sürekli tümleştirme (CI) sisteminde çalıştırılır veya tek bir kez çalıştırılabilir. Testlerinizde hata ayıklaması yapmak için ayarı *false* olarak değiştirebilirsiniz. Karma tarayıcıyı çalışır durumda tuttuğundan hata ayıklaması için konsolu kullanabilirsiniz.
+* `singleRun: true`: Testler sürekli tümleştirme (CI) sisteminde çalıştırılır veya tek bir kez çalıştırılabilir. Testlerinizde hata ayıklaması yapmak için ayarı *false* olarak değiştirebilirsiniz. Karma tarayıcıyı çalışır durumda tuttuğundan hata ayıklaması için konsolu kullanabilirsiniz.
 
-* `files: [...]` Bu dizide tarayıcıya yüklenecek dosyaları belirtebilirsiniz. Genellikle kaynak dosyalar, test çalışmaları ve kitaplıklar (Jasmine, test yardımcı programları) vardır. Gerekirse listeye başka dosyalar ekleyebilirsiniz.
+* `files: [...]`: Bu dizide tarayıcıya yüklenecek dosyaları belirtebilirsiniz. Genellikle kaynak dosyalar, test çalışmaları ve kitaplıklar (Jasmine, test yardımcı programları) vardır. Gerekirse listeye başka dosyalar ekleyebilirsiniz.
 
-* `preprocessors` Bu bölümde birim testlerinden önce çalıştırılan eylemleri yapılandıracaksınız. Typescript’in JavaScript’e ön derlemesini yapar, kaynak eşleme dosyalarını hazırlar ve kod kapsamı raporunu oluştururlar. Testlerinizde hata ayıklaması yaparken `coverage` devre dışı bırakılabilir. Kapsam, test kapsamının denetim kodu için ek kod oluşturduğundan hata ayıklama testlerini karmaşıklaştırır.
+* `preprocessors`: Bu bölümde birim testlerinden önce çalıştırılan eylemleri yapılandıracaksınız. Typescript’in JavaScript’e ön derlemesini yapar, kaynak eşleme dosyalarını hazırlar ve kod kapsamı raporunu oluştururlar. Testlerinizde hata ayıklaması yaparken `coverage` devre dışı bırakılabilir. Kapsam, test kapsamının denetim kodu için ek kod oluşturduğundan hata ayıklama testlerini karmaşıklaştırır.
 
 Tüm Karma yapılandırmalarının açıklamaları için [Karma Yapılandırma Dosyası](https://karma-runner.github.io/1.0/config/configuration-file.html) sayfasına gidin.
 
@@ -361,13 +361,13 @@ describe("BarChart", () => {
 
 * [`describe`](https://jasmine.github.io/api/2.6/global.html#describe): Test çalışmasını açıklar. Jasmine çerçevesi bağlamında genellikle bir belirtim paketini veya grubunu açıklar.
 
-* `beforeEach` [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) yönteminde tanımlanan her `it` yöntemi çağrısından önce çağrılır.
+* `beforeEach`: [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach) yönteminde tanımlanan her `it` yöntemi çağrısından önce çağrılır.
 
 * [`it`](https://jasmine.github.io/api/2.6/global.html#it): Tek bir belirtimi tanımlar. `it` yöntemi bir veya birden fazla `expectations` içermelidir.
 
 * [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): Belirtim için bir beklenti oluşturur. Tüm beklentiler hiçbir hata olmadan geçerse belirtim başarılı olur.
 
-* `toBeInDOM` *Eşleştirici* yöntemlerinden biri. Eşleştiriciler hakkında daha fazla bilgi için bkz. [Jasmine Ad Alanı: eşleştiriciler](https://jasmine.github.io/api/2.6/matchers.html).
+* `toBeInDOM`: *Eşleştirici* yöntemlerinden biri. Eşleştiriciler hakkında daha fazla bilgi için bkz. [Jasmine Ad Alanı: eşleştiriciler](https://jasmine.github.io/api/2.6/matchers.html).
 
 Jasmine hakkında daha fazla bilgi için bkz. [Jasmine çerçevesi belgeleri](https://jasmine.github.io/) sayfası.
 
@@ -565,7 +565,7 @@ Bu paketleri bağımlılıklara ekleyin.
 "powerbi-visuals-utils-testutils": "2.2.0"
 ```
 
-Çağır
+Call
 
 ```cmd
 npm install

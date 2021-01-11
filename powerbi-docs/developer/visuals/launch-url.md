@@ -1,6 +1,6 @@
 ---
-title: Başlatma URL’si oluşturma
-description: Bu makalede Power BI Görselleri’ni kullanarak URL’nin yeni sekmede nasıl açılabileceği açıklanır.
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerinde bir başlatma URL’si oluşturma
+description: Bu makalede Power BI Görselleri’ni kullanarak URL’nin yeni sekmede nasıl açılabileceği açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7e398354ab069bb02554c94312909c0ed835d027
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6fe9908c324705b8cb00519b4743ae8c052c7ad8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379800"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888317"
 ---
 # <a name="create-a-launch-url"></a>Başlatma URL’si oluşturma
 
@@ -57,7 +57,7 @@ this.host.launchUrl('https://some.link.net');
 
 * Şu anda yalnızca *HTTP* ve *HTTPS* protokolleri desteklenir. *FTP* ve *MAILTO* gibi protokolleri kullanmaktan kaçının.
 
-## <a name="best-practices"></a>En iyi yöntemler
+## <a name="best-practices"></a>En iyi uygulamalar
 
 * Çoğunlukla bağlantıyı yalnızca bir kullanıcının açık eylemine yanıt olarak açmak en iyisidir. Kullanıcının, bağlantıya veya düğmeye tıklandığında yeni bir sekme açılacağını anlamasını kolaylaştırın. Kullanıcının eylemi olmadan bir `launchUrl()` çağrısını tetikleme veya farklı bir eylemin yan etkisi olarak kullanıcının kafasını karıştırabilir veya sinir bozucu olabilir.
 

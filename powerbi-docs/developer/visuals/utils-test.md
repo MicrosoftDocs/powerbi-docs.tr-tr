@@ -1,6 +1,6 @@
 ---
-title: Power BI görselinde yardımcı test programları kullanımına giriş
-description: Bu makalede, Power BI görselleri için sahte uygulamaların ve birim testinde belirli yöntemlerin kullanımını basitleştirmek için test yardımcı programlarının nasıl kullanılacağı açıklanmaktadır
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerindeki Power BI görselinde test yardımcı programlarının kullanımına giriş
+description: Bu makalede, Power BI görselleri için sahte uygulamaların ve ünite testinde belirli yöntemlerin kullanımını basitleştirmek için test yardımcı programlarının nasıl kullanılacağı açıklanmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/14/2020
-ms.openlocfilehash: c50ad894b2e1f5eb838abdd4442f473f8bcbbb10
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4b2a846f4905c4cb28fe92043cf3c71750b40f11
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196618"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888064"
 ---
 # <a name="power-bi-visuals-test-utils"></a>Power BI görselleri test yardımcı programları
 

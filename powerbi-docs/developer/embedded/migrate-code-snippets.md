@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded'dan içerik geçişi için kod parçacıkları
-description: Burada içerik geçişi için gereken temel işlemlere ilişkin bazı kod parçacıklarına yer verilmiştir
+title: Daha iyi tümleşik BI içgörüleri için, içeriği Çalışma Alanı Koleksiyonundan Power BI tümleşik analizleri Power BI Embedded çözümüne geçirmeye yönelik kod parçacıkları
+description: Burada içerik geçişi için gereken temel işlemlere ilişkin bazı kod parçacıklarına yer verilmiştir. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9ed021ce95fd1e978916c188c93ca77fa88ccdb6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f6b6023ac77d007b07662e200d6f165d56d67628
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416520"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888731"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonundan içerik geçirmek için kod parçacıkları
 
@@ -231,7 +231,7 @@ Bu kod parçacığında gönderilebilen veri kümesinin SaaS ortamındaki bir ç
 
 [Power BI Embedded geçiş aracı](migrate-tool.md)  
 [Power BI ile ekleme](embedding.md)  
-[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a taşıma](migrate-from-powerbi-embedded.md)  
+[Power BI Embedded çalışma alanı koleksiyon içeriğini Power BI'a geçirme](migrate-from-powerbi-embedded.md)  
 [Power BI panolarınızı, raporlarınızı ve kutucuklarınızı ekleme](embed-sample-for-your-organization.md)  
 [Power BI Premium nedir?](../../admin/service-premium-what-is.md)  
 [JavaScript API'si Git deposu](https://github.com/Microsoft/PowerBI-JavaScript)  

@@ -1,6 +1,6 @@
 ---
-title: Mobil geliştirme
-description: Mobil cihazlarda kullanımı kolay Power BI görselleri oluşturma
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde mobil geliştirme
+description: Mobil cihazlarda kullanımı kolay Power BI görselleri oluşturma. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 63d2366f91398878af231c8dbb6ed07e8e623a03
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049304"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885557"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>Mobil cihazlarda kullanımı kolay Power BI görselleri oluşturma
 Mobil kullanımın Power BI’da önemli bir rolü vardır. Güçlü yönlerinden biri, verilerinize her yerde ve her zaman bağlı kalmasıdır.

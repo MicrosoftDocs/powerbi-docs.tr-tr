@@ -1,6 +1,6 @@
 ---
-title: Power BI veri modeli sürümü oluşturma
-description: OData Hizmeti tarafından uygulanan Veri Modeli
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerinde Power BI veri modeli sürümü oluşturma
+description: Bir OData Hizmeti tarafından kullanıma sunulan Veri Modeli. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d8ab94bd33aa2f0674f6dc45a93da0d2f42b1647
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0c645774f7af1a8575ca3c755a74fd65b652031a
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749319"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887719"
 ---
 # <a name="data-model-versioning"></a>Veri Modeli sürümü oluşturma
 
@@ -32,9 +32,9 @@ Aşağıdaki Veri Modeli eklemeleri güvenli kabul edilir ve giriş noktasında 
 * Tür tanımı veya sabit listesi ekleme  
 * Model öğesine, hizmetle doğru etkileşim kurmak için istemci tarafından anlaşılması gerekmeyen açıklamalar ekleme  
   
-Modelde böyle artımlı değişiklikler yapabilmek için istemcilerin hizmetlere hazırlanması ***GEREKİR***. Özellikle, istemciler daha önce hizmet tarafından tanımlanmamış özellikleri ve türetilmiş türleri almaya hazırlanmalıdır.  
+İstemciler hizmetlerin modellerinde artımlı değişiklikler yapmasına hazır ***OLMALIDIR** _. Özellikle, istemciler daha önce hizmet tarafından tanımlanmamış özellikleri ve türetilmiş türleri almaya hazırlanmalıdır.  
   
-Hizmetlerin kimliği doğrulanmış kullanıcıya göre veri modellerini değiştirmemeleri ***GEREKİR***. Veri modeli kullanıcıya veya kullanıcı grubuna bağımlı olursa, tam model ile sınırlı yetkilendirmeye sahip kullanıcılara gösterilen model karşılaştırıldığında tüm değişiklikler güvenlik değişiklik OLMALIDIR.  
+Hizmetlerin veri modellerini kimliği doğrulanan kullanıcıya göre _ *_DEĞİŞTİRMEMELERİ_* gerekir*. Veri modeli kullanıcıya veya kullanıcı grubuna bağımlı olursa, tam model ile sınırlı yetkilendirmeye sahip kullanıcılara gösterilen model karşılaştırıldığında tüm değişiklikler güvenlik değişiklik OLMALIDIR.  
   
 OData Veri Modeli standartları hakkında daha fazla bilgi için bkz. [OData Version 4.0 Part 1: Protocol Plus Errata 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
   

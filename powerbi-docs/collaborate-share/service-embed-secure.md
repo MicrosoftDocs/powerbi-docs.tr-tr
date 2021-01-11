@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 04/27/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: a7f8c6d52acff8cbaaa00004448a3fae300afb9b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cf056581c7c1f472e1e7ce20baf3d7afd8815bda
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411920"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886030"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Raporu güvenli bir portala veya web sitesine ekleme
 
@@ -26,11 +26,11 @@ Power BI raporları için güvenli **Ekleme** özelliğiyle, raporları dahili w
 
 1. Power BI hizmetinde bir raporu açın.
 
-2. **Diğer seçenekler (...)** menüsünde **Ekle** >  **Web sitesi veya portal**’ı seçin.
+2. **Paylaşma** menüsünde **Rapor ekle** >  **Web sitesi veya porta**'ı seçin.
 
     ![Web sitesi veya portal seçeneği](media/service-embed-secure/power-bi-more-options-website.png)
 
-2. Raporu güvenle eklemek için kullanabileceğiniz bir bağlantı ve iFrame sağlayan iletişim kutusunu açmak için **Ekle** seçeneğini belirtin.
+2. **Güvenli ekleme kodu** iletişim kutusunda **bu içeriği eklemek için kullanabileceğiniz bağlantıyı** veya bir iFrame ile **blog ya da Web sitenize yapıştırabileceğiniz HTML kodunu** seçin.
 
     ![Ekle seçeneği iletişim kutusu](media/service-embed-secure/secure-embed-code-dialog.png)
 

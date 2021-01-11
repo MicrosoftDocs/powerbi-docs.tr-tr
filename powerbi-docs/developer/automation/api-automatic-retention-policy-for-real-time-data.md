@@ -1,6 +1,6 @@
 ---
-title: Gerçek zamanlı veriler için otomatik saklama ilkesi kullanan Power BI API'leri
-description: Power BI hizmetindeki otomatik saklama ilkesi hakkında daha fazla bilgi edinin
+title: Daha iyi tümleşik BI içgörüleri sağlayan, gerçek zamanlı veriler için otomatik saklama ilkesi kullanan Power BI tümleşik analiz API'leri
+description: Power BI hizmetindeki otomatik saklama ilkesi hakkında daha fazla bilgi edinin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: b36a5f819ba39d5a77dafc670e440f3577014570
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 81c975332abc4cb599a7172f1697c1b06ea34eba
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635137"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887742"
 ---
 # <a name="automatic-retention-policy-for-real-time-data"></a>Gerçek zamanlı veriler için otomatik elde tutma ilkesi
 

@@ -1,6 +1,6 @@
 ---
-title: Power BI görsellerinde olayları işleme
-description: Power BI görselleri, PowerPoint’e veya PDF’ye dışarı aktarmak için hazır olduklarını Power BI’a bildirebilir.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizleri Power BI görsellerinde olayları işleme
+description: Power BI görselleri, PowerPoint’e veya PDF’ye dışarı aktarmak için hazır olduklarını Power BI’a bildirebilir. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: c54aaa92f3463ce1102866c8d3b69532c8b25cf7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 77ed686b78a96717193e594e9f846d4204d8b5e8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380261"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885097"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>Power BI görsellerinde olayları işleme
 

@@ -1,6 +1,6 @@
 ---
-title: Detaya gitme desteği ekleme
-description: Bu makalede Power BI görsellerine detaya gitme desteği ekleme işlemi açıklanır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerine Detaya Gitme desteği ekleme
+description: Bu makalede Power BI görsellerine detaya gitme desteği ekleme işlemi anlatılmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 602c13964e5364f9d21ec4e761fd42ea8d3e85f7
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 40c8d7f362ca461b4295507c0ddff8db4bcc3509
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514137"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885488"
 ---
 # <a name="add-drill-down-support"></a>Detaya gitme desteği ekleme
 

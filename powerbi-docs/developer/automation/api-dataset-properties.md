@@ -1,6 +1,6 @@
 ---
-title: Power BI veri kümesi özellikleri
-description: Power BI veri kümesi API'lerinin özellikleri hakkında bilgi edinin
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI veri kümesi özellikleri
+description: Power BI veri kümesi API'lerinin özellikleri hakkında bilgi edinin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: e0092003cbf019bcf720eeb7aa32e8a9e800f143
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: b4bd173c2f3730a0a6082214afbfdf5760048102
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747310"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887696"
 ---
 # <a name="dataset-properties"></a>Veri kümesi özellikleri
 
@@ -24,54 +24,54 @@ Veri kümesi API'sinin geçerli v1 sürümü, veri kümesinin yalnızca bir ad v
 
 ## <a name="dataset"></a>Veri kümesi
 
-Adı  |Tür  |Açıklama  |Salt Okunur  |Gerekli
+Ad  |Tür  |Description  |Salt Okunur  |Gerekli
 ---------|---------|---------|---------|---------
-id     |  Guid       | Veri kümesi için sistem genelinde benzersiz tanımlayıcı.        | True        | False        
-ad     | Dize        | Veri kümesinin kullanıcı tanımlı adı.        | False        | True        
-tablolar     | Table[]        | Tablo koleksiyonu.        |  False       | False        
-ilişkiler     | Relationship[]        | Tablolar arasında ilişki koleksiyonu.        | False        |  False  
-defaultMode     | Dize        | "Push" ve "Streaming" değerleriyle veri kümesinin gönderildiğini, akıtıldığını veya her ikisinin de yapıldığını belirler.         | False        |  False
+kimlik     |  Guid       | Veri kümesi için sistem genelinde benzersiz tanımlayıcı.        | Doğru        | Yanlış        
+name     | Dize        | Veri kümesinin kullanıcı tanımlı adı.        | Yanlış        | Doğru        
+tablolarda     | Table[]        | Tablo koleksiyonu.        |  False       | Yanlış        
+ilişkiler     | Relationship[]        | Tablolar arasında ilişki koleksiyonu.        | False        |  Yanlış  
+defaultMode     | Dize        | "Push" ve "Streaming" değerleriyle veri kümesinin gönderildiğini, akıtıldığını veya her ikisinin de yapıldığını belirler.         | False        |  Yanlış
 
-## <a name="table"></a>Table
+## <a name="table"></a>Tablo
 
-Adı  |Tür  |Açıklama  |Salt Okunur  |Gerekli
+Ad  |Tür  |Description  |Salt Okunur  |Gerekli
 ---------|---------|---------|---------|---------
-ad     | Dize        |  Tablonun kullanıcı tanımlı adı. Ayrıca tablonun tanımlayıcısı olarak da kullanılır.       | False        |  True       
-sütunlar     |  column[]       |  Sütun koleksiyonu.       | False        |  True       
-ölçüler     | measure[]        |  Ölçü koleksiyonu.       | False        |  False       
-isHidden     | Boole        | Doğru olduğunda, tablo istemci araçlarından gizlenir.        | False        | False        
+name     | Dize        |  Tablonun kullanıcı tanımlı adı. Ayrıca tablonun tanımlayıcısı olarak da kullanılır.       | Yanlış        |  Doğru       
+sütunlar     |  column[]       |  Sütun koleksiyonu.       | Yanlış        |  Doğru       
+ölçüler     | measure[]        |  Ölçü koleksiyonu.       | False        |  Yanlış       
+isHidden     | Boole        | Doğru olduğunda, tablo istemci araçlarından gizlenir.        | False        | Yanlış        
 
 ## <a name="column"></a>Sütun
 
-Adı  |Tür  |Açıklama  |Salt Okunur  |Gerekli
+Ad  |Tür  |Description  |Salt Okunur  |Gerekli
 ---------|---------|---------|---------|---------
-ad     |  Dize        | Sütunun kullanıcı tanımlı adı.        |  False       | True       
-dataType     |  Dize       |  Desteklenen [EDM veri türleri](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types) ve kısıtlamalar. Bkz. [Veri türü kısıtlamaları](#data-type-restrictions).      |  False       | True        
-formatString     | Dize        | Değerin görüntülenirken nasıl biçimlendirilmesi gerektiğini açıklayan bir dize. Dize biçimlendirmesi hakkında daha fazla bilgi edinmek için bkz. [FORMAT_STRING İçeriği](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).      | False        | False        
-sortByColumn    | Dize        |   Geçerli sütunu sıralamak için kullanılacak, aynı tablodaki bir sütunun dize adı.     | False        | False       
-dataCategory     | Dize        |  Bu sütun içindeki verileri açıklayan, veri kategorisi için kullanılacak dize değeri. Bazı yaygın değerler şunlardır: Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl       |  False       | False        
-isHidden    |  Boole       |  Sütunun görünümden gizlenip gizlenmeyeceğini belirten özellik. Varsayılan değer false’tur.       | False        | False        
-summarizeBy     | Dize        |  Sütun için varsayılan toplama yöntemi. Değerler şunlardır: default, none, sum, min, max, count, average, distinctCount     |  False       | False
+name     |  Dize        | Sütunun kullanıcı tanımlı adı.        |  Yanlış       | Doğru       
+dataType     |  Dize       |  Desteklenen [EDM veri türleri](/dotnet/framework/data/adonet/entity-data-model-primitive-data-types) ve kısıtlamalar. Bkz. [Veri türü kısıtlamaları](#data-type-restrictions).      |  Yanlış       | Doğru        
+formatString     | Dize        | Değerin görüntülenirken nasıl biçimlendirilmesi gerektiğini açıklayan bir dize. Dize biçimlendirmesi hakkında daha fazla bilgi edinmek için bkz. [FORMAT_STRING İçeriği](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).      | False        | Yanlış        
+sortByColumn    | Dize        |   Geçerli sütunu sıralamak için kullanılacak, aynı tablodaki bir sütunun dize adı.     | False        | Yanlış       
+dataCategory     | Dize        |  Bu sütun içindeki verileri açıklayan, veri kategorisi için kullanılacak dize değeri. Bazı yaygın değerler şunlardır: Address, City, Continent, Country, Image, ImageUrl, Latitude, Longitude, Organization, Place, PostalCode, StateOrProvince, WebUrl       |  False       | Yanlış        
+isHidden    |  Boole       |  Sütunun görünümden gizlenip gizlenmeyeceğini belirten özellik. Varsayılan değer false’tur.       | False        | Yanlış        
+summarizeBy     | Dize        |  Sütun için varsayılan toplama yöntemi. Değerler şunlardır: default, none, sum, min, max, count, average, distinctCount     |  False       | Yanlış
 
-## <a name="measure"></a>Measure
+## <a name="measure"></a>Ölçü
 
-Adı  |Tür  |Açıklama  |Salt Okunur  |Gerekli
+Ad  |Tür  |Description  |Salt Okunur  |Gerekli
 ---------|---------|---------|---------|---------
-ad     | Dize        |  Ölçünün kullanıcı tanımlı adı.       |  False       | True        
-ifade     | Dize        | Geçerli bir DAX ifadesi.        | False        |  True       
-formatString     | Dize        |  Değerin görüntülenirken nasıl biçimlendirilmesi gerektiğini açıklayan bir dize. Dize biçimlendirmesi hakkında daha fazla bilgi edinmek için bkz. [FORMAT_STRING İçeriği](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).       | False        | False        
-isHidden     | Dize        |  Doğru olduğunda, tablo istemci araçlarından gizlenir.       |  False       | False       
+name     | Dize        |  Ölçünün kullanıcı tanımlı adı.       |  Yanlış       | Doğru        
+ifade     | Dize        | Geçerli bir DAX ifadesi.        | Yanlış        |  Doğru       
+formatString     | Dize        |  Değerin görüntülenirken nasıl biçimlendirilmesi gerektiğini açıklayan bir dize. Dize biçimlendirmesi hakkında daha fazla bilgi edinmek için bkz. [FORMAT_STRING İçeriği](/analysis-services/multidimensional-models/mdx/mdx-cell-properties-format-string-contents).       | False        | Yanlış        
+isHidden     | Dize        |  Doğru olduğunda, tablo istemci araçlarından gizlenir.       |  False       | Yanlış       
 
 ## <a name="relationship"></a>İlişki
 
-Adı  |Tür  |Açıklama  |Salt Okunur  |Gerekli 
+Ad  |Tür  |Description  |Salt Okunur  |Gerekli 
 ---------|---------|---------|---------|---------
-ad     | Dize        | İlişkinin kullanıcı tanımlı adı. Ayrıca ilişkinin tanımlayıcısı olarak da kullanılır.        | False       | True        
-crossFilteringBehavior     | Dize        |    İlişkinin filtre yönü: OneDirection (varsayılan), BothDirections, Automatic       | False        | False        
-fromTable     | Dize        | Yabancı anahtar tablosunun adı.        | False        | True         
-fromColumn    | Dize        | Yabancı anahtar sütununun adı.        | False        | True         
-toTable    | Dize        | Birincil anahtar tablosunun adı.        | False        | True         
-toColumn     | Dize        | Birincil anahtar sütununun adı.        | False        | True        
+name     | Dize        | İlişkinin kullanıcı tanımlı adı. Ayrıca ilişkinin tanımlayıcısı olarak da kullanılır.        | Yanlış       | Doğru        
+crossFilteringBehavior     | Dize        |    İlişkinin filtre yönü: OneDirection (varsayılan), BothDirections, Automatic       | False        | Yanlış        
+fromTable     | Dize        | Yabancı anahtar tablosunun adı.        | Yanlış        | Doğru         
+fromColumn    | Dize        | Yabancı anahtar sütununun adı.        | Yanlış        | Doğru         
+toTable    | Dize        | Birincil anahtar tablosunun adı.        | Yanlış        | Doğru         
+toColumn     | Dize        | Birincil anahtar sütununun adı.        | Yanlış        | Doğru        
 
 ## <a name="data-type-restrictions"></a>Veri türü kısıtlamaları
 
@@ -82,7 +82,7 @@ Veri türü  |Kısıtlamalar
 Int64     |   Int64.MaxValue ve Int64.MinValue değerlerine izin verilmez.      
 Çift     |  Double.MaxValue ve Double.MinValue değerlerine izin verilmez. NaN desteklenmez. +Infinity ve -Infinity bazı işlevlerde (ör. Min, Maks) desteklenmez.       
 Boole     |   Doğru veya Yanlış.
-Tarih Saat    |   Veri yüklemesi sırasında, gün kesitleri içeren değerleri 1/300 saniyenin (3,33 ms) tam katları olarak nicelendiririz.      
+Tarih saat    |   Veri yüklemesi sırasında, gün kesitleri içeren değerleri 1/300 saniyenin (3,33 ms) tam katları olarak nicelendiririz.      
 Dize     |  Şu anda dize değeri başına en çok 4000 karaktere izin verilir.
 Ondalık|precision=28, scale=4
 

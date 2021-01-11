@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded'da Soru-Cevap
-description: Power BI Embedded, Soru-Cevap özelliğini uygulamaya eklemenizi ve kullanıcılarınıza doğal dil kullanarak soru sorma olanağı vermenizi sağlayan bir yöntem sunar.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Soru-Cevap
+description: Power BI Embedded, bir uygulamaya Soru-Cevap özelliği eklemenizi ve kullanıcılarınıza doğal dili kullanarak soru sorma olanağı tanımanızı sağlayan bir yöntem sunmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 11/20/2017
-ms.openlocfilehash: 0106cc9ddb0e82a7b40e362342fce5196ef655c5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 43e886e6472c6d95b900ccdb5c2e73b8dca3d4a0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749288"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886615"
 ---
-# <a name="qa-in-power-bi-embedded"></a>Power BI Embedded'da Soru-Cevap
+# <a name="qa-in-power-bi-embedded-analytics"></a>Power BI tümleşik analizlerinde Soru-Cevap
 
-Power BI Embedded, Soru-Cevap özelliğini uygulamaya eklemenizi ve kullanıcılarınıza doğal dil kullanarak soru sorma ve tablo veya grafik gibi görsellerle anında cevap alma olanağı vermenizi sağlayan bir yöntem sunar.
+Power BI tümleşik analizleri, bir uygulamaya Soru-Cevap özelliği eklemeniz ve kullanıcılarınıza doğal dili kullanarak soru sorma ve çizelge veya grafik gibi görsel biçimlerde anında yanıt alma olanağı tanımanız için bir yöntem sunmaktadır.
 
 ![Ekli çerçevede Soru-Cevap ile etkileşimli soru](media/qanda/embedded-qanda.gif)
 

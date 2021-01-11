@@ -1,6 +1,6 @@
 ---
-title: Power BI ekli analiz uygulamanıza kuruluşunuz için sayfalandırılmış Power BI raporları ekleme
-description: Bu öğreticide Power BI API'lerini kullanarak bir Power BI sayfalandırılmış raporunu bir uygulamayla tümleştirmeyi veya eklemeyi öğreneceksiniz.
+title: Power BI tümleşik analiz uygulamanıza Power BI sayfalandırılmış raporları ekleyerek kuruluşunuz için daha iyi tümleşik BI içgörüleri sağlama
+description: Bu öğreticide Power BI API'lerini kullanarak bir Power BI sayfalandırılmış raporunu bir uygulamayla tümleştirmeyi veya eklemeyi öğreneceksiniz. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: cb739ab6fee67f08184f8c160c13c58be15d649c
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: d4ef44cb0e03c5de7807f0e95cefa532353f4685
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098456"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885189"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Öğretici: Uygulamaya kuruluşunuz için sayfalandırılmış Power BI raporları ekleme
 

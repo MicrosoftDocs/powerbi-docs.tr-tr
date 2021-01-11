@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 06/28/2020
-ms.openlocfilehash: 6a1f8a69db20d44fc814c7e63e4ad13ed5fc955c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/04/2021
+ms.openlocfilehash: e4d31a7bf83d4e94e2f3b71ca43924d468268f76
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407389"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888421"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>SharePoint Online’da rapor web bölümü ekleme
 
-Power BI'ın SharePoint Online'a yönelik yeni rapor web bölümü ile etkileşimli Power BI raporlarını SharePoint Online sayfalarına kolayca ekleyebilirsiniz.
+SharePoint Online için yeni Power BI raporu web bölümü ile SharePoint Online sayfalarına kolayca etkileşimli Power BI raporları ekleyebilirsiniz.
 
 Yeni **SharePoint Online'a ekle** seçeneğini kullandığınızda eklenen raporlar [satır düzeyinde güvenlik (RLS)](../admin/service-admin-rls.md) aracılığıyla tüm öğe izinlerini ve veri güvenliğini dikkate alır. Bu sayede güvenli iç portalları daha kolay bir şekilde oluşturabilirsiniz.
 
@@ -32,16 +32,16 @@ Yeni **SharePoint Online'a ekle** seçeneğini kullandığınızda eklenen rapor
 * Ekli bir raporu kullanmak için kullanıcıların Power BI hizmetinde oturum açarak Power BI lisanslarını etkinleştirmeleri gerekir.
 
 > [!Note]
-> Power BI ulusal bulutlarındaki kuruluşlar için ücretsiz lisans yoktur. Bu ortamda SharePoint'e eklenmiş olan rapora ulaşmak isteyen tüm kullanıcıların Power BI Pro lisansına sahip olması gerekir.
+> Power BI National bulutlarındaki kuruluşlar için ücretsiz lisans yoktur. Bu ortamda SharePoint'e eklenmiş olan rapora ulaşmak isteyen tüm kullanıcıların Power BI Pro lisansına sahip olması gerekir.
 
 ## <a name="embed-your-report"></a>Raporunuzu ekleme
 Raporunuzu SharePoint Online’a eklemek için rapor URL’sini alıp bunu SharePoint Online’ın Power BI web bölümüyle birlikte kullanın.
 
 ### <a name="get-a-report-url"></a>Bir rapor URL’si alma
 
-1. Raporu Power BI’da görüntüleyin.
+1. Power BI hizmetinde bir raporu açın.
 
-2. **Diğer seçenekler (...)** açılır menüsünde **Ekle** > **SharePoint Online**’ı seçin.
+2. **Paylaş** menüsünde **Rapor ekle** > **SharePoint Online**'ı seçin.
 
     ![Diğer seçenekler menüsü, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 

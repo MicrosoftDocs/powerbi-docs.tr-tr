@@ -1,6 +1,6 @@
 ---
-title: supportsMultiVisualSelection özelliği
-description: Bu makalede Power BI görsellerinde supportsMultiVisualSelection özelliğini kullanma adımları ve bu özelliğin gereksinimleri açıklanır.
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerindeki supportsMultiVisualSelection özelliği
+description: Bu makalede Power BI görsellerinde supportsMultiVisualSelection özelliğini kullanma adımları ve bu özelliğin gereksinimleri açıklanır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 091bdeb4eeb4c979ccf0e79476eb081895fae2e1
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 9e6b17a4576f2354a5cbecc0c3a965a5611784ee
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049419"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887949"
 ---
 # <a name="use-the-supportsmultivisualselection-feature"></a>supportsMultiVisualSelection özelliğini kullanma
 

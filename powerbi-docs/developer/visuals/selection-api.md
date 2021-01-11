@@ -1,6 +1,6 @@
 ---
-title: Power BI görseli veri noktası seçimleri
-description: Makalede Power BI görsellerine seçim ekleme işlemi açıklanır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI görsel veri noktası seçimleri
+description: Makalede Power BI görsellerine seçim ekleme anlatılmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 57f443ec11d918966c25b9d59a1656bb02983fbb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: db215195444827f9464e10f9cbb190e292099584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238044"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888340"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Power BI görsel seçimleriyle görsele etkileşim ekleme
 

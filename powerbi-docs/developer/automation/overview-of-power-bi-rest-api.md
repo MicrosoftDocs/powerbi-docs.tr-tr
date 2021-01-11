@@ -1,6 +1,6 @@
 ---
-title: Power BI API ile neler yapabilirim?
-description: Power BI API ile neler yapabilirim?
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI API'si ile neler yapabilirim?
+description: Power BI API'si ile neler yapabilirim? Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: fd9d9991b55ec6611504c96a30cb6383b8ac1296
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 122028b2ac838763318ab5a0c4e6208138d93188
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049281"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887627"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Geliştiriciler Power BI API ile neler yapabilir?
 

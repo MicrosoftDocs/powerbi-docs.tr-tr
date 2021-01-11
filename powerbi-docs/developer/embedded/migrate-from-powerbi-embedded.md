@@ -1,18 +1,18 @@
 ---
-title: Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI'a geçirme
-description: Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI tümleşik analizler Power BI Embedded çözümüne geçirme
+description: Power BI Çalışma Alanı Koleksiyonu hizmetinden Power BI Embedded hizmetine geçiş yapmayı ve uygulamalara içerik eklemeyle ilgili avantajlardan faydalanmayı öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: afff3023942352a25ff89fbed5f4a855b23d724d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a2e73ced427daa8aebf6b5c9836aa060d3591e3e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416566"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886385"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Power BI Çalışma Alanı Koleksiyonu içeriğini Power BI Embedded’e geçirme
 

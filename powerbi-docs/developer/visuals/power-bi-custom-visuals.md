@@ -1,6 +1,6 @@
 ---
-title: Power BI’daki görseller
-description: Bu makalede özel Power BI görselleri açıklanmaktadır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizindeki Power BI görselleri
+description: Bu makalede özel Power BI görselleri anlatılmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91c9115f7d9ca0eb15606fcd77f99070e949842e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 3d2e8f46605238a87eb23c32765f0a4ffaa02400
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416773"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888087"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI’daki görseller
 

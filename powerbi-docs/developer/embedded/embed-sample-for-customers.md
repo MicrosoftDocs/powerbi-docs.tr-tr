@@ -1,6 +1,6 @@
 ---
-title: Müşterileriniz için Power BI ekli analiz uygulamanızda içerik ekleme
-description: Power BI tümleşik analiz örneğine rapor, pano veya kutucuk eklemeyi öğrenin.
+title: Müşterilerinize daha iyi tümleşik BI içgörüleri sağlamak üzere Power BI tümleşik analiz uygulamanıza içerik ekleme
+description: Power BI tümleşik analiz örneğine rapor, pano veya kutucuk eklemeyi öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: 5417266658a493bc81da882761431aa3db072dbe
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: f6ca898bafff0b3375df65b63f913eb81d8dc006
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745128"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888961"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Öğretici: Örnek *müşterileriniz için ekleme* uygulamasını kullanarak Power BI içeriği ekleme
 

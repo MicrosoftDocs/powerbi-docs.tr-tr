@@ -1,6 +1,6 @@
 ---
-title: Azure portalında Power BI Embedded kapasitesi oluşturma | Microsoft Docs
-description: Bu makalede Microsoft Azure'da Power BI Embedded kapasitesi oluşturma adımları anlatılmaktadır.
+title: Power BI tümleşik analizleri tümleşik BI çözümünüz için Azure portalda Power BI Embedded kapasitesi oluşturma
+description: Bu makalede Power BI tümleşik analizleri tümleşik BI çözümünüz için Microsoft Azure'da bir Power BI Embedded kapasitesinin nasıl oluşturulacağı anlatılmaktadır.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 3ba075c33f689d76fb0c94aec09ed9fd309c718d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 898da0f5e4284183f2ffa08fba8e6a50d9474d15
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395153"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887535"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure portalda Power BI Embedded kapasitesi oluşturma
 
@@ -115,7 +115,7 @@ Power BI ekli kapasite komutları için Azure CLI 2.3.1 veya sonraki bir sürüm
 
 ### <a name="create-a-capacity-with-azure-cli"></a>Azure CLI ile kapasite oluşturma
 
-Kapasite oluşturmak için [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) komutunu kullanın.
+Kapasite oluşturmak için [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-create) komutunu kullanın.
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -127,7 +127,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Azure CLI ile kapasite silme
 
-Azure CLI kullanarak kapasite silmek için [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) komutunu kullanın.
+Azure CLI kullanarak kapasite silmek için [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) komutunu kullanın.
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -136,7 +136,7 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Azure CLI ile kapasitenizi yönetme
 
-[az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest)’da tüm Power BI Embedded Azure CLI komutlarını görüntüleyebilirsiniz.
+[az powerbi](/cli/azure/ext/powerbidedicated/powerbi)’da tüm Power BI Embedded Azure CLI komutlarını görüntüleyebilirsiniz.
 
 # <a name="arm-template"></a>[ARM şablonu](#tab/ARM-template)
 

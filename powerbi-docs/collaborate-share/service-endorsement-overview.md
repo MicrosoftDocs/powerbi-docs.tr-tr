@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2389290fedd26c9e88af614e1fbf6afb29c02d35
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411851"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926810"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>Onay - Power BI içeriklerini yükseltme ve onaylama
 
@@ -27,11 +27,15 @@ Kuruluşlarda genellikle Power BI kullanıcılarının paylaşmasına ve yeniden
 
     Tüm içerik sahipleri veya içeriğin bulunduğu çalışma alanı üzerinde yazma izinleri olan tüm üyeler, paylaşım için yeterince iyi olduğunu düşündükleri içerikleri kolayca yükseltebilir.
 
+    [İçeriğinizi öne çıkarma hakkında bilgi edinin](service-endorse-content.md#promote-content).
+
 * **Onaylama**: Onaylama içeriğin kuruluş kalite standartlarını karşıladığı ve kuruluş genelinde kullanılmaya hazır, güvenilir ve yetkilendirilmiş olarak kabul edilebileceği anlamına gelir.
 
-    İçerikleri yalnızca Power BI yöneticisi tarafından seçilen bir grup gözden geçiren onaylayabilir. İçeriklerinin onaylanmasını isteyen ancak bunu kendileri yapamayan içerik sahiplerinin gerekli onay işlemleri için kuruluşa özgü yönergeleri izlemesi gerekir.
+    Yalnızca [seçili (Power BI yöneticisi tarafından tanımlanmış) bir grup inceleyicinin ](../admin/service-admin-setup-certification.md) içerik onaylama yetkisi vardır. İçeriklerinin onaylanmasını isteyen ancak bunu kendileri yapamayan içerik sahiplerinin gerekli onay işlemleri için kuruluşa özgü yönergeleri izlemesi gerekir.
 
-    **Onaylama seçeneğini kullanabilmeniz için Power BI yöneticinizin bunu kuruluşunuz için etkinleştirmiş ve yapılandırmış olması gerekir**.
+    [İçerik onaylama](service-endorse-content.md#certify-content) veya [onay isteme](service-endorse-content.md#request-content-certification) hakkında bilgi edinin.
+
+    **Onaylama seçeneği, yalnızca bir Power BI yöneticisi bunu kuruluşunuzda [etkinleştirip yapılandırdıysa](../admin/service-admin-setup-certification.md) bulunur**.
 
 Aşağıdaki görüntüde rapor oluşturmak için kullanacağınız bir veri kümesini ararken onaylı içeriğin (yükseltilmiş ve onaylanmış) nasıl belirtildiği gösterilmiştir.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b9cff6a4a59db3a30fc4bbe2373a723700d00fee
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419165"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885028"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Birebir ilişki kılavuzu
 
@@ -99,11 +99,11 @@ Satır verileri model tabloları arasına yayıldığında birebir model ilişki
 - Hiyerarşi düzeylerinin _aynı tablodaki_ sütunları temel alması gerektiğinden hiyerarşi oluşturma becerisini sınırlandırır
 - Tablolar arasında tamamlanmış bir eşleşme olmadığından beklenmeyen sonuçlar doğurur
 
-Belirli öneriler birebir ilişkinin _ada içi_ mi yoksa _adalar arası_ mı olduğuna göre değişiklik gösterir. İlişkinin değerlendirmesi hakkında daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
+Belirli öneriler, birebir ilişkinin _kaynak grubu içinde_ ya da _kaynak grupları arasında_ olmasına bağlı olarak değişiklik gösterir. İlişkinin değerlendirmesi hakkında daha fazla bilgi için bkz. [Power BI Desktop’ta model ilişkileri (İlişki değerlendirmesi)](../transform-model/desktop-relationships-understand.md#relationship-evaluation).
 
-### <a name="intra-island-one-to-one-relationship"></a>Ada içi birebir ilişki
+### <a name="intra-source-group-one-to-one-relationship"></a>Kaynak grubu içinde birebir ilişki
 
-Tablolar arasında birebir _ada içi_ ilişki olduğunda verileri tek bir model tablosunda birleştirmenizi öneririz. Bu işlem Power Query sorguları birleştirilerek yapılır.
+Tablolar arasında _kaynak grubu içinde_ birebir ilişki olduğunda, verileri tek bir model tablosunda birleştirmenizi öneririz. Bu işlem Power Query sorguları birleştirilerek yapılır.
 
 Aşağıdaki adımlarda birebir ilişkili verileri birleştirme ve modelleme yöntemi gösterilir:
 
@@ -131,11 +131,11 @@ Bizim örneğimizde rapor yazarları **Category** alanını **Marketing** görü
 
 ![Alanlar bölmesinde Category alanı Marketing adlı bir görüntü klasörü içinde yer alır.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Yine de modelinizde birebir ada içi ilişkiler tanımlamaya karar verirseniz, mümkünse ilişkili tablolarda eşleşen satırların bulunduğundan emin olun. Birebir ada içi ilişkisi [normal bir ilişki](../transform-model/desktop-relationships-understand.md#regular-relationships) olarak değerlendirildiğinden, rapor görsellerinizde veri bütünlüğü sorunları BOŞLUKLAR olarak kendini gösterebilir. (Bu makalede tanıtılan ilk tablo görselinde BOŞLUK gruplandırmasının bir örneğini görebilirsiniz.)
+Modelinizde kaynak grubu içinde birebir ilişki tanımlamaya karar verirseniz, mümkün olduğunda ilişkili tablolarda eşleşen satırlar olduğundan emin olun. Kaynak grubu içinde birebir ilişki [normal bir ilişki](../transform-model/desktop-relationships-understand.md#regular-relationships) olarak değerlendirildiğinden, rapor görsellerinizde BOŞLUKLAR halinde veri bütünlüğü sorunları ortaya çıkabilir. (Bu makalede tanıtılan ilk tablo görselinde BOŞLUK gruplandırmasının bir örneğini görebilirsiniz.)
 
-### <a name="inter-island-one-to-one-relationship"></a>Adalar arası birebir ilişki
+### <a name="cross-source-group-one-to-one-relationship"></a>Kaynak grupları arasında birebir ilişki
 
-Tablolar arasında birebir _adalar arası_ ilişki bulunduğunda, veri kaynaklarınızdaki verileri önceden birleştirmediğiniz sürece alternatif bir model tasarımı yoktur. Power BI birebir model ilişkisini [sınırlı bir ilişki](../transform-model/desktop-relationships-understand.md#limited-relationships) olarak değerlendirecektir. Bu nedenle ilişkili tablolarda eşleşen satırların bulunduğundan emin olun çünkü eşleşmeyen satırlar sorgu sonuçlarından çıkarılır.
+Tablolar arasında _kaynak grupları arasında_ birebir ilişki varken veri kaynaklarınızdaki verileri önceden birleştirmediğiniz sürece alternatif bir model tasarımı yoktur. Power BI birebir model ilişkisini [sınırlı bir ilişki](../transform-model/desktop-relationships-understand.md#limited-relationships) olarak değerlendirecektir. Bu nedenle ilişkili tablolarda eşleşen satırların bulunduğundan emin olun çünkü eşleşmeyen satırlar sorgu sonuçlarından çıkarılır.
 
 Şimdi her iki tablodaki alanlar bir tablo görseline eklendiğinde ve tablolar arasında sınırlı ilişki olduğunda neler olduğuna bakalım.
 

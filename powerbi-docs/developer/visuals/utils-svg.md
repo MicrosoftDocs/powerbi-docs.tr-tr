@@ -1,6 +1,6 @@
 ---
-title: Power BI görselinde SVG yardımcı programlarını kullanmaya giriş
-description: Bu makalede Power BI özel görselleri için SVG işlemelerini kolaylaştırmak amacıyla SVG yardımcı programlarının nasıl kullanıldığı açıklanmaktadır
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerindeki Power BI görsellerinde SVG yardımcı programları kullanmaya giriş
+description: Bu makalede, Power BI görselleri için SVG işlemlerini kolaylaştırmak amacıyla SVG yardımcı programlarının nasıl kullanılacağı anlatılmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: aa1ac8074e842a51b369c48f57c4b5016a80140c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cf798ae13d874e354f6941d50982bfe26d73424d
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377984"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887765"
 ---
 # <a name="svg-utils"></a>SVG yardımcı programları
 
@@ -330,7 +330,7 @@ Rect.setSize(rectangle, { width: 250, height: 250 });
 // rectangle === { left: 25, top: 25, width: 250, height: 250 }
 ```
 
-### <a name="right"></a>right
+### <a name="right"></a>sağ
 
 Bu işlev dikdörtgenin sağ konumunu döndürür.
 
@@ -492,7 +492,7 @@ Rect.toString({ left: 25, top: 25, width: 100, height: 100 });
 // returns: {left:25, top:25, width:100, height:100}
 ```
 
-### <a name="offset"></a>offset
+### <a name="offset"></a>uzaklık
 
 Bu işlev verili farkı dikdörtgene uygular.
 

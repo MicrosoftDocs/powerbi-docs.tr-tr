@@ -1,6 +1,6 @@
 ---
-title: Kimlik doğrulaması erişim belirteci alma
-description: Veri göndermeye ilişkin adım adım kılavuz - Kimlik doğrulaması erişim belirteci alma
+title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerinde kimlik doğrulaması erişim belirteci alma
+description: Veri göndermeye ilişkin adım adım kılavuz - Kimlik doğrulaması erişim belirteci alma. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: b66c87d88e08a4c1f9ee4f9aebdbf44516d9cb43
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 22d30e14256a2e58e05e17207380842392fe0c23
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746528"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887420"
 ---
-# <a name="step-2-get-an-authentication-access-token"></a>2\. Adım: Kimlik doğrulaması erişim belirteci alma
+# <a name="step-2-get-an-authentication-access-token"></a>2. Adım: Kimlik doğrulaması erişim belirteci alma
 
 Bu makale, [Power BI veri kümelerine veri gönderme](walkthrough-push-data.md) serisinin ikinci adımıdır.
 

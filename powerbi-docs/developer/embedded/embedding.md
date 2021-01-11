@@ -1,6 +1,6 @@
 ---
-title: Power BI ile tümleşik analiz
-description: Power BI, panolarınıza ve raporlarınıza yönelik tümleşik analizi uygulamalara eklemek için API’ler sunar. Tümleşik analiz yazılımlarını, tümleşik analiz araçlarını veya tümleşik iş zekası araçlarını kullanarak hem PaaS ortamında hem de SaaS ortamında Power BI ile ekleme hakkında daha fazla bilgi edinin.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizleriyle tümleşik analizler
+description: Power BI, uygulamalara Power BI tümleşik analiz panoları ve raporları eklemek için API'ler sunar. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 4dba33e2ae800198d4840139d43893a7dca77e4f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: c7278dee5957e2b63b6821decec0171ba6b628a0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396829"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887144"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Power BI ile tümleşik analiz
 

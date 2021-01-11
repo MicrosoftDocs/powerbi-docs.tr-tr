@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/24/2019
-ms.openlocfilehash: 53c0af04a76d4cf8cfacd49002434ecbc246fbe8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e4ddc487f81835edfdc5ad8a4074a91204ee0336
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394394"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884798"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta Bileşik model kılavuzu
 
@@ -54,8 +54,8 @@ Bileşik modelde her tablo için depolama modunu yapılandırabilirsiniz (hesapl
 Power BI’ın Bileşik modeli sorguladığı çeşitli olası senaryolar vardır:
 
 - **Yalnızca İçeri Aktarma tablolarını veya İkili tabloları sorgular**: Tüm veriler model önbelleğinden veriler alınır. Mümkün olan en hızlı performansı getirir. Bu senaryo, filtreler veya dilimleyici görselleri tarafından sorgulanan boyut türündeki tablolarda yaygındır.
-- **Aynı kaynaktan İkili tabloları veya DirectQuery tablolarını sorgular**: Tüm veriler DirectQuery kaynağına bir veya birden çok yerel sorgu gönderilerek alınır. Özellikle kaynak tablolarda uygun dizinler mevcut olduğunda mümkün olan en hızlı performansı getirir. Bu senaryo, İkili boyut türündeki tablolarla ve DirectQuery olgu türündeki tablolarıyla ilgili sorgularda yaygındır. Bu sorgular _ada içinde_ çalıştırılır ve dolayısıyla tüm bire bir veya bire çok ilişkileri [normal ilişkiler](../transform-model/desktop-relationships-understand.md#regular-relationships) olarak değerlendirilir.
-- **Tüm diğer sorgular**: Bu sorgular adalar arası ilişkiler içerir. Bunun nedeni İçeri Aktarma tablosunun bir DirectQuery tablosuyla ilgili olması veya İkili tablonun farklı kaynaktan bir DirectQuery tablosuyla ilgili olmasıdır (bu durumda İçeri Aktarma tablosu gibi davranır). Tüm ilişkiler [sınırlı ilişki](../transform-model/desktop-relationships-understand.md#limited-relationships) olarak değerlendirilir. Ayrıca DirectQuery olmayan tablolara uygulanan gruplandırmaların DirectQuery kaynağına sanal tablo olarak gönderilmesi gerektiği anlamına da gelir. Bu durumda yerel sorgu, özellikle de büyük gruplandırma kümeleri için verimsiz olabilir. Ayrıca yerel sorguda hassas verileri ortaya çıkarma olasılığı vardır.
+- **Aynı kaynaktan İkili tabloları veya DirectQuery tablolarını sorgular**: Tüm veriler DirectQuery kaynağına bir veya birden çok yerel sorgu gönderilerek alınır. Özellikle kaynak tablolarda uygun dizinler mevcut olduğunda mümkün olan en hızlı performansı getirir. Bu senaryo, İkili boyut türündeki tablolarla ve DirectQuery olgu türündeki tablolarıyla ilgili sorgularda yaygındır. Bu sorgular _kaynak grubu içinde_ çalıştırılır, bu nedenle birebir veya bire çok ilişkilerin tümü [normal ilişkiler](../transform-model/desktop-relationships-understand.md#regular-relationships) olarak değerlendirilir.
+- **Tüm diğer sorgular**: Bu sorgular kaynak grupları arasında ilişkileri içerir. Bunun nedeni İçeri Aktarma tablosunun bir DirectQuery tablosuyla ilgili olması veya İkili tablonun farklı kaynaktan bir DirectQuery tablosuyla ilgili olmasıdır (bu durumda İçeri Aktarma tablosu gibi davranır). Tüm ilişkiler [sınırlı ilişki](../transform-model/desktop-relationships-understand.md#limited-relationships) olarak değerlendirilir. Ayrıca DirectQuery olmayan tablolara uygulanan gruplandırmaların DirectQuery kaynağına sanal tablo olarak gönderilmesi gerektiği anlamına da gelir. Bu durumda yerel sorgu, özellikle de büyük gruplandırma kümeleri için verimsiz olabilir. Ayrıca yerel sorguda hassas verileri ortaya çıkarma olasılığı vardır.
 
 Özetle şunları yapmanızı öneririz:
 

@@ -1,6 +1,6 @@
 ---
-title: Görsel API
-description: Bu makalede, Power BI görselleri için IVisual API’sinin nasıl kullanılacağı açıklanır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde görsel API
+description: Bu makalede Power BI görselleri için IVisual API'nin kullanılması anlatılmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/19/2020
-ms.openlocfilehash: 6ec30fdd4812427ae855ff9a167d946d2a415c28
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7b81ecfa1b97b202b6c1ff306cf858f2ea00acde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302978"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888547"
 ---
 # <a name="visual-api"></a>Görsel API
 Tüm görseller `IVisual` arabirimini uygulayan sınıfla başlar. `IVisual` arabirimini uygulayan bir sınıf olduğu sürece, sınıfı dilediğiniz şekilde adlandırabilirsiniz.

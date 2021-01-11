@@ -1,6 +1,6 @@
 ---
-title: R betiğinden R görseline bir huni çizimi derleme
-description: Bu makalede, R betiğinden R Power BI görseline huni çiziminin nasıl oluşturulacağı açıklanmaktadır.
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde R betiğinden R görseline bir huni çizimi oluşturma
+description: Bu makalede, R betiğinden R Power BI görseline huni çiziminin nasıl oluşturulacağı açıklanmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 7ef9b75f01dedaf55be77312f07217593d886ef0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: f3d22a4143287588ad9290d000402a10a4cef227
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675293"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889283"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Öğretici: R betiğinden R görseline bir huni çizimi derleme
 Bu makalede, R görselindeki R betiğini kullanarak huni çiziminin nasıl oluşturulacağı adım adım açıklanmaktadır.

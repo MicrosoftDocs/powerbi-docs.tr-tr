@@ -1,6 +1,6 @@
 ---
-title: Power BI görselinde grafik yardımcı programlarını kullanmaya giriş
-description: Bu makalede Power BI görselinin eksenlerini ve göstergelerini çizmek için grafik yardımcı programlarının nasıl kullanıldığı açıklanır
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerindeki Power BI görsellerinde grafik yardımcı programlarını kullanmaya giriş
+description: Bu makalede Power BI görsellerinin eksen ve göstergelerini çizmek için grafik yardımcı programlarının nasıl kullanılacağı açıklanmaktadır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 531da1ede8b83af9fb8093a3178c945f374b835c
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9094d639225eb82cbcf427346d1ad78943ddc90f
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379407"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887880"
 ---
 # <a name="chart-utils"></a>Grafik yardımcı programları
 

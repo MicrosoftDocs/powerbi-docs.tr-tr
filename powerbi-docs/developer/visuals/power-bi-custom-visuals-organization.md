@@ -1,6 +1,6 @@
 ---
-title: Power BI’da kuruluş görselleri
-description: Power BI'da kuruluş görsellerini kullanma, yönetme ve oluşturma
+title: Daha iyi tümleşik BI içgörüleri için, Power BI tümleşik analizlerinde Power BI kuruluş görselleri
+description: Power BI'da kuruluş görsellerini kullanma, yönetme ve oluşturma. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3746cb038067617fd236e05412412b2c68947508
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 908225c772aee7e5697ba828c55b96f74c204c1d
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386470"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888156"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI’da kuruluşlara yönelik görseller
 
