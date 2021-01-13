@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: f3d22a4143287588ad9290d000402a10a4cef227
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: f1f8c037a3ceb66d8ffb5abab6bccd4ec9bc7adc
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97889283"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969570"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Öğretici: R betiğinden R görseline bir huni çizimi derleme
 Bu makalede, R görselindeki R betiğini kullanarak huni çiziminin nasıl oluşturulacağı adım adım açıklanmaktadır.
@@ -36,13 +36,13 @@ Bu örnekte huni çizimi, çeşitli küme verilerini karşılaştırıp analiz e
 
 ## <a name="build-an-r-script-with-dataset"></a>Veri kümesi ile R betiği oluşturma
 
-1. [Minimal R betiği](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/script_R_v1_00.r) ve bu betiğe ait veri tablosu olan [dataset.csv](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/dataset.csv)’yi indirin.
+1. [Minimal R betiği](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/script_R_v1_00.r) ve bu betiğe ait veri tablosu olan [dataset.csv](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/dataset.csv)’yi indirin.
 
-1. Daha sonra betiği, [bu betiği](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/script_R_v1_01.r) yansıtacak şekilde düzenleyin. Bu işlem, çizimin görüntüsünü denetlemek için hata işleme ve kullanıcı parametreleri ekler.
+1. Daha sonra betiği, [bu betiği](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter1_R/script_R_v1_01.r) yansıtacak şekilde düzenleyin. Bu işlem, çizimin görüntüsünü denetlemek için hata işleme ve kullanıcı parametreleri ekler.
 
 ## <a name="build-a-report"></a>Rapor oluşturma
 
-Daha sonra betiği, [bu betiği](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/script_RV_v2_00.r) yansıtacak şekilde düzenleyin. Bu, Power BI Desktop çalışma alanına *read.csv* yerine *dataset.csv* dosyasını yükler ve bir **Kanserden Ölüm Oranı** tablosu oluşturur. Sonuçları aşağıdaki [PBIX dosyasından](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/funnelPlot_Rvisual.pbix) görebilirsiniz.
+Daha sonra betiği, [bu betiği](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/script_RV_v2_00.r) yansıtacak şekilde düzenleyin. Bu, Power BI Desktop çalışma alanına *read.csv* yerine *dataset.csv* dosyasını yükler ve bir **Kanserden Ölüm Oranı** tablosu oluşturur. Sonuçları aşağıdaki [PBIX dosyasından](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter2_Rvisual/funnelPlot_Rvisual.pbix) görebilirsiniz.
 
 > [!NOTE]
 > `dataset`, herhangi bir R görselinin `data.frame` girişine yönelik sabit kodlanmış bir addır. 
@@ -75,7 +75,7 @@ Daha sonra betiği, [bu betiği](https://github.com/microsoft/PowerBI-visuals/ra
 1. `pbiviz package` komutunu kullanarak görseli yeniden paketleyin ve Power BI’a içeri aktarmayı deneyin.
 
 > [!NOTE]
-> İndirme için [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) ve [kaynak koduna](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) bakın.
+> İndirme için [PBIX](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) ve [kaynak koduna](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) bakın.
 
 ## <a name="make-r-based-visual-improvements"></a>R tabanlı görsel iyileştirmeler yapma
 
@@ -85,7 +85,7 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
 
    ![CV01to02](./media/funnel-plot/diagram-one.PNG)
 
-1. *capabilities.json* dosyasını düzenleyin ve `dataset` rolünü üç yeni rolle değiştirin veya [capabilities.json](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/capabilities.json) dosyasını indirin.
+1. *capabilities.json* dosyasını düzenleyin ve `dataset` rolünü üç yeni rolle değiştirin veya [capabilities.json](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/capabilities.json) dosyasını indirin.
 
    Bölümleri güncelleştirmeniz gerekir: Ad, tür, araç ipucu ve her giriş alanına yönelik en fazla sütun sayısını tanımlayan `dataRoles` ve `dataViewMappings`.
 
@@ -93,7 +93,7 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
    
    Daha fazla bilgi için bkz. [capabilities](./capabilities.md).
 
-1. *script.r* dosyasını, giriş veri çerçeveleri olarak `dataset` yerine `Population`, `Number` ve `Tooltips` değerlerini destekleyecek şekilde düzenleyin veya [script.r](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r) dosyasını indirin.
+1. *script.r* dosyasını, giriş veri çerçeveleri olarak `dataset` yerine `Population`, `Number` ve `Tooltips` değerlerini destekleyecek şekilde düzenleyin veya [script.r](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02/script.r) dosyasını indirin.
 
    ![betik](./samples/funnel-plot/chapter-3/funnel-r-visual-v02/script-r-before-vs-after.png)
 
@@ -113,7 +113,7 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
 1. `pbiviz package` komutunu kullanarak görseli yeniden paketleyin ve Power BI’a içeri aktarmayı deneyin.
 
 > [!NOTE]
-> İndirme için [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) ve [kaynak koduna](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02) bakın.
+> İndirme için [PBIX](https://github.com/PowerBi-Projects/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) ve [kaynak koduna](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v02) bakın.
 
 ## <a name="add-user-parameters"></a>Kullanıcı parametreleri ekleme
 
@@ -123,11 +123,11 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
 
 1. *capabilities.json* dosyasını düzenleyip `objects` bölümünü güncelleştirin. Burada her parametrenin adını, araç ipuçlarını ve türlerini tanımlayıp parametrelerin gruplara ayrılmasına (bu örnekte üç grup) karar veririz.
 
-   [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json) dosyasını indirin, daha fazla bilgi için bkz. [nesne özellikleri](./objects-properties.md)
+   [capabilities.json](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/capabilities.json) dosyasını indirin, daha fazla bilgi için bkz. [nesne özellikleri](./objects-properties.md)
 
    ![özellikler](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/capabilities-before-after.PNG)
 
-1. *src/settings.ts* dosyasını [bu settings.ts](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts) dosyasını yansıtacak şekilde düzenleyin. Bu dosya TypeScript dilinde yazılmıştır.  
+1. *src/settings.ts* dosyasını [bu settings.ts](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/src/settings.ts) dosyasını yansıtacak şekilde düzenleyin. Bu dosya TypeScript dilinde yazılmıştır.  
 
    Burada, şuna eklenen iki kod bloğu bulacaksınız:
    - Özellik değerini tutmak için yeni arabirimi bildirme
@@ -135,7 +135,7 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
 
    ![ayarlar](./samples/funnel-plot/chapter-3/funnel-r-visual-v03/settings-ts-before-after.PNG)
 
-1. *script.r* dosyasını [bu script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r) dosyasını yansıtacak şekilde düzenleyin. Bu, kullanıcı parametresi başına `if.exists` çağrı ekleyerek kullanıcı arabirimindeki parametrelere yönelik destek ekler.
+1. *script.r* dosyasını [bu script.r](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script.r) dosyasını yansıtacak şekilde düzenleyin. Bu, kullanıcı parametresi başına `if.exists` çağrı ekleyerek kullanıcı arabirimindeki parametrelere yönelik destek ekler.
 
    > [!TIP]
    > R betiğindeki değişiklikleri izlemek için açıklamaları arayın:
@@ -150,17 +150,17 @@ Kullanıcının giriş tablosundaki sütun sırasını bilmesi gerektiğinden, g
    > #RVIZ_IN_PBI_GUIDE:END:Removed to enable user parameters
    > ```
 
-   ![betiğin öncesi ve sonrası](https://raw.githubusercontent.com/microsoft/PowerBI-visuals/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
+   ![betiğin öncesi ve sonrası](https://raw.githubusercontent.com/PowerBi-Projects/PowerBI-visuals/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/script_r_before_after_1.png)
 
    Bizim yaptığımız gibi, parametreleri kullanıcı arabiriminde kullanıma sunmamaya karar verebilirsiniz.  
 
 1. `pbiviz package` komutunu kullanarak görseli yeniden paketleyin ve Power BI’a içeri aktarmayı deneyin.
 
 > [!NOTE]
-> İndirme için [PBIX](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) ve [kaynak koduna](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/) bakın.
+> İndirme için [PBIX](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) ve [kaynak koduna](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v03/) bakın.
 
 > [!TIP]
-> Burada birkaç türden parametrenin (boole, sayısal, dize ve renk) hepsini aynı anda ekledik. Basit bir örnek olması açısından, tek bir parametrenin nasıl ekleneceğini gösteren [bu örneğe](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/PropertiesPane.md) göz atın. 
+> Burada birkaç türden parametrenin (boole, sayısal, dize ve renk) hepsini aynı anda ekledik. Basit bir örnek olması açısından, tek bir parametrenin nasıl ekleneceğini gösteren [bu örneğe](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/RVisualTutorial/PropertiesPane.md) göz atın. 
 
 ## <a name="convert-visual-to-rhtml-based-visual"></a>Görseli RHTML tabanlı görsele dönüştürme
 
@@ -184,21 +184,21 @@ Elde edilen görsel PNG tabanlı olduğundan, fare ile üzerine gelmeye karşı 
    Bu işlem *out.html* dosyasını oluşturup kaydeder. Bu dosya bağımsızdır (dış bağımlılığı yoktur) ve HTML arabirim öğesindeki grafikleri tanımlar. 
 
    > [!IMPORTANT]
-   > `htmlWidgets` kullanıcıları için, `plotly` veya `widget` nesnelerini bağımsız içeriğe sahip HTML’ye dönüştürmeye yardımcı olması için R yardımcı programları [r_files klasöründe](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files) sağlanır. 
+   > `htmlWidgets` kullanıcıları için, `plotly` veya `widget` nesnelerini bağımsız içeriğe sahip HTML’ye dönüştürmeye yardımcı olması için R yardımcı programları [r_files klasöründe](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files) sağlanır. 
    > 
    > R destekli görselin bu sürümü, kodunuzu daha okunur hale getirmek için `source` komutunu da destekler (önceki görsel türlerinin aksine).   
  
-1. *capabilities.json* dosyasını önceki adımdaki *capabilities.json* dosyasıyla değiştirin veya [capabilities.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/capabilities.json) dosyasını indirin.
+1. *capabilities.json* dosyasını önceki adımdaki *capabilities.json* dosyasıyla değiştirin veya [capabilities.json](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/capabilities.json) dosyasını indirin.
 
    Şunları sürdürdüğünüzden emin olun:
 
    `"scriptOutputType": "html"`
 
-1. *script.r* dosyasının en son sürümünü şablondaki *script.r* ile birleştirin veya [script.r](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/script.r) dosyasını indirin.
+1. *script.r* dosyasının en son sürümünü şablondaki *script.r* ile birleştirin veya [script.r](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/script.r) dosyasını indirin.
 
    Yeni betik, **ggplot** nesnesini **plotly** nesnesine dönüştürmek için `plotly` paketini ve sonra bunu bir HTML dosyasına kaydetmek için `htmlWidgets` paketini kullanır. 
 
-   Pek çok yardımcı işlev [_r_files/utils.r_](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files/utils.r) dizinine taşınır ve **plotly** nesnesinin görünümü için `generateNiceTooltips` işlevi eklenir.
+   Pek çok yardımcı işlev [_r_files/utils.r_](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/r_files/utils.r) dizinine taşınır ve **plotly** nesnesinin görünümü için `generateNiceTooltips` işlevi eklenir.
 
    ![1](./samples/funnel-plot/chapter-4/RHTML-v01/script-before-after-1.PNG)
    
@@ -217,14 +217,14 @@ Elde edilen görsel PNG tabanlı olduğundan, fare ile üzerine gelmeye karşı 
    > #RVIZ_IN_PBI_GUIDE:BEGIN:Removed to create HTML-based
    > ```
 
-1. Yeni R paketi bağımlılıklarını dahil etmek için *dependencies.json* dosyasının en son sürümünü şablondaki *dependencies.json* ile birleştirin veya [dependencies.json](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/dependencies.json) dosyasını indirin.
+1. Yeni R paketi bağımlılıklarını dahil etmek için *dependencies.json* dosyasının en son sürümünü şablondaki *dependencies.json* ile birleştirin veya [dependencies.json](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/dependencies.json) dosyasını indirin.
 
 1. *src/settings.ts* dosyasını önceki adımlarda olduğu şekilde düzenleyin.
 
 1. `pbiviz package` komutunu kullanarak görseli yeniden paketleyin ve Power BI’a içeri aktarmayı deneyin.
 
 > [!NOTE]
-> İndirme için [PBIX ve kaynak koduna](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01) bakın.
+> İndirme için [PBIX ve kaynak koduna](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01) bakın.
 
 ## <a name="build-additional-examples"></a>Ek örnekler oluşturma
 
@@ -250,7 +250,7 @@ Elde edilen görsel PNG tabanlı olduğundan, fare ile üzerine gelmeye karşı 
    > [!IMPORTANT]
    > **GUID** alanı, bir görsel için benzersiz tanımlayıcıdır. Her görsel için yeni bir proje oluşturursanız GUID de farklı olacaktır. GUID yalnızca yeni görsele kopyalanan eski bir projeyi kullanırken aynı olur, bunu yapmanız önerilmez.
 
-* Görseliniz için benzersiz simgeler oluşturmak üzere [*assets/icon.png*](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/assets/icon.png) dosyasını düzenleyin. 
+* Görseliniz için benzersiz simgeler oluşturmak üzere [*assets/icon.png*](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/funnelRHTMLvisual_v01/assets/icon.png) dosyasını düzenleyin. 
 
 * Power BI raporunuzdaki verilerle RStudio’daki R kodunda hata ayıklamak için R betiğinin başına aşağıdakileri ekleyin (`fileRda` değişkenini düzenleyin):
 
@@ -270,17 +270,17 @@ Elde edilen görsel PNG tabanlı olduğundan, fare ile üzerine gelmeye karşı 
 
 * [GitHub](https://github.com/Microsoft?utf8=%E2%9C%93&q=PowerBI&type=&language=R)’daki kullanılabilir kodlar sayesinde R destekli Görselleri en baştan geliştirmeniz gerekmez. Görseli şablon olarak kullanmak üzere seçebilir ve kodu yeni bir projeye kopyalayabilirsiniz.
 
-   Örneğin, [eğri cetveli özel görselini](https://github.com/Microsoft/PowerBI-visuals-spline) kullanmayı deneyin.
+   Örneğin, [eğri cetveli özel görselini](https://github.com/PowerBi-Projects/PowerBI-visuals-spline) kullanmayı deneyin.
 
 * Her R Görseli, giriş tablosuna `unique` işlecini uygular. Özdeş satırların kaldırılmasını önlemek için benzersiz kimliğe sahip ek bir giriş alanı ekleyip bunu R kodunda yoksaymak yararlı olabilir.   
 
 * Power BI hesabınız varsa görseli `pbiviz package` komutuyla yeniden paketlemek yerine [çalışma sırasında](./develop-circle-card.md) geliştirmek için Power BI hizmetini kullanın.
 
 ### <a name="html-widgets-gallery"></a>HTML pencere öğeleri galerisi
-Sonraki görselde kullanılmak üzere [HTML pencere öğeleri galerisindeki](http://gallery.htmlwidgets.org/) görselleri keşfedin. İşlemlerinizi kolaylaştırmak adına, aralarından seçim yapabileceğiniz 20’den fazla etkileşimli HTML görseli içeren bir [görsel proje deposu](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) oluşturduk!
+Sonraki görselde kullanılmak üzere [HTML pencere öğeleri galerisindeki](http://gallery.htmlwidgets.org/) görselleri keşfedin. İşlemlerinizi kolaylaştırmak adına, aralarından seçim yapabileceğiniz 20’den fazla etkileşimli HTML görseli içeren bir [görsel proje deposu](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) oluşturduk!
 
 > [!TIP]
-> HTML pencere öğeleri arasında geçiş yapmak için **Biçim** > **Ayarlar** > **Tür**’ü kullanın. [Bu PBIX dosyasıyla](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML/assets/sample.pbix) deneyin. 
+> HTML pencere öğeleri arasında geçiş yapmak için **Biçim** > **Ayarlar** > **Tür**’ü kullanın. [Bu PBIX dosyasıyla](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML/assets/sample.pbix) deneyin. 
 
 #### <a name="to-use-a-sample-for-your-visual"></a>Görselinizde bir örnek kullanmak için:
 

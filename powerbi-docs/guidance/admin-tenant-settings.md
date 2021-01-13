@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/10/2020
-ms.openlocfilehash: 66d721670f90efb17f6167aba3c074bdf6ea0ae1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 39357ec461ae96ef566719739aa76a61c7e7c539
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394877"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969800"
 ---
 # <a name="tenant-settings-guidance"></a>Kiracı ayarları rehberi
 
@@ -39,7 +39,7 @@ Bunu yapacaksanız, _tüm kuruluş için_ **“Yardım Alın” bilgilerini yay�
 Bu URL’ler, Power BI yardım menüsünde bağlantı olarak kullanıma sunulur.
 
 > [!NOTE]
-> **Lisanslama istekleri** URL’sinin sağlanması, tek tek kullanıcıların Power BI Pro lisansı satın almasını engeller. Bunun yerine, kullanıcılar lisans alma bilgilerini içeren iç sitenize yönlendirilir. **Kullanıcıların Power BI Pro’yu denemesine izin ver** ayarı varsayılan olarak etkinleştirilir ve satın alma ile deneme deneyimlerini birbirinden ayırır. Bu ayarların birlikte nasıl çalıştığı hakkında daha fazla bilgi edinmek için bkz. [Kullanıcıların Power BI Pro’yu denemesine izin verme](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro).
+> **Lisanslama istekleri** URL’sinin sağlanması, tek tek kullanıcıların Power BI Pro lisansı satın almasını engeller. Bunun yerine, kullanıcılar lisans alma bilgilerini içeren iç sitenize yönlendirilir. **Kullanıcıların Power BI Pro’yu denemesine izin ver** ayarı varsayılan olarak etkinleştirilir ve satın alma ile deneme deneyimlerini birbirinden ayırır. Bu ayarların birlikte nasıl çalıştığı hakkında daha fazla bilgi edinmek için bkz. [Kullanıcıların Power BI Pro’yu denemesine izin verme](../admin/service-admin-portal.md#allow-users-to-try-power-bi-paid-features).
 >
 >
 

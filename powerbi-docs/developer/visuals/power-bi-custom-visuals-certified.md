@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 5f337197655d41b830b237c04faa2642991c34ee
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888179"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969823"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Power BI görseli için sertifika alın
 
@@ -92,7 +92,7 @@ Kodunuzun Power BI sertifikasyon ilkelerine uygun olduğundan emin olmak için a
 * Yalnızca genel olarak gözden geçirilebilen genel JavaScript veya TypeScript kitaplıkları gibi OSS bileşenleri kullanın.
 * Kodun [Olay İşleme API’sini](event-service.md) desteklemesi gerekir.
 * DOM’nin güvenle işlendiğinden emin olun. Kullanıcı girişini veya kullanıcı verilerini DOM’ye eklemeden önce bu öğelerde temizleme işlemini kullanın.
-* [Örnek raporu](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) test veri kümesi olarak kullanın.
+* [Örnek raporu](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/assets) test veri kümesi olarak kullanın.
 
 **İzin verilmiyor**
 * Dış hizmetlere ya da kaynaklara erişim. Örneğin, Power BI'dan hizmetlere hiçbir HTTP/S veya WebSocket isteği gidemez.

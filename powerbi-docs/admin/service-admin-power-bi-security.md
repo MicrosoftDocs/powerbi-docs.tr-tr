@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857071"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961167"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 
@@ -53,7 +53,7 @@ Power BI için platform güvenliği aynı zamanda çok kiracılı ortam güvenli
 
 ## <a name="data-and-service-security"></a>Veri ve Hizmet Güvenliği
 
-Daha fazla bilgi için lütfen [Microsoft Güven Merkezi](https://www.microsoft.com/trustcenter)'ni ziyaret edin.
+Daha fazla bilgi için lütfen [Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/product-overview)'ni ziyaret edin.
 
 Bu makalenin yukarıdaki bölümlerinde açıklandığı üzere kullanıcının Power BI oturum açma bilgileri, şirket içi Active Directory sunucuları tarafından kullanılarak kimlik bilgilerine ilişkin bir UPN ile eşlenir. Ancak, kullanıcıların, paylaştıkları verilerin sorumluluğunu alması gerektiğini **unutmayın**. Bir kullanıcının kendi kimlik bilgilerini kullanarak bağlandığı veri kaynağındaki verileri kullanan bir raporu (veya panoyu ya da veri kümesini) paylaşması halinde, ilgili öğenin paylaşıldığı kullanıcıların kimliği, özgün veri kaynağı için doğrulanmaz ve bu kullanıcılara, rapora yönelik erişim izni verilir.
 

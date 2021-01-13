@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 67875f9b571e0a0376046a3cb080551d23e579e4
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: adb238b918d01bcdefe247a5452a0432b97d2e0c
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97889306"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969524"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI görselleri için yönergeler
 Power BI görselinizi başkalarının bulması ve kullanması amacıyla Microsoft AppSource’ta [yayımlamadan](office-store.md) önce kullanıcılarınıza yönelik harika bir deneyim oluşturmak için aşağıdaki yönergeleri izlediğinizden emin olun.
@@ -57,7 +57,7 @@ Power BI görseli doğrulandıktan ve onaylandıktan sonra, IAP Power BI görsel
 ## <a name="context-menu"></a>Bağlam menüsü
 Bağlam menüsü, kullanıcı imlecini bir görselin üzerine getirdiğinde görüntülenen sağ tıklama menüsüdür.
 Birleşik bir deneyim sunmak için tüm Power BI görsellerinde bağlam menüsü etkinleştirmelidir.
-Bağlam menüsü eklemeyi öğrenmek için lütfen [bu makaleye](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) bakın.
+Bağlam menüsü eklemeyi öğrenmek için lütfen [bu makaleye](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/tutorials/building-bar-chart) bakın.
 
 >[!div class="mx-imgBorder"]
 >![Power BI görsel bağlam menüsünün ekran görüntüsü.](media/guidelines-powerbi-visuals/context-menu.png)

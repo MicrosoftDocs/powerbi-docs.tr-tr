@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: 6eebe7b75db06b97d116ca0c17e67e9ee7b0562e
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675591"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969662"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -570,7 +570,7 @@ Artık Power BI iOS mobil uygulamasında ara sunucu ayarlarını yapabilirsiniz.
 #### <a name="all-devices"></a>Tüm cihazlar
 **Telefon raporları için arka plan rengi** Power BI Desktop'ta bir rapor için arka plan rengi tanımladığınızda telefon raporunda da aynı arka plan rengi görüntülenir. [Rapor sayfalarını telefonlar için en iyi duruma getirme](../../create-reports/desktop-create-phone-report.md) hakkında daha fazla bilgi edinin.
 
-**Mobil cihaz dostu Power BI görselleri geliştirin** Mobil cihazlarda düzgün görünen ve çalışan Power BI görselleri oluşturmaya ilişkin ipuçları için bu [Geliştirici kılavuzuna](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) göz atın.
+**Mobil cihaz dostu Power BI görselleri geliştirin** Mobil cihazlarda düzgün görünen ve çalışan Power BI görselleri oluşturmaya ilişkin ipuçları için bu [Geliştirici kılavuzuna](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) göz atın.
 
 #### <a name="ios-devices"></a>iOS cihazları
 **Verilerinizle konuşma: Konuşarak soru sorma** Artık [Soru-Cevap özelliğini kullanarak verileriniz hakkında sorular sormak için](mobile-apps-ios-qna.md) yazmak yerine konuşabilirsiniz. 

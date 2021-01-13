@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 4ed42f8c9c3acf740b68bf6c28aaa201efb0d5ba
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 3917ef64cfecd20e09be9b253ac05953cfe3d37a
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927118"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969685"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI görselleri API’si değişiklik günlüğü
 Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen sürümlerin kararlı sürümler olduğu kabul edilir ve bu sürümler değişmeyecektir.
@@ -96,7 +96,7 @@ Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen 
 
 ## <a name="api-v162"></a>API v1.6.2
 * Görsel içi düzenleme moduna girmek için **[Düzenleme modu](./advanced-edit-mode.md)** desteği sunar
-* HTML tabanlı **[Etkileşimli (html) R Power BI görsellerini](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** destekler
+* HTML tabanlı **[Etkileşimli (html) R Power BI görsellerini](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** destekler
 
 ## <a name="api-v150"></a>API v1.5.0
 * Görsellerle etkileşim kurmak için **[Etkileşimlere izin ver](./visuals-interactions.md)** işlevini destekler
@@ -110,7 +110,7 @@ Bu sayfada API sürümleri genel hatlarıyla özetlenmiştir. Burada listelenen 
 ## <a name="api-v120"></a>API v1.2.0
 * Görselinizde kullanılan renkleri yönetmek için **colorPalette** ekler.
 * **Çoklu seçimi** destekler. selectionManager, `SelectionId` dizisini kabul edebilir.
-* R betiklerini kullanarak **[R görsellerini](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** destekler
+* R betiklerini kullanarak **[R görsellerini](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** destekler
 
 ## <a name="api-v110"></a>API v1.1.0
 * iFrame'de görseller için hata ayıklamayı destekler

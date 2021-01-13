@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35c118171ef5202e24e5997e321b698e3b137387
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e2a610e12da1a91db6e22ab493ed39410ec1c091
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396487"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969754"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Power BI’da R destekli Power BI görsellerini kullanma
 
@@ -92,7 +92,7 @@ Görselleri **AppSource** sitesinde bulup seçmeye yönelik adımlar aşağıda 
 
 Raporlarınızda kullanmak için kendi R görsellerinizi oluşturursanız, bunları **Power BI görsel galerisine** ekleyerek tüm dünyayla paylaşabilirsiniz. Katkılar, GitHub aracılığıyla yapılır ve katkıda bulunma işlemi, aşağıdaki konumda ana hatlarıyla açıklanmıştır:
 
-* [R destekli Power BI görsel galerisine katkıda bulunma](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [R destekli Power BI görsel galerisine katkıda bulunma](https://github.com/PowerBi-Projects/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
 ## <a name="troubleshoot-r-powered-power-bi-visuals"></a>R destekli Power BI görselleri ile ilgili sorun çözümü
 

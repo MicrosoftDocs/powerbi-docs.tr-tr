@@ -1,6 +1,6 @@
 ---
-title: Power BI tümleşik analizleri tümleşik BI çözümünüz için Azure portalda Power BI Embedded kapasitesi oluşturma
-description: Bu makalede Power BI tümleşik analizleri tümleşik BI çözümünüz için Microsoft Azure'da bir Power BI Embedded kapasitesinin nasıl oluşturulacağı anlatılmaktadır.
+title: Azure portalında Power BI Embedded kapasitesi oluşturma | Microsoft Docs
+description: Bu makalede Microsoft Azure'da Power BI Embedded kapasitesi oluşturma adımları anlatılmaktadır.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 898da0f5e4284183f2ffa08fba8e6a50d9474d15
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887535"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155738"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure portalda Power BI Embedded kapasitesi oluşturma
 
@@ -47,7 +47,8 @@ Power BI Embedded kapasitesi oluşturmadan önce Power BI’da en az bir kez otu
 
 4. Gerekli bilgileri girdikten sonra **İncele ve Oluştur**’u seçin.
 
-    ![Power BI Embedded sayfasının Azure portalında yeni kapasite oluşturmak için kullanılan Temel bilgiler sekmesini gösteren ekran görüntüsü.](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    >[!div class="mx-imgBorder"]
+    >![Power BI Embedded sayfasının Azure portalında yeni kapasite oluşturmak için kullanılan Temel bilgiler sekmesini gösteren ekran görüntüsü.](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
 
     * **Abonelik** - Kapasiteyi oluşturmak istediğiniz abonelik.
 

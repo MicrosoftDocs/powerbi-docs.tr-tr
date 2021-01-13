@@ -10,16 +10,16 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7184f00af46ce5f49df2510ea5e676c89a37a7a
-ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
+ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97558505"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053432"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Klasik çalışma alanlarında kullanım ölçümlerini izleme
 
-Kullanım ölçümleri panolarınızın ve raporlarınızın etkisini anlamanıza yardımcı olur. Pano kullanım ölçümlerini veya rapor kullanım ölçümlerini çalıştırdığınızda bu panolarla raporların kuruluşunuz genelinde nasıl, kimler tarafından ve ne amaçla kullanıldığını görebilirsiniz. Bu makalede [klasik çalışma alanları](service-create-workspaces.md) için kullanım ölçümleri raporları özetlenir. Raporlarınız yeni çalışma alanlarından birinde yer alıyorsa [Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme](service-usage-metrics.md) makalesine bakın  
+Kullanım ölçümleri panolarınızın ve raporlarınızın etkisini anlamanıza yardımcı olur. Pano kullanım ölçümlerini veya rapor kullanım ölçümlerini çalıştırdığınızda bu panolarla raporların kuruluşunuz genelinde nasıl, kimler tarafından ve ne amaçla kullanıldığını görebilirsiniz. Bu makalede [klasik çalışma alanları](service-create-workspaces.md) için kullanım ölçümleri raporları özetlenir. Raporlarınız yeni çalışma alanlarından birinde yer alıyorsa [Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme](service-modern-usage-metrics.md) makalesine bakın  
 
 Kullanım ölçümleri raporları salt okunur biçimdedir. Öte yandan kullanım ölçümleri raporunu kopyalayabilirsiniz. Kopyalama işlemi, düzenleyebileceğiniz standart bir Power BI raporu oluşturur. Ayrıca Power BI Desktop'ta temel veri kümesine dayanan ve çalışma alanındaki tüm panolar veya tüm raporlar için kullanım ölçümlerini içeren kendi raporlarınızı da oluşturabilirsiniz. Başlangıç olarak kopyalanan rapor yalnızca seçili pano veya raporun ölçümlerini gösterir. Varsayılan filtreyi kaldırabilir ve seçili çalışma alanının tüm kullanım ölçümleriyle temel veri kümesine erişebilirsiniz. Yöneticiniz izin verdiyse belirli kullanıcıların adlarını bile görebilirsiniz.
 
