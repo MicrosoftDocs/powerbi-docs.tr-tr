@@ -266,6 +266,8 @@
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: X ekseni ve Y ekseni özelliklerini özelleştirme
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+            - name: Anormallik algılama
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Power BI görsellerinde ArcGIS haritaları ile etkileşim kurma
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: Basit alan grafikleri
@@ -276,10 +278,6 @@
               href: ../visuals/power-bi-visualization-combo-chart.md
             - name: Ayrıştırma ağacı görselleri
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: Akıllı açıklamalar
-              href: ../visuals/power-bi-visualization-smart-narrative.md
-            - name: Anormallik algılama
-              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Halka grafikler
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Kartogramlar (koropletler)
@@ -310,6 +308,8 @@
               href: ../visuals/desktop-high-density-scatter-charts.md
             - name: Şekil Haritası görselleri (önizleme)
               href: ../visuals/desktop-shape-map.md
+            - name: Akıllı açıklamalar
+              href: ../visuals/power-bi-visualization-smart-narrative.md
             - name: Raporlardaki ve panolardaki tablolar
               href: ../visuals/power-bi-visualization-tables.md
             - name: Ağaç haritaları
@@ -410,7 +410,7 @@
               href: service-dashboard-themes.md
         - name: Dağıtım işlem hatları
           items:
-            - name: başlarken
+            - name: Kullanmaya başlayın
               href: deployment-pipelines-get-started.md
             - name: Sorun giderme
               href: deployment-pipelines-troubleshooting.md
