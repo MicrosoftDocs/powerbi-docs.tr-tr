@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 12/01/2020
-ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: 1ca4db3ad43553521c55866fd16b2440e3b64a65
+ms.sourcegitcommit: 73ca86f7633317fe3831839c4dd14a333b2f514c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502030"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979965"
 ---
 # <a name="power-bi-webinars"></a>Power BI web seminerleri
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com), Chauncy Freels ile çalışan ve bu web semineri listesini korumaya yardımcı olan bir satıcıdır"
@@ -28,52 +28,56 @@ Yaklaşan canlı web seminerlerimize kaydolun veya kaydedilen, isteğe bağlı o
 
 Aşağıdaki, isteğe bağlı popüler web seminerlerimizle başlayın:
 
+**Gerçek Zamanlı Kararlar ve Daha Güçlü Müşteri Bağlantıları İçin Veri Temelli İçgörüler**  
+Shruti Shukla ve Chandra Stevens  
+[Hemen izleyin](https://info.microsoft.com/ww-Landing-DataDrivenInsights.html)
+
 **Power BI ile Hızla Çalışmaya Başlayın**  
 Sağlayan: Miguel Martinez, Microsoft  
-[5 Kasım 2020’de (10:00 – 11:00 PDT) izlemek için kaydolun](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+[Hemen izleyin](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html)
 
 **Power BI ve Microsoft Teams ile Uzak Veri Kültürü Geliştirme**  
 Lukasz Pawlowski  
-[Hemen izleyin](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+[Hemen izleyin](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html)
 
 **Birlikte Daha İyi: Power BI'ın Excel Kullanıcılarına Sağladığı 5 Avantaj**  
 Miguel Martinez ve Carlos Otero  
-[Hemen izleyin](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
+[Hemen izleyin](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html)
 
 **Microsoft Power BI Sayesinde Verilerinizi Gerçek Zamanlı Olarak İzleyin**  
 Sağlayan: Miguel Martinez ve Peter Myers  
-[Hemen izleyin](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+[Hemen izleyin](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html)
 
 **Dremio ile Azure Data Lake Storage'da Power BI'ı Hızlandırma**  
-Chris Webb ve Tomer Shiran [Hemen izleyin]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us)
+Chris Webb ve Tomer Shiran [Hemen izleyin]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html)
 
 **Power BI ve Snowflake Kullanarak Ölçeklenebilir İş Zekası Çözümleri Oluşturun**  
 Sağlayan: Chris Webb, Craig Collier ve Chris Holliday  
-[Hemen izleyin](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
+[Hemen izleyin](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html)
 
 **BI İçeriğini Yönetmeye Yönelik En İyi Deneyimlerle Kullanıcı Memnuniyetini Artırın**  
 Hazırlayan: Nimrod Shalit  
-[Hemen izleyin](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
+[Hemen izleyin](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html)
 
 **From Insight to Action: Driving a Data Culture with Power BI** (İçgörüden Eyleme: Power BI ile Veri Kültürü Oluşturma)  
 Arun Ulagaratchagan ve Amir Netz  
-[Hemen izleyin]( https://info.microsoft.com/ww-landing-From-Insight-to-Action-Driving-a-Data-Culture-with-Power-BI.html?lcid=en-us)
+[Hemen izleyin]( https://info.microsoft.com/ww-landing-From-Insight-to-Action-Driving-a-Data-Culture-with-Power-BI.html)
 
 **Enable Better Analytics with Power BI Embedded** (Power BI Embedded ile Daha İyi Analiz)  
 Alon Baram  
-[Hemen izleyin](https://info.microsoft.com/ww-landing-Enable-Better-Analytics-with-Power-BI-Embedded.html?Lcid=EN-US)
+[Hemen izleyin](https://info.microsoft.com/ww-landing-Enable-Better-Analytics-with-Power-BI-Embedded.html)
 
 **How the Miami HEAT Used Power BI to Drive Business Decisions** (Miami HEAT İş Kararları Almak İçin Power BI'dan Faydalandı)  
 Edson Crevecoeur, Frank Mesa ve Xinrou Tan  
-[Hemen izleyin]( https://info.microsoft.com/ww-Landing-How-the-Miami-HEAT-Used-Power-BI-to-Drive-Business-Decisions.html?Lcid=EN-US)
+[Hemen izleyin]( https://info.microsoft.com/ww-Landing-How-the-Miami-HEAT-Used-Power-BI-to-Drive-Business-Decisions.html)
 
 **Simplify Big Data Prep and Analysis with Power BI** (Power BI ile Büyük Veri Hazırlık ve Analiz Süreçlerini Kolaylaştırın)  
 Priya Sathy  
-[Hemen izleyin](https://info.microsoft.com/ww-landing-simplify-big-data-prep-and-analysis-with-power-BI.html?lcid=en-us)
+[Hemen izleyin](https://info.microsoft.com/ww-landing-simplify-big-data-prep-and-analysis-with-power-BI.html)
 
 **Improve Decision-Making with Power BI** (Power BI ile Karar Alma Süreçlerini Geliştirin)  
 Kim Manis ve Lukasz Pawlowski  
-[Hemen izleyin](https://info.microsoft.com/ww-Landing-Improve-Decision-Making-with-Power-BI.html?LCID=EN-US)
+[Hemen izleyin](https://info.microsoft.com/ww-Landing-Improve-Decision-Making-with-Power-BI.html)
 
 ## <a name="on-demand-webinars"></a>İsteğe bağlı web seminerleri
 
@@ -81,7 +85,7 @@ Kayıtlı oturumları istediğiniz zaman izleyin.
 
 **Microsoft Power BI’ın Toplam Ekonomik Etkisini İnceleme**  
 Megan Tomlin, Microsoft ve Jonathan Lipsitz, Forrester Consulting  
-[Hemen izleyin]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
+[Hemen izleyin]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html)
 
 **Azure sanal olayında analiz: Azure Synapse Analytics ile içgörü elde etme sürecini hızlandırın**  
 Gayle Sheppard ve John Macintyre  
@@ -89,23 +93,23 @@ Gayle Sheppard ve John Macintyre
 
 **Microsoft BI Veri Korumasını Nasıl Değiştiriyor**  
 Anton Fritz ve Adi Regev  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html)
 
 **İçgörü Destekli bir İşletme Olma**  
 Amir Netz, Microsoft ve Boris Evelson, Forrester  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html?lcid=en-us)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html)
 
 **Yapay zeka BI’ı üç farklı şekilde değiştiriyor**  
 yazan: Justyna Lucznik  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html&ocid=mkto_eml_EM581230A1LA1)
 
 **Power BI ile Modern ve Kurumsal İş Zekasının Geleceği**  
 Hazırlayan: Arun Ulag ve Amir Netz  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html)
 
 **Nine Trends Shaping the Future of Big Data Analytics (Büyük Veri Analizinin Geleceğini Şekillendiren Dokuz Eğilim)**  
 Vijay Gopalakrishnan  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html)
 
 **Power BI ile çalışmaya başlama**  
 Sağlayan: Miguel Martinez  
@@ -113,7 +117,7 @@ Sağlayan: Miguel Martinez
 
 **Power BI Mobil Uygulaması ile Çalışmaya Başlama**  
 Maya Shenhav  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html?LCID=EN-US)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html)
 
 **20 Dakika İçinde Bir Power BI Panosunda Aradıklarınızı Bulmayı Öğrenin**  
 Sağlayan: Miguel Martinez  
@@ -125,7 +129,7 @@ Sağlayan: Kasper de Jonge
 
 **Power BI’ı Dynamics 365 Finance and Operations ile Kullanma**  
 Yazar: Kevin Horlock  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html)
 
 **Microsoft, Power BI kullanıyor – Finansal Planlama ve Analiz Artık Çok Kolay**  
 Sağlayan: Cory Hrncirik ve Miguel Martinez  
@@ -133,7 +137,7 @@ Sağlayan: Cory Hrncirik ve Miguel Martinez
 
 **Microsoft Runs on Power BI: Using Power BI in Modern Treasury**  
 Pankaj Gudimella ve Guru Kirthigavasan  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html)
 
 **Power BI JavaScript API’si ile Uygulamalarınızı Güçlendirme**  
 Hazırlayan: Nimrod Shalit  
@@ -157,7 +161,7 @@ Hazırlayan: Wim Coorevits ve Enrique Plaza Garcia
 
 **Çok Kiracılı Dağıtımlar için Power BI Embedded Analiz Yönetiminin En İyi Uygulamaları**  
 Hazırlayan: Nimrod Shalit  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html)
 
 **Power BI: Doğru Analiz**  
 Hazırlayan: Gohul Shanmugalingam  
@@ -200,7 +204,7 @@ Sağlayan: Reid Havens
 
 **Power BI: How to Get Insights from Your Workday HR Data**  
 Agile Analytics'ten Iman Eftekhari, Julia Paton ve QBE Insurance'dan Shahram Karimi  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html)
 
 **Tüketici Ürünleri Üreticileri ve Perakendecileri için İki Tarafında da Kazançlı Çıkacağı Bir Ortam Oluşturma**  
 Thorogood'dan Liz McCreesh  
@@ -208,7 +212,7 @@ Thorogood'dan Liz McCreesh
 
 **Power BI ile Müşteri Verilerini Perakende Başarısına Dönüştürme**  
 Hazırlayan: Hitachi Solutions’dan Angad Soni  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?wt.mc_id=undefined)
 
 **Hem Hasta Sonuçlarını hem de Kârlılığı Geliştirmek İçin Başarısı Kanıtlanmış Sağlık Çözümleri**  
 Sağlayan: Stephen Cracknell ve Stuart Macanliss, US Medical IT  
@@ -228,7 +232,7 @@ Scott Ball, Microsoft'tan Esri ve Enrique Plaza
 
 **Başarılı Bir Trend Sorumlusunun 5 Alışkanlığı - Rohit Bhargava**  
 Hazırlayan: Non-Obvious’tan Rohit Bhargava  
-[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
+[Hemen kaydolun ve izleyin](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html)
 
 ### <a name="community"></a>Topluluk ###
 

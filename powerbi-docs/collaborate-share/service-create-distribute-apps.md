@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f15508f030a1fa2ee0112134faf71e94e752984c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407711"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110924"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -70,7 +70,7 @@ Uygulamayı oluşturmak veya güncelleştirmek için Power BI Pro lisansınız o
     
     >[!IMPORTANT]
     >Uygulamanız başka çalışma alanlarındaki veri kümelerini kullanıyorsa, tüm uygulama kullanıcılarının temel veri kümelerine erişebildiğinden emin olmak sizin sorumluluğunuzdadır.
-    >
+    >Uygulama veya rapor veri kümesiyle aynı çalışma alanındaysa veri kümesiyle ilişkili olan raporu da uygulamaya eklediğinizden emin olun.
 
 6. Power BI yöneticiniz Power BI Yönetim Portalında sizi için bu ayarı etkinleştirdiyse uygulamayı alıcılar için otomatik olarak yükleyebilirsiniz. Bu makalede [uygulamayı otomatik olarak yükleme](#automatically-install-apps-for-end-users) konusundaki diğer bilgileri okuyun.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 408b5a03b415e6b1dabdb762eefee81e1a4fe483
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: cdb3543bc65e21f53cc21dea0f4da62910a7bd55
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887384"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110855"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Power BI Embedded ile satır düzeyi güvenlik
 
@@ -320,15 +320,18 @@ Kimlik blobunda sağlanan değerin Azure SQL Server için geçerli bir erişim b
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>Hizmet sorumlusuyla şirket içi veri ağ geçidi
 
-SQL Server Analysis Services (SSAS) şirket içi canlı bağlantı veri kaynağı kullanarak satır düzeyi güvenliği (RLS) yapılandıran müşteriler, **Power BI Embedded** ile tümleştirildiğinde kullanıcıları ve bu kullanıcıların SSAS'deki verilere erişimini yönetmek için yeni [hizmet sorumlusu](embed-service-principal.md) özelliğinden yararlanabilir.
+SQL Server Analysis Services (SSAS) şirket içi canlı bağlantı veri kaynağını kullanan müşteriler, **Power BI Embedded** ile tümleştirildiğinde kullanıcıları ve bu kullanıcıların SSAS'deki verilere erişimini yönetmek için [hizmet sorumlusu](embed-service-principal.md) özelliğinden yararlanabilir.
 
 [Power BI REST API'lerinin](/rest/api/power-bi/) kullanılması, [hizmet sorumlusu nesnesini](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) kullanarak ekleme belirteci için SSAS şirket içi canlı bağlantılarına etkin kimlik belirtmenize olanak tanır.
 
-Şimdiye kadar SSAS şirket içi canlı bağlantılarına etkin kimlik belirtebilmek için, ekleme belirtecini oluşturan ana kullanıcının bir ağ geçidi yöneticisi olması gerekiyordu. Artık kullanıcının ağ geçidi yöneticisi olması gerekmez; ağ geçidi yöneticisi kullanıcıya söz konusu veri kaynağı üzerinde ayrılmış izin verebilir ve bu izin kullanıcının ekleme belirtecini oluştururken etkin kimliği geçersiz kılmasını sağlar. Bu yeni özellik canlı SSAS bağlantısı için hizmet sorumlusuyla eklemeye olanak tanır.
+Şimdiye kadar SSAS şirket içi canlı bağlantılarına etkin kimlik belirtebilmek için, ekleme belirtecini oluşturan *ana kullanıcının* bir ağ geçidi yöneticisi olması gerekiyordu. Artık kullanıcının ağ geçidi yöneticisi olması gerekmez; ağ geçidi yöneticisi kullanıcıya söz konusu veri kaynağı üzerinde ayrılmış izin verebilir ve bu izin kullanıcının ekleme belirtecini oluştururken etkin kimliği geçersiz kılmasını sağlar. Bu yeni özellik canlı SSAS bağlantısı için hizmet sorumlusuyla eklemeye olanak tanır.
 
-Bu senaryoyu etkinleştirmek için, ağ geçidi yöneticisi [Veri Kaynağı Kullanıcısı Ekleme REST API'sini](/rest/api/power-bi/gateways/adddatasourceuser) kullanarak hizmet sorumlusuna Power BI Embedded üzerinde *ReadOverrideEffectiveIdentity* iznini verir.
+Bu senaryoyu etkinleştirmek için, ağ geçidi yöneticisi [Veri Kaynağı Kullanıcısı Ekleme REST API'sini](/rest/api/power-bi/gateways/adddatasourceuser) kullanarak hizmet sorumlusuna SSAS veri kaynağı için *ReadOverrideEffectiveIdentity* iznini verir.
 
 Yönetim portalını kullanarak bu izni ayarlayamazsınız. Bu izin yalnızca API'yle ayarlanır. Yönetim portalında, bu tür izinleri olan kullanıcılar ve SPN'ler için bir gösterge görürsünüz.
+
+>[!NOTE]
+>RLS yapılandırması bulunmayan bir SSAS veritabanına bağlı olduğunuzda da ekleme belirteci oluşturma çağrısında etkin bir kimlik (SSAS sunucu yöneticisinin kimliği) belirtmeniz gerekir.
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 

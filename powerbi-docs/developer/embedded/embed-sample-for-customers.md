@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: f6ca898bafff0b3375df65b63f913eb81d8dc006
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888961"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969777"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Öğretici: Örnek *müşterileriniz için ekleme* uygulamasını kullanarak Power BI içeriği ekleme
 
@@ -147,7 +147,7 @@ Aşağıdaki tabloda [hizmet sorumlusu](embed-service-principal.md) ile **ana ku
 
 |Değerlendirme  |Hizmet sorumlusu  |Ana kullanıcı  |
 |---------|---------|---------|
-|Mechanism     |Azure AD uygulamanızın [hizmet sorumlusu nesnesi](/azure/active-directory/develop/app-objects-and-service-principals.md#service-principal-object), Azure AD'nin tümleşik analiz çözümünüzü Power BI kimlik doğrulamasından geçirmesini sağlar.        |Azure AD uygulamanız, Power BI'da kimlik doğrulamasından geçmek için bir Power BI kullanıcısının kimlik bilgilerini (kullanıcı adı ve parola) kullanır.         |
+|Mechanism     |Azure AD uygulamanızın [hizmet sorumlusu nesnesi](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object), Azure AD'nin tümleşik analiz çözümünüzü Power BI kimlik doğrulamasından geçirmesini sağlar.        |Azure AD uygulamanız, Power BI'da kimlik doğrulamasından geçmek için bir Power BI kullanıcısının kimlik bilgilerini (kullanıcı adı ve parola) kullanır.         |
 |Güvenlik     |*Hizmet sorumlusu*, Azure AD tarafından önerilen yetkilendirme yöntemidir. Hizmet sorumlusu kullanıyorsanız *uygulama gizli dizisi* veya *sertifika* kullanarak kimlik doğrulamasından geçebilirsiniz.</br></br>Bu öğreticide yalnızca *hizmet sorumlusu* ile *uygulama gizli dizisi* kullanımı gösterilmektedir. *Hizmet sorumlusu* ve *sertifika* kullanarak eklemek için [hizmet sorumlusu ve sertifika](embed-service-principal-certificate.md) makalesine bakın.         |Bu kimlik doğrulama yöntemi, *hizmet sorumlusu* kullanmak kadar güvenli kabul edilmez. Bunun nedeni, *ana kullanıcı* kimlik bilgilerini (kullanıcı adı ve parola) korumak zorunda olmanızdır. Örneğin bu bilgileri tümleşik analiz uygulamanızda göstermemeniz ve parolayı sık sık değiştirmeniz gerekir.         |
 |Azure AD temsilci izinleri |Gerekli değildir. |*Ana kullanıcınızın* veya bir yöneticinin, uygulamanızın Power BI REST API [izinlerine](/azure/active-directory/develop/v2-permissions-and-consent) (kapsamlar olarak da bilinir) erişmesine onay vermesi gerekir. Örneğin, *Report.ReadWrite.All*. |
 |Power BI hizmeti erişimi |*Hizmet sorumlusu* ile Power BI hizmetine erişemezsiniz.|Power BI hizmetine erişmek için *ana kullanıcı* kimlik bilgilerinizi kullanmanız gerekir.|
@@ -185,7 +185,7 @@ Power BI'da raporlarınız, panolarınız ve kutucuklarınız bir çalışma ala
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>4\. Adım: Power BI raporu oluşturup yayımlayın
 
-Bir sonraki adım bir rapor oluşturup çalışma alanınıza yüklemektir. Power BI Desktop'ı kullanarak [kendi raporunuzu oluşturabilir](/powerbi-docs/fundamentals/desktop-getting-started#build-reports) ve ardından çalışma alanınızda [yayımlayabilirsiniz](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work). Alternatif olarak çalışma alanınıza örnek raporlardan birini yükleyebilirsiniz.
+Bir sonraki adım bir rapor oluşturup çalışma alanınıza yüklemektir. Power BI Desktop'ı kullanarak [kendi raporunuzu oluşturabilir](/power-bi/fundamentals/desktop-getting-started#build-reports) ve ardından çalışma alanınızda [yayımlayabilirsiniz](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work). Alternatif olarak çalışma alanınıza örnek raporlardan birini yükleyebilirsiniz.
 
 >[!Tip]
 >İçinde rapor bulunan bir çalışma alanınız varsa bu adımı atlayabilirsiniz.
@@ -536,7 +536,7 @@ Power BI Embedded örnek uygulaması, *müşterileriniz için ekleme* yöntemiyl
 
     a. IDE terminalinde `npm start` komutunu yürütün.
 
-    b. Tarayıcınızda yeni bir sekme açıp [http://localhost:5300](http://localhost:5300) adresine gidin.
+    b. Tarayıcınızda yeni bir sekme açıp `http://localhost:5300` adresine gidin.
 
 # <a name="python"></a>[Python](#tab/python)
 
@@ -571,7 +571,7 @@ Power BI Embedded örnek uygulaması, *müşterileriniz için ekleme* yöntemiyl
 
     a. **PowerShell** veya **komut istemi** ile **Python** > **Embed for your customers** > **AppOwnesData** klasörüne gidip `flask run` komutunu yürütün.
 
-    b. Tarayıcınızda yeni bir sekme açıp [http://localhost:5300](http://localhost:5300) adresine gidin.
+    b. Tarayıcınızda yeni bir sekme açıp `http://localhost:5300` adresine gidin.
 
 ---
 

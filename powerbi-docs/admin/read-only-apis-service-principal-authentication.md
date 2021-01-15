@@ -10,12 +10,12 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 332101009946c64cb5e97bd40b9949f6daa67b7b
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906831"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155699"
 ---
 # <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>Salt okunur yönetici API’leri için hizmet sorumlusu kimlik doğrulamasını etkinleştirme (önizleme)
 
@@ -42,7 +42,7 @@ Power BI salt okunur API'leri için hizmet sorumlusu kimlik doğrulamasını etk
         * **İzinler**'i seçin. Uygulamaya verilmiş Power BI admin-consent-required izinleri olmadığından emin olun. Daha fazla bilgi için bkz. [Uygulama onayını yönetme ve onay isteklerini değerlendirme](https://docs.microsoft.com/azure/active-directory/manage-apps/manage-consent-requests). 
 4. Power BI hizmeti yönetici ayarlarını etkinleştirin. Bunu yapmak için:
     1. Power BI yönetim portalında oturum açın. Kiracı ayarları sayfasını görmek için Power BI yöneticisi olmanız gerekir.
-    1. **Geliştirici ayarları** bölümünde **Hizmet sorumlularının salt okunur Power BI yönetici API'lerini kullanmasına izin ver (Önizleme)** seçeneğini göreceksiniz. Ayarı Etkin duruma getirin ve ardından **Belirli güvenlik grupları** radyo düğmesini seçerek aşağıdaki resimde gösterildiği gibi 2. adımda oluşturduğunuz güvenlik grubunu altında açılan metin kutusuna girin.
+    1. **Yönetici API'si ayarları** bölümünde **Hizmet sorumlularının salt okunur Power BI yönetici API'lerini kullanmasına izin ver (Önizleme)** seçeneğini göreceksiniz. Ayarı Etkin duruma getirin ve ardından **Belirli güvenlik grupları** radyo düğmesini seçerek aşağıdaki resimde gösterildiği gibi 2. adımda oluşturduğunuz güvenlik grubunu altında açılan metin kutusuna girin.
 
         ![Hizmet sorumlusu kiracı ayarının ekran görüntüsü.](media/read-only-apis-service-principal-auth/allow-service-principals-tenant-setting.png)
 
@@ -53,7 +53,7 @@ Power BI salt okunur API'leri için hizmet sorumlusu kimlik doğrulamasını etk
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 * Hizmet sorumlusunu kullanarak Power BI portalında oturum açamazsınız.
-* Power BI yönetim portalındaki geliştirici ayarlarında hizmet sorumlusunu etkinleştirmek için Power BI yönetici hakları gereklidir.
+* Power BI yönetim portalındaki Yönetici API'si ayarlarında hizmet sorumlusunu etkinleştirmek için Power BI yönetici hakları gereklidir.
 * Hizmet sorumlusu şu an için aşağıdaki API'leri desteklemektedir:
     * [GetGroupsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/groups_getgroupsasadmin) ile $expand; panolar, veri kümeleri, raporlar ve veri akışları için 
     * [GetDashboardsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) ile $expand kutucukları

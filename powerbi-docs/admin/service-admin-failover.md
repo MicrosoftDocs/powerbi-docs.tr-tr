@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: ff41f702edc605ee346aa10a759e633377597504
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408976"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961236"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS
 
@@ -26,7 +26,7 @@ Power BI, tam olarak yönetilen bir hizmet olarak yazılımdır (SaaS).  Microso
 
 ## <a name="what-is-a-power-bi-failover"></a>Power BI yük devretme nedir?
 
-Power BI, iş sürekliliğini garanti etmek için Azure veri merkezlerinde (bölgeler olarak da bilinir) her bileşenin birden çok örneğini bulundurur. Bir bölgede Power BI’ın erişilemez veya çalışamaz duruma gelmesine neden olan bir kesinti veya sorun oluşması durumunda Power BI o bölgedeki tüm bileşenlerinin yükünü yedek örneğine devreder. Yük devretme, kullanılabilirlik ve çalışabilirliği yeni bir bölgedeki ([Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)’nde belirtildiği gibi bu bölge genellikle aynı coğrafi konumdadır) Power BI hizmeti örneğine geri yükler.
+Power BI, iş sürekliliğini garanti etmek için Azure veri merkezlerinde (bölgeler olarak da bilinir) her bileşenin birden çok örneğini bulundurur. Bir bölgede Power BI’ın erişilemez veya çalışamaz duruma gelmesine neden olan bir kesinti veya sorun oluşması durumunda Power BI o bölgedeki tüm bileşenlerinin yükünü yedek örneğine devreder. Yük devretme, kullanılabilirlik ve çalışabilirliği yeni bir bölgedeki ([Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/product-overview)’nde belirtildiği gibi bu bölge genellikle aynı coğrafi konumdadır) Power BI hizmeti örneğine geri yükler.
 
 Yük devredilen bir Power BI hizmeti örneği yalnızca _okuma işlemlerini_ destekler. Bu da yük devretme sırasında şu işlemlerin desteklenmediği anlamına gelir: yenileme, rapor yayımlama işlemleri, pano veya rapor değişiklikleri ve Power BI meta verilerinde değişiklikler gerektiren diğer işlemler (örneğin bir rapora yorum ekleme).  Pano görüntüleme ve rapor görüntüleme gibi (DirectQuery veya Canlı Bağlantı'yla şirket içi veri kaynaklarına dayalı olmayan) okuma işlemleri normal çalışmaya devam eder.
 
@@ -36,7 +36,7 @@ Tüm Power BI hizmeti bileşenleri yedekleme örneklerini düzenli olarak eşitl
 
 ## <a name="where-are-the-failover-clusters-located"></a>Yük devretme kümeleri nerede bulunur?
 
-[Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)’nde açıklanan durumlar dışında yedekleme örnekleri kuruluşunuzun Power BI’a kaydı sırasında seçtiğiniz coğrafi bölgenin (geo) içinde yer alır. Coğrafi bölge çeşitli bölgeler içerebilir ve Microsoft verilerin dayanıklılığı için onları belirli bir coğrafi bölge içindeki bölgelerden herhangi birine çoğaltabilir. Microsoft, müşteri verilerini coğrafi bölgenin dışına çoğaltmaz veya taşımaz. Power BI’ın sunduğu coğrafi bölgeler ve bu coğrafi bölgelerin kapsadığı bölgelerin eşlemesi için bkz. [Microsoft Güven Merkezi](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location).
+[Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/product-overview)’nde açıklanan durumlar dışında yedekleme örnekleri kuruluşunuzun Power BI’a kaydı sırasında seçtiğiniz coğrafi bölgenin (geo) içinde yer alır. Coğrafi bölge çeşitli bölgeler içerebilir ve Microsoft verilerin dayanıklılığı için onları belirli bir coğrafi bölge içindeki bölgelerden herhangi birine çoğaltabilir. Microsoft, müşteri verilerini coğrafi bölgenin dışına çoğaltmaz veya taşımaz. Power BI’ın sunduğu coğrafi bölgeler ve bu coğrafi bölgelerin kapsadığı bölgelerin eşlemesi için bkz. [Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/product-overview).
 
 ## <a name="how-does-microsoft-decide-to-fail-over"></a>Microsoft yük devretmeye nasıl karar verir?
 

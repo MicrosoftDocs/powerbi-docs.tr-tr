@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/14/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: da5ee837345b6f26dd6636bc93f6b38c1e0f5ea7
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 56ac55ceec480d6d33d6974b97871c5fa4d2d799
+ms.sourcegitcommit: 73ca86f7633317fe3831839c4dd14a333b2f514c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491863"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979988"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Power BI’a erişmek için özel bağlantılar
 
@@ -305,7 +305,7 @@ Hepsi bu kadar. Bu adımlar izlendikten sonra kurumlarınız için Power BI’a 
 
 Power BI’da özel bağlantılarla çalışılırken dikkate alınması gereken birkaç önemli nokta vardır:
 
-* Özel bağlantı ortamı kullanılırken dış resimler veya temalar kullanılamaz ve bunlar özel görselleri etkileyebilir.
+* Özel bağlantı ortamı kullanılırken dış resimler veya temalar kullanılamaz.
 * İnternet erişimi devre dışıysa ve veri kümesi ya da veri akışı, veri kaynağı olarak bir Power BI veri kümesine veya veri akışına bağlanıyorsa bağlantı başarısız olur.
 * Özel Bağlantılar etkinleştirildiğinde kullanım ölçümleri *çalışmaz*.
 * Power BI’da **Genel İnternet erişimini engellemeyi** etkinleştirdiğinizde, Web’de Yayımla işlevi desteklenmez (ve gri olur).

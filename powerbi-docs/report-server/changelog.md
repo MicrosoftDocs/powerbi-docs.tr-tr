@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/31/2020
-ms.openlocfilehash: 7c1df405c80f50b7b98803b68ae2d3887013a623
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/06/2021
+ms.openlocfilehash: 51df40463a02c2c165ca6cde59ef2b16cda8860c
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886201"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053340"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -23,6 +23,10 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
 
 ## <a name="october-2020"></a>Ekim 2020
 - **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.9.7675.15620 (Derleme 15.0.1104.300), Yayın Tarihi: 8 Ocak 2021*
+        - Hata düzeltmeleri
+            - Yalnızca küçük/büyük harflerin farklı olduğu iki veya daha fazla veri kaynağına sahip olan raporların yenilenmesiyle ilgili sorun düzeltildi.
+            - Belirli iç içe birleştirme kombinasyonlarına sahip raporların yenilenmesiyle ilgili sorun düzeltildi.
     - *Sürüm: 1.9.7627.11028 (Derleme 15.0.1104.264), Yayın Tarihi: 18 Kasım 2020*
         - Hata düzeltmeleri
             - Kullanıcıların portal aracılığıyla site ayarlarındaki alanları değiştirmesini engelleyen sorun düzeltildi.

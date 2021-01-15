@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 01/08/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4a8234176dd44fd265ff2d4a6af8e1b5568a642c
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: 1253c2b2548a7e6333840b8d33fdf255d5634be5
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699303"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053409"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -128,6 +128,7 @@ Power BI yöneticileri aboneliklerle ilgili ayrıntıları görüntülemek için
 - Mevcut bir aboneliği düzenlediğinizde, rapora/panoya erişim verme seçeneği her zaman etkin görünür.  Bu seçeneği temizleyip aboneliği kaydederseniz durum da kaydedilir. Ancak, raporu yeniden düzenlerseniz bu seçenek varsayılan olarak işaretlenir.
 - Alternatif e-posta adresiniz varsa ancak birincil e-posta adresiniz yoksa Power BI abonelikle ilgili yazışmalar için var olan adresi kullanır.
 - Dış kullanıcıları bir rapor veya panoya abone yaparsanız abonelik bölmesinde **Kaydet ve kapat**’ı seçmenizin hemen ardından bir paylaşım bildirimi alırlar. Raporu veya panoyu görüntülemek için bir davet bağlantısına ihtiyaç duyduklarından, bu bildirim iç kullanıcılara değil, yalnızca dış kullanıcılara gönderilir. 
+- Bir rapora veya panoya abone olabilecek kişi sayısı sınırlıdır. 200 aboneyi aştıktan sonra teslimat konusunda sorun yaşayabilirsiniz.
 
 ### <a name="dashboards"></a>Panolar
 

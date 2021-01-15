@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/08/2021
 LocalizationGroup: Consumer
-ms.openlocfilehash: f1265a8eb3fb4a7a1ec18a74c6b3a7d28b3b09ba
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: a4a89fd9db3ea3d92012bdaffdcaf248f7546c86
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578257"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053478"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Panolara ve raporlara açıklama ekleme
 
@@ -92,7 +92,7 @@ Bir panonun tamamına veya bütün bir rapor sayfasına açıklama eklemenin yan
 5. Panoya veya rapora dönmek için **Kapat**’ı seçin.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>@ işaretini kullanarak iş arkadaşlarınızın dikkatini çekme
-Pano, rapor, kutucuk veya görsel açıklaması oluştururken, "\@" sembolünü kullanarak iş arkadaşlarınızın dikkatini çekebilirsiniz.  "\@" sembolünü yazdığınızda, Power BI kuruluşunuzdan kişileri arayıp seçebileceğiniz bir açılır menü görüntüler. Önüne "\@" sembolü eklenen doğrulanmış adlar mavi yazı tipiyle gösterilir. @mentioned kişiler hemen bir e-posta alırlar. Power BI Mobil uygulamasını kullanıyorlarsa cihazlarına bir anında iletme bildirimi gelir. Yorumu doğrudan bildirimden açabilir, verileri görüntüleyebilir ve uygun şekilde yanıtlayabilirler.
+Pano, rapor, kutucuk veya görsel açıklaması oluştururken, "\@" sembolünü kullanarak iş arkadaşlarınızın dikkatini çekebilirsiniz.  "\@" sembolünü yazdığınızda, Power BI kuruluşunuzdan kişileri arayıp seçebileceğiniz bir açılır menü görüntüler. Önüne "\@" sembolü eklenen doğrulanmış adlar mavi yazı tipiyle gösterilir. @mentioned kişiler hemen bir e-posta alırlar. Power BI Mobil uygulamasını kullanıyorlarsa cihazlarına bir anında iletme bildirimi gelir. Raporu veya panoyu doğrudan bildirimden açabilir, yorumu görebilir, verileri görüntüleyebilir ve uygun şekilde yanıtlayabilirler.
 
 Burada görselleştirme *tasarımcısı* ile yaptığım konuşma gösteriliyor. Açıklamayı gördüğümden emin olmak için @ sembolünü kullanıyor. Bir bildirim alıyorum ve bu pano ile ilgili konuşmayı açmak için bağlantıyı seçiyorum.  
 

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/17/2020
+ms.date: 01/08/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4b5c076837ea5f70a84c1782349fd27ced4d866c
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: d7dfcdadd4becddb46127106b390d566faa2f9b9
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699329"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053455"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 
@@ -96,7 +96,7 @@ Pro lisansının süresi dolarsa, pano veya rapor sahibi tarafından silinirse v
 * E-postanızdaki bağlantılar (içerik bağlantıları) çalışmayı durdurursa, içeriğin silinmiş olmasından kaynaklanabilir. E-postadaki ekran görüntüsünün altında, kendinizin mi abone olduğunu, yoksa başka bir kişinin mi sizi abone yaptığını görebilirsiniz. Başka birisi ise, o iş arkadaşınızdan e-postaları iptal etmesini veya sizi yeniden abone yapmasını isteyin.
 * Pano abonelikleri için belirli kutucuk türleri henüz desteklenmiyor. Bu kutucuk türleri şunlardır: akış kutucukları, video kutucukları ve özel web içeriği kutucukları. 
 * Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Bir rapor sayfasına abone olursanız ve bu rapor sayfası yeniden adlandırılırsa, aboneliğinizi yeniden oluşturmanız gerekir.
-* Abonelik özelliğini kullanamıyorsanız sistem yöneticinize veya BT yardım masasına başvurun. Kuruluşunuz bu özelliği devre dışı bırakmış olabilir.  
+* Abonelik özelliğini kullanamıyorsanız sistem yöneticinize veya BT yardım masasına başvurun. Kuruluşunuzda bu özellik devre dışı bırakılmış veya maksimum abone limitine ulaşılmış olabilir.  
 * E-posta abonelikleri çoğu [özel görseli](../developer/visuals/power-bi-custom-visuals.md) desteklemez.  Power BI özel görsellerindeki istisna, [sertifikalı](../developer/visuals/power-bi-custom-visuals-certified.md) olanlardır.    
 * E-posta abonelikleri raporun varsayılan filtresi ve dilimleyici durumları ile gönderilir. Abone olduktan sonra varsayılanlarda yaptığınız hiçbir değişiklik e-postada gösterilmez. Sayfalandırılmış Raporlar bu özelliği destekler ve abonelik başına belirli parametre değerleri ayarlamanıza olanak tanır.  
 * E-posta abonelikleri şu anda R tarafından desteklenen Power BI görsellerini desteklememektedir.  

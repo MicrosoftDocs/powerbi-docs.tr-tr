@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: de7715fc37748ee80cba61f9cc246ad9e1df5c33
-ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
+ms.openlocfilehash: d47d9b973eadb06095c2a2aebb8fe93cf6ab4414
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97708054"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969547"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI'da duyarlılık etiketleri
 
@@ -80,7 +80,7 @@ Duyarlılık etiketleri Power BI Desktop'ta da uygulanabilir. Bu sayede içeriğ
 
 >[!NOTE]
 >* Bu önizleme sürümünde bazı sınırlamalar geçerli olabilir. [Sınırlamalar](#limitations) konusuna bakın.
->* Bilgi Koruması önizleme özelliğini kabul ettikten sonraki ilk 48 saat boyunca **duyarlılık etiketlerinin uygulandığı .pbix dosyalarında sorunlarla karşılaşabilirsiniz (örneğin .pbix dosyasını hizmete yayımlarken, hizmetten .pbix dosyasını indirirken)** . Bunlar beklenen sorunlardır ve 48 saat içinde otomatik olarak çözülür.
+>* Power BI Desktop'ta duyarlılık etiketlerini kullanabilmek için öncelikle [bilgi koruması önizleme özelliğini etkinleştirmeniz](service-security-apply-data-sensitivity-labels.md#apply-sensitivity-labels-in-power-bi-desktop-preview) ve ardından programı yeniden başlatmanız gerekir. Program yeniden başlatıldıktan sonra kilitlenirse makinenizde gerekli Visual C++ yeniden dağıtılabilir çalışma zamanı kitaplığı sürümü eksik olabilir. Kilitlenmeyle karşılaşmanız halinde [Microsoft Visual C++ 2015 Yeniden Dağıtılabilir Güncelleştirmesi 3 indirme sayfasını](https://www.microsoft.com/download/details.aspx?id=53587) ziyaret edip yönergeleri izleyerek güncelleştirmeyi indirin ve yükleyin. Güncelleştirmeyi yükledikten sonra Desktop'ı başlatmayı yeniden deneyin.
 
 Desktop'ta duyarlılık etiketi uygularsanız, çalışmanızı hizmette yayımladığınızda veya söz konusu çalışmanın .pbix dosyasını hizmete yüklediğinizde etiket de verilerle birlikte hizmete gider. Hizmette dosyayla birlikte aldığınız hem veri kümesine hem de rapora etiket uygulanır. Veri kümesinin ve raporun zaten duyarlılık etiketleri varsa, o etiketlerin üzerine Desktop'tan gelen etiket yazılır.
  

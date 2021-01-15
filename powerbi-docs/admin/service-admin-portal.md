@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 01/05/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2e89dc43f467aec8edcefaa4ecdbd2fc6cbf6dea
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699534"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969609"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Yönetim portalında Power BI’ı yönetme
 
@@ -193,7 +193,7 @@ Yöneticiler, lisans yükseltmeleri için ve Power BI yardım menüsünde bağla
 
 * **Topluluk**. Kullanıcıları, yardım menüsünden [Power BI Topluluğu](https://community.powerbi.com/) yerine bir iç foruma götürmek için **Tartışma forumu**’na yönelik özel bir URL ayarlayın.
 
-* **Lisans yükseltmeleri**. Power BI (ücretsiz) lisansına sahip kullanıcılara, hizmeti kullanırken hesaplarını Power BI Pro’ya yükseltme fırsatı sunulabilir. **Lisanslama istekleri** için bir iç URL belirtirseniz kullanıcıları bir iç isteğe ve satın alma akışına yeniden yönlendirir ve self servis satın alma işlemini engellersiniz. Kullanıcıların lisans satın almasını engellemek istiyorsanız, ancak kullanıcıların Power BI Pro deneme sürümü başlatmasına izin vermek istiyorsanız satın alma ve deneme deneyimlerini ayırmak için bkz. [Kullanıcıların Power BI Pro’yu denemesine izin verme](#allow-users-to-try-power-bi-pro).
+* **Lisans yükseltmeleri**. Power BI (ücretsiz) lisansına sahip kullanıcılara, hizmeti kullanırken hesaplarını Power BI Pro’ya yükseltme fırsatı sunulabilir. **Lisanslama istekleri** için bir iç URL belirtirseniz kullanıcıları bir iç isteğe ve satın alma akışına yeniden yönlendirir ve self servis satın alma işlemini engellersiniz. Kullanıcıların lisans satın almasını engellemek istiyorsanız, ancak kullanıcıların Power BI Pro deneme sürümü başlatmasına izin vermek istiyorsanız satın alma ve deneme deneyimlerini ayırmak için bkz. [Kullanıcıların Power BI Pro’yu denemesine izin verme](#allow-users-to-try-power-bi-paid-features).
 
 * **Yardım alın**. Kullanıcıları, yardım menüsünden [Power BI Desteği](https://powerbi.microsoft.com/support/) yerine bir iç yardım masasına götürmek için **Yardım Masası**’na yönelik özel bir URL ayarlayın.
 
@@ -201,11 +201,11 @@ Yöneticiler, lisans yükseltmeleri için ve Power BI yardım menüsünde bağla
 
 Bu kiracı bir hizmet kesintisinden veya olaydan etkilenirse posta etkin güvenlik grupları e-posta bildirimleri alır. [Hizmet kesintisi bildirimleri](service-interruption-notifications.md) hakkında daha fazla bilgi edinin.
 
-### <a name="allow-users-to-try-power-bi-pro"></a>Kullanıcıların Power BI Pro’yu denemesine izin verme
+### <a name="allow-users-to-try-power-bi-paid-features"></a>Kullanıcıların ücretli Power BI özelliklerini denemesini sağlayın
 
 ![Kullanıcıların Power BI Pro’yu denemesine izin verme ayarları kullanıcı arabirimi](media/service-admin-portal/allow-pro-trial.png)
 
-**Kullanıcıların Power BI Pro’yu denemesine izin verme** ayarı varsayılan olarak etkindir. Bu ayar, kullanıcıların Power BI Pro lisanslarını edinme yöntemi üzerindeki denetiminizi artırır. Self servis satın almayı engellediğiniz senaryolarda bu ayar, kullanıcıların Power BI Pro deneme sürümünü başlatmasına olanak sağlar. Son kullanıcı deneyimi, lisans ayarlarını nasıl birleştirdiğinize bağlıdır. Aşağıdaki tabloda, Power BI’dan (ücretsiz) Power BI Pro’ya yükseltme deneyiminizin farklı ayar birleşimlerinden nasıl etkilendiği gösterilmektedir:
+**Kullanıcıların ücretli Power BI özelliklerini denemesini sağlayın** ayarı varsayılan olarak etkindir. Bu ayar, kullanıcıların Power BI Pro lisanslarını edinme yöntemi üzerindeki denetiminizi artırır. Self servis satın almayı engellediğiniz senaryolarda bu ayar, kullanıcıların Power BI Pro deneme sürümünü başlatmasına olanak sağlar. Son kullanıcı deneyimi, lisans ayarlarını nasıl birleştirdiğinize bağlıdır. Aşağıdaki tabloda, Power BI’dan (ücretsiz) Power BI Pro’ya yükseltme deneyiminizin farklı ayar birleşimlerinden nasıl etkilendiği gösterilmektedir:
 
 | Self servis satın alma ayarı | Kullanıcının Power BI Pro’yu denemesine izin verme ayarı | Son kullanıcı deneyimi |
 | ------ | ------ | ----- |
@@ -218,6 +218,30 @@ Bu kiracı bir hizmet kesintisinden veya olaydan etkilenirse posta etkin güvenl
 > [Yardım ve destek ayarları](#help-and-support-settings) bölümünde lisans istekleri için bir iç URL ekleyebilirsiniz. URL’yi ayarlarsanız varsayılan self servis satın alma deneyimi geçersiz kılınır. Power BI Pro lisans denemesi için kaydolma sayfasına yeniden yönlendirmez. Yukarıdaki tabloda açıklanan senaryolarda lisans satın alabilen kullanıcılar, iç URL’nize yeniden yönlendirilir.
 
 Daha fazla bilgi edinmek için bkz. [Self servis kaydolma ve satın alma işlemlerini etkinleştirme veya devre dışı bırakma](service-admin-disable-self-service.md).
+
+### <a name="show-a-custom-message-before-publishing-reports"></a>Raporları yayımlamadan önce özel bir ileti görüntüleyin  
+
+Yöneticiler, kullanıcılar Power BI Desktop'tan rapor yayımlamadan önce görüntülenecek özel bir ileti belirleyebilir. Ayarı etkinleştirdikten sonra **Özel ileti** sağlamanız gerekir. Özel ileti düz metin biçiminde olabilir veya aşağıdaki örnek iletide olduğu gibi Markdown söz dizimiyle yazılabilir:
+
+```markdown
+#### Important Disclaimer 
+
+Before publishing the report to a workspace, be sure to validate that the appropriate users or groups have access to the destination workspace. If some users or groups should *not* have access to the content and underlying artifacts, remove or modify their access to the workspace, or publish the report to a different workspace. [Learn more](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces#give-access-to-your-workspace). 
+```
+
+**Özel ileti** metin alanı kaydırmayı desteklemediğinden en fazla 5.000 karakter uzunluğunda bir ileti yazabilirsiniz.
+
+:::image type="content" source="media/service-admin-portal/admin-show-custom-message.png" alt-text="Özel ileti kutusunun ekran görüntüsü.":::
+
+Power BI'daki çalışma alanlarında rapor yayımlayan kullanıcılar, yazdığınız iletiyi görür.
+
+:::image type="content" source="media/service-admin-portal/admin-user-show-custom-message.png" alt-text="Kullanıcılarınızın çalışma alanında rapor yayımlarken göreceği iletişim kutusu.":::
+
+Diğer kiracı ayarlarında olduğu gibi **Özel ileti** ayarının geçerli olacağı kişileri seçebilirsiniz:
+
+- **Tüm kuruluş**.
+- **Belirli güvenlik grupları**.
+- Ya da **Belirli güvenlik grupları hariç**.
 
 ## <a name="workspace-settings"></a>Çalışma alanı ayarları
 
@@ -312,7 +336,7 @@ Yöneticiler **Web’de yayımlama** ayarını **Etkin**, **Ekleme kodlarının 
 
 Kullanıcılar **Web’de yayımla** ayarına göre kullanıcı arabiriminde farklı seçeneklerle karşılaşır.
 
-|Özellik |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
+|Öne çıkan özelliği |Tüm kuruluş için etkindir |Tüm kuruluş için devre dışıdır |Belirli güvenlik grupları   |
 |---------|---------|---------|---------|
 |Raporun **Diğer seçenekler (...)** menüsündeki **Web'de yayımla** seçeneği|Tüm kullanıcılar için etkindir|Herkes için görünmez|Yalnızca yetkili kullanıcılar veya gruplar için görünür.|
 |**Ayarlar** bölümündeki **Ekleme kodlarını yönet** seçeneği|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir|Tüm kullanıcılar için etkindir<br><br>* **Sil** seçeneği yalnızca yetkili kullanıcılar veya gruplar için görünür.<br>* **Kod al** seçeneği tüm kullanıcılar için etkindir.|
@@ -388,7 +412,7 @@ Kuruluştaki kullanıcılar, raporları görüntü dosyaları olarak dışarı a
 Bu kuruluştaki kullanıcıların veri kümelerini, veri akışlarını, raporları ve uygulamaları onaylamalarına izin verin. Ayrıntılar için bkz. [İçerik onayını etkinleştirme](service-admin-setup-certification.md).
 
 ### <a name="email-subscriptions"></a>E-posta Abonelikleri
-Kuruluştaki kullanıcılar e-posta abonelikleri oluşturabilir. [Abonelikler](../collaborate-share/service-publish-to-web.md) hakkında daha fazla bilgi edinin.
+Kuruluştaki kullanıcılar e-posta abonelikleri oluşturabilir. [Abonelikler](../collaborate-share/service-report-subscribe.md) hakkında daha fazla bilgi edinin.
 
 ![E-posta aboneliklerini etkinleştirme](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 
@@ -441,7 +465,7 @@ Rapor oluşturucular, kullanıcıların [AppSource](https://appsource.microsoft.
 
 ### <a name="allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets"></a>Şirket içi veri kümeleriyle XMLA uç noktalarına ve Excel'de Çözümle özelliğine izin ver
 
-Kuruluştaki kullanıcılar Excel'i kullanarak şirket içi Power BI veri kümelerini görüntüleyebilir ve bunlarla etkileşime geçebilir. Bu ayar ayrıca XMLA uç noktalarıyla bağlantı kurulmasına izin verir. [Daha fazla bilgi](../collaborate-share/service-analyze-in-excel.md)
+Kuruluştaki kullanıcılar Excel'i kullanarak şirket içi Power BI veri kümelerini görüntüleyebilir ve bunlarla etkileşime geçebilir. Bu ayar ayrıca XMLA uç noktalarıyla bağlantı kurulmasına izin verir. [Daha fazla bilgi edinin](../collaborate-share/service-analyze-in-excel.md)
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI kullanma
 
@@ -492,7 +516,7 @@ Kuruluştaki kullanıcılar, pano güvenlik düzeyleri belirten sınıflandırma
 
 ### <a name="web-content-on-dashboard-tiles"></a>Pano kutucuklarında web içeriği
 
-Kuruluştaki kullanıcılar, Power BI panolarındaki web içeriği kutucuklarını ekleyip görüntüleyebilir. [Daha fazla bilgi](../create-reports/service-dashboard-add-widget.md)
+Kuruluştaki kullanıcılar, Power BI panolarındaki web içeriği kutucuklarını ekleyip görüntüleyebilir. [Daha fazla bilgi edinin](../create-reports/service-dashboard-add-widget.md)
 
 > [!NOTE]
 > Bu, kuruluşunuzu kötü amaçlı web içerikleri aracılığıyla güvenlik risklerine açık hale getirebilir.
