@@ -13,6 +13,8 @@
       items:
         - name: 'Power BI Desktop: Excel’den rapora'
           href: desktop-excel-stunning-report.md
+        - name: 'Power BI Desktop: Boyutsal modelden rapora'
+          href: desktop-dimensional-model-report.md
         - name: 'Power BI hizmeti: Excel’den rapora'
           href: service-from-excel-to-stunning-report.md
         - name: 'Çevrimiçi kurs: Sayfalandırılmış raporlar'
@@ -410,7 +412,7 @@
               href: service-dashboard-themes.md
         - name: Dağıtım işlem hatları
           items:
-            - name: Kullanmaya başlayın
+            - name: başlarken
               href: deployment-pipelines-get-started.md
             - name: Sorun giderme
               href: deployment-pipelines-troubleshooting.md
