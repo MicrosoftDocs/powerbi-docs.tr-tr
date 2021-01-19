@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 806869b10b52ff7c161484f3e8d38fbc61b85f60
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
+ms.openlocfilehash: 5cee5dd701f7ac40b3f363e1bdcee039037fcde9
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961282"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565137"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -33,7 +33,7 @@ ms.locfileid: "97961282"
 
 **Power BI** , Microsoft 'un sunduğu ve kolayca self servis iş zekası panoları, raporları, veri kümeleri ve görselleştirmeler oluşturmanıza olanak sağlayan bir çevrimiçi yazılım hizmetidir (_SaaS_ veya hizmet olarak yazılım). Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
 
-Power BI hizmeti [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/product-overview) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda Microsoft 365 uyumluluk çerçevesinin katman D ' sidir. [Microsoft Güven Merkezi](https://docs.microsoft.com/compliance/regulatory/offering-home)'nde uyumluluk hakkında daha fazla bilgi edinin.
+Power BI hizmeti [Microsoft Online Services Koşulları](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) ve [Microsoft Kurumsal Gizlilik Bildirimi](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx) koşullarına tabidir. Bilgi işlem konumu için Microsoft Online Services Koşullarında Bilgi İşlem Konumu koşullarına bakın. Uyumluluk bilgileri için [Microsoft Güven Merkezi](https://www.microsoft.com/trust-center/product-overview) Power BI’ın birincil kaynağıdır. Power BI takımı müşterilerine en son yenilikleri ve üretkenlik çözümlerini getirmek için çalışıyor. Power BI Şu anda Microsoft 365 uyumluluk çerçevesinin katman D ' sidir. [Microsoft Güven Merkezi](/compliance/regulatory/offering-home)'nde uyumluluk hakkında daha fazla bilgi edinin.
 
 Bu makalede, Power BI mimarisini açıklanıp kullanıcıların nasıl Power BI’da kimlik doğrulayarak veri bağlantıları oluşturdukları anlatıldıktan sonra Power BI’ın hizmet üzerinden nasıl veri taşıdığı ve depoladığı açıklanarak Power BI güvenliği tanımlanır. Son bölüm güvenlikle ilgili sorulara ve bu soruların yanıtlarına ayrılmıştır.
 
@@ -91,7 +91,7 @@ Kullanıcının Power BI aboneliği hakkındaki meta veriler (panolar, raporlar,
 
 ## <a name="tenant-creation"></a>Kiracı Oluşturma
 
-Kiracı, bir kuruluşun Azure, Microsoft Intune, Power BI veya Microsoft 365 gibi bir Microsoft bulut hizmetine kaydolduğunda aldığı ve sahip olduğu adanmış bir Azure AD hizmeti örneğidir. Her Azure AD kiracısı benzersizdir ve diğer Azure AD kiracılarından ayrıdır.
+Kiracı, bir kuruluşun Azure, Microsoft Intune, Power BI veya Microsoft 365 gibi bir Microsoft bulut hizmetine kaydolduğunda aldığı ve sahip olduğu adanmış bir Azure AD hizmeti örneğidir. Her Azure AD kiracısı diğer Azure AD kiracılarından ayrıdır.
 
 Kiracı, bir şirket içindeki kullanıcıları ve bunlarla ilgili bilgileri (parolalarını, kullanıcı profili verilerini, izinlerini vb.) barındırır. Ayrıca bir kuruluşa ve kuruluşun güvenliğine ilişkin grupları, uygulamaları ve diğer bilgileri de içerir. Daha fazla bilgi için bkz. [Azure AD kiracısı nedir?](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings).
 
