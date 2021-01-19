@@ -9,8 +9,6 @@
           href: embedding.md
         - name: Azure'da Power BI Embedded nedir?
           href: azure-pbie-what-is-power-bi-embedded.md
-        - name: Power BI Embedded Nesil 2 nedir?
-          href: power-bi-embedded-generation-2.md
     - name: Öğreticiler
       expanded: true
       items:
@@ -40,6 +38,8 @@
           href: paginated-reports-row-level-security.md
         - name: Birden çok kiracıyı yönetme
           href: embed-multi-tenancy.md
+        - name: Dinamik bağlama kullanarak rapor bağlama
+          href: embed-dynamic-binding.md
         - name: Power BI Embedded için Azure tanılama günlüğüne kaydetme
           href: azure-pbie-diag-logs.md
         - name: Ekleme hakkında SSS
@@ -64,8 +64,6 @@
           href: register-app.md
         - name: Azure AD erişim belirteci alma
           href: get-azuread-access-token.md
-        - name: Dinamik bağlama kullanarak rapor bağlama
-          href: embed-dynamic-binding.md
         - name: Ekleme Hakkında Soru-Cevap
           href: qanda.md
         - name: Ekli uygulamanızla ilgili sorunları giderme
