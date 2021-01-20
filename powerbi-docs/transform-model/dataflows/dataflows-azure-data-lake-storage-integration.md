@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 646f3d37bb0200cf423ccdffb42dc4ce866ade9f
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: bf9740e0f4f6a2e25e1d5d0cc49671bd6eb90b37
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098272"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565408"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Veri akışı depolama alanını Azure Data Lake 2. Nesil kullanacak şekilde yapılandırma 
 
@@ -26,7 +26,7 @@ Kullanılacak ADLS 2. Nesil depolama alanını yapılandırmanın iki yolu vard�
 
 Kendi ADLS 2. Nesil hesabınızı getirmek için depolama hesabı, kaynak grubu veya abonelik katmanında sahip izinlerine sahip olmanız gerekir. Yönetici olsanız dahi kendinize sahip iznini atamanız şarttır. 
 
-Depolama hesabı [Hiyerarşik Ad Alanı (HNS)](https://docs.microsoft.com/azure/storage/blobs/create-data-lake-storage-account) etkinleştirilmiş olarak oluşturulmalıdır. 
+Depolama hesabı [Hiyerarşik Ad Alanı (HNS)](/azure/storage/blobs/create-data-lake-storage-account) etkinleştirilmiş olarak oluşturulmalıdır. 
 
 Ayrıca ADLS 2. Nesil hesabı, Power BI kiracınızla aynı bölgeye dağıtılmalıdır. Kaynakların konumunun aynı bölgede olmaması durumunda bir hata oluşur.
 

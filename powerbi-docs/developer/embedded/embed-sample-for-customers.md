@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: a0cfeaece56594c52a8d747350c5f9bfb0886cad
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969777"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565467"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Öğretici: Örnek *müşterileriniz için ekleme* uygulamasını kullanarak Power BI içeriği ekleme
 
@@ -185,7 +185,7 @@ Power BI'da raporlarınız, panolarınız ve kutucuklarınız bir çalışma ala
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>4\. Adım: Power BI raporu oluşturup yayımlayın
 
-Bir sonraki adım bir rapor oluşturup çalışma alanınıza yüklemektir. Power BI Desktop'ı kullanarak [kendi raporunuzu oluşturabilir](/power-bi/fundamentals/desktop-getting-started#build-reports) ve ardından çalışma alanınızda [yayımlayabilirsiniz](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work). Alternatif olarak çalışma alanınıza örnek raporlardan birini yükleyebilirsiniz.
+Bir sonraki adım bir rapor oluşturup çalışma alanınıza yüklemektir. Power BI Desktop'ı kullanarak [kendi raporunuzu oluşturabilir](../../fundamentals/desktop-getting-started.md#build-reports) ve ardından çalışma alanınızda [yayımlayabilirsiniz](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work). Alternatif olarak çalışma alanınıza örnek raporlardan birini yükleyebilirsiniz.
 
 >[!Tip]
 >İçinde rapor bulunan bir çalışma alanınız varsa bu adımı atlayabilirsiniz.

@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eb572c17705f06b989f15323322c0da11b1d85ac
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: 4e9d5783dd0c7d956f438358a5c20ad334a67aca
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600703"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565959"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Power BI’da otomatik sayfa yenileme
 
@@ -283,7 +283,7 @@ Kapasitenizin düşük öncelikli sorgularla aşırı yüklendiğini fark ederse
 
 **Analysis Services'e bağlanırken APR düğmesini göremiyorum**
 
-* Analysis Services modelinizin [Direct Query modunda](https://docs.microsoft.com/analysis-services/tabular-models/directquery-mode-ssas-tabular) olduğundan emin olun.
+* Analysis Services modelinizin [Direct Query modunda](/analysis-services/tabular-models/directquery-mode-ssas-tabular) olduğundan emin olun.
 
 
 ## <a name="next-steps"></a>Sonraki adımlar
@@ -297,4 +297,4 @@ Daha fazla bilgi için şu makalelere bakın:
 * [Power BI Desktop'ta veri kaynakları](../connect-data/desktop-data-sources.md)
 * [Power BI Desktop'ta verileri şekillendirme ve birleştirme](../connect-data/desktop-shape-and-combine-data.md)
 * [Power BI Desktop'ta Excel çalışma kitaplarına bağlanma](../connect-data/desktop-connect-excel.md)   
-* [Verileri doğrudan Power BI Desktop'a girme](../connect-data/desktop-enter-data-directly-into-desktop.md)   
+* [Verileri doğrudan Power BI Desktop'a girme](../connect-data/desktop-enter-data-directly-into-desktop.md)

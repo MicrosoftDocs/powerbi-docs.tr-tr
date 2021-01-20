@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 1bf62e99d666c05af8efc05ecbc496d69c586ae6
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: a44bd7837e7605fd23e49a91e3e9eba106d5a933
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927106"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565765"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Öğretici: Azure işlevi kullanarak şablon uygulaması yükleme yapılandırmasını otomatikleştirme
 
@@ -38,7 +38,7 @@ Bu öğreticide şablon uygulamanızı önceden yapılandırmak ve yüklemek iç
 
 Otomasyon akışı ve uygulamanın kullandığı API'ler hakkında daha fazla bilgi için bkz. [Şablon uygulaması yüklemesinin yapılandırmasını otomatikleştirme](template-apps-auto-install.md).
 
-Örnek uygulamada bir Azure işlevi kullanılmıştır. Azure İşlevleri hakkında daha fazla bilgi için bkz. [Azure İşlevleri belgeleri](https://docs.microsoft.com/azure/azure-functions/).
+Örnek uygulamada bir Azure işlevi kullanılmıştır. Azure İşlevleri hakkında daha fazla bilgi için bkz. [Azure İşlevleri belgeleri](/azure/azure-functions/).
 
 ## <a name="basic-flow"></a>Temel akış
 
@@ -48,7 +48,7 @@ Aşağıdaki temel akışta, müşteri, portalınızdaki bağlantıyı seçerek 
 
 1. ISV, kiracıya kayıtlı bir [hizmet sorumlusunu (yalnızca uygulama için belirteç)](../embedded/embed-service-principal.md) temel alan bir *bağımsız uygulama* belirtecini alır.
 
-1. ISV, [Power BI REST API'lerini](https://docs.microsoft.com/rest/api/power-bi/) kullanarak, ISV tarafından hazırlanan kullanıcıya özgü parametre yapılandırmasını içeren bir *yükleme bileti* oluşturur.
+1. ISV, [Power BI REST API'lerini](/rest/api/power-bi/) kullanarak, ISV tarafından hazırlanan kullanıcıya özgü parametre yapılandırmasını içeren bir *yükleme bileti* oluşturur.
 
 1. ISV, yükleme biletini içeren bir ```POST``` yeniden yönlendirme yöntemini kullanarak kullanıcıyı Power BI'ya yönlendirir.
 
@@ -59,18 +59,18 @@ Aşağıdaki temel akışta, müşteri, portalınızdaki bağlantıyı seçerek 
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-* Kendi Azure Active Directory (Azure AD) kiracınızın ayarlanması. Kurulum yönergeleri için bkz. [Azure AD kiracısı oluşturma](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant).
-* Önceki kiracıya kayıtlı bir [hizmet sorumlusu (yalnızca uygulama için belirteç)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal).
-* Yüklenmeye hazır bir parametreli [şablon uygulaması](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview). Şablon uygulaması, uygulamanızı Azure AD'ye kaydettiğiniz kiracıda oluşturulmalıdır. Daha fazla bilgi için bkz. [Şablon uygulaması ipuçları](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) veya [Power BI'da şablon uygulaması oluşturma](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create).
+* Kendi Azure Active Directory (Azure AD) kiracınızın ayarlanması. Kurulum yönergeleri için bkz. [Azure AD kiracısı oluşturma](../embedded/create-an-azure-active-directory-tenant.md).
+* Önceki kiracıya kayıtlı bir [hizmet sorumlusu (yalnızca uygulama için belirteç)](../embedded/embed-service-principal.md).
+* Yüklenmeye hazır bir parametreli [şablon uygulaması](../../connect-data/service-template-apps-overview.md). Şablon uygulaması, uygulamanızı Azure AD'ye kaydettiğiniz kiracıda oluşturulmalıdır. Daha fazla bilgi için bkz. [Şablon uygulaması ipuçları](../../connect-data/service-template-apps-tips.md) veya [Power BI'da şablon uygulaması oluşturma](../../connect-data/service-template-apps-create.md).
 * Power BI Pro lisansı. Power BI Pro’ya kaydolmadıysanız, başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
 
 ## <a name="set-up-your-template-apps-automation-development-environment"></a>Şablon uygulaması otomasyonu geliştirme ortamını ayarlama
 
-Uygulamayı yüklemeye devam etmeden önce, bir Azure uygulama yapılandırmasının yanı sıra bir Azure işlevi geliştirmek için [Hızlı Başlangıç: Azure Uygulama Yapılandırması ile Azure İşlevleri oluşturma](https://docs.microsoft.com/azure/azure-app-configuration/quickstart-azure-functions-csharp) bölümündeki yönergeleri izleyin. Makalede anlatıldığı gibi uygulama yapılandırmanızı oluşturun.
+Uygulamayı yüklemeye devam etmeden önce, bir Azure uygulama yapılandırmasının yanı sıra bir Azure işlevi geliştirmek için [Hızlı Başlangıç: Azure Uygulama Yapılandırması ile Azure İşlevleri oluşturma](/azure/azure-app-configuration/quickstart-azure-functions-csharp) bölümündeki yönergeleri izleyin. Makalede anlatıldığı gibi uygulama yapılandırmanızı oluşturun.
 
 ### <a name="register-an-application-in-azure-ad"></a>Azure AD'de uygulama kaydetme
 
-[Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal) sayfasında açıklandığı gibi bir hizmet sorumlusu oluşturun.
+[Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme](../embedded/embed-service-principal.md) sayfasında açıklandığı gibi bir hizmet sorumlusu oluşturun.
 
 Uygulamayı **sunucu tarafı web uygulaması** olarak kaydettiğinizden emin olun. Sunucu tarafı web uygulamasını kaydederek bir uygulama gizli dizisi oluşturursunuz.
 
@@ -89,12 +89,12 @@ Uygulama kaydı oluşturmaya hemen başlamak için [Ekleme kurulum aracını](ht
 * Şablon uygulamasının veri kümesinde tanımlı *Parametre adları*. Parametre adları büyük/küçük harfe duyarlı dizelerdir. Bunları [Şablon uygulamasının özelliklerini tanımlarken](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) **Parametre Ayarları** sekmesinden veya Power BI veri kümesi ayarlarından da alabilirsiniz.
 
 >[!NOTE]
->AppSource üzerinde genel kullanıma sunulmuş olmasa dahi, yükleme için hazır olan şablon uygulamanızın önceden yapılandırılmış yükleme uygulamasını test edebilirsiniz. Kiracınızın dışındaki kullanıcıların şablon uygulamanızı yüklemek amacıyla otomatik yükleme uygulamasını kullanabilmesi için şablon uygulamanızın [Power BI uygulama marketinde](https://app.powerbi.com/getdata/services) genel kullanıma sunulmuş olması gerekir. Bu nedenle şablon uygulamanızı, oluşturmakta olduğunuz otomatik yükleme uygulamasını kullanarak dağıtmadan önce [İş Ortağı Merkezi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)'nde yayımlamayı unutmayın.
+>AppSource üzerinde genel kullanıma sunulmuş olmasa dahi, yükleme için hazır olan şablon uygulamanızın önceden yapılandırılmış yükleme uygulamasını test edebilirsiniz. Kiracınızın dışındaki kullanıcıların şablon uygulamanızı yüklemek amacıyla otomatik yükleme uygulamasını kullanabilmesi için şablon uygulamanızın [Power BI uygulama marketinde](https://app.powerbi.com/getdata/services) genel kullanıma sunulmuş olması gerekir. Bu nedenle şablon uygulamanızı, oluşturmakta olduğunuz otomatik yükleme uygulamasını kullanarak dağıtmadan önce [İş Ortağı Merkezi](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)'nde yayımlamayı unutmayın.
 
 
 ## <a name="install-and-configure-your-template-app"></a>Şablon uygulamanızı yükleyip yapılandırma
 
-Bu bölümde şablon uygulamanızı önceden yapılandırmak ve yüklemek için oluşturduğumuz bir otomatik yükleme Azure İşlevleri örneğini kullanacaksınız. Bu örnek tanıtım amacıyla bilerek basit tutulmuştur. Şablon uygulamalarınız için otomatik yükleme API'sini bir [Azure işlevini](https://docs.microsoft.com/azure/azure-functions/functions-overview) ve [Azure Uygulaması Yapılandırmasını](https://docs.microsoft.com/azure/azure-app-configuration/overview) kullanarak kolayca dağıtmanızı ve kullanmanızı sağlar.
+Bu bölümde şablon uygulamanızı önceden yapılandırmak ve yüklemek için oluşturduğumuz bir otomatik yükleme Azure İşlevleri örneğini kullanacaksınız. Bu örnek tanıtım amacıyla bilerek basit tutulmuştur. Şablon uygulamalarınız için otomatik yükleme API'sini bir [Azure işlevini](/azure/azure-functions/functions-overview) ve [Azure Uygulaması Yapılandırmasını](/azure/azure-app-configuration/overview) kullanarak kolayca dağıtmanızı ve kullanmanızı sağlar.
 
 ### <a name="download-visual-studio-version-2017-or-later"></a>[Visual Studio](https://www.visualstudio.com/)'yu (sürüm 2017 veya üzeri) indirme
 
@@ -200,7 +200,7 @@ Uygulama gizli dizisi değerini almak için şu adımları izleyin:
 
 ## <a name="test-your-function-locally"></a>İşlevinizi yerel ortamda test etme
 
-İşlevinizi çalıştırmak için [İşlevi yerel ortamda çalıştırma](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally) sayfasındaki adımları izleyin.
+İşlevinizi çalıştırmak için [İşlevi yerel ortamda çalıştırma](/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally) sayfasındaki adımları izleyin.
 
 Portalınızı işlevin URL'sine bir ```POST``` isteği gönderecek şekilde yapılandırın. ```POST http://localhost:7071/api/install``` bunun bir örneğidir. İstek gövdesi, anahtar-değer çiftlerini gösteren bir JSON nesnesi olmalıdır. Anahtarlar, Power BI Desktop'ta tanımlanmış *parametre adlarıdır*. Değerler, şablon uygulamasındaki parametrelerde ayarlanacak olan değerlerdir.
 
@@ -218,4 +218,4 @@ Portalınızı işlevin URL'sine bir ```POST``` isteği gönderecek şekilde yap
 
 ### <a name="publish-your-project-to-azure"></a>Projenizi Azure'da yayımlama
 
-Projenizi Azure'da yayımlamak için [Azure İşlevleri belgelerindeki](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure) yönergeleri izleyin. Daha sonra şablon uygulaması otomatik yükleme API'lerini ürününüzle tümleştirip üretim ortamlarında test etmeye başlayabilirsiniz.
+Projenizi Azure'da yayımlamak için [Azure İşlevleri belgelerindeki](/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure) yönergeleri izleyin. Daha sonra şablon uygulaması otomatik yükleme API'lerini ürününüzle tümleştirip üretim ortamlarında test etmeye başlayabilirsiniz.

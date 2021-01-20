@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 11/16/2020
-ms.openlocfilehash: 1c2260fdc3df201a655e6641c351319e366eac6b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8c5b3c394d54df390d690d58b56e9084f9829733
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413139"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565648"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Power BI mobil uygulamalarında belirli bir konumun bağlantısını oluşturma
 Rapor, rapor sayfası, pano, kutucuk gibi belirli bir Power BI içeriğine doğrudan erişmek için bağlantıları kullanabilirsiniz.
@@ -193,7 +193,7 @@ Bu biçimdeki bağlantılar doğrudan panolara, kutucuklara ve raporlara işaret
 
 Power BI mobil uygulamalarında, Power BI’daki bağlantılar Power BI hizmetinde çalıştıkları gibi çalışır.
 
-Raporunuza, farklı bir Power BI öğesine işaret eden bağlantı eklemek istiyorsanız, tarayıcı adres çubuğundan bu öğenin URL’sini kopyalayabilirsiniz. [Bir rapordaki metin kutusuna köprü ekleme](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box) hakkında daha fazla bilgi edinin.
+Raporunuza, farklı bir Power BI öğesine işaret eden bağlantı eklemek istiyorsanız, tarayıcı adres çubuğundan bu öğenin URL’sini kopyalayabilirsiniz. [Bir rapordaki metin kutusuna köprü ekleme](../../create-reports/service-add-hyperlink-to-text-box.md) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yardımcı olur, bu nedenle Power BI mobil uygulamalarında görmek istediğiniz diğer özellikleri oylamayı unutmayın. 
@@ -201,4 +201,4 @@ Geri bildiriminiz gelecekte neler yapacağımıza karar verme konusunda bize yar
 * [Mobil cihazlar için Power BI uygulamaları](mobile-apps-for-mobile-devices.md)
 * Bizi Twitter'da takip edin: @MSPowerBI
 * [Power BI Topluluğu](http://community.powerbi.com/)'nda sohbete katılın
-* [Power BI nedir?](../../power-bi-overview.md)
+* [Power BI nedir?](../../fundamentals/power-bi-overview.md)

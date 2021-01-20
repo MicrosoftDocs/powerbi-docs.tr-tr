@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: d4ef44cb0e03c5de7807f0e95cefa532353f4685
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: b98e761a9ac2578a1af43bdb2c536f73fc3cc5af
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885189"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565696"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Öğretici: Uygulamaya kuruluşunuz için sayfalandırılmış Power BI raporları ekleme
 
@@ -209,7 +209,7 @@ Konukla eklemek için şu URL'yi kullanın: *`https://login.microsoftonline.com/
 Bu öğreticide, Power BI kuruluş hesabınızı kullanarak bir uygulamaya Power BI sayfalandırılmış raporları eklemeyi öğrendiniz. 
 
 > [!div class="nextstepaction"]
-> [Uygulamalardan ekleme](embed-from-apps.md)
+> [Uygulamalardan ekleme](./index.yml)
 
 > [!div class="nextstepaction"]
 >[Müşterileriniz için Power BI içeriği ekleme](embed-sample-for-customers.md)

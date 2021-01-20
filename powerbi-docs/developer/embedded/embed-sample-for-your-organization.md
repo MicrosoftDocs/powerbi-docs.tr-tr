@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 78ba14c8a715c927f35c32244734e66a5fb80473
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: da356800a49e6d8876a147862dd08541ed2999bc
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888984"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565675"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
 
@@ -57,7 +57,7 @@ Uygulamanızın [Power BI REST API'lerine](/rest/api/power-bi/) erişmesini sağ
 
 >[!NOTE]
 >Kendi uygulamanızda *Kimlik doğrulaması* bölümüne gidip *Yeniden Yönlendirme URI'leri* alanına yeniden yönlendirme adresini girmeniz gerekir.
-Yeniden yönlendirme hakkında daha fazla bilgi edinmek için bkz. [Yeniden yönlendirme URI'si (yanıt URL'si) kısıtlamaları ve sınırlamaları](https://docs.microsoft.com/azure/active-directory/develop/reply-url).
+Yeniden yönlendirme hakkında daha fazla bilgi edinmek için bkz. [Yeniden yönlendirme URI'si (yanıt URL'si) kısıtlamaları ve sınırlamaları](/azure/active-directory/develop/reply-url).
 
 ## <a name="set-up-your-power-bi-environment"></a>Power BI ortamınızı ayarlama
 
@@ -428,7 +428,7 @@ Genel yöneticiler veya Power BI hizmeti yöneticileri, bir kiracı için REST A
 Bu öğreticide, Power BI kuruluş hesabınızı kullanarak bir uygulamaya Power BI içeriği eklemeyi öğrendiniz. Şimdi uygulamaları kullanarak bir uygulamaya Power BI içeriği eklemeyi deneyebilirsiniz. Ayrıca müşterileriniz için Power BI içeriği eklemeyi de deneyebilirsiniz (henüz eklenmiş sayfalandırılmış raporlar için desteklenmemektedir):
 
 > [!div class="nextstepaction"]
-> [Uygulamalardan ekleme](embed-from-apps.md)
+> [Uygulamalardan ekleme](./index.yml)
 
 > [!div class="nextstepaction"]
 >[Müşterileriniz için ekleme](embed-sample-for-customers.md)

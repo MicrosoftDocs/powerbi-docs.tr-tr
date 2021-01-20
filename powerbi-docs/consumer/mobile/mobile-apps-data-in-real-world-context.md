@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: b6564cafe087000fd0ce4409fac2cbfc78d0e8fa
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5710f70dafbb01aca68cfc03107a1f1ededaf015
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413162"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565899"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Power BI mobil uygulamaları ile gerçek dünyadan veriler alma
 Power BI mobil uygulamaları çok çeşitli şekillerde gerçek dünya ve ilgili BI bilgileri arasında doğrudan bağlantı kurabilir. 
@@ -27,7 +27,7 @@ Daha fazla bilgi:
 
 * [Power BI'da bir kutucuk için QR kodu oluşturma](../../create-reports/service-create-qr-code-for-tile.md)
 * [Mobil cihazınızda Power BI QR kodu tarama](mobile-apps-qr-code.md)
-* [Karma Gerçeklik için Power BI uygulamasıyla QR kodunu tarama](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
+* [Karma Gerçeklik için Power BI uygulamasıyla QR kodunu tarama](./mobile-hololens2-app.md#open-reports-with-qr-codes).
 
 ## <a name="qr-codes-for-reports"></a>Raporlara yönelik QR kodları
 Bir rapor için QR kodu oluşturun.  İş arkadaşlarınız kodu iPhone'ları (Android telefonlar için destek yakında sunulacaktır) ile taradığında, söz konusu QR koduyla ilişkilendirdiğiniz raporla karşılaşır. 

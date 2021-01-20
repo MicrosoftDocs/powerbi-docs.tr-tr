@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c30b8f7ebe403e38fa59fa248aacc4b3086bf9ed
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 624e0a2838a08d1cf68ae58223fe979a56312b48
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885879"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565942"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Power BI ile kullanmak için Azure AD uygulamasını kaydetme
 
@@ -247,7 +247,7 @@ Azure AD uygulama izinlerinizi program aracılığıyla değiştirmek için kira
 
 # <a name="c"></a>[C#](#tab/CSharp)
 
-Azure AD uygulamanızın izinlerini C# kullanarak da değiştirebilirsiniz. Daha fazla bilgi için [oAuth2PermissionGrant](https://docs.microsoft.com/graph/api/oauth2permissiongrant-get) API’sine göz atın. Sürecinizin bir bölümünü otomatikleştirmeyi düşünüyorsanız bu yöntem fayda sağlayabilir.
+Azure AD uygulamanızın izinlerini C# kullanarak da değiştirebilirsiniz. Daha fazla bilgi için [oAuth2PermissionGrant](/graph/api/oauth2permissiongrant-get) API’sine göz atın. Sürecinizin bir bölümünü otomatikleştirmeyi düşünüyorsanız bu yöntem fayda sağlayabilir.
 
 HTTP istekleri hakkında daha fazla bilgi için [HTTP sekmesine](register-app.md?tabs=customers%2CHTTP#change-your-azure-ad-apps-permissions) bakın.
 

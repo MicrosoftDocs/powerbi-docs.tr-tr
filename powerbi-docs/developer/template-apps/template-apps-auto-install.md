@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 33de464a1bb1389fadfbc7a85ded9365321e0a62
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926303"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565735"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Şablon uygulaması yüklemesini otomatik yapılandırma
 
@@ -42,7 +42,7 @@ Bu makalede şablon uygulaması yükleme yapılandırmasını otomatikleştirmey
 
 1. ISV, kiracıya kayıtlı bir [hizmet sorumlusunu (yalnızca uygulama için belirteç)](../embedded/embed-service-principal.md) temel alan bir *bağımsız uygulama* belirtecini alır.
 
-1. ISV, [Power BI REST API'lerini](https://docs.microsoft.com/rest/api/power-bi/) kullanarak, ISV tarafından hazırlanan kullanıcıya özgü parametre yapılandırmasını içeren bir *yükleme bileti* oluşturur.
+1. ISV, [Power BI REST API'lerini](/rest/api/power-bi/) kullanarak, ISV tarafından hazırlanan kullanıcıya özgü parametre yapılandırmasını içeren bir *yükleme bileti* oluşturur.
 
 1. ISV, yükleme biletini içeren bir ```POST``` yeniden yönlendirme yöntemini kullanarak kullanıcıyı Power BI'ya yönlendirir.
 
@@ -56,23 +56,23 @@ Bu makalede şablon uygulaması yükleme yapılandırmasını otomatikleştirmey
 Şablon uygulamanızda önceden yapılandırılmış yükleme deneyimi sunmak için aşağıdaki önkoşullar gereklidir:
 
 * Power BI Pro lisansı. Power BI Pro’ya kaydolmadıysanız, başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
-* Kendi Azure Active Directory (Azure AD) kiracınızın ayarlanması. Kurulum yönergeleri için bkz. [Azure AD kiracısı oluşturma](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant).
-* Önceki kiracıya kayıtlı bir **hizmet sorumlusu (yalnızca uygulama için belirteç)** . Daha fazla ayrıntı için bkz. [Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal). Uygulamayı **sunucu tarafı web uygulaması** olarak kaydettiğinizden emin olun. Sunucu tarafı web uygulamasını kaydederek bir uygulama gizli dizisi oluşturursunuz. Bu işlemin *uygulama kimliği* (ClientID) ve *uygulama gizli dizisi* (ClientSecret) bilgilerini sonraki adımlar için kaydetmeniz gerekir.
-* Yüklenmeye hazır bir **parametreli şablon uygulaması**. Şablon uygulaması, uygulamanızı Azure AD'ye kaydettiğiniz kiracıda oluşturulmalıdır. Daha fazla bilgi için bkz. [Şablon uygulaması ipuçları](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) veya [Power BI'da şablon uygulaması oluşturma](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create). Şablon uygulamasıyla ilgili aşağıdaki bilgileri sonraki adımlar için kaydetmeniz gerekir:
+* Kendi Azure Active Directory (Azure AD) kiracınızın ayarlanması. Kurulum yönergeleri için bkz. [Azure AD kiracısı oluşturma](../embedded/create-an-azure-active-directory-tenant.md).
+* Önceki kiracıya kayıtlı bir **hizmet sorumlusu (yalnızca uygulama için belirteç)** . Daha fazla ayrıntı için bkz. [Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme](../embedded/embed-service-principal.md). Uygulamayı **sunucu tarafı web uygulaması** olarak kaydettiğinizden emin olun. Sunucu tarafı web uygulamasını kaydederek bir uygulama gizli dizisi oluşturursunuz. Bu işlemin *uygulama kimliği* (ClientID) ve *uygulama gizli dizisi* (ClientSecret) bilgilerini sonraki adımlar için kaydetmeniz gerekir.
+* Yüklenmeye hazır bir **parametreli şablon uygulaması**. Şablon uygulaması, uygulamanızı Azure AD'ye kaydettiğiniz kiracıda oluşturulmalıdır. Daha fazla bilgi için bkz. [Şablon uygulaması ipuçları](../../connect-data/service-template-apps-tips.md) veya [Power BI'da şablon uygulaması oluşturma](../../connect-data/service-template-apps-create.md). Şablon uygulamasıyla ilgili aşağıdaki bilgileri sonraki adımlar için kaydetmeniz gerekir:
      * Uygulama oluşturulduğunda, [şablon uygulamasının özelliklerini tanımlama](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) sürecinin sonunda yükleme URL'sinde görünen *Uygulama Kimliği*, *Paket Anahtarı* ve *Sahip Kimliği* bilgileri. Bu bağlantıya, şablon uygulamasının [Sürüm Yönetimi](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) bölmesinden **Bağlantı al**'ı seçerek de ulaşabilirsiniz.
     * Şablon uygulamasının veri kümesinde tanımlı *Parametre adları*. Büyük/küçük harfe duyarlı olan parametre adlarını [şablon uygulamasının özelliklerini tanımlarken](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) **Parametre Ayarları** sekmesinden veya Power BI veri kümesi ayarları sayfasından da alabilirsiniz.
 
     >[!NOTE]
-    >AppSource üzerinde genel kullanıma sunulmuş olmasa dahi, yükleme için hazır olan şablon uygulamanızın önceden yapılandırılmış yükleme uygulamasını test edebilirsiniz. Kiracınızın dışındaki kullanıcıların şablon uygulamanızı yüklemek amacıyla otomatik yükleme uygulamasını kullanabilmesi için şablon uygulamanızın [Power BI uygulama marketinde](https://app.powerbi.com/getdata/services) genel kullanıma sunulmuş olması gerekir. Bu nedenle şablon uygulamanızı, oluşturmakta olduğunuz otomatik yükleme uygulamasını kullanarak dağıtmadan önce [İş Ortağı Merkezi](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)'nde yayımlamayı unutmayın.
+    >AppSource üzerinde genel kullanıma sunulmuş olmasa dahi, yükleme için hazır olan şablon uygulamanızın önceden yapılandırılmış yükleme uygulamasını test edebilirsiniz. Kiracınızın dışındaki kullanıcıların şablon uygulamanızı yüklemek amacıyla otomatik yükleme uygulamasını kullanabilmesi için şablon uygulamanızın [Power BI uygulama marketinde](https://app.powerbi.com/getdata/services) genel kullanıma sunulmuş olması gerekir. Bu nedenle şablon uygulamanızı, oluşturmakta olduğunuz otomatik yükleme uygulamasını kullanarak dağıtmadan önce [İş Ortağı Merkezi](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)'nde yayımlamayı unutmayın.
 
 ## <a name="main-steps-and-apis"></a>Temel adımlar ve API'ler
 
-Aşağıdaki bölümlerde şablon uygulaması yükleme yapılandırmasını otomatikleştirme sürecinin temel adımları ve ihtiyacınız olan API'ler anlatılmaktadır. Çoğu adım [Power BI REST API'leri](https://docs.microsoft.com/rest/api/power-bi/) ile uygulanmakla birlikte aşağıdaki kod örnekleri .NET SDK ile hazırlanmıştır.
+Aşağıdaki bölümlerde şablon uygulaması yükleme yapılandırmasını otomatikleştirme sürecinin temel adımları ve ihtiyacınız olan API'ler anlatılmaktadır. Çoğu adım [Power BI REST API'leri](/rest/api/power-bi/) ile uygulanmakla birlikte aşağıdaki kod örnekleri .NET SDK ile hazırlanmıştır.
 
 ## <a name="step-1-create-a-power-bi-client-object"></a>1\. Adım: Power BI istemci nesnesi oluşturma
 
-Power BI REST API'lerini kullanabilmeniz için Azure AD'den [hizmet sorumlunuz](../embedded/embed-service-principal.md) için bir *erişim belirteci* almanız gerekir. [Power BI REST API’lerine](https://docs.microsoft.com/rest/api/power-bi/) çağrı yapmadan önce, Power BI uygulamanız için [Azure AD erişim belirteci](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) almanız gerekir.
-Power BI istemcisini erişim belirtecinizle oluşturmak için, [Power BI REST API'leri](https://docs.microsoft.com/rest/api/power-bi/) ile etkileşim kurmanızı sağlayan Power BI istemci nesnesini oluşturmanız gerekir. Power BI istemci nesnesini oluşturmak için **AccessToken** öğesini **Microsoft.Rest.TokenCredentials** nesnesine sarmanız gerekir.
+Power BI REST API'lerini kullanabilmeniz için Azure AD'den [hizmet sorumlunuz](../embedded/embed-service-principal.md) için bir *erişim belirteci* almanız gerekir. [Power BI REST API’lerine](/rest/api/power-bi/) çağrı yapmadan önce, Power BI uygulamanız için [Azure AD erişim belirteci](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) almanız gerekir.
+Power BI istemcisini erişim belirtecinizle oluşturmak için, [Power BI REST API'leri](/rest/api/power-bi/) ile etkileşim kurmanızı sağlayan Power BI istemci nesnesini oluşturmanız gerekir. Power BI istemci nesnesini oluşturmak için **AccessToken** öğesini **Microsoft.Rest.TokenCredentials** nesnesine sarmanız gerekir.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -91,7 +91,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ## <a name="step-2-create-an-install-ticket"></a>2\. Adım: Yükleme bileti oluşturma
 
 Kullanıcılarınız Power BI'ya yönlendirilirken kullanılacak bir yükleme bileti oluşturun. Bu işlem için **CreateInstallTicket** API'si kullanılır.
-* [Template Apps CreateInstallTicket](https://docs.microsoft.com/rest/api/power-bi/templateapps/createinstallticket)
+* [Template Apps CreateInstallTicket](/rest/api/power-bi/templateapps/createinstallticket)
 
 [Örnek uygulamanın](https://github.com/microsoft/Template-apps-examples/tree/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample) [InstallTemplateApp/InstallAppFunction.cs](https://github.com/microsoft/Template-apps-examples/blob/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample/InstallTemplateApp/InstallAppFunction.cs) dosyasında şablon uygulaması yüklemesi ve yapılandırma adımları için bir yükleme bileti oluşturma örneği gösterilmiştir.
 

@@ -8,16 +8,16 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: ef74b3bcddd981c9f63172fa2e641335a081836d
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: a76c7f9d205fe47322768a514a1e5d89a36a2306
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96577728"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565740"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Power BI için Azure güvenlik temeli
 
-Bu güvenlik temeli, [Azure Güvenlik Karşılaştırması 2.0](https://docs.microsoft.com/azure/security/benchmarks/overview) sürümündeki rehberlik bilgilerini Power BI'a uygular. Azure Güvenlik Karşılaştırması, Azure üzerindeki bulut çözümlerinizin güvenliğini sağlamaya yönelik öneriler sunar. İçerik, Azure Güvenlik Karşılaştırması ile tanımlanan **güvenlik denetimlerine** ve Power BI için geçerli olan rehberlik bilgilerine göre gruplanmıştır. Power BI için geçerli olmayan **denetimler** kapsam dışı bırakılmıştır.
+Bu güvenlik temeli, [Azure Güvenlik Karşılaştırması 2.0](/azure/security/benchmarks/overview) sürümündeki rehberlik bilgilerini Power BI'a uygular. Azure Güvenlik Karşılaştırması, Azure üzerindeki bulut çözümlerinizin güvenliğini sağlamaya yönelik öneriler sunar. İçerik, Azure Güvenlik Karşılaştırması ile tanımlanan **güvenlik denetimlerine** ve Power BI için geçerli olan rehberlik bilgilerine göre gruplanmıştır. Power BI için geçerli olmayan **denetimler** kapsam dışı bırakılmıştır.
 
 Power BI'ın Azure Güvenlik Karşılaştırması ile tam olarak nasıl eşleştiğini görmek için [tam kapsamlı Power BI güvenlik temeli eşleştirme dosyasını](https://github.com/MicrosoftDocs/SecurityBenchmarks/tree/master/Azure%20Offer%20Security%20Baselines) inceleyin.
 
@@ -29,7 +29,7 @@ Power BI'ın Azure Güvenlik Karşılaştırması ile tam olarak nasıl eşleşt
 
 **Rehberlik**: Power BI, kiracınızı Özel bağlantı uç noktasına bağlayıp genel internet erişimini devre dışı bırakma senaryosunu destekler.
 
-- [Power BI’a erişmek için özel bağlantılar](https://docs.microsoft.com/power-bi/admin/service-security-private-links)
+- [Power BI’a erişmek için özel bağlantılar](../admin/service-security-private-links.md)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -47,13 +47,13 @@ Azure AD'nin güvenliğini sağlamak, kuruluşunuzun güvenlik uygulamalarının
 
 Not: Azure AD, dış kimlikleri destekler ve bu sayede Microsoft hesabı olmayan kullanıcılar uygulamalarında ve kaynaklarında dış kimliklerini kullanarak oturum açabilir.
 
-- [Azure Active Directory'deki kiracılar](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps)
+- [Azure Active Directory'deki kiracılar](/azure/active-directory/develop/single-and-multi-tenant-apps)
 
-- [Azure AD örneği oluşturma ve yapılandırma](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
+- [Azure AD örneği oluşturma ve yapılandırma](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
 
-- [Uygulama için dış kimlik sağlayıcılarını kullanma](https://docs.microsoft.com/azure/active-directory/b2b/identity-providers)
+- [Uygulama için dış kimlik sağlayıcılarını kullanma](/azure/active-directory/b2b/identity-providers)
 
-- [Azure Active Directory'deki kimlik güvenliği puanı nedir?](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)
+- [Azure Active Directory'deki kimlik güvenliği puanı nedir?](/azure/active-directory/fundamentals/identity-secure-score)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -73,7 +73,7 @@ Hizmet sorumlularıyla Premium çalışma alanı ve veri kümesi görevlerini ot
 
 **Rehberlik**: Power BI; Azure kaynaklarına, bulut uygulamalarına ve şirket içi uygulamalara yönelik kimlik ve erişim yönetimi sağlamak için Azure Active Directory'yi kullanır. Buna çalışanlar gibi kuruluş kimliklerinin yanı sıra iş ortakları, satıcılar ve tedarikçiler gibi dış kimlikler de dahildir. Bu seçenek, kuruluşunuzun şirket içi ortamda ve bulutta bulunan verilerini ve kaynaklarını yönetip bunlara güvenli erişim sağlamak için çoklu oturum açma (SSO) özelliğinin kullanılmasını sağlar. Tüm kullanıcılarınızı, uygulamalarınızı ve cihazlarınızı Azure AD'ye bağlayarak sorunsuz ve güvenli erişimin yanı sıra daha fazla görünürlük ve denetim elde edebilirsiniz.
 
-- [Azure AD ile uygulamalar için SSO yaklaşımını anlama](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on)
+- [Azure AD ile uygulamalar için SSO yaklaşımını anlama](/azure/active-directory/manage-apps/what-is-single-sign-on)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -89,9 +89,9 @@ Yöneticiler ve ayrıcalıklı kullanıcılar için en üst düzey güçlü kiml
 
 Not: Çok faktörlü kimlik doğrulaması yalnızca Azure AD'de etkinleştirilen kullanıcı hesaplarına uygulanabilir. Power BI Hizmet Sorumluları, çok faktörlü kimlik doğrulaması kullanımını desteklemez.
 
-- [Azure'da çok faktörlü kimlik doğrulamasını etkinleştirme](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
+- [Azure'da çok faktörlü kimlik doğrulamasını etkinleştirme](/azure/active-directory/authentication/howto-mfa-getstarted)
 
-- [Azure Active Directory için parolasız kimlik doğrulaması seçeneklerine giriş](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless)
+- [Azure Active Directory için parolasız kimlik doğrulaması seçeneklerine giriş](/azure/active-directory/authentication/concept-authentication-passwordless)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -101,7 +101,7 @@ Not: Çok faktörlü kimlik doğrulaması yalnızca Azure AD'de etkinleştirilen
 
 **Rehberlik**: Microsoft Cloud App Security'de yalnızca dahil etmek istediğiniz kullanıcılar ve gruplar için geçerli olacak şekilde bağımsız kapsama sahip olabilecek anomali algılama ilkeleri tanımlayın. Bu anomali algılama ilkeleri, Power BI'a erişen ve bu hizmeti kullanan kullanıcılarla ilgili davranış anomalilerinin algılanmasına ve izlenmesine yardımcı olabilir.
 
-- [Power BI’da Microsoft Cloud App Security denetimlerini kullanma](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Power BI’da Microsoft Cloud App Security denetimlerini kullanma](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -111,13 +111,13 @@ Not: Çok faktörlü kimlik doğrulaması yalnızca Azure AD'de etkinleştirilen
 
 **Rehberlik**: Power BI, kullanıcı tanımlı koşullara göre daha ayrıntılı erişim denetimi sağlama amacıyla Azure AD koşullu erişim özelliğini destekler. Örneğin belirli IP aralıklarından oturum açmak isteyen kullanıcıların çok faktörlü kimlik doğrulaması kullanmasını zorunlu kılabilirsiniz. Ayrıntılı kimlik doğrulaması oturumu yönetim ilkesi farklı kullanım örneklerinde de kullanılabilir.
 
-- [Azure'da koşullu erişime genel bakış](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
+- [Azure'da koşullu erişime genel bakış](/azure/active-directory/conditional-access/overview)
 
-- [Yaygın koşullu erişim ilkeleri](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common)
+- [Yaygın koşullu erişim ilkeleri](/azure/active-directory/conditional-access/concept-conditional-access-policy-common)
 
-- [Koşullu erişimle kimlik doğrulama oturumu yönetimini yapılandırma](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+- [Koşullu erişimle kimlik doğrulama oturumu yönetimini yapılandırma](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
 
-- [Power BI’da Microsoft Cloud App Security denetimlerini kullanma](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Power BI’da Microsoft Cloud App Security denetimlerini kullanma](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -131,7 +131,7 @@ Not: Çok faktörlü kimlik doğrulaması yalnızca Azure AD'de etkinleştirilen
  
 GitHub için yerel gizli dizi tarama özelliğini kullanarak kod içindeki kimlik bilgilerini veya diğer gizli dizileri bulabilirsiniz.
 
-- [Power BI için kendi anahtarını getir şifrelemesi](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [Power BI için kendi anahtarını getir şifrelemesi](../admin/service-encryption-byok.md)
 
  
 Kimlik bilgilerini ayarlama
@@ -164,11 +164,11 @@ Power BI, koşullu erişim ilkelerini etkinleştirmek ve Power BI'da kullanılan
 
 M365 ayrıcalıklı erişim yönetimini kullanarak Power BI yönetici hesapları için tam zamanında (JIT) ayrıcalıklı erişimi etkinleştirin.
 
-- [Power BI ile ilgili yönetici rolleri](https://docs.microsoft.com/power-bi/admin/service-admin-administering-power-bi-in-your-organization#administrator-roles-related-to-power-bi)
+- [Power BI ile ilgili yönetici rolleri](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 
-- [M365 Ayrıcalıklı Erişim Yönetimi](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&amp;preserve-view=true)
+- [M365 Ayrıcalıklı Erişim Yönetimi](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)
 
-- [Power BI’daki Cloud App Security denetimleri](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Power BI’daki Cloud App Security denetimleri](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -178,7 +178,7 @@ M365 ayrıcalıklı erişim yönetimini kullanarak Power BI yönetici hesapları
 
 **Rehberlik**: Power BI'a yükseltilmiş erişim sahibi olan yüksek ayrıcalıklı hesap veya rol sayısını sınırlayın.
 
-[Buradaki](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&amp;preserve-view=true) M365 ayrıcalıklı erişim yönetimi rehberliğini kullanarak tam zamanında (JIT) ayrıcalıklı erişim sağlayabilirsiniz.
+[Buradaki](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide) M365 ayrıcalıklı erişim yönetimi rehberliğini kullanarak tam zamanında (JIT) ayrıcalıklı erişim sağlayabilirsiniz.
 
 [Buradaki](https://aka.ms/PBIEnterpriseDeploymentWP) Power BI Kuruluş Dağıtımı belgesinin 183. sayfasında daha fazla bilgiye ulaşabilirsiniz.
 
@@ -196,7 +196,7 @@ Power BI etkinlik günlüğüne erişmek için şu gereksinimleri karşılamanı
 
 Bu gereksinimler karşılandıktan sonra Power BI içindeki kullanıcı etkinliğini izlemek için aşağıdaki rehberliği izleyebilirsiniz:
 
-- [Power BI'daki kullanıcı etkinliğini izleme](https://docs.microsoft.com/power-bi/admin/service-admin-auditing)
+- [Power BI'daki kullanıcı etkinliğini izleme](../admin/service-admin-auditing.md)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -208,9 +208,9 @@ Bu gereksinimler karşılandıktan sonra Power BI içindeki kullanıcı etkinli�
 
 Acil durum erişim hesaplarının kimlik bilgilerinin (parola, sertifika veya akıllı kart) güvenli bir şekilde saklandığından ve yalnızca acil bir durumda bunları kullanma yetkisine sahip olan kullanıcılar tarafından bilindiğinden emin olmanız gerekir.
 
-- [Azure AD'deki acil durum erişim hesaplarını yönetme](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access)
+- [Azure AD'deki acil durum erişim hesaplarını yönetme](/azure/active-directory/users-groups-roles/directory-emergency-access)
 
-- [M365 hesaplarınızı koruma](https://docs.microsoft.com/microsoft-365/campaigns/m365-campaigns-protect-admin-accounts)
+- [M365 hesaplarınızı koruma](/microsoft-365/campaigns/m365-campaigns-protect-admin-accounts)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -221,9 +221,9 @@ Acil durum erişim hesaplarının kimlik bilgilerinin (parola, sertifika veya ak
 **Rehberlik**: Güvenli ve yalıtılmış iş istasyonları yöneticiler, geliştiriciler ve kritik hizmet operatörleri gibi hassas rollerin güvenliği açısından kritik öneme sahiptir. Power BI yönetimiyle ilgili görevler için yüksek güvenlikli kullanıcı iş istasyonlarını ve/veya Azure Bastion hizmetini kullanın. Yönetim görevlerine yönelik güvenli ve yönetilen bir kullanıcı iş istasyonu dağıtmak için Azure Active Directory, Microsoft Defender Gelişmiş Tehdit Koruması (ATP) ve/veya Microsoft Intune hizmetlerini kullanın. Güvenli iş istasyonları güçlü kimlik doğrulaması, yazılım ve donanım temelleri, kısıtlı mantıksal erişim ve ağ erişimi gibi güvenli yapılandırma özelliklerinin uygulanması için merkezi olarak yönetilebilir.
 
 Ayrıcalıklı erişimi anlama
-- [İş istasyonları](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-managed-workstation)
+- [İş istasyonları](/azure/active-directory/devices/concept-azure-managed-workstation)
 
-- [Ayrıcalıklı erişim iş istasyonu dağıtma](https://docs.microsoft.com/azure/active-directory/devices/howto-azure-managed-workstation)
+- [Ayrıcalıklı erişim iş istasyonu dağıtma](/azure/active-directory/devices/howto-azure-managed-workstation)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -239,7 +239,7 @@ Ayrıcalıklı erişimi anlama
 
 Microsoft Information Protection duyarlılık etiketlerini kullanarak Power BI hizmetindeki raporlarınızı, panolarınızı, veri kümelerinizi ve veri akışlarınızı sınıflandırabilir ve etiketleyebilirsiniz. Bu sayede Power BI hizmetinden Excel'e, PowerPoint'e ve PDF dosyalarına aktarılan hassas içeriklerinizi yetkisiz veri erişimine ve sızıntılara karşı koruyabilirsiniz.
 
-- [Power BI'da duyarlılık etiketlerini uygulama](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)
+- [Power BI'da duyarlılık etiketlerini uygulama](../admin/service-security-apply-data-sensitivity-labels.md)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -247,13 +247,13 @@ Microsoft Information Protection duyarlılık etiketlerini kullanarak Power BI h
 
 ### <a name="dp-2-protect-sensitive-data"></a>DP-2: Hassas verileri koruyun
 
-**Rehberlik**: Power BI, hassas veri koruması için Microsoft Information Protection duyarlılık etiketleriyle tümleşik olarak çalışır. Ayrıntılı bilgi için bkz. [Power BI'daki Microsoft Information Protection duyarlılık etiketleri](https://docs.microsoft.com/power-bi/admin/service-security-sensitivity-label-overview)
+**Rehberlik**: Power BI, hassas veri koruması için Microsoft Information Protection duyarlılık etiketleriyle tümleşik olarak çalışır. Ayrıntılı bilgi için bkz. [Power BI'daki Microsoft Information Protection duyarlılık etiketleri](../admin/service-security-sensitivity-label-overview.md)
 
-Power BI, hizmet kullanıcılarının bekleyen veriler için kendi anahtarlarını getirmelerine olanak tanır. Ayrıntılı bilgi için bkz. [Power BI için kendi anahtarını getir şifrelemesi](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+Power BI, hizmet kullanıcılarının bekleyen veriler için kendi anahtarlarını getirmelerine olanak tanır. Ayrıntılı bilgi için bkz. [Power BI için kendi anahtarını getir şifrelemesi](../admin/service-encryption-byok.md)
 
-Müşteriler, veri kaynaklarını şirket içi ortamda tutup şirket içi veri ağ geçidiyle DirectQuery veya Live Connect hizmetlerini kullanarak bulut hizmetine sunulan veri miktarını en aza indirebilir. Ayrıntılı bilgi için bkz. [Şirket içi veri ağ geçidi nedir?](https://docs.microsoft.com/data-integration/gateway/service-gateway-onprem)
+Müşteriler, veri kaynaklarını şirket içi ortamda tutup şirket içi veri ağ geçidiyle DirectQuery veya Live Connect hizmetlerini kullanarak bulut hizmetine sunulan veri miktarını en aza indirebilir. Ayrıntılı bilgi için bkz. [Şirket içi veri ağ geçidi nedir?](/data-integration/gateway/service-gateway-onprem)
 
-Power BI, satır düzeyi güvenlik desteği sunar. Ayrıntılı bilgi için bkz. [Power BI ile satır düzeyi güvenlik (RLS)](https://docs.microsoft.com/power-bi/admin/service-admin-rls). Satır düzeyi güvenliğin DirectQuery veri kaynaklarına dahi uygulanabileceğini unutmayın. Bu durumda PBIX dosyası, güvenlik sağlayan ara sunucu görevi görür.
+Power BI, satır düzeyi güvenlik desteği sunar. Ayrıntılı bilgi için bkz. [Power BI ile satır düzeyi güvenlik (RLS)](../admin/service-admin-rls.md). Satır düzeyi güvenliğin DirectQuery veri kaynaklarına dahi uygulanabileceğini unutmayın. Bu durumda PBIX dosyası, güvenlik sağlayan ara sunucu görevi görür.
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -266,7 +266,7 @@ Power BI, satır düzeyi güvenlik desteği sunar. Ayrıntılı bilgi için bkz.
 Power BI ile Cloud App Security’yi kullanarak Power BI raporlarınızı, verilerinizi ve hizmetlerinizi istenmeyen sızıntı veya ihlallerden korumaya yardımcı olabilirsiniz. Cloud App Security sayesinde, Azure Active Directory’deki (Azure AD) gerçek zamanlı oturum denetimlerini kullanarak kuruluşunuzun verileri için Power BI analizlerinin güvenli olmasına yardımcı olacak koşullu erişim ilkeleri oluşturabilirsiniz. Bu ilkeler ayarlandıktan sonra yöneticiler kullanıcı erişimini ve etkinliğini izleyebilir, gerçek zamanlı risk analizi gerçekleştirebilir ve etikete özel denetimler belirleyebilir.
 
 Kullanma
-- [Power BI'daki Microsoft Cloud App Security denetimleri](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Power BI'daki Microsoft Cloud App Security denetimleri](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -276,9 +276,9 @@ Kullanma
 
 **Rehberlik**: HTTP trafiği için Power BI kaynaklarınıza bağlanan istemcilerin ve veri kaynaklarının TLS v1.2 veya üzeri ile anlaşabildiğinden emin olun.
 
-- [TLS sürümü kullanımını zorlama](https://docs.microsoft.com/power-bi/admin/service-admin-power-bi-security#enforcing-tls-version-usage)
+- [TLS sürümü kullanımını zorlama](../admin/service-admin-power-bi-security.md#enforcing-tls-version-usage)
 
-- [TLS güvenliği hakkında bilgi](https://docs.microsoft.com/security/engineering/solving-tls1-problem)
+- [TLS güvenliği hakkında bilgi](/security/engineering/solving-tls1-problem)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -288,7 +288,7 @@ Kullanma
 
 **Rehberlik**: Power BI bekleyen ve işlenmekte olan verileri şifreler. Varsayılan olarak Power BI verilerinizi şifrelemek için Microsoft tarafından yönetilen anahtarları kullanır. Kuruluşlar, rapor görüntülerinden Premium kapasitelere içeri aktarılan veri kümelerine, Power BI’daki bekleyen kullanıcı içeriklerini şifrelemek için kendi anahtarlarını kullanmayı tercih edebilir.
 
-- [Power BI'da kendi anahtarını getir senaryosunu kullanma](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [Power BI'da kendi anahtarını getir senaryosunu kullanma](../admin/service-encryption-byok.md)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -302,7 +302,7 @@ Kullanma
 
 **Rehberlik**: Güvenlik ekibinizin Power BI varlıklarınızla ilgili riskleri görebildiğinden emin olmak için Azure Sentinel'i ve Power BI Office Denetim günlüklerinizi kullanın.
 
-- [Office 365 günlüklerini Azure Sentinel'e bağlama](https://docs.microsoft.com/azure/sentinel/connect-office-365)
+- [Office 365 günlüklerini Azure Sentinel'e bağlama](/azure/sentinel/connect-office-365)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -316,9 +316,9 @@ Azure Kaynak Grafı, aboneliklerinizdeki tüm Power BI Embedded kaynaklarını s
 
 Azure'daki etiketleri ve diğer meta verileri (ad, açıklama ve kategori) kullanarak varlıkları kuruluşunuzun sınıflandırma uygulamalarına göre mantıksal olarak düzenleyin.  
 
-- [Azure Kaynak Grafı Gezgini ile sorgu oluşturma](https://docs.microsoft.com/azure/governance/resource-graph/first-query-portal)
+- [Azure Kaynak Grafı Gezgini ile sorgu oluşturma](/azure/governance/resource-graph/first-query-portal)
 
-- [Kaynak adlandırma ve etiketleme kararı kılavuzu](https://docs.microsoft.com/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=/azure/azure-resource-manager/management/toc.json)
+- [Kaynak adlandırma ve etiketleme kararı kılavuzu](/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=%2fazure%2fazure-resource-manager%2fmanagement%2ftoc.json)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -330,13 +330,13 @@ Azure'daki etiketleri ve diğer meta verileri (ad, açıklama ve kategori) kulla
 
 Kullanıcılarınızın ortamınızda sağlayabileceği hizmetleri denetlemek ve kısıtlamak için Azure İlkesi'ni kullanın. Abonelikler içindeki kaynakları sorgulamak ve bulmak için Azure Kaynak Grafı'nı kullanın. Ayrıca Azure İzleyici'yi kullanarak onaylanmamış hizmetler algılandığında uyarı tetikleme amacıyla kurallar oluşturabilirsiniz.
 
-- [Azure İlkesi'ni yapılandırma ve yönetme](https://docs.microsoft.com/azure/governance/policy/tutorials/create-and-manage)
+- [Azure İlkesi'ni yapılandırma ve yönetme](/azure/governance/policy/tutorials/create-and-manage)
 
 Belirli bir kaynak türünü reddetme
-- [Azure İlkesi](https://docs.microsoft.com/azure/governance/policy/samples/built-in-policies#general)
+- [Azure İlkesi](/azure/governance/policy/samples/built-in-policies#general)
 
 Azure ile sorgu oluşturma
-- [Kaynak Grafı Gezgini](https://docs.microsoft.com/azure/governance/resource-graph/first-query-portal)
+- [Kaynak Grafı Gezgini](/azure/governance/resource-graph/first-query-portal)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -348,9 +348,9 @@ Azure ile sorgu oluşturma
 
 ### <a name="lt-2-enable-threat-detection-for-azure-identity-and-access-management"></a>LT-2: Azure kimlik ve erişim yönetimi için tehdit algılamayı etkinleştirin
 
-**Rehberlik**: Power BI günlüklerini SIEM çözümünüze ileterek özel tehdit algılama senaryoları oluşturabilirsiniz. Ayrıca [buradaki](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls) kılavuzu kullanarak Power BI'daki Microsoft Cloud App Security (MCAS) denetimlerinden faydalanabilir, bu sayede anomali algılamayı etkinleştirebilirsiniz.
+**Rehberlik**: Power BI günlüklerini SIEM çözümünüze ileterek özel tehdit algılama senaryoları oluşturabilirsiniz. Ayrıca [buradaki](../admin/service-security-using-microsoft-cloud-app-security-controls.md) kılavuzu kullanarak Power BI'daki Microsoft Cloud App Security (MCAS) denetimlerinden faydalanabilir, bu sayede anomali algılamayı etkinleştirebilirsiniz.
 
-- [Power BI'da kullanıcı etkinliklerini izleme](https://docs.microsoft.com/power-bi/admin/service-admin-auditing)
+- [Power BI'da kullanıcı etkinliklerini izleme](../admin/service-admin-auditing.md)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -360,7 +360,7 @@ Azure ile sorgu oluşturma
 
 **Rehberlik**: Power BI, tam olarak yönetilen bir SaaS teklifidir ve temel alınan ağ yapılandırması ile günlüğe kaydetme görevleri Microsoft'un sorumluluğundadır. Özel Bağlantıları kullanan müşterilere yönelik günlüğe kaydetme ve izleme yapılandırması sunulur.
 
-- [Özel Bağlantı ile günlüğe kaydetme ve izleme](https://docs.microsoft.com/azure/private-link/private-link-overview#logging-and-monitoring)
+- [Özel Bağlantı ile günlüğe kaydetme ve izleme](/azure/private-link/private-link-overview#logging-and-monitoring)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -411,11 +411,11 @@ Power BI Etkinlik Günlüğü:
  
 - Kiracı farklı bir Azure bölgesine taşındığında etkinlik verilerini korumaz.
 
-- [Power BI Denetim Verileri](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#operations-available-in-the-audit-and-activity-logs)
+- [Power BI Denetim Verileri](../admin/service-admin-auditing.md#operations-available-in-the-audit-and-activity-logs)
 
-- [Power BI Etkinlik Günlüğü](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-activity-log)
+- [Power BI Etkinlik Günlüğü](../admin/service-admin-auditing.md#use-the-activity-log)
 
-- [Power BI Denetim Günlüğü](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-audit-log)
+- [Power BI Denetim Günlüğü](../admin/service-admin-auditing.md#use-the-audit-log)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -456,11 +456,11 @@ Power BI Etkinlik Günlüğü:
 
 - Kiracı farklı bir Azure bölgesine taşındığında etkinlik verilerini korumaz.
 
-- [Power BI Denetim Verileri](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#operations-available-in-the-audit-and-activity-logs)
+- [Power BI Denetim Verileri](../admin/service-admin-auditing.md#operations-available-in-the-audit-and-activity-logs)
 
-- [Power BI Etkinlik Günlüğü](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-activity-log)
+- [Power BI Etkinlik Günlüğü](../admin/service-admin-auditing.md#use-the-activity-log)
 
-- [Power BI Denetim Günlüğü](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-audit-log)
+- [Power BI Denetim Günlüğü](../admin/service-admin-auditing.md#use-the-audit-log)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -470,7 +470,7 @@ Power BI Etkinlik Günlüğü:
 
 **Rehberlik**: Office denetim günlüklerine yönelik depolama alanı saklama süresini uyumluluk, düzenleme ve iş gereksinimleriniz doğrultusunda yapılandırın.
 
-- [Office Denetim Günlüğü Saklama İlkeleri](https://docs.microsoft.com/microsoft-365/compliance/audit-log-retention-policies)
+- [Office Denetim Günlüğü Saklama İlkeleri](/microsoft-365/compliance/audit-log-retention-policies)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -484,9 +484,9 @@ Power BI Etkinlik Günlüğü:
 
 **Rehberlik**: Kuruluşunuzda güvenlik olaylarına yanıt vermeye yönelik süreçler bulunduğundan, bu süreçlerin Azure için güncelleştirildiğinden ve hazır olduğunuzdan emin olmak için bu süreçlerin düzenli olarak uygulandığından emin olun.
 
-- [Güvenliği kuruluş genelinde uygulama](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Güvenliği kuruluş genelinde uygulama](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
-- [Olay yanıtı başvuru kılavuzu](https://docs.microsoft.com/microsoft-365/downloads/IR-Reference-Guide.pdf)
+- [Olay yanıtı başvuru kılavuzu](/microsoft-365/downloads/IR-Reference-Guide.pdf)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -496,7 +496,7 @@ Power BI Etkinlik Günlüğü:
 
 **Rehberlik**: Azure Güvenlik Merkezi'nde güvenlik olayı iletişim bilgilerini ayarlayın. Microsoft, Microsoft Güvenlik Yanıt Merkezi'nin (MSRC) verilerinize kanuna aykırı veya yetkisiz erişim sağlanmasını keşfetmesi durumunda sizinle iletişime geçmek için bu iletişim bilgilerini kullanır. İsterseniz farklı Azure hizmetlerindeki olay uyarılarını ve bildirimlerini olay yanıt gereksinimlerinize göre özelleştirebilirsiniz. 
 
-- [Azure Güvenlik Merkezi güvenlik ilgili kişisini ayarlama](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)
+- [Azure Güvenlik Merkezi güvenlik ilgili kişisini ayarlama](/azure/security-center/security-center-provide-security-contact-details)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -508,7 +508,7 @@ Power BI Etkinlik Günlüğü:
 
 Microsoft Cloud App Security'de Power BI ile ilgili uyarıları izleyin. Yüksek kaliteli uyarılar önceki olaylardan alınan dersler, doğrulanmış topluluk kaynakları ve farklı sinyal kaynaklarını birleştirip bağlantı oluşturarak uyarı oluşturmaya ve temizlemeye yönelik araçlar kullanılarak geliştirilebilir.
 
-- [Cloud App Security'deki uyarıları izleme](https://docs.microsoft.com/cloud-app-security/monitor-alerts)
+- [Cloud App Security'deki uyarıları izleme](/cloud-app-security/monitor-alerts)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -520,7 +520,7 @@ Microsoft Cloud App Security'de Power BI ile ilgili uyarıları izleyin. Yüksek
 
 Tüm personelin rollerine ek olarak algılama aşamasından olay sonrası gözden geçirme aşamasına kadar tüm olay işleme/yönetim aşamalarını tanımlayan yazılı olay yanıt planları bulunduğundan emin olun.
 
-- [Microsoft Tehdit Koruması'nda olaylara genel bakış](https://docs.microsoft.com/microsoft-365/security/mtp/incidents-overview)
+- [Microsoft Tehdit Koruması'nda olaylara genel bakış](/microsoft-365/security/mtp/incidents-overview)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -533,7 +533,7 @@ Tüm personelin rollerine ek olarak algılama aşamasından olay sonrası gözde
  
 Microsoft Tehdit Koruması, bağıntı analizi gerçekleştirir ve farklı ürünlerdeki tüm uyarıları ve araştırmaları tek bir olay altında toplar. Microsoft Tehdit Koruması ayrıca tüm varlıklar ve ürünler genelinde sahip olduğu uçtan uca görünürlük sayesinde ancak kötü amaçlı olarak tanımlanabilecek etkinliklerle ilgili benzersiz uyarıları da tetikler. Microsoft Tehdit Koruması bu şekilde daha geniş kapsamlı bir saldırı hikayesi oluşturarak güvenlik operasyonları analistlerinin kuruluş genelindeki karmaşık tehditleri anlamasını ve gidermesini sağlar.
 
-- [Microsoft Tehdit Koruması'nda olayları önceliklendirme](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue?view=o365-worldwide&amp;preserve-view=true)
+- [Microsoft Tehdit Koruması'nda olayları önceliklendirme](/microsoft-365/security/mtp/incident-queue?amp;preserve-view=true&view=o365-worldwide)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -545,7 +545,7 @@ Microsoft Tehdit Koruması, bağıntı analizi gerçekleştirir ve farklı ürü
  
 Gelen güvenlik uyarılarına yanıt olarak araştırma ve düzeltme süreçlerini otomatik olarak tetiklemek için Microsoft Tehdit Koruması'ndaki iş akışı otomasyon özelliklerini kullanın. 
  
-- [Microsoft Tehdit Koruması'ndaki otomatik araştırma ve yanıt özellikleri](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Microsoft Tehdit Koruması'ndaki otomatik araştırma ve yanıt özellikleri](/microsoft-365/security/mtp/mtp-autoir)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -569,7 +569,7 @@ Gelen güvenlik uyarılarına yanıt olarak araştırma ve düzeltme süreçleri
 
 **Rehberlik**: Power BI yönetimi REST API'lerini kullanarak Power BI örneğinizi izleyin.
 
-- [Power BI yönetimi REST API'leri](https://docs.microsoft.com/rest/api/power-bi/admin)
+- [Power BI yönetimi REST API'leri](/rest/api/power-bi/admin)
 
 - [Power BI kuruluş dağıtımı teknik incelemesi](https://aka.ms/PBIEnterpriseDeploymentWP)
 
@@ -583,7 +583,7 @@ Gelen güvenlik uyarılarına yanıt olarak araştırma ve düzeltme süreçleri
 
 Sızma testlerinizin Microsoft ilkelerini ihlal etmediğinden emin olmak için Microsoft Bulut Sızma Testi Etkileşim Kuralları'na uygun hareket edin. Microsoft tarafından yönetilen bulut altyapısına, hizmetlere ve uygulamalara yönelik kırmızı takım ve canlı site sızma testi gerçekleştirmek için Microsoft'un stratejisini ve yürütme sürecini kullanın.
 
-- [Azure'da sızma testi yapma](https://docs.microsoft.com/azure/security/fundamentals/pen-testing)
+- [Azure'da sızma testi yapma](/azure/security/fundamentals/pen-testing)
 
 - [Sızma Testi Etkileşim Kuralları](https://www.microsoft.com/msrc/pentest-rules-of-engagement?rtc=1)
 
@@ -601,7 +601,7 @@ Sızma testlerinizin Microsoft ilkelerini ihlal etmediğinden emin olmak için M
 
 **Rehberlik**: Power BI'ın Kendi Anahtarını Getir (BYOK) özelliğini kullanıyorsanız müşteri tarafından yönetilen anahtarlarınıza erişebildiğinizi ve bunları geri yükleyebildiğinizi düzenli olarak doğrulamanız gerekir.
 
-- [Power BI'da KAG](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [Power BI'da KAG](../admin/service-encryption-byok.md)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -611,13 +611,13 @@ Sızma testlerinizin Microsoft ilkelerini ihlal etmediğinden emin olmak için M
 
 **Rehberlik**: Power BI'ın Kendi Anahtarını Getir (BYOK) özelliğini kullanıyorsanız müşteri tarafından yönetilen anahtarlarınızı denetleyen anahtar kasasının aşağıdaki Power BI'da KAG belgesine uygun şekilde yapılandırıldığından emin olmanız gerekir. Anahtarları yanlışlıkla veya kötü amaçlı olarak silinmeye karşı korumak için Azure Key Vault'ta geçici silme ve temizleme koruması özelliklerini etkinleştirin.
 
-- [Power BI'da KAG](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [Power BI'da KAG](../admin/service-encryption-byok.md)
 
-- [Key Vault'ta geçici silme ve temizleme koruması özelliklerini etkinleştirme](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete?tabs=azure-portal)
+- [Key Vault'ta geçici silme ve temizleme koruması özelliklerini etkinleştirme](/azure/storage/blobs/storage-blob-soft-delete?tabs=azure-portal)
 
 Ağ geçidi anahtar kaynakları için aşağıdaki ağ geçidi kurtarma anahtarı belgelerindeki yönlendirmeleri izlediğinizden emin olun.
 
-- [Şirket içi veri ağ geçidi kurtarma anahtarı](https://docs.microsoft.com/data-integration/gateway/service-gateway-recovery-key)
+- [Şirket içi veri ağ geçidi kurtarma anahtarı](/data-integration/gateway/service-gateway-recovery-key)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -650,13 +650,13 @@ Bu strateji kapsamında aşağıdaki öğeler için rehberlik, ilkeler ve standa
 -   Uygun şifreleme standartları
 
 Daha fazla bilgi için aşağıdaki başvuruları inceleyin:
-- [Azure Güvenlik Mimarisi Önerileri: Depolama, veri ve şifreleme](https://docs.microsoft.com/azure/architecture/framework/security/storage-data-encryption?toc=/security/compass/toc.json&amp;bc=/security/compass/breadcrumb/toc.json)
+- [Azure Güvenlik Mimarisi Önerileri: Depolama, veri ve şifreleme](/azure/architecture/framework/security/storage-data-encryption?amp;bc=%2fsecurity%2fcompass%2fbreadcrumb%2ftoc.json&toc=%2fsecurity%2fcompass%2ftoc.json)
 
-- [Azure Güvenliği Temelleri: Azure'da veri güvenliği, şifreleme ve depolama](https://docs.microsoft.com/azure/security/fundamentals/encryption-overview)
+- [Azure Güvenliği Temelleri: Azure'da veri güvenliği, şifreleme ve depolama](/azure/security/fundamentals/encryption-overview)
 
-- [Bulut Benimseme Çerçevesi: Azure'da veri güvenliği ve şifreleme için en iyi deneyimler](https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices?toc=/azure/cloud-adoption-framework/toc.json&amp;bc=/azure/cloud-adoption-framework/_bread/toc.json)
+- [Bulut Benimseme Çerçevesi: Azure'da veri güvenliği ve şifreleme için en iyi deneyimler](/azure/security/fundamentals/data-encryption-best-practices?amp;bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
 
-- [Azure Güvenlik Karşılaştırması: Varlık yönetimi](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-asset-management)
+- [Azure Güvenlik Karşılaştırması: Varlık yönetimi](/azure/security/benchmarks/security-controls-v2-asset-management)
 
 - [Azure Güvenlik Karşılaştırması: Veri koruma](/azure/security/benchmarks/security-controls-v2-data-protection)
 
@@ -672,11 +672,11 @@ Güvenlik ayrımı gereksinimiyle birbirleriyle iletişim kurma ve verilere eri�
 
 Segmentasyon stratejisinin ağ güvenliği, kimlik ve erişim modelleri, uygulama izinleri/erişim modelleri ve insanlar tarafından gerçekleştirilen süreç denetimleri gibi farklı denetim türlerinde tutarlı bir şekilde uygulandığından emin olun.
 
-- [Azure için segmentasyon stratejisi rehberi (video)](https://docs.microsoft.com/security/compass/microsoft-security-compass-introduction#azure-components-and-reference-model-2151)
+- [Azure için segmentasyon stratejisi rehberi (video)](/security/compass/microsoft-security-compass-introduction#azure-components-and-reference-model-2151)
 
-- [Azure için segmentasyon stratejisi rehberi (belge)](https://docs.microsoft.com/security/compass/governance#enterprise-segmentation-strategy)
+- [Azure için segmentasyon stratejisi rehberi (belge)](/security/compass/governance#enterprise-segmentation-strategy)
 
-- [Ağ segmentasyonunu kurumsal segmentasyon stratejisiyle uyumlu hale getirme](https://docs.microsoft.com/security/compass/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
+- [Ağ segmentasyonunu kurumsal segmentasyon stratejisiyle uyumlu hale getirme](/security/compass/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -686,7 +686,7 @@ Segmentasyon stratejisinin ağ güvenliği, kimlik ve erişim modelleri, uygulam
 
 **Rehberlik**: Varlıklarınız ve içinde bulundukları ortamla ilgili riskleri sürekli olarak ölçün ve ortadan kaldırın. Yayımlanmış uygulamalar, ağ giriş ve çıkış noktaları, kullanıcı ve yönetici uç noktaları gibi değeri yüksek varlıkları ve kullanıma açık olan saldırı yüzeylerini önceliklendirin.
 
-- [Azure Güvenlik Karşılaştırması: Duruş ve güvenlik açığı yönetimi](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-posture-vulnerability-management)
+- [Azure Güvenlik Karşılaştırması: Duruş ve güvenlik açığı yönetimi](/azure/security/benchmarks/security-controls-v2-posture-vulnerability-management)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -696,11 +696,11 @@ Segmentasyon stratejisinin ağ güvenliği, kimlik ve erişim modelleri, uygulam
 
 **Rehberlik**: Güvenlik kuruluşunuzdaki roller ve sorumluluklar için net bir strateji oluşturup bunu belgelendirdiğinizden ve paylaştığınızdan emin olun. Güvenlik kararları için net bir hesap verilebilirlik süreci oluşturmayı önceliklendirin, herkesi paylaşılan sorumluluk modeli hakkında eğitin ve teknik ekiplere bulut ortamının güvenliğini sağlamaya yönelik eğitimler verin.
 
-- [Azure Güvenliği En İyi Deneyimi 1 - İnsanlar: Ekipleri Bulut Güvenliği Yolculuğu Hakkında Eğitin](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#1-people-educate-teams-about-the-cloud-security-journey)
+- [Azure Güvenliği En İyi Deneyimi 1 - İnsanlar: Ekipleri Bulut Güvenliği Yolculuğu Hakkında Eğitin](/azure/cloud-adoption-framework/security/security-top-10#1-people-educate-teams-about-the-cloud-security-journey)
 
-- [Azure Güvenliği En İyi Deneyimi 2 - İnsanlar: Ekipleri Bulut Güvenliği Teknolojileri Hakkında Eğitin](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#2-people-educate-teams-on-cloud-security-technology)
+- [Azure Güvenliği En İyi Deneyimi 2 - İnsanlar: Ekipleri Bulut Güvenliği Teknolojileri Hakkında Eğitin](/azure/cloud-adoption-framework/security/security-top-10#2-people-educate-teams-on-cloud-security-technology)
 
-- [Azure Güvenliği En İyi Deneyimi 3 - Süreç: Bulut Güvenliği Kararları için Hesap Verilebilirlik Ataması Yapın](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Azure Güvenliği En İyi Deneyimi 3 - Süreç: Bulut Güvenliği Kararları için Hesap Verilebilirlik Ataması Yapın](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -725,13 +725,13 @@ Bu strateji kapsamında aşağıdaki öğeler için rehberlik, ilkeler ve standa
 -   Güncel ağ güvenliği yapıtları (ağ diyagramları, başvuru amaçlı ağ mimarisi vb.)
 
 Daha fazla bilgi için aşağıdaki başvuruları inceleyin:
-- [Azure Güvenliği En İyi Deneyimi 11 - Mimari. Tek ve birleşik güvenlik stratejisi](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
+- [Azure Güvenliği En İyi Deneyimi 11 - Mimari. Tek ve birleşik güvenlik stratejisi](/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
 
 - [Azure Güvenlik Karşılaştırması: Ağ Güvenliği](/azure/security/benchmarks/security-controls-v2-network-security)
 
-- [Azure ile ağ güvenliğine genel bakış](https://docs.microsoft.com/azure/security/fundamentals/network-overview)
+- [Azure ile ağ güvenliğine genel bakış](/azure/security/fundamentals/network-overview)
 
-- [Kurumsal ağ mimarisi stratejisi](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/architecture)
+- [Kurumsal ağ mimarisi stratejisi](/azure/cloud-adoption-framework/ready/enterprise-scale/architecture)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -755,13 +755,13 @@ Bu strateji kapsamında aşağıdaki öğeler için rehberlik, ilkeler ve standa
 
 Daha fazla bilgi için aşağıdaki başvuruları inceleyin:
 
-- [Azure Güvenlik Karşılaştırması: Kimlik yönetimi](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-identity-management)
+- [Azure Güvenlik Karşılaştırması: Kimlik yönetimi](/azure/security/benchmarks/security-controls-v2-identity-management)
 
 - [Azure Güvenlik Karşılaştırması: Ayrıcalıklı erişim](/azure/security/benchmarks/security-controls-v2-privileged-access)
 
-- [Azure Güvenliği En İyi Deneyimi 11 - Mimari. Tek ve birleşik güvenlik stratejisi](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
+- [Azure Güvenliği En İyi Deneyimi 11 - Mimari. Tek ve birleşik güvenlik stratejisi](/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
 
-- [Azure'da kimlik yönetim güvenliğine genel bakış](https://docs.microsoft.com/azure/security/fundamentals/identity-management-overview)
+- [Azure'da kimlik yönetim güvenliğine genel bakış](/azure/security/fundamentals/identity-management-overview)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 
@@ -793,11 +793,11 @@ Daha fazla bilgi için aşağıdaki başvuruları inceleyin:
 
 - [Azure Güvenlik Karşılaştırması: Olay yanıtı](/azure/security/benchmarks/security-controls-v2-incident-response)
 
-- [Azure Güvenliği En İyi Deneyimi 4 - Süreç. Bulut için Olay Yanıt Sürecini Güncelleştirme](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Azure Güvenliği En İyi Deneyimi 4 - Süreç. Bulut için Olay Yanıt Sürecini Güncelleştirme](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
-- [Azure Benimseme Çerçevesi, günlüğe kaydetme ve raporlama kararı rehberi](https://docs.microsoft.com/azure/cloud-adoption-framework/decision-guides/logging-and-reporting/)
+- [Azure Benimseme Çerçevesi, günlüğe kaydetme ve raporlama kararı rehberi](/azure/cloud-adoption-framework/decision-guides/logging-and-reporting/)
 
-- [Azure ile kurumsal ölçek, yönetim ve izleme](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/management-and-monitoring)
+- [Azure ile kurumsal ölçek, yönetim ve izleme](/azure/cloud-adoption-framework/ready/enterprise-scale/management-and-monitoring)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 

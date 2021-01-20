@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 6eebe7b75db06b97d116ca0c17e67e9ee7b0562e
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: 8301b51ccbb2ac344e24a297f9a309fc3601b3e1
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969662"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565592"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -442,7 +442,7 @@ BT yöneticiniz artık bir MDM aracı kullanarak rapor sunucusuna erişmek için
 
 #### <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
 
-Karma Gerçeklik için Power BI uygulaması artık Microsoft Mağazası’nda mevcut. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. İçerik için yeni [HoloLens’te Power BI Tanıtımı](https://www.youtube.com/watch?v=J_X_nOFUBss) videosuna bakın veya yeni [Karma Gerçeklik için Power BI uygulaması](mobile-mixed-reality-app.md) ile ilgili makaleyi okuyun.
+Karma Gerçeklik için Power BI uygulaması artık Microsoft Mağazası’nda mevcut. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. İçerik için yeni [HoloLens’te Power BI Tanıtımı](https://www.youtube.com/watch?v=J_X_nOFUBss) videosuna bakın veya yeni [Karma Gerçeklik için Power BI uygulaması](./mobile-hololens2-app.md) ile ilgili makaleyi okuyun.
 
 
 ### <a name="april-2018"></a>Nisan 2018
@@ -460,7 +460,7 @@ Kısa süre önce rapor filtrelerini ve dilimleyicileri güncelleştirdiğimiz i
 
 #### <a name="power-bi-for-mixed-reality-app-preview"></a>Karma Gerçeklik için Power BI uygulaması (Önizleme)
 
-Bulunduğunuz yere verileri getirme çalışmamızda son adım olarak, Karma Gerçeklik için Power BI uygulamasını oluşturduk. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. Yeni [Karma Gerçeklik için Power BI uygulaması](mobile-mixed-reality-app.md) hakkında daha fazla bilgi edinin.
+Bulunduğunuz yere verileri getirme çalışmamızda son adım olarak, Karma Gerçeklik için Power BI uygulamasını oluşturduk. Panolarınızı ve raporlarınızı, sanal dünyada sarmalanmış şekilde görüntüleyin ve ortamınız bağlamında belirli konumlarda bunları görüntüleyin. Yeni [Karma Gerçeklik için Power BI uygulaması](./mobile-hololens2-app.md) hakkında daha fazla bilgi edinin.
 
 #### <a name="share-reports-and-dashboards-externally"></a>Raporları ve panoları harici olarak paylaşın
 

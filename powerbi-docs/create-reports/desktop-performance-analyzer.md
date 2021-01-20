@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/23/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6168a1fb8d64444b703c6acac21c3bac67c4219a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a622da545d4fa9fca8b9478f6d5293d2b34296e9
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396510"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191717"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Rapor öğesi performansını incelemek için Performans Analizi’ni kullanma
 
@@ -58,7 +58,7 @@ Her görselin günlük bilgileri, aşağıdaki görev kategorilerini tamamlamak 
 * **Görsel görüntüleme**: Görselin ekranda çizilmesi için gereken süredir ve web görüntülerini getirme veya coğrafi kodlama için gereken süre de buna dahildir. 
 * **Diğer**: Görselin sorguları hazırlamak, diğer görsellerin tamamlanmasını beklemek veya arka planda farklı işlemler yapmak için ihtiyaç duyduğu süredir.
 
-**Süre (ms)** değerleri her işlem için *başlangıç* ve *bitiş* zaman damgası arasındaki farkı gösterir. Tuval ve görsel işlemlerinin çoğu, birden çok işlem tarafından paylaşılan tek bir Kullanıcı Arabirimi iş parçacığında sırayla yürütülür. Raporlanan süreler, diğer işlemlerin tamamlanması için kuyrukta bekleme süresini içerir. GitHub'daki [Performans Analizi örneğinde](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) ve bununla ilişkili [belgelerde](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx), görsellerin verileri nasıl kuyruğa aldığı ve nasıl işlediği konusundaki ayrıntılar sağlanır.
+**Süre (ms)** değerleri her işlem için *başlangıç* ve *bitiş* zaman damgası arasındaki farkı gösterir. Tuval ve görsel işlemlerinin çoğu, birden çok işlem tarafından paylaşılan tek bir Kullanıcı Arabirimi iş parçacığında sırayla yürütülür. Raporlanan süreler, diğer işlemlerin tamamlanması için kuyrukta bekleme süresini içerir. GitHub'daki [Performans Analizi örneğinde](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer) ve bununla ilişkili [belgelerde](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx), görsellerin verileri nasıl kuyruğa aldığı ve nasıl işlediği konusundaki ayrıntılar sağlanır.
 
 
 ![Günlük bilgilerinin öğeleri](media/desktop-performance-analyzer/performance-analyzer-06.png)
@@ -94,5 +94,5 @@ Ayrıca yalnızca istediğiniz görselleri de yenileyebilirsiniz. Performans Ana
 
 Performans Analizi örneği hakkında bilgi için aşağıdaki kaynakları gözden geçirin.
 
-* [Performans Analizi örneği](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
-* [Performans Analizi örneği belgeleri](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)
+* [Performans Analizi örneği](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer)
+* [Performans Analizi örneği belgeleri](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

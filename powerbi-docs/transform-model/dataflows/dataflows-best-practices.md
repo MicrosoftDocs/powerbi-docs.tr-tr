@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 116458c094159cbeeadaf2e955744759e4648220
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: fb688b20fd8b5ee1288f670fba9f7f45fc058680
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97097973"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565359"
 ---
 # <a name="dataflows-best-practices"></a>Veri akışları için en iyi yöntemler
 
@@ -22,7 +22,7 @@ Power BI **veri akışları** tüketim, yeniden kullanım ve tümleştirmeye haz
 
 ## <a name="dataflows-across-the-power-platform"></a>Power Platform genelinde veri akışları
 
-Veri akışları Power Query, Microsoft Dynamics 365 ve diğer Microsoft teklifleri gibi çeşitli Power Platform teknolojilerinde kullanılabilir. Veri akışlarının Power Platform genelinde nasıl çalışabileceği hakkında daha fazla bilgi için bkz. [Microsoft ürünlerinde veri akışlarını kullanma](https://docs.microsoft.com/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365).
+Veri akışları Power Query, Microsoft Dynamics 365 ve diğer Microsoft teklifleri gibi çeşitli Power Platform teknolojilerinde kullanılabilir. Veri akışlarının Power Platform genelinde nasıl çalışabileceği hakkında daha fazla bilgi için bkz. [Microsoft ürünlerinde veri akışlarını kullanma](/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365).
 
 
 ## <a name="dataflows-best-practices-table-and-links"></a>Veri akışları için en iyi yöntemler tablosu ve bağlantıları
@@ -32,20 +32,20 @@ Aşağıdaki tabloda, veri akışlarını oluştururken veya bunlarla çalışı
 
 |**Konu**  |**Rehber alanı**  |**Makale veya içerik bağlantısı**  |
 |---------|---------|---------|
-|Power Query     | Veri hazırlama deneyiminizden en iyi şekilde yararlanmanıza yönelik ipuçları ve püf noktaları        |[Power Query en iyi deneyimleri](https://docs.microsoft.com/power-query/best-practices)        |
-|Hesaplanan Varlıklardan Yararlanma     |Hesaplanan varlıkların veri akışlarında kullanılmasının performans bakımından avantajları vardır         |[Hesaplanan Varlıklar Senaryoları](https://docs.microsoft.com/power-query/dataflows/computed-entities-scenarios)         |
-|Karmaşık veri akışları geliştirme     |Büyük ölçekli, performanslı veri akışları geliştirme desenleri         |[Karmaşık veri akışları](https://docs.microsoft.com/power-query/dataflows/best-practices-developing-complex-dataflows)         |
-|Veri akışlarını yeniden kullanma     |Desenler, kılavuz ve kullanım örnekleri         |[Veri akışlarını yeniden kullanma](https://docs.microsoft.com/power-query/dataflows/best-practices-reusing-dataflows)         |
-|Büyük ölçekli uygulamalar     |Kurumsal mimariyi tamamlayan büyük ölçekli kullanım ve kılavuz         |[Veri akışlarının kullanıldığı veri ambarı](https://docs.microsoft.com/power-query/dataflows/best-practices-for-data-warehouse-using-dataflows)         |
+|Power Query     | Veri hazırlama deneyiminizden en iyi şekilde yararlanmanıza yönelik ipuçları ve püf noktaları        |[Power Query en iyi deneyimleri](/power-query/best-practices)        |
+|Hesaplanan Varlıklardan Yararlanma     |Hesaplanan varlıkların veri akışlarında kullanılmasının performans bakımından avantajları vardır         |[Hesaplanan Varlıklar Senaryoları](/power-query/dataflows/computed-entities-scenarios)         |
+|Karmaşık veri akışları geliştirme     |Büyük ölçekli, performanslı veri akışları geliştirme desenleri         |[Karmaşık veri akışları](/power-query/dataflows/best-practices-developing-complex-dataflows)         |
+|Veri akışlarını yeniden kullanma     |Desenler, kılavuz ve kullanım örnekleri         |[Veri akışlarını yeniden kullanma](/power-query/dataflows/best-practices-reusing-dataflows)         |
+|Büyük ölçekli uygulamalar     |Kurumsal mimariyi tamamlayan büyük ölçekli kullanım ve kılavuz         |[Veri akışlarının kullanıldığı veri ambarı](/power-query/dataflows/best-practices-for-data-warehouse-using-dataflows)         |
 |Geliştirilmiş İşlemden Yararlanma     |Veri akışı performansını 25 kata kadar artırabilir         |[Geliştirilmiş İşlem Altyapısı](dataflows-premium-workload-configuration.md#using-the-compute-engine-to-improve-performance)         |
 |İş yükü ayarlarınızı iyileştirme     |Performansı artırmak amacıyla kullanabileceğiniz kaldıraçları anlayarak veri akışları altyapınızdan en iyi şekilde yararlanın         |[Veri akışları iş yükü yapılandırması](dataflows-premium-workload-configuration.md)         |
-|Tabloları birleştirme ve genişletme     |Performanslı birleşimler oluşturma         |[Genişleyen tablo işlemlerini iyileştirme](https://docs.microsoft.com/power-query/optimize-expanding-table-columns)         |
-|Sorguyu kaynağa döndürme kılavuzu     |Kaynak sistemi kullanarak dönüşümleri hızlandırma         |[Sorguyu kaynağa döndürme](https://docs.microsoft.com/power-query/power-query-folding)         |
-|Veri profili oluşturmayı kullanma     |Sütun kalitesini, dağıtımını ve profilini anlama         |[Veri profili oluşturma araçları](https://docs.microsoft.com/power-query/data-profiling-tools)         |
-|Hata işlemeyi uygulama     |Hataları yenilemeye dayanıklı, öneriler içeren güçlü veri akışları geliştirme         |[Yaygın hatalara yönelik desenler](https://docs.microsoft.com/power-query/dealing-with-errors)  </br> [Karmaşık hatası işleme](https://docs.microsoft.com/power-query/error-handling)      |
-|Şema görünümünü kullanma      |Geniş bir tablo ile çalışırken ve şema düzeyinde işlemler gerçekleştirirken yazma deneyimini iyileştirme         |[Şema görünümü](https://docs.microsoft.com/power-query/schema-view)         |
-|Bağlantılı varlıklar      |Dönüşümleri yeniden kullanma ve bunlara başvurma         |[Bağlantılı varlıklar](https://docs.microsoft.com/power-query/dataflows/linked-entities)         |
-|Artımlı yenileme      |Tam yeniden yükleme yerine en son veya değiştirilmiş verileri yükleme         |[Artımlı yenileme](https://docs.microsoft.com/power-query/dataflows/incremental-refresh)         |
+|Tabloları birleştirme ve genişletme     |Performanslı birleşimler oluşturma         |[Genişleyen tablo işlemlerini iyileştirme](/power-query/optimize-expanding-table-columns)         |
+|Sorguyu kaynağa döndürme kılavuzu     |Kaynak sistemi kullanarak dönüşümleri hızlandırma         |[Sorguyu kaynağa döndürme](/power-query/power-query-folding)         |
+|Veri profili oluşturmayı kullanma     |Sütun kalitesini, dağıtımını ve profilini anlama         |[Veri profili oluşturma araçları](/power-query/data-profiling-tools)         |
+|Hata işlemeyi uygulama     |Hataları yenilemeye dayanıklı, öneriler içeren güçlü veri akışları geliştirme         |[Yaygın hatalara yönelik desenler](/power-query/dealing-with-errors)  </br> [Karmaşık hatası işleme](/power-query/error-handling)      |
+|Şema görünümünü kullanma      |Geniş bir tablo ile çalışırken ve şema düzeyinde işlemler gerçekleştirirken yazma deneyimini iyileştirme         |[Şema görünümü](/power-query/schema-view)         |
+|Bağlantılı varlıklar      |Dönüşümleri yeniden kullanma ve bunlara başvurma         |[Bağlantılı varlıklar](/power-query/dataflows/linked-entities)         |
+|Artımlı yenileme      |Tam yeniden yükleme yerine en son veya değiştirilmiş verileri yükleme         |[Artımlı yenileme](/power-query/dataflows/incremental-refresh)         |
 |||
 
 

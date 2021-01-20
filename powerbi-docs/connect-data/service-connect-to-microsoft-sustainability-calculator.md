@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/22/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 730a997a6d1d304fe868dd5bdd5bfbed6e359d91
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: bff53ac0e230a91dd980b461340ae4109f551999
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927153"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565571"
 ---
 # <a name="microsoft-sustainability-calculator-support-page"></a>Microsoft Sustainability Calculator Destek Sayfası
 
@@ -165,7 +165,7 @@ Emisyonlarınız, şirketinizin kapsam 3 dolaylı karbon emisyonlarının bir pa
 
 **Emisyonları daha da azaltmak için ne yapabilirim?**
 
-Azure'da kaynak ve maliyet verimliliğini korumak Azure kullanımınızın çevre üzerindeki etkisini azaltacaktır. Örneğin kullanılmayan sanal makineler hem bulutta hem de şirket içinde savurganlıktır. İşlem kullanım faktörlerini (CUF) geliştirecek şekilde sanal makineleri doğru boyutlandırmak, aynı fiziksel sunucularda olduğu gibi yararlı sonuç başına enerji kullanımını azaltır. [Azure Maliyet Yönetimi](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices), bulut yatırımınızı en üst düzeye çıkarmak için harcamaları planlamanızı, analiz etmenizi ve azaltmanızı sağlayacak araçları sunar.
+Azure'da kaynak ve maliyet verimliliğini korumak Azure kullanımınızın çevre üzerindeki etkisini azaltacaktır. Örneğin kullanılmayan sanal makineler hem bulutta hem de şirket içinde savurganlıktır. İşlem kullanım faktörlerini (CUF) geliştirecek şekilde sanal makineleri doğru boyutlandırmak, aynı fiziksel sunucularda olduğu gibi yararlı sonuç başına enerji kullanımını azaltır. [Azure Maliyet Yönetimi](/azure/cost-management-billing/costs/cost-mgt-best-practices), bulut yatırımınızı en üst düzeye çıkarmak için harcamaları planlamanızı, analiz etmenizi ve azaltmanızı sağlayacak araçları sunar.
 
 #### <a name="methodology"></a>Yöntem
 

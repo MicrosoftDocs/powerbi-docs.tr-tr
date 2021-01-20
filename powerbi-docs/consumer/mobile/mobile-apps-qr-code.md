@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.openlocfilehash: ab6d8f208300350a613cc63dab948f42376b905e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 96859efbaf86c8c6e9abf459500c38d49ee4f112
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414565"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565508"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Mobil cihazınızdan Power BI QR kodu tarama
 Aşağıdakiler cihazlar için geçerlidir:
@@ -31,7 +31,7 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 İş arkadaşınız panoyu ya da raporu sizinle paylaşmadıysa doğrudan mobil uygulama üzeriden erişim isteğinde bulunabilirsiniz. 
 
 > [!NOTE]
-> Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla raporun QR kodunu da tarayabilirsiniz](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
+> Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla raporun QR kodunu da tarayabilirsiniz](./mobile-hololens2-app.md#open-reports-with-qr-codes).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Power BI tarayıcısıyla iPhone'unuzda bir Power BI QR kodu taratma
 
@@ -77,5 +77,5 @@ Diyelim ki bir iş arkadaşınız bir rapor ya da panodaki kutucuk için [Power 
 * Mobil uygulamalarla [gerçek dünyadan Power BI verilerine bağlanma](mobile-apps-data-in-real-world-context.md)
 * [Power BI hizmetinde bir kutucuk için QR kodu oluşturma](../../create-reports/service-create-qr-code-for-tile.md)
 * [Power BI hizmetinde bir rapor için QR kodu oluşturma](../../create-reports/service-create-qr-code-for-report.md)
-* Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla bir QR kodunu da tarayabilirsiniz](mobile-mixed-reality-app.md)
+* Ayrıca [Karma Gerçeklik için Power BI uygulamasıyla bir QR kodunu da tarayabilirsiniz](./mobile-hololens2-app.md)
 * Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
