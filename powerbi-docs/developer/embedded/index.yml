@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Gelişmiş tümleşik BI içgörüleri elde etmek için Power BI tümleşik analiz belgeleri
+title: Power BI tümleşik analiz belgeleri
 summary: 'İki Power BI tümleşik analiz çözümünü kullanmayı öğrenin: Power BI Embedded ve Power BI Premium kullanarak ekleme.'
 metadata:
   title: Power BI tümleşik analiz belgeleri
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 0f5afe65128f8e9b79522380b2271895f2afacaf
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+  ms.openlocfilehash: a4de20cdd11170b7782c4891b11bde48081fdd55
+  ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
   ms.translationtype: HT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97888685"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "98687523"
 landingContent:
 - title: başlarken
   linkLists:

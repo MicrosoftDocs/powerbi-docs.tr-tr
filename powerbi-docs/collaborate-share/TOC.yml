@@ -25,8 +25,6 @@
           items:
             - name: Yeni çalışma alanları oluşturma
               href: service-create-the-new-workspaces.md
-            - name: Çalışma alanlarının yeni görünümünü kullanmaya başlama
-              href: service-workspaces-new-look.md
             - name: Klasik çalışma alanları yükseltme
               href: service-upgrade-workspaces.md
             - name: Klasik çalışma alanları oluşturma
