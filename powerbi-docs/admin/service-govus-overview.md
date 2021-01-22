@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/05/2021
+ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 9b52e0698f6b9c1ae779bf21738acee30db7447d
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: e7100be7890673cecc77a8a1147a25a942fc4666
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927084"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597614"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -124,26 +124,22 @@ Bir ortam için yayınlama planlanıyorsa, tahmini çıkacağı zaman için yıl
 
 |Öne çıkan özelliği |GCC |GCC High |DoD|
 |------|------|------|------|
-|[Kamu bulutu ve ticari bulut arasında Azure B2B İşbirliği](service-admin-azure-ad-b2b.md)<sup>1</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
-|[Power BI web bölümünü kullanarak SharePoint Online’a ekleme](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![kullanılabilir](../media/yes.png)|![Kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
-|[Veri odaklı uyarılar için Power Automate bağlantısı](../connect-data/power-bi-data-sources.md)|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
-|[Teams’de Power BI sekmesi](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
-|[Büyük modeller](service-premium-large-models.md) | ![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)| ![kullanılamaz](../media/no.png) |
+|[Kamu bulutu ve ticari bulut arasında Azure B2B İşbirliği](service-admin-azure-ad-b2b.md)<sup>1</sup>|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png)
+|[Şablon uygulamaları](../connect-data/service-template-apps-overview.md)<sup>2</sup>|![kullanılabilir](../media/yes.png) |![kullanılabilir](../media/yes.png)| ![kullanılabilir](../media/yes.png)|
+|[Power BI web bölümünü kullanarak SharePoint Online’a ekleme](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|
+|[Veri Koruması (MIP etiketleri)](service-security-sensitivity-label-overview.md)|![kullanılabilir](../media/yes.png)|![kullanılabilir](../media/yes.png) |Ç1 2021|
+|[Veri akışları - Doğrudan Sorgu](../transform-model/dataflows/dataflows-configure-consume.md) | ![kullanılabilir](../media/yes.png) |![kullanılabilir](../media/yes.png)|Planlanmadı |
+|[Teams’de Power BI sekmesi](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>3</sup>|![kullanılabilir](../media/yes.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
+|[Büyük modeller](service-premium-large-models.md) | Ç1 2021 |Ç1 2021| Planlanmadı |
 |[Veri akışları - SQL İşlem altyapısı iyileştirmesi](../transform-model/dataflows/dataflows-premium-features.md) | ![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)| ![kullanılamaz](../media/no.png) |
-|[Veri akışları - Doğrudan Sorgu](../transform-model/dataflows/dataflows-configure-consume.md) | ![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
-|[Veri Koruması (MIP etiketleri)](service-security-sensitivity-label-overview.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)|
-|[Şablon uygulamaları](../connect-data/service-template-apps-overview.md)<sup>3</sup>|![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)| ![kullanılamaz](../media/no.png)|
-|[Özel Görseller](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|![kullanılamaz](../media/no.png) |![kullanılamaz](../media/no.png)| ![kullanılamaz](../media/no.png)|
-|[Azure Akış Analizi](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| ![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[Çağrı Kalitesi Veri Bağlayıcısı](/microsoftteams/cqd-power-bi-connector)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 |[Kendi Depolama Alanını Getir (Azure Data Lake 2. Nesil)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
-|[QR Kodu oluşturma](../create-reports/service-create-qr-code-for-tile.md)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|![kullanılamaz](../media/no.png)|
 
 <sup>1</sup> B2B İşbirliği GCC için sunulur. Ancak, dış kullanıcıya bu ortamda bir lisans verilmesi gerekir. Ticari bulut lisansları GCC’de geçerli değildir. ABD devleti B2B İşbirliği ile ilgili bilinen sınırlamalar hakkında daha fazla bilgi için [Azure Kamu ve küresel Azure'u karşılaştırın](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2).
 
-<sup>2</sup> GCC için Teams’de Power BI deneyimi sınırlıdır, yalnızca klasik çalışma alanları için çalışır ve [Power BI içeriğini Microsoft Teams’e ekleme](../collaborate-share/service-embed-report-microsoft-teams.md) bölümünde açıklanan gelişmiş işlevleri içermez.
+<sup>2</sup> Market uygulamaları ABD Kamu bulutu örneklerinde kullanılamadığından şablon uygulamaları yalnızca özel uygulamalar ve kuruluş uygulamalarıyla sınırlıdır.
 
-<sup>3</sup> Yayınlanan Şablon Uygulamaları ve Özel Görseller işlevleri, resmi bulutlarla sınırlı olacaktır. Belirli sınırlamalar hakkında daha fazla bilgi, yayın sırasında yayımlanacaktır.
+<sup>3</sup> GCC için Teams’de Power BI deneyimi sınırlıdır, yalnızca klasik çalışma alanları için çalışır ve [Power BI içeriğini Microsoft Teams’e ekleme](../collaborate-share/service-embed-report-microsoft-teams.md) bölümünde açıklanan gelişmiş işlevleri içermez.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

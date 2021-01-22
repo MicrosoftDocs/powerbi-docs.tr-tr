@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/11/2021
+ms.date: 01/13/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 16a07065507abfe825c39677f234d626070827b4
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
+ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110740"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226997"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA uç nokta bağlantı sorunlarını giderme
 
@@ -217,6 +217,10 @@ Hata iletisinde belirtildiği gibi, bu sorunu çözmek için mevcut veri kümesi
 ## <a name="workspaceserver-alias"></a>Çalışma alanı/sunucu diğer adı
 
 Azure Analysis Services hizmetinden farklı olarak Power BI Premium çalışma alanları için sunucu adı [diğer adları](/azure/analysis-services/analysis-services-server-alias) **desteklenmez**. 
+
+## <a name="dataset-refresh-through-the-xmla-endpoint"></a>XMLA uç noktası aracılığıyla veri kümesi yenileme
+
+Son yenileme tarihi ve saati Power BI'da birkaç yerde gösterilir. Raporlarda ve listelerde bulunan Yenilenme zamanı sütunları, Veri kümesi ayrıntıları, Veri kümesi ayarları ve Veri kümesi yenileme geçmişi bunlardan bazılarıdır. Power BI'da gösterilen yenileme tarihleri ve saatleri şu an için TMSL/TOM, SSMS veya üçüncü taraf araçlar kullanılarak XMLA uç noktası üzerinden gerçekleştirilen yenileme işlemlerini **kapsamaz**.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 

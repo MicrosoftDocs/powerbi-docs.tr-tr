@@ -8,17 +8,17 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
-ms.date: 02/16/2020
-ms.openlocfilehash: bd700ae7c6c175f4e9cf7841ce308a275ba9babb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/14/2021
+ms.openlocfilehash: a7da63efcc991da57eba9c6b9bb6b9527ad66e1f
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393060"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227388"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Power BI’da rapor performansını izleme
 
-[Power BI Premium Ölçümler uygulamasını](../admin/service-premium-metrics-app.md) kullanarak Power BI Desktop’ta rapor performansını izleyin, nerede performans sorunlarını olduğunu ve rapor performansını nasıl geliştirebileceğinizi öğrenin.
+Power BI Desktop rapor performansınızı izlemek için [Performans Analizi](../create-reports/desktop-performance-analyzer.md) özelliğini, kuruluşunuzun Power BI Premium kapasitesine dağıtılmış olan içeriğin performansını izlemek için ise [Power BI Premium Ölçümler uygulamasını](../admin/service-premium-metrics-app.md) kullanabilirsiniz. Performans sorunlarının nerelerde yaşandığını ve rapor performansını nasıl artırabileceğinizi öğrenin.
 
 Aşağıdaki durumlarda performansın izlenmesi yararlı olur:
 

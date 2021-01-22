@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 83ba0234ef4f4e350f413f3c934e2f09f0a9a3f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 59e88818adee9aaf893d9f32fe96386c3f7ac47e
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412794"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565801"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi"></a>Power BI’da sayısal aralık dilimleyiciyi kullanma
 
@@ -84,3 +84,4 @@ Sayısal aralık dilimleyici için sınırlamalar ve önemli noktalar aşağıda
 * Sayısal aralık dilimleyici verilerdeki temel alınan satırları filtreler, toplanmış değerlere filtre uygulamaz. Örneğin bir *Satış Tutarı* alanı kullandığınızı varsayalım. Dilimleyici her işlemi görselin her veri noktası için satış tutarı toplamı temelinde değil satış tutarı temelinde filtreler.
 * Bu özellik şu an için ölçülerle birlikte çalışmamaktadır.
 * Sayısal dilimleyiciye, temel alınan sütundaki değer aralığının dışında olsa dahi istediğiniz sayı türünü girebilirsiniz. Bu seçenek, verilerin ileride değişme ihtimali olduğunu biliyorsanız filtreleri buna göre ayarlamanızı sağlar.
+* Tarih aralığı dilimleyicisi, temel alınan tarih sütununda bulunmayan tarih değerlerini dahi kullanmanızı sağlar.

@@ -7,25 +7,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/06/2019
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0a72582a54903c97dd9594f6a4a1c5980aea8e16
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b0b57967ed86c25f51c08a94e4c252c250e85304
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411736"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227204"
 ---
 # <a name="tutorial-create-and-publish-a-power-bi-organizational-content-pack"></a>Öğretici: Power BI kurumsal içerik paketi oluşturma ve yayımlama
+
+> [!NOTE]
+> Kurumsal içerik paketleri kullanımdan kaldırılıyor. Henüz yapmadıysanız, şimdi içerik paketlerinizi uygulamalara yükseltmek için iyi bir zamandır. Zaman çizelgesi için [Announcing Power BI admins can upgrade classic workspaces](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (Power BI yöneticileri klasik çalışma alanlarını yükseltebilir) başlıklı blog gönderisinin çalışma alanlarını yükseltme yol haritası bölümüne bakın.
+> 
 
 Bu öğretici kapsamında Power BI'da bir kurumsal içerik paketi oluşturacak, belirli bir gruba erişim izni sağlayacak ve içerik paketini kuruluşunuzun içerik paketi kitaplığında yayımlayacaksınız.
 
 İçerik paketi oluşturma işlemi, pano paylaşmaktan veya bir grupta bunlara yönelik işbirliği yapmaktan farklıdır. Durumunuza en uygun seçeneğe karar vermek için [Power BI’da çalışmanızı paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md) makalesini okuyun.
 
 Kurumsal içerik paketleri oluşturabilmek için bir [Power BI Pro hesabına](https://powerbi.microsoft.com/pricing) sahip olunması gerekir.
-
-> [!NOTE]
-> Yeni çalışma alanı deneyiminde kurumsal içerik paketleri oluşturamaz veya yükleyemezsiniz. Henüz yapmadıysanız, şimdi içerik paketlerinizi uygulamalara yükseltmek için iyi bir zamandır. [Yeni çalışma alanı deneyimi hakkında daha fazla bilgi](service-create-the-new-workspaces.md) edinin.
 
 ## <a name="create-and-publish-a-content-pack"></a>İçerik paketi oluşturma ve yayımlama
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 1/13/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 005f6c72dd67282e2f15ceb3c91fb74d7e723712
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e5edcde0f367c573c86aaac1b7f14397614eeedf
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412265"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191655"
 ---
 # <a name="power-bi-premium-per-user-faq-preview"></a>Kullanıcı Başına Power BI Premium Hakkında SSS (önizleme)
 
@@ -46,15 +46,21 @@ Bu makalede, soru ve yanıtlar aşağıdaki kategorilere göre gruplandırılır
 4.  **Nasıl ücretsiz deneme alabilirim?**
 
     Ürün içi ücretsiz deneme sürümü ve Microsoft 365 ile sunulan bir ücretsiz deneme sürümü vardır. Kuruluşlarının PPU’yu kısıtlamaması şartıyla tüm kullanıcılar bir çalışma alanında Kullanıcı Başına Premium’u açarak ürün içi ücretsiz deneme sürümüne erişebilir. Microsoft 365 ile sunulan ücretsiz deneme sürümü, Power BI Pro ücretsiz denemelerinin başlatılması gibi, portal aracılığıyla etkinleştirilebilir.  
+    
+5.  **İlk deneme sürümümün süresi doldu ancak henüz önizleme aşamasındayız.  Önizleme döneminde kullanıcı başına Premium aboneliğimi nasıl uzatabilirim/yenileyebilirim?**
 
-5.  **Kullanıcı Başına Premium’da hangi özellikler mevcuttur?**
+    Ürün içi deneme sürümünü kullanan müşteriler, deneme süreleri sona erdikten sonra portalın sağ üst köşesinde bulunan profil simgesine tıklayarak yeni bir deneme sürümü başlatabilir.  Deneme sürümüne yeniden kaydolmanızı sağlayacak bir seçenek göreceksiniz.  Bu seçenek yeni bir 60 günlük deneme süresi başlatır.  Bu seçenek önizleme süresi boyunca sunulmaya devam edecektir.  
+    
+    Microsoft 365 aracılığıyla sunulan deneme sürümünü kullanan müşterilerin kiracı yöneticileri ilk 30 günlük deneme sürümünü bir 30 gün daha uzatabilir. Deneme süresi en fazla bu kadar uzatılabilir.
+
+6.  **Kullanıcı Başına Premium’da hangi özellikler mevcuttur?**
 
     Özellik karşılaştırma kılavuzu aşağıda verilmiştir:    
 
     ![Kullanıcı Başına Premium özellik karşılaştırması](media/service-premium-per-user-faq/premium-per-user-faq-02.png)
 
 
-6.  **Kuruluşumun zaten Power BI Premium lisansı var. Kapasitemde içerik yayımlamak için şimdi Kullanıcı Başına Premium lisansı mı almam gerekiyor?**
+7.  **Kuruluşumun zaten Power BI Premium lisansı var. Kapasitemde içerik yayımlamak için şimdi Kullanıcı Başına Premium lisansı mı almam gerekiyor?**
     
     Kuruluşunuz Premium kapasitesini Kullanıcı Başına Premium lisanslarıyla sunmayı tercih edebilir, ancak mevcut kapasitelerde içerik yayımlamak için Kullanıcı Başına Premium lisansı gerekmez.  
 
@@ -89,6 +95,10 @@ Bu makalede, soru ve yanıtlar aşağıdaki kategorilere göre gruplandırılır
 7.  **Kapasite API’leri Kullanıcı Başına Premium’da kullanılabilir mi?**
 
     Sınırlı sayıda API, çalışma alanlarının taşınmasına olanak sağlar. Ancak iş yüklerini kapatmaya benzeyen etkinlikleri gerçekleştirilemez.  
+    
+7.  **Hizmet sorumluları Kullanıcı Başına Premium çalışma alanlarında destekleniyor mu?**
+
+    Hayır, hizmet sorumluları şu an için Kullanıcı Başına Premium çalışma alanlarında desteklenmiyor.  
 
 
 ## <a name="end-user-experience-questions"></a>Son kullanıcı deneyimi hakkındaki sorular
@@ -113,9 +123,10 @@ Bu makalede, soru ve yanıtlar aşağıdaki kategorilere göre gruplandırılır
 
     Kullanıcı Başına Premium, Pro lisansı kullandığınızdaki ekli kullanım örnekleriyle aynı şekilde çalışır. İçeriği ekleyebilirsiniz ve her kullanıcının bu içeriği görüntülemek için PPU lisansı olması gerekir.
 
-5.  **Ücretsiz deneme sürem sona erdiğinde PPU çalışma alanıma ne olur?**
+5.  **Kullanıcı Başına Premium lisansı satın almamaya karar verirsem önizleme dönemi sona erdiğinde PPU çalışma alanıma ne olur?**
 
-    Kullanıcılar çalışma alanına erişmeye devam edebilir, ancak bu lisans türünü gerektiren içerikler kullanılamaz. Çalışma alanını bir Premium kapasiteye taşımanız veya gereksinimi kapatmanız gerekir. 
+    Sizinle birlikte kullanıcılarınız çalışma alanına erişmeye devam edebilir, ancak bu lisans türünü gerektiren içerikler kullanılamaz. Çalışma alanını bir Premium kapasiteye taşımanız veya gereksinimi kapatmanız gerekir. 
+
 6.  **Kullanıcı Başına Premium ile elde ettiğim toplam depolama alanı ne kadardır?**
 
     Kiracının tamamı, depolama bakımından Premium kapasitenin sahip olduğu 100 TB’lık sınırın aynısına sahiptir.

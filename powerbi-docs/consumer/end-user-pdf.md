@@ -8,14 +8,14 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/11/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2c88cca174f5deeededcaef3f242d6ea00a83379
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 932149fc117568cffd94e6d551878f706a58ec65
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613705"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191970"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Raporları Power BI'dan PDF’ye aktarma
 
@@ -58,6 +58,7 @@ Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giri�
 * Sertifikalanmış Power BI görselleri desteklenir. Bir Power BI görselini nasıl sertifikalatacağınız dahil olmak üzere, sertifikalı Power BI görselleri hakkında daha fazla bilgi için bkz. [Power BI görsellerini sertifikalatma](../developer/visuals/power-bi-custom-visuals-certified.md). Sertifikalanmamış Power BI görselleri desteklenmez. PDF’te bunlar bir hata iletisiyle görüntülenir.
 * ESRI görseli desteklenmez.
 * 50’den fazla rapor sayfası içeren raporlar şu anda dışarı aktarılamaz.
+* Boyutu 500 MB ve üzeri olan raporlar şu anda dışarı aktarılamaz. 
 * Raporu PDF’e aktarma işlemi birkaç dakika sürebilir, bu nedenle sabırlı olun. Raporun yapısı ve Power BI hizmeti üzerindeki geçerli yük gibi etmenler gereken zamanı etkileyebilir.
 * Power BI hizmetinde **PDF’ye aktar** menü öğesi kullanılamıyorsa bunun nedeni büyük olasılıkla Power BI yöneticisinin özelliği devre dışı bırakmış olmasıdır. Ayrıntılı bilgi için yöneticinizle iletişime geçin.
 * Arka plan görüntüleri grafiğin sınırlayıcı alanına göre kırpılır. Arka plan görüntülerini PDF’e aktarmadan önce arka plan görüntülerini kaldırmanızı öneririz.

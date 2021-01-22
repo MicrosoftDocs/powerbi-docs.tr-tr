@@ -5,24 +5,25 @@ author: mihart
 ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: removed
+ms.custom: video-OgjX-pFGgfM, video-RE4IY3L
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 1/13/2021
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: b285d699d71001d8015615fdeb3652ba35274896
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745151"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191850"
 ---
 # <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Görselleştirme başlıklarını, arka planlarını, etiketlerini ve göstergelerini özelleştirme
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-Bu öğreticide, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz. Görselleştirmelerinizi özelleştirmeye yönelik çok sayıda seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu **Biçimlendirme** bölmesi keşfetmektir (boya rulosu simgesini seçin). Başlamanıza yardımcı olmak için bu makalede görselleştirme başlığını, göstergesini, arka planını, etiketini özelleştirme ve tema ekleme işlemleri gösterilir.
+Bu öğreticide, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz. Görselleştirmelerinizi özelleştirmeye yönelik çok sayıda seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu **Biçimlendirme** bölmesi keşfetmektir (boya rulosu simgesini seçin). Başlamanıza yardımcı olmak için bu makalede görselleştirme başlığını, göstergesini, arka planını, etiketini, katmanını özelleştirme ve tema ekleme işlemleri gösterilir.
 
 Tüm görselleştirmeler özelleştirilemez. Ayrıntılar için görselleştirmelerin [tam listesine](#visualization-types-that-you-can-customize) bakın.
 
@@ -148,6 +149,36 @@ Rien'in yığılmış grafiğe toplam etiketlerini eklemesini izleyin ve ardınd
 1. İsteğe bağlı olarak toplam etiketlerini biçimlendirin. Bu örnekte rengini siyah olarak değiştirdik, yazı tipi boyutunu artırdık ve değerleri **Binler** olarak görüntülemeyi kabul ettik.
 
     ![Toplam etiketlerini içeren yeni yığılmış çubuk grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
+
+
+## <a name="customize-layer-order"></a>Katman sırasını özelleştirme
+Raporlarınızda bulunan görsellerin ve şekillerin katman sırasını değiştirin. Katman sırası, seçildiğinde öne getirilecek olan nesneleri belirler. Rapor tuvalinde bir nesneyi seçtiğinizde bu nesne etkin hale gelir ve en üst katmana taşınır. Bu özellik seçilen görsellerle etkileşim kurmayı kolaylaştırır. Ancak şekiller ve arka planları en alt katmana sabitlemek isteyebilirsiniz. Bu sayede yanlışlıkla seçip rapor görsellerinizin üzerini kapatma olasılığını ortadan kaldırmış olursunuz. 
+
+Katman denetimleri Power BI hizmeti, Power BI Desktop, mobil ve Rapor Sunucusu ile kullanılabilir. Bu makalede Power BI hizmetindeki katman sıralaması davranışını değiştirme adımları gösterilmiştir.
+
+Rien'in katman davranışını değiştirmesini izleyin ve ardından aşağıdaki adımları izleyerek bu işlemi kendiniz deneyin.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IY3L]
+
+1. Sarı artı simgesini seçerek yeni bir rapor sayfası ekleyin. 
+
+1. Tuvale bir şekil ekleyin. Burada mavi bir dikdörtgen ekledik. 
+
+    ![Mavi dikdörtgenin bulunduğu yeni rapor sayfasının ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-shape.png)
+
+1. Raporun başka bir sayfasında bulunan görsellerden birini kopyalayıp yapıştırın. 
+
+    ![Mavi dikdörtgenin ve pasta grafiğinin bulunduğu yeni rapor sayfasının ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-layer.png)
+
+    Artık 2 katmanınız var. Önce pasta grafiğini, ardından da arka planı seçmeyi deneyin. Pasta grafiğini seçtiğinizde Power BI nesneyi etkin hale getirir ve üst bilgi menüsünü görüntüler. Dikdörtgeni seçtiğinizde Power BI nesneyi etkin hale getirir ve öne getirerek pasta grafiğinin arkada kalmasına neden olur. Bu varsayılan davranışı değiştirebilirsiniz.
+
+1. Dikdörtgeni seçin ve Biçimlendirme bölmesini açın. **Genel** bölümünü genişletip **Katman sırasını koruyun** iki durumlu düğmesini bulun. Raporda yaptığınız değişiklikleri kaydedin ve Okuma görünümüne geçin.
+
+    ![Yeni rapor sayfasının ekran görüntüsü; Katman sırasını koruyun seçeneği Açık olarak ayarlanmış.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-maintain-layer.png)
+
+1. Okuma görünümünde mavi dikdörtgeni seçtiğinizde arka katmanında kalır.
+
 
 ## <a name="customize-colors-using-a-theme"></a>Tema kullanarak renkleri özelleştirme
 

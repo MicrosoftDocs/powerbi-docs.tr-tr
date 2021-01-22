@@ -1,18 +1,18 @@
 ---
-title: Power BI tümleşik analizlerinde tümleşik BI içgörüleri için, veri kümesine dinamik bağlama kullanarak rapor bağlama
-description: Power BI tümleşik analizlerine dinamik bağlama kullanarak rapor eklemeyi öğrenerek müşterileriniz için daha iyi tümleşik BI içgörüleri oluşturun.
+title: Dinamik bağlama kullanarak bir Power BI raporunu veri kümesine bağlama
+description: Power BI ekli analizinde dinamik bağlama kullanarak bir Power BI raporu eklemeyi öğrenin.
 author: KesemSharabi
 ms.author: kesharab
-ms.topic: how-to
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 11/07/2019
-ms.openlocfilehash: aacae4dbfae30d72468419a717340c806c6c4bca
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/17/2021
+ms.openlocfilehash: 0bc33ed37e389b42f5c27f8271cc461eb99e229a
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888915"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565820"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Dinamik bağlama kullanarak bir raporu veri kümesine bağlama 
 
@@ -36,33 +36,15 @@ Dinamik bağlama, *Kuruluşunuz için ekleme* ve *Müşterileriniz için ekleme*
 |*Müşterileriniz için içerik ekleme*     |Veriler uygulamaya aittir         |Power BI kullanıcısı olmayan kişiler için erişim belirteci         |Hem rapora hem de dinamik olarak bağlı veri kümesine yönelik izinleri içermelidir. [Birden çok öğe için ekleme belirteci oluşturmayı sağlayan API](/rest/api/power-bi/embedtoken/generatetoken)’yi kullanarak birden çok yapıtı destekleyen bir ekleme belirteci oluşturun.         |
 
 ## <a name="adjusting-the-config-object"></a>Yapılandırma nesnesini ayarlama
-Yapılandırma nesnesine `datasetBinding` ekleyin. Aşağıdaki örneği başvuru olarak kullanın.
 
-```javascript
-var config = {
-    type: 'report',
-    tokenType: models.TokenType.Embed,
-    accessToken: accessToken,
-    embedUrl: embedUrl,
-    id: "reportId", // The wanted report id
-    permissions: permissions,
-
-    // -----  Adjustment required for dynamic binding ---- //
-    datasetBinding: {
-        datasetId: "notOriginalDatasetId",  // </The wanted dataset id
-    }
-    // ---- End of dynamic binding adjustment ---- //
-};
-
-// Get a reference to the embedded report HTML element
-var embedContainer = $('#embedContainer')[0];
-
-// Embed the report and display it within the div container
-var report = powerbi.embed(embedContainer, config);
-```
+Dinamik bağlamayı kullanabilmek için `datasetBinding` öğesini yapılandırma nesnesine eklemeniz gerekir. Bunun nasıl yapıldığını öğrenmek için bkz. [Veri kümelerini dinamik olarak bir rapora bağlama](/javascript/api/overview/powerbi/bind-report-datasets). 
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Power BI’da ekleme konusuna yeni başladıysanız, Power BI içeriğinizi nasıl ekleyeceğinizi öğrenmek için şu öğreticileri inceleyin:
-* [Öğretici: Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme](embed-sample-for-customers.md)
-* [Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme](embed-sample-for-your-organization.md)
+Power BI’da ekleme konusuna yeni başladıysanız, Power BI içeriğinizi nasıl ekleyeceğinizi öğrenmek için aşağıdaki öğreticileri inceleyin.
+
+>[!div class="nextstepaction"]
+>[Müşterileriniz için Power BI içeriğini bir uygulamaya ekleme](embed-sample-for-customers.md)
+
+>[!div class="nextstepaction"]
+>[Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme](embed-sample-for-your-organization.md)

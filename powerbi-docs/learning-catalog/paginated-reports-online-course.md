@@ -8,13 +8,13 @@ featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: tutorial
-ms.date: 11/11/2020
-ms.openlocfilehash: e05078bf51cd33fb565dc783386258fe9ea305d1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/31/2020
+ms.openlocfilehash: 504b5bcb63fa8c8897ae0b44922d3dc144a02730
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416382"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227365"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Bir Gündeki Power BI Sayfalandırılmış Raporları kursu
 
@@ -43,7 +43,7 @@ Kursu başlatmak için hoş geldiniz ve tanıtım videosunu izleme.
 
 ## <a name="course-outline"></a>Kurs ana hattı
 
-[24 videoluk kurs](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT), sekiz modülden oluşur. Videoları, 01 numaralı videodan başlayıp 24 numaralı videoyla bitirerek kaydedilme sırasıyla izlemenizi öneririz.
+[25 videoluk kurs](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT), sekiz modülden oluşur. Videoları, 01 numaralı videodan başlayıp 25 numaralı videoyla bitirerek kaydedilme sırasıyla izlemenizi öneririz.
 
 - **Giriş**
   - Video 01: [Hoş Geldiniz ve Kurs Tanıtımı](https://www.youtube.com/watch?v=DN1t5p9aui0&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
@@ -78,6 +78,7 @@ Kursu başlatmak için hoş geldiniz ve tanıtım videosunu izleme.
   - Video 22: [Ek İçerik: Gözden Geçirme](https://www.youtube.com/watch?v=w5zlJ8BodxI&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - Video 23: [Ek İçerik: Sayfalandırılmış Raporlamanın Evrimi](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - Video 24: [Ek İçerik: Giriş Engelini Azaltma](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
+  - Video 25: [Ek İçerik: Aralık 2020 Güncelleştirmesi](https://www.youtube.com/watch?v=-7M4muS_3BI&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
 ## <a name="self-study-kit"></a>Kendi kendine çalışma seti
 

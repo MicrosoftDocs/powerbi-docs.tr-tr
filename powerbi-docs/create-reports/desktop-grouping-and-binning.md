@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 12/18/2019
+ms.date: 01/13/2021
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f1b3d226fb7b27ebb31879d2f4a5c3489660b94
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a44b6cbbc0517bee50d14447e790f6491483a894
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412932"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565873"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Power BI Desktop'ta gruplandırma ve gruplama özelliklerini kullanma
 Power BI Desktop görsel oluştururken, temel alınan verilerde bulunan değerlere bağlı olarak verilerinizi öbekler (veya gruplar) halinde toplar. Genellikle sorun çıkmaz ancak bu öbeklerin sunulma biçimini geliştirmek istediğiniz zamanlar olabilir. Örneğin, üç ürün kategorisini daha büyük bir kategoriye (bir *gruba*) yerleştirmek isteyebilirsiniz. Başka bir örnek vermek gerekirse, satış rakamlarını 923.983 dolarlık parçalar yerine 1.000.000 dolarlık gruplar halinde görmek isteyebilirsiniz.
@@ -47,7 +47,7 @@ Gruplandırılmamış bir değeri mevcut bir gruba ekleyebilirsiniz: Bunun için
 > **Alanlar** kutusunda mevcut bir görselden çoklu seçim yapmak zorunda kalmadan herhangi bir alan için grup oluşturabilirsiniz. Yalnızca söz konusu alana sağ tıklayıp açılan menüden **Yeni Grup**'u seçin.
 
 ## <a name="using-binning"></a>Gruplamayı kullanma
-**Power BI Desktop**'ta sayısal alanlar ve saat alanları için gruplama boyutunu ayarlayabilirsiniz. Power BI Desktop'ın görüntülediği verileri düzgün bir şekilde boyutlandırmak için gruplama özelliğini kullanabilirsiniz.
+**Power BI Desktop**'ta sayısal alanlar ve saat alanları için gruplama boyutunu ayarlayabilirsiniz. Hesaplanmış sütunlarınız için bölmeler oluşturabilirsiniz ancak bunu ölçüleriniz için yapamazsınız. Power BI Desktop'ın görüntülediği verileri düzgün bir şekilde boyutlandırmak için gruplama özelliğini kullanın.
 
 Bir gruplama boyutu uygulamak için bir **Alan**'a sağ tıklayıp **Yeni Grup**’u seçin.
 
@@ -57,7 +57,7 @@ Bir gruplama boyutu uygulamak için bir **Alan**'a sağ tıklayıp **Yeni Grup**
 
 ![Grup boyutu, Gruplar iletişim kutusu, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_6.png)
 
-**Tamam**'ı seçtiğinizde **Alanlar** bölmesinin **(bölmeler)** eklenmiş olarak görüntülendiğini fark edeceksiniz. Daha sonra gruplama boyutunu bir görselde kullanmak için bu alanı tuvale sürükleyebilirsiniz.
+**Tamam**'ı seçtiğinizde **Alanlar** bölmesinin **(bölmeler)** eklenmiş olarak görüntülendiğini fark edeceksiniz. Bu alanı tuvale sürükleyerek bölme boyutunu istediğiniz görselde kullanabilirsiniz.
 
 ![Gruplar alanını tuvale sürükleme, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_7.png)
 

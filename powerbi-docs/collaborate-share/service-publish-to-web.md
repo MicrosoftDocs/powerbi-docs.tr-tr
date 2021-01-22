@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/04/2021
+ms.date: 01/14/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 6b28537c9ea757fb43179196f9d7cb053955c5e0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926840"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227227"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI'dan Web'de yayımlama
 
@@ -189,7 +189,7 @@ Kuruluşunuzdaki [bu kişilerden birini bulmanız](/office365/admin/admin-overvi
 - Azure Analysis Services, Analysis Services - Çok Boyutlu ve şirket içi ortamda barındırılan Analysis Services - Tablo da dahil olmak üzere herhangi bir Canlı Bağlantı veri kaynağını kullanan raporlar.
 - Rapordan farklı bir çalışma alanında depolanmış, [paylaşılan veri kümesi](../connect-data/service-datasets-across-workspaces.md) kullanan raporlar.
 - [Paylaşılan ve sertifikalı veri kümeleri](../connect-data/service-datasets-share.md).
-- Doğrudan veya bir kuruluş içerik paketi aracılığıyla sizinle paylaşılmış olan raporlar.
+- Doğrudan veya bir uygulama aracılığıyla sizinle paylaşılmış olan raporlar.
 - Düzenleme yetkisine sahip bir üye olmadığınız çalışma alanındaki raporlar.
 - “R” ve Python görselleri şu anda **Web’de yayımla** raporlarında desteklenmemektedir.
 - Web’de yayımlanan bir rapordaki görsellerden verileri dışarı aktarma.

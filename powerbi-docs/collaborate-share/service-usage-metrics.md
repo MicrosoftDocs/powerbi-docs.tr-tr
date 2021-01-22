@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053432"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565421"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Klasik çalışma alanlarında kullanım ölçümlerini izleme
 
@@ -162,7 +162,11 @@ Kullanım ölçümleriyle denetim günlüklerini karşılaştırırken farklıl�
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>REST API'ler ile kullanım ölçümleri arasındaki tutarsızlıklar
 
-Power BI [Rapor REST API'leri](https://docs.microsoft.com/rest/api/power-bi/reports) ve [Yönetici REST API'leri](https://docs.microsoft.com/rest/api/power-bi/admin) de Power BI hizmet verilerini kullanır. Önceki bölümde açıklanan nedenlerle API'lerden gelen rapor sayıları kullanım ölçümlerindeki rapor sayılarından farklı olabilir. API'lerden türetilen rapor sayıları istemci sorunlarından etkilenmez, dolayısıyla doğru kabul edilmelidir.
+Power BI [Rapor REST API'leri](/rest/api/power-bi/reports) ve [Yönetici REST API'leri](/rest/api/power-bi/admin) de Power BI hizmet verilerini kullanır. Önceki bölümde açıklanan nedenlerle API'lerden gelen rapor sayıları kullanım ölçümlerindeki rapor sayılarından farklı olabilir. API'lerden türetilen rapor sayıları istemci sorunlarından etkilenmez, dolayısıyla doğru kabul edilmelidir.
+
+### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>Klasik Kullanım Ölçümleri, Özel Bağlantılar için desteklenmez 
+
+Kuruluşunuzda [Özel Bağlantılar](../admin/service-security-private-links.md) kullanılıyorsa klasik kullanım ölçümleri raporlarında veri bulunmaz. Özel bağlantı üzerinden istemci bilgisi aktarımı konusunda bir sınırlama mevcuttur. 
 
 ### <a name="other-considerations"></a>Diğer önemli noktalar
 

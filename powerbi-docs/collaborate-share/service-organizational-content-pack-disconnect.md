@@ -7,19 +7,19 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/02/2018
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5cd1ebd1502241cf07e7de8cff5f0eb769a1b59f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e95634f8bf41d8e969612b247645577bfef5ef32
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406423"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227089"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Power BI kurumsal içerik paketi bağlantınızı kaldırma
 
 > [!NOTE]
-> Yeni çalışma alanı deneyiminde kurumsal içerik paketleri oluşturamaz veya bunları yükleyemezsiniz. Henüz yapmadıysanız, şimdi içerik paketlerinizi uygulamalara yükseltmek için iyi bir zamandır. [Yeni çalışma alanı deneyimi hakkında daha fazla bilgi](service-create-the-new-workspaces.md) edinin.
+> Kurumsal içerik paketleri kullanımdan kaldırılıyor. Henüz yapmadıysanız, şimdi içerik paketlerinizi uygulamalara yükseltmek için iyi bir zamandır. Zaman çizelgesi için [Announcing Power BI admins can upgrade classic workspaces](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) (Power BI yöneticileri klasik çalışma alanlarını yükseltebilir) başlıklı blog gönderisinin çalışma alanlarını yükseltme yol haritası bölümüne bakın.
 > 
 
 İş arkadaşlarınızdan biri bir içerik paketi oluşturuyor. AppSource'ta bu içerik paketini bulup Power BI çalışma alanınıza ekliyorsunuz. Bir süre sonra bu içerik paketine ihtiyacınız olmadığını düşünüyorsunuz.  İçerik paketini nasıl kaldırırsınız?

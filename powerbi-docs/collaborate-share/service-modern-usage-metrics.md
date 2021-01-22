@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6ce7afedb43aa7abaffb3ad5afdb00b4749addb5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 573180ef4087af7654480da8ca581e1881729243
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885406"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565294"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Yeni çalışma alanı deneyiminde kullanım ölçümlerini izleme (önizleme)
 
@@ -297,6 +297,7 @@ Geliştirilmiş kullanım ölçümleri raporuyla bu raporun öncülünü karşı
 - Kullanım Ölçümleri Raporu veri kümesini başlatma işlemi, yenileme sırasında karşılaşılan zaman aşımından dolayı başarısız olabilir. Bu sorunu çözmek için aşağıdaki Sorun Giderme bölümüne bakın.
 - Kullanım ölçümleri raporu için paylaşım devre dışı bırakıldı. Kullanıcılara rapora okuma erişimi vermek için öncelikle çalışma alanı erişimi vermeniz gerekir.
 - Bazı senaryolarda performans verilerinin eksik olduğunu fark edebilirsiniz. Bu durum, kullanıcı açtığı bir rapor ile, raporun yüklenmesi tamamlanmadan etkileşim kurduğunda veya rapor yüklenirken bir sorun oluştuğunda ortaya çıkabilir. 
+- Kuruluşunuzda [Özel Bağlantılar](../admin/service-security-private-links.md) kullanılıyorsa modern kullanım ölçümleri raporlarında verilerin bir bölümü (yalnızca Rapor Görünümleri) bulunur. Özel bağlantı üzerinden istemci bilgisi aktarma ile ilgili bir sınırlama nedeniyle Özel Bağlantılar üzerinden Rapor Sayfa Görüntüleme ve performans verilerini alamıyoruz. 
 
 ## <a name="frequently-asked-questions"></a>Sık sorulan sorular
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 01/19/2021
 LocalizationGroup: Create reports
-ms.openlocfilehash: cadb8d45af40c91e7008e771f2a52ef2ea508341
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: abed7e9f6da352d5461868e6371ffefb814eb3ff
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393474"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597634"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>Hiyerarşi dilimleyicisine birden çok alan ekleme
 
@@ -76,6 +76,11 @@ Raporunuzda az alan varsa alt öğeleri girintilemek istediğiniz miktarı azalt
 1. **Öğeler**’i genişletin ve sonra **Basamaklı düzen girintisini** daha küçük veya daha büyük olacak şekilde sürükleyin. Dilerseniz kutuya yalnızca bir sayı da yazabilirsiniz.
 
     :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-indentation.png" alt-text="Hiyerarşi dilimleyici girintisini ayarlama işleminin ekran görüntüsü.":::
+    
+## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
+
+- Tablosal modellerde bu özellik için SQL Server Analysis Services 2017 veya daha yeni bir sürümü gerekir.
+- Çok boyutlu modellerde bu özellik için SQL Server Analysis Services 2019 CU5 veya daha yeni bir sürümü gerekir ve SuperDAXMD özelliği etkinleştirilmiş olmalıdır. [SuperDAXMD](/analysis-services/multidimensional-models/dax-for-multidimensional-models#superdaxmd) hakkında daha fazla bilgi edinin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84d60fce95172b419663ed7889d69e22ae1947cd
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 340f29394d0c6c83659d77f2545a4f76eef99a9a
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492001"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597655"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma hakkında
 

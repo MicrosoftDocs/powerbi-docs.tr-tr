@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
-ms.date: 12/16/2020
+ms.date: 01/19/2021
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: c29728641560502e19486f47e3ec06e370399640
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: cbf41315f6b33483b7fdd0797bf4dfbcebb605c3
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600542"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597683"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Power BI Desktop’ta bileşik modeller kullanma
 
@@ -22,7 +22,7 @@ Daha önce Power BI Desktop'ta raporda bir DirectQuery kullandığınızda, bu r
 
 Power BI Desktop'taki bileşik modeller özelliği birbiriyle ilgili üç özellikten oluştur:
 
-* **Bileşik modeller**: Raporda DirectQuery bağlantıları ve içeri aktarma da dahil olmak üzere herhangi bir bileşimde birden çok veri bağlantısına izin verir. Bileşik modeller bu makalede ayrıntılı bir şekilde açıklanmaktadır.
+* **Bileşik modeller**: Bir raporda farklı kaynak gruplarından iki veya daha fazla veri bağlantısı bulunmasını sağlar. Örnek olarak bir veya daha fazla DirectQuery bağlantısı ve bir içeri aktarma bağlantısı, iki veya daha fazla DirectQuery bağlantısı veya bunların birleşimi verilebilir. Bileşik modeller bu makalede ayrıntılı bir şekilde açıklanmaktadır.
 
 * **Çoka çok ilişkiler**: Bileşik modeller sayesinde tablolar arasında *çoka-çok ilişkiler* kurabilirsiniz. Bu yaklaşım tablolardaki benzersiz değer gereksinimlerini ortadan kaldırır. Ayrıca yalnızca ilişki kurmak için yeni tablo eklenmesi gibi eski geçici çözümleri de devre dışı bırakır. Daha fazla bilgi için bkz. [Power BI Desktop’ta çoka-çok ilişkileri uygulama](desktop-many-to-many-relationships.md).
 
@@ -141,6 +141,8 @@ Sonuç olarak elektronik tabloda depolanan bilgiler şimdi ilişkisel veritaban�
 * Kaynaklarla ilgili şifreleme ayarlarının dikkate alınması gerekir. Bir kaynaktan şifreli bağlantıyla aldığınız bilgileri yanlışlıkla başka bir kaynağa şifrelenmemiş bağlantı üzerinden gönderilen bir sorguya dahil etmekten kaçınmak istersiniz.
 
 Tüm güvenlik etkilerinin dikkate alınmasını sağlamak için, bileşik model oluşturduğunuzda Power BI Desktop'ta uyarı iletisi görüntülenir.  
+
+Ayrıca yazar *Model A* içinde bulunan *Tablo1* tablosunu Bileşik Modele (*Model C* diyelim) eklerse *Model C* kullanılarak oluşturulmuş olan bir raporu görüntüleyen kullanıcı, *Model A* içinde bulunan ve RLS ile korunmayan **tüm tabloları** sorgulayabilir.
 
 Benzer nedenlerle, güvenilmeyen bir kaynaktan gönderilen Power BI Desktop dosyalarını açarken de dikkatli olmanız gerekir. Dosyada bileşik modeller varsa bir kişinin bir kaynaktan dosyayı açan kullanıcının kimlik bilgilerini kullanarak aldığı bilgiler, sorgunun bir parçası olarak başka bir veri kaynağına gönderilecektir. Power BI Desktop dosyasının yazarının kötü niyetli olması durumunda bu bilgiler görüntülenebilir. Birden fazla kaynak içeren bir Power BI Desktop dosyasını ilk kez açtığınızda Power BI Desktop'ta bir uyarı görüntülenir. Bu uyarı, yerel SQL sorgularını içeren bir dosyayı açtığınızda görüntülenen uyarılara benzer.  
 

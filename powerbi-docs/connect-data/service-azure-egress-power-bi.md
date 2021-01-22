@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 05/08/2019
+ms.date: 01/19/2021
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 8fec8f4fa7a78a69693d4a200baa14e905cee943
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ec47968294e0fd905d1733bdb30ae1840069aed7
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410701"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597470"
 ---
 # <a name="power-bi-and-azure-egress"></a>Power BI ve Azure çıkışı
 
-Power BI'ı Azure veri kaynaklarıyla birlikte kullanırken Power BI kiracınızın Azure veri kaynaklarınızla aynı bölgede olduğundan emin olarak Azure çıkışı ücretlerinden kaçınabilirsiniz.
+Azure veri merkezlerinden dışarı giden (çıkan) veriler için bant genişliği ücreti alınabilir. Power BI'ı Azure veri kaynaklarıyla birlikte kullanırken Power BI kiracınızın Azure veri kaynaklarınızla aynı bölgede olduğundan emin olarak Azure çıkışı ücretlerinden kaçınabilirsiniz.
 
 Power BI kiracınız, veri kaynaklarınızı dağıttığınız Azure bölgesine dağıtıldığında zamanlanmış yenileme ve DirectQuery etkileşimleri için çıkış ücreti ödemezsiniz. 
 
@@ -32,6 +32,7 @@ Power BI Premium Multi-Geo müşterileri için, Power BI kiracınızın Azure ta
 
 Power BI Premium veya Multi-Geo hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:
 
+* [Azure bant genişliği fiyatlandırma ayrıntıları](https://azure.microsoft.com/pricing/details/bandwidth/)
 * [Microsoft Power BI Premium nedir?](../admin/service-premium-what-is.md)
 * [Power BI Premium'u satın alma](../admin/service-admin-premium-purchase.md)
 * [Power BI Premium için Multi-Geo desteği (Önizleme)](../admin/service-admin-premium-multi-geo.md)

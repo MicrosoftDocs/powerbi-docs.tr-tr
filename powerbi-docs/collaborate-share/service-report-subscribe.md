@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/08/2021
+ms.date: 01/13/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1253c2b2548a7e6333840b8d33fdf255d5634be5
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: a72d6632eb8837fd6a0716842dc20a342edcce4b
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053409"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227135"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde raporlara ve panolara abone yapma
 
@@ -128,7 +128,7 @@ Power BI yöneticileri aboneliklerle ilgili ayrıntıları görüntülemek için
 - Mevcut bir aboneliği düzenlediğinizde, rapora/panoya erişim verme seçeneği her zaman etkin görünür.  Bu seçeneği temizleyip aboneliği kaydederseniz durum da kaydedilir. Ancak, raporu yeniden düzenlerseniz bu seçenek varsayılan olarak işaretlenir.
 - Alternatif e-posta adresiniz varsa ancak birincil e-posta adresiniz yoksa Power BI abonelikle ilgili yazışmalar için var olan adresi kullanır.
 - Dış kullanıcıları bir rapor veya panoya abone yaparsanız abonelik bölmesinde **Kaydet ve kapat**’ı seçmenizin hemen ardından bir paylaşım bildirimi alırlar. Raporu veya panoyu görüntülemek için bir davet bağlantısına ihtiyaç duyduklarından, bu bildirim iç kullanıcılara değil, yalnızca dış kullanıcılara gönderilir. 
-- Bir rapora veya panoya abone olabilecek kişi sayısı sınırlıdır. 200 aboneyi aştıktan sonra teslimat konusunda sorun yaşayabilirsiniz.
+- Bir rapora veya panoya abone olabilecek kişi sayısı sınırlıdır. 200 aboneyi aştıktan sonra teslimat konusunda sorun yaşayabilirsiniz. Abone sayısını azaltmak için e-posta diğer adı kullanın. Her e-posta diğer adı bir abone olarak kabul edilir.
 
 ### <a name="dashboards"></a>Panolar
 
@@ -140,7 +140,7 @@ Power BI yöneticileri aboneliklerle ilgili ayrıntıları görüntülemek için
 
 ### <a name="reports"></a>Raporlar
 
-- Rapor e-posta abonelikleri için, veri kümesi RLS kullanıyorsa, kendiniz için bir abonelik oluşturabilirsiniz. Başkalarını, sayfalandırılmış raporlar haricinde satır düzeyi güvenlik (RLS) uygulanmış bir rapora abone yapamazsınız. Güvenlik bağlamınızı kullanarak diğer kullanıcıları sayfalandırılmış raporlara abone yapabilirsiniz. [Sayfalandırılmış raporlara abone olma](../consumer/paginated-reports-subscriptions.md) hakkında daha fazla bilgi edinin.
+- Sayfalandırılmış raporlar ve Power BI raporu e-posta abonelikleri için veri kümesinde satır düzeyi güvenlik (RLS) kullanılıyorsa kendiniz için abonelik oluşturabilirsiniz. Ayrıca RLS ile rapora başkalarını da abone yapabilirsiniz. Bu abonelikler, güvenlik bağlamınız kullanılarak oluşturulur.
 - Rapor sayfası abonelikleri rapor sayfasının adıyla ilişkilidir. Rapor sayfasına abone olduktan sonra sayfayı yeniden adlandırırsanız aboneliğinizi yeniden oluşturmanız gerekir.
 - Kuruluşunuz, Power BI’da e-posta aboneliği kullanımını sınırlayan Azure Active Directory’deki belirli ayarları yapılandırabilir. Bu sınırlamaların bazıları kaynak erişimi sırasında çok faktörlü kimlik doğrulaması gereksinimi veya IP aralığı kısıtlamaları olabilir.
 - E-posta abonelikleri çoğu [özel görselleri](../developer/visuals/power-bi-custom-visuals.md) desteklemez. Bu konudaki tek istisna, [sertifikalı](../developer/visuals/power-bi-custom-visuals-certified.md) özel görsellerdir.

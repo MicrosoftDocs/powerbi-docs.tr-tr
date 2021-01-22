@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 01/06/2021
+ms.date: 01/18/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: c1e5cad6ab1da796d2f10a64e867d5848e86aea4
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
+ms.openlocfilehash: c89cf7b00d5167ffb68a491a9cfdcea21378dfd5
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155630"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565158"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -87,6 +87,15 @@ Aşağıdaki resimde, Premium 2. Nesil’i nasıl etkinleştirebileceğiniz gös
     |SQL Server Management Studio (SSMS)|18.8|8 Aralık 2020|
     |SQL Server Veri Araçları (SSDT)|2.9.15|Genel kullanılabilirlik: 30 Kasım 2020|
     | AS PowerShell| 21.1.18229 üzeri|26 Kasım 2020|
+
+5.  Bir Premium 2. Nesil kapasitesinde bulunan veri akışlarını içeren bir çalışma alanının farklı bir bölgede bulunan başka bir Premium kapasiteye yeniden atanması desteklenmez. Ayrıca büyük depolama biçimine sahip modellerin bir Premium kapasitesinden diğerine aktarılması da desteklenmez. Farklı bir bölgede bulunan bir kapasiteye geçiş yaptıysanız işlevleri kullanabilmek için aşağıdaki adımlardan birini izleyin:
+ 
+    1.  Yeni bir çalışma alanı oluşturup veri akışlarını kopyalayın
+    2.  Çalışma alanını önceki bölgede bulunan kapasiteye geri geçirin
+    3.  Premium 1. Nesil'e geri dönün
+
+Bu sınırlama Premium 2. Nesil genel kullanılabilirlik aşamasında kaldırılabilir.
+
 
 ## <a name="subscriptions-and-licensing"></a>Abonelikler ve lisanslama
 
@@ -299,7 +308,7 @@ P1-P3 ve A4_A6 SKU'larında desteklenen sayfalandırılmış raporlarda, SQL Ser
 Power BI Premium'da Sayfalandırılmış raporlar, Yönetim portalı kullanılarak bir kapasite için etkinleştirilmesi gereken bir iş yüküdür. Kapasite yöneticileri bunu etkinleştirebilir ve ardından kapasitenin genel bellek kaynaklarının bir yüzdesi olarak bellek miktarını belirtebilir. Diğer iş yükü türlerinden farklı olarak Premium sayfalandırılmış raporları kapasite içinde kapsanan bir alanda çalıştırır. İş yükünün etkin olup olmadığına bakılmaksızın, bu alan için belirtilen en büyük bellek kullanılır. Varsayılan değer %20'dir.
 
 > [!NOTE]
-> **Premium 2. Nesil’de (Önizleme)** , Sayfalandırılmış raporlar için bellek yönetimi yoktur. Premium 2. Nesil’de Sayfalandırılmış raporlar EM1-EM3 ve A1-A3 SKU’larında desteklenir.
+> **Premium 2. Nesil’de (Önizleme)** , Sayfalandırılmış raporlar için bellek yönetimi yoktur. Premium 2. Nesil’de Sayfalandırılmış raporlar EM1-EM3 SKU’larında desteklenir.
 
 ### <a name="paginated-reports-and-premium-gen2"></a>Sayfalandırılmış raporlar ve Premium 2. Nesil
 
@@ -333,7 +342,7 @@ Daha fazla bilgi edinmek için bkz. [Power BI lisansı](service-admin-licensing-
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Power BI Premium’da Analysis Services
 
-Yakından bakıldığında Power BI Premium çalışma alanlarına ve veri kümelerine gereken gücü kurumsal açıdan kanıtlanmış Microsoft **Analysis Services Vertical altyapısı** sağlar. Analysis Services, açık kaynak XMLA protokolünü destekleyen istemci kitaplıkları ve API’ler aracılığıyla programlama ve istemci uygulama ve araç desteği sağlar. Varsayılan olarak, Power BI Premium kapasite veri kümesi iş yükleri bir **XMLA uç noktası** aracılığıyla Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* işlemleri destekler. Kapasite yöneticileri, uç nokta üzerinden *okuma/yazma* işlemlerini devre dışı bırakma veya bu işlemlere izin verme tercihini yapabilir.
+Yakından bakıldığında Power BI Premium çalışma alanlarına ve veri kümelerine gereken gücü kurumsal açıdan kanıtlanmış Microsoft **Analysis Services Vertipaq altyapısı** sağlar. Analysis Services, açık kaynak XMLA protokolünü destekleyen istemci kitaplıkları ve API’ler aracılığıyla programlama ve istemci uygulama ve araç desteği sağlar. Varsayılan olarak, Power BI Premium kapasite veri kümesi iş yükleri bir **XMLA uç noktası** aracılığıyla Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* işlemleri destekler. Kapasite yöneticileri, uç nokta üzerinden *okuma/yazma* işlemlerini devre dışı bırakma veya bu işlemlere izin verme tercihini yapabilir.
 
 Salt okunur erişim sayesinde, SQL Server Management Studio (SSMS) ve SQL Server Profiler gibi Microsoft araçları ile DAX Studio ve veri görselleştirme uygulamaları gibi üçüncü taraf uygulamaları XMLA, DAX, MDX, DMV ve Trace olaylarını kullanarak Premium veri kümelerine bağlanabilir ve bunları sorgulayabilir. Okuma/yazma erişimi sayesinde, Analysis Services projeleri uzantısına veya açık kaynaklı Tablosal Düzenleyici’ne sahip Visual Studio gibi kurumsal modelleme araçları, tablosal modelleri Premium çalışma alanlarına veri kümesi olarak dağıtabilir. Son olarak, SSMS gibi araçlar sayesinde yöneticiler, betik meta veri değişikliklerinde ve gelişmiş veri yenileme senaryolarında Tablosal Model Betik Dilini (TMSL) kullanabilir. 
 

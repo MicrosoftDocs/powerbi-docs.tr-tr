@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: c41f8f9b23ef57d5dd6fd4b851918b7ffa5904a0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600243"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226951"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Power BI Desktop uygulamasını açma sorunlarını giderme
 
@@ -58,7 +58,7 @@ SQL Server veritabanına bağlanmayı denediğinizde aşağıdaki metne benzer b
 
 Genellikle SQL Server bağlantısını kurmadan önce Power BI Desktop’ı yönetici olarak açarak bu sorunu çözebilirsiniz.
 
-Power BI Desktop’ı yönetici olarak açıp bağlantıyı kurduktan sonra, gerekli DLL’ler uygun şekilde kaydedilir. Bundan sonra, Power BI Desktop’ın yönetici olarak açılması gerekmez.
+Power BI Desktop’ı yönetici olarak açıp bağlantıyı kurduktan sonra, gerekli DLL’ler uygun şekilde kaydedilir. Bundan sonra, Power BI Desktop’ın yönetici olarak açılması gerekmez. SQL Server'a alternatif Windows kimlik bilgileriyle kullandığınız durumlarda her bağlantı öncesinde Power BI Desktop'ı yönetici olarak açmanız gerekir.
 
 ## <a name="get-help-with-other-launch-issues"></a>Diğer başlatma sorunlarıyla ilgili yardım alma
 
