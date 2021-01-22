@@ -8,14 +8,14 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 01/20/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ce463cb82fec7da8d7ec43db7914fb028368bc3
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.openlocfilehash: e708e5001e49841d01b60cfc8712d37b990102f2
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621269"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687132"
 ---
 # <a name="analyze-in-excel"></a>Excel’de çözümleme
 **Excel’de Çözümle** ile Power BI veri kümelerini Excel’e getirebilir, ardından PivotTable’ları, grafikleri, dilimleyicileri ve diğer Excel özelliklerini kullanarak bu verileri görüntüleyebilir ve bunlarla etkileşimli çalışabilirsiniz. **Excel’de Çözümle** özelliğini kullanmak için önce özelliği Power BI’dan indirmeniz, yüklemeniz ve ardından Excel’de kullanmak üzere bir veya birden fazla veri kümesi seçmeniz gerekir. 
@@ -34,11 +34,11 @@ Bu makalede Excel’de Çözümle özelliğini nasıl yükleyip kullanacağını
 
 ## <a name="install-analyze-in-excel"></a>Excel’de Çözümle özelliğini yükleme
 
-**Excel’de Çözümle** özelliğini Power BI hizmetinde sağlanan bağlantılardan yüklemeniz gerekir. Power BI bilgisayarınızdaki Excel’in sürümünü algılar ve uygun sürümü (32 bit veya 64 bit) otomatik olarak indirir. Power BI hizmeti, tarayıcı üzerinden çalışır. Aşağıdaki bağlantıyı kullanarak Power BI’da oturum açabilirsiniz:
+**Excel’de Çözümle** özelliğini Power BI hizmetinde sağlanan bağlantılardan yüklemeniz gerekir. Power BI bilgisayarınızdaki Excel’in sürümünü algılar ve uygun sürümü (32 bit veya 64 bit) otomatik olarak indirir. Aşağıdaki bağlantıyı kullanarak Power BI hizmeti oturum açabilirsiniz:
 
 * [Power BI’da oturum açma](https://app.powerbi.com)
 
-Oturum açtıktan sonra Power BI hizmeti tarayıcınızda çalışırken sağ üst köşedeki **Diğer seçenekler** öğesini (...) seçin ve sonra da **İndir > Excel'de Çözümle güncelleştirmeleri**’ni seçin. Bu menü öğesi Excel’de Çözümle güncelleştirmelerinin yeni yüklemeleri için geçerlidir.
+Oturum açtıktan ve Power BI hizmeti tarayıcınızda çalışıyorsa, sağ üst köşedeki **diğer seçenekler** (...) seçeneğini belirleyin ve ardından **Excel güncelleştirmelerinde > indir**' i seçin. Bu menü öğesi Excel’de Çözümle güncelleştirmelerinin yeni yüklemeleri için geçerlidir.
 
 ![Power BI Giriş sayfasından Excel’de Çözümle’yi indirin](media/service-analyze-in-excel/analyze-excel-02.png)
 
@@ -160,23 +160,24 @@ Verileri bu yolla Excel’e alma hakkında daha fazla bilgi için, Excel belgele
 Ayrıca Excel’de **Veri Türleri** galerisindeki **öne çıkan tablolara** erişebilirsiniz. Öne çıkan tablolar hakkında daha fazla bilgi edinmek ve bu tablolara erişmeyi öğrenmek için bkz. [Excel’de Power BI öne çıkan tablolarına erişme (önizleme)](service-excel-featured-tables.md).
 
 ## <a name="requirements"></a>Gereksinimler
-**Excel'de Çözümle**'yi kullanmak için birkaç gereksinim vardır:
+**Excel 'de çözümle** özelliğini kullanmaya yönelik bazı gereksinimler şunlardır:
 
 * **Excel'de Çözümle**, Microsoft Excel 2010 SP1 ve sonraki sürümlerde desteklenir.
-
 * Excel PivotTable'ları, sayısal alanların sürükle ve bırak ile toplama özelliğini desteklemez. Power BI'daki veri kümenizin *önceden tanımlanmış ölçülere sahip olması gerekir*. [Ölçü oluşturma](../transform-model/desktop-measures.md) hakkında bilgi edinin.
 * Bazı kuruluşların Grup İlkesi kuralları, Excel'e gerekli olan **Excel'de Çözümle** güncelleştirmelerinin yüklenmesini engelleyebilir. Güncelleştirmeleri yükleyemiyorsanız yöneticinizle görüşün.
 * **Excel'de Çözümle** özelliği, veri kümesinin Power BI Premium’da olmasını veya kullanıcının Power BI Pro lisansına sahip olmasını gerektirir. Lisans türleri arasındaki işlevsellik farkları hakkında daha fazla bilgi edinmek için _Power BI fiyatlandırması_ konusunun [Power BI özelliklerinin karşılaştırması](https://powerbi.microsoft.com/pricing/) bölümüne bakın.
-* Kullanıcılar, temel alınan veri kümesi üzerinde izinleri varsa Excel’de Çözümle özelliği aracılığıyla veri kümelerine bağlanabilir.  Kullanıcı bu izine; veri kümesini içeren çalışma alanında Üye rolüne sahip olmak, veri kümesini kullanan bir raporun veya panonun kendileriyle paylaşılması veya veri kümesini içeren bir çalışma alanında veya uygulamada veri kümesi için Oluşturma iznine sahip olmak gibi birkaç yöntemle sahip olabilir. [Veri kümeleri için oluşturma izni](../connect-data/service-datasets-build-permissions.md) hakkında daha fazla bilgi edinin.
-* Konuk kullanıcılar, başka bir kiracıdan gönderilen (kaynaklanan) veri kümeleri için **Excel’de Çözümle** özelliğini kullanamaz. 
-* **Excel’de Çözümle** bir Power BI hizmeti özelliğidir ve Power BI Rapor Sunucusu’nda veya Power BI Embedded’da sunulmaz. 
+* Kullanıcılar, temel alınan veri kümesi üzerinde izinleri varsa Excel’de Çözümle özelliği aracılığıyla veri kümelerine bağlanabilir.  Bir Kullanıcı, veri kümesini içeren çalışma alanında üye rolü olması veya bir çalışma alanında ya da veri kümesini içeren bir uygulamadaki bir veri kümesi için derleme iznine sahip olmak gibi birkaç şekilde bu izne sahip olabilir. [Veri kümeleri için oluşturma izni](../connect-data/service-datasets-build-permissions.md) hakkında daha fazla bilgi edinin.
+* Konuk kullanıcılar, başka bir kiracının gönderdiği (kaynağından kaynaklı) veri kümeleri için **Excel 'de çözümle** özelliğini kullanamaz. 
+* **Excel 'de çözümle** Power BI hizmeti bir özelliktir ve Power BI Rapor Sunucusu veya Power BI Embedded kullanılamaz. 
 * **Excel’de Çözümle** seçeneği yalnızca Microsoft Windows çalıştıran bilgisayarlarda desteklenir.
 
 
-**Excel’de Çözümle** özelliğini kaldırması gereken kullanıcılar için, Windows bilgisayarındaki **Program ekle veya kaldır** sistem ayarı kullanılarak bu yapılabilir.
+**Excel 'de çözümle** özelliğini kaldırmanız gerekiyorsa, bilgisayarınızdaki **Program Ekle veya Kaldır** sistem ayarını kullanın.
 
-## <a name="troubleshooting"></a>Sorun giderme
-Excel'de Çözümle özelliğini kullanırken beklemediğiniz bir sonuç aldığınız veya özelliğin beklediğiniz şekilde çalışmadığı durumlarla karşılaşabilirsiniz. [Bu sayfada, Excel'de Çözümle özelliği kullanılırken sık karşılaşılan sorunlara çözümler sunulmaktadır](desktop-troubleshooting-analyze-in-excel.md).
+## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
+
+- Satır düzeyi güvenlik (RLS) Excel 'de analiz için desteklenir. RLS, veri modeli düzeyinde zorlanır ve rapordaki verilere erişen tüm kullanıcılara her zaman uygulanır. [Satır düzeyi güvenlik](../admin/service-admin-rls.md)hakkında daha fazla bilgi edinin.
+- Excel'de Çözümle özelliğini kullanırken beklemediğiniz bir sonuç aldığınız veya özelliğin beklediğiniz şekilde çalışmadığı durumlarla karşılaşabilirsiniz. Sık karşılaşılan sorunların çözümleri için bkz. [Excel 'de çözümle sorunlarını giderme](desktop-troubleshooting-analyze-in-excel.md) .
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

@@ -11,12 +11,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/14/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 8da3446814d2c356acb24100eaa03df23be8f567
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: d61ed128827572198e24bb8f31e190f328e273ff
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416796"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687635"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Power BI hizmetinde tasarımcılara yönelik temel kavramlar
 
@@ -218,7 +218,7 @@ Soru-Cevap, panoya bağlı veri kümelerinde sorunuza cevap arar.  Söz konusu p
 Siz sorunuzu yazmaya başlar başlamaz Soru-Cevap sizi Soru-Cevap sayfasına götürür. Yazdığınız sırada Soru-Cevap, başka bir şekilde ifade etme, otomatik doldurma, öneriler ve daha fazlasıyla doğru soruyu sormanıza ve en iyi cevabı almanıza yardımcı olur. Memnun olduğunuz bir görselleştirme (cevap) bulunduğunda bunu panonuza sabitleyin. Daha fazla bilgi için bkz. [Power BI'daki Soru-Cevap](../consumer/end-user-q-and-a.md).
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4. **Siyah üst bilgi çubuğundaki simgeler**
-Sağ üst köşedeki simgeler; ayarlar, bildirimler, indirmeler, yardım alma, **Yeni görünümü** açıp kapatma ve Power BI ekibine geri bildirim sağlamaya yönelik kaynaklarınızdır.  
+Sağ üst köşedeki simgeler; ayarlar, bildirimler, indirmeler, yardım alma ve Power BI ekibine geri bildirim sağlamaya yönelik kaynaklarınızdır.  
 
 ![Simge düğmelerini gösteren Power BI hizmetinin ekran görüntüsü.](media/service-basic-concepts/power-bi-icons.png)
 

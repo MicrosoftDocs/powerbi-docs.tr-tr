@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: df0591e7ae934ffa945e0e780b2764c7170358f1
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: b94d943c54ade1f3a18e496ecae8235e47553059
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98227043"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687408"
 ---
 # <a name="export-reports-to-powerpoint"></a>Raporları PowerPoint dosyasına dışarı aktarma
 
@@ -37,8 +37,6 @@ Ayrıca isterseniz Power BI hizmetindeki görselleri tek tek kopyalayıp PowerPo
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Power BI raporunuzu PowerPoint’e aktarma
 **Power BI hizmetinde**, tuval üzerinde görüntülenecek bir rapor seçin. **Giriş**'ten, **Uygulamalar**’dan veya gezinti bölmesindeki başka bir kapsayıcıdan bir rapor seçebilirsiniz.
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 PowerPoint’e aktarmak istediğiniz rapor tuvalde görüntülendiğinde menü çubuğundan **Dosya** > **PowerPoint'e aktar**'ı seçin.
 
@@ -89,9 +87,7 @@ Buradan sonra PowerPoint destenizle veya yüksek çözünürlüklü görüntüle
 **PowerPoint’e Aktar** özelliği ile çalışırken dikkat edilmesi gereken bazı önemli noktalar ve sınırlamalar vardır.
  
 
-* **Dışarı aktar** seçeneğini görmüyorsanız "Yeni görünümü" açtığınızdan ve bir raporu (panoyu değil) görüntülediğinizden emin olun.
-
-    ![Yeni Görünüm iki durumlu düğmesinin ekran görüntüsü](media/end-user-powerpoint/power-bi-new-look.png)
+* **Dışarı aktarma** seçeneğini görmüyorsanız, bir raporu (Pano değil) görüntülediğinizden emin olun.
 
 * Şu anda dışarı aktarma için **Geçerli Değerler**’i seçtiğinizde [URL filtreleri](../collaborate-share/service-url-filters.md) dikkate alınmaz.
 

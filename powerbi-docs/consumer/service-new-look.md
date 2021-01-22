@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 12/09/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
-ms.translationtype: HT
+ms.openlocfilehash: 1ed6da298645de77a4ddfc7cba2fde9c89c30f0f
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999106"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687339"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI hizmetinin 'yeni görünümü'
 
@@ -70,5 +70,4 @@ Panoların eylem çubuğu sadeleştirildi. Tutarlı bir deneyim için raporlar v
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](../create-reports/desktop-ribbon.md)
-- [Çalışma alanının ‘yeni görünümünü’ kabul etme](../collaborate-share/service-workspaces-new-look.md)
 - [Tüketiciler için Power BI](end-user-consumer.md)

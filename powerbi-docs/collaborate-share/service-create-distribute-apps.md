@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
-ms.translationtype: HT
+ms.openlocfilehash: 77f206ef59a4aa082e04053d28567480f4d01bb0
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110924"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687284"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Uygulamayı Power BI'da yayımlama
 
@@ -207,7 +207,7 @@ Uygulama yayımlama ile ilgili olarak dikkat edilmesi gerekenler:
 * İzinler sayfası, diğer çalışma alanlarındaki veri kümelerinin iznini değiştirmez. Söz konusu veri kümelerine bağımsız olarak erişim vermeniz gerektiğini anımsatan bir uyarı görürsünüz. Tüm uygulama kullanıcılarınıza veri kümelerine erişim vermenin sorun yaratmayacağından emin olmak için, uygulamanızı derlemeye başlamadan önce söz konusu veri kümelerinin sahipleriyle iletişim kurmak iyi bir yöntemdir. 
 * Uygulama erişim listesinde en fazla 100 kullanıcı veya grup olabilir. Öte yandan, 100’den fazla kullanıcıya uygulama için erişim izni verebilirsiniz. Bunu yapmak için, istenen tüm kullanıcıları içeren bir veya daha fazla kullanıcı grubu kullanın.
 * Yeni çalışma alanı deneyimi için, uygulama erişim listesine eklenen kullanıcının uygulamaya çalışma alanı üzerinden erişimi zaten varsa, bu kullanıcı uygulama erişim listesinde gösterilmez.  
-* Power BI hizmetinde yeni görünümü kullanmak için, öğe bilgi kartında destek sitesi URL’si gösterilir. [Power BI’da 'yeni görünüm'](../consumer/service-new-look.md) hakkında daha fazla bilgi edinin.
+* Destek sitesi URL 'SI, öğe bilgileri kartında gösterilir.
 * Uygulamaların, kullanıcılara paylaşım iznini kullanarak uygulamayı ve uygulamanın temel veri kümelerini paylaşma olanağı tanıyan bir seçeneği vardır. Yeni uygulamalarda bu seçenek varsayılan olarak kapalıdır. Mevcut uygulamalarınızda bu seçeneği kapatmanızı ve temel veri kümeleri üzerindeki izni güncelleştirmenizi öneririz. Mevcut veri kümelerinde seçeneğin etkinleştirilmiş olmasının nedeni uygulamaların başlangıçta bu davranışa sahip olan içerik paketlerinin yerini alacak şekilde tasarlanmış olmasıdır.
 * Uygulamalarda en fazla 200 pano bulunabilir. 
 

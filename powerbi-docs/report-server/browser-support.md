@@ -7,16 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
-ms.openlocfilehash: 7658e1943c1f0ac85904fc7b985f2bd764451052
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.date: 01/21/2021
+ms.openlocfilehash: 71ee66c6cd531a35a53a3263feaf94115b528114
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414772"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687500"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için tarayıcı desteği
 Power BI Rapor Sunucusu ve Rapor Görüntüleyicisi Denetimlerini yönetmek ve görüntülemek için desteklenen tarayıcı sürümlerini öğrenin.
+
+> [!NOTE]
+> Microsoft Edge eski tarayıcı desteği 9 Mart 2021 ' den itibaren durdurulacak ve Microsoft Internet Explorer 11 desteği 17 Ağustos 2021 ' den itibaren durdurulacak.
 
 ## <a name="browser-requirements-for-the-web-portal"></a>Web portalı için tarayıcı gereksinimleri
 Web portalı için desteklenen tarayıcıların güncel listesi aşağıda verilmiştir.
@@ -69,7 +72,7 @@ Rapor Görüntüleyicisi web denetimi için desteklenen tarayıcıların güncel
 ### <a name="authentication-requirements"></a>Kimlik doğrulaması gereksinimleri
 Tarayıcılar, istemci isteklerinin başarılı olması için rapor sunucusu tarafından işlenmesi gereken belirli kimlik doğrulaması şemalarını destekler. Aşağıdaki tabloda Windows işletim sistemi üzerinde çalışan tarayıcılar tarafından desteklenen varsayılan kimlik doğrulaması türleri tanımlanmıştır.
 
-| **Tarayıcı türü** | **Desteklenen Kimlik Doğrulaması Türü** | **Tarayıcı varsayılan ayarı** | **Sunucu varsayılan ayarı** |
+| **Tarayıcı türü** | **Destekleyen** | **Tarayıcı varsayılan ayarı** | **Sunucu varsayılan ayarı** |
 | --- | --- | --- | --- |
 | **Microsoft Edge** (+) |Anlaşma, Kerberos, NTLM, Temel |Anlaşma |Evet. Varsayılan kimlik doğrulaması ayarları Edge ile uyumludur. |
 | **Microsoft Internet Explorer** |Anlaşma, Kerberos, NTLM, Temel |Anlaşma |Evet. Varsayılan kimlik doğrulaması ayarları Internet Explorer ile uyumludur. |

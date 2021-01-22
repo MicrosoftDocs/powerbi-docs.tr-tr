@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 42f110356c891235d17810dbb1f220f0a006c066
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: 4096ba77bc8733ff2e3d24cd646aa480aa53819d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887098"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687546"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Sayfalandırılmış raporu dosyaya aktarma (önizleme)
 
@@ -122,6 +122,41 @@ Burada RLS için etkin bir kullanıcı adı sağlama işleminin gösterildiği b
       }
 }
 ```
+
+### <a name="single-sign-on-sql-and-dataverse-sso"></a>Çoklu oturum açma SQL ve veri deposu (SSO)
+
+Power BI ' de, OAuth 'u SSO ile ayarlama seçeneğiniz vardır. Bunu yaptığınızda, raporu görüntüleyen kullanıcının kimlik bilgileri verileri almak için kullanılır. Talep Rest üstbilgisindeki erişim belirteci verilere erişmek için kullanılmaz, belirtecin ileti gövdesinde etkin kimlikle geçirilmesi gerekir.
+
+Erişim belirteçlerini kafa karıştırıcı yapabilir, erişmek istediğiniz kaynak için doğru erişim belirtecini elde edebilir. 
+- Azure SQL için kaynak https://database.windows.net
+- Veri deposu için kaynak, ortamınız için https://adresidir. Örnek https://contoso.crm.dynamics.com
+
+Belirteç API 'sine [buraya](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync?view=azure-dotnet) erişin
+
+Bir erişim belirteciyle etkin bir Kullanıcı adı sağlamaya yönelik bir örnek aşağıda verilmiştir.
+
+```json
+{
+       "format":"PDF",
+       "paginatedReportConfiguration":{
+          "formatSettings":{
+             "AccessiblePDF":"true",
+             "PageHeight":"11in",
+             "PageWidth":"8.5in",
+             "MarginBottom":"2in"
+          },
+          "identities":[
+             {
+                "username":"john@contoso.com",
+                "identityBlob": {
+                "value": "eyJ0eX....full access token"
+         }
+        }
+     ]
+   }
+}
+```
+
 ## <a name="ppu-concurrent-requests"></a>PPU eş zamanlı istekleri
 [Kullanıcı Başına Premium (PPU)](../../admin/service-premium-per-user-faq.md) kullanılırken `exportToFile` API’si, beş dakikada bir isteğe olanak verir. Beş dakika içinde birden fazla istek, *Çok Fazla İstek* (429) hatasına neden olur.
 
