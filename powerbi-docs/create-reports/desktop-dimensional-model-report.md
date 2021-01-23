@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 01/11/2021
+ms.date: 01/19/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: f5d35d7fc189f055a6f51e493fd313eb31f0564f
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 03eac7aefdebb31eac353c969db2bf8810173395
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565982"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687377"
 ---
 # <a name="tutorial-from-dimensional-model-to-stunning-report-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta boyutsal modelden muhteşem raporlar elde etme 
 
@@ -64,11 +64,10 @@ Tüm tabloları ve ardından **Veri Dönüştürme**'yi seçin. Adının sonun
 
 :::image type="content" source="media/desktop-dimensional-model-report/desktop-load-tables.png" alt-text="Gezgin'de tabloları yükleyin.":::
 
-Veri türlerinin ve sütunların aşağıdaki tabloda belirtilenlerle aynı olduğundan emin olun. Değişiklik yapmak için sorguyu seçtikten sonra bir veya daha fazla sütun seçin.
+Veri türlerinin ve sütunların aşağıdaki tabloda belirtilenlerle aynı olduğundan emin olun. Power BI veri türlerini algılamaya izin vermek için bir sorgu seçin ve bir veya daha fazla sütun seçin. **Dönüştür** sekmesinde, **veri türünü Algıla**' yı seçin. Algılanan veri türünde herhangi bir değişiklik yapmak için, **giriş** sekmesinde **veri türü**' nü seçin ve ardından tablodan uygun veri türünü seçin.
 
 :::image type="content" source="media/desktop-dimensional-model-report/power-query-change-data-types.png" alt-text="Sütunların veri türünü denetleyin.":::
 
-**Giriş** sekmesinde **Veri Türü**'nü seçip tablodan uygun veri türünü belirleyin.
 
 |Sorgu  |Sütun  |Veri türü  |
 |---------|---------|---------|
@@ -330,8 +329,9 @@ Artık verilerinizi modellediğinize göre raporunuzu oluşturmanın zamanı gel
 
 1. Rapor tuvalinizin alt yarısında boş bir alan seçin. 
 
-1. Alanlar bölmesinde **Sales** altından **Sales Amount**, **Product** altından **Product Category** ve **Reseller** altından **Business Type** verilerini seçin. 
-
+1. Alanlar bölmesinde **Sales** altından **Sales Amount**, **Product** altından **Product Category** ve **Reseller** altından **Business Type** verilerini seçin.
+    :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-field-well.png" alt-text="Kategorinin ve Iş türünün satırlarda ve satış tutarının ise değer olarak seçili olduğunu kontrol edin.":::
+    
     Power BI otomatik olarak kümelenmiş bir sütun grafik oluşturur. Görselleştirme türünü **Matris** olarak değiştirin: 
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-change-to-matrix.png" alt-text="Kümelenmiş sütun grafiği matris olarak değiştirin.":::
@@ -346,7 +346,7 @@ Artık verilerinizi modellediğinize göre raporunuzu oluşturmanın zamanı gel
 
 1. Matrisin Biçimlendirme bölmesinde **Koşullu biçimlendirme** bölümünü ve ardından **Veri çubukları** özelliğini açın. **Gelişmiş denetimler**'i seçip pozitif çubuğu için daha açık bir renk seçin. **Tamam**’ı seçin. 
 
-1. Sales Amount sütununun genişliğini artırarak alanın tamamını kaplamasını sağlayın. 
+1. Matrisi sürükleyerek, satış tutarı sütununun genişliğini artırarak tüm alanı ele alır.
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-add-databars.png" alt-text="Sales Amount için veri çubuklarının yer aldığı matris.":::
 
@@ -376,7 +376,7 @@ Bu raporda görünümünü biraz daha geliştirecek basit biçimlendirmeler yapm
 
 ### <a name="theme"></a>Tema 
 
--  **Görünüm** şeridinde **Temalar**'ı seçip temayı **Yönetici** olarak değiştirin. 
+-  **Görünüm** şeridinde **Temalar**'ı seçip temayı  **Yönetici** olarak değiştirin. 
 
     :::image type="content" source="media/desktop-dimensional-model-report/formatting-report-change-theme.png" alt-text="Yönetici temasını seçin.":::
 
@@ -393,7 +393,7 @@ Görselleştirmeler bölmesinin **Biçim** sekmesinde aşağıdaki değişik
 
     DAX ölçüsünü eklediyseniz **Başlık metni** girişini "Sipariş Tarihine/Son Tarihe Göre Satış Tutarı" olarak değiştirin. 
 
-1. **Metin** boyutunu **16 pt** olarak değiştirin. 
+1. **Metin** boyutunu  **16 pt** olarak değiştirin. 
 1.  **Gölge** ayarını **Açık** olarak değiştirin. 
 
 **Görsel 3, Kurumsal Bayi Ülkesine Göre Sipariş Miktarı**
@@ -401,21 +401,21 @@ Görselleştirmeler bölmesinin **Biçim** sekmesinde aşağıdaki değişik
 1. Kurumsal Bayi Ülkesine Göre Sipariş Miktarı adlı 3. görseli seçin. 
 1.  **Harita stilleri** bölümünde **Tema** ayarını **Gri tonlama** olarak değiştirin. 
 1.  **Başlık** bölümünde **Başlık metni** yerine "Kurumsal Bayi Ülkesine Göre Sipariş Miktarı" yazın.
-1. **Metin boyutu** ayarını **16 pt** olarak değiştirin. 
+1. **Metin boyutu** ayarını  **16 pt** olarak değiştirin. 
 1.  **Gölge** ayarını **Açık** olarak değiştirin.  
 
 **Görsel 4, Ürün Kategorisi ve Kurumsal Bayi İş Türüne Göre Satış Miktarı**
 
 1. Ürün Kategorisi ve Kurumsal Bayi İş Türüne Göre Satış Miktarı adlı 4. görseli seçin. 
 1.  **Başlık** bölümünde **Başlık metni** yerine "Ürün Kategorisi ve Kurumsal Bayi İş Türüne Göre Satış Miktarı" yazın.
-1. **Metin boyutu** ayarını **16 pt** olarak değiştirin. 
+1. **Metin boyutu** ayarını  **16 pt** olarak değiştirin. 
 1.  **Gölge** ayarını **Açık** olarak değiştirin. 
 
 **Görsel 5, Mali takvim dilimleyicisi**
 
 1. Mali takvim dilimleyicisi adlı 5. görseli seçin.
 1.  **Seçim denetimleri** bölümünde **"Tümünü seç"** özelliğini **Açık** duruma getirin. 
-1.  **Dilimleyici üst bilgisi** bölümünde **Metin boyutu** ayarını **16 pt** olarak değiştirin. 
+1.  **Dilimleyici üst bilgisi** bölümünde **Metin boyutu** ayarını  **16 pt** olarak değiştirin. 
 
 ### <a name="add-a-background-shape-for-the-title"></a>Başlık için bir arka plan şekli ekleme 
 

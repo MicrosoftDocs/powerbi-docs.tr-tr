@@ -7,25 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/10/2020
+ms.date: 01/21/2021
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
-ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
-ms.translationtype: HT
+ms.openlocfilehash: 4fd953eac998e954579af83f2acec975f66e7436
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97353117"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687040"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Power BI Premium'daki büyük veri kümeleri
 
-Power BI veri kümeleri, sorgu performansını iyileştirerek daha hızlı kullanıcı etkileşimine olanak tanımak için verileri yüksek oranda sıkıştırılmış bellek içi önbellekte depolayabilir. Premium kapasitelerde **Büyük veri kümesi depolama biçimi** ayarıyla veri kümelerinin varsayılan 10 GB'lık sınırın üzerine çıkmasını sağlamak mümkündür. Etkinleştirildiğinde, veri kümesi boyutu Premium *kapasite* boyutuyla veya yönetici tarafından ayarlanmış en büyük boyutla sınırlıdır.
+Power BI veri kümeleri, sorgu performansını iyileştirerek daha hızlı kullanıcı etkileşimine olanak tanımak için verileri yüksek oranda sıkıştırılmış bellek içi önbellekte depolayabilir. Premium kapasitelerde, varsayılan sınırın ötesinde büyük veri kümeleri **büyük veri kümesi depolama biçimi** ayarıyla etkinleştirilebilir. Etkinleştirildiğinde, veri kümesi boyutu Premium *kapasite* boyutuyla veya yönetici tarafından ayarlanmış en büyük boyutla sınırlıdır.
 
 Büyük veri kümeleri tüm Premium P SKU'ları ve Embedded A SKU'ları için etkinleştirilebilir. Premium'daki büyük veri kümesi boyutu sınırı, veri modeli boyutu sınırlamaları açısından Azure Analysis Services ile benzerdir.
 
 Veri kümelerinin 10 GB'ın üzerine çıkabilmesi için etkinleştirilmesi gereken Büyük veri kümesi depolama biçimi ayarının sunduğu ek avantajlar da vardır. Veri kümesi yazma işlemleri için XMLA uç noktası tabanlı araçlar kullanmayı planlıyorsanız bu ayarı *büyük* olmayan veri kümeleri için dahi etkinleştirmeniz önerilir. Büyük veri kümesi depolama biçimi etkinleştirildiğinde XMLA yazma işlemlerinin performansını artırabilir.
 
-Hizmetteki büyük veri kümeleri, 10 GB ile sınırlı olan Power BI Desktop model yükleme boyutunu etkilemez. Bunun yerine veri kümeleri yenilendiğinde hizmette 10 GB'ı aşabilir.
+Hizmetteki büyük veri kümeleri, 10 GB ile sınırlı olan Power BI Desktop model yükleme boyutunu etkilemez. Bunun yerine, veri kümeleri yenileme sırasında hizmette o sınırın ötesine büyüyebilir.
+
+> [!IMPORTANT]
+> Power BI Premium, büyük veri kümelerini destekler. **Büyük veri kümesi depolama biçimi** seçeneğini, varsayılan sınırdan daha büyük Power BI Premium veri kümeleri kullanacak şekilde etkinleştirin. 
+
 
 ## <a name="enable-large-datasets"></a>Büyük veri kümelerini etkinleştirme
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 01/13/2020
+ms.date: 01/21/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1808638ad0ccaa2adc57d56bf1677dea0ca24440
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: fec45c895b4b4eb43bd6efd2e5428d789ff4f44d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404675"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687109"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>Power BI Desktop’ta SAP Business Warehouse bağlayıcısını kullanma
 
@@ -45,8 +45,8 @@ SAP Bağlayıcısı’nın Uygulama 2.0 sürümü, SAP .NET Bağlayıcısı 3.0 
 
 Bağlayıcının 32 bit ve 64 bit sürümleri sağlanır. Power BI Desktop yüklemenizle eşleşen sürümü seçin. Şu anda web sitesinde .NET 4.0 Framework için iki sürüm listelenmektedir:
 
-* Windows 32 bit (x86) için Microsoft .NET 3.0.22.0 SAP Bağlayıcısı zip dosyası (6,896 KB), 1 Haziran 2019
-* Windows 64 bit (x64) için Microsoft .NET 3.0.22.0 SAP Bağlayıcısı zip dosyası (7,180 KB), 1 Haziran 2019
+* Windows 32-bit (x86) veya üzeri için Microsoft .NET 3.0.22.0 için SAP Bağlayıcısı (.NET Framework 4,0)
+* Windows 64-bit (x64) veya üzeri için Microsoft .NET 3.0.22.0 için SAP Bağlayıcısı (.NET Framework 4,0)
 
 Yüklerken, **İsteğe bağlı kurulum adımlarında** *Derlemeleri GAC’ye yükle*’nin seçili olduğundan emin olun.
 

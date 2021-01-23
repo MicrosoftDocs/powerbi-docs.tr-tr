@@ -7,31 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 01/20/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: b0132996be1ed70f228ce96d413c4925dc1a3e48
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
-ms.translationtype: HT
+ms.openlocfilehash: f68c01e503400b83fe3e0488fdc49e15f55d7067
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512781"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687063"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Power BI Premium için Multi-Geo desteğini yapılandırma
 
-Multi-Geo, çok uluslu müşterilerin bölgesel, sektöre özel veya kurumsal veri yerleşimi gereksinimlerini karşılamasına yardımcı olan bir Power BI Premium özelliğidir. Bir Power BI Premium müşterisi olarak, içeriği Power BI kiracısının ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine dağıtabilirsiniz. Bir coğrafi bölge (coğrafya) birden çok bölge içerebilir. Örneğin, Birleşik Devletler bir coğrafi bölgedir ve Orta Batı ABD ile Orta Güney ABD de Birleşik Devletler'deki bölgelerdir. İçeriği aşağıdaki coğrafyalardan herhangi birine dağıtmayı seçebilirsiniz:
+Multi-Geo, çok uluslu müşterilerin bölgesel, sektöre özel veya kurumsal veri yerleşimi gereksinimlerini karşılamasına yardımcı olan bir Power BI Premium özelliğidir. Bir Power BI Premium müşterisi olarak, içeriği Power BI kiracısının ana bölgesi dışındaki bölgelerde yer alan veri merkezlerine dağıtabilirsiniz. Bir coğrafi bölge (coğrafya) birden çok bölge içerebilir. Örneğin, Birleşik Devletler bir coğrafi bölgedir ve Orta Batı ABD ile Orta Güney ABD de Birleşik Devletler'deki bölgelerdir. [Azure Coğrafya eşlemesinde](https://azure.microsoft.com/global-infrastructure/geographies/)tanımlanan aşağıdaki coğrafi graflardan (geos) içerik dağıtmayı tercih edebilirsiniz.
 
-- Amerika Birleşik Devletleri
-- Kanada
-- Birleşik Krallık
-- Brezilya
-- Avrupa
-- Japonya
-- Hindistan
-- Asya Pasifik
-- Avustralya
-- Afrika
+Sovereign bulutu, bu buluttaki bölgeler arasında birden çok coğrafi bölge destekler.
 
-Multi-Geo Power BI Almanya, 21Vianet tarafından sağlanan Power BI Çin veya ABD hükümeti için Power BI'da sağlanmaz.
+> [!NOTE]
+> Çin Kuzey şu anda Premium Gen2 kapasiteleri için çoklu coğrafi desteği desteklemez.
 
 Multi-Geo artık Power BI Embedded ile de kullanılabilir. Daha fazla bilgi için bkz. [Power BI Embedded'da Multi-Geo desteği](../developer/embedded/embedded-multi-geo.md).
 

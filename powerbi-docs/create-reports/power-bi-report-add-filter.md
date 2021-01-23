@@ -7,18 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/20/2019
+ms.date: 01/20/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 113370dd6b3aa19546f1facada6abc07c12b9d1a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b9aecda1f4ec3dfd1a4ab65cb78fd2a8e577c01d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96389127"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687225"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI'daki raporlara filtre ekleme
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Bu makalede Power BI'da bir rapora sayfa filtresi, görselleştirme filtresi, rapor filtresi veya detaylandırma filtresi ekleme adımları anlatılmaktadır. Bu makaledeki örneklerde Power BI hizmeti kullanılmıştır. Adımlar Power BI Desktop ile neredeyse aynıdır.
 
