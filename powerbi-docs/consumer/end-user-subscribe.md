@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/13/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: df2083effaec83639d5c14cd62d81ee4b44ffcd7
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
-ms.translationtype: HT
+ms.openlocfilehash: 9f02d3785c5a74c1f2658c3c00fb16c076558213
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191625"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718612"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Power BI hizmetinde bir rapora veya panoya abone olma 
 
@@ -36,7 +36,9 @@ Aldığınız e-postanın "rapora veya panoya git" bağlantısı içerdiğini g�
 ## <a name="requirements"></a>Gereksinimler
 Kendiniz için bir abonelik **oluşturma** bir *Power BI Pro* veya *kullanıcı başına Premium* [lisansı](end-user-license.md) gerektirir. Ayrıca rapor veya pano bir Premium çalışma alanındaysa ve size bu çalışma alanı için erişim verildiyse, kendiniz için bir abonelik oluşturabilirsiniz. Abonelik oluşturamıyorsanız Power BI yöneticinize veya BT yardım masasına başvurun. 
 
-**Başkalarını abone yapma** yalnızca *Power BI Pro* lisansı olan pano veya rapor sahibi tarafından kullanılabilir. Sayfalandırılmış raporlara abone olmak biraz farklıdır. Ayrıntıları için bkz. [Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış rapora abone yapma](paginated-reports-subscriptions.md). 
+**Başkalarını abone yapma** yalnızca *Power BI Pro* lisansı olan pano veya rapor sahibi tarafından kullanılabilir.
+
+**Sayfalandırılmış raporlara abone olmak** biraz farklıdır. Ayrıntılar için bkz. [Power BI hizmeti sayfalandırılmış bir rapora abone olma](paginated-reports-subscriptions.md) . 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Bir panoya veya rapor sayfasına abone olma
 Panoya ve rapora abone olma süreçleri birbirine benzer. Aynı düğmeyi kullanarak Power BI hizmet panolarına ve raporlarına abone olabilirsiniz.

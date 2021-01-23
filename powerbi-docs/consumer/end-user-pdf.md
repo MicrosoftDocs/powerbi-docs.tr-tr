@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/11/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 932149fc117568cffd94e6d551878f706a58ec65
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
-ms.translationtype: HT
+ms.openlocfilehash: d9d4677e8f0fe415f7a0169fb48ede7187c3fcf5
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191970"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718566"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Raporları Power BI'dan PDF’ye aktarma
 
@@ -57,7 +57,7 @@ Power BI hizmetinde, tuval üzerinde görüntülenecek bir rapor seçin. **Giri�
 * R ve Python görselleri şu anda desteklenmemektedir. PDF’de bu görseller boştur ve bir hata raporu görüntülenir. 
 * Sertifikalanmış Power BI görselleri desteklenir. Bir Power BI görselini nasıl sertifikalatacağınız dahil olmak üzere, sertifikalı Power BI görselleri hakkında daha fazla bilgi için bkz. [Power BI görsellerini sertifikalatma](../developer/visuals/power-bi-custom-visuals-certified.md). Sertifikalanmamış Power BI görselleri desteklenmez. PDF’te bunlar bir hata iletisiyle görüntülenir.
 * ESRI görseli desteklenmez.
-* 50’den fazla rapor sayfası içeren raporlar şu anda dışarı aktarılamaz.
+* 50 'den fazla rapor sayfası olan Power BI raporlar Şu anda verilemiyor. Sayfalandırılmış raporlarda bu sınırlama yoktur. Ayrıntılar için bkz. [sayfalandırılmış rapor yazdırma](end-user-paginated-report.md#interact-with-a-paginated-report) . 
 * Boyutu 500 MB ve üzeri olan raporlar şu anda dışarı aktarılamaz. 
 * Raporu PDF’e aktarma işlemi birkaç dakika sürebilir, bu nedenle sabırlı olun. Raporun yapısı ve Power BI hizmeti üzerindeki geçerli yük gibi etmenler gereken zamanı etkileyebilir.
 * Power BI hizmetinde **PDF’ye aktar** menü öğesi kullanılamıyorsa bunun nedeni büyük olasılıkla Power BI yöneticisinin özelliği devre dışı bırakmış olmasıdır. Ayrıntılı bilgi için yöneticinizle iletişime geçin.

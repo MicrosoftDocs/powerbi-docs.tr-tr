@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 00c375267ceaede23b317fb71d76e31e4ae66a83
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0c13d0f54d18527e6b8614f40b5b15fd46187968
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408654"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718520"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Kuruluşunuzdaki kullanıcılar için Power BI hizmetini lisanslama
 
@@ -121,7 +121,7 @@ Power BI Pro, Microsoft 365 ile aynı lisans yaşam döngüsüne sahiptir. Daha 
 
 Power BI, aşağıdaki iyileştirmelerle Power BI Premium deneyimini geliştiren bir önizleme teklifi olarak Power BI Premium 2. Nesil’i kullanıma sundu:
 * Performans
-* Kullanıcı başına lisanslama
+* Kullanıcı başına lisanslama. Daha fazla bilgi için [Kullanıcı başına Premium hakkında SSS](service-premium-per-user-faq.md) bölümüne bakın.
 * Daha yüksek ölçek
 * İyileştirilmiş ölçümler
 * Otomatik ölçeklendirme

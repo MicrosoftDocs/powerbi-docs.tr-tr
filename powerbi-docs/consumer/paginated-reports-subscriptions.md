@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 01/04/2021
-ms.openlocfilehash: 67efe0e7abd23792f46561f78b0b048b431561a4
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 01/22/2021
+ms.openlocfilehash: 88293bbfc39f75472422e6785099421efcd45802
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888018"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718543"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış raporlara abone yapma 
 
@@ -23,13 +23,15 @@ Abonelikleri ayarlarken ne sıklıkta e-posta almak istediğinizi seçersiniz: g
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>Sayfalandırılmış rapor abonelikleriyle ilgili önemli noktalar 
 
+- Kendiniz için bir abonelik oluşturmak üzere sayfalandırılmış raporda düzenleme izinlerine sahip olmanız gerekmez, ancak başka birisi için bir tane oluşturmak için düzenleme izinlerine sahip olmanız gerekir. Çalışma alanında sayfalandırılmış raporun olduğu en az bir katkıda bulunan rolüne sahipseniz diğerleri için abonelikler oluşturabilirsiniz. [Çalışma alanlarındaki roller](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)hakkında daha fazla bilgi edinin.
+
 - Pano ve Power BI raporu aboneliklerinden farklı olarak, aboneliğiniz tüm rapor çıkışının ekini içerir.  Aşağıdaki ek türleri desteklenir: PDF, PowerPoint sunusu (PPTX), Excel Çalışma Kitabı (XLSX), Word Belgesi (DOCX), CSV dosyası ve XML.
 
 - E-posta gövdesine raporun önizleme görüntüsünü ekleyebilirsiniz.  Bu isteğe bağlıdır ve seçtiğiniz ek biçimine bağlı olarak ekli rapor belgenizin ilk sayfasından biraz farklı olabilir. 
 
 - Rapor eki boyutu üst sınırı 24 MB'tır. 
 
-- Azure Analysis Services veya Power BI veri kümeleri gibi şu anda desteklenen veri kaynaklarına bağlanan sayfalandırılmış raporlara başka kullanıcıları da abone yapabilirsiniz. SQL Server Reporting Services'in bugün yaptığı gibi, rapor ekinin sizin izinleriniz temelinde verileri yansıttığını unutmayın. 
+- Diğer kullanıcılara, Azure Analysis Services veya Power BI veri kümeleri dahil olmak üzere, şu anda desteklenen herhangi bir veri kaynağına bağlanan sayfalandırılmış raporlara abone olabilirsiniz. SQL Server Reporting Services'in bugün yaptığı gibi, rapor ekinin sizin izinleriniz temelinde verileri yansıttığını unutmayın. 
 
 - E-posta abonelikleri, raporunuz için şu anda seçili olan veya varsayılan parametrelerle gönderilebilir.  Raporunuz için oluşturduğunuz her abonelik için farklı parametre değerleri ayarlayabilirsiniz. 
 

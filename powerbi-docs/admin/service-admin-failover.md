@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
-ms.translationtype: HT
+ms.openlocfilehash: 09e215dbb32dcb93b2ae8ca51953eb636e1aad81
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961236"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718497"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI yüksek kullanılabilirlik, yük devretme ve olağanüstü durum kurtarma ile ilgili SSS
 
@@ -23,6 +23,10 @@ Bu makale Power BI hizmetinin kullanıcılarına nasıl yüksek kullanılabilirl
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>Power BI için "yüksek kullanılabilirlik" ne anlama gelir?
 
 Power BI, tam olarak yönetilen bir hizmet olarak yazılımdır (SaaS).  Microsoft bunu, kullanıcıların her zaman raporlarına erişebilmelerini sağlamak için altyapı hatalarına karşı dayanıklı çalışacak şekilde tasarlar ve çalıştırır.  Hizmet [%99,9 SLA](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) ile desteklenir.
+
+Power BI, veri merkezi hatalarından Power BI raporlarını, uygulamaları ve verileri korumak için **Azure kullanılabilirlik alanları** kullanır ve Power BI için otomatik olarak uygulanır ve kullanılır. Kullanılabilirlik Alanları, bir Azure bölgesi içinde, yedekli güç, soğutma ve ağ içeren bir Azure bölgesi içinde üç veya daha fazla benzersiz ve benzersiz konum sağlayan hata yalıtımlı konumlardır. Kullanılabilirlik Alanları, Power BI müşterilerin veri merkezi hatalarına göre daha yüksek kullanılabilirlik ve hataya dayanıklılık özellikleriyle görev açısından kritik uygulamalar çalıştırmasına izin verir. Kullanılabilirlik Alanları, müşterilere yedekliliğe ve mantıksal hizmet yalıtımına karşı veri merkezi arızalarına izin verir. 
+
+**Kullanılabilirlik alanları** hakkında daha fazla bilgi Için, [Azure 'da bölgeler ve kullanılabilirlik alanları](https://docs.microsoft.com/azure/availability-zones/az-overview)hakkında ayrıntılı bilgi içeren aşağıdaki makaleye bakın.
 
 ## <a name="what-is-a-power-bi-failover"></a>Power BI yük devretme nedir?
 
