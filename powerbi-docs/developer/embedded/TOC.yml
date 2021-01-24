@@ -62,6 +62,8 @@
           href: create-an-azure-active-directory-tenant.md
         - name: Uygulamaları kaydetme
           href: register-app.md
+        - name: Power BI Embedded izleme
+          href: monitor-power-bi-embedded.md
         - name: Azure AD erişim belirteci alma
           href: get-azuread-access-token.md
         - name: Ekleme Hakkında Soru-Cevap
@@ -94,6 +96,8 @@
               href: /rest/api/power-bi-embedded/
             - name: Power BI REST API'leri
               href: /rest/api/power-bi/
+        - name: Power BI Embedded veri başvurusunu izleme
+          href: monitor-power-bi-embedded-reference.md
         - name: Power BI kitaplıkları
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: Azure CLI
