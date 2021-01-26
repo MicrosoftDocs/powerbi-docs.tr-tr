@@ -7,18 +7,18 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 1/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 46d7c0247cfd644b9a085862bbf7d0d41557a371
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415140"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780813"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>Yeni görünüm: Eylemler nereye gitti?
 
-Power BI hizmeti (app.powerbi.com) raporları görüntülemeyi ve bunlarla etkileşim kurmayı kolaylaştıran yeni bir görünüme kavuştu. Bunun sonucunda çoğu menü eylemi farklı bir yere taşındı. Bu makaledeki tablolarda, eylemlerin eski konumlarını yenileriyle birlikte görebilirsiniz. Arka plan için bkz. [Power BI hizmetinin “yeni görünümü”](service-new-look.md).
+Power BI hizmeti (app.powerbi.com), raporlarınızı görüntülemeyi ve bunlarla etkileşimde bulunmasını kolaylaştıran yeni bir görünüme taşınmıştır. Bunun sonucunda çoğu menü eylemi farklı bir yere taşındı. Kuruluşunuz yeni görünüme taşıma işlemi yapmışsa, ancak eski görünüme daha fazla bilgi sahibiyseniz, bu makale, kendi yönteminizi bulmanıza yardımcı olur. Bu makaledeki tablolarda, eylemlerin eski konumlarını yenileriyle birlikte görebilirsiniz. 
 
 **Power BI Desktop**’taki yeni görünüm hakkında bilgi mi arıyorsunuz? [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](../create-reports/desktop-ribbon.md) bölümüne bakın.
 
@@ -70,7 +70,3 @@ Power BI hizmeti (app.powerbi.com) raporları görüntülemeyi ve bunlarla etkil
 | Pano kutucuklarını yenile | Menü çubuğundaki Diğer seçenekler (...) > Pano kutucuklarını yenile | Görselleri yenile (sağ taraf) |
 | Performans denetçisi | Menü çubuğundaki Diğer seçenekler (...) > Performans denetçisi | Dosya > Performans denetçisi |
 | Ayarlar | Menü çubuğundaki Diğer seçenekler (...) > Ayarlar | Dosya > Ayarlar |
-
-## <a name="next-steps"></a>Sonraki adımlar
-
-[Power BI hizmetinin ‘yeni görünümü’](service-new-look.md)

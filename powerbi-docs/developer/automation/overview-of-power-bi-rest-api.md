@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 122028b2ac838763318ab5a0c4e6208138d93188
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: 8fac168bf4e2d1cb7b386a1e22da99f39b579da8
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887627"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781564"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Geliştiriciler Power BI API ile neler yapabilir?
 
@@ -37,8 +37,8 @@ Power BI API'lerle yapabileceğiniz bazı işlemler aşağıda verilmiştir.
 
 | Araçlar | Açıklama |
 |---------|-------------|
-| [Deneme alanı aracı](https://microsoft.github.io/PowerBI-JavaScript/demo) | Power BI JavaScript API’lerini kullanmanın tam örneğini deneyin. Bu araç, farklı türde Power BI Embedded örnekleri ile yürütmenin de hızlı bir yoludur. |
-| [Power BI JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Power BI JavaScript API'leri hakkında daha fazla bilgi edinmek için. |
+| [Deneme alanı aracı](https://microsoft.github.io/PowerBI-JavaScript/demo) | Power BI Embedded Analytics Istemci API 'Lerini kullanarak tam bir örnek yaşayın. Bu araç, farklı türde Power BI Embedded örnekleri ile yürütmenin de hızlı bir yoludur. |
+| [Katıştırılmış analiz Istemcisi API 'Lerini Power BI](/javascript/api/overview/powerbi/) | Power BI Istemci API 'Leri hakkında daha fazla bilgi edinmek için. |
 | [Postman](https://www.getpostman.com/) | İstekler çalıştırın, test edin, hata ayıklayın, izleyin, otomatik testler çalıştırın ve daha fazlasını yapın. |
 
 ## <a name="push-data-into-power-bi"></a>Power BI'a veri gönderme
@@ -51,7 +51,7 @@ Power BI API'lerle yapabileceğiniz bazı işlemler aşağıda verilmiştir.
 
 * [Power BI Geliştirici örnekleri](https://github.com/Microsoft/PowerBI-Developer-Samples)
 * [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
-* [JavaScript API’si](https://github.com/Microsoft/PowerBI-JavaScript)
+* [Katıştırılmış analiz Istemcisi API 'Lerini Power BI](/javascript/api/overview/powerbi/)
 
 ## <a name="next-steps"></a>Sonraki Adımlar
 

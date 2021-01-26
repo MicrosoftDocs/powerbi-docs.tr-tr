@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
-ms.translationtype: HT
+ms.openlocfilehash: b21443fd334e465ca5ced3efd00fe66828367615
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961167"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780929"
 ---
 # <a name="power-bi-security"></a>Power BI Güvenliği
 
@@ -39,7 +39,7 @@ Her Power BI dağıtımı iki kümeden oluşur: Bir Web Ön Uç (**WFE**) kümes
 
 ## <a name="data-storage-security"></a>Veri Depolama Alanı Güvenliği
 
-Power BI hizmetinin veri depolamak ve yönetmek için kullandığı iki ana depo vardır. Kullanıcılar tarafından karşıya yüklenen veriler genelde **Azure BLOB** depolama alanına gönderilirken sisteme ait meta veriler ve tüm yapıtlar **Azure SQL Veritabanı**'nda depolanır.
+Power BI, verileri depolamak ve yönetmek için iki birincil depo kullanır: kullanıcılardan yüklenen veriler genellikle **Azure Blob depolama** alanına gönderilir ve sistemin kendisi için YAPıTLAR **Azure SQL veritabanı**'nda depolanır.
 
 Yukarıdaki **Arka Uç** kümesi resminde yer alan kesik çizgi, kullanıcılar tarafından erişilebilen iki bileşen (kesik çizginin sol tarafı) ile yalnızca sistem tarafından erişilebilen roller arasındaki ayrımı göstermektedir. Kimliği doğrulanmış bir kullanıcı Power BI hizmetine bağlandığında bağlantı ve istemci istekleri **Ağ Geçidi Rolü** tarafından kabul edilip yönetilir (sonrasında **Azure API Management** tarafından işlenmek üzere) ve bu rol, Power BI hizmetinin geri kalan kısmında kullanıcının adına etkileşimde bulunur. Örneğin, bir istemci bir panoyu görüntülemek istediğinde **Ağ Geçidi Rolü** bu isteği kabul eder ve tarayıcının panoyu oluşturması için gerekli olan verileri almak için **Sunum Rolü**'ne ayrı bir istek gönderir.
 

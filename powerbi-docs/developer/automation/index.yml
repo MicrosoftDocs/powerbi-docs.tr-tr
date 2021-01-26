@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Power BI tümleşik analiz içinde daha iyi tümleşik BI içgörüleri elde edilmesini sağlayan Power BI otomasyon belgeleri
+title: Power BI otomasyon belgeleri
 summary: Power BI otomasyonu ile raporlar, veri kümeleri ve çalışma alanları gibi Power BI nesneleri üzerinde yönetim görevleri gerçekleştirebilirsiniz.
 metadata:
   title: Power BI otomasyon belgeleri
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: def78e481474b7186457d019404f4604406ce967
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-  ms.translationtype: HT
+  ms.openlocfilehash: eb357c5a89afec8f42b86ec80bca688e37101322
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.translationtype: MT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97887604"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781552"
 landingContent:
 - title: başlarken
   linkLists:
@@ -39,6 +39,12 @@ landingContent:
       url: walkthrough-push-data-add-rows.md
     - text: 'Öğretici: Şablon uygulama yapılandırmasını otomatikleştirme'
       url: ../template-apps/template-apps-auto-install-tutorial.md
+- title: İstemci API 'Leri
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Katıştırılmış analiz Istemcisi API 'Lerini Power BI
+      url: /javascript/api/overview/powerbi/
 - title: Verilerle çalışma
   linkLists:
   - linkListType: concept

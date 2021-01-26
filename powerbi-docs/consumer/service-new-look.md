@@ -7,14 +7,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 12/09/2020
+ms.date: 01/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 1ed6da298645de77a4ddfc7cba2fde9c89c30f0f
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ROBOTS: NOINDEX
+ms.openlocfilehash: 5de13f991e5439cf25bf8c00dc260fccc4918318
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98687339"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780777"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Power BI hizmetinin 'yeni görünümü'
 

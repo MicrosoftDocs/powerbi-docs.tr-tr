@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 5cee5dd701f7ac40b3f363e1bdcee039037fcde9
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: f46da004e554027eae1943444bdcf40791d6c76e
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565137"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781620"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI güvenliği teknik incelemesi
 
@@ -205,7 +205,7 @@ Bulut tabanlı veri kaynakları için Veri Taşıma Rolü şifreleme anahtarlar�
 
     a. Analysis Services şirket içi için, Azure SQL'de şifrelenmiş olarak depolanan bu veritabanının başvurusu dışında hiçbir şey depolanmaz.
 
-    b. ETL, DirectQuery ve Veri Gönderimi'ne yönelik diğer tüm meta veriler Azure Blob depolama alanında şifrelenir ve depolanır.
+    b. ETL, DirectQuery ve push verileri için diğer tüm meta veriler, Azure Blob depolama alanında şifrelenir ve depolanır.
 
 1. Özgün veri kaynaklarının kimlik bilgileri
   
@@ -226,19 +226,19 @@ Bulut tabanlı veri kaynakları için Veri Taşıma Rolü şifreleme anahtarlar�
 
     a. Analysis Services şirket içi ve DirectQuery: Power BI Hizmetinde hiçbir şey depolanmaz.
 
-    b. ETL: Azure Blob depolama alanında şifrelenir ancak şu anda Power BI hizmetinin Azure Blob depolama alanında yer alan tüm veriler sunucu tarafı şifrelemesi olarak da bilinen [Azure Depolama Hizmeti Şifrelemesi (SSE)](/azure/storage/common/storage-service-encryption) kullanır. Multi-geo da SSE kullanır.
+    b. ETL – Azure Blob depolamada şifrelenir, ancak şu anda Power BI hizmeti Azure Blob depolamadaki tüm veriler, sunucu tarafı şifreleme olarak da bilinen [azure depolama hizmeti şifrelemesi (SSE)](/azure/storage/common/storage-service-encryption)kullanır. Multi-geo da SSE kullanır.
 
-    c. Veri gönderimi v1: Azure Blob depolama alanında şifrelenmiş olarak depolanır ama şu anda Power BI hizmetinin Azure Blob depolama alanında yer alan tüm veriler sunucu tarafı şifrelemesi olarak da bilinen [Azure Depolama Hizmeti Şifrelemesi (SSE)](/azure/storage/common/storage-service-encryption) kullanır. Multi-geo da SSE kullanır. Gönderim verileri v1 2016 tarihinden itibaren kullanımdan kaldırılmıştır. 
+    c. Gönderim verileri v1 – Azure Blob depolamada şifrelenmiş olarak depolanır, ancak şu anda Power BI hizmeti Azure Blob depolamada bulunan tüm veriler, sunucu tarafı şifreleme olarak da bilinen [azure depolama hizmeti şifrelemesi (SSE)](/azure/storage/common/storage-service-encryption)kullanır. Multi-geo da SSE kullanır. Gönderim verileri v1 2016 tarihinden itibaren kullanımdan kaldırılmıştır. 
 
     d. Veri gönderimi v2: Azure SQL’de şifrelenmiş olarak depolanır.
 
-Power BI istemci tarafı şifrelemesi yaklaşımını kullanılır. Bu yaklaşımda Azure Blob depolama alanını şifrelemek için gelişmiş şifreleme standardıyla (AES) zincirleme blok şifreleme (CBC) modu kullanılır. [İstemci tarafı şifrelemesi hakkında daha fazla bilgi edinebilirsiniz.](/azure/storage/common/storage-client-side-encryption)
+Power BI, Azure Blob depolamayı şifrelemek için, Gelişmiş Şifreleme Standardı (AES) ile birlikte Şifre blok zincirleme (CBC) modunu kullanarak istemci tarafı şifreleme yaklaşımını kullanır. [İstemci tarafı şifrelemesi hakkında daha fazla bilgi edinebilirsiniz.](/azure/storage/common/storage-client-side-encryption)
 
 Power BI aşağıdaki yollarla veri bütünlüğünün izlenmesini sağlar:
 
 * Azure SQL’de bekleyen veriler için Power BI SQL’in yerel tekliflerinin bir parçası olarak dbcc'yi, TDE'yi ve sürekli sayfa sağlama toplamını kullanır.
 
-* Azure Blob depolama alanında bekleyen veriler için Power BI istemci tarafı şifrelemesi ve HTTPS kullanarak, verileri veri alımı sırasında veri bütünlüğünü denetleyen depolama alanlarına aktarır. [Azure Blob depolama güvenliği hakkında daha fazla bilgi edinebilirsiniz](/azure/storage/blobs/security-recommendations).
+* Azure Blob depolamada bekleyen veriler için Power BI, verileri alma sırasında bütünlük denetimleri içeren depolama alanına veri aktarmak için istemci tarafı şifrelemeyi ve HTTPS 'yi kullanır. [Azure Blob Depolama güvenliği hakkında daha fazla bilgi](/azure/storage/blobs/security-recommendations)edinebilirsiniz.
 
 #### <a name="reports"></a>Raporlar
 
@@ -256,7 +256,7 @@ Power BI aşağıdaki yollarla veri bütünlüğünün izlenmesini sağlar:
 
     &ensp;&ensp;a. Microsoft 365 için Excel ile oluşturulan raporlarda hiçbir şey depolanmaz.
 
-    &ensp;&ensp;b. Power BI raporları söz konusu olduğunda statik veriler Azure Blob depolama alanında depolanır ve şifrelenir.
+    &ensp;&ensp;b. Power BI raporlarında, statik veriler depolanır ve Azure Blob depolamada şifrelenir.
 
 3. Önbellekler
 
@@ -267,7 +267,7 @@ Power BI aşağıdaki yollarla veri bütünlüğünün izlenmesini sağlar:
 
 4. Özgün Power BI Desktop (.pbix) veya Excel (.xlsx) dosyaları Power BI’da yayımlanır
 
-    Bazen .xlsx veya .pbix dosyalarının bir kopyası veya gölge kopyası Power BI’ın Azure Blob depolama alanında depolanabilir ve bu durumda veriler şifrelenir. Power BI hizmetindeki Azure Blob depolama alanında depolanan bu tür raporların tümü sunucu tarafı şifrelemesi olarak da bilinen [Azure Depolama Hizmeti Şifrelemesi (SSE)](/azure/storage/common/storage-service-encryption) kullanır. Multi-geo da SSE kullanır.
+    Bazen. xlsx veya. pbix dosyalarının bir kopyası veya gölge kopyası Power BI Azure Blob depolama alanında depolanır ve bu durumda veriler şifrelenir. Power BI hizmeti depolanan tüm raporlar Azure Blob depolama alanında, sunucu tarafı şifreleme olarak da bilinen [azure depolama hizmeti şifrelemesi (SSE)](/azure/storage/common/storage-service-encryption)kullanın. Multi-geo da SSE kullanır.
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Panolar ve Pano Kutucukları
 

@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 4096ba77bc8733ff2e3d24cd646aa480aa53819d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98687546"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781515"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Sayfalandırılmış raporu dosyaya aktarma (önizleme)
 
@@ -127,11 +127,12 @@ Burada RLS için etkin bir kullanıcı adı sağlama işleminin gösterildiği b
 
 Power BI ' de, OAuth 'u SSO ile ayarlama seçeneğiniz vardır. Bunu yaptığınızda, raporu görüntüleyen kullanıcının kimlik bilgileri verileri almak için kullanılır. Talep Rest üstbilgisindeki erişim belirteci verilere erişmek için kullanılmaz, belirtecin ileti gövdesinde etkin kimlikle geçirilmesi gerekir.
 
-Erişim belirteçlerini kafa karıştırıcı yapabilir, erişmek istediğiniz kaynak için doğru erişim belirtecini elde edebilir. 
-- Azure SQL için kaynak https://database.windows.net
-- Veri deposu için kaynak, ortamınız için https://adresidir. Örnek https://contoso.crm.dynamics.com
+Erişim belirteçlerini kafa karıştırıcı yapabilir, erişmek istediğiniz kaynak için doğru erişim belirtecini elde edebilir.
 
-Belirteç API 'sine [buraya](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync?view=azure-dotnet) erişin
+- Azure SQL için kaynak `https://database.windows.net` .
+- Datadize için kaynak, `https://` ortamınızın adresidir. Örneğin, `https://contoso.crm.dynamics.com`.
+
+[AuthenticationContext. AcquireTokenAsync](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync) metodunu kullanarak belirteç API 'sine erişin.
 
 Bir erişim belirteciyle etkin bir Kullanıcı adı sağlamaya yönelik bir örnek aşağıda verilmiştir.
 

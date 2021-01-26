@@ -12,7 +12,7 @@
       items:
         - name: 'Öğretici: Power BI dairesel kart görseli geliştirme'
           href: develop-circle-card.md
-        - name: React Tabanlı Görseller Oluşturma
+        - name: 'Öğretici: tepki kullanarak Power BI görseli oluşturma'
           href: create-react-visual.md
         - name: Çubuk grafik oluşturma
           href: create-bar-chart.md

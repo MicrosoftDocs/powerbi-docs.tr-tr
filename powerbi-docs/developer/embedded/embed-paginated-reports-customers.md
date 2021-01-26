@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: b9623b91555efe01817e4ffca3c6f80bd73c5243
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
-ms.translationtype: HT
+ms.openlocfilehash: 1cbe656618e2d4240aebfe95ef4ebc2679616054
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110901"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781622"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme
 
-**Azure’da Power BI Embedded** veya **Office’te Power BI Embedded** ile verilerin sahibi uygulamadır örneğini kullanarak sayfalandırılmış raporları bir uygulamaya ekleyebilirsiniz. **Verilerin sahibi uygulamadır** örneği, eklenmiş analiz platformu olarak Power BI’ı kullanan bir uygulamanız olması durumunda kullanılır. Bir **ISV** veya **geliştirici** olarak, tamamen tümleşik ve etkileşimli bir uygulamada sayfalandırılmış raporlar görüntüleyen Power BI içeriği oluşturabilirsiniz. Üstelik kullanıcıların Power BI lisansı olması gerekmez. Bu öğreticide, müşterileriniz için Power BI JavaScript API’siyle birlikte Power BI .NET SDK’sını kullanıp sayfalandırılmış bir raporu uygulama ile tümleştirme işlemi gösterilir.
+**Azure’da Power BI Embedded** veya **Office’te Power BI Embedded** ile verilerin sahibi uygulamadır örneğini kullanarak sayfalandırılmış raporları bir uygulamaya ekleyebilirsiniz. **Verilerin sahibi uygulamadır** örneği, eklenmiş analiz platformu olarak Power BI’ı kullanan bir uygulamanız olması durumunda kullanılır. Bir **ISV** veya **geliştirici** olarak, tamamen tümleşik ve etkileşimli bir uygulamada sayfalandırılmış raporlar görüntüleyen Power BI içeriği oluşturabilirsiniz. Üstelik kullanıcıların Power BI lisansı olması gerekmez. Bu öğreticide, Power BI Istemci API 'Leriyle Power BI .NET SDK kullanarak sayfalandırılmış bir raporun uygulamayla nasıl tümleştirileceği gösterilmektedir.
 
 ![Power BI Rapor Ekleme](media/embed-paginated-reports-for-customers/embedded-paginated-report.png)
 
@@ -58,16 +58,10 @@ Ekleyeceğiniz sayfalandırılmış raporu içeri aktarmadan veya yüklemeden ö
 * **Power BI Premium**: Sayfalandırılmış rapor eklemek için *P* SKU kapasitesi gerekir. Power BI içeriği eklerken bu çözüm *Power BI ekleme* olarak adlandırılır. Bu abonelikle ilgili daha fazla bilgi için bkz. [Power BI Premium nedir?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded**: [Microsoft Azure portalından](https://portal.azure.com) kapasite satın alabilirsiniz. Bu abonelik *A* SKU’ları kullanır. Sayfalandırılmış raporlar eklemek için en az bir *A4* aboneliğine ihtiyacınız vardır. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
 
-    >[!NOTE]
-    >Kısa bir süre önce **Embedded 2. Nesil** adıyla yeni bir Power BI Embedded sürümü kullanıma sunuldu. Embedded 2. Nesil, Embedded kapasitelerinin yönetilmesini kolaylaştıracak ve Power BI Embedded deneyimini geliştirecek. Daha fazla bilgi için bkz. [Power BI Embedded 2. Nesil](power-bi-embedded-generation-2.md).
-
 Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım?](./embedded-faq.md#which-solution-should-i-choose) tablosuna bakın.
 
 | Kapasite Düğümleri | Toplam sanal çekirdek sayısı | Arka uç sanal çekirdek sayısı | RAM (GB) | Ön uç sanal çekirdek sayısı | 
 | --- | --- | --- | --- | --- |
-| A1 ve [Embedded 2. Nesil](power-bi-embedded-generation-2.md) | 1 | 0,5 | 2.5 | 0,5 |
-| A2 ve [Embedded 2. Nesil](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
-| A3 ve [Embedded 2. Nesil](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |
@@ -249,7 +243,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Ekleme belirtecini oluşturma
 
-JavaScript API’sinden kullanılabilecek bir ekleme belirteci oluşturun. Power BI sayfalandırılmış raporlarını eklemek üzere bir ekleme belirteci almak için [Raporlar GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API'sini kullanın.
+Katıştırılmış Power BI Analytics Istemci API 'Lerinde kullanılabilen bir ekleme belirteci oluşturun. Power BI sayfalandırılmış raporlarını eklemek üzere bir ekleme belirteci almak için [Raporlar GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) API'sini kullanın.
 
 Ekleme belirteci oluşturma örneği, [örnek uygulamanın](https://github.com/Microsoft/PowerBI-Developer-Samples) *Services\EmbedService.cs* dosyasında sağlanmıştır.
 
@@ -270,11 +264,11 @@ var embedConfig = new EmbedConfig()
 };
 ```
 
-### <a name="load-an-item-using-javascript"></a>JavaScript kullanarak öğe yükleme
+### <a name="load-an-item-using-the-client-apis"></a>Istemci API 'Lerini kullanarak bir öğe yükleme
 
-JavaScript kullanarak web sayfanızdaki bir div öğesine sayfalandırılmış rapor yükleyebilirsiniz.
+Web sayfanızda bir div öğesine sayfalandırılmış bir rapor yüklemek için Power BI katıştırılmış analitik Istemci API 'Lerini kullanabilirsiniz.
 
-JavaScript API kullanan tam bir örnek için [Playground aracı](https://microsoft.github.io/PowerBI-JavaScript/demo)'nı kullanabilirsiniz. Deneme Alanı aracı, farklı türde Power BI Embedded örnekleri ile yürütmenin hızlı bir yoludur. Ayrıca [PowerBI-JavaScript wiki](https://github.com/Microsoft/powerbi-javascript/wiki) sayfasını ziyaret ederek JavaScript API’si hakkında daha fazla bilgi alabilirsiniz.
+Istemci API 'SI kullanmanın tam bir örneği için [Playzemin aracını](https://microsoft.github.io/PowerBI-JavaScript/demo)kullanabilirsiniz. Deneme Alanı aracı, farklı türde Power BI Embedded örnekleri ile yürütmenin hızlı bir yoludur. Katıştırılmış [Power BI Analytics](/javascript/api/overview/powerbi/) Istemci API 'leri sayfasını ziyaret ederek Power BI katıştırılmış analiz istemcisi API 'si hakkında daha fazla bilgi edinebilirsiniz.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

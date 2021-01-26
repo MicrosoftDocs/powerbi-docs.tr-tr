@@ -1,5 +1,5 @@
 ### YamlMime:Hub
-title: Power BI tümleşik analiz içinde daha iyi tümleşik BI içgörüleri elde etmek için Power BI geliştirici belgeleri
+title: Power BI geliştirici belgelerini
 summary: Power BI geliştiricisi olarak, Power BI içeriği ekleyebilir, Power BI görseli geliştirebilir ve Power BI süreçlerini otomatikleştirebilirsiniz.
 brand: power-bi
 metadata:
@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 701f9e5e02d8b8cb8d019deebd9ae226560e07df
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-  ms.translationtype: HT
+  ms.openlocfilehash: 51bd353206d605cd0627e10e226d0950adf8de0f
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.translationtype: MT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97885695"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781448"
 highlightedContent:
   items:
   - title: Power BI ile tümleşik analiz
@@ -30,6 +30,9 @@ highlightedContent:
   - title: Power BI’daki görseller
     itemType: overview
     url: visuals/power-bi-custom-visuals.md
+  - title: Katıştırılmış analiz Istemcisi API 'Lerini Power BI
+    itemType: whats-new
+    url: /javascript/api/overview/powerbi/
   - title: Otomatikleştirilmiş şablon uygulama yapılandırması
     itemType: concept
     url: template-apps/template-apps-auto-install.md
@@ -105,6 +108,6 @@ additionalContent:
     - title: Deneme alanı
       summary: Özellikleri deneyin ve API’leri keşfedin.
       url: https://aka.ms/pbieplayground
-    - title: JavaScript wiki
-      summary: JavaScript bilgi bankasını keşfedin.
-      url: https://github.com/Microsoft/powerbi-javascript/wiki
+    - title: Katıştırılmış analiz Istemcisi API 'Lerini Power BI
+      summary: Power BI Embedded Analytics Istemci API 'Lerini keşfet.
+      url: /javascript/api/overview/powerbi/
