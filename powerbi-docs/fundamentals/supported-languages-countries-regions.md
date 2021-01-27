@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 04/23/2020
+ms.date: 01/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 9bd968676e2e9413c0d366cc22980e0a6355e4f9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 723debee411f6c2198e750fe6cb319f90e469174
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395038"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861196"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Power BI için desteklenen diller ve ülkeler/bölgeler
 
@@ -71,6 +71,9 @@ Power BI hizmeti (tarayıcıdaki) şu 44 dilde kullanılabilir:
 * Ukraynaca - українська
 * Vietnamca - Tiếng Việt
 
+## <a name="languages-for-power-bi-desktop"></a>Power BI Desktop diller
+Power BI Desktop, Ibranice ve Arapça dışında Power BI hizmeti aynı dillerde kullanılabilir. Masaüstü, sağdan sola dilleri desteklemez.
+
 ### <a name="whats-translated"></a>Neler çevrilir?
 Power BI, menüleri, düğmeleri, iletileri ve deneyimin diğer öğelerini dilinize çevirir. Örneğin Power BI otomatik olarak oluşturulan başlıklar, filtreler ve araç ipuçları gibi rapor içeriğini çevirir. Öte yandan verileriniz otomatik olarak çevrilmez. İbranice gibi sağdan sola düzende yazılan bir dili kullanıyorsanız raporların içindeki görsellerin yerleşimi değişmez.
 
@@ -81,43 +84,42 @@ Power BI, menüleri, düğmeleri, iletileri ve deneyimin diğer öğelerini dili
 
 Diğer diller için yeni özellikler sunmaya devam edeceğiz, bizimle kalın. 
 
+
 ### <a name="choose-your-language-in-the-power-bi-service"></a>Power BI hizmetinde dilinizi seçme
-1. Power BI hizmetinde **Ayarlar** simgesini seçin ![Ayarlar simgesini gösteren Power BI hizmetinin ekran görüntüsü.](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Ayarlar**.
-2. **Genel** sekmesi > **Dil**'i seçin.
-3. Dilinizi ve ardından **Uygula**'yı seçin.
+1. Power BI hizmeti, ayarlar simgesinin gösterildiği Power BI hizmeti **Ayarlar** simgesi ![ ekran görüntüsünü seçin.](media/supported-languages-countries-regions/pbi_settings_icon.png) > **Ayarlar**.
+2. **Genel** sekmesinde **dil**' i seçin.
+3. Tarayıcınız için zaten ayarlanmış olan dili kullanın veya Power BI hizmeti için ayrı bir dil seçin.  
 
 ### <a name="choose-your-language-in-the-browser"></a>Tarayıcınızda dilinizi değiştirme
-Power BI, bilgisayarınızdaki dil tercihlerine göre dilinizi algılar. Bu tercihlere erişmek ve tercihleri değiştirmek için izleyeceğiniz yol işletim sisteminize ve tarayıcınıza göre değişiklik gösterebilir. Aşağıda söz konusu tercihlere Internet Explorer ve Google Chrome'dan nasıl erişebileceğiniz açıklanmıştır.
+Power BI, bilgisayarınızdaki dil tercihlerine göre dilinizi algılar. Bu tercihlere erişmek ve tercihleri değiştirmek için izleyeceğiniz yol işletim sisteminize ve tarayıcınıza göre değişiklik gösterebilir. Bu tercihlerinize Microsoft Edge ve Google Chrome 'dan erişme hakkında daha fazla bilgiyi burada bulabilirsiniz.
 
-#### <a name="internet-explorer-version-11"></a>Internet Explorer (11 sürümü)
-1. Tarayıcı pencerenizin sağ üst köşesindeki **Araçlar** düğmesine tıklayın:
-   
-   ![Araçlar düğmesini gösteren Internet Explorer’ın ekran görüntüsü.](media/supported-languages-countries-regions/languages1.png)
-2. **Internet Seçenekleri**'ne tıklayın.
-3. Internet Seçenekleri iletişim kutusunun Genel sekmesinde Görünüm'ün altında bulunan **Diller** düğmesine tıklayın.
+#### <a name="microsoft-edge"></a>Microsoft Edge
+1. Tarayıcı pencerenizin sağ üst köşesindeki **ayarları ve daha fazla** üç nokta (...) simgesini seçin ve **Ayarlar**' ı seçin.    
+    ![Ayarların ve daha fazla simgenin gösterildiği kenar ekran görüntüsü.](media/supported-languages-countries-regions/power-bi-setting-icon.png)
 
-#### <a name="google-chrome-version-42"></a>Google Chrome (42 sürümü)
-1. Tarayıcı pencerenizin sağ üst köşesindeki menü düğmesine tıklayın:
+1. Tarayıcı pencerenizin sol üst köşesindeki **Ayarlar** simgesini seçin ve **Diller**' i seçin.
    
-   ![Menü düğmesini gösteren Google Chrome’un ekran görüntüsü.](media/supported-languages-countries-regions/languages2.png)
-2. **Ayarlar**'a tıklayın.
-3. **Gelişmiş ayarları göster**'e tıklayın.
-4. Diller bölümünde **Dil ve giriş ayarları** düğmesine tıklayın.
-5. **Ekle**'ye tıklayın, bir dil seçin ve **Tamam**'a tıklayın.
+   ![Ayarlar düğmesini gösteren kenar ekran görüntüsü.](media/supported-languages-countries-regions/power-bi-languages.png)
+
+1. Tercih ettiğiniz dili seçin.
+
+#### <a name="google-chrome-version-87"></a>Google Chrome (sürüm 87)
+1. Tarayıcı pencerenizin sağ üst köşesindeki menü düğmesini seçin ve **Ayarlar**' ı seçin.
    
-   ![Diller listesini gösteren Google Chrome’un ekran görüntüsü.](media/supported-languages-countries-regions/pbi_langs_enus.png)
-   
-   Yeni dil, listenin sonuna eklenir. 
-6. Yeni dili listenin başına sürükleyin ve **Google Chrome'u bu dilde görüntüle**'ye tıklayın.
-   
-   ![Görüntüleme dilini gösteren Google Chrome’un ekran görüntüsü.](media/supported-languages-countries-regions/pbi_langs_eses.png)
+   ![Menü düğmesini gösteren Google Chrome’un ekran görüntüsü.](media/supported-languages-countries-regions/power-bi-chrome.png)
+ 
+3. **Gelişmiş**' i genişletin ve **Diller**' i seçin.
+
+    ![Diller ayarını gösteren Google Chrome ekran görüntüsü.](media/supported-languages-countries-regions/power-bi-chrome-settings.png)
+
+4. Yeni bir dil eklemek için dil **Ekle**' yi seçin.
    
    Değişikliğin uygulanması için tarayıcınızı kapatıp yeniden açmanız gerekebilir.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Power BI Desktop'ta dili veya yerel ayarı seçme
-Power BI Desktop'ı almanızın iki yolu vardır: Tek başına yükleyici olarak indirebilir veya Microsoft Store’dan yükleyebilirsiniz.
+Power BI Desktop'ı almanızın iki yolu vardır: Tek başına yükleyici olarak indirebilir veya Microsoft Store’dan yükleyebilirsiniz. 
 
-* Power BI Desktop’ı Windows Mağazası’ndan yükleyecekseniz tüm diller yüklenir ve varsayılan olarak Windows işletim sisteminizdeki varsayılan dile karşılık gelen dil gösterilir.
+* Windows Mağazası 'ndan Power BI Desktop yüklediğinizde, tüm diller (Şu anda, 42 dili) yüklenir ve varsayılan olarak Windows varsayılan diline karşılık gelen dili gösterir.
 * Power BI Desktop’ı tek başına yükleyici olarak indirdiğinizde, yükleyiciyi çalıştırırken varsayılan dili seçerseniz. Sonraki bir tarihte bu dili değiştirebilirsiniz.
 * Belirli bir rapor için [veriler içeri aktarılırken kullanılacak bir yerel ayar](#choose-the-locale-for-importing-data-into-power-bi-desktop) da seçebilirsiniz.
 
@@ -126,21 +128,11 @@ Power BI Desktop'ı almanızın iki yolu vardır: Tek başına yükleyici olarak
 
 ### <a name="choose-a-language-for-power-bi-desktop"></a>Power BI Desktop için dil seçme 
 1. Power BI Desktop’ı [Microsoft Store](https://aka.ms/pbidesktopstore)’dan veya [tek başına yükleyici](https://aka.ms/pbiSingleInstaller) olarak yükleyin.
-2. Dili değiştirmek için Windows menüsünde **Ayarlar**’ı seçin
+2. Dili değiştirmek için Masaüstünü açın ve sol üst köşede **Dosya**  >  **seçenekleri ve ayarlar**  >  **Seçenekler**' i seçin.    
 
-3. **Windows Ayarları**’nda **Zaman ve dil**’i seçin.
-   
-     ![Windows ayarları iletişim kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
-4. **Dil**’i seçin ve bir dil belirtin. Gerekirse **Microsoft Store’da Windows görüntüleme dili ekle**’yi seçin.
-   
-     ![Windows dil ayarları iletişim kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/supported-languages-countries-regions/power-bi-service-language-settings.png)
-   
-     Power BI Desktop'ı tekrar başlattığınızda, varsayılan olarak ayarladığınız dil kullanılır. 
+   ![Seçenekler düğmesini gösteren Power BI Desktop ekran görüntüsü.](media/supported-languages-countries-regions/power-bi-desktop-options.png)    
 
-Varsayılan ayarı geçersiz kılıp Power BI Desktop’ı Windows dilinizden farklı bir dilde kullanmak için aşağıdakileri yapın.
-1. Power BI Desktop'ta **Dosya** > **Seçenekler ve ayarlar** > **Seçenekler** bölümüne gidin.
-2. **Genel**'in altında **Bölgesel Ayarlar**'ı seçin.
-3. **Uygulama Dili** kutusundan farklı bir yerel ayar seçin. 
+1. **Bölgesel ayarları** seçin ve dil tercihlerinizi ayarlayın veya değiştirin.
 
 Power BI Desktop’ın dil desteği Uygulama Dili açılan listesinde gösterilen dillerle sınırlıdır.
 
@@ -154,7 +146,7 @@ Power BI Desktop varsayılan sayı ve tarih biçimlendirmesini Windows Bölge ay
    
      ![Windows ayarları iletişim kutusunu gösteren Power BI Desktop’ın ekran görüntüsü.](media/supported-languages-countries-regions/power-bi-service-windows-settings.png)
 
-3. **Bölge** > **Ek tarih, saat ve bölgesel ayarlar**’ı seçin.
+3. **Bölge** > **Ek tarih, saat ve bölgesel ayarlar**’ı seçin. Bu seçeneği görmüyorsanız, **veri biçimlerini Değiştir**' i ve ardından **ilgili ayarları** seçin.
 
     :::image type="content" source="media/supported-languages-countries-regions/power-bi-service-region-settings.png" alt-text="Ek tarih, saat ve bölgesel ayarlar":::
 

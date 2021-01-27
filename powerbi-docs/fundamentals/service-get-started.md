@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
-ms.date: 07/08/2020
+ms.date: 01/13/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 4e74bec243faad281c457caaa15a6edacf2b10cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 04777ba93b6a4639b55406b3952a80de963cb540
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417141"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861227"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Öğretici: Power BI hizmetinde içerik oluşturmaya başlama
 Bu öğretici, *Power BI hizmetinin* bazı özelliklerine giriş niteliğindedir. Bu öğreticide, verilere bağlanır, bir rapor ve bir pano oluşturur ve verileriniz hakkında sorular sorarsınız. Power BI hizmetinde çok daha fazlasını yapabilirsiniz. Bu öğretici yalnızca başlangıç niteliğindedir. Power BI hizmetinin, diğer Power BI teklifleriyle nasıl bir uyum içinde çalıştığını anlamanız için [Power BI nedir?](power-bi-overview.md) makalesini okumanızı öneririz.
@@ -40,7 +40,7 @@ Power BI'da içerik oluşturmak için Power BI Pro lisansı gerekir. Bir Power B
 
 ## <a name="step-1-get-data"></a>1\. Adım: Veri al
 
-Genellikle Power BI bir raporu oluşturmak istediğinizde çalışmaya Power BI Desktop’ta başlarsınız. Power BI Desktop daha fazla özellik sunar. Raporu tasarlamaya başlamadan önce verileri dönüştürebilir, şekillendirebilir ve modelleyebilirsiniz. Ancak bu kez, Power BI hizmetinde bir rapor oluşturmaya sıfırdan başlayacağız.
+Genellikle, Power BI bir rapor oluşturmak istediğinizde Power BI Desktop başlatılır. Power BI Desktop daha fazla özellik sunar. Raporları tasarlamaya başlamadan önce, verileri dönüştürebilir, şekillendirebilir ve modelleyebilirsiniz. Ancak bu kez, Power BI hizmetinde bir rapor oluşturmaya sıfırdan başlayacağız.
 
 Bu öğreticide verileri basit bir Microsoft Excel dosyasından alacağız. Birlikte ilerlemek ister misiniz? [Finansal Örnek dosyasını indirin](https://go.microsoft.com/fwlink/?LinkID=521962).
 
@@ -223,6 +223,8 @@ Pano alanını daha iyi kullanmak için kutucukları yeniden düzenleyebiliriz.
 4. **Sil**’i seçin.
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
+[Power BI hizmeti veri yapıştırarak hızlıca rapor oluşturma](https://powerbi.microsoft.com/en-us/blog/quickly-create-reports-power-bi-service/)
 
 Power BI için şu Microsoft Learn içerik koleksiyonlarını keşfedin:
 

@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 01/15/2021
+ms.date: 01/26/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 2710143ddd0474e38e7c0c1e6f82ba9c3d1fbba3
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565421"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861250"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Klasik çalışma alanlarında kullanım ölçümlerini izleme
 
@@ -157,12 +157,12 @@ Kullanım ölçümleriyle denetim günlüklerini karşılaştırırken farklıl�
 
 * Kullanım ölçümleri bazen ağ bağlantılarındaki tutarsızlıklar, reklam engelleyiciler veya istemciden etkinlikleri göndermeyi aksatan diğer sorunlar nedeniyle etkinlikleri eksik sayabilir.
 * Bu makalede daha önce açıklandığı gibi belirli görünüm türleri kullanım ölçümlerine dahil edilmez.
-* Kullanım ölçümleri istemcinin isteği Power BI hizmetine geri göndermesine gerek olmadan yenilemesi durumlarında, bazen etkinlikleri fazla sayabilir.
+* Kullanım ölçümleri istemcinin isteği Power BI hizmetine geri göndermesine gerek olmadan yenilemesi durumlarında, bazen etkinlikleri fazla sayabilir. Örneğin, sayfa tanımı zaten tarayıcıda olduğundan, rapor sayfalarını değiştirmek sunucuya bir rapor yükleme isteği vermez.
 * Kullanım ölçümleri raporu için paylaşım devre dışı bırakıldı. Kullanıcılara rapora okuma erişimi vermek için öncelikle çalışma alanı erişimi vermeniz gerekir.
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>REST API'ler ile kullanım ölçümleri arasındaki tutarsızlıklar
 
-Power BI [Rapor REST API'leri](/rest/api/power-bi/reports) ve [Yönetici REST API'leri](/rest/api/power-bi/admin) de Power BI hizmet verilerini kullanır. Önceki bölümde açıklanan nedenlerle API'lerden gelen rapor sayıları kullanım ölçümlerindeki rapor sayılarından farklı olabilir. API'lerden türetilen rapor sayıları istemci sorunlarından etkilenmez, dolayısıyla doğru kabul edilmelidir.
+Power BI [Rapor REST API'leri](/rest/api/power-bi/reports) ve [Yönetici REST API'leri](/rest/api/power-bi/admin) de Power BI hizmet verilerini kullanır. Önceki bölümde açıklanan nedenlerle API'lerden gelen rapor sayıları kullanım ölçümlerindeki rapor sayılarından farklı olabilir. API'lerden türetilen rapor sayıları istemci sorunlarından etkilenmez, dolayısıyla doğru kabul edilmelidir. Ayrıca, yönetim API 'Lerinin size Power BI dağıtımının "geçerli durum" i olduğunu ve yalnızca istek sırasında neler olduğunu düşündüğüne dikkat edin. Klasik kullanım ölçümleri raporunda 90 gün veri bulunur ve "Toplam sayım", 90 gün içinde görüntülenen benzersiz raporları temsil eder. Raporlar görüntülendikten sonra silinirse, bunlar yönetici API 'Leri tarafından sayılmaz, ancak kullanım raporunu beslemenin geçmiş verilerinde sayılır.
 
 ### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>Klasik Kullanım Ölçümleri, Özel Bağlantılar için desteklenmez 
 
