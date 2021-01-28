@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/22/2021
-ms.openlocfilehash: 88293bbfc39f75472422e6785099421efcd45802
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 5817bf3752a03361be4e982faf10dffb67bda0b5
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718543"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925785"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Kendinizi ve başkalarını Power BI hizmetinde sayfalandırılmış raporlara abone yapma 
 
@@ -29,7 +29,7 @@ Abonelikleri ayarlarken ne sıklıkta e-posta almak istediğinizi seçersiniz: g
 
 - E-posta gövdesine raporun önizleme görüntüsünü ekleyebilirsiniz.  Bu isteğe bağlıdır ve seçtiğiniz ek biçimine bağlı olarak ekli rapor belgenizin ilk sayfasından biraz farklı olabilir. 
 
-- Rapor eki boyutu üst sınırı 24 MB'tır. 
+- Rapor eki boyutu üst sınırı 25 MB'tır. 
 
 - Diğer kullanıcılara, Azure Analysis Services veya Power BI veri kümeleri dahil olmak üzere, şu anda desteklenen herhangi bir veri kaynağına bağlanan sayfalandırılmış raporlara abone olabilirsiniz. SQL Server Reporting Services'in bugün yaptığı gibi, rapor ekinin sizin izinleriniz temelinde verileri yansıttığını unutmayın. 
 

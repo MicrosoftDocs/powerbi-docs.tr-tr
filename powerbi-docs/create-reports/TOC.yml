@@ -85,6 +85,8 @@
           items:
             - name: Power BI’da Rapor Oluşturucusu
               href: ../paginated-reports/report-builder-power-bi.md
+            - name: Rapor Oluşturucusu değişiklik günlüğü
+              href: ../paginated-reports/paginated-reports-change-log.md
             - name: Örnek Power BI sayfalandırılmış raporlar
               href: ../paginated-reports/paginated-reports-samples.md
             - name: Rapor Tasarım Görünümünde gezinme

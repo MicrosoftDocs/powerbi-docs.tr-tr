@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: 0f9edc247401ccf72ec1a5b0aebb5b3a074a5494
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888626"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925721"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta model ilişkileri
 
@@ -53,7 +53,7 @@ Model ilişkisi, bir tablo içindeki sütunlardan biriyle farklı bir tablonun s
 
 ### <a name="cardinality"></a>Kardinalite
 
-Her model ilişkisiyle birlikte bir kardinalite türü tanımlanması gerekir. "Kaynak" ve "hedef" ilişkili sütunların veri özelliklerini temsil eden dört farklı kardinalite türü seçeneği vardır. "Bir" taraf, sütunun benzersiz değerler içerdiğini, "iki" taraf ise sütunda yinelenen değerler bulunabileceği anlamına gelir.
+Her model ilişkisiyle birlikte bir kardinalite türü tanımlanması gerekir. "Kaynak" ve "hedef" ilişkili sütunların veri özelliklerini temsil eden dört farklı kardinalite türü seçeneği vardır. "Bir" tarafı sütunun benzersiz değerler içerdiği anlamına gelir; "çok" tarafı, sütunun yinelenen değerler içerebileceği anlamına gelir.
 
 > [!NOTE]
 > Bir veri yenileme işleminin "bir" taraflı sütuna yinelenen değer yükleme girişiminde bulunması durumunda veri yenileme işleminin tamamı başarısız olur.

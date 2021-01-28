@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: df109f279a43826e164a461ae213bc74c0498cea
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 52c3d5dea171f34fbbe5133eda6fd51fd471bbd4
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565028"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925658"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI'da duyarlılık etiketleri
 
@@ -202,6 +202,8 @@ Bu merkezlerin birinde duyarlılık etiketlerine erişmek için **Sınıflandır
 * **PDF'ye aktar** seçeneği duyarlılık etiketlerini desteklemez. Duyarlılık etiketi olan bir dosyayı PDF'ye aktarırsanız, PDF etiketi almaz ve hiçbir koruma uygulanmaz.
 
 * Power BI Desktop'taki bilgi koruması **B2B** ve **çok kiracılı senaryoları** desteklemez.
+
+* Etiketli bir. pbix dosyası ile hizmette etiketlenmiş bir veri kümesinin veya raporun üzerine yazıldıysanız, hizmetteki Etiketler korunur.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

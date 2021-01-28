@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 09188b3b03fd5bfb720b98045ee9d895d337d677
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: a50a8c8514a4316f16a6a38647804aabf878d5ad
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969179"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925695"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Power BI'da duyarlılık etiketlerini uygulama
 
@@ -95,7 +95,7 @@ Siz etiketi uyguladıktan sonra etiket durum çubuğunda görünür.
 ![Desktop durum çubuğundaki duyarlılık etiketinin ekran görüntüsü.](media/service-security-apply-data-sensitivity-labels/sensitivity-label-in-desktop-status-bar.png)
 
 ### <a name="sensitivity-labels-when-uploading-or-downloading-pbix-files-tofrom-the-service"></a>Hizmete veya hizmetten .pbix dosyalarını yükler veya indirirken duyarlılık etiketleri
-* Desktop'tan Power BI hizmetine bir .pbix dosyası yayımladığınızda veya .pbix dosyasını doğrudan **Veri al**'ı kullanarak Power BI hizmetine yüklediğinizde, .pbix dosyasının etiketi hizmette oluşturulan hem rapora hem de veri kümesine uygulanır. Yayımladığınız veya karşıya yüklediğiniz .pbix dosyası mevcut varlıkların (.pbix dosyasıyla aynı adı taşıyan varlıkların) yerini alıyorsa, .pbix dosyasının etiketi söz konusu varlıklardaki etiketlerin üzerine yazılır.
+* Desktop'tan Power BI hizmetine bir .pbix dosyası yayımladığınızda veya .pbix dosyasını doğrudan **Veri al**'ı kullanarak Power BI hizmetine yüklediğinizde, .pbix dosyasının etiketi hizmette oluşturulan hem rapora hem de veri kümesine uygulanır. Yayımladığınız veya karşıya yüklediğiniz .pbix dosyası mevcut varlıkların (.pbix dosyasıyla aynı adı taşıyan varlıkların) yerini alıyorsa, .pbix dosyasının etiketi söz konusu varlıklardaki etiketlerin üzerine yazılır. . Pbix dosyasının etiketi yoksa, hizmette bulunan Etiketler korunur.
 * Power BI hizmetinde ".pbix dosyasına indir" özelliği kullanılırken, indirilen hem raporun hem de veri kümesinin etiketleri varsa ve bu etiketler birbirinden farklıysa, .pbix dosyasına bu iki etiketten daha kısıtlayıcı olan uygulanır.
 
 ## <a name="remove-sensitivity-labels"></a>Duyarlılık etiketlerini kaldırma

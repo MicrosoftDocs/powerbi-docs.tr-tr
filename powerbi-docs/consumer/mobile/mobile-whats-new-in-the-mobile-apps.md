@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 8301b51ccbb2ac344e24a297f9a309fc3601b3e1
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 4a50d35ee3aa25932537846a13fc2d75c6fa38df
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565592"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925805"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -24,6 +24,10 @@ ms.locfileid: "98565592"
 
 >[!NOTE]
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="january-2021"></a>Ocak 2021
+### <a name="workspace-support-with-a-power-bi-free-license"></a>Power BI ücretsiz lisansa sahip çalışma alanı desteği
+Power BI ücretsiz lisansa sahip kullanıcılar, artık çalışma alanları listesinden doğrudan görüntüleyiciler olarak eklendikleri çalışma alanlarını görüntüleyebilir ve bunlara erişebilir. Bu değişiklik Power BI Premium kapasitesinde barındırılan içerik için geçerlidir.
 
 ## <a name="december-2020"></a>Aralık 2020
 ### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>Mobil uygulamalara anomali algılama ekledik

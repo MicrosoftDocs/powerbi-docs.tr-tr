@@ -9,12 +9,12 @@ ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
 ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
-ms.openlocfilehash: 32d42ee139ceb03326b99d88e6033475ed2a4cc7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: ce45260c536733dde9dcfe7c654ed4f56c58c7ea
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416267"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925750"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Rapor Oluşturucusu
 
@@ -22,7 +22,7 @@ ms.locfileid: "96416267"
 
 Power BI Rapor Oluşturucusu, Power BI hizmetinde yayımlayabileceğiniz sayfalandırılmış raporlar yazmaya yarayan bir araçtır.  Sayfalandırılmış rapor tasarlarken hangi verilerin nereden alınacağını ve nasıl görüntüleneceğini belirten bir rapor tanımı oluşturursunuz. Raporu çalıştırdığınızda, rapor işlemcisi belirttiğiniz rapor tanımını alır, verileri alır ve raporu oluşturmak için rapor düzeni ile birleştirir. Rapor Oluşturucusu'nda raporunuzun önizlemesini görüntüleyebilirsiniz. Daha sonra raporunuzu Power BI hizmetinde yayımlayın.
  
-Yazmaya başlamaya hazır mısınız? Microsoft İndirme Merkezi’nden [Power BI Rapor Oluşturucusu’nu yükleyin](https://aka.ms/pbireportbuilder).
+Yazmaya başlamaya hazır mısınız? Microsoft İndirme Merkezi’nden [Power BI Rapor Oluşturucusu’nu yükleyin](https://go.microsoft.com/fwlink/?linkid=2086513).
 
 Videolardan öğrenmeyi mi tercih ediyorsunuz? [Video temelli kurs: Bir Gündeki Power BI Sayfalandırılmış Raporları](../learning-catalog/paginated-reports-online-course.md)’na göz atın.
 
