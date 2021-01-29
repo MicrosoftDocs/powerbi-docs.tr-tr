@@ -7,33 +7,98 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/30/2020
-ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
-ms.translationtype: HT
+ms.date: 01/27/2021
+ms.openlocfilehash: 0a0bef5c438abfc9ddf0417e95ff57534a64f67e
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96120755"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043600"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'ndaki yenilikler
 
-Power BI Rapor Sunucusu’nun son sürümündeki yenilikler ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, her yeni yayınla birlikte güncelleştirilmektedir. Power BI Rapor Sunucusu’ndaki yenilikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü](changelog.md).
+Power BI Rapor Sunucusu en son sürümlerindeki yenilikler ve Power BI Rapor Sunucusu için Power BI Desktop hakkında bilgi edinin. Önemli özelliklere yer verilen bu makale, her yeni yayınla birlikte güncelleştirilmektedir. Power BI Rapor Sunucusu’ndaki yenilikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü](changelog.md).
 
-[Power BI Rapor Sunucusu’nu ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ı](https://powerbi.microsoft.com/report-server/) indirin.
+[Power BI rapor sunucusu için Power BI rapor sunucusu ve Power BI Desktop](https://powerbi.microsoft.com/report-server/)indirin.
+
+## <a name="january-2021"></a>Ocak 2021
+
+Yeni ve güncelleştirilmiş özelliklerin listesi aşağıda verilmiştir. Ayrıntılar için bkz. [ocak 2021 için blog gönderisi Power BI rapor sunucusu](https://powerbi.microsoft.com/blog/power-bi-report-server-january-2021-feature-summary/).
+
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI Desktop
+
+Öne çıkan yeni özelliklerden bazıları aşağıda verilmiştir.
+
+**Power BI raporları**
+
+- Tüm Filtreleri Uygula genel kullanıma sunulmuştur
+- Görsel Yakınlaştırma kaydırıcısı
+- Web bağlantıları için sertifika iptal denetimi
+- Mobil Düzen görünümünde seçim bölmesi
+- Power BI desteği için argıs
+
+**Veri bağlantısı**
+
+- Hive LLAP Bağlayıcısı genel kullanıma sunuldu
+- Yeni bağlayıcılar: Actia, Anaplan, yıldız yağmuru Presto
+
+### <a name="new-connection-metadata-format-preview"></a>Yeni bağlantı meta verileri biçimi (Önizleme)
+
+Bağlantı meta verilerinin Ekim 'de. pbix dosya biçiminde depolanma biçimini güncelleştirdik. Bu güncelleştirme,. pbix dosyalarını programlı olarak erişilebilir ve düzenlenebilir hale getirmek için uzun süreli bir yolculuğun bir parçasıdır. Power BI hizmeti ile ayda ayda bir olan Power BI Desktop sürümündeki değişikliği zaten etkinleştirdik. Bu ay başlayarak rapor sunucusu için Power BI Desktop bu sürümündeki değişiklikleri önizliyoruz.
+
+Bu sürümden itibaren, önizlemeyi açıp gelişmiş biçime yükseltmenizi isteyen aşağıdaki bildirimi görürsünüz:
+
+"Yakında kullanıma sunulacak. Power BI daha iyi performans ve güvenlik güncelleştirmeleri almak için gelişmiş meta veri biçimi önizlemesini açın."
+
+Şunlara dikkat edin:
+
+- Mevcut veri kümeleri, yükseltme olmadan bile çalışmaya devam edecektir. Gelişmiş Biçim genel kullanıma sunulduğunda yükseltilir.
+- Rapor sunucusu için Power BI Desktop, var olan bir veri kümesini sizin için otomatik olarak gelişmiş biçime yükseltecektir. Önceki biçime geri dönmek istemeniz durumunda, bu yükseltilen sürümdeki rapor sunucusu üzerindeki mevcut raporların üzerine yazılmasını öneririz.
+- Bu önizlemeye katılmak isteğe bağlıdır, ancak bize geri bildirimde bulunun. Gelişmiş biçimi rapor sunucusu 'nun bir sonraki sürümünde tek seçenek olarak genel kullanıma sunarız.
+ 
+Yönetici olarak, bu önizlemeyi devre dışı bırakabilir, v3 'yi zorlayabilir ve önizleme özelliğini gizleyebilirsiniz onay kutusunu kapatabilirsiniz. Kayıt defterinde şu DWORD değerini 0 olarak ayarlayın: AllowV3Models:
+
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop SSRS]
+"AllowV3Models"=dword:00000000
+```
+
+veya
+
+```
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Microsoft Power BI Desktop SSRS]
+"AllowV3Models"=dword:00000000
+```
+
+Daha fazla bilgi için bkz. [Gelişmiş veri kümesi meta verileri kullanma](../connect-data/desktop-enhanced-dataset-metadata.md) .
+
+### <a name="power-bi-report-server"></a>Power BI Rapor Sunucusu
+
+**Tarayıcı desteği kullanımdan kaldırılıyor**
+
+Eski sürüm veya Internet Explorer 11 kullanıyorsanız, tarayıcınızı yükseltmeniz zaman vardır. Edge eski tarayıcı desteği 9 Mart 2021 ' den itibaren sona eriyor. Internet Explorer 11 için destek 17 Ağustos 2021 tarihinden itibaren sona erer. 
+
+Internet Explorer 11 ' in kullanım dışı olduğunu Power BI Rapor Sunucusu Web portalında bir uyarı görürsünüz. Yükseltme zamanı! Ayrıntılar için bkz. [Power BI rapor sunucusu Için tarayıcı desteği](browser-support.md) .
+
+**Yeni ürün simgesi**
+
+Power BI Rapor Sunucusu, tüm Microsoft ürünlerinde kullanıma hazır yeni simgelerle birlikte yeni bir ürün simgesine sahiptir.
+
+:::image type="content" source="media/whats-new/power-bi-report-server-new-logo.png" alt-text="Yeni logo Power BI Rapor Sunucusu.":::
 
 ## <a name="october-2020"></a>Ekim 2020
 
 Aşağıda yeni ve güncelleştirilmiş özelliklerin tamamı listelenmiştir. Ayrıntılar için bkz. [Power BI Rapor Sunucusu Ekim 2020 blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-report-server-october-2020-feature-summary/). 
 
-### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI Desktop
 
 Öne çıkan yeni özelliklerden bazıları aşağıda verilmiştir.
 
 **Modern şerit**  
 
-Modern şerit, Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ta kullanıma sunuldu. Şeride daha fazla özellik eklemeye devam edeceğiz. Değişiklikler ve avantajlar hakkında daha fazla bilgi edinmek için [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](../create-reports/desktop-ribbon.md) başlıklı makaleye göz atın.
+Modern şerit, Power BI Rapor Sunucusu için Power BI Desktop gelir. Şeride daha fazla özellik eklemeye devam edeceğiz. Değişiklikler ve avantajlar hakkında daha fazla bilgi edinmek için [Power BI Desktop’taki güncelleştirilmiş şeridi kullanma](../create-reports/desktop-ribbon.md) başlıklı makaleye göz atın.
 
-:::image type="content" source="media/whats-new/report-server-new-ribbon.png" alt-text="Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’taki yeni şeridin ekran görüntüsü.":::
+:::image type="content" source="media/whats-new/report-server-new-ribbon.png" alt-text="Power BI Rapor Sunucusu için Power BI Desktop yeni şeridin ekran görüntüsü.":::
 
 **Hiyerarşi dilimleyicileri**
 
@@ -44,13 +109,13 @@ Birden çok ilgili alanı tek bir dilimleyicide filtrelemek için *hiyerarşi di
 - Alt öğeler için özelleştirilebilir girintileme.
 - Dilimleyici üst bilgi metni için daha fazla özelleştirme.
 
-:::image type="content" source="media/whats-new/report-server-slicer-hierarchy.png" alt-text="Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’taki hiyerarşi dilimleyicisi.":::
+:::image type="content" source="media/whats-new/report-server-slicer-hierarchy.png" alt-text="Power BI Rapor Sunucusu için Power BI Desktop hiyerarşi dilimleyicisi.":::
 
 Ayrıntılar için belgelerdeki [Power BI’daki dilimleyiciler](../visuals/power-bi-visualization-slicers.md) bölümünü inceleyin.
 
 **Mobil yazma geliştirmeleri** 
 
-Bu sürümde, iyileştirilmiş mobil düzende yazma deneyimi ve ek mobil düzen özelliklerini kullanıma sunuyoruz. Power BI mobil uygulamasını benimseyen kuruluş sayısı arttıkça, mobilde yazma deneyimiyle ilgili daha fazla özellik ve iyileştirme talebi olduğuna dair görüşler aldık. Bu sürümdeki geliştirmeler, mobil cihazlar için iyileştirilmiş ilgi çekici ve etkileşimli raporları daha kolay bir biçimde hazırlamanıza yardımcı olacak.
+Bu sürümde, geliştirilmiş bir mobil düzen yazma deneyimi ve daha fazla mobil düzen özelliği sunuyoruz. Power BI mobil uygulamaları benimseyen daha fazla kuruluş, mobil yazma deneyimi için daha fazla özellik ve iyileştirmeler isteyen bir geri bildirim aldık. Bu sürümdeki geliştirmeler, mobil cihazlar için iyileştirilmiş ilgi çekici ve etkileşimli raporları daha kolay bir biçimde hazırlamanıza yardımcı olacak.
 
 Mobil cihazlar için iyileştirilmiş raporlar oluşturmaya yönelik yeni deneyim ve özellikler aşağıda verilmiştir:  
 
@@ -60,7 +125,7 @@ Mobil cihazlar için iyileştirilmiş raporlar oluşturmaya yönelik yeni deneyi
 - Yer işaretleri mobil düzen görünümünde kullanılabilir  
 - Kılavuz çizgilerini ve kılavuza yaslama işlevini kapatma  
 
-:::image type="content" source="media/whats-new/report-server-mobile-layout.png" alt-text="Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’taki gelişmiş mobil düzen.":::
+:::image type="content" source="media/whats-new/report-server-mobile-layout.png" alt-text="Power BI Rapor Sunucusu için Power BI Desktop gelişmiş mobil düzen.":::
 
 Ayrıntılar için [Mobil düzende yapılan geliştirmeler](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) başlıklı blog gönderisine bakın.
 
@@ -68,7 +133,7 @@ Ayrıntılar için [Mobil düzende yapılan geliştirmeler](https://powerbi.micr
 
 Excel bağlayıcısının bu yeni özelliği, tabloya ayıklamak üzere Excel elektronik tablolarının her bir bölümünü otomatik olarak tespit eder. Bunlar, Gezgin’deki “Önerilen Tablolar” grubunda gösterilir. Önceden, verilerin Excel’de tablo veya adlandırılmış aralık olarak biçimlendirilmesi gerekiyordu. Aksi takdirde çalışma sayfası nesnelerinden satırları atlama ve sütunları kaldırma gibi, belirli dönüşümler içeren ilgili satırları/sütunları kazımanız gerekirdi. Buna ilişkin aşağıdaki örnekte yer alan Sayfa1’e göz atabilirsiniz. Bu özelliği kullanmak için **Ayarlar** iletişim kutusundan etkinleştirmeniz gerekir.
 
-:::image type="content" source="media/whats-new/report-server-excel-table.png" alt-text="Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ta bir Excel tablosunu tanıma.":::
+:::image type="content" source="media/whats-new/report-server-excel-table.png" alt-text="Power BI Rapor Sunucusu için Power BI Desktop bir Excel tablosu tanıyor.":::
 
 **Modelleme: Gelişmiş Veri Kümesi Meta Verileri**
 
@@ -81,15 +146,15 @@ Bu arka uç güncelleştirmesi ile gelecekte daha fazla iyileştirme yapma olana
 - Power BI Desktop’a dış araçların (şu anda önizleme aşamasında) eklenmesiyle birlikte, bu dış araçlardan yararlanarak eklediğiniz tablolar raporunuzu yeniden açtığınızda sorgu olarak görüntülenir.
 - Bir PBIT dosyasını dışarı aktarıp bu dosyanın sıkıştırmasını kaldırmayı denediğinizde, modeli JSON biçiminde görürsünüz ve bozuk dosyalarla ilgili hatalar almazsınız. 
 
-Uygulanmayan değişiklikler gibi nedenlerden ötürü otomatik olarak güncelleştirilemeyen eski bir PBIX dosyanız varsa ek modelleme değişiklikleri yapmadan önce modelinizi başarılı bir şekilde yükseltmeniz gerekir. 
+Otomatik olarak güncelleştireılamayan eski bir PBIX 'niz varsa, başka bir modelleme değişikliği yapmadan önce modelinizi başarıyla yükseltmeniz gerekir. 
 
 **Windows 7 desteği sona erdi**
 
-10 yılın ardından, Windows 7 desteği 14 Ocak 2020’de sona erdi. Bununla bağlantılı olarak, Windows 7 üzerinde Power BI Desktop desteğini de 31 Ocak 2021’de sonlandıracağız. Bu tarihten sonra, Power BI Desktop yalnızca Windows 8 ve üzeri sürümlerde desteklenecek. Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ın Ocak 2021 sürümü, Modern Yaşam Döngüsü İlkesi uyarınca desteklenecek. Başka bir deyişle, sonraki sürüme (şimdilik 31 Mayıs 2021 için zamanlandı) kadar tam olarak desteklenecek. Mayıs 2021’den sonra, Ocak 2022’ye kadar yalnızca güvenlik güncelleştirmeleri alacak. Desteğin tamamı Ocak 2022’den sonra sona erecek. Ayrıntılar için bkz. [Power BI Rapor Sunucusu için destek zaman çizelgesi](support-timeline.md). 
+10 yılın ardından, Windows 7 desteği 14 Ocak 2020’de sona erdi. Bu değişikliği içeren satırda, 31 Ocak 2021 tarihinde Windows 7 ' de Power BI Desktop desteğini durduracağız. Bu tarihten sonra, Power BI Desktop yalnızca Windows 8 ve üzeri sürümlerde desteklenecek. Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ın Ocak 2021 sürümü, Modern Yaşam Döngüsü İlkesi uyarınca desteklenecek. Başka bir deyişle, sonraki sürüme (şimdilik 31 Mayıs 2021 için zamanlandı) kadar tam olarak desteklenecek. Mayıs 2021’den sonra, Ocak 2022’ye kadar yalnızca güvenlik güncelleştirmeleri alacak. Desteğin tamamı Ocak 2022’den sonra sona erecek. Ayrıntılar için bkz. [Power BI Rapor Sunucusu için destek zaman çizelgesi](support-timeline.md). 
 
 **Güncelleştirmelerin eksiksiz listesi**
 
-Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ın Ekim sürümünde yapılan güncelleştirmelerin eksiksiz bir listesi aşağıda verilmiştir. 
+Power BI Rapor Sunucusu için Power BI Desktop Ekim sürümündeki güncelleştirmelerin tüm listesi aşağıda verilmiştir. 
 
 **Raporlama**
 
@@ -141,11 +206,11 @@ Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ın Ekim sür�
 
 **PowerShell ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirme**
 
-Power BI Rapor Sunucusu’nun Ekim sürümünde, DirectQuery ve Refresh için Power BI raporlarına yönelik bağlantıları güncelleştirme özelliğini kullanıma sunuyoruz. Ayrıca bu özellik, önceki sürümlerde özelliği ayarlama yönteminizle ilgili yeni bir değişikliktir. Daha fazla bilgi için bkz. [PowerShell - Power BI Rapor Sunucusu ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirme](connect-data-source-apis.md). 
+Power BI Rapor Sunucusu’nun Ekim sürümünde, DirectQuery ve Refresh için Power BI raporlarına yönelik bağlantıları güncelleştirme özelliğini kullanıma sunuyoruz. Bu özellik ayrıca önceki sürümlerde nasıl ayarlansağlayabilmeniz için de önemli bir değişiklik olabilir. Daha fazla bilgi için bkz. [PowerShell - Power BI Rapor Sunucusu ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirme](connect-data-source-apis.md). 
 
 ## <a name="may-2020"></a>Mayıs 2020
 
-### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI Desktop
 
 Bu güncelleştirmenin öne çıkan kısımları arasında hiyerarşik dilimleyici, ayrıştırma ağacı görselleri ve sorgu tanılamaları yer alır. Aşağıda yeni ve güncelleştirilmiş özelliklerin tamamı listelenmiştir. Ayrıntılar için bkz. [Power BI Rapor Sunucusu Mayıs 2020 blog gönderisi](https://powerbi.microsoft.com/blog/power-bi-report-server-may-2020-feature-summary/). 
 
@@ -203,7 +268,7 @@ Bu sürümle gönderilen API sürümü 3.2’dir.
 
 Diğer ayrıntılar için Power BI Rapor Sunucusu Ocak 2020 blog gönderisine bakın.
 
-### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop
+### <a name="power-bi-desktop-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI Desktop
 
 Bu sürüm düğmeler için koşullu biçimlendirme, veri profili iyileştirmeleri ve KPI’lerle tablo görselleri için diğer biçimlendirme ayarları gibi birçok yeni özellik getiriyor. İşte güncelleştirmelerin özetlenmiş bir listesi:
 
@@ -503,7 +568,7 @@ Yöneticiler sunucu grubunun SSMS Gelişmiş Özellikleri bölümünde aşağıd
 
 ## <a name="august-2018"></a>Ağustos 2018
 
-Ağustos 2018 yayınında, Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümüne çok fazla sayıda yeni özellik eklenmiştir. Alana göre ayrıştırılmış şekilde bu yenilikler aşağıdaki gibidir:
+Ağustos 2018, Power BI Rapor Sunucusu için Power BI Desktop sürümüne eklenen birçok yeni özelliği görür. Alana göre ayrıştırılmış şekilde bu yenilikler aşağıdaki gibidir:
 
 - [Raporlama](#reporting)
 - [Analiz](#analytics)
@@ -609,7 +674,7 @@ BT yöneticisi olarak artık kuruluşunuzun MDM aracını kullanarak bir rapor s
 
 ## <a name="march-2018"></a>Mart 2018
 
-Mart 2018 yayınında, Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümüne çok fazla sayıda yeni özellik eklenmiştir. Alana göre ayrıştırılmış şekilde bu yenilikler aşağıdaki gibidir:
+Mart 2018, Power BI Rapor Sunucusu için Power BI Desktop sürümüne eklenen birçok yeni özelliği görür. Alana göre ayrıştırılmış şekilde bu yenilikler aşağıdaki gibidir:
 
 - [Görseller](#visuals-updates)
 - [Raporlama](#reporting)
@@ -628,7 +693,7 @@ Tablo veya matrisinizdeki özel iş mantığına dayalı bir sütunun yazı tipi
 
 #### <a name="show-and-hide-pages"></a>[Sayfaları gösterme ve gizleme](https://powerbi.microsoft.com/blog/power-bi-desktop-january-2018-feature-summary/#hidePages)
 
-Okuyucularınızın raporunuza erişim elde etmesini istiyorsunuz, ancak sayfalardan bazıları henüz tamamlanmamış. Artık hazır oluncaya kadar bunları gizleyebilirsiniz. Alternatif olarak, sayfaları normal gezintiden gizleyebilirsiniz ve okuyucular yer işaretlerini veya detaylandırmayı kullanarak sayfaya erişebilir.
+Okuyucuların raporunuza erişmesini istiyorsunuz, ancak bazı sayfalar bitmedi. Artık hazır oluncaya kadar bunları gizleyebilirsiniz. Alternatif olarak, sayfaları normal gezintiden gizleyebilirsiniz ve okuyucular yer işaretlerini veya detaylandırmayı kullanarak sayfaya erişebilir.
 
 #### <a name="bookmarking"></a>[Yer işareti ekleme](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking)
 

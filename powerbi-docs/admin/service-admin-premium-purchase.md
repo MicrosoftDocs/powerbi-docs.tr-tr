@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 01/28/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: f74d667cd95f1fd34d97c3942ac6ab44d083d4c3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: c4e50f7fa0c8f3313b3e7e58001ae33d8c327d85
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408401"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043149"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Power BI Premium'u satın alma
 
@@ -22,7 +22,7 @@ Bu makalede kuruluşunuz için Power BI Premium kapasitesini satın alma adımla
 
 - Tipik üretim senaryolarında P SKU'larını kullanma. P SKU'ları için aylık veya yıllık taahhüt gerekir ve aylık faturalama yapılır.
 
-Power BI Premium hakkında daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium-what-is.md). Geçerli fiyatlandırma ve planlama bilgileri için bkz. [Power BI fiyatlandırma sayfası](https://powerbi.microsoft.com/pricing/) ve [Power BI Premium hesaplayıcısı](https://powerbi.microsoft.com/calculator/). Kuruluşunuzda Power BI Premium sürümü kullanılsa da içerik oluşturucularının [Power BI Pro lisansına](service-admin-purchasing-power-bi-pro.md) sahip olması gerekir. Kuruluşunuz için en az bir Power BI Pro lisansı satın aldığınızdan emin olun. A SKU'larıyla, içerik kullanan _tüm kullanıcılara_ da Pro lisansları gerekir.
+Power BI Premium hakkında daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium-what-is.md). Geçerli fiyatlandırma ve planlama bilgileri için [Power BI fiyatlandırma sayfasına](https://powerbi.microsoft.com/pricing/)bakın. Kuruluşunuzda Power BI Premium sürümü kullanılsa da içerik oluşturucularının [Power BI Pro lisansına](service-admin-purchasing-power-bi-pro.md) sahip olması gerekir. Kuruluşunuz için en az bir Power BI Pro lisansı satın aldığınızdan emin olun. A SKU'larıyla, içerik kullanan _tüm kullanıcılara_ da Pro lisansları gerekir.
 
 > [!NOTE]
 > Premium aboneliğinizin süresi dolarsa kapasitenize 30 gün boyunca tam erişim sağlayabilirsiniz. Bu sürenin sonunda içeriğiniz paylaşılan kapasiteye dönüştürülür. 1 GB üzerindeki modeller paylaşılan kapasitede desteklenmez.
@@ -117,7 +117,6 @@ Test ve diğer amaçlar için, saatlik olarak Premium kapasite sağlayan A SKU�
 
 [Power BI Premium’da kapasiteleri yapılandırma ve yönetme](service-admin-premium-manage.md)\
 [Power BI fiyatlandırma sayfası](https://powerbi.microsoft.com/pricing/)\
-[Power BI Premium hesaplayıcısı](https://powerbi.microsoft.com/calculator/)\
 [Power BI Premium hakkında SSS](service-premium-faq.md)\
 [Planning a Power BI Enterprise Deployment (Power BI Kuruluş Dağıtımı Planlama) teknik incelemesi](https://aka.ms/pbienterprisedeploy)
 

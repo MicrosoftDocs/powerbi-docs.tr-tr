@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
 ms.date: 09/22/2020
-ms.openlocfilehash: 890b3c8124cc1711e08415cdcfda1f51b548fa63
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
-ms.translationtype: HT
+ms.openlocfilehash: 68494784e3c5b21c0c3e15bd5a3a816fd07e5f8b
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983080"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043563"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Power BI Rapor Sunucusu'nu yükseltme
 
@@ -22,7 +22,7 @@ Power BI Rapor Sunucusu'nu yükseltmeyi öğrenin.
 
  **İndirin** ![indirme simgesi](media/upgrade/download.png "indirme simgesi")
 
-Power BI Rapor Sunucusu'nu ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ı indirmek için [On-premises reporting with Power BI Report Server (Power BI Rapor Sunucusu ile şirket içi raporlama)](https://powerbi.microsoft.com/report-server/) sayfasına gidin.
+Power BI Rapor Sunucusu indirmek ve Power BI Rapor Sunucusu Power BI Desktop için, [Power BI rapor sunucusu ile şirket içi raporlamaya](https://powerbi.microsoft.com/report-server/)gidin.
 
 ## <a name="before-you-begin"></a>Başlamadan önce
 
@@ -82,12 +82,12 @@ Power BI Rapor Sunucusu, güvenlik düzeltmelerini Microsoft Update aracılığ�
 
 ## <a name="upgrade-power-bi-desktop"></a>Power BI Desktop'ı yükseltme
 
-Rapor sunucusunu yükselttikten sonra tüm Power BI rapor yazarlarının Power BI Rapor Sunucusu için en iyi duruma getirilmiş olan ve sunucuyla eşleşen Power BI Desktop sürümüne yükseltme yaptığından emin olun.
+Rapor sunucusunu yükselttikten sonra, tüm Power BI Rapor yazarlarının sunucu ile eşleşen Power BI Rapor Sunucusu Power BI Desktop sürümüne yükseltildiğinizden emin olun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 * [Yönetici genel bakışı](admin-handbook-overview.md)  
-* [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme](install-powerbi-desktop.md)  
+* [Power BI Rapor Sunucusu için Power BI Desktop yüklemesi](install-powerbi-desktop.md)  
 * [Reporting Services yüklemesini doğrulama](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 * [Rapor sunucusu hizmet hesabını yapılandırma](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 * [Rapor sunucusu URL'lerini yapılandırma](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  

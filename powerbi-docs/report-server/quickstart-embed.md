@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 698f12f4bf5266373be8393d2add45d70979ab41
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 8141b5049d777d27208e2db4b026a3fad4b74cfe
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418452"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043126"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Power BI Rapor Sunucusu raporunu SharePoint Server’da bir iFrame kullanarak ekleme
 
@@ -23,7 +23,7 @@ Bu makalede, bir SharePoint sayfasında iFrame kullanarak bir Power BI Rapor Sun
 
 ## <a name="prerequisites"></a>Önkoşullar
 * [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) yüklü ve yapılandırılmış.
-* [Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulaması](install-powerbi-desktop.md) yüklü.
+* [Power BI rapor sunucusu yüklü Power BI Desktop](install-powerbi-desktop.md) .
 * [SharePoint 2013, 2016 veya 2019 ortamı](/sharepoint/install/install) yüklü ve yapılandırılmış.
 * Internet Explorer 11, belge modu IE11 (Microsoft Edge) olarak ayarlandığında veya SharePoint Online kullanılırken desteklenir. SharePoint şirket içi ve SharePoint Online ile desteklenen diğer tarayıcıları kullanabilirsiniz.
 
@@ -33,7 +33,7 @@ Bu makalede, bir SharePoint sayfasında iFrame kullanarak bir Power BI Rapor Sun
 
     ![Örnek PBIX dosyasını indirme](media/quickstart-embed/quickstart_embed_14.png)
 
-2. Zip dosyasını açın ve Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasında örnek .pbix dosyasını açın.
+2. Dosyayı açın ve Power BI Rapor Sunucusu için Power BI Desktop ' de Sample. pbix dosyasını açın.
 
     ![PBI RS Masaüstü aracı](media/quickstart-embed/quickstart_embed_02.png)
 

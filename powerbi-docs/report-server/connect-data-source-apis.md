@@ -8,24 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b7f431ba6b8f559380916c17689d0eab74a0c9a7
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415485"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044322"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>PowerShell - Power BI Rapor Sunucusu ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirin
 
 
-Power BI Rapor Sunucusu’nun 2020 Ekim sürümünden itibaren, DirectQuery ve yenileme işlemi için Power BI raporlarına yönelik bağlantıları güncelleştirme özelliğini kullanıma sunuyoruz.
+Power BI Rapor Sunucusu Ekim 2020 sürümü ile başlayarak, DirectQuery ve yenileme için Power BI raporların bağlantılarını güncelleştirme özelliğini etkinleştirdik.
 
 > [!IMPORTANT]
 > Ayrıca bu özellik, önceki sürümlerde özelliği ayarlama yönteminizle ilgili yeni bir değişikliktir. Power BI Rapor Sunucusu’nun Ekim 2020’den önceki bir sürümünü kullanıyorsanız bkz. [PowerShell - Ekim 2020’den önceki bir Power BI Rapor Sunucusu sürümü ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirme](connect-data-source-apis-pre-oct-2020.md)
 
 ## <a name="prerequisites"></a>Önkoşullar:
-- [Power BI Rapor Sunucusu’nun ve Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ın](https://powerbi.microsoft.com/report-server/) Ekim 2020 sürümünü indirin.
-- Rapor Sunucusu için iyileştirilmiş Power BI Desktop’ın Ekim 2020 sürümüyle kaydedilen ve **Gelişmiş Veri Kümesi Meta Verileri**’nin etkin olduğu bir rapor.
+- Power BI Rapor Sunucusu Ekim 2020 veya sonraki bir sürümünü indirin [Power BI rapor sunucusu için Power BI Desktop](https://powerbi.microsoft.com/report-server/).
+- **Gelişmiş veri kümesi meta verileri** etkinken rapor sunucusu için en iyi duruma getirilmiş Power BI Desktop 2020 Ekim veya sonraki sürümü ile kaydedilmiş bir rapor.
 - Parametreli hale getirilmiş bağlantıları kullanan bir rapor. Yalnızca parametreli hale getirilmiş bağlantılara ve veritabanlarına sahip raporlar yayımlandıktan sonra güncelleştirilebilir.
 - Bu örnekte, Reporting Services PowerShell araçları kullanılmaktadır. Yeni REST API’lerini kullanarak da aynı sonucu elde edebilirsiniz.
 

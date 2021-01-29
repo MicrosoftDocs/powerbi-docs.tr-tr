@@ -96,6 +96,8 @@
               href: /rest/api/power-bi-embedded/
             - name: Power BI REST API'leri
               href: /rest/api/power-bi/
+        - name: Bir Gündeki Power BI Geliştiricisi kursu
+          href: /power-bi/learning-catalog/developer-online-course
         - name: Power BI Embedded veri başvurusunu izleme
           href: monitor-power-bi-embedded-reference.md
         - name: Power BI kitaplıkları

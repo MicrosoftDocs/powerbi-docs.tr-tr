@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: 51df40463a02c2c165ca6cde59ef2b16cda8860c
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
-ms.translationtype: HT
+ms.date: 01/28/2021
+ms.openlocfilehash: d7fc9437af37052e95eaa771aab98f1331227c14
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053340"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044230"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -21,6 +21,22 @@ Power BI Rapor Sunucusu'na yönelik bu değişiklik günlüğünde yeni öğeler
 
 Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu’ndaki yenilikler](whats-new.md). 
 
+
+## <a name="january-2021"></a>Ocak 2021
+- **Power BI Rapor Sunucusu**
+    - *Sürüm: 1.10.7698.12811 (derleme 15.0.1105.194), Yayın tarihi: 21 Ocak 2021*
+        - Özellikler
+            - Yeni simgeler Power BI ve Power BI raporlara yeniden yapılır.
+            - Yeni Portal önizleme deneyimi, ReportServer kataloğunun ConfigurationInfo tablosundaki ' UsePortalV2 ' Özellik anahtarının arkasına eklendi.
+        - Hata düzeltmeleri
+            - Gelişmiş model meta verilerini kullanan belirli modellerle Power BI raporlarının Zamanlanmış olarak yenilenmesi ile ilgili sorun düzeltildi.
+            - Portalda veri odaklı abonelikler düzenlenirken sorun düzeltildi.
+        - Güvenlik güncelleştirmeleri
+
+- **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
+   - *Sürüm: 2.88.1382.0 (ocak 2021), Yayın tarihi: 21 ocak 2021* (yeni derleme ve yeni sürüm)
+        - Power BI Rapor Sunucusu bağlantı için gereken değişiklikleri içerir (Ocak 2021)        
+   
 ## <a name="october-2020"></a>Ekim 2020
 - **Power BI Rapor Sunucusu**
     - *Sürüm: 1.9.7675.15620 (Derleme 15.0.1104.300), Yayın Tarihi: 8 Ocak 2021*

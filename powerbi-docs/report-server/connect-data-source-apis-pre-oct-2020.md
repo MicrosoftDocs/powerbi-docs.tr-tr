@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: 72b81f10b6337530ab05f1fcef0a17a5869af867
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: f0dd30e721d8325fdbfd8b562083fbedef2af9c0
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226755"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044207"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server-pre-october-2020"></a>PowerShell - Power BI Rapor Sunucusu Ekim 2020 öncesi sürüm ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirin
 
@@ -21,7 +21,7 @@ ms.locfileid: "98226755"
 PowerShell'i kullanıp gerekli API'lerle etkileşim kurarak Power BI Rapor Sunucusu'nda barındırılan Power BI raporlarının veri kaynağı bağlantı dizelerini değiştirebilirsiniz. 
 
 > [!IMPORTANT]
-> Power BI Rapor Sunucusu’nun en son sürümünü (Ekim 2020) kullanıyorsanız bkz. [PowerShell - Power BI Rapor Sunucusu ile Power BI raporlarını kullanarak veri kaynağı bağlantı dizelerini değiştirme](connect-data-source-apis.md).
+> En son Power BI Rapor Sunucusu sürümünü kullanıyorsanız, bkz. [PowerShell-Power BI rapor sunucusu ile Power BI raporlardaki veri kaynağı bağlantı dizelerini değiştirme](connect-data-source-apis.md).
 
 > [!NOTE]
 > Şu anda bu işlevsellik yalnızca DirectQuery’de çalışır. İçeri aktarma ve veri yenileme desteği yakında sağlanacaktır.

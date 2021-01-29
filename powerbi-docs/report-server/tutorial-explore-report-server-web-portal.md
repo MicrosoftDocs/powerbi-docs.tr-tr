@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
-ms.openlocfilehash: 85fcd6249a833c35cb98fca6abf2881ab1a4bf7e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: e66b15498f7ba66005448d88dc26cf715947f7da
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418429"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044034"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Öğretici: VM’de Power BI Rapor Sunucusu web portalını keşfetme
 Bu öğreticide, örnek Power BI ve sayfalandırılmış raporları görüntüleme, düzenleme ve yönetme işlemlerini yapabilmek için Power BI Rapor Sunucusu zaten yüklüyken bir Azure sanal makinesi oluşturacaksınız.
@@ -103,7 +103,7 @@ Sanal makineniz açıldığında masaüstünde aşağıdaki öğeleri görürsü
 |---------|---------|
 |![1 Numara](media/tutorial-explore-report-server-web-portal/number-1.png) | Örnek Power BI (.PBIX) raporları |
 |![2 Numara](media/tutorial-explore-report-server-web-portal/number-2.png) | Power BI Rapor Sunucusu belgelerinin bağlantıları |
-|![3 Numara](media/tutorial-explore-report-server-web-portal/number-3.png) | Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını başlatır (Ocak 2019) |
+|![3 Numara](media/tutorial-explore-report-server-web-portal/number-3.png) | Power BI Rapor Sunucusu için Power BI Desktop başlatır (Ocak 2021) |
 |![4 Numara](media/tutorial-explore-report-server-web-portal/number-4.png) | Power BI Rapor Sunucusu web portalını tarayıcıda açar |
 |![5 Numara](media/tutorial-explore-report-server-web-portal/number-5.png) | Sayfalandırılmış (.RDL) raporlar oluşturmak için SQL Server Veri Araçları’nı başlatır |
 
@@ -162,7 +162,7 @@ Web portalında Power BI raporlarını görüntüleyip etkileşimde bulunabilir 
 
 1. Bu web sitesinin bilgisayarınızda bir programı açmasına izin vermek için **İzin Ver**’i seçin. 
 
-     Rapor Power BI Desktop’ta açılır. Üst çubuktaki "Power BI Desktop (Ocak 2019)" adını not edin. Bu sürüm, Power BI Rapor Sunucusu için en iyi duruma getirilmiştir.
+     Rapor Power BI Desktop’ta açılır. "Power BI Desktop (Ocak 2021)" üst çubuğundaki adı aklınızda edin. Bu sürüm, Power BI Rapor Sunucusu için en iyi duruma getirilmiştir.
 
     VM’de yüklü olan Power BI Desktop sürümünü kullanın. Bir raporu karşıya yüklemek için etki alanları arasında geçiş yapamazsınız.
 

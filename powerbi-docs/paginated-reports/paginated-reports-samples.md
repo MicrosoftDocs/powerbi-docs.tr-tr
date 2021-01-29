@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/10/2020
-ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
-ms.translationtype: HT
+ms.date: 01/28/2021
+ms.openlocfilehash: 282700151e605bd3571847b3b75f08e65f948e08
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483931"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044362"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>Örnek Power BI sayfalandırılmış raporları
 
@@ -119,6 +119,32 @@ Veri kaynağı: .rdl dosyasına dahil
 - Veri çubukları.
 - Eğilimler.
 - Ölçer panelleri.
+
+Veri kaynağı: .rdl dosyasına dahil
+
+## <a name="regional-sales"></a>Bölgesel Satışlar
+
+:::image type="content" source="media/paginated-reports-samples/paginated-report-regional-sales.png" alt-text="Bölgesel satışa yönelik örnek Power BI sayfalandırılmış raporun ekran görüntüsü.":::
+
+Bölgesel satış, kendine dahil olan bir sayfalandırılmış rapor örneğidir. Bu rapor için senaryo, toplam satış ve kota ile kotayı görmek için piksel kusursuz yazdırılabilir bir raporun olmasını ister. Rapor aşağıdaki özelliklere sahiptir:
+
+- Tablodaki seçili ayrıntıları göstermek için bir parametre kullanımı.
+- Üst bilgiler ve alt bilgiler.
+- İfade yer tutucularının kullanıldığı metin kutusu, çizgi ve dikdörtgenler gibi rapor öğeleri.
+- Ölçer panelleri.
+- Tablonun içine yerleştirilmiş çizgi grafik.
+
+Veri kaynağı: .rdl dosyasına dahil
+
+## <a name="organization-expenditures"></a>Kuruluş harcamaları
+
+:::image type="content" source="media/paginated-reports-samples/paginated-report-organization-expenditures.png" alt-text="Kurumsal harcamaların örnek Power BI sayfalandırılmış raporunun ekran görüntüsü.":::
+
+Kuruluş harcamaları, kendine dahil olan bir sayfalandırılmış rapor örneğidir. Bu rapor için senaryo, kuruluşunuzda giderlerin dökümünü görmek üzere piksel kusursuz yazdırılabilir bir gider raporunun olmasını ister. Rapor aşağıdaki özelliklere sahiptir:
+
+- Üst bilgiler ve alt bilgiler.
+- İfade yer tutucularının kullanıldığı metin kutusu, çizgi ve dikdörtgenler gibi rapor öğeleri.
+- Ağaç Haritası ve Sun patlama gibi grafikler.
 
 Veri kaynağı: .rdl dosyasına dahil
   

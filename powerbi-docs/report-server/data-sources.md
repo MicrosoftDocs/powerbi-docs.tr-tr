@@ -8,15 +8,15 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/29/2020
-ms.openlocfilehash: 37b44df504d0263324186765d8426584288f005e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: eb0dbf79c5825a4baa1974366e81fb1daadd6b47
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417992"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044276"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI Rapor Sunucusu'nda Power BI raporu veri kaynakları
-Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir. Power BI Desktop’ta, Power BI Rapor Sunucusu için iyileştirilmiş olan ancak Power BI Rapor Sunucusu’nda yayımlandığında desteklenmeyen bazı veri kaynakları bulunur.
+Power BI raporları birkaç veri kaynağına bağlanabilir. Verilerin nasıl kullanıldığına bağlı olarak farklı veri kaynakları kullanılabilir. Veriler, doğrudan DirectQuery veya SQL Server Analysis Services'e yönelik canlı bağlantı kullanılarak içeri aktarılabilir veya sorgulanabilir. Bazı veri kaynakları Power BI Rapor Sunucusu için Power BI Desktop mevcuttur, ancak Power BI Rapor Sunucusu yayımlandığında desteklenmez.
 
 Bu veri kaynakları, Power BI Rapor Sunucusu'nda kullanılan Power BI raporlarına özeldir. Sayfalandırılmış raporlar (.rdl) tarafından desteklenen veri kaynakları hakkında daha fazla bilgi için bkz. [Reporting Services Tarafından Desteklenen Veri Kaynakları](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
@@ -198,14 +198,14 @@ Power BI Rapor Sunucusu, OAuth tabanlı kimlik doğrulaması için DirectQuery�
 
 | **Veri kaynağı** | **Anonim Kimlik Doğrulaması** | **Anahtar Kimlik Doğrulaması** | **Kullanıcı Adı ve Parola** | **Windows Kimlik Doğrulaması** | **Tümleşik Windows Kimlik Doğrulaması** |
 | --- | --- | --- | --- | --- | --- |
-| SQL Server Veritabanı |Hayır |Hayır |Evet |Evet |Yes |
-| SQL Server Analysis Services |Hayır |Hayır |Evet |Evet |Yes |
-| Azure SQL Veritabanı |Hayır |Hayır |Evet |Hayır |Hayır |
-| Azure SQL Veri Ambarı |Hayır |Hayır |Evet |Hayır |Hayır |
-| Oracle Veritabanı |Hayır |Hayır |Evet |Evet |Yes |
-| SAP Business Warehouse sunucusu |Hayır |Hayır |Evet |Hayır |Hayır |
-| SAP HANA Veritabanı |Hayır |Hayır |Evet |Evet |Evet** |
-| Teradata |Hayır |Hayır |Evet |Evet |Evet |
+| SQL Server Veritabanı |Hayır |Hayır |Yes |Yes |Yes |
+| SQL Server Analysis Services |Hayır |Hayır |Yes |Yes |Yes |
+| Azure SQL Veritabanı |Hayır |Hayır |Yes |Hayır |Hayır |
+| Azure SQL Veri Ambarı |Hayır |Hayır |Yes |Hayır |Hayır |
+| Oracle Veritabanı |Hayır |Hayır |Yes |Yes |Yes |
+| SAP Business Warehouse sunucusu |Hayır |Hayır |Yes |Hayır |Hayır |
+| SAP HANA Veritabanı |Hayır |Hayır |Yes |Evet |Evet** |
+| Teradata |Hayır |Hayır |Yes |Yes |Evet |
 
 **SAP HANA Tümleşik Windows Kimlik Doğrulaması ile DirectQuery'yi yalnızca bunu yayımlanmış Power BI Desktop dosyasında (.pbix) ilişkisel veritabanı olarak kullandığında destekler.
 

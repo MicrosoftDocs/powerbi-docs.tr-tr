@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 01/28/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 8fad09221caafd66467e8e183304ab408b803720
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 51c006a076a34764791a7da6f952b416b89e6a5a
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412219"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043080"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium hakkında SSS
 
@@ -61,7 +61,7 @@ Aşağıdaki örnekler müşterilerin Power BI Pro ve Power BI Premium’u kulla
 | **Çözüm:**<br/><br/>1. Her kullanıcı için Power BI Pro<br/><br/>2. Power BI Premium'u ekleyerek fırsatı genişletmeye çalışın, ek senaryoları inceleyin |**Çözüm:**<br/><br/>1. Self servis BI ve işbirliğine ihtiyaç duyan kullanıcılar için Power BI Pro<br/><br/>2. BI içeriğini yalnızca kullanacak olan kullanıcılara dağıtmak için Power BI Premium'u ekleyin |**Çözüm:**<br/><br/>1. Self servis BI ve işbirliğine ihtiyaç duyan kullanıcılar için Power BI Pro<br/><br/>2. Şirket içi ortamda rapor yayımlamak ve uygun şekilde buluta taşımalarını sağlamak için Power BI Premium'u ekleyin |**Çözüm:**<br/><br/>1. Finans departmanındaki tüm kullanıcılar için Power BI Pro<br/><br/>2. Daha büyük ölçek ve daha yüksek performans sunmak amacıyla yalnızca finans ekibi tarafından kullanılacak adanmış bulut kaynakları için Power BI Premium ekleyin |
 
 **Power BI Premium'un maliyeti nedir? Kaç SKU'yu kullanıma sunacaksınız?**  
-Power BI Premium, sanal çekirdek sayısına göre satın alınır. Fiyatları [Power BI fiyatlandırma sayfasında](https://powerbi.microsoft.com/pricing/) görebilirsiniz. Düğümler ve sanal çekirdekler hakkında daha fazla bilgi için bkz. [Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper). İhtiyacınız olan Premium kapasitesini belirlemek için bu [hesaplama aracını](https://powerbi.microsoft.com/calculator/) da kullanabilirsiniz.
+Power BI Premium, sanal çekirdek sayısına göre satın alınır. Fiyatları [Power BI fiyatlandırma sayfasında](https://powerbi.microsoft.com/pricing/) görebilirsiniz. Düğümler ve sanal çekirdekler hakkında daha fazla bilgi için bkz. [Microsoft Power BI Premium teknik incelemesi](https://aka.ms/pbipremiumwhitepaper).
 
 **"Kapasite" ile kast edilen nedir?**  
 Kapasite, kuruluşunuza Power BI kullanımı için ayrılan işlem gücü miktarıdır. Bu, **Kapasite Yönetimi** sayfasında Power BI Premium yönetici portalı aracılığıyla bir hizmet yöneticisi tarafından sağlanır.
@@ -71,9 +71,6 @@ Power BI Premium, yıllık taahhütle aylık olarak faturalandırılır.
 
 **Power BI Premium'u nasıl satın alabilirim?**  
 Power BI Premium, Microsoft 365 yönetim merkezinden satın alınabilir. Daha fazla bilgi için bkz. [Power BI Premium'u satın alma](service-admin-premium-purchase.md). Daha fazla bilgi için Microsoft temsilcinizle de iletişime geçebilirsiniz.
-
-**Satın almam gereken Power BI Premium kapasitesini nasıl belirleyebilirim?**  
-İhtiyacınız olan Power BI Premium kapasitesini belirlemek için bu maliyet [hesaplama aracını](https://powerbi.microsoft.com/calculator/) kullanın.
 
 **Power BI Premium, Office 365 E5 ile birlikte kullanılabilir mi?**  
 Power BI Premium, Power BI Pro eklentisi olarak mevcuttur. Office 365 E5'te Power BI Pro mevcuttur. E5 müşterileri Premium'u var olan Pro lisanslarına eklenti olarak satın alabilir.

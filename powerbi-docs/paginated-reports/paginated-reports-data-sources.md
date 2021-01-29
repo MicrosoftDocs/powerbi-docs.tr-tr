@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/21/2021
-ms.openlocfilehash: abb91ef54167f4a7d50f2dc36e23b2fc5833a65d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.date: 01/27/2021
+ms.openlocfilehash: c544126132ce18d8093f8c07359418f2052e9c74
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98687477"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044414"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI sayfalandırılmış raporları için desteklenen veri kaynakları
 
@@ -33,6 +33,7 @@ Sayfalandırılmış raporlar aşağıdaki veri kaynakları listesini yerel olar
 | Power BI veri kümesi | SSO | Premium ve Premium olmayan Power BI veri kümeleri. Okuma izni gerektirir. Yalnızca İçeri Aktarma modu ve DirectQuery Power BI veri kümeleri desteklenir. |
 | Premium Power BI veri kümesi (XMLA) | SSO | Power BI veri kümeleri, “uygulamanın verilere sahip olması” senaryolarındaki ekli sayfalandırılmış raporlar için veri kaynağı olarak desteklenmez.  Power BI Rapor Oluşturucusu doğru bağlantıyı sağlamak için, veri kaynağınızı ayarlarken **kimlik bilgilerini kullanma** seçeneğinin seçildiğinden emin olun.<br />Çalışma alanında veya uygulama düzeyinde XMLA 'nın güvenlik grubu üyeliği kümesi üzerinden erişin.<br />[Bir çalışma](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) alanında en az bir katkıda bulunan rolüne sahip kullanıcılar, zengin Power BI veri kümeleri ile sayfalandırılmış raporlar işleyebilir. Diğer kullanıcıların [, temel alınan veri kümelerinde derleme izni](../connect-data/service-datasets-build-permissions.md)olması gerekir.    |
 | Veri Gir | YOK | Veriler rapora katıştırılmıştır. |
+| Veri deposu | SSO, OAuth2 | Multi-Factor Authentication (MFA) desteklenmediğinden ağ geçidi kullanılamıyor.
 
 Siz raporu Power BI hizmetine yükledikten sonra Azure SQL Veritabanı dışındaki tüm veri kaynakları kullanıma hazırdır. Veri kaynakları uygulanabilir olduğunda varsayılan olarak çoklu oturum açmayı (SSO) kullanır. Azure Analysis Services için kimlik doğrulaması türünü OAuth2 olarak değiştirebilirsiniz. Ancak, belirli bir veri kaynağına ait kimlik doğrulaması türü OAuth2 olarak değiştirildikten sonra, bu veri kaynağı SSO kullanmaya geri döndürülemez.  Ayrıca bu değişiklik, söz konusu kiracıdaki tüm çalışma alanları genelinde bu veri kaynağını kullanan tüm raporlara uygulanır.  Sayfalandırılmış raporlarda satır düzeyinde güvenlik, kullanıcılar kimlik doğrulaması türü olarak SSO’yu seçmedikleri sürece çalışmaz.
 

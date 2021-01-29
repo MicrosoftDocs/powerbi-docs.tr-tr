@@ -1,6 +1,6 @@
 ---
-title: Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
-description: Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yüklemeyi öğrenin
+title: Power BI Rapor Sunucusu için Power BI Desktop yüklemesi
+description: Power BI Rapor Sunucusu için Power BI Desktop yüklemeyi öğrenin
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,28 +8,28 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/16/2020
-ms.openlocfilehash: 62add0b1268b06bb227bdc1b8ec2e4ae59358c57
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
-ms.translationtype: HT
+ms.openlocfilehash: 068d4a025bda878899e2d54f93bc56eaea336f3e
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044756"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044092"
 ---
-# <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yükleme
+# <a name="install-power-bi-desktop-for-power-bi-report-server"></a>Power BI Rapor Sunucusu için Power BI Desktop yüklemesi
 
 Power BI Rapor Sunucusu için Power BI raporları oluşturmak istiyorsanız Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop sürümünü indirip yüklemeniz gerekir. Bu, Power BI hizmetiyle kullanılan Power BI Desktop'tan farklı bir sürümdür. Örneğin Power BI hizmeti için Power BI Desktop sürümü önizleme özelliklerini içerir. Bu özellikler genel kullanıma sunulana kadar Power BI Rapor Sunucusu sürümünde sağlanmaz. Bu sürümün kullanılması, rapor sunucusunun; raporların ve modelin bilinen bir sürümüyle etkileşim kurabilmesini sağlar. 
 
-Endişelenmenize gerek yok. Power BI Desktop ile Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamaları aynı bilgisayarda yan yana yüklü olabilir.
+Endişelenmenize gerek yok. Power BI Rapor Sunucusu için Power BI Desktop ve Power BI Desktop aynı bilgisayarda yan yana yükleyebilirsiniz.
 
 ## <a name="download-and-install-power-bi-desktop"></a>Power BI Desktop uygulamasını indirme ve yükleme
 
-Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ın en güncel sürümüne sahip olduğunuzdan emin olmanın en kolay yolu rapor sunucunuzun web portalına gitmektir.
+Power BI Rapor Sunucusu için Power BI Desktop en güncel sürümüne sahip olduğunuzdan emin olmanın en kolay yolu, rapor sunucunuzun Web portalından başlamadır.
 
-1. Rapor sunucusu web portalında, **İndir** okunu ve ardından **Power BI Desktop** 'ı seçin.
+1. Rapor sunucusu web portalında, **İndir** okunu ve ardından **Power BI Desktop**'ı seçin.
 
     ![Web portalından Power BI Desktop'ı indirme](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    Veya [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) giriş sayfasına giderek **Gelişmiş indirme seçenekleri** ’ni belirleyin.
+    Veya [Power BI Rapor Sunucusu](https://powerbi.microsoft.com/report-server/) giriş sayfasına giderek **Gelişmiş indirme seçenekleri**’ni belirleyin.
 
 2. İndirme Merkezi sayfasında bir dil seçin, ardından **İndir** seçeneğini belirtin.
 
@@ -40,21 +40,21 @@ Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ın en 
 
 1. Yükleyiciyi indirdikten sonra, Power BI Desktop Kurulum Sihirbazını çalıştırın.
 
-2. Yüklemenin sonunda **Power BI Desktop’ı Başlat** ’ı seçin.
+2. Yüklemenin sonunda **Power BI Desktop’ı Başlat**’ı seçin.
 
     Uygulama otomatik olarak başlatılır ve kullanımınıza hazır hale gelir.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Doğru sürümü kullandığınızdan emin olma
-Doğru Power BI Desktop'ı kullandığınızdan kolayca emin olabilirsiniz: Power BI Desktop'taki başlatma ekranına veya başlık çubuğuna bakın. Başlık çubuğundaki **Power BI Desktop (Ekim 2020)** ifadesi, doğru sürüme sahip olduğunuzu gösterir. Ayrıca Power BI logo renkleri de ters çevrilmiştir; artık sarı üstüne siyah değil siyah üstüne sarıdır.
+Doğru Power BI Desktop'ı kullandığınızdan kolayca emin olabilirsiniz: Power BI Desktop'taki başlatma ekranına veya başlık çubuğuna bakın. Başlık çubuğunda **Power BI Desktop (ocak 2021)** veya üzeri olduğundan doğru sürüme sahip olduğunu söyleyebilirsiniz. Ayrıca Power BI logo renkleri de ters çevrilmiştir; artık sarı üstüne siyah değil siyah üstüne sarıdır.
 
-![Power BI Desktop Ekim 2020](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
+![Power BI Desktop Ocak 2021](media/install-powerbi-desktop/power-bi-report-server-desktop.png)
 
 Başlık çubuğunda Power BI hizmeti için Power BI Desktop sürümüne ilişkin ay ve yıl bilgisi görüntülenmez.
 
 ## <a name="file-extension-association"></a>Dosya uzantısı ilişkilendirme
-Hem Power BI Desktop'ı hem de Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop'ın aynı bilgisayarda yan yana yüklü olduğunu düşünün. En son Power BI Desktop yüklemenizde .pbix dosyalarıyla dosya ilişkilendirmesi bulunur. Dolayısıyla, .pbix dosyasına çift tıkladığınızda en son yüklediğiniz Power BI Desktop'ı başlatır.
+Aynı makinede Power BI Rapor Sunucusu için hem Power BI Desktop hem de Power BI Desktop yükletiğinizi varsayalım. En son Power BI Desktop yüklemenizde .pbix dosyalarıyla dosya ilişkilendirmesi bulunur. Dolayısıyla, .pbix dosyasına çift tıkladığınızda en son yüklediğiniz Power BI Desktop'ı başlatır.
 
-Power BI Desktop uygulaması yüklüyken Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasını yüklediyseniz, tüm .pbix dosyaları varsayılan olarak Power BI Rapor Sunucusu için en iyi duruma getirilmiş Power BI Desktop uygulamasıyla açılır. Power BI Desktop uygulamasının .pbix dosyaları için varsayılan seçenek olmasını istiyorsanız, [Power BI Desktop'ı Microsoft Store'dan](https://aka.ms/pbidesktopstore) yeniden yükleyin.
+Power BI Desktop sahipseniz ve Power BI Rapor Sunucusu için Power BI Desktop yüklerseniz, tüm. pbix dosyaları varsayılan olarak Power BI Rapor Sunucusu için Power BI Desktop açılır. Power BI Desktop uygulamasının .pbix dosyaları için varsayılan seçenek olmasını istiyorsanız, [Power BI Desktop'ı Microsoft Store'dan](https://aka.ms/pbidesktopstore) yeniden yükleyin.
 
 Öncelikli olarak kullanmak istediğiniz Power BI Desktop sürümünü kendiniz açabilirsiniz. Ardından dosyayı Power BI Desktop'tan açabilirsiniz.
 
@@ -66,14 +66,13 @@ Power BI mobil uygulamalarında ve Power BI hizmetinde yer alan Power BI Rapor S
 
 ### <a name="selecting-a-language"></a>Dil seçme
 
-Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop'ta uygulamayı yüklerken dili seçersiniz. Bunu daha sonra değiştiremezsiniz ama başka dildeki bir sürümü yükleyebilirsiniz.
+Power BI Rapor Sunucusu için Power BI Desktop için, uygulamayı yüklediğinizde dili seçersiniz. Bunu daha sonra değiştiremezsiniz ama başka dildeki bir sürümü yükleyebilirsiniz.
 
 ### <a name="report-visuals-in-a-browser"></a>Tarayıcıda rapor görselleri
 
 Power BI Rapor Sunucusu raporları, Power BI görselleri de dahil olmak üzere neredeyse tüm görselleştirmeleri destekler. Power BI Rapor Sunucusu raporları aşağıdakileri desteklemez:
 
 * R görselleri
-* ArcGIS haritaları
 * İçerik haritaları
 * Power BI Desktop önizleme özellikleri
 
@@ -88,14 +87,13 @@ Power BI Rapor Sunucusu raporları, [Power BI mobil uygulamalarında](../consume
 Power BI Rapor Sunucusu, Power BI mobil uygulamalarında şu özellikleri desteklemez:
 
 * R görselleri
-* ArcGIS haritaları
 * Power BI görselleri
 * İçerik haritaları
 * Coğrafi filtreleme veya barkodlar
 
 ### <a name="custom-security"></a>Özel Güvenlik
 
-Power BI Rapor Sunucusu için iyileştirilmiş Power BI Desktop, özel güvenlik desteği sunmaz. Power BI Rapor Sunucunuzun özel güvenlik uzantısıyla yapılandırılmış olması halinde Power BI Desktop'tan (Power BI Rapor Sunucusu için iyileştirilmiş) Power BI Rapor Sunucusu örneğine Power BI raporu kaydedemezsiniz. Rapor dosyasını Power BI Desktop'tan .pbix biçiminde kaydetmeniz ve Power BI Rapor Sunucusu portalına yüklemeniz gerekir.
+Power BI Rapor Sunucusu için Power BI Desktop özel güvenliği desteklemez. Power BI Rapor Sunucunuzun özel güvenlik uzantısıyla yapılandırılmış olması halinde Power BI Desktop'tan (Power BI Rapor Sunucusu için iyileştirilmiş) Power BI Rapor Sunucusu örneğine Power BI raporu kaydedemezsiniz. Rapor dosyasını Power BI Desktop'tan .pbix biçiminde kaydetmeniz ve Power BI Rapor Sunucusu portalına yüklemeniz gerekir.
 
 ### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>Raporları farklı bir etki alanındaki Power BI Rapor Sunucusu’na kaydetme
 
