@@ -2,19 +2,19 @@
 title: Power BI raporlarındaki veri çizimlerini sıralamaya ve dağıtmaya yönelik ipuçları
 description: Power BI rapor görsellerinde, Power BI Desktop’ta veya Power BI hizmetinde veri çizimlerini sıralamaya ve dağıtmaya yönelik ipuçları.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 featuredvideoid: BnhA4qa-9Jk
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/25/2020
-ms.openlocfilehash: 1c954e2365ccf5cf12a1acd9f8c966885ce20324
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 06887f88e721fd61f3a8cfc9ff82878f12a9c705
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96385886"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088799"
 ---
 # <a name="tips-to-sort-and-distribute-data-plots-in-power-bi-reports"></a>Power BI raporlarındaki veri çizimlerini sıralamaya ve dağıtmaya yönelik ipuçları
 

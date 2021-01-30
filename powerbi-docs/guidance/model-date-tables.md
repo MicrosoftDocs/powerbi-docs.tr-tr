@@ -2,18 +2,18 @@
 title: Power BI Desktop’ta tarih tabloları oluşturma
 description: Power BI Desktop’ta tarih tabloları oluşturmaya yönelik teknikler ve kılavuz.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.openlocfilehash: a2616b5f77a03056de03b213369d55e9b590b1b6
-ms.sourcegitcommit: 7599622381f35a161bfc54726675ed3c9cf13816
-ms.translationtype: HT
+ms.openlocfilehash: ede11b592084c83e6306f21b96e8fe1ecb38dd61
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/31/2020
-ms.locfileid: "97827584"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086959"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Power BI Desktop’ta tarih tabloları oluşturma
 

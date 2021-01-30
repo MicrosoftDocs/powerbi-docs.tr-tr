@@ -2,18 +2,18 @@
 title: Power BI’a geçiş yapmak için içerik oluşturma
 description: Power BI’a geçiş yaparken içerik oluşturmaya ve doğrulamaya yönelik kılavuz.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.openlocfilehash: 03a55f2f414ca8af7ca86f51dcafb0258efc88b7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f74b2ea56dd4399dd87c7d21b461b3e6bd23bbd9
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418613"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088086"
 ---
 # <a name="create-content-to-migrate-to-power-bi"></a>Power BI’a geçiş yapmak için içerik oluşturma
 

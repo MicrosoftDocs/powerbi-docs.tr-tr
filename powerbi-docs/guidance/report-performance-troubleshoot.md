@@ -2,18 +2,18 @@
 title: Power BI’da rapor performansı sorunlarını giderme
 description: Power BI'da yavaş rapor performansını tanılamak için sorun giderme kılavuzu.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: troubleshooting
 ms.date: 04/15/2020
-ms.openlocfilehash: 97af45ea90db1f0ccd2fdab7eba67ec91e580983
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 9e9d3fa59defa1c33ba39ed7491ce099f350a0bf
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417877"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088224"
 ---
 # <a name="troubleshoot-report-performance-in-power-bi"></a>Power BI’da rapor performansı sorunlarını giderme
 

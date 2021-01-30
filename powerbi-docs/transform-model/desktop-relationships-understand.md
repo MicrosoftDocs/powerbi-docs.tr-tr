@@ -2,18 +2,18 @@
 title: Power BI Desktop’ta model ilişkileri
 description: Power BI Desktop’ta model ilişkileri teorisi hakkında giriş bilgileri
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 0f9edc247401ccf72ec1a5b0aebb5b3a074a5494
-ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.openlocfilehash: 101207fe60f4e66344b936bdef2c4b18d9ab947f
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98925721"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088178"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Power BI Desktop’ta model ilişkileri
 

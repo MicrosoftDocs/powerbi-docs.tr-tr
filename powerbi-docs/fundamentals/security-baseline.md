@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: a76c7f9d205fe47322768a514a1e5d89a36a2306
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: b99f6f53f64e57bc262ea5aa518efa529b73f44e
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565740"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088155"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Power BI için Azure güvenlik temeli
 
@@ -166,7 +166,7 @@ M365 ayrıcalıklı erişim yönetimini kullanarak Power BI yönetici hesapları
 
 - [Power BI ile ilgili yönetici rolleri](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 
-- [M365 Ayrıcalıklı Erişim Yönetimi](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)
+- [M365 Ayrıcalıklı Erişim Yönetimi](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true)
 
 - [Power BI’daki Cloud App Security denetimleri](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
@@ -178,7 +178,7 @@ M365 ayrıcalıklı erişim yönetimini kullanarak Power BI yönetici hesapları
 
 **Rehberlik**: Power BI'a yükseltilmiş erişim sahibi olan yüksek ayrıcalıklı hesap veya rol sayısını sınırlayın.
 
-[Buradaki](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide) M365 ayrıcalıklı erişim yönetimi rehberliğini kullanarak tam zamanında (JIT) ayrıcalıklı erişim sağlayabilirsiniz.
+[Buradaki](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true) M365 ayrıcalıklı erişim yönetimi rehberliğini kullanarak tam zamanında (JIT) ayrıcalıklı erişim sağlayabilirsiniz.
 
 [Buradaki](https://aka.ms/PBIEnterpriseDeploymentWP) Power BI Kuruluş Dağıtımı belgesinin 183. sayfasında daha fazla bilgiye ulaşabilirsiniz.
 
@@ -533,7 +533,7 @@ Tüm personelin rollerine ek olarak algılama aşamasından olay sonrası gözde
  
 Microsoft Tehdit Koruması, bağıntı analizi gerçekleştirir ve farklı ürünlerdeki tüm uyarıları ve araştırmaları tek bir olay altında toplar. Microsoft Tehdit Koruması ayrıca tüm varlıklar ve ürünler genelinde sahip olduğu uçtan uca görünürlük sayesinde ancak kötü amaçlı olarak tanımlanabilecek etkinliklerle ilgili benzersiz uyarıları da tetikler. Microsoft Tehdit Koruması bu şekilde daha geniş kapsamlı bir saldırı hikayesi oluşturarak güvenlik operasyonları analistlerinin kuruluş genelindeki karmaşık tehditleri anlamasını ve gidermesini sağlar.
 
-- [Microsoft Tehdit Koruması'nda olayları önceliklendirme](/microsoft-365/security/mtp/incident-queue?amp;preserve-view=true&view=o365-worldwide)
+- [Microsoft Tehdit Koruması'nda olayları önceliklendirme](/microsoft-365/security/mtp/incident-queue?view=o365-worldwide&preserve-view=true)
 
 **Azure Güvenlik Merkezi ile izleme**: Uygulanamaz
 

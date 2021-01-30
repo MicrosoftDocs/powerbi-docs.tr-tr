@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: overview
 ms.date: 07/23/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 5a71999cc5358c1849a534ff2b3eb9d689791ceb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 07dba29c57b533537513d84361b4b7b2b61f9221
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419556"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088132"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop nedir?
 
@@ -70,7 +70,7 @@ Power BI Desktop’ta yerleşik [Power Query Düzenleyicisi](../transform-model/
 
 Power Query Düzenleyicisi'ni başlatmak için:
 
-- **Giriş** şeridinde **Sorguları Düzenle** > **Sorguları Düzenle** öğesini seçin.
+- **Giriş** şeridinde, **sorgular** bölümünde, **verileri Dönüştür**' ü seçin.
 
    **Power Query Düzenleyicisi** penceresi görüntülenir.
 
