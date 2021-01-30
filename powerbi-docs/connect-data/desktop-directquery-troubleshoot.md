@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 10/24/2019
-ms.openlocfilehash: 943c8283d48b4281d2ddb5d7eeed0e69db4ee6fc
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: ae73a14763babb4bf3d2c2a80d1b90d8a1cff76f
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405319"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086499"
 ---
 # <a name="troubleshoot-developing-directquery-models-in-power-bi-desktop"></a>Power BI Desktop'ta DirectQuery modellerini geliştirme sorunlarını giderme
 
@@ -54,7 +54,7 @@ Bu klasörün üst klasörüne gidildiğinde _AnalysisServicesWorkspaces_ klasö
 
 Bu klasörün içinde, geçerli Power BI oturumuna ilişkin FlightRecorderCurrent.trc izleme dosyasını içeren _\Data_ alt klasörü bulunur. İlişkili Power BI Desktop oturumu sona erdiğinde ilgili çalışma alanı klasörü silinir.
 
-İzleme dosyaları SQL Server Management Studio ile birlikte ücretsiz indirilebilen SQL Server Profiler aracı kullanılarak açılabilir. [Bu sayfadan](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) edinebilirsiniz.
+İzleme dosyaları SQL Server Management Studio ile birlikte ücretsiz indirilebilen SQL Server Profiler aracı kullanılarak açılabilir. [Bu sayfadan](/sql/ssms/download-sql-server-management-studio-ssms) edinebilirsiniz.
 
 SQL Server Management Studio'yu indirip yükledikten sonra SQL Server Profiler'ı çalıştırın.
 

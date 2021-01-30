@@ -2,18 +2,18 @@
 title: Çoka çok ilişkiler kılavuzu
 description: Çoka çok modelinde ilişkiler geliştirmeye yönelik kılavuz.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 95383581a258374f2757581e82fa0f2044dcae84
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 654c5ad71d7629fba1bf17b28e9e21370ebee0c3
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418636"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087971"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Çoka çok ilişkiler kılavuzu
 

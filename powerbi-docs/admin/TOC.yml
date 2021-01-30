@@ -142,7 +142,7 @@
           href: /powershell/power-bi/
           maintainContext: true
         - name: Hizmet URL’si başvurusu
-          href: power-bi-whitelist-urls.md
+          href: power-bi-allow-list-urls.md
     - name: Kaynaklar
       items:
         - name: Power BI yönetim ve dağıtım yaklaşımları

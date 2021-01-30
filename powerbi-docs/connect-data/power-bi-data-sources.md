@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
-ms.openlocfilehash: 67a0577c906e23fc51182120f1445814bdcd8028
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
-ms.translationtype: HT
+ms.openlocfilehash: def849c9a3b867f181dbc91628260cf24491e855
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491840"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087948"
 ---
 # <a name="power-bi-data-sources"></a>Power BI veri kaynakları
 
@@ -44,7 +44,7 @@ Aşağıdaki tabloda, DirectQuery ve şirket içi veri ağ geçidi hakkındaki b
 | Azure Tablo Depolama | Evet | Yes | Hayır | Evet | Hayır | Evet |
 | BI Bağlayıcısı | Evet | Yes | Evet | Evet | Evet | Hayır |
 | BI360 - Budgeting & Financial Reporting | Evet | Evet | Hayır | Hayır | Hayır | Hayır |
-| Microsoft Dataverse | Evet | Evet | Hayır | Hayır | Hayır | Evet |
+| Microsoft Dataverse | Evet | Evet | Yes | Hayır | Hayır | Evet |
 | Data.World - Veri Kümesi Al | Evet | Yes | Hayır | Hayır | Hayır | Hayır |
 | Denodo | Evet | Yes | Yes | Yes | Evet | Hayır |
 | Dremio | Evet | Yes | Yes | Evet | Evet | Hayır |

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5845e56bdcb2257d67d541e35d26c9285a5e9319
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0184e549911afb784e06b1ee829bf113ff97e067
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408148"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086315"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro kullanıcı lisansları satın alma ve atama
 
@@ -40,7 +40,7 @@ Azure portalında lisansları atamak için, Power BI'ın Azure Active Directory 
 ### <a name="purchase-licenses-in-microsoft-365"></a>Microsoft 365’te lisans satın alma
 
 > [!NOTE]
-> Lisansları genellikle Kurumsal Anlaşma gibi bir toplu lisans sözleşmesi aracılığıyla satın alıyorsanız ve kredi kartı veya banka hesabıyla satın almak yerine fatura gönderilmesini istiyorsanız siparişi farklı şekilde göndermeniz gerekir. Lisans ekleyip kaldırmak için Microsoft Kurumsal Bayiniz ile çalışın veya Toplu Lisanslama Hizmeti Merkezi’ni ziyaret edin. Daha fazla bilgi için bkz. [Abonelik lisanslarını yönetme](/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide).
+> Lisansları genellikle Kurumsal Anlaşma gibi bir toplu lisans sözleşmesi aracılığıyla satın alıyorsanız ve kredi kartı veya banka hesabıyla satın almak yerine fatura gönderilmesini istiyorsanız siparişi farklı şekilde göndermeniz gerekir. Lisans ekleyip kaldırmak için Microsoft Kurumsal Bayiniz ile çalışın veya Toplu Lisanslama Hizmeti Merkezi’ni ziyaret edin. Daha fazla bilgi için bkz. [Abonelik lisanslarını yönetme](/microsoft-365/commerce/licenses/buy-licenses).
 
 Microsoft 365 yönetim merkezinde Power BI Pro lisansları satın almak için şu adımları izleyin:
 

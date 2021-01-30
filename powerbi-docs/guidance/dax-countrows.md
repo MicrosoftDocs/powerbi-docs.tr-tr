@@ -2,18 +2,18 @@
 title: 'DAX: COUNT yerine COUNTROWS kullanma'
 description: COUNTROWS işlevlerinin ne zaman kullanılacağına yönelik rehber.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/23/2019
-ms.openlocfilehash: 1a2b8c6450cfd855a0018fb64dd385a0db6e350f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 8d3baba388900a9d57d6490db13c25cb363667ba
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394210"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088523"
 ---
 # <a name="dax-use-countrows-instead-of-count"></a>DAX: COUNT yerine COUNTROWS kullanma
 

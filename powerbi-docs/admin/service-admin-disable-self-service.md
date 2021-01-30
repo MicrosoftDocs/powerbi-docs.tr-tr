@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff695d49caeab7bed88b932cec6aaec11ec4df29
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 127fe9c306295619dadc9817056f76b243231093
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413691"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086016"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>Self servis kaydolma ve satın alma işlemlerini etkinleştirme veya devre dışı bırakma
 
@@ -44,9 +44,9 @@ Self servis kaydolma etkinse, **AllowAdHocSubscriptions** değeri *true* olur. B
 
 ### <a name="before-you-begin"></a>Başlamadan önce
 
-Bu adımlarda, **AllowAdHocSubscriptions** ayarının değerini değiştirmek için Azure Active Directory PowerShell komutları kullanılır. Bu komutların kullanılabilmesi için Azure AD PowerShell modülünü yüklemiş olmanız gerekir. PowerShell kullanma hakkında daha fazla bilgi için bkz. [Windows PowerShell ile çalışmaya başlama](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7).
+Bu adımlarda, **AllowAdHocSubscriptions** ayarının değerini değiştirmek için Azure Active Directory PowerShell komutları kullanılır. Bu komutların kullanılabilmesi için Azure AD PowerShell modülünü yüklemiş olmanız gerekir. PowerShell kullanma hakkında daha fazla bilgi için bkz. [Windows PowerShell ile çalışmaya başlama](/powershell/scripting/getting-started/getting-started-with-windows-powershell).
 
-Azure AD modülünü yüklemek için Windows PowerShell'i yönetici olarak başlatın. Yerel yürütme ilkenizin betikleri çalıştırmanıza izin verdiğinden emin olun. Sorunlarla karşılaşırsanız, yerel ilkenizi nasıl değiştireceğinizi öğrenmek için bkz. [PowerShell yürütme ilkeleri](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies).
+Azure AD modülünü yüklemek için Windows PowerShell'i yönetici olarak başlatın. Yerel yürütme ilkenizin betikleri çalıştırmanıza izin verdiğinden emin olun. Sorunlarla karşılaşırsanız, yerel ilkenizi nasıl değiştireceğinizi öğrenmek için bkz. [PowerShell yürütme ilkeleri](/powershell/module/microsoft.powershell.core/about/about_execution_policies#powershell-execution-policies).
 
 Azure AD modülünü yüklemek için şu komutu çalıştırın:
 
@@ -90,9 +90,9 @@ Self servis satın alma etkinse, **AllowSelfServicePurchase** değeri *true* olu
 
 ### <a name="before-you-begin"></a>Başlamadan önce
 
-Bu adımlarda, **AllowSelfServicePurchase** ayarının değerini değiştirmek için MSCommerce PowerShell komutları kullanılır. Bu komutların kullanılabilmesi için MSCommerce PowerShell modülünü yüklemiş olmanız gerekir. PowerShell kullanma hakkında daha fazla bilgi için bkz. [Windows PowerShell ile çalışmaya başlama](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7).
+Bu adımlarda, **AllowSelfServicePurchase** ayarının değerini değiştirmek için MSCommerce PowerShell komutları kullanılır. Bu komutların kullanılabilmesi için MSCommerce PowerShell modülünü yüklemiş olmanız gerekir. PowerShell kullanma hakkında daha fazla bilgi için bkz. [Windows PowerShell ile çalışmaya başlama](/powershell/scripting/getting-started/getting-started-with-windows-powershell).
 
-MSCommerce modülünü yüklemek için Windows PowerShell'i yönetici olarak başlatın. Yerel yürütme ilkenizin betikleri çalıştırmanıza izin verdiğinden emin olun. Sorunlarla karşılaşırsanız, yerel ilkenizi nasıl değiştireceğinizi öğrenmek için bkz. [PowerShell yürütme ilkeleri](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies).
+MSCommerce modülünü yüklemek için Windows PowerShell'i yönetici olarak başlatın. Yerel yürütme ilkenizin betikleri çalıştırmanıza izin verdiğinden emin olun. Sorunlarla karşılaşırsanız, yerel ilkenizi nasıl değiştireceğinizi öğrenmek için bkz. [PowerShell yürütme ilkeleri](/powershell/module/microsoft.powershell.core/about/about_execution_policies#powershell-execution-policies).
 
 MSCommerce modülünü yüklemek için şu komutu çalıştırın:
 
@@ -128,5 +128,5 @@ Bu komutu çalıştırdıktan sonra, Power BI’ın self servis satın alma öze
 
 Power BI’da self servis satın alma ve Power Platform’un geri kalanı hakkında daha fazla bilgi için şu makalelere bakın:
 
-- [Self servis satın alma hakkında SSS](/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide#admin-capabilities)
-- [MSCommerce PowerShell modülü için AllowSelfServicePurchase kullanma](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide)
+- [Self servis satın alma hakkında SSS](/microsoft-365/commerce/subscriptions/self-service-purchase-faq#admin-capabilities)
+- [MSCommerce PowerShell modülü için AllowSelfServicePurchase kullanma](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell)

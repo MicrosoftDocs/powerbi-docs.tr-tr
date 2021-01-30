@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 68d12c69afadb3d5d82782c239381844c1d58b5e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b019ed8177a4300b39d41c53c2e7d6a4d84e673a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413553"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086568"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI’da artımlı yenileme
 
@@ -116,7 +116,7 @@ Power BI hizmetindeki ilk yenilemede beş takvim yılının tamamının içeri a
 
 #### <a name="current-date"></a>Geçerli tarih
 
-*Geçerli tarih*, yenileme anındaki sistem tarihini temel alır. Power BI hizmetinde veri kümesi için zamanlanmış yenilemenin etkinleştirilmiş olması durumunda geçerli tarih belirlenirken belirtilen saat dilimi dikkate alınır. Hem el ile çağrılan hem de Power BI hizmeti üzerinden zamanlanmış yenileme işlemleri varsa saat dilimini dikkate alır. Örneğin 20:00 PT (ABD ve Kanada) itibarıyla gerçekleşen ve saat dilimi belirtilmiş olan bir yenileme işlemi, geçerli tarihi GMT (bu durumda bir sonraki gün olacaktır) değil PT olarak kabul eder. [TMSL yenileme komutu](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) gibi, Power BI hizmeti üzerinden çağrılmayan yenileme işlemleri, zamanlanmış yenileme saat dilimini dikkate almaz
+*Geçerli tarih*, yenileme anındaki sistem tarihini temel alır. Power BI hizmetinde veri kümesi için zamanlanmış yenilemenin etkinleştirilmiş olması durumunda geçerli tarih belirlenirken belirtilen saat dilimi dikkate alınır. Hem el ile çağrılan hem de Power BI hizmeti üzerinden zamanlanmış yenileme işlemleri varsa saat dilimini dikkate alır. Örneğin 20:00 PT (ABD ve Kanada) itibarıyla gerçekleşen ve saat dilimi belirtilmiş olan bir yenileme işlemi, geçerli tarihi GMT (bu durumda bir sonraki gün olacaktır) değil PT olarak kabul eder. [TMSL yenileme komutu](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true) gibi, Power BI hizmeti üzerinden çağrılmayan yenileme işlemleri, zamanlanmış yenileme saat dilimini dikkate almaz
 
 ![Saat dilimi](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -180,7 +180,7 @@ Okuma/yazma özelliği etkin XMLA uç noktası sayesinde SSMS, artımlı yenilem
 
 #### <a name="override-incremental-refresh-behavior"></a>Artımlı yenileme davranışını geçersiz kılma
 
-SSMS sayesinde [Tablosal Model Betik Dili (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) ve [Tablosal Nesne Modeli (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) kullanarak artımlı yenilemeleri çağırma konusunda daha fazla denetime sahip olursunuz. Örneğin SSMS’deki Nesne Gezgini’nde bir tabloya sağ tıklayıp **Tabloyu İşle** menü seçeneğini belirleyin. Ardından bir TMSL yenileme komutu oluşturmak için **Betik** düğmesine tıklayın.
+SSMS sayesinde [Tablosal Model Betik Dili (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current&preserve-view=true) ve [Tablosal Nesne Modeli (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current&preserve-view=true) kullanarak artımlı yenilemeleri çağırma konusunda daha fazla denetime sahip olursunuz. Örneğin SSMS’deki Nesne Gezgini’nde bir tabloya sağ tıklayıp **Tabloyu İşle** menü seçeneğini belirleyin. Ardından bir TMSL yenileme komutu oluşturmak için **Betik** düğmesine tıklayın.
 
 ![Tabloyu İşle iletişim kutusundaki Betik düğmesi](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -208,7 +208,7 @@ Aşağıdaki parametreler, varsayılan artımlı yenileme davranışını geçer
 }
 ```
 
-TMSL ile varsayılan artımlı yenileme davranışını geçersiz kılma hakkında daha fazla bilgi için bkz. [Yenileme komutu](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current).
+TMSL ile varsayılan artımlı yenileme davranışını geçersiz kılma hakkında daha fazla bilgi için bkz. [Yenileme komutu](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true).
 
 ### <a name="custom-queries-for-detect-data-changes"></a>Veri değişikliklerini algılamak için özel sorgular
 

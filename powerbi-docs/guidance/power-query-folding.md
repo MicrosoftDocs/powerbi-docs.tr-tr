@@ -2,18 +2,18 @@
 title: Power BI Desktop’ta sorguyu kaynağa döndürme kılavuzu
 description: Power BI Desktop'ta sorguyu kaynağa döndürmeyi gerçekleştirmeye yönelik kılavuz.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/09/2019
-ms.openlocfilehash: 5e2ec32f3eeaff224256f0a84d2a5c23d3e882a5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 2d8702225d6d6eda09f77ac59901bd03db32f75e
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419326"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087373"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Power BI Desktop’ta sorguyu kaynağa döndürme kılavuzu
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52c3d5dea171f34fbbe5133eda6fd51fd471bbd4
-ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.openlocfilehash: 3bc9a946d8f9091f8a2939ad9865460c1f22a446
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98925658"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085831"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI'da duyarlılık etiketleri
 
@@ -34,7 +34,7 @@ Microsoft Information Protection duyarlılık etiketleri, kullanıcılarınızı
 
 Power BI hizmetinde duyarlılık etiketleri veri kümelerine, raporlara, panolara ve veri akışlarına uygulanabilir. Etiketlenmiş veriler Excel, PowerPoint, PDF veya .pbix dosyalarına dışarı aktarılarak ya da Excel’de Analiz veya Excel’deki PivotTable’lara canlı bağlantı gibi diğer desteklenen dışarı aktarma senaryoları aracılığıyla Power BI’dan çıktığında, Power BI dışarı aktarılan dosyaya etiketi otomatik olarak uygular ve etiketin dosya şifreleme ayarlarına göre bu dosyayı korur. Bu şekilde hassas verileriniz Power BI'dan ayrıldığında bile koruma altında tutulabilir.
 
-Buna ek olarak duyarlılık etiketleri Power BI Desktop'ta .pbix dosyalarına uygulanabildiğinden, verileriniz ve içeriğiniz Power BI hizmetinde yayımlanmadan önce bile Power BI'ın dışında paylaşıldığında güvenlidir (örneğin, paylaşılmış veya e-postaya eklenmiş olan bir gizli .pbix dosyasını yalnızca kuruluşunuzun içindeki kullanıcılar açabilir). Diğer ayrıntılar için bkz. [Şifreleme uygulamak için duyarlılık etiketlerini kullanarak içeriğe erişimi kısıtlama](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide).
+Buna ek olarak duyarlılık etiketleri Power BI Desktop'ta .pbix dosyalarına uygulanabildiğinden, verileriniz ve içeriğiniz Power BI hizmetinde yayımlanmadan önce bile Power BI'ın dışında paylaşıldığında güvenlidir (örneğin, paylaşılmış veya e-postaya eklenmiş olan bir gizli .pbix dosyasını yalnızca kuruluşunuzun içindeki kullanıcılar açabilir). Diğer ayrıntılar için bkz. [Şifreleme uygulamak için duyarlılık etiketlerini kullanarak içeriğe erişimi kısıtlama](/microsoft-365/compliance/encryption-sensitivity-labels).
 
 Rapor, pano, veri kümesi ve veri akışlarındaki duyarlılık etiketleri, Power BI hizmetindeki birçok noktada görünür. Raporlardaki ve panolardaki duyarlılık etiketleri ayrıca Power BI iOS ve Android mobil uygulamalarında ve başka yerlere eklenen görsellerde de görülebilir. Desktop'ta duyarlılık etiketini durum çubuğunda görebilirsiniz.
 
@@ -185,7 +185,7 @@ Bu merkezlerin birinde duyarlılık etiketlerine erişmek için **Sınıflandır
 
 ### <a name="power-bi-desktop-preview"></a>Power BI Desktop (önizleme)
 
-* Korumalı .pbix dosyaları yalnızca dosyanın RMS sahibi olan (başlangıçta dosyaya etiketi uygulayan) kullanıcı tarafından veya ilgili etiket üzerinde [**Tam denetim** ve/veya **Dışarı aktarma** kullanım haklarına](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide) sahip olan kullanıcı tarafından açılabilir ve/veya yayımlanabilir. RMS sahibinin Tam denetimi vardır ve hiçbir zaman kilitlenemez. [Diğer ayrıntıları görüntüleyin](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
+* Korumalı .pbix dosyaları yalnızca dosyanın RMS sahibi olan (başlangıçta dosyaya etiketi uygulayan) kullanıcı tarafından veya ilgili etiket üzerinde [**Tam denetim** ve/veya **Dışarı aktarma** kullanım haklarına](/microsoft-365/compliance/encryption-sensitivity-labels) sahip olan kullanıcı tarafından açılabilir ve/veya yayımlanabilir. RMS sahibinin Tam denetimi vardır ve hiçbir zaman kilitlenemez. [Diğer ayrıntıları görüntüleyin](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
 
 * .pbix dosyasına uygulanan etiket Microsoft 365 güvenlik merkezinde veya Microsoft 365 uyumluluk merkezinde kullanıcıya yayımlanmamışsa, kullanıcı Desktop'ta dosyayı kaydedemez.
 

@@ -2,18 +2,18 @@
 title: Müşteri Power BI geçişlerinden öğrenme
 description: Power BI’a geçiş yaparken diğer müşterilerin deneyimlerinden bilgi edinin.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.openlocfilehash: fd5490eae689a4119566474da2ef4d19017a8134
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 7982598ac7a475cae4f0524c8d3d914b4f1a6341
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419188"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086775"
 ---
 # <a name="learn-from-customer-power-bi-migrations"></a>Müşteri Power BI geçişlerinden öğrenme
 

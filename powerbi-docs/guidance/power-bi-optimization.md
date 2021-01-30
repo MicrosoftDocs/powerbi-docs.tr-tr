@@ -2,18 +2,18 @@
 title: Power BI için iyileştirme kılavuzu
 description: Power BI için iyileştirme kılavuzu.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.openlocfilehash: d55696756f6dca6b70b23b82ccab30c08cc79ec7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: a6fc823194d0f5ed35ea92d08f631a364cb63e28
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96392945"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087557"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Power BI için iyileştirme kılavuzu
 

@@ -9,17 +9,17 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6afc49e0d2fe67c89d906d4715959892868b0027
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 2218889e170519e651127d4246ab61a7505735fb
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408102"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085625"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Power BI yöneticisi için PowerShell cmdlet'leri, REST API'ler ve .NET Client kitaplığı
 Power BI, yöneticilerin PowerShell cmdlet'leriyle yaygın görevler için betik oluşturmasına olanak tanır. Ayrıca yönetim çözümleri gelişmek için REST API'leri de gösterir ve bir .NET istemci kitaplığı sağlar. Bu konu başlığı altında, cmdlet'lerin listesiyle bunlara karşılık gelen API'ler ve REST API uç noktası gösterilir. Daha fazla bilgi için bkz.
 
-- PowerShell [indirmesi](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) ve [belgeleri](/powershell/power-bi/overview?view=powerbi-ps)
+- PowerShell [indirmesi](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) ve [belgeleri](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true)
 - REST API [belgeleri](/rest/api/power-bi/admin)
 - .NET İstemci kitaplığını [indirme](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
 

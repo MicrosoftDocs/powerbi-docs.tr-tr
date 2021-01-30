@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/13/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 7db1b6c2df9a8ad32b76ae452ee76828df5823c0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: cd55b23bf6f8d86fbb31b261e9f63ec6b8ebc775
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408516"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085671"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Kuruluşunuz için Power BI hizmet aboneliği alma
 
@@ -55,7 +55,7 @@ Microsoft 365 yönetim merkezinde Power BI Pro lisansları satın almak için ş
 
 8. Satın alma işleminizi doğrulamak için **Faturalama** > **Ürünler ve hizmetler**’e gidin ve **Power BI Pro**’yu bulun.
 
-Kuruluşunuzun Power BI hizmetini nasıl gözden geçirebileceği ve alabileceği hakkında daha fazla bilgi edinmek için bkz. [Kuruluşunuzda Power BI](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide).
+Kuruluşunuzun Power BI hizmetini nasıl gözden geçirebileceği ve alabileceği hakkında daha fazla bilgi edinmek için bkz. [Kuruluşunuzda Power BI](/microsoft-365/admin/misc/power-bi-in-your-organization).
 
 ## <a name="more-ways-to-get-power-bi-for-your-organization"></a>Kuruluşunuz için Power BI’ı almanın diğer yolları
 
@@ -98,4 +98,4 @@ Oluşturduğunuz hesap artık yeni Power BI Pro deneme kiracısının genel yön
 
 - [Kullanıcıları lisanslarını görüntüleme ve yönetme](service-admin-manage-licenses.md)
 - [Self servis kaydolma ve satın alma işlemlerini etkinleştirme veya devre dışı bırakma](service-admin-disable-self-service.md)
-- [İş abonelikleri ve faturalama belgeleri](/microsoft-365/commerce/?view=o365-worldwide)
+- [İş abonelikleri ve faturalama belgeleri](/microsoft-365/commerce/)

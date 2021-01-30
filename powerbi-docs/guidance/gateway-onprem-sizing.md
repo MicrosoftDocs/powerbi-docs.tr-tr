@@ -2,18 +2,18 @@
 title: Şirket içi veri ağ geçidi boyutlandırması
 description: Şirket içi veri ağ geçidinde boyutlandırma çalışması yönergeleri.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.openlocfilehash: c0506b492a0c28140256dc0be850358836b284b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 35630891a66b9aed0b9e568d8e34180e3ee41544
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419430"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088408"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Şirket içi veri ağ geçidi boyutlandırması
 
@@ -84,7 +84,7 @@ Power BI hizmetiyle ağ geçidiniz ve ağ geçidinizle veri kaynakları arasınd
 
 - Güvenilirlik, yüksek hızlar ve düşük, tutarlı gecikme süreleri sağlamaya çalışın
 - Ağ geçidi ile veri kaynaklarınız arasındaki makine atlamalarını ortadan kaldırın veya azaltın
-- Güvenlik duvarı ara sunucu katmanınız tarafından uygulanan tüm ağ azaltmalarını kaldırın. Power BI uç noktaları hakkında daha fazla bilgi için bkz. [Power BI URL’lerini izin verilenler listenize ekleme](../admin/power-bi-whitelist-urls.md).
+- Güvenlik duvarı ara sunucu katmanınız tarafından uygulanan tüm ağ azaltmalarını kaldırın. Power BI uç noktaları hakkında daha fazla bilgi için bkz. [Power BI URL’lerini izin verilenler listenize ekleme](../admin/power-bi-allow-list-urls.md).
 - Power BI ile özel ve yönetilen bağlantılar kurmak için [Azure ExpressRoute](/azure/expressroute/expressroute-introduction)’u yapılandırın
 - Azure VM’lerindeki veri kaynakları için, VM’lerin [Power BI hizmetiyle aynı konumda yer aldığından](../admin/service-admin-where-is-my-tenant-located.md) emin olun
 - Dinamik RLS içeren SQL Server Analysis Services’e (SSAS) yönelik Canlı Bağlantı iş yükleri için, ağ geçidi makinesiyle şirket içi Active Directory arasında iyi bir bağlantı bulunduğundan emin olun

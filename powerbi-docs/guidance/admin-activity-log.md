@@ -2,18 +2,18 @@
 title: Power BI etkinlik günlüğüne erişme
 description: Power BI etkinlik günlüğü ile çalışmak için rehber ve örnek PowerShell betiği kodu.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: sample
 ms.date: 09/03/2020
-ms.openlocfilehash: 18ce155419f712cce2c4973949cd02ffbd870724
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0e86966225060c24aa154c0b29ea533dad89908b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394670"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088707"
 ---
 # <a name="access-the-power-bi-activity-log"></a>Power BI etkinlik günlüğüne erişme
 
@@ -30,7 +30,7 @@ Power BI etkinlik günlüğü olaylarının nasıl filtreleneceği ve alınacağ
 - Doğrudan rapor paylaşımı için kullanıcıların listesini alma.
 
 > [!NOTE]
-> [Power BI Yönetici API’si](/rest/api/power-bi/admin) ve [Power BI PowerShell modülleri](/powershell/power-bi/overview?view=powerbi-ps) hakkında temel bilgi sahibi olmanız gerekir. Bu betik blokları yürütülmeden önce PowerShell modülleri yüklenmiş olmalıdır. Daha fazla bilgi için bkz. [Power BI'da kullanıcı etkinliklerini izleme](../admin/service-admin-auditing.md#use-the-activity-log).
+> [Power BI Yönetici API’si](/rest/api/power-bi/admin) ve [Power BI PowerShell modülleri](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true) hakkında temel bilgi sahibi olmanız gerekir. Bu betik blokları yürütülmeden önce PowerShell modülleri yüklenmiş olmalıdır. Daha fazla bilgi için bkz. [Power BI'da kullanıcı etkinliklerini izleme](../admin/service-admin-auditing.md#use-the-activity-log).
 >
 > Power BI olaylarının alınmasında 30 dakikaya kadar bir gecikme olabilir.
 

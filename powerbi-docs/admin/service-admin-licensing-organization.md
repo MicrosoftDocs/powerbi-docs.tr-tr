@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 0c13d0f54d18527e6b8614f40b5b15fd46187968
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 0da3b5134db770c97b5b86b215998df91c1f646c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718520"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085993"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Kuruluşunuzdaki kullanıcılar için Power BI hizmetini lisanslama
 
@@ -27,7 +27,7 @@ Bu makale, yönetim açısından hizmet satın almaya ve kullanıcı başına li
 
 ## <a name="who-can-purchase-and-assign-licenses"></a>Lisansları kimler satın alıp atayabilir?
 
-Kuruluşunuz için lisans satın almak veya atamak üzere bir yönetici rolü atamanız gerekir. Yönetici rolleri, Azure Active Directory yönetim merkezi veya Microsoft 365 yönetim merkezi kullanılarak atanır. Aşağıdaki tabloda, satın alma ve lisanslama ile ilgili görevleri yapmak için hangi rolün gerekli olduğu gösterilmektedir. Azure Active Directory'deki yönetici rolleri hakkında daha fazla bilgi için bkz. [Azure Active Directory’deki yönetici rollerini görüntüleme ve atama](/azure/active-directory/users-groups-roles/directory-manage-roles-portal). En iyi yöntemler dahil Microsoft 365’teki yönetici rolleri hakkında daha fazla bilgi edinmek için bkz. [Yönetici rolleri hakkında](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide).
+Kuruluşunuz için lisans satın almak veya atamak üzere bir yönetici rolü atamanız gerekir. Yönetici rolleri, Azure Active Directory yönetim merkezi veya Microsoft 365 yönetim merkezi kullanılarak atanır. Aşağıdaki tabloda, satın alma ve lisanslama ile ilgili görevleri yapmak için hangi rolün gerekli olduğu gösterilmektedir. Azure Active Directory'deki yönetici rolleri hakkında daha fazla bilgi için bkz. [Azure Active Directory’deki yönetici rollerini görüntüleme ve atama](/azure/active-directory/users-groups-roles/directory-manage-roles-portal). En iyi yöntemler dahil Microsoft 365’teki yönetici rolleri hakkında daha fazla bilgi edinmek için bkz. [Yönetici rolleri hakkında](/microsoft-365/admin/add-users/about-admin-roles).
 
 | Hizmetleri ve lisansları kimler satın alabilir? | Kullanıcı lisanslarını kimler yönetebilir? |
 | --------------- | --------------- |
@@ -114,7 +114,7 @@ Power BI Pro, Microsoft 365 ile aynı lisans yaşam döngüsüne sahiptir. Daha 
 ## <a name="next-steps"></a>Sonraki adımlar
 
 - [Power BI Pro lisanslarını satın alma ve atama](service-admin-purchasing-power-bi-pro.md)
-- [İş abonelikleri ve faturalama belgeleri](/microsoft-365/commerce/?view=o365-worldwide)
+- [İş abonelikleri ve faturalama belgeleri](/microsoft-365/commerce/)
 - [Oturum açmış Power BI kullanıcılarını bulma](service-admin-access-usage.md)
 - Başka bir sorunuz mu var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
 

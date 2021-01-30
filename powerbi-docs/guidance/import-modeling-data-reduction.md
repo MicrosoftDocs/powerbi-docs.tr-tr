@@ -2,18 +2,18 @@
 title: İçeri Aktarma modellemesi için veri azaltma teknikleri
 description: İçeri Aktarma modellerine yüklenen verileri azaltmaya yardımcı olmak için farklı teknikleri anlayın.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/05/2019
-ms.openlocfilehash: 5476a87d21f7a5e49850078e490b25c3d8a4f5d8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 89bae213f8bb115ea208c7faaad2be5ee5d4cffe
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419372"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088339"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>İçeri Aktarma modellemesi için veri azaltma teknikleri
 

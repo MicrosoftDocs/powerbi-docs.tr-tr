@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/20/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 3c1e2b4513b3ac920d447ef0b8195c76c1ec2a04
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: cf10ac72f387438a60d3840c69ad1ee713c26708
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413760"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086224"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Power BI'da kullanıcı etkinliklerini izleme
 
@@ -122,7 +122,7 @@ Denetim verilerini tarih aralığına, kullanıcıya, panoya, rapora, veri küme
 
 Denetim günlüklerine erişmek için şu gereksinimleri karşılamanız gerekir:
 
-- Denetim günlüğüne erişmek için genel yönetici olmanız veya size Exchange Online'da Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolü atanmış olması gerekir. Varsayılan olarak, bu roller Exchange yönetim merkezinin **İzinler** sayfasında Uyumluluk Yönetimi ve Kuruluş Yönetimi rol gruplarına atanır. Denetim günlüklerini görüntüleyebilen roller hakkında daha fazla bilgi edinmek için bkz. [Denetim günlüğünü aramaya ilişkin gereksinimler](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log).
+- Denetim günlüğüne erişmek için genel yönetici olmanız veya size Exchange Online'da Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolü atanmış olması gerekir. Varsayılan olarak, bu roller Exchange yönetim merkezinin **İzinler** sayfasında Uyumluluk Yönetimi ve Kuruluş Yönetimi rol gruplarına atanır. Denetim günlüklerini görüntüleyebilen roller hakkında daha fazla bilgi edinmek için bkz. [Denetim günlüğünü aramaya ilişkin gereksinimler](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#requirements-to-search-the-audit-log).
 
     Yönetici olmayan hesapların denetim günlüğüne erişmesini sağlamak için kullanıcıyı bu rol gruplarından birine üye olarak ekleyin. Bunu başka bir şekilde yapmak isterseniz, Exchange yönetim merkezinde özel bir rol grubu oluşturabilir, bu gruba Denetim Günlükleri veya Yalnızca Görüntülemeli Denetim Günlükleri rolünü atayabilir ve sonra da yönetici olmayan hesabı yeni rol grubuna ekleyebilirsiniz. Daha fazla bilgi için bkz. [Exchange Online'da rol gruplarını yönetme](/Exchange/permissions-exo/role-groups).
 
@@ -211,7 +211,7 @@ Power BI denetim günlüğünü CSV dosyası biçiminde dışarı aktarmak için
 
 ### <a name="use-powershell-to-search-audit-logs"></a>Denetim günlüklerinde arama yapmak için PowerShell'i kullanma
 
-Oturum açma bilgilerinize göre denetim günlüklerine erişmek için PowerShell'i de kullanabilirsiniz. Aşağıdaki örnekte Exchange Online PowerShell'e nasıl bağlanılacağı ve Power BI denetim günlüğü girdilerini çekmek için [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) komutunun nasıl kullanılacağı gösterilir. Betiği çalıştırmak için, [Denetim günlüğü gereksinimleri](#audit-log-requirements) bölümünde açıklandığı gibi bir yöneticinin uygun izinleri size ataması gerekir.
+Oturum açma bilgilerinize göre denetim günlüklerine erişmek için PowerShell'i de kullanabilirsiniz. Aşağıdaki örnekte Exchange Online PowerShell'e nasıl bağlanılacağı ve Power BI denetim günlüğü girdilerini çekmek için [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) komutunun nasıl kullanılacağı gösterilir. Betiği çalıştırmak için, [Denetim günlüğü gereksinimleri](#audit-log-requirements) bölümünde açıklandığı gibi bir yöneticinin uygun izinleri size ataması gerekir.
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -226,7 +226,7 @@ Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType Power
 
 ### <a name="use-powershell-to-export-audit-logs"></a>Denetim günlüklerini dışarı aktarmak için PowerShell’i kullanma
 
-Denetim günlükleri aramanızın sonuçlarını dışarı aktarmak için PowerShell de kullanabilirsiniz. Aşağıdaki örnekte [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) komutundan nasıl gönderebileceğiniz ve [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) cmdlet’ini kullanarak sonuçları nasıl dışarı aktarabileceğiniz gösterilmektedir. Betiği çalıştırmak için, [Denetim günlüğü gereksinimleri](#audit-log-requirements) bölümünde açıklandığı gibi bir yöneticinin uygun izinleri size ataması gerekir.
+Denetim günlükleri aramanızın sonuçlarını dışarı aktarmak için PowerShell de kullanabilirsiniz. Aşağıdaki örnekte [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps&preserve-view=true/) komutundan nasıl gönderebileceğiniz ve [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv) cmdlet’ini kullanarak sonuçları nasıl dışarı aktarabileceğiniz gösterilmektedir. Betiği çalıştırmak için, [Denetim günlüğü gereksinimleri](#audit-log-requirements) bölümünde açıklandığı gibi bir yöneticinin uygun izinleri size ataması gerekir.
 
 ```powershell
 $UserCredential = Get-Credential

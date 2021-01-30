@@ -2,18 +2,18 @@
 title: Etkin ve etkin olmayan ilişki karşılaştırması kılavuzu
 description: Etkin veya etkin olmayan model ilişkilerini kullanma kılavuzu.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 9fcded0f898f450b5de43686effa115f6163ae21
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 1d872aadf8258bd43114075477f2c37638f1f295
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417900"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087281"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Etkin ve etkin olmayan ilişki karşılaştırması kılavuzu
 

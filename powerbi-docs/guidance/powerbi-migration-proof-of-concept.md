@@ -2,18 +2,18 @@
 title: Power BI’a geçiş yapmak için kavram kanıtı yönetme
 description: Power BI’a geçiş yaparken kavram kanıtının yönetilmesine yönelik kılavuz.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.openlocfilehash: 77174da7fd47470974a292ba98f6b50c268b04fd
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: a51aaee15fc2a5e8d8facc1d34c0724dfa71d663
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419142"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086522"
 ---
 # <a name="conduct-proof-of-concept-to-migrate-to-power-bi"></a>Power BI’a geçiş yapmak için kavram kanıtı yönetme
 

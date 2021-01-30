@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: a4c652a0728dcecde960e8faba2070fc5a2b14e4
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
-ms.translationtype: HT
+ms.openlocfilehash: f7556dba4d0221d28e0a6993a03b1e4c398ba6d2
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96577406"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085648"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Power BI'da gerçek zamanlı akış
 Power BI'ın gerçek zamanlı akış özelliği, gerçek zamanlı olarak veri akışı gerçekleştirmenizi ve panoları güncelleştirmenizi sağlar. Power BI'da oluşturulan tüm görseller, gerçek zamanlı verileri ve görselleri görüntüleyebilir ve güncelleştirebilir. Cihazlar ve akış verisi kaynakları; fabrika algılayıcıları, sosyal medya kaynakları, hizmet kullanım ölçümleri ve diğer birçok zamana duyarlı veri toplayıcısı veya aktarıcısı olabilir.
@@ -52,7 +52,7 @@ Bir akış veri kümesini görselleştirmenin tek yolu kutucuk eklemek ve akış
 Uygulamada, akış veri kümeleri ve onlara eşlik eden akış görselleri, veri gönderme ve görselleştirme arasındaki gecikmenin en aza indirilmesinin yüksek düzeyde önemli olduğu durumlarda tercih edilecek en iyi seçenektir. Ayrıca en iyi uygulama olarak, verilerin başka bir toplama işlemi yapılmadan, olduğu gibi görselleştirilebileceği bir şekilde gönderilmesini sağlayabilirsiniz. Olduğu gibi kullanılmaya hazır verilere örnek olarak sıcaklıklar ve önceden hesaplanmış ortalamalar verilebilir.
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub akış veri kümesi
-**PubNub** akış veri kümeleri söz konusu olduğunda Power BI web istemcisi, mevcut bir PubNub veri akışını okumak için PubNub SDK'sını kullanır. Power BI hizmeti tarafından veri depolanmaz. Bu çağrı doğrudan web istemcisinden yapıldığından ağınızdan yalnızca onaylanan giden trafiğe izin veriyorsanız PubNub trafiğini de izin verilenler listesine eklemeniz gerekir. Ayrıntılı bilgi için [PubNub için giden trafiği onaylama](https://support.pubnub.com/hc/en-us/articles/360051496672-Can-I-whitelist-IPs-for-PubNub-traffic-) makalesindeki yönergeleri inceleyin.
+**PubNub** akış veri kümeleri söz konusu olduğunda Power BI web istemcisi, mevcut bir PubNub veri akışını okumak için PubNub SDK'sını kullanır. Power BI hizmeti tarafından veri depolanmaz. Bu çağrı doğrudan web istemcisinden yapıldığından ağınızdan yalnızca onaylanan giden trafiğe izin veriyorsanız PubNub trafiğini de izin verilenler listesine eklemeniz gerekir. Ayrıntılı bilgi için [PubNub için giden trafiği onaylama](https://support.pubnub.com/hc/en-us/articles/360051496672) makalesindeki yönergeleri inceleyin.
 
 **Akış veri kümelerinde** olduğu gibi, **PubNub akış veri kümesinde** de Power BI’da temel alınan bir veritabanı bulunmaz. Bu nedenle, akışı sağlanan verilere ilişkin rapor görselleri oluşturamaz, filtreleme ve Power BI görselleri gibi rapor özelliklerinden yararlanamazsınız. Benzer şekilde, **PubNub akış veri kümesi**, yalnızca panoya bir kutucuk eklenip PubNub veri akışı kaynak olarak yapılandırılarak görselleştirilebilir.
 

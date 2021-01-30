@@ -2,18 +2,18 @@
 title: Power BI Desktop’ta otomatik tarih/saat
 description: Power BI Desktop'taki otomatik tarih/saat işlevini anlayın.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 10/23/2019
-ms.openlocfilehash: 24972026d7121809ac71c6c8352a147af38ad5be
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 7664e24fd5218c7245168858efb7ee7e9e27992f
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416037"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088040"
 ---
 # <a name="apply-auto-datetime-in-power-bi-desktop"></a>Power BI Desktop’ta otomatik tarih/saat uygulama
 

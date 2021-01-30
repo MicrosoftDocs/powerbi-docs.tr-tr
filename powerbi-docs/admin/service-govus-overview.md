@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 06a2dff78cc2367afb153111e080e29a16fc82ab
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 93198628677966208609892ee45ea4a28932c091
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98686994"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085855"
 ---
 # <a name="power-bi-for-us-government-customers"></a>ABD kamu müşterileri için Power BI
 
@@ -66,7 +66,7 @@ Hesabınız birden fazla bulutta ayarlanmış olabilir. Hesabınız bu şekilde 
 
 Power BI hizmetini kullanmak için internet üzerindeki gerekli uç noktalarla bağlantı kurulmasına izin vermeniz gerekir. Ağınız, Power BI ve diğer bağımlı hizmetler arasında iletişim kurulabilmesi için bu hedeflere erişim sağlanabiliyor olması gerekir.
 
-Aşağıdaki tabloda genel site kullanımı için Power BI hizmeti bağlantısını etkinleştirmek üzere izin verilenler listenize eklemeniz gereken uç noktalar listelenmiştir. Bu uç noktalar, ABD Kamu bulutuna özeldir. Power BI hizmetlerinin listelenen uç noktaları için yalnızca 443 numaralı TCP bağlantı noktasının açılması gerekir. Veri alma, pano ve rapor tümleştirmesi, Power BI görselleri ve diğer isteğe bağlı hizmetler ile ilgili uç noktalar, ABD Kamu bulutuna özel değildir. Bu URL'leri de izin verilenler listenize eklemek için bkz. [Power BI URL'lerini izin verilenler listenize ekleme](power-bi-whitelist-urls.md).
+Aşağıdaki tabloda genel site kullanımı için Power BI hizmeti bağlantısını etkinleştirmek üzere izin verilenler listenize eklemeniz gereken uç noktalar listelenmiştir. Bu uç noktalar, ABD Kamu bulutuna özeldir. Power BI hizmetlerinin listelenen uç noktaları için yalnızca 443 numaralı TCP bağlantı noktasının açılması gerekir. Veri alma, pano ve rapor tümleştirmesi, Power BI görselleri ve diğer isteğe bağlı hizmetler ile ilgili uç noktalar, ABD Kamu bulutuna özel değildir. Bu URL'leri de izin verilenler listenize eklemek için bkz. [Power BI URL'lerini izin verilenler listenize ekleme](power-bi-allow-list-urls.md).
 
 Power BI'ın kimlik doğrulaması, kimlik ve yönetim özellikleri, Microsoft 365 hizmetlerini kullanır. Denetim günlüklerini görüntülemek için de Microsoft 365'e bağlanmanız gerekir. Bu hizmetlerin uç noktalarını belirlemek için aşağıdaki Microsoft 365 tümleştirme tablosunu inceleyin.
 

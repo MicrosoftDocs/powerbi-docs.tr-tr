@@ -2,18 +2,18 @@
 title: Rapor sayfası araç ipuçlarıyla görselleri genişletme
 description: Rapor sayfası araç ipuçlarıyla çalışma yönergeleri.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/24/2019
-ms.openlocfilehash: 919fc9cfa2bbdb55317fed0879347c929a723ce8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 1adb33dbff1de368d8d9b98ff0e7ad5f5f88387c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419073"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087856"
 ---
 # <a name="extend-visuals-with-report-page-tooltips"></a>Rapor sayfası araç ipuçlarıyla görselleri genişletme
 

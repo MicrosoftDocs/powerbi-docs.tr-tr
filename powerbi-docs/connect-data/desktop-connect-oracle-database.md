@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 134c11108da77c87ba087df9ac5564521d7a303d
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
-ms.translationtype: HT
+ms.openlocfilehash: 32029ee1c5b19205fafe10c77babfe9bf764341d
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926384"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086476"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Power BI Desktop'la Oracle veritabanına bağlanma
 Power BI Desktop'tan bir Oracle veritabanına bağlanmak için Power BI Desktop'ın çalıştığı bilgisayarda doğru Oracle istemci yazılımının yüklü olması gerekir. Kullandığınız Oracle istemci yazılımı, yüklediğiniz Power BI Desktop sürümüne göre değişiklik gösterir: 32 bit veya 64 bit. Ayrıca Oracle sunucunuzun sürümüne de bağlıdır.
@@ -24,7 +24,7 @@ Desteklenen Oracle sürümleri:
 - Oracle Data Access Client (ODAC) yazılımı 11.2 ve üzeri
 
 > [!NOTE]
-> Power BI Desktop, Şirket İçi Veri Ağ Geçidi veya Power BI Rapor Sunucusu için bir Oracle veritabanı yapılandırıyorsanız [Oracle Bağlantı Türü](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) makalesindeki bilgilere göz atın. 
+> Power BI Desktop, Şirket İçi Veri Ağ Geçidi veya Power BI Rapor Sunucusu için bir Oracle veritabanı yapılandırıyorsanız [Oracle Bağlantı Türü](/sql/reporting-services/report-data/oracle-connection-type-ssrs) makalesindeki bilgilere göz atın. 
 
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Power BI Desktop'ın hangi sürümünün yüklü olduğunu belirleme
@@ -58,7 +58,7 @@ Gerekli Oracle istemci sürücüsünü yükledikten sonra Oracle veritabanına b
    > [!NOTE]
    > Yerel bir veritabanı veya otonom veritabanı bağlantıları kullanıyorsanız bağlantı hatalarını engellemek için sunucu adını tırnak işareti içine almanız gerekebilir. 
       
-4. Yerel veritabanı sorgusu kullanarak verileri içeri aktarmak istiyorsanız sorgunuzu **SQL deyimi** kutusuna girin. Bu kutuya ulaşmak için **Oracle veritabanı** iletişim kutusunun **Gelişmiş seçenekler** bölümünü genişletmeniz gerekir.
+4. Yerel veritabanı sorgusu kullanarak verileri içeri aktarmak istiyorsanız sorgunuzu **SQL deyimi** kutusuna girin. Bu kutuya ulaşmak için **Oracle veritabanı** iletişim kutusunun **Gelişmiş seçenekler** bölümünü genişletmeniz gerekir.  Power BI Desktop, "Begin... içinde saklı yordamı ve Oracle yerel sorgularını çalıştıran Oracle yerel sorgularını desteklemez. End "bloğu hiçbir sonuç kümesi döndürmüyor.  
    
    ![Gelişmiş seçenekleri genişletme](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
 
@@ -89,4 +89,5 @@ Power BI Desktop'ı Microsoft Store'dan indirdiyseniz, bir Oracle sürücü hata
 
 Bir Oracle veritabanına bağlanırken Power BI Gateway’de *Nesne başvurusu ayarlanmadı* hata iletisini görürseniz, [Veri kaynağınızı yönetme - Oracle](service-gateway-onprem-manage-oracle.md) makalesindeki yönergeleri izleyin.
 
-Power BI Rapor Sunucusu kullanıyorsanız [Oracle Bağlantı Türü](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) makalesindeki kılavuza göz atın.
+Power BI Rapor Sunucusu kullanıyorsanız [Oracle Bağlantı Türü](/sql/reporting-services/report-data/oracle-connection-type-ssrs) makalesindeki kılavuza göz atın.
+
