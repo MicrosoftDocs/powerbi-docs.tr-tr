@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: 22d30e14256a2e58e05e17207380842392fe0c23
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: 8959a0ac63ff1f182bcb3544b1925529b1ad3663
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887420"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422410"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>2. Adım: Kimlik doğrulaması erişim belirteci alma
 
@@ -88,7 +88,7 @@ Bu kodu Program {...}'e ekleyin.
            string resourceUri = "https://analysis.windows.net/powerbi/api";
 
            //OAuth2 authority Uri
-           string authorityUri = "https://login.microsoftonline.net/common/";
+           string authorityUri = "https://login.microsoftonline.com/common/";
 
            //Get access token:
            // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

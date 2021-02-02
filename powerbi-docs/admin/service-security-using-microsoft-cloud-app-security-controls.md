@@ -2,41 +2,41 @@
 title: Power BI’da Microsoft Cloud App Security denetimlerini kullanma
 description: Microsoft Cloud App Security’yi Power BI ile birlikte kullanmayı öğrenin
 author: paulinbar
-ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 06/15/2020
+ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f7bd3a59395e9f5f1ea167b7e7988aeb9882a72f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 8a09de5777332d69332cae6928022e7e99fe689e
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413346"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422295"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Power BI’da Microsoft Cloud App Security denetimlerini kullanma
 
-Power BI ile Cloud App Security’yi kullanarak Power BI raporlarınızı, verilerinizi ve hizmetlerinizi istenmeyen sızıntı veya ihlallerden korumaya yardımcı olabilirsiniz. Cloud App Security sayesinde, Azure Active Directory’deki (Azure AD) gerçek zamanlı oturum denetimlerini kullanarak kuruluşunuzun verileri için Power BI analizlerinin güvenli olmasına yardımcı olacak koşullu erişim ilkeleri oluşturabilirsiniz. Bu ilkeler ayarlandıktan sonra yöneticiler kullanıcı erişimini ve etkinliğini izleyebilir, gerçek zamanlı risk analizi gerçekleştirebilir ve etikete özel denetimler belirleyebilir. 
+Power BI ile Cloud App Security’yi kullanarak Power BI raporlarınızı, verilerinizi ve hizmetlerinizi istenmeyen sızıntı veya ihlallerden korumaya yardımcı olabilirsiniz. Cloud App Security, Power BI analizlerinizin güvende olduğundan emin olmaya yardımcı olan Azure Active Directory (Azure AD) içindeki gerçek zamanlı oturum denetimlerini kullanarak kuruluşunuzun verileri için koşullu erişim ilkeleri oluşturabilirsiniz. Bu ilkeler ayarlandıktan sonra yöneticiler kullanıcı erişimini ve etkinliğini izleyebilir, gerçek zamanlı risk analizi gerçekleştirebilir ve etikete özel denetimler belirleyebilir. 
 
 ![Cloud App Security denetimler bölmesini kullanma](media/service-security-using-microsoft-cloud-app-security-controls/cloud-app-security-controls-01.png)
 
 Cloud App Security’yi yalnızca Power BI değil, her türlü uygulama ve hizmet için yapılandırabilirsiniz. Power BI verileriniz ve analizlerinizin Cloud App Security korumalarının avantajlarından yararlanması için Cloud App Security’yi Power BI ile çalışacak şekilde yapılandırmanız gerekir. İşleyişi, panosu ve uygulama risk puanları dahil olmak üzere Cloud App Security hakkında daha fazla bilgi için [Cloud App Security](/cloud-app-security/) belgelerine bakın.
 
+## <a name="cloud-app-security-licensing"></a>Cloud App Security lisansı
 
-## <a name="using-cloud-app-security-with-power-bi"></a>Cloud App Security’yi Power BI ile kullanma
-
-Power BI ile Cloud App Security’yi kullanmak için, bazıları Power BI dışında ayarlanan ilgili Microsoft güvenlik hizmetlerini kullanmanız ve yapılandırmanız gerekir.
-
-### <a name="cloud-app-security-licensing"></a>Cloud App Security lisansı
-
-Kiracınızda Cloud App Security’yi kullanmak için aşağıdaki [lisanslardan](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO) birine sahip olmanız gerekir:
+Power BI ile Cloud App Security’yi kullanmak için, bazıları Power BI dışında ayarlanan ilgili Microsoft güvenlik hizmetlerini kullanmanız ve yapılandırmanız gerekir. Kiracınızda Cloud App Security’yi kullanmak için aşağıdaki [lisanslardan](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2NXYO) birine sahip olmanız gerekir:
 * Microsoft Cloud App Security: Tüm desteklenen uygulamalar, EMS E5 ve Microsoft 365 E5 paketlerinin parçasına yönelik Cloud App Security özelliklerini sağlar.
 * Office 365 Cloud App Security: Yalnızca Office 365 E5 paketinin bir parçası olarak Office 365 için Cloud App Security özellikleri sağlar.
-* Başlıca Cloud App Security özelliklerinden faydalanmak için Azure Active Directory Premium P1.
 
-Aşağıdaki bölümlerde Power BI’da Cloud App Security kullanma adımları açıklanır.
+
+## <a name="configure-real-time-controls-for-power-bi-with-cloud-app-security"></a>Cloud App Security Power BI için gerçek zamanlı denetimleri yapılandırma
+
+> [!NOTE]
+> * Gerçek zamanlı denetimlerin Cloud App Security avantajlarından yararlanmak için Azure Active Directory Premium P1 lisansı gerekir.
+
+Aşağıdaki bölümlerde, Cloud App Security Power BI için gerçek zamanlı denetimleri yapılandırma adımları açıklanır.
 
 ### <a name="set-session-policies-in-azure-ad-required"></a>Azure AD’de oturum ilkelerini ayarlama (gerekli)
 Oturum denetimlerini ayarlamak için gereken adımlar, Azure AD ve Cloud App Security portallarında tamamlanır. Azure AD portalında Power BI için bir koşullu erişim ilkesi oluşturup Cloud App Security hizmeti aracılığıyla Power BI kullanılan oturumları yönlendirebilirsiniz. 
@@ -60,6 +60,20 @@ Cloud App Security, Power BI için iki ayrılmış iki yerleşik algılamaya sah
 Duyarlılık etiketleri, kuruluşunuzdaki kullanıcıların kuruluşunuzun dışındaki iş ortaklarıyla işbirliği yapabilmesi yaparken gizli içerik ve veriler konusunda dikkatli ve bilinçli olmaya devam etmesi için gizli içerikleri sınıflandırmanızı sağlar ve korumaya yardımcı olur. 
 
 Power BI için duyarlılık etiketlerini kullanma işlemiyle ilgili ayrıntılı bilgiler veren [Power BI’da duyarlılık etiketleri](service-security-sensitivity-label-overview.md) makalesini okuyun. [Duyarlılık etiketlerini temel alan bir Power BI ilkesi örneği](#example) için aşağıya bakın.
+
+## <a name="custom-policies-to-alert-on-suspicious-user-activity-in-power-bi"></a>Power BI şüpheli Kullanıcı etkinliğine uyarı vermek için özel ilkeler
+
+Cloud App Security etkinlik ilkesi, yöneticilerin kendi özel kurallarını tanımlamasına olanak sağlar. Bu, norm göre farklılık gösteren Kullanıcı davranışının algılanmasına yardımcı olur ve hatta çok tehlikeli gibi görünse de otomatik olarak üzerinde işlem yapar. Örneğin:
+
+* **Çok büyük duyarlılık etiketi kaldırma.** Örneğin: duyarlılık etiketleri, bir zaman penceresinde 5 dakikadan kısa bir süre içinde tek bir kullanıcı tarafından kaldırıldığında beni uyar.
+
+* **Duyarlılık etiketi düşürme düzeyini şifreleme.** Örneğin: ' çok gizli ' duyarlılık etiketi olan bir rapor artık ' Public ' olarak sınıflandırıldığında beni uyar.
+
+> [!NOTE]
+> * Power BI yapıtların ve duyarlılık etiketlerinin benzersiz tanımlayıcıları (kimlikler) [Power BI REST API 'leri](/rest/api/power-bi/)kullanılarak bulunabilir. Bkz. [veri kümeleri edinme](/rest/api/power-bi/datasets/getdatasets) veya [rapor edinme](/rest/api/power-bi/reports/getreports).
+
+
+Özel etkinlik ilkeleri Cloud App Security portalında yapılandırılır. [Daha fazla bilgi edinin](/cloud-app-security/user-activity-policies). 
 
 ## <a name="built-in-cloud-app-security-detections-for-power-bi"></a>Power BI için yerleşik Cloud App Security algılamaları
 

@@ -11,22 +11,20 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 1/13/2021
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b285d699d71001d8015615fdeb3652ba35274896
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
-ms.translationtype: HT
+ms.openlocfilehash: 8cfba48839f4055c7d48bf01a475cf2804053239
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191850"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422341"
 ---
 # <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Görselleştirme başlıklarını, arka planlarını, etiketlerini ve göstergelerini özelleştirme
 
-[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
-
+[!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]
 
 Bu öğreticide, görselleştirmelerinizi özelleştirmek için izleyebileceğiniz birkaç farklı yol öğreneceksiniz. Görselleştirmelerinizi özelleştirmeye yönelik çok sayıda seçenek vardır. Bunların tümü hakkında bilgi edinmenin en iyi yolu **Biçimlendirme** bölmesi keşfetmektir (boya rulosu simgesini seçin). Başlamanıza yardımcı olmak için bu makalede görselleştirme başlığını, göstergesini, arka planını, etiketini, katmanını özelleştirme ve tema ekleme işlemleri gösterilir.
 
 Tüm görselleştirmeler özelleştirilemez. Ayrıntılar için görselleştirmelerin [tam listesine](#visualization-types-that-you-can-customize) bakın.
-
 
 ## <a name="prerequisites"></a>Önkoşullar
 
@@ -60,14 +58,13 @@ Birlikte ilerleyebilmek için Power BI Desktop'ta oturum açın ve [Perakende An
 
     ![Başlık metninin girildiği Biçim bölmesinin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-title.png)
 
-1. **Yazı tipi rengi**’ni beyaz, **Arka plan rengi**’ni ise mavi olarak değiştirin.    
+1. **Yazı tipi rengi**’ni beyaz, **Arka plan rengi**’ni ise mavi olarak değiştirin.
 
     a. Açılan menüyü seçin ve **Tema renkleri**, **Son kullanılan renkler** veya **Özel renk**’ten bir renk seçin.
-    
+
     ![Yazı tipi rengi ve arka plan rengi seçenekleri.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-color.png)
 
     b. Renk penceresini kapatmak için, açılan menüyü seçin.
-
 
 1. Metin boyutunu **16 puntoya** yükseltin.
 
@@ -128,6 +125,7 @@ Yaptığınız değişiklikleri kaydedin ve sonraki bölüme geçin.
 Yaptığınız tüm değişiklikleri geri almanız gerekirse, **Gösterge** özelleştirme bölmesinin altındaki **Varsayılana dön** seçeneğini belirleyin.
 
 ## <a name="customize-total-labels-for-stacked-visuals"></a>Yığılmış görseller için toplam etiketlerini özelleştirme
+
 Yığılmış görseller veri etiketlerini ve toplam etiketlerini görüntüleyebilir. Yığılmış sütun grafiğinde veri etiketleri sütunun her bölümü için değeri tanımlar. Toplam etiketleri sütunun tamamı için toplam değeri görüntüler. 
 
 Rien'in yığılmış grafiğe toplam etiketlerini eklemesini izleyin ve ardından aşağıdaki adımları izleyerek bu işlemi kendiniz deneyin.
@@ -136,7 +134,7 @@ Rien'in yığılmış grafiğe toplam etiketlerini eklemesini izleyin ve ardınd
 
 1. **Genel bakış** rapor sayfasını açın ve **Zincir ve mağaza türüne göre ortalama satış alanı** çubuk grafiğini seçin.
 
-1. **Görselleştirme** sekmesinde ![yığılmış çubuk grafik simgesini](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png) seçerek bu çubuk grafiği yığılmış çubuk grafiğe dönüştürün. Görselin veri etiketlerini koruduğuna dikkat edin. 
+1. **Görselleştirme** sekmesinde ![yığılmış çubuk grafik simgesini](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png) seçerek bu çubuk grafiği yığılmış çubuk grafiğe dönüştürün. Görselin veri etiketlerini koruduğuna dikkat edin.
 
     ![Yeni yığılmış çubuk grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-chart.png)
 
@@ -150,24 +148,23 @@ Rien'in yığılmış grafiğe toplam etiketlerini eklemesini izleyin ve ardınd
 
     ![Toplam etiketlerini içeren yeni yığılmış çubuk grafiğin ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
 
-
 ## <a name="customize-layer-order"></a>Katman sırasını özelleştirme
+
 Raporlarınızda bulunan görsellerin ve şekillerin katman sırasını değiştirin. Katman sırası, seçildiğinde öne getirilecek olan nesneleri belirler. Rapor tuvalinde bir nesneyi seçtiğinizde bu nesne etkin hale gelir ve en üst katmana taşınır. Bu özellik seçilen görsellerle etkileşim kurmayı kolaylaştırır. Ancak şekiller ve arka planları en alt katmana sabitlemek isteyebilirsiniz. Bu sayede yanlışlıkla seçip rapor görsellerinizin üzerini kapatma olasılığını ortadan kaldırmış olursunuz. 
 
 Katman denetimleri Power BI hizmeti, Power BI Desktop, mobil ve Rapor Sunucusu ile kullanılabilir. Bu makalede Power BI hizmetindeki katman sıralaması davranışını değiştirme adımları gösterilmiştir.
 
 Rien'in katman davranışını değiştirmesini izleyin ve ardından aşağıdaki adımları izleyerek bu işlemi kendiniz deneyin.
 
-
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IY3L]
 
-1. Sarı artı simgesini seçerek yeni bir rapor sayfası ekleyin. 
+1. Sarı artı simgesini seçerek yeni bir rapor sayfası ekleyin.
 
-1. Tuvale bir şekil ekleyin. Burada mavi bir dikdörtgen ekledik. 
+1. Tuvale bir şekil ekleyin. Burada mavi bir dikdörtgen ekledik.
 
     ![Mavi dikdörtgenin bulunduğu yeni rapor sayfasının ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-shape.png)
 
-1. Raporun başka bir sayfasında bulunan görsellerden birini kopyalayıp yapıştırın. 
+1. Raporun başka bir sayfasında bulunan görsellerden birini kopyalayıp yapıştırın.
 
     ![Mavi dikdörtgenin ve pasta grafiğinin bulunduğu yeni rapor sayfasının ekran görüntüsü.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-layer.png)
 
@@ -179,14 +176,12 @@ Rien'in katman davranışını değiştirmesini izleyin ve ardından aşağıdak
 
 1. Okuma görünümünde mavi dikdörtgeni seçtiğinizde arka katmanında kalır.
 
-
 ## <a name="customize-colors-using-a-theme"></a>Tema kullanarak renkleri özelleştirme
 
 Rapor temalarıyla raporunuzun tamamında kurumsal renkler kullanmak, simge kümelerini değiştirmek veya yeni varsayılan görsel biçimlendirmeyi uygulamak gibi tasarım değişiklikleri uygulayabilirsiniz. Rapor teması uyguladığınızda, raporunuzdaki tüm görsellerde seçtiğiniz temanın renkleri ve biçimlendirmesi kullanılır.
 
 Raporunuza tema uygulamak için menü çubuğundan **Temayı değiştir**'i seçin. Tema seçin.  Aşağıdaki raporda **Güneş** teması kullanılmıştır.
 
- 
 ![Sarılar, turuncular ve kırmızılar içeren Güneş temasının kullanıldığı rapor](media/power-bi-visualization-customize-title-background-and-legend/power-bi-theme.png)
 
 ## <a name="visualization-types-that-you-can-customize"></a>Özelleştirebileceğiniz görselleştirme türleri
@@ -227,5 +222,3 @@ Görselleştirmelerin ve her biri için kullanılabilir özelleştirme seçenekl
 - [Renk biçimlendirme ve eksen özelliklerini kullanmaya başlama](service-getting-started-with-color-formatting-and-axis-properties.md)
 
 Başka bir sorunuz mu var? [Power BI Topluluğu'na başvurun](https://community.powerbi.com/)
-
-

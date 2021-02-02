@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/28/2021
-ms.openlocfilehash: d7fc9437af37052e95eaa771aab98f1331227c14
-ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.date: 02/01/2021
+ms.openlocfilehash: 6742b915cf4418cd0f9f735eaffea8da1d010e79
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "99044230"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422387"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -27,6 +27,7 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
     - *Sürüm: 1.10.7698.12811 (derleme 15.0.1105.194), Yayın tarihi: 21 Ocak 2021*
         - Özellikler
             - Yeni simgeler Power BI ve Power BI raporlara yeniden yapılır.
+            - Yayın sürümü 3.5.0 ile gönderilen özel Visual API
             - Yeni Portal önizleme deneyimi, ReportServer kataloğunun ConfigurationInfo tablosundaki ' UsePortalV2 ' Özellik anahtarının arkasına eklendi.
         - Hata düzeltmeleri
             - Gelişmiş model meta verilerini kullanan belirli modellerle Power BI raporlarının Zamanlanmış olarak yenilenmesi ile ilgili sorun düzeltildi.

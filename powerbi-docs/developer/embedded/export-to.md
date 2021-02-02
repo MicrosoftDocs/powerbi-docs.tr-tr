@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 12/28/2020
-ms.openlocfilehash: acd9d98b55697e8ca3729cad65a1ead8f01f6e62
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/01/2021
+ms.openlocfilehash: 64a9472960195c8d4f91013a778bb61cdf029ab4
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887029"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422364"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 
@@ -40,15 +40,41 @@ API’yi kullanmadan önce aşağıdaki [yönetici kiracı ayarlarının](../../
 
 API zaman uyumsuzdur. [exportToFile](/rest/api/power-bi/reports/exporttofile) API’si çağrıldığında bir dışarı aktarma işini tetikler. Dışarı aktarma işi tetiklendikten sonra, işi tamamlanana kadar izlemek için [yoklama](/rest/api/power-bi/reports/getexporttofilestatus) özelliğini kullanın.
 
-Yoklama sırasında API tamamlanan çalışma miktarını temsil eden bir sayı döndürür. Her dışarı aktarma işindeki çalışmalar, raporun sayfa sayısı temelinde hesaplanır. Tüm sayfaların ağırlığı aynıdır. Örneğin 10 sayfalık bir raporu dışarı aktarıyorsanız ve yoklamada 70 sayısı döndürülüyorsa, API dışarı aktarma işindeki 10 sayfadan yedisini işlemiştir.
+Yoklama sırasında API tamamlanan çalışma miktarını temsil eden bir sayı döndürür. Her bir dışarı aktarma işindeki iş, işteki dışarı aktarmalar toplamı temel alınarak hesaplanır. Dışarı aktarma, tek bir görseli veya yer işaretlerini içeren veya içermeyen bir sayfanın dışarı aktarılmasını içerir. Tüm dışarı aktarmalar aynı ağırlığa sahiptir. Örneğin dışa aktarma işiniz, 10 sayfalı bir raporu dışarı aktarmayı içeriyorsa ve yoklama 70 değerini döndürürse, API 'nin dışarı aktarma işindeki 10 sayfadan yedi bir işlendiği anlamına gelir.
 
 Dışarı aktarma tamamlandığında yoklama API çağrısı dosyayı almak için bir [Power BI URL](/rest/api/power-bi/reports/getfileofexporttofile)’si döndürür. URL 24 saat süreyle kullanılabilir.
 
 ## <a name="supported-features"></a>Desteklenen özellikler
 
+Bu bölümde, aşağıdaki desteklenen özelliklerin işlemi açıklanmaktadır:
+
+* [Yazdırılacak sayfaları seçme](#selecting-which-pages-to-print)
+* [Bir sayfayı veya tek görseli dışarı aktarma](#exporting-a-page-or-a-single-visual)
+* [Bookmarks](#bookmarks)
+* [Filtreler](#filters)
+* [Kimlik Doğrulaması](#authentication)
+* [Satır Düzeyi Güvenlik (RLS)](#row-level-security-rls)
+* [Veri koruma](#data-protection)
+* [Yerelleştirme](#localization)
+
 ### <a name="selecting-which-pages-to-print"></a>Yazdırılacak sayfaları seçme
 
 [Sayfaları Alma](/rest/api/power-bi/reports/getpages) veya [Gruptaki Sayfaları Alma](/rest/api/power-bi/reports/getpagesingroup) dönüş değerine göre yazdırmak istediğiniz sayfaları belirtin. Ayrıca dışarı aktardığınız sayfaların sırasını da belirtebilirsiniz.
+
+### <a name="exporting-a-page-or-a-single-visual"></a>Bir sayfayı veya tek görseli dışarı aktarma
+
+Dışarı aktarmak için bir sayfa veya tek bir görsel belirleyebilirsiniz. Sayfalar, yer işaretleri ile veya olmadan aktarılabilir.
+
+Dışarı aktarma türüne bağlı olarak, [Exportreportpage](/rest/api/power-bi/reports/exporttofile#exportreportpage) nesnesine farklı öznitelikler geçirmeniz gerekir. Aşağıdaki tabloda, her bir dışarı aktarma işi için hangi özniteliklerin gerektiği belirtilir.  
+
+>[!NOTE]
+>Tek bir görseli dışarı aktarmak, bir sayfayı dışa aktarma ile aynı ağırlığa sahiptir (yer işaretleri içeren veya içermeyen). Bu, sistem hesaplamaları açısından her iki işlemin de aynı değeri üstolmayacağı anlamına gelir.
+
+|Öznitelik   |Sayfa     |Tek görsel  |Yorumlar|
+|------------|---------|---------|---|
+|`bookmark`  |İsteğe Bağlı |![Geçerli değildir.](../../media/no.png)|Belirli bir durumdaki bir sayfayı dışarı aktarmak için kullanın|
+|`pageName`  |![Şunun için geçerlidir:](../../media/yes.png)|![Şunun için geçerlidir:](../../media/yes.png)|[GetPages](/rest/api/power-bi/reports/getpage) REST API veya `getPages` istemci API 'sini kullanın. Daha fazla bilgi için bkz. [sayfaları ve görselleri edinme](/javascript/api/overview/powerbi/get-visuals).   |
+|`visualName`|![Geçerli değildir.](../../media/no.png)|![Şunun için geçerlidir:](../../media/yes.png)|Görselin adını almanın iki yolu vardır:<li>`getVisuals`ISTEMCI API 'sini kullanın. Daha fazla bilgi için bkz. [sayfaları ve görselleri edinme](/javascript/api/overview/powerbi/get-visuals).</li><li>Görselin seçildiği zaman tetiklenen *Visualclicked* olayını dinleyin ve günlüğe kaydedin. Daha fazla bilgi için bkz. [olayları işleme](/javascript/api/overview/powerbi/handle-events)</li>. |
 
 ### <a name="bookmarks"></a>Yer imleri
 
@@ -127,10 +153,10 @@ Eş zamanlı istek sayısını aşan işler sonlandırılmaz. Örneğin A1 SKU�
 
 * Dışarı aktardığınız raporun Premium veya Embedded kapasitede bulunması gerekir.
 * Dışarı aktardığınız raporun veri kümesi Premium veya Embedded kapasitede bulunmalıdır.
-* Genel önizleme için bir saatte dışarı aktarılan Power BI rapor sayfalarının sayısı 50 ile sınırlandırılmıştır.
+* Genel önizleme için, saat başına Power BI dışarı aktarma sayısı, kapasiteye göre 50 ile sınırlıdır. Dışarı aktarma, tek bir görseli veya bir rapor sayfasını, yer işaretleri içeren veya olmayan bir şekilde dışa aktarmayı ifade eder ve sayfalandırılmış raporların dışarı aktarılmasını içermez.
 * Dışarı aktarılan raporların dosya boyutu 250 MB’ı aşamaz.
 * .png’ye aktarırken duyarlılık etiketleri desteklenmez.
-* Dışarı aktara eklenebilecek sayfa sayısı 50’dir. Raporda daha fazla sayfa varsa API hata döndürür ve dışarı aktarma işi iptal edilir.
+* Dışarı aktarılan bir rapora dahil edilebilir dışarı aktarmalar (tek görseller veya rapor sayfaları) sayısı 50 ' dir (Bu, sayfalandırılmış raporların dışarı aktarılmasını içermez). İstek daha fazla dışarı aktarma içeriyorsa, API bir hata döndürür ve dışarı aktarma işi iptal edilir.
 * [Kişisel yer işaretleri](../../consumer/end-user-bookmarks.md#personal-bookmarks) ve [kalıcı filtreler](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) desteklenmez.
 * Aşağıdaki Power BI görselleri desteklenmez. Bu görselleri içeren bir rapor dışarı aktarıldığında, raporda bu görsellerin bulunduğu bölümler işlenmez ve bir hata simgesi görüntülenir.
     * Sertifikasız Power BI görselleri

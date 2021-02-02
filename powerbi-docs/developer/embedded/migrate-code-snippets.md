@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: f6b6023ac77d007b07662e200d6f165d56d67628
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: cf6e20568d3fbec5d3e3db0bb4e7e2248c5f15da
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888731"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422433"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Power BI Çalışma Alanı Koleksiyonundan içerik geçirmek için kod parçacıkları
 
@@ -74,7 +74,7 @@ using System.Threading.Tasks;
 ## <a name="import-report-to-saas-workspace"></a>Raporu SaaS çalışma alanına aktarma
 
 ```csharp
-    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
+    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.com/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myClientId>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
     var credentials = new TokenCredentials(PBISaaSAuthResult.AccessToken);
     var client = new PowerBIClient(new Uri($"{"https://api.powerbi.com"}"), credentials);
@@ -115,7 +115,7 @@ Bu işlem SaaS geçişi sonrasında PBIX dosyasını güncelleştirmek için kul
         public string connection { get; set; }
     }
 
-    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
+    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.com/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api",<myclient_id>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
     var credentials = new TokenCredentials(PBISaaSAuthResult.AccessToken);
     var client = new PowerBIClient(new Uri($"{"https://api.powerbi.com"}"), credentials);
@@ -151,7 +151,7 @@ Bu kod parçacığında kolaylık sağlaması açısından şifreli olmayan kiml
     var url = string.Format("https://api.powerbi.com/v1.0/myorg/gateways/{0}/datasources/{1}", <gateway_id>, <datasource_id>);
     var request = new HttpRequestMessage(new HttpMethod("PATCH"), url);
     // Set authorization header from you acquired Azure AD token
-    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
+    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.com/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <myclient_id>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
 
     request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", PBISaaSAuthResult.AccessToken);
@@ -204,7 +204,7 @@ Bu kod parçacığında gönderilebilen veri kümesinin SaaS ortamındaki bir ç
     }
 
     // step 4 -> Upload dummy PBIX to SaaS workspace
-    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.net/common/");
+    AuthenticationContext authContext = new AuthenticationContext("https://login.microsoftonline.com/common/");
     var PBISaaSAuthResult = authContext.AcquireToken("https://analysis.windows.net/powerbi/api", <Your client ID>, new Uri("urn:ietf:wg:oauth:2.0:oob"), PromptBehavior.Always);
     var credentialsSaaS = new TokenCredentials(PBISaaSAuthResult.AccessToken);
     var clientSaaS = new Microsoft.PowerBI.Api.V2.PowerBIClient(new Uri($"{"https://api.powerbi.com"}"), credentialsSaaS);
