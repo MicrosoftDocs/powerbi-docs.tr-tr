@@ -8,429 +8,324 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 02/04/2020
-ms.openlocfilehash: da356800a49e6d8876a147862dd08541ed2999bc
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.date: 12/17/2020
+ms.openlocfilehash: fbae63597ecf4ff36783ad83785f87c242359f90
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565675"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99494990"
 ---
-# <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Öğretici: Kuruluşunuz için Power BI içeriğini bir uygulamaya ekleme
+# <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-organization-application"></a>Öğretici: *kuruluş uygulamanız için* örnek bir ekleme kullanarak Power BI içerik ekleme
 
-**Power BI**’da, verilerin sahibi kullanıcıdır yapısını kullanarak bir uygulamaya raporlar (Power BI veya Sayfalandırılmış), panolar veya kutucuklar ekleyebilirsiniz. **Verilerin sahibi kullanıcıdır** yapısı, tümleşik analizi kullanmak için uygulamanızın Power BI hizmetinin kapsamını genişletebilmesini sağlar. Bu öğreticide, bir raporun (Power BI veya Sayfalandırılmış) bir uygulamayla nasıl tümleştirileceği gösterilmektedir. Kuruluşunuz için bir uygulamaya Power BI eklemek için Power BI JavaScript API’si ile birlikte Power BI .NET SDK’sını kullanırsınız.
+Power BI ekli analiz, raporlar, panolar ve kutucuklar gibi Power BI içerikleri uygulamanıza eklemenize olanak tanır.
 
-![Power BI Rapor Ekleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
 
-Bu öğreticide, aşağıdaki görevleri öğreneceksiniz:
-> [!div class="checklist"]
-> * Azure’da bir uygulama kaydetme.
-> * Power BI kiracınızı kullanarak uygulamaya Power BI raporu veya Sayfalandırılmış rapor ekleme.
+>[!div class="checklist"]
+>* Tümleşik analiz ortamınızı ayarlama.
+>* *Kuruluşunuz için bir ekleme* ( *veri sahibi olan Kullanıcı* olarak da bilinir) örnek uygulama yapılandırın.
+
+Uygulamanızı kullanmak için kullanıcılarınızın Power BI oturum açması gerekir.
+
+Kuruluşunuz için ekleme çözümü genellikle kurumsal şirketler ve büyük kuruluşlar tarafından kullanılır ve şirket içi kullanıcılara yöneliktir.
+
+## <a name="code-sample-specifications"></a>Kod örneği belirtimleri
+
+Bu öğreticide, aşağıdaki çerçevelerden birinde kuruluş örnek uygulamanız *için bir ekleme* yapılandırma yönergeleri yer almaktadır:
+
+* .NET Framework
+* .NET Core
+* Tepki TypeScript
+
+>[!NOTE]
+>*.NET Core* ve *.NET Framework* örnekleri, son kullanıcının Power BI hizmeti erişimi olan Power BI Pano, rapor veya kutucuk görüntülemesine olanak tanır. Yanıt verme *TypeScript* örneği, son kullanıcılarınızın Power BI hizmeti üzerinde zaten erişimi olan tek bir rapor eklemenizi sağlar.
+
+Kod örneği aşağıdaki tarayıcıları destekler:
+
+* Microsoft Edge
+* Google Chrome
+* Mozilla Firefox
 
 ## <a name="prerequisites"></a>Önkoşullar
 
-Başlamak için şunlara sahip olmalısınız:
+Bu öğreticiye başlamadan önce hem Power BI'a hem de aşağıda listelenen kod bağımlılıklarına sahip olduğunuzdan emin olun:
 
-* [Power BI Pro hesabı](../../fundamentals/service-self-service-signup-for-power-bi.md).
-* [Microsoft Azure](https://azure.microsoft.com/) aboneliği.
-* [Azure Active Directory kiracınız](create-an-azure-active-directory-tenant.md) ayarlanmış olmalıdır.
-* Sayfalandırılmış raporları eklemek için en az P1 kapasitesine ihtiyacınız vardır. Bkz. [Sayfalandırılmış raporlar için hangi boyutta Premium kapasite gerekiyor?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
+* **Power BI bağımlılıkları**
 
-**Power BI Pro**’ya kaydolmadıysanız başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
+    * Kendi [Azure Active Directory kiracınız](create-an-azure-active-directory-tenant.md).
 
-Azure aboneliğiniz yoksa başlamadan önce [ücretsiz bir hesap](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) oluşturun.
+    * Aşağıdaki lisanslardan biri:
 
->[!NOTE]
->[Kullanıcı Başına Premium (PPU)](../../admin/service-premium-per-user-faq.md) desteklenir. Ancak PPU kullanıyorsanız yalnızca kuruluşunuzdaki PPU kullanıcıları çözümünüze erişebilir.
+        * [Power BI Pro](../../admin/service-admin-purchasing-power-bi-pro.md)
 
-## <a name="set-up-your-embedded-analytics-development-environment"></a>Eklediğiniz analiz geliştirme ortamını ayarlama
+        * [Kullanıcı başına Premium (PPU)](../../admin/service-premium-per-user-faq.md)
 
-Raporları, panoları veya kutucukları uygulamanıza eklemeye başlamadan önce ortamınızın Power BI ile ekleme işlevlerine izin verdiğinden emin olmanız gerekir.
+    >[!NOTE]
+    >[Üretime gitmek](move-to-production.md) için aşağıdaki yapılandırmalardan birine ihtiyacınız olacaktır:
+    >* Pro lisanslarına sahip tüm kullanıcılar.
+    >* PPU lisanslarına sahip tüm kullanıcılar.
+    >* [Kapasite](embedded-capacity.md). Bu yapılandırma, tüm kullanıcıların ücretsiz lisansa sahip olmasını sağlar.
 
-Hızla çalışmaya başlayıp ortam oluşturma ve rapor ekleme işlemi boyunca adım adım size yol gösteren örnek bir uygulamayı indirmek için [Ekleme kurulum aracı](https://app.powerbi.com/embedsetup) bölümünün üzerinden geçebilirsiniz. Sayfalandırılmış rapor ekleme durumunda oluşturulan çalışma alanında en az P1 kapasitesine ihtiyacınız vardır.
+* **Kod bağımlılıkları**
 
-Ortamı el ile ayarlamayı seçerseniz aşağıdaki adımlara devam edebilirsiniz.
+    # <a name="net-core"></a>[.NET Core](#tab/net-core)
 
-### <a name="register-an-application-in-azure-active-directory"></a>Bir uygulamayı Azure Active Directory’ye kaydetme
+    * [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core) (veya üzeri)
+    
+    * Bir tümleşik geliştirme ortamı (IDE). Aşağıdakilerden birini kullanmanız önerilir:
 
-Uygulamanızın [Power BI REST API'lerine](/rest/api/power-bi/) erişmesini sağlamak için [uygulamanızı Azure Active Directory'ye kaydedin](register-app.md). Uygulamanızı kaydettiğinizde uygulamanız için bir kimlik oluşturabilir ve Power BI REST kaynaklarıyla ilgili izinleri belirleyebilirsiniz.
+        * [Visual Studio](https://visualstudio.microsoft.com/)
 
->[!NOTE]
->Kendi uygulamanızda *Kimlik doğrulaması* bölümüne gidip *Yeniden Yönlendirme URI'leri* alanına yeniden yönlendirme adresini girmeniz gerekir.
-Yeniden yönlendirme hakkında daha fazla bilgi edinmek için bkz. [Yeniden yönlendirme URI'si (yanıt URL'si) kısıtlamaları ve sınırlamaları](/azure/active-directory/develop/reply-url).
+        * [Visual Studio Code](https://code.visualstudio.com/)
 
-## <a name="set-up-your-power-bi-environment"></a>Power BI ortamınızı ayarlama
+    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
 
-### <a name="create-a-workspace"></a>Çalışma alanı oluşturma
+    * [ .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * [Visual Studio](https://visualstudio.microsoft.com/)
 
-Müşterileriniz için raporlar, panolar ve kutucuklar yerleştiriyorsanız, çalışma alanı içine içeriğinizi yerleştirmeniz gerekir. Ayarlayabileceğiniz farklı türlerde çalışma alanları vardır: [geleneksel çalışma alanları](../../collaborate-share/service-create-workspaces.md) veya [yeni çalışma alanları](../../collaborate-share/service-create-the-new-workspaces.md).
+    # <a name="react-typescript"></a>[Tepki TypeScript](#tab/react)
 
-### <a name="create-and-publish-your-power-bi-reports"></a>Power BI raporlarınızı oluşturma ve yayımlama
+    * Metin Düzenleyicisi
 
-Power BI Desktop kullanarak raporlarınızı ve veri kümelerinizi oluşturabilirsiniz. Daha sonra bu raporları bir çalışma alanında yayımlayabilirsiniz. Raporları yayımlayan son kullanıcının bir çalışma alanında yayımlamak için Power BI Pro lisansına sahip olması gerekir.
+    * Komut satırı terminali (veya PowerShell)
 
-1. GitHub'dan örnek [Tanıtım](https://github.com/Microsoft/powerbi-desktop-samples)'ı indirin.
+---
 
-    ![Tanıtımı indirme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026-1.png)
+## <a name="method"></a>Yöntem
 
-2. Power BI Desktop’ta örnek .pbix raporunu açın.
+Kuruluşunuzun örnek uygulamasına bir *ekleme* oluşturmak için aşağıdaki adımları izleyin:
 
-   ![Örnek Power BI Desktop raporu](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
+1. [Bir Azure AD uygulaması kaydedin](#step-1---register-an-azure-ad-application).
 
-3. Çalışma alanında yayımlayın.
+2. [Power BI çalışma alanı oluşturun](#step-2---create-a-power-bi-workspace).
 
-   ![Power BI Desktop raporunu yayımlama](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
+3. [Power BI raporu oluşturup yayımlayın](#step-3---create-and-publish-a-power-bi-report).
 
-    Artık raporunuzu Power BI hizmetinde çevrimiçi görüntüleyebilirsiniz.
+4. [Ekleme parametrelerinin değerlerini alın](#step-4---get-the-embedding-parameter-values).
 
-   ![Power BI Desktop raporunu görüntüleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-029.png)
-   
-### <a name="create-and-publish-your-paginated-reports"></a>Sayfalandırılmış raporlarınızı oluşturma ve yayımlama
+5. [İçeriğinizi ekleyin](#step-5---embed-your-content).
 
-[Power BI Rapor Oluşturucusu](../../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)’nu kullanarak sayfalandırılmış raporlarınızı oluşturabilirsiniz. Daha sonra en az P1 kapasitesine atanmış bir çalışma alanına [raporu yükleyebilirsiniz](../../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service). Raporu yükleyen son kullanıcının çalışma alanında yayımlayabilmesi için bir Power BI Pro lisansına sahip olması gerekir.
-   
-## <a name="embed-your-content-by-using-the-sample-application"></a>Örnek uygulamayı kullanarak içeriğinizi ekleme
+## <a name="step-1---register-an-azure-ad-application"></a>1. adım-bir Azure AD uygulamasını kaydetme
 
-Bu örnek tanıtım amacıyla bilerek basit tutulmuştur.
+Uygulamanızı Azure AD 'ye kaydetmek, uygulamanız için bir kimlik ayarlamanıza olanak sağlar.
 
-Örnek uygulamayı kullanarak içeriğinizi eklemeye başlamak için aşağıdaki adımları izleyin.
+[!INCLUDE[Register Azure AD app](../../includes/embed-tutorial-register-app.md)]
 
-1. [Visual Studio](https://www.visualstudio.com/)'yu (sürüm 2013 veya üzeri) indirin. En son [NuGet paketini](https://www.nuget.org/profiles/powerbi) indirdiğinizden emin olun.
+## <a name="step-2---create-a-power-bi-workspace"></a>2. adım-Power BI çalışma alanı oluşturma
 
-2. Başlamak için GitHub’dan [Verilerin Sahibi Kullanıcıdır örneğini](https://github.com/Microsoft/PowerBI-Developer-Samples) indirin.
+[!INCLUDE[Create a Power BI workspace](../../includes/embed-tutorial-create-workspace.md)]
 
-    ![Verilerin Sahibi Kullanıcıdır uygulama örneği](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
+## <a name="step-3---create-and-publish-a-power-bi-report"></a>3. adım-Power BI raporu oluşturma ve yayımlama
 
-3. Örnek uygulamada **Cloud.config** dosyasını açın.
+[!INCLUDE[Create a Power BI report](../../includes/embed-tutorial-create-report.md)]
 
-    Uygulamayı çalıştırmak için doldurmanız gereken alanlar vardır.
+## <a name="step-4---get-the-embedding-parameter-values"></a>4. adım-ekleme parametre değerlerini al
 
-    | Alan |
-    |--------------------|
-    | **[Application ID](#application-id)** |
-    | **[Workspace ID](#workspace-id)** |
-    | **[Report ID](#report-id)** |
-    | **[AADAuthorityUrl](#aadauthorityurl)** |
+İçeriğinizi eklemek için birkaç parametre değeri edinmeniz gerekir. İhtiyacınız olan parametre değerleri, kullanmak istediğiniz örnek uygulamanın diline bağlı olarak değişir. Aşağıdaki tabloda her örnek için hangi parametre değerlerinin gerekli olduğu listelenmektedir.
 
-    ![Cloud.config dosyası](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
+|Parametre  |.NET Core  |.NET Framework  |Tepki TypeScript |
+|---------|---------|---------|---------|
+|[İstemci Kimliği](#client-id) |![Şunun için geçerlidir:](../../media/yes.png) |![Şunun için geçerlidir:](../../media/yes.png)         |![Şunun için geçerlidir:](../../media/yes.png) |
+|[Gizli anahtar](#workspace-id) |![Şunun için geçerlidir:](../../media/yes.png) |![Şunun için geçerlidir:](../../media/yes.png) |![Geçerli değildir.](../../media/no.png) |
+|[Çalışma Alanı Kimliği]() |![Geçerli değildir.](../../media/no.png) |![Geçerli değildir.](../../media/no.png) |![Şunun için geçerlidir:](../../media/yes.png) |
+|[Rapor Kimliği]() |![Geçerli değildir.](../../media/no.png) |![Geçerli değildir.](../../media/no.png) |![Şunun için geçerlidir:](../../media/yes.png) |
 
-### <a name="application-id"></a>Uygulama Kimliği
+### <a name="client-id"></a>İstemci Kimliği
 
-**applicationId** bilgilerini **Azure**’daki **Uygulama Kimliği** ile doldurun. Uygulama, izin istediğiniz kullanıcılara kendini tanıtmak için **applicationId** değerini kullanır.
+>[!TIP]
+>**Uygulama hedefi:** ![ Uygulama hedefi. ](../../media/yes.png) . NET Core ![ için geçerlidir. ](../../media/yes.png) .. NET Framework ![ için geçerlidir. ](../../media/yes.png) Tepki TypeScript
 
-**applicationId** değerini almak için aşağıdaki adımları izleyin:
+[!INCLUDE[Get the client ID](../../includes/embed-tutorial-client-id.md)]
 
-1. [Azure portalında](https://portal.azure.com) oturum açın.
+### <a name="client-secret"></a>Gizli anahtar
 
-2. Sol gezinti bölmesinde **Tüm Hizmetler**'i, sonra da **Uygulama Kayıtları**'nı seçin.
+>[!TIP]
+>**Uygulama hedefi:** ![ Uygulama hedefi. ](../../media/yes.png) . NET Core ![ için geçerlidir. ](../../media/yes.png) .. NET Framework ![ için geçerlidir. ](../../media/no.png) Tepki TypeScript
 
-3. **applicationId** değerinin gerektiği uygulamayı seçin.
-
-    ![Uygulama Seçme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-042.png)
-
-4. GUID olarak listelenen bir **Uygulama Kimliği** vardır. Bu **Uygulama Kimliği**’ni uygulamanın **applicationId** değeri olarak kullanın.
-
-    ![applicationId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-043.png)
+[!INCLUDE[Get the client secret](../../includes/embed-tutorial-client-secret.md)]
 
 ### <a name="workspace-id"></a>Çalışma Alanı Kimliği
 
-**workspaceId** bilgisini Power BI’daki çalışma alanı (grup) GUID’si ile doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken URL'den alabileceğiniz gibi PowerShell'i kullanarak da alabilirsiniz.
+>[!TIP]
+>**Uygulama hedefi:** ![ İçin geçerlidir. ](../../media/no.png) .. NET Core ![ , için geçerlidir. ](../../media/no.png) .. NET Framework ![ için geçerlidir. ](../../media/yes.png) Tepki TypeScript
 
-URL <br>
-
-![workspaceId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040.png)
-
-PowerShell <br>
-
-```powershell
-Get-PowerBIworkspace -name "User Owns Embed Test"
-```
-
-   ![PowerShell'den workspaceId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-040-ps.png)
+[!INCLUDE[Get the workspace ID](../../includes/embed-tutorial-workspace-id.md)]
 
 ### <a name="report-id"></a>Rapor Kimliği
 
-**reportId** bilgisini Power BI’daki rapor GUID’si ile doldurun. Bu bilgiyi Power BI hizmetinin oturumu açıkken URL'den alabileceğiniz gibi PowerShell'i kullanarak da alabilirsiniz.
+>[!TIP]
+>**Uygulama hedefi:** ![ İçin geçerlidir. ](../../media/no.png) .. NET Core ![ , için geçerlidir. ](../../media/no.png) .. NET Framework ![ için geçerlidir. ](../../media/yes.png) ReactTypeScript
 
-Power BI Raporu URL'si <br>
+[!INCLUDE[Get the report ID](../../includes/embed-tutorial-report-id.md)]
 
-![PBI reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
+## <a name="step-5---embed-your-content"></a>5\. Adım: İçeriğinizi ekleme
 
+Power BI Ekli örnek uygulama, kuruluşunuz Power BI uygulamanız için bir *ekleme* oluşturmanıza olanak sağlar.
 
-Sayfalandırılmış Rapor URL'si<br>
+Power BI raporunuzu eklemek için, kuruluşunuzun örnek uygulamasına *yönelik ekleme* 'yı değiştirmek üzere bu adımları izleyin.
 
-![Paginated reportId](media/embed-sample-for-your-organization/paginated-reports-url.png)
+[!INCLUDE[Embedding steps](../../includes/embed-tutorial-embedding-steps.md)]
 
-PowerShell <br>
+4. Uygulamanızda kullanmak istediğiniz dile bağlı olarak şu klasörlerden birini açın:
 
-```powershell
-Get-PowerBIworkspace -name "User Owns Embed Test" | Get-PowerBIReport
-```
+    * .NET Core
+    * .NET Framework
+    * Tepki verme
 
-![PowerShell'den reportId](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041-ps.png)
+    >[!NOTE]
+    >*Kuruluşunuz için ekleme* örnek uygulamalar yalnızca yukarıda listelenen çerçeveleri destekler. *Java*, *node js* ve *Python* örnek uygulamaları, yalnızca *[müşterileriniz için embed](embed-sample-for-customers.md)* çözümünü destekler.
 
-### <a name="aadauthorityurl"></a>AADAuthorityUrl
+# <a name="net-core"></a>[.NET Core](#tab/net-core)
 
-**AADAuthorityUrl** alanını kurumsal kiracınızla eklemenize veya konuk kullanıcıyla eklemenize olanak tanıyan URL'yle doldurun.
+### <a name="configure-your-azure-ad-app"></a>Azure AD uygulamanızı yapılandırma
 
-Kurumsal kiracınızla eklemek için şu URL'yi kullanın: *https://login.microsoftonline.com/common/oauth2/authorize* .
+[!INCLUDE[Configure the Azure AD authentication options](../../includes/embed-tutorial-org-azure-ad-app.md)]
 
-Konukla eklemek için şu URL'yi kullanın - `https://login.microsoftonline.com/report-owner-tenant-id` - Burada *report-owner-tenant-id* yerine rapor sahibinin kiracı kimliğini ekleyin.
+5. *Platform yapılandırmalarında* *Web* platformunuzu açın ve **yeniden yönlendirme URI 'leri** bölümüne ekleyin `https://localhost:5000/signin-oidc` .
 
-### <a name="run-the-application"></a>Uygulamayı çalıştırma
+    > [!NOTE]
+    >**Web** platformunuz yoksa **Platform Ekle** ' yi seçin ve *platformları Yapılandır* penceresinde **Web**' i seçin.
 
-1. **Visual Studio**’da **Çalıştır**’ı seçin.
+6. Yaptığınız değişiklikleri kaydedin.
 
-    ![Uygulamayı çalıştırma](media/embed-sample-for-your-organization/embed-sample-for-your-organization-033.png)
+:::image type="content" source="media/embed-sample-for-your-organization/azure-ad-net-configurations.png" alt-text=".NET Core uygulama örneği için Web yeniden yönlendirme U R ı dahil olmak üzere Azure AD uygulama kimlik doğrulama yapılandırmalarının gösterildiği ekran görüntüsü.":::
 
-2. Ardından **Rapor Ekle**’yi seçin. Test etmeyi seçtiğiniz içeriğe (raporlar, panolar veya kutucuklar) bağlı olarak uygulamada bu seçeneği belirleyin.
+### <a name="configure-the-sample-embedding-app"></a>Örnek ekleme uygulamasını yapılandırma
 
-    ![İçerik seçme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-034.png)
+1. **Kuruluşunuz Için embed** klasörünü açın.
 
-3. Artık raporu örnek uygulamada görüntüleyebilirsiniz.
+2. Aşağıdaki yöntemlerden birini kullanarak, *Kuruluşunuz için ekleme örnek uygulamanızı* açın:
 
-    ![Raporu uygulamada görüntüleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-035.png)
+    * [Visual Studio](https://visualstudio.microsoft.com/)kullanıyorsanız, **Userownsdata. sln** dosyasını açın.
 
-## <a name="embed-your-content-within-your-application"></a>İçeriğinizi uygulamanın içine ekleme
+    * [Visual Studio Code](https://code.visualstudio.com/)kullanıyorsanız **Userownsdata** klasörünü açın.
 
-İçeriğinizi ekleme adımları [Power BI REST API’leri](/rest/api/power-bi/) ile yapılabilse de, bu makalede açıklanan örnek kodlar .NET SDK ile hazırlanır.
+3. **appsettings.js** açın ve aşağıdaki parametre değerlerini girin:
 
-Bir raporu web uygulamasıyla tümleştirmek için Power BI REST API’sini veya Power BI C# SDK’sını kullanırsınız. Rapor almak için Azure Active Directory yetkilendirme erişim belirteci de kullanırsınız. Daha sonra aynı erişim belirtecini kullanarak raporu yüklersiniz. Power BI Rest API’si, belirli Power BI kaynaklarına programlı erişim sağlar. Daha fazla bilgi için bkz. [Power BI REST API’leri](/rest/api/power-bi/) ve [Power BI JavaScript API’si](https://github.com/Microsoft/PowerBI-JavaScript).
+    * `ClientId` - [ISTEMCI kimliği](#client-id) GUID 'sini kullan
 
-### <a name="get-an-access-token-from-azure-ad"></a>Azure AD'den erişim belirteci alma
+    * `ClientSecret`- [İstemci gizliliğini](#client-secret) kullanın
 
-Uygulamanızın içinden Power BI REST API’si çağrısı yapabilmek için önce Azure AD’den bir erişim belirteci almanız gerekir. Daha fazla bilgi için bkz. [Power BI uygulamanız için kullanıcıların kimliğini doğrulama ve Azure AD erişim belirteci alma](get-azuread-access-token.md).
+### <a name="run-the-sample-app"></a>Örnek uygulamayı çalıştırma
 
-### <a name="get-a-report"></a>Rapor alma
+1. Uygun seçeneği belirleyerek projeyi çalıştırın:
 
-Power BI raporu veya sayfalandırılmış rapor almak için, Power BI ve sayfalandırılmış raporlar listesini alan [Get Reports](/rest/api/power-bi/reports/getreports) işlemini kullanırsınız. Rapor listesinden bir rapor kimliği alabilirsiniz.
+    * **Visual Studio** kullanıyorsanız **IIS Express** (yürüt) öğesini seçin.
 
-### <a name="get-reports-by-using-an-access-token"></a>Erişim belirteci kullanarak rapor alma
+    * **Visual Studio Code** kullanıyorsanız **Çalıştır > Hata Ayıklamayı Başlat**'ı seçin.
 
-[Get Reports](/rest/api/power-bi/reports/getreports) işlemi rapor listesini döndürür. Rapor listesindeki raporlardan birini alabilirsiniz.
+[!INCLUDE[The embedded application sample app interface](../../includes/embed-tutorial-org-sample-app.md)]
 
-REST API çağrısını yapmak için *Taşıyıcı {erişim belirteci}* biçiminde *Yetkilendirme* üst bilgisi dahil etmeniz gerekir.
+# <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
 
-#### <a name="get-reports-with-the-rest-api"></a>REST API'si ile rapor alma
+### <a name="configure-your-azure-ad-app"></a>Azure AD uygulamanızı yapılandırma
 
-Aşağıdaki kod örneği, REST API ile nasıl rapor alınacağını gösterir:
+[!INCLUDE[Configure the Azure AD authentication options](../../includes/embed-tutorial-org-azure-ad-app.md)]
 
-> [!Note]
-> Eklemek istediğiniz bir içerik öğesini alma örneği, [örnek uygulama](https://github.com/Microsoft/PowerBI-Developer-Samples) içindeki Default.aspx.cs dosyasında sağlanır. Rapor, pano veya kutucuk örnek olarak verilebilir.
+5. *Platform yapılandırmalarında*, aşağıdakileri yapılandırın:
 
-```csharp
-using Newtonsoft.Json;
+    1. *Web* platformda, **yeniden yönlendirme URI 'leri** bölümüne ekleyin `https://localhost:44300/` .
 
-//Get a Report. In this sample, you get the first Report.
-protected void GetReport(int index)
-{
-    //Configure Reports request
-    System.Net.WebRequest request = System.Net.WebRequest.Create(
-        String.Format("{0}/Reports",
-        baseUri)) as System.Net.HttpWebRequest;
+        > [!NOTE]
+        >**Web** platformunuz yoksa **Platform Ekle** ' yi seçin ve *platformları Yapılandır* penceresinde **Web**' i seçin.
+    
+    2. *Örtük verme ve karma akışlarda*, **Kimlik belirteçleri** seçeneğini etkinleştirin.
+    
+6. Yaptığınız değişiklikleri kaydedin.
 
-    request.Method = "GET";
-    request.ContentLength = 0;
-    request.Headers.Add("Authorization", String.Format("Bearer {0}", accessToken.Value));
+:::image type="content" source="media/embed-sample-for-your-organization/azure-ad-framework-configurations.png" alt-text="Web yeniden yönlendirme U R ı ve .NET Framework uygulama örneği için seçilen erişim belirteci seçeneği dahil olmak üzere Azure AD uygulama kimlik doğrulama yapılandırmalarının ekran görüntüsü.":::
 
-    //Get Reports response from request.GetResponse()
-    using (var response = request.GetResponse() as System.Net.HttpWebResponse)
-    {
-        //Get reader from response stream
-        using (var reader = new System.IO.StreamReader(response.GetResponseStream()))
-        {
-            //Deserialize JSON string
-            PBIReports Reports = JsonConvert.DeserializeObject<PBIReports>(reader.ReadToEnd());
+### <a name="configure-the-sample-embedding-app"></a>Örnek ekleme uygulamasını yapılandırma
 
-            //Sample assumes at least one Report.
-            //You could write an app that lists all Reports
-            if (Reports.value.Length > 0)
-            {
-                var report = Reports.value[index];
+1. **Kuruluşunuz Için embed** klasörünü açın.
 
-                txtEmbedUrl.Text = report.embedUrl;
-                txtReportId.Text = report.id;
-                txtReportName.Text = report.name;
-            }
-        }
-    }
-}
-
-//Power BI Reports used to deserialize the Get Reports response.
-public class PBIReports
-{
-    public PBIReport[] value { get; set; }
-}
-public class PBIReport
-{
-    public string id { get; set; }
-    public string reportType { get; set }
-    public string name { get; set; }
-    public string webUrl { get; set; }
-    public string embedUrl { get; set; }
-}
-```
-
-#### <a name="get-reports-by-using-the-net-sdk"></a>.NET SDK kullanarak rapor alma
-
-REST API'sini doğrudan çağırmak yerine .NET SDK kullanarak rapor listesi alabilirsiniz. Aşağıdaki kod örneği, raporların nasıl listeleneceğini göstermektedir:
-
-```csharp
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using Microsoft.PowerBI.Api.V2;
-using Microsoft.PowerBI.Api.V2.Models;
-
-var tokenCredentials = new TokenCredentials(<ACCESS TOKEN>, "Bearer");
-
-// Create a Power BI Client object. It is used to call Power BI APIs.
-using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
-{
-    // Get the first report all reports in that workspace
-    ODataResponseListReport reports = client.Reports.GetReports();
-
-    Report report = reports.Value.FirstOrDefault();
-
-    var embedUrl = report.EmbedUrl;
-}
-```
-
-### <a name="load-a-report-by-using-javascript"></a>JavaScript kullanarak rapor yükleme
-
-JavaScript kullanarak web sayfanızdaki bir div öğesine rapor yükleyebilirsiniz. Aşağıdaki kod örneği, belirli bir çalışma alanından nasıl rapor alınacağını göstermektedir:
-
-> [!NOTE]  
-> Eklemek istediğiniz bir içerik öğesini yükleme örneği, [örnek uygulama](https://github.com/Microsoft/PowerBI-Developer-Samples) içindeki **Default.aspx** dosyasında sağlanır.
-
-```javascript
-<!-- Embed Report-->
-<div> 
-    <asp:Panel ID="PanelEmbed" runat="server" Visible="true">
-        <div>
-            <div><b class="step">Step 3</b>: Embed a report</div>
-
-            <div>Enter an embed url for a report from Step 2 (starts with https://):</div>
-            <input type="text" id="tb_EmbedURL" style="width: 1024px;" />
-            <br />
-            <input type="button" id="bEmbedReportAction" value="Embed Report" />
-        </div>
-
-        <div id="reportContainer"></div>
-    </asp:Panel>
-</div>
-```
-
-#### <a name="sitemaster"></a>Site.master
-
-```javascript
-window.onload = function () {
-    // client side click to embed a selected report.
-    var el = document.getElementById("bEmbedReportAction");
-    if (el.addEventListener) {
-        el.addEventListener("click", updateEmbedReport, false);
-    } else {
-        el.attachEvent('onclick', updateEmbedReport);
-    }
-
-    // handle server side post backs, optimize for reload scenarios
-    // show embedded report if all fields were filled in.
-    var accessTokenElement = document.getElementById('MainContent_accessTokenTextbox');
-    if (accessTokenElement !== null) {
-        var accessToken = accessTokenElement.value;
-        if (accessToken !== "")
-            updateEmbedReport();
-    }
-};
-
-// update embed report
-function updateEmbedReport() {
-
-    // check if the embed url was selected
-    var embedUrl = document.getElementById('tb_EmbedURL').value;
-    if (embedUrl === "")
-        return;
-
-    // get the access token.
-    accessToken = document.getElementById('MainContent_accessTokenTextbox').value;
-
-    // Embed configuration used to describe the what and how to embed.
-    // This object is used when calling powerbi.embed.
-    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
-    var config = {
-        type: 'report',
-        accessToken: accessToken,
-        embedUrl: embedUrl
-    };
-
-    // Grab the reference to the div HTML element that will host the report.
-    var reportContainer = document.getElementById('reportContainer');
-
-    // Embed the report and display it within the div container.
-    var report = powerbi.embed(reportContainer, config);
-
-    // report.on will add an event handler which prints to Log window.
-    report.on("error", function (event) {
-        var logView = document.getElementById('logView');
-        logView.innerHTML = logView.innerHTML + "Error<br/>";
-        logView.innerHTML = logView.innerHTML + JSON.stringify(event.detail, null, "  ") + "<br/>";
-        logView.innerHTML = logView.innerHTML + "---------<br/>";
-    }
-  );
-}
-```
-
-## <a name="using-a-power-bi-premium-capacity"></a>Power BI Premium kapasitesi kullanma
-
-Uygulamanızın geliştirme aşamasını tamamladığınıza göre şimdi kapasite ile çalışma alanınızı destekleme işlemine geçmelisiniz.
-
-### <a name="create-a-capacity"></a>Kapasite oluşturma
-
-Kapasite oluşturduğunuzda, çalışma alanınızdaki içeriğe özel kaynaktan yararlanabilirsiniz. Sayfalandırılmış raporlar için çalışma alanınızı en az P1 kapasitesiyle desteklemeniz gerekir. [Power BI Premium](../../admin/service-premium-what-is.md)’u kullanarak kapasite oluşturabilirsiniz.
-
-Aşağıdaki tabloda, [Microsoft 365](../../admin/service-admin-premium-purchase.md)'te kullanılabilir olan Power BI Premium SKU’ları listelenmektedir:
-
-| Kapasite düğümü | Toplam sanal çekirdek<br/>(arka uç + ön uç) | Arka uç sanal çekirdekleri | Ön uç sanal çekirdekleri | DirectQuery/canlı bağlantı sınırları |
-| --- | --- | --- | --- | --- | --- |
-| EM1 |1 sanal çekirdek |0,5 sanal çekirdek, 3 GB RAM |0,5 sanal çekirdek |Saniyede 3,75 |
-| EM2 |2 sanal çekirdek |1 sanal çekirdek, 5 GB RAM |1 sanal çekirdek |Saniyede 7,5 |
-| EM3 |4 sanal çekirdek |2 sanal çekirdek, 10 GB RAM |2 sanal çekirdek |saniyede 15 |
-| P1 |8 sanal çekirdek |4 sanal çekirdek, 25 GB RAM |4 sanal çekirdek |saniyede 30 |
-| P2 |16 sanal çekirdek |8 sanal çekirdek, 50 GB RAM |8 sanal çekirdek |saniyede 60 |
-| P3 |32 sanal çekirdek |16 sanal çekirdek, 100 GB RAM |16 sanal çekirdek |saniyede 120 |
-| P4 |64 sanal çekirdek |32 sanal çekirdek, 200 GB RAM |32 sanal çekirdek |saniyede 240 |
-| P5 |128 sanal çekirdek |64 sanal çekirdek, 400 GB RAM |64 sanal çekirdek |saniyede 480 |
-
-> [!NOTE]
-> - Microsoft Office uygulamaları ile ekleme işlemi yapmaya çalışırken, ücretsiz bir Power BI lisansıyla içeriğe erişmek için EM SKU’larını kullanabilirsiniz. Ancak Powerbi.com veya Power BI mobil kullanırken ücretsiz bir Power BI lisansı ile içeriğe erişemezsiniz.
-> - Powerbi.com veya Power BI mobil kullanarak Microsoft Office uygulamaları ile ekleme işlemi yapmaya çalışırken, ücretsiz Power BI lisansı ile içeriğe erişebilirsiniz.
-
-### <a name="assign-a-workspace-to-a-capacity"></a>Bir kapasiteye çalışma alanı atama
-
-Kapasite oluşturduktan sonra, çalışma alanınızı bu kapasiteye atayabilirsiniz. Bu işlemi tamamlamak için şu adımları uygulayın:
-
-1. Power BI hizmetinde, çalışma alanlarını genişletin ve içeriğinizi eklemek için kullandığınız çalışma alanının üç noktasını seçin. Ardından **Çalışma alanlarını düzenle**’yi seçin.
-
-    ![Çalışma alanını düzenleme](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
-
-2. **Gelişmiş**’i genişletin ve **Kapasite**’yi etkinleştirin. Oluşturduğunuz kapasiteyi seçin. Sonra **Kaydet**'i seçin.
-
-    ![Kapasite atama](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
-
-3. **Kaydet**’i seçtikten sonra, çalışma alanının yanında bir baklava işareti görmeniz gerekir.
-
-    ![Kapasiteye bağlanmış çalışma alanı](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
-
-## <a name="admin-settings"></a>Yönetici ayarları
-
-Genel yöneticiler veya Power BI hizmeti yöneticileri, bir kiracı için REST API’lerini kullanma seçeneğini etkinleştirebilir veya devre dışı bırakabilir. Power BI yöneticileri, kuruluşun tamamı veya yalnızca belirli güvenlik grupları için bu ayarı yapabilir. Varsayılan olarak kuruluşun tamamı için etkindir. [Power BI yönetici portalında](../../admin/service-admin-portal.md) bu değişiklikleri yapabilirsiniz.
+2. [Visual Studio](https://visualstudio.microsoft.com/)'Yu kullanarak **Userownsdata. sln** dosyasını açın.
+
+3. **Web.config** açın ve aşağıdaki parametre değerlerini girin:
+
+    * `clientId` - [ISTEMCI kimliği](#client-id) GUID 'sini kullan
+
+    * `clientSecret`- [İstemci gizliliğini](#client-secret) kullanın
+
+### <a name="run-the-sample-app"></a>Örnek uygulamayı çalıştırma
+
+1. **IIS Express** (yürüt) öğesini seçerek projeyi çalıştırın.
+
+[!INCLUDE[The embedded application sample app interface](../../includes/embed-tutorial-org-sample-app.md)]
+
+# <a name="react-typescript"></a>[Tepki TypeScript](#tab/react)
+
+### <a name="configure-your-azure-ad-app"></a>Azure AD uygulamanızı yapılandırma
+
+[!INCLUDE[Configure the Azure AD authentication options](../../includes/embed-tutorial-org-azure-ad-app.md)]
+
+5. *Platform yapılandırmalarında*, **Web** platformunuzu aşağıdaki şekilde yapılandırın:
+
+    1. **Yeniden yönlendirme URI 'Lerinde** `https://localhost:3000` **Yapılandır**' ı ekleyin ve seçin.
+
+        > [!NOTE]
+        >**Web** platformunuz yoksa **Platform Ekle** ' yi seçin ve *platformları Yapılandır* penceresinde **Web**' i seçin.
+
+    2. *Örtük verme ve karma akışlarda* her iki seçeneği de etkinleştirin:
+        * **Erişim belirteçleri**
+        * **Kimlik belirteçleri**
+    
+6. Yaptığınız değişiklikleri kaydedin.
+
+:::image type="content" source="media/embed-sample-for-your-organization/azure-ad-react-configurations.png" alt-text="Localhost 3000 için ayarlanan Web yeniden yönlendirme U R I de dahil olmak üzere Azure AD uygulama kimlik doğrulama yapılandırmalarının gösterildiği ekran görüntüsü.":::
+
+### <a name="configure-the-sample-embedding-app"></a>Örnek ekleme uygulamasını yapılandırma
+
+1. **Kuruluşunuz için ekleme**  >  **userownsdata**  >  **src** klasörünü açın.
+
+2. Bir metin düzenleyicisi kullanarak, **config. TS** dosyasını açın ve aşağıdaki parametre değerlerini girin:
+
+    * `clientId` - [ISTEMCI kimliği](#client-id) GUID 'sini kullan
+
+    * `workspaceId`- [Çalışma alanı kimliğini](#client-secret) kullanın
+
+    * `reportId`- [Rapor kimliğini](#report-id) kullanın
+
+3. Dosyayı kaydedin.
+
+### <a name="run-the-sample-app"></a>Örnek uygulamayı çalıştırma
+
+1. İçinde bir Terminal açın ve **kuruluşunuzun**  >  **userownsdata** için ekleme bölümüne gidin.
+
+2. Aşağıdaki komutu yürüterek gerekli bağımlılıkları yükler:
+
+   `npm install`
+
+3. Aşağıdaki komutu yürüterek uygulamayı çalıştırın:
+
+   `npm run start`
+
+    >[!NOTE]
+    >İlk oturum açma sırasında, uygulama için Azure AD izinlerine izin vermeniz istenir.
+
+---
+
+## <a name="developing-your-application"></a>Uygulamanızı geliştirme
+
+Örnek *müşterileriniz için ekleme* uygulamasını yapılandırdıktan sonra kendi uygulamanızı geliştirmeye başlayabilirsiniz.
+
+[!INCLUDE[Move to production](../../includes/embed-tutorial-production.md)]
 
 ## <a name="next-steps"></a>Sonraki adımlar
 
-Bu öğreticide, Power BI kuruluş hesabınızı kullanarak bir uygulamaya Power BI içeriği eklemeyi öğrendiniz. Şimdi uygulamaları kullanarak bir uygulamaya Power BI içeriği eklemeyi deneyebilirsiniz. Ayrıca müşterileriniz için Power BI içeriği eklemeyi de deneyebilirsiniz (henüz eklenmiş sayfalandırılmış raporlar için desteklenmemektedir):
-
 > [!div class="nextstepaction"]
-> [Uygulamalardan ekleme](./index.yml)
+>[Üretime taşıma](move-to-production.md)
 
-> [!div class="nextstepaction"]
+>[!div class="nextstepaction"]
 >[Müşterileriniz için ekleme](embed-sample-for-customers.md)
 
-Başka sorularınız varsa [Power BI Topluluğu’na sormayı deneyin](https://community.powerbi.com/).
+> [!div class="nextstepaction"]
+>[Müşterileriniz için sayfalandırılmış raporlar ekleme](embed-paginated-reports-customers.md)
+
+> [!div class="nextstepaction"]
+>[Kuruluşunuz için sayfalandırılmış raporlar ekleme](embed-paginated-reports-organization.md)
+
+>[!div class="nextstepaction"]
+>[Power BI Topluluğu'na sorun](https://community.powerbi.com/)

@@ -1,36 +1,44 @@
 ---
-title: Mobil uygulamalar için Power BI Desktop'taki bir barkod alanını etiketleme
-description: Power BI Desktop'taki modelinizde bir barkod alanını etiketlediğinizde iPhone'unuzdaki Power BI uygulamasında verileri otomatik olarak barkoda göre filtreleyebilirsiniz.
+title: Mobil uygulamalarda barkod tarama filtrelemesini etkinleştirmek için Power BI Desktop barkod alanlarını etiketleme
+description: Modelinizde Power BI Desktop bir barkod alanını etiketlediğinizde, mobil uygulama kullanıcıları iOS ve Android telefonlarında ve tabletlerinde filtrelenmiş verileri almak için barkodları tarayabilir.
 author: paulinbar
 ms.author: painbar
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: how-to
-ms.date: 01/16/2018
+ms.date: 01/20/2021
 LocalizationGroup: Model your data
-ms.openlocfilehash: 91cf4fb4101b710ad49e49c914dbc4bcaa03682a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 4674347d3acd6520d7d156a7d1634a13df611afe
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413944"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494431"
 ---
-# <a name="tag-barcodes-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Mobil uygulamada kullanmak için Power BI Desktop'taki barkodları etiketleme
+# <a name="tag-barcode-fields-in-power-bi-desktop-to-enable-barcode-scan-filtering-in-the-mobile-apps"></a>Mobil uygulamalarda barkod tarama filtrelemesini etkinleştirmek için Power BI Desktop barkod alanlarını etiketleme
 
-Power BI Desktop'ta bir sütundaki [verileri kategorilere ayırarak](desktop-data-categorization.md) Power BI Desktop uygulamasının rapordaki görselde bulunan değerleri nasıl işlemesi gerektiğini belirleyebilirsiniz. Sütun kategorisini **Barkod** olarak da belirleyebilirsiniz. Siz veya iş arkadaşlarınız iPhone'da [Power BI uygulamasıyla bir ürün üzerindeki barkodu taradığınızda](../consumer/mobile/mobile-apps-scan-barcode-iphone.md) ilgili barkodu içeren raporu görebilirsiniz. İlgili raporu mobil uygulamada açtığınızda, Power BI raporda taradığınız barkodla ilgili verileri otomatik olarak filtreler.
+Power BI Desktop'ta bir sütundaki [verileri kategorilere ayırarak](desktop-data-categorization.md) Power BI Desktop uygulamasının rapordaki görselde bulunan değerleri nasıl işlemesi gerektiğini belirleyebilirsiniz. Sütun kategorisini **Barkod** olarak da belirleyebilirsiniz. Daha sonra, şirketinizdeki veya kurumunuzdaki bir kişi, iOS veya Android telefonlarındaki veya tabletindeki Power BI mobil uygulamayı kullanarak [bir üründe barkod taradığında](../consumer/mobile/mobile-apps-scan-barcode-iphone.md) , söz konusu barkodu içeren herhangi bir rapor görür. Raporu açtıklarında bu barkod ile ilgili verilere otomatik olarak filtre uygulanır.
 
-1. Power BI Desktop'ta Veri Görünümüne geçin.
-2. Barkod verilerini içeren sütunu seçin. [Desteklenen barkod biçimleri](#supported-barcode-formats) listesi için aşağıya bakın.
-3. **Modelleme** sekmesinde, **Veri Kategorisi** > **Barkod**'u seçin.
+## <a name="categorize-barcode-data"></a>Barkod verilerini kategorilere ayır
+
+Barkodları içeren bir raporunuz olduğunu varsayarsak: 
+
+1. Power BI Desktop ' de, veri görünümü ' ne geçin.
+2. Barkod verilerinin bulunduğu sütunu seçin. [Desteklenen barkod biçimleri](#supported-barcode-formats) listesi için aşağıya bakın.
+3. **Sütun araçları** sekmesinde **veri kategorisi**  >  **barkodu**' nı seçin.
    
     ![Veri kategorisi listesi](media/desktop-mobile-barcodes/power-bi-desktop-barcode.png)
-4. Rapor Görünümünde barkoda göre filtrelenmesini istediğiniz görsellere bu alanı ekleyin.
+
+    >[!WARNING]
+    >Bir rapordaki tüm veri tablolarında **barkod** olarak birden fazla sütun sınıflandırmayın. Mobil uygulamalar yalnızca tüm rapor verileri tablolarında yalnızca bir barkod sütunu olan raporlar için barkod filtrelemeyi destekler. Raporda birden fazla barkod sütunu varsa, filtreleme yapılmaz.
+
+4. Rapor Görünümü ' nde barkod alanını, barkod tarafından filtrelenmesini istediğiniz görsellere ekleyin.
 5. Raporu kaydedin ve Power BI hizmetinde yayımlayın.
 
-Artık [iPhone için Power BI uygulamasında](../consumer/mobile/mobile-iphone-app-get-started.md) tarayıcıyı açıp bir barkod taradığınızda rapor listesinde bu raporu görürsünüz. Raporu açtığınızda, görselleri, taradığınız ürün barkoduna göre filtrelenmiş şekilde görüntülenir.
+Artık tarayıcıyı iOS ve Android telefonlar ve tabletlere yönelik Power BI uygulamalarda açıp bir barkod taradığınızda, bu raporu barkodlara sahip raporlar listesinde görürsünüz. Raporu açtığınızda, görselleri taradığınız ürün barkodu tarafından filtrelenecektir.
 
 ## <a name="supported-barcode-formats"></a>Desteklenen barkod biçimleri
-Power BI raporunda etiketlemeniz durumunda Power BI'ın tanıyacağı barkodlar şunlardır: 
+Bunlar, bir Power BI raporunda etiketleyebiliyorsanız Power BI barkod biçimleridir: 
 
 * UPCECode 
 * Code39Code  
@@ -44,7 +52,7 @@ Power BI raporunda etiketlemeniz durumunda Power BI'ın tanıyacağı barkodlar 
 * ITF14Code 
 
 ## <a name="next-steps"></a>Sonraki adımlar
-* [iPhone'unuzdaki Power BI uygulamasından barkod tarama](../consumer/mobile/mobile-apps-scan-barcode-iphone.md)
-* [iPhone'da barkod taramayla ilgili sorunlar](../consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
+* [İOS veya Android telefonunuzdaki veya tabletinizdeki Power BI uygulamasından barkod tarama](../consumer/mobile/mobile-apps-scan-barcode-iphone.md)
+* [Tarama barkodları ile ilgili sorunlar](../consumer/mobile/mobile-apps-scan-barcode-iphone.md#issues-with-scanning-a-barcode)
 * [Power BI Desktop'ta verileri kategorilere ayırma](desktop-data-categorization.md)  
-* Sorular? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)
+* Sorularınız mı var? [Power BI Topluluğu'na sorun](https://community.powerbi.com/)

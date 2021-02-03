@@ -3,24 +3,25 @@ title: Müşterilerinize daha iyi tümleşik BI içgörüleri sağlamak üzere P
 description: Power BI tümleşik analiz örneğine rapor, pano veya kutucuk eklemeyi öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: rkarlin
+ms.reviewer: ''
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: a0cfeaece56594c52a8d747350c5f9bfb0886cad
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 28081342763ca297648f67f953a29b46d02bf478
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565467"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99494857"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Öğretici: Örnek *müşterileriniz için ekleme* uygulamasını kullanarak Power BI içeriği ekleme
 
 **Tümleşik analiz** ve **Power BI Embedded** (Azure teklifi) raporlar, panolar ve kutucuklar gibi Power BI içeriklerini uygulamanıza eklemenizi sağlar.
 
 Bu öğreticide aşağıdakilerin nasıl yapılacağını öğreneceksiniz:
+
 >[!div class="checklist"]
 >* Tümleşik analiz ortamınızı ayarlama.
 >* Örnek *müşterileriniz için ekleme* (*veriler uygulamaya aittir*) uygulamasını yapılandırma.
@@ -31,7 +32,7 @@ Kullanıcıların uygulamanızı kullanabilmek için Power BI'da oturum açmalar
 
 ## <a name="code-sample-specifications"></a>Kod örneği belirtimleri
 
-Bu öğreticide örnek *müşterileriniz için ekleme* uygulamasını aşağıdaki dillerde yapılandırmaya yönelik yönergeler bulunmaktadır:
+Bu öğreticide, aşağıdaki çerçevelerden birinde müşteriler örnek uygulamanız *için bir ekleme* yapılandırma yönergeleri yer almaktadır:
 
 * .NET Framework
 * .NET Core
@@ -41,10 +42,8 @@ Bu öğreticide örnek *müşterileriniz için ekleme* uygulamasını aşağıda
 
 Kod örneği aşağıdaki tarayıcıları destekler:
 
-* Google Chrome
-
 * Microsoft Edge
-
+* Google Chrome
 * Mozilla Firefox
 
 ## <a name="prerequisites"></a>Önkoşullar
@@ -68,13 +67,6 @@ Bu öğreticiye başlamadan önce hem Power BI'a hem de aşağıda listelenen ko
 
 * **Kod bağımlılıkları**
 
-    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
-    
-    * [ .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
-    
-    * [Visual Studio](https://visualstudio.microsoft.com/)
-    
-    
     # <a name="net-core"></a>[.NET Core](#tab/net-core)
     
     * [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core) (veya üzeri)
@@ -84,6 +76,12 @@ Bu öğreticiye başlamadan önce hem Power BI'a hem de aşağıda listelenen ko
         * [Visual Studio](https://visualstudio.microsoft.com/)
     
         * [Visual Studio Code](https://code.visualstudio.com/)
+
+    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
+    
+    * [ .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * [Visual Studio](https://visualstudio.microsoft.com/)
 
     # <a name="java"></a>[Java](#tab/java)
     
@@ -161,50 +159,22 @@ Uygulamanızı Azure AD'ye kaydederek şunları yapabilirsiniz:
 >* Uygulamanızın [Power BI REST API'lerine](/rest/api/power-bi/) erişmesine izin verme
 >* *Ana kullanıcı* kullanıyorsanız: Uygulamanızın [Power BI REST izinlerini](/azure/active-directory/develop/v2-permissions-and-consent) belirtme
 
-Uygulamanızı Azure AD'ye kaydetmek için [Uygulamanızı kaydetme](register-app.md) bölümündeki yönergeleri izleyin.
+[!INCLUDE[Register Azure AD app](../../includes/embed-tutorial-register-app.md)]
 
 >[!NOTE]
 >Uygulamanızı kaydetmeden önce kullanacağınız kimlik doğrulama yöntemini (*hizmet sorumlusu* veya *ana kullanıcı*) belirlemeniz gerekir.
 
 ## <a name="step-3---create-a-power-bi-workspace"></a>3\. Adım: Power BI çalışma alanı oluşturun
 
-Power BI'da raporlarınız, panolarınız ve kutucuklarınız bir çalışma alanında saklanır. Bu öğeleri eklemek için onları oluşturup bir çalışma alanına yüklemeniz gerekir.
-
->[!TIP]
->Çalışma alanınız varsa bu adımı atlayabilirsiniz.
-
-Çalışma alanı oluşturmak için aşağıdakileri yapın:
-
-1. Power BI'da oturum açın.
-
-2. **Çalışma alanları**'nı seçin.
-
-3. **Çalışma alanı oluştur**'u seçin.
-
-4. Çalışma alanınıza bir ad verin ve **Kaydet**'i seçin.
+[!INCLUDE[Create a Power BI workspace](../../includes/embed-tutorial-create-workspace.md)]
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>4\. Adım: Power BI raporu oluşturup yayımlayın
 
-Bir sonraki adım bir rapor oluşturup çalışma alanınıza yüklemektir. Power BI Desktop'ı kullanarak [kendi raporunuzu oluşturabilir](../../fundamentals/desktop-getting-started.md#build-reports) ve ardından çalışma alanınızda [yayımlayabilirsiniz](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work). Alternatif olarak çalışma alanınıza örnek raporlardan birini yükleyebilirsiniz.
-
->[!Tip]
->İçinde rapor bulunan bir çalışma alanınız varsa bu adımı atlayabilirsiniz.
-
-Örnek raporu indirip çalışma alanınızda yayımlamak için şu adımları izleyin:
-
-1. GitHub'daki [Power BI Desktop samples](https://github.com/Microsoft/PowerBI-Desktop-Samples) klasörünü açın.
-
-2. **Kod**'u ve ardından **ZIP'i indir**'i seçin.
-
-    :::image type="content" source="media/embed-sample-for-customers/download-sample-report.png" alt-text="Power BI Desktop Samples GitHub klasöründeki ZIP'i indir seçeneğini gösteren ekran görüntüsü":::
-
-3. İndirdiğiniz ZIP arşivini ayıklayıp **Samples Reports** klasörüne gidin.
-
-4. Eklemek istediğiniz raporu seçip çalışma alanınızda [yayımlayın](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work).
+[!INCLUDE[Create a Power BI report](../../includes/embed-tutorial-create-report.md)]
 
 ## <a name="step-5---get-the-embedding-parameter-values"></a>5\. Adım: Ekleme parametrelerinin değerlerini alın
 
-İçeriğinizi eklemek için belirli parametre değerlerini almanız gerekir. Aşağıdaki tabloda gerekli değerler verilmiş ve *hizmet sorumlusu* kimlik doğrulama yöntemi, *ana kullanıcı* kimlik doğrulama yöntemi veya her ikisi için uyumlu olup olmadıkları gösterilmiştir.
+İçeriğinizi eklemek için belirli parametre değerlerini almanız gerekir. Aşağıdaki tabloda gerekli değerler gösterilmektedir ve *hizmet sorumlusu* kimlik doğrulama yöntemi, *ana Kullanıcı* kimlik doğrulama yöntemi veya her ikisi için geçerli olup olmadığını gösterir.
 
 İçeriğinizi eklemeden önce aşağıda listelenen tüm değerlere sahip olduğunuzdan emin olun. Bazı değerler kullandığınız kimlik doğrulama yöntemine göre farklılık gösterecektir.
 
@@ -223,64 +193,28 @@ Bir sonraki adım bir rapor oluşturup çalışma alanınıza yüklemektir. Powe
 >[!TIP]
 >**Uygulama hedefi:** ![Şunun için geçerlidir:](../../media/yes.png)Hizmet sorumlusu ![Şunun için geçerlidir:](../../media/yes.png)Ana kullanıcı
 
-İstemci kimliği GUID değerini (*uygulama kimliği* olarak da bilinir) almak için şu adımları izleyin:
-
-1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)’da oturum açın.
-
-2. **Uygulama kayıtlarını** arayın ve **Uygulama kayıtları** bağlantısını seçin.
-
-3. Power BI içeriğinizi eklemek için kullandığınız Azure AD uygulamasını seçin.
-
-4. **Genel bakış** bölümünde **Uygulama (istemci) kimliği** GUID değerini kopyalayın.
+[!INCLUDE[Get the client ID](../../includes/embed-tutorial-client-id.md)]
 
 ### <a name="workspace-id"></a>Çalışma Alanı Kimliği
 
 >[!TIP]
 >**Uygulama hedefi:** ![Şunun için geçerlidir:](../../media/yes.png)Hizmet sorumlusu ![Şunun için geçerlidir:](../../media/yes.png)Ana kullanıcı
 
-Çalışma alanı kimliği GUID değerini almak için şu adımları izleyin:
-
-1. Power BI hizmetinde oturum açın.
-
-2. Eklemek istediğiniz raporu açın.
-
-3. URL'deki GUID değerini kopyalayın. GUID değeri, **/groups/** ile **/reports/** arasındaki sayıdır.
-
-    :::image type="content" source="media/embed-sample-for-customers/workspace-id.png" alt-text="Power BI hizmeti URL'sindeki çalışma alanı kimliği GUID değerini gösteren ekran görüntüsü":::
+[!INCLUDE[Get the workspace ID](../../includes/embed-tutorial-workspace-id.md)]
 
 ### <a name="report-id"></a>Rapor Kimliği
 
 >[!TIP]
 >**Uygulama hedefi:** ![Şunun için geçerlidir:](../../media/yes.png)Hizmet sorumlusu ![Şunun için geçerlidir:](../../media/yes.png)Ana kullanıcı
 
-1. Power BI hizmetinde oturum açın.
-
-2. Eklemek istediğiniz raporu açın.
-
-3. URL'deki GUID değerini kopyalayın. GUID değeri, **/reports/** ile **/ReportSection/** arasındaki sayıdır.
-
-    :::image type="content" source="media/embed-sample-for-customers/report-id.png" alt-text="Power BI hizmeti URL'sindeki rapor kimliği GUID değerini gösteren ekran görüntüsü":::
+[!INCLUDE[Get the report ID](../../includes/embed-tutorial-report-id.md)]
 
 ### <a name="client-secret"></a>Gizli anahtar
 
 >[!TIP]
 >**Uygulama hedefi:** ![Şunun için geçerlidir:](../../media/yes.png)Hizmet sorumlusu ![Şunun için geçerli değildir:](../../media/no.png)Ana kullanıcı
 
-İstemci gizli dizisini almak için şu adımları izleyin:
-
-1. [Microsoft Azure](https://ms.portal.azure.com/#allservices)’da oturum açın.
-
-2. **Uygulama kayıtlarını** arayın ve **Uygulama kayıtları** bağlantısını seçin.
-
-3. Power BI içeriğinizi eklemek için kullandığınız Azure AD uygulamasını seçin.
-
-4. **Yönet**’in altında **Sertifikalar ve gizli diziler**’i seçin.
-
-5. **İstemci gizli dizileri** bölümünde **Yeni istemci gizli dizisi**'ni seçin.
-
-6. Açılan **İstemci gizli dizisi ekle** penceresinde uygulama gizli dizisi için bir açıklama girin, uygulama gizli dizisinin süre sonunu belirtin ve **Ekle**'yi seçin.
-
-7. **İstemci gizli dizileri** bölümünde yeni oluşturulan uygulama gizli dizisinin **Değer** sütunundaki dizeyi kopyalayın. İstemci gizli dizisi değeri, *istemci kimliğidir*.
+[!INCLUDE[Get the client secret](../../includes/embed-tutorial-client-secret.md)]
 
 ### <a name="tenant-id"></a>Kiracı Kimliği
 
@@ -343,7 +277,7 @@ Power BI hizmetindeki raporlar, panolar ve veri kümeleri gibi Azure AD uygulama
     >[!NOTE]
     >*Hizmet sorumlusu* kullanıyorsanız Azure AD uygulamanıza verdiğiniz adı belirtmeniz gerekir.
 
-5. **Ekle**’yi seçin.
+4. **Ekle**’yi seçin.
 
 ## <a name="step-8---embed-your-content"></a>8\. Adım: İçeriğinizi ekleyin
 
@@ -351,23 +285,18 @@ Power BI Embedded örnek uygulaması, *müşterileriniz için ekleme* yöntemiyl
 
 Örnek *Müşterileriniz için ekleme* uygulamasını değiştirerek Power BI raporunuzu eklemek için aşağıdaki adımları izleyin.  
 
-1. [Power BI developer samples](https://github.com/microsoft/PowerBI-Developer-Samples) klasörünü açın.
-
-2. **Kod**'u ve ardından **ZIP'i indir**'i seçin.
-
-    :::image type="content" source="media/embed-sample-for-customers/developer-samples.png" alt-text="Power BI Developer Samples GitHub klasöründeki ZIP'i indir seçeneğini gösteren ekran görüntüsü":::
-
-3. İndirdiğiniz ZIP dosyasını ayıklayıp **PowerBI-Developer-Samples-master** klasörüne gidin.
+[!INCLUDE[Embedding steps](../../includes/embed-tutorial-embedding-steps.md)]
 
 4. Uygulamanızda kullanmak istediğiniz dile bağlı olarak şu klasörlerden birini açın:
 
-* .NET Core
-* .NET Framework
-* Java
-* Node JS
-* Python
+    * .NET Core
+    * .NET Framework
+    * Java
+    * Node JS
+    * Python
+
     >[!NOTE]
-    >Örnek *müşterileriniz için ekleme* uygulamaları yalnızca yukarıdaki dilleri destekler. *React TS* örnek uygulaması yalnızca *[kuruluşunuz için ekleme](embed-sample-for-your-organization.md)* çözümünü destekler.
+    >*Müşterileriniz için ekleme* örnek uygulamalar yalnızca yukarıda listelenen çerçeveleri destekler. *Tepki* verme örnek uygulaması yalnızca kuruluş çözümünüz *[için ekleme 'yi](embed-sample-for-your-organization.md)* destekler.
 
 5. **Embed for your customers** klasörünü açın.
 
@@ -377,7 +306,7 @@ Power BI Embedded örnek uygulaması, *müşterileriniz için ekleme* yöntemiyl
 
     * [Visual Studio](https://visualstudio.microsoft.com/) kullanıyorsanız **AppOwnsData.sln** dosyasını açın.
 
-    * [Visual Studio Code](https://code.visualstudio.com/) kullanıyorsanız **App Owns Data** klasörünü açın.
+    * [Visual Studio Code](https://code.visualstudio.com/)kullanıyorsanız **Appownsdata** klasörünü açın.
 
 7. **appsettings.json** dosyasını açın.
 
@@ -421,13 +350,6 @@ Power BI Embedded örnek uygulaması, *müşterileriniz için ekleme* yöntemiyl
 
 9. **IIS Express** (yürüt) öğesini seçerek projeyi çalıştırın.
 
->[!NOTE]
->Örnek uygulamayı çalıştırdığınızda eklenen raporu görmüyorsanız aşağıdaki adımları izleyerek Power BI paketlerini yenileyin:
->1. Proje adına (AppOwnesData) sağ tıklayıp **NuGet paketlerini yönet**'i seçin.
->2. **Power BI JavaScript** paketini arayıp bulun ve yeniden yükleyin.
->
->Daha fazla bilgi için bkz. [Paketleri yeniden yükleme ve güncelleştirme](/nuget/consume-packages/reinstalling-and-updating-packages).
-
 # <a name="java"></a>[Java](#tab/java)
 
 6. **Eclipse**'i açıp aşağıdaki yönergeleri izleyin.
@@ -468,7 +390,7 @@ Power BI Embedded örnek uygulaması, *müşterileriniz için ekleme* yöntemiyl
 
     a. **Paket Gezgini** bölmesinde **AppOwnsData**'ya sağ tıklayıp **Özellikler**'i seçin.
 
-    b. **AppOwnesData Özellikleri** penceresinde **Hedeflenen Çalışma Zamanları**'nı ve ardından **Apache Tomcat**'i seçin. Bu seçim, kullanmakta olduğunuz *Apache Tomcat* sürümünü içerecektir; örneğin, *Apache Tomact v9.0*.
+    b. **AppOwnesData Özellikleri** penceresinde **Hedeflenen Çalışma Zamanları**'nı ve ardından **Apache Tomcat**'i seçin. Bu seçim, kullanmakta olduğunuz *Apache Tomcat* sürümünü, örneğin *Apache Tomcat v 9.0*'yi içerir.
 
     c. **Uygula ve Kapat**'ı seçin.
 
@@ -579,8 +501,7 @@ Power BI Embedded örnek uygulaması, *müşterileriniz için ekleme* yöntemiyl
 
 Örnek *müşterileriniz için ekleme* uygulamasını yapılandırdıktan sonra kendi uygulamanızı geliştirmeye başlayabilirsiniz.
 
-Hazır olduğunuzda [üretime taşıma](move-to-production.md) gereksinimlerini gözden geçirin. Ayrıca bir [kapasiteye](embedded-capacity.md) ihtiyacınız olacağından gereksinimlerinize en uygun SKU'yu belirleme amacıyla [kapasite planlaması](embedded-capacity-planning.md) makalesini de incelemeniz gerekir.
-
+[!INCLUDE[Move to production](../../includes/embed-tutorial-production.md)]
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

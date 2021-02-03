@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 00f78fef9f1abd11d7c553009db5541822c59c85
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
-ms.translationtype: HT
+ms.openlocfilehash: 377ede2171a721a33aa0b70819ef511d721f2590
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926368"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494461"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Power BI Desktop'ta Snowflake'e bağlanma
 Tıpkı Power BI Desktop'taki diğer veri kaynaklarında olduğu gibi Power BI Desktop'ta bir **Snowflake** bilgi işlem ambarına bağlanabilir ve temel alınan verileri kullanabilirsiniz. 
@@ -47,6 +47,10 @@ Bağlantı başarıyla kurulduktan sonra bir **Gezgin** penceresi açılır ve s
 ![ODBC Bağlantı kurulamamasına neden olan 28000 Hatası.](media/desktop-connect-snowflake/connect-snowflake-5.png)
 
 Seçili tabloyu **Yüklemeyi** seçtiğinizde tablonun tamamı **Power BI Desktop**'a getirilir. Sorguyu **Düzenlemeyi** seçtiğinizde ise kullanmak istediğiniz veri kümesini filtreleyebileceğiniz ve iyileştirebileceğiniz, ardından, iyileştirilen bu veri kümesini **Power BI Desktop**'a yükleyebileceğiniz **Sorgu Düzenleyicisi** açılır.
+
+## <a name="custom-roles"></a>Özel Roller
+
+Şu anda, kar tanesi bağlayıcısında ' özel rol ' desteği yalnızca temel kimlik doğrulamasıyla çalışır. Bu, yakın gelecekte çözülecektir.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 Power BI Desktop'ı kullanarak çok çeşitli türlerdeki verilere bağlanabilirsiniz. Veri kaynakları hakkında daha fazla bilgi için aşağıdaki kaynaklara bakın:

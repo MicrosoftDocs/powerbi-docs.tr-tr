@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: f1f8c037a3ceb66d8ffb5abab6bccd4ec9bc7adc
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: 3d618735f2783e0fce0be938fbdcac7beb5d399e
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969570"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495122"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Öğretici: R betiğinden R görseline bir huni çizimi derleme
 Bu makalede, R görselindeki R betiğini kullanarak huni çiziminin nasıl oluşturulacağı adım adım açıklanmaktadır.
@@ -270,7 +270,7 @@ Elde edilen görsel PNG tabanlı olduğundan, fare ile üzerine gelmeye karşı 
 
 * [GitHub](https://github.com/Microsoft?utf8=%E2%9C%93&q=PowerBI&type=&language=R)’daki kullanılabilir kodlar sayesinde R destekli Görselleri en baştan geliştirmeniz gerekmez. Görseli şablon olarak kullanmak üzere seçebilir ve kodu yeni bir projeye kopyalayabilirsiniz.
 
-   Örneğin, [eğri cetveli özel görselini](https://github.com/PowerBi-Projects/PowerBI-visuals-spline) kullanmayı deneyin.
+   Örneğin, [eğri cetveli özel görselini](https://github.com/microsoft/PowerBI-visuals-spline) kullanmayı deneyin.
 
 * Her R Görseli, giriş tablosuna `unique` işlecini uygular. Özdeş satırların kaldırılmasını önlemek için benzersiz kimliğe sahip ek bir giriş alanı ekleyip bunu R kodunda yoksaymak yararlı olabilir.   
 

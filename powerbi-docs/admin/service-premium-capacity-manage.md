@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 02/01/2021
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: ced239ba0ac8f34314caf559a04126bf64ca7c50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 32ef0845c2482b4f8a71240f432071b44cb518ea
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412357"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494340"
 ---
 # <a name="managing-premium-capacities"></a>Premium kapasiteleri yönetme
 
@@ -44,7 +44,7 @@ En az bir Kapasite Yöneticisinin atanması gerekir. Kapasite Yöneticisi olarak
 
 Kapasite Yöneticileri, çalışma alanı izinlerine açıkça atanmadıkça çalışma alanı içeriğine erişemez. Kullanım ölçümleri, denetim günlükleri veya kiracı ayarları gibi tüm Power BI yönetim alanlarına da erişim izinleri yoktur (açıkça atanmadıkları sürece). Önemli bir bilgi olarak, Kapasite Yöneticilerinin yeni kapasiteler oluşturma veya mevcut kapasiteleri ölçeklendirme izinleri yoktur. Yöneticiler kapasite temelinde atanır. Bu sayede yalnızda atandıkları kapasiteleri görüntüleyip yönetebilirler.
 
-Kapasite boyutu, havuzdaki kullanılabilir sanal çekirdek sayısıyla kısıtlanmış olan bir SKU seçenekleri listesinden seçilir. Havuzdan, kaynakları bir veya daha fazla satın alınan SKU’dan kullanılan birden fazla kapasite oluşturulması mümkündür. Örneğin, bir P3 SKU (32 sanal çekirdek) üç kapasite oluşturmak için kullanılabilir: bir P2 (16 sanal çekirdek) ve iki P1 (2 x 8 sanal çekirdek). Gelişmiş performans ve ölçek, [Premium Kapasiteleri İyileştirme](service-premium-capacity-optimize.md) makalesinde açıklandığı gibi daha küçük boyutlu kapasiteler oluşturularak elde edilebilir. Aşağıdaki görüntüde, her biri çalışma alanı ve paylaşılan kapasitede birkaç çalışma alanı içeren beş Premium kapasiteden (3 x P1 ve 2 x P3) oluşan kurgusal Contoso kuruluşu için örnek bir kurulum gösterilmektedir.
+Kapasite boyutu, havuzdaki kullanılabilir sanal çekirdek sayısıyla kısıtlanmış olan bir SKU seçenekleri listesinden seçilir. Havuzdan, kaynakları bir veya daha fazla satın alınan SKU’dan kullanılan birden fazla kapasite oluşturulması mümkündür. Örneğin, bir P3 SKU (32 sanal çekirdek) üç kapasite oluşturmak için kullanılabilir: bir P2 (16 sanal çekirdek) ve iki P1 (2 x 8 sanal çekirdek). Aşağıdaki görüntüde, her biri çalışma alanı ve paylaşılan kapasitede birkaç çalışma alanı içeren beş Premium kapasiteden (3 x P1 ve 2 x P3) oluşan kurgusal Contoso kuruluşu için örnek bir kurulum gösterilmektedir.
 
 ![Kurgusal Contoso kuruluşu için örnek kurulumu](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -63,6 +63,8 @@ Atama izinleri, bir çalışma alanını belirli bir Premium kapasiteye atamak i
 Varsayılan olarak, Premium kapasiteler çalışan Power BI sorgularıyla ilişkili iş yüklerini destekler. Premium kapasiteler ayrıca ek iş yüklerini destekler: **Yapay Zeka (Bilişsel Hizmetler)** , **Sayfalandırılmış Raporlar** ve **Veri Akışları**. Her iş yükü, bu iş yükü için kullanılabilecek maksimum belleğin yapılandırılmasını (toplam kullanılabilir belleğin yüzdesi olarak) gerektirir. Maksimum bellek ayırmalarının artmasının, barındırılabilen etkin model sayısını ve yenileme aktarım hızını etkileyebileceğini anlamak önemlidir. 
 
 Bellek, dinamik olarak veri akışlarına ayrılsa da istatistiksel olarak sayfalandırılmış raporlara ayrılır. Maksimum belleği statik olarak ayırmanın nedeni, sayfalandırılmış raporların, kapasitenin güvenli bir sınırlandırılmış alanı içinde çalışmasıdır. Modelleri yüklemek için kullanılabilir belleği azalttığından, sayfalandırılmış rapor belleği ayarlanırken dikkatli olunmalıdır. Daha fazla bilgi için bkz. [Varsayılan bellek ayarları](service-admin-premium-workloads.md#default-memory-settings).
+
+Premium Gen2 için bellek ayarları veya güncelleştirmeler gerekli değildir. Tüm iş yükleri, ihtiyaç duydukları tüm belleğe, kapasite SKU 'sunun sınırları dahilinde sahiptir.
 
 Premium kapasitenin silinmesi mümkün değildir ve çalışma alanları ile içeriğinin silinmesine neden olmaz. Bunun yerine, atanan çalışma alanlarını paylaşılan kapasiteye taşır. Premium kapasite farklı bir bölgede oluşturulduğunda, çalışma alanı giriş bölgesinin paylaşılan kapasitesine taşınır.
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 01/18/2021
+ms.date: 02/01/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: c89cf7b00d5167ffb68a491a9cfdcea21378dfd5
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 05f2523e468759444a731d5484e8ce17350a46ae
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565158"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494915"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -76,25 +76,15 @@ Aşağıdaki resimde, Premium 2. Nesil’i nasıl etkinleştirebileceğiniz gös
 
 1.    Premium 2. Nesil kapasite kullanımı ölçümler uygulamasında izlenemez.
 
-2.    Belirli iş yüklerine yönelik Premium 2. Nesil kapasite ayarları henüz yönetici portalındaki Premium 2. Nesil kapasite ayarları sayfasında görünmez. Ayarları değiştirmek için kapasiteyi özgün Premium sürümüne geçirin, ayarları değiştirin ve sonra kapasiteyi yeniden Premium 2. Nesil’i kullanacak şekilde ayarlayın. Bellek ayırma ayarları Premium 2. Nesil kapasiteler için geçerli değildir.
+2.  Premium 2. Nesil üzerinde XMLA kullanıyorsanız [veri modelleme ve yönetim araçlarının](service-premium-connect-tools.md#data-modeling-and-management-tools) en güncel sürümlerini kullandığınızdan emin olun. 
 
-3.  Premium 2. Nesil üzerinde XMLA kullanıyorsanız [veri modelleme ve yönetim araçlarının](service-premium-connect-tools.md#data-modeling-and-management-tools) en güncel sürümlerini kullandığınızdan emin olun. 
-
-4.  Premium 2. Nesil ile sunulan analiz hizmetleri özellikleri yalnızca en son istemci kitaplıklarında desteklenir. Bu gereksinimi desteklemeye yönelik bağımlı araçlar için tahmini çıkış tarihleri şunlardır:
+3.  Premium 2. Nesil ile sunulan analiz hizmetleri özellikleri yalnızca en son istemci kitaplıklarında desteklenir. Bu gereksinimi desteklemeye yönelik bağımlı araçlar için tahmini çıkış tarihleri şunlardır:
 
     |Araç|Gerekli en düşük sürüm|Tahmini çıkış tarihi|
     |---|---|---|
     |SQL Server Management Studio (SSMS)|18.8|8 Aralık 2020|
     |SQL Server Veri Araçları (SSDT)|2.9.15|Genel kullanılabilirlik: 30 Kasım 2020|
     | AS PowerShell| 21.1.18229 üzeri|26 Kasım 2020|
-
-5.  Bir Premium 2. Nesil kapasitesinde bulunan veri akışlarını içeren bir çalışma alanının farklı bir bölgede bulunan başka bir Premium kapasiteye yeniden atanması desteklenmez. Ayrıca büyük depolama biçimine sahip modellerin bir Premium kapasitesinden diğerine aktarılması da desteklenmez. Farklı bir bölgede bulunan bir kapasiteye geçiş yaptıysanız işlevleri kullanabilmek için aşağıdaki adımlardan birini izleyin:
- 
-    1.  Yeni bir çalışma alanı oluşturup veri akışlarını kopyalayın
-    2.  Çalışma alanını önceki bölgede bulunan kapasiteye geri geçirin
-    3.  Premium 1. Nesil'e geri dönün
-
-Bu sınırlama Premium 2. Nesil genel kullanılabilirlik aşamasında kaldırılabilir.
 
 
 ## <a name="subscriptions-and-licensing"></a>Abonelikler ve lisanslama
@@ -126,11 +116,6 @@ Power BI Premium ile *ayrılmış kapasiteler* elde edersiniz. İş yüklerinin 
 Çalışma alanları kapasitelerin içinde yer alır. Her Power BI kullanıcısının **Çalışma Alanım** olarak bilinen kendi kişisel çalışma alanı vardır. İşbirliğine olanak tanımak için ek **çalışma alanları** oluşturulabilir. Kişisel çalışma alanları da dahil olmak üzere çalışma alanları varsayılan olarak paylaşılan kapasitede oluşturulur. Premium kapasiteleriniz varsa, hem Çalışma Alanlarım hem de çalışma alanları Premium kapasitelere atanabilir.
 
 Kapasite yöneticilerine ait Çalışma Alanlarım otomatik olarak Premium kapasitelere atanır.
-
-### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
-
-Premium 2. Nesil düğümlerinde artık ayrılmış altyapı kullanılmaz. Bunun yerine hizmet, paylaşılan çok özellikli işleme düğümleri havuzundan yeterli sayıda kaynak ayırarak, çalışan her iş yükü için yeterli işleme gücünün sağlandığından emin olur.
-
 
 ### <a name="capacity-nodes"></a>Kapasite düğümleri
 

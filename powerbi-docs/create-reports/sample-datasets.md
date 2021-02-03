@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
 LocalizationGroup: Samples
-ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f69be1cd602c0b20c48581a5d6ee1ff034749b2a
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396212"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495145"
 ---
 # <a name="get-samples-for-power-bi"></a>Power BI için örnek alma
 Power BI'da yeni olduğunuzu, hizmeti denemek istediğinizi ancak hiç verinizin olmadığını varsayalım.  Belki de Power BI’in bazı özelliklerini gösteren raporları görmek istiyorsunuz. Size yardımcı olabiliriz.
@@ -42,7 +42,7 @@ Bu raporun senaryosunda, Microsoft temalı kaykaylar satan bir şirket yer alıy
 Bunları şu yollarla keşfedebilirsiniz:
 
 - Power BI Topluluğu [Veri Hikayeleri Galerisi](https://community.powerbi.com/t5/Data-Stories-Gallery/Sales-amp-Returns-Sample-Report/m-p/876607)’nde bu raporu görüntüleyip bununla etkileşim kurabilirsiniz.
-- .pbix dosyasını indirip ayrıntılı bir şekilde inceleyebilirsiniz. Miguel’in bu raporu nasıl oluşturduğuna ilişkin hikayenin “perde arkasını” inceleyebilirsiniz. Bu bağlantıyı seçtiğinizde dosya otomatik olarak indirilir: [Satışlar ve İadeler örnek raporu](https://go.microsoft.com/fwlink/?linkid=2113239).
+- .pbix dosyasını indirip ayrıntılı bir şekilde inceleyebilirsiniz. Miguel’in bu raporu nasıl oluşturduğuna ilişkin hikayenin “perde arkasını” inceleyebilirsiniz. Bu bağlantıyı seçtiğinizde dosya otomatik olarak indirilir: [Satışlar ve İadeler örnek raporu](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Sales%20%26%20Returns%20Sample%20v201912.pbix).
 - [Yeni Satış ve İadeler örnek raporuna ilişkin tura katılın](https://powerbi.microsoft.com/blog/take_a_tour_of_the_new_sales_returns_sample_report/) adlı Power BI blog gönderisinden rapor hakkında bilgi edinin.
 
 ## <a name="sample-app-from-appsource"></a>AppSource’tan örnek uygulama

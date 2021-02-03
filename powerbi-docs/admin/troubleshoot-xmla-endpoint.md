@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/13/2021
+ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226997"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494478"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA uç nokta bağlantı sorunlarını giderme
 
@@ -221,6 +221,10 @@ Azure Analysis Services hizmetinden farklı olarak Power BI Premium çalışma a
 ## <a name="dataset-refresh-through-the-xmla-endpoint"></a>XMLA uç noktası aracılığıyla veri kümesi yenileme
 
 Son yenileme tarihi ve saati Power BI'da birkaç yerde gösterilir. Raporlarda ve listelerde bulunan Yenilenme zamanı sütunları, Veri kümesi ayrıntıları, Veri kümesi ayarları ve Veri kümesi yenileme geçmişi bunlardan bazılarıdır. Power BI'da gösterilen yenileme tarihleri ve saatleri şu an için TMSL/TOM, SSMS veya üçüncü taraf araçlar kullanılarak XMLA uç noktası üzerinden gerçekleştirilen yenileme işlemlerini **kapsamaz**.
+
+## <a name="discover_m_expressions"></a>DISCOVER_M_EXPRESSIONS 
+
+DMV DISCOVER_M_EXPRESSIONS veri yönetimi görünümü (DMV) Şu anda XMLA uç noktası kullanılarak Power BI desteklenmiyor. Uygulamalar, veri modeli tarafından kullanılan d ifadelerini almak için tablolu nesne modeli 'ni (TOM) kullanabilir.
 
 ## <a name="see-also"></a>Ayrıca bkz.
 
