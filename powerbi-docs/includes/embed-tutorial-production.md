@@ -7,11 +7,11 @@ ms.author: kesharab
 ms.topic: include
 ms.date: 12/09/2020
 ms.custom: include file
-ms.openlocfilehash: 82549ae0e3f177b6cb74ae5a4405a10e832c54e7
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.openlocfilehash: 914508792ce3b182f70fc8bb5b1b758451ba525d
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99494777"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99541309"
 ---
-Hazır olduğunuzda [üretime taşıma](../developer/embedded/move-to-production.md) gereksinimlerini gözden geçirin. Ayrıca bir [kapasiteye](../developer/embedded/embedded-capacity.md) ihtiyacınız olacağından gereksinimlerinize en uygun SKU'yu belirleme amacıyla [kapasite planlaması](../developer/embedded/embedded-capacity-planning.md) makalesini de incelemeniz gerekir.
+Hazır olduğunuzda [üretime taşıma](../developer/embedded/move-to-production.md) gereksinimlerini gözden geçirin. Ayrıca, bir [kapasiteye](../developer/embedded/embedded-capacity.md)ihtiyacınız vardır ve hangi SKU 'nun gereksinimlerinizi en iyi şekilde paketlemesinin belirlemek için [Kapasite planlama](../developer/embedded/embedded-capacity-planning.md) makalesini gözden geçirmeniz gerekir.
