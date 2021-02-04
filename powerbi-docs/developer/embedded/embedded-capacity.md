@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: c27d95715fe436b59825390b1cc16111e83ffc1d
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: b37182cbdf030e8b32fdfe307d0a652fef678b9b
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98564990"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533039"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI Embedded Analytics’te kapasite ve SKU’lar
 
@@ -37,6 +37,9 @@ Power BI tümleşik analiz iki çözümü içerir:
 Power BI Embedded, uygulamalarına görsel eklemek isteyen ISV’lere ve geliştiricilere yöneliktir.
 
 Power BI Embedded kullanan uygulamalar, kullanıcılara Power BI Embedded kapasitesinde depolanan içerikleri tüketme olanağı tanır.
+
+>[!NOTE]
+>Kısa bir süre önce **Embedded 2. Nesil** adıyla yeni bir Power BI Embedded sürümü kullanıma sunuldu. Embedded 2. Nesil, Embedded kapasitelerinin yönetilmesini kolaylaştıracak ve Power BI Embedded deneyimini geliştirecek. Daha fazla bilgi için bkz. [Power BI Embedded 2. Nesil](power-bi-embedded-generation-2.md).
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -142,6 +145,10 @@ Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır.
 | P4 | 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
+
+#### <a name="embedded-gen-2-memory-enhancements-preview"></a>Katıştırılmış Gen 2 bellek geliştirmeleri (Önizleme)
+
+[Power BI Embedded oluşturma 2](power-bi-embedded-generation-2.md) ' de (katıştırılmış Gen 2 olarak da bilinir), her düğüm boyutunda kullanılabilir bellek miktarı, tek bir Power BI öğenin (rapor veya pano gibi) bellek kaplama sınırına ayarlanır ve bu da belleğin birikimli tüketimine uygulanmaz. Örneğin, gömülü bir Gen2 a4 kapasitesinde, yalnızca tek bir veri kümesi boyutu 25 Power BI Embedded GB ile sınırlıdır ve bu, aynı anda işlenen veri kümelerinin toplam bellek parmak izi 25 GB ile sınırlıdır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

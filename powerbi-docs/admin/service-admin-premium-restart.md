@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 367195e0e09bbfb7de20acfa71b8da9742664ca2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: da6108927e9d6182c08db68972a5452514eedca7
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413576"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532970"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Power BI Premium kapasitesini yeniden başlatma
 
@@ -30,6 +30,8 @@ Power BI, Premium kapasite kullanıcılarını bu tür sorunlara karşı koruma 
 
 > [!NOTE]
 > Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Önizleme 2. Nesil kapasiteleri için yeniden başlatma işlemleri gerekmediğinden, bu özellik Premium 2. Nesil’de sunulmaz.
+>
+> **Gömülü Gen2** kapasiteleri de yeniden başlatma gerektirmez. Power BI Embedded Gen2 geliştirmelerini gözden geçirmek için [Power BI Embedded 2. nesil](../developer/embedded/power-bi-embedded-generation-2.md)bölümüne bakın.
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Yeniden başlatma işlemi güvenli mi? Verileri kaybedecek miyim?
 

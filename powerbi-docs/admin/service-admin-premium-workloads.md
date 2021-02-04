@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 04340be9c7e3700630657306093e3d96e3e9e693
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
-ms.translationtype: HT
+ms.openlocfilehash: 62579a12588449e0119b96fb3a7c7da2ef7858e5
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491426"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532924"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Premium kapasitedeki iş yüklerini yapılandırma
 
@@ -22,6 +22,8 @@ Bu makalede, Power BI Premium kapasiteleri için iş yüklerini etkinleştirme v
 
 > [!NOTE]
 > Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Power BI Embedded Gen2 geliştirmelerini gözden geçirmek için [Power BI Embedded 2. nesil](../developer/embedded/power-bi-embedded-generation-2.md)bölümüne bakın.
 
 ## <a name="default-memory-settings"></a>Varsayılan bellek ayarları
 

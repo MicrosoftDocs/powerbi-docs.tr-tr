@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/01/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 05f2523e468759444a731d5484e8ce17350a46ae
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: e226d70822e9462f376ec3b5d4d9fd5f36ade252
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494915"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532786"
 ---
 # <a name="what-is-power-bi-premium"></a>Power BI Premium nedir?
 
@@ -38,6 +38,9 @@ Bu makalede Power BI Premium'un önemli özellikleri tanıtılır. Gerektiğinde
 ## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium 2. Nesil (önizleme)
 
 Yakın zamanda Power BI Premium’un **Power BI Premium 2. Nesil** adlı yeni bir sürümü kullanıma sunuldu. Kolaylık açısından bu sürüm **Premium 2. Nesil** olarak adlandırılmaktadır. Premium 2. Nesil şu anda önizleme aşamasındadır ve bu süre boyunca kullanılmak üzere Premium abonelere sunulur. Premium’un özgün sürümünü kullanabilir veya Premium 2. Nesil’e geçiş yapabilirsiniz. Premium kapasitenizde yalnızca birini veya diğerini kullanabilirsiniz.
+
+>[!NOTE]
+>Power BI Embedded Gen2 geliştirmelerini gözden geçirmek için [Power BI Embedded 2. nesil](../developer/embedded/power-bi-embedded-generation-2.md)bölümüne bakın.
 
 Premium 2. Nesil şu güncelleştirmeleri ve iyileştirilmiş deneyimleri sunar:
 
@@ -136,9 +139,9 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 | EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | P4 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
@@ -150,7 +153,7 @@ Aşağıdaki tabloda her Premium SKU'sunun (ve eşdeğer boyutlu A SKU'sunun) ka
 
 #### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
 
-**Premium 2. Nesil** ile her düğüm boyutundaki kullanılabilir bellek miktarı, kümülatif bellek tüketimi yerine tek bir yapının bellek ayak izi sınırına ayarlanır. Örneğin, aynı anda işlenen veri kümelerinin toplam bellek ayak izinin 25 GB ile sınırlı olduğu özgün Premium ile karşılaştırıldığında, Premium 2. Nesil’de yalnızca tek bir veri kümesi boyutu 25 GB ile sınırlıdır.
+**Premium Gen2** ve [Embedded Gen 2](../developer/embedded/power-bi-embedded-generation-2.md)ile, her düğüm boyutunda kullanılabilir bellek miktarı, tek bir yapıtın bellek kaplama sınırına ayarlanır ve bu da belleğin birikimli tüketimine uygulanmaz. Örneğin, Premium Gen2 P1 kapasitesinde, yalnızca tek bir veri kümesi boyutu 25 GB ile sınırlıdır ve bu, aynı anda işlenen veri kümelerinin toplam bellek parmak izi 25 GB ile sınırlıdır.
 
 ### <a name="capacity-workloads"></a>Kapasite iş yükleri
 
@@ -186,7 +189,7 @@ Sorgular gibi yenilemeler de modelin belleğe yüklenmesini gerektirir. Bellek y
 
 #### <a name="updates-for-premium-gen2-preview"></a>Premium 2. Nesil Güncelleştirmeleri (Önizleme)
 
-Premium 2. Nesil kümülatif bellek sınırları gerektirmez ve bu nedenle eşzamanlı veri kümesi yenileme işlemleri kaynak kısıtlamalarına dahil olmaz. Sanal çekirdek başına çalışan yenileme sayısıyla ilgili sınır da yoktur. Ancak ayrı veri kümesi yenileme işlemleri, var olan kapasite bellek ve CPU sınırlarına tabi olmaya devam eder. Dilediğiniz zaman, gereken sayıda yenileme zamanlayıp çalıştırabilirsiniz. Power BI hizmeti, bu yenilemeleri zamanlamaya uygun şekilde çalıştırır.
+Premium Gen2 ve [Embedded Gen 2](../developer/embedded/power-bi-embedded-generation-2.md) toplu bellek sınırları gerektirmez ve bu nedenle eşzamanlı veri kümesi yenilemelerinde kaynak kısıtlamalarına katkıda bulunmamayın. Sanal çekirdek başına çalışan yenileme sayısıyla ilgili sınır da yoktur. Ancak ayrı veri kümesi yenileme işlemleri, var olan kapasite bellek ve CPU sınırlarına tabi olmaya devam eder. Dilediğiniz zaman, gereken sayıda yenileme zamanlayıp çalıştırabilirsiniz. Power BI hizmeti, bu yenilemeleri zamanlamaya uygun şekilde çalıştırır.
 
 Bölüm notları:   
 <a name="endnote-1"></a>\[1\] Değişebilir.
@@ -290,10 +293,10 @@ Daha fazla bilgi edinmek için bkz. [Power BI Premium’da artımlı yenileme](s
 
 P1-P3 ve A4_A6 SKU'larında desteklenen sayfalandırılmış raporlarda, SQL Server Reporting Services'teki Rapor Tanımlama Dili (RDL) teknolojisi temel alınır. RDL teknolojisine dayansa da, şirket içinde yükleyebileceğiniz indirilebilir bir raporlama platformu olan ve Power BI Premium'da da sağlanan Power BI Rapor Sunucusu ile aynı değildir. Sayfalandırılmış raporlar yazdırılabilen ve paylaşılabilen bir sayfaya sığacak şekilde biçimlendirilir. Tablo birden fazla sayfaya yayılsa bile veriler bir tabloda gösterilir. Kullanıcılar ücretsiz [**Power BI Rapor Oluşturucusu**](https://aka.ms/pbireportbuilder) Windows Desktop uygulamasını kullanarak sayfalandırılmış raporlar yazar ve bunları hizmette yayımlar.
 
-Power BI Premium'da Sayfalandırılmış raporlar, Yönetim portalı kullanılarak bir kapasite için etkinleştirilmesi gereken bir iş yüküdür. Kapasite yöneticileri bunu etkinleştirebilir ve ardından kapasitenin genel bellek kaynaklarının bir yüzdesi olarak bellek miktarını belirtebilir. Diğer iş yükü türlerinden farklı olarak Premium sayfalandırılmış raporları kapasite içinde kapsanan bir alanda çalıştırır. İş yükünün etkin olup olmadığına bakılmaksızın, bu alan için belirtilen en büyük bellek kullanılır. Varsayılan değer %20'dir.
+Power BI Premium'da Sayfalandırılmış raporlar, Yönetim portalı kullanılarak bir kapasite için etkinleştirilmesi gereken bir iş yüküdür. Kapasite yöneticileri bunu etkinleştirebilir ve ardından kapasitenin genel bellek kaynaklarının bir yüzdesi olarak bellek miktarını belirtebilir. Diğer iş yükü türlerinden farklı olarak Premium sayfalandırılmış raporları kapasite içinde kapsanan bir alanda çalıştırır. İş yükünün etkin olup olmadığına bakılmaksızın, bu alan için belirtilen en büyük bellek kullanılır. Varsayılan değer %20'dir. 
 
 > [!NOTE]
-> **Premium 2. Nesil’de (Önizleme)** , Sayfalandırılmış raporlar için bellek yönetimi yoktur. Premium 2. Nesil’de Sayfalandırılmış raporlar EM1-EM3 SKU’larında desteklenir.
+> **Premium Gen2 (Önizleme)** ve [Embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md)içinde, sayfalandırılmış raporlar için bellek yönetimi yoktur. Premium Gen2 ve Embedded Gen2 ile, sayfalandırılmış raporlar EM1-EM3 ve a1-a3 SKU 'Larında desteklenir.
 
 ### <a name="paginated-reports-and-premium-gen2"></a>Sayfalandırılmış raporlar ve Premium 2. Nesil
 
@@ -327,7 +330,7 @@ Daha fazla bilgi edinmek için bkz. [Power BI lisansı](service-admin-licensing-
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Power BI Premium’da Analysis Services
 
-Yakından bakıldığında Power BI Premium çalışma alanlarına ve veri kümelerine gereken gücü kurumsal açıdan kanıtlanmış Microsoft **Analysis Services Vertipaq altyapısı** sağlar. Analysis Services, açık kaynak XMLA protokolünü destekleyen istemci kitaplıkları ve API’ler aracılığıyla programlama ve istemci uygulama ve araç desteği sağlar. Varsayılan olarak, Power BI Premium kapasite veri kümesi iş yükleri bir **XMLA uç noktası** aracılığıyla Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* işlemleri destekler. Kapasite yöneticileri, uç nokta üzerinden *okuma/yazma* işlemlerini devre dışı bırakma veya bu işlemlere izin verme tercihini yapabilir.
+Şirket içinde, kurumsal olarak kanıtlanmış Microsoft **Analysis Services VertiPaq altyapısının** çalışma alanlarını ve veri kümelerini Power BI Premium güçlendirir. Analysis Services, açık kaynak XMLA protokolünü destekleyen istemci kitaplıkları ve API’ler aracılığıyla programlama ve istemci uygulama ve araç desteği sağlar. Varsayılan olarak, Power BI Premium kapasite veri kümesi iş yükleri bir **XMLA uç noktası** aracılığıyla Microsoft ve üçüncü taraf istemci uygulamalarından ve araçlarından gelen *salt okunur* işlemleri destekler. Kapasite yöneticileri, uç nokta üzerinden *okuma/yazma* işlemlerini devre dışı bırakma veya bu işlemlere izin verme tercihini yapabilir.
 
 Salt okunur erişim sayesinde, SQL Server Management Studio (SSMS) ve SQL Server Profiler gibi Microsoft araçları ile DAX Studio ve veri görselleştirme uygulamaları gibi üçüncü taraf uygulamaları XMLA, DAX, MDX, DMV ve Trace olaylarını kullanarak Premium veri kümelerine bağlanabilir ve bunları sorgulayabilir. Okuma/yazma erişimi sayesinde, Analysis Services projeleri uzantısına veya açık kaynaklı Tablosal Düzenleyici’ne sahip Visual Studio gibi kurumsal modelleme araçları, tablosal modelleri Premium çalışma alanlarına veri kümesi olarak dağıtabilir. Son olarak, SSMS gibi araçlar sayesinde yöneticiler, betik meta veri değişikliklerinde ve gelişmiş veri yenileme senaryolarında Tablosal Model Betik Dilini (TMSL) kullanabilir. 
 

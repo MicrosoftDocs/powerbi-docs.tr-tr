@@ -1,6 +1,6 @@
 ---
-title: Power BI tümleşik analiz uygulamanıza sayfalandırılmış raporlar ekleyerek müşterileriniz için daha iyi tümleşik BI içgörüleri sağlama
-description: Power BI API'lerini kullanarak bir Power BI sayfalandırılmış raporunu bir uygulamayla tümleştirmeyi veya eklemeyi öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
+title: Power BI ekli analiz uygulamanıza müşterileriniz için sayfalandırılmış raporları ekleme
+description: Bir Power BI sayfalandırılmış raporun nasıl tümleştirileceğini veya gömülü bir analiz uygulamasına nasıl ekleneceğini öğrenin.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 01/04/2019
-ms.openlocfilehash: 1cbe656618e2d4240aebfe95ef4ebc2679616054
-ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.date: 01/14/2021
+ms.openlocfilehash: 081c6c409a2aed7003952b30ff16dcb7f032ed40
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98781622"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533154"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Öğretici: Uygulamaya müşterileriniz için sayfalandırılmış Power BI raporları ekleme
 
@@ -58,10 +58,16 @@ Ekleyeceğiniz sayfalandırılmış raporu içeri aktarmadan veya yüklemeden ö
 * **Power BI Premium**: Sayfalandırılmış rapor eklemek için *P* SKU kapasitesi gerekir. Power BI içeriği eklerken bu çözüm *Power BI ekleme* olarak adlandırılır. Bu abonelikle ilgili daha fazla bilgi için bkz. [Power BI Premium nedir?](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded**: [Microsoft Azure portalından](https://portal.azure.com) kapasite satın alabilirsiniz. Bu abonelik *A* SKU’ları kullanır. Sayfalandırılmış raporlar eklemek için en az bir *A4* aboneliğine ihtiyacınız vardır. Power BI Embedded kapasitesi oluşturma hakkında ayrıntılı bilgi için bkz. [Azure portalında Power BI Embedded kapasitesi oluşturma](azure-pbie-create-capacity.md).
 
+    >[!NOTE]
+    >Kısa bir süre önce **Embedded 2. Nesil** adıyla yeni bir Power BI Embedded sürümü kullanıma sunuldu. Embedded 2. Nesil, Embedded kapasitelerinin yönetilmesini kolaylaştıracak ve Power BI Embedded deneyimini geliştirecek. Daha fazla bilgi için bkz. [Power BI Embedded 2. Nesil](power-bi-embedded-generation-2.md).
+
 Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır. İhtiyaçlarınıza en uygun kapasiteyi öğrenmek için [Senaryom için hangi SKU’yu satın almalıyım?](./embedded-faq.md#which-solution-should-i-choose) tablosuna bakın.
 
 | Kapasite Düğümleri | Toplam sanal çekirdek sayısı | Arka uç sanal çekirdek sayısı | RAM (GB) | Ön uç sanal çekirdek sayısı | 
 | --- | --- | --- | --- | --- |
+| A1 ve [Embedded 2. Nesil](power-bi-embedded-generation-2.md) | 1 | 0,5 | 2.5 | 0,5 |
+| A2 ve [Embedded 2. Nesil](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
+| A3 ve [Embedded 2. Nesil](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |
@@ -206,7 +212,7 @@ Power BI sayfalandırılmış raporları ekleme adımları [Power BI REST API’
 
 Uygulamanıza müşterileriniz için Power BI sayfalandırılmış raporlarını eklemek için bir **Azure AD** [hizmet sorumlusuna](embed-service-principal.md) sahip olmanız ve [Power BI REST API'lerini](/rest/api/power-bi/) çağırabilmek için bir [Azure AD erişim belirteci](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) almanız gerekir.
 
-**Erişim belirtecinizle** Power BI İstemcisi'ni oluşturmak için [Power BI REST API'leriyle](/rest/api/power-bi/) etkileşim kurmanızı sağlayacak Power BI istemci nesnesini oluşturun. Power BI istemci nesnesini oluşturmak için **AccessToken** öğesini **_Microsoft.Rest.TokenCredentials_* _ nesnesine sarmanız gerekir.
+**Erişim belirtecinizle** Power BI İstemcisi'ni oluşturmak için [Power BI REST API'leriyle](/rest/api/power-bi/) etkileşim kurmanızı sağlayacak Power BI istemci nesnesini oluşturun. Power BI istemci nesnesini, **accesstoken** öğesini bir **_Microsoft. Rest. TokenCredentials_** nesnesiyle sarmalayarak oluşturursunuz.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -228,7 +234,7 @@ Eklemek istediğiniz öğeye ilişkin bir başvuru almak için Power BI istemci 
 
 Burada belirli bir çalışma alanının ilk raporunu nasıl alacağınızı gösteren bir kod örneği vardır.
 
-_Eklemek istediğiniz içerik öğesini (rapor, pano veya kutucuk) alma örneği, [örnek uygulama](https://github.com/Microsoft/PowerBI-Developer-Samples) içindeki Services\EmbedService.cs dosyasında sağlanır.*
+*Eklemek istediğiniz içerik öğesini (rapor, pano veya kutucuk) alma örneği, [örnek uygulama](https://github.com/Microsoft/PowerBI-Developer-Samples) içindeki Services\EmbedService.cs dosyasında sağlanır.*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

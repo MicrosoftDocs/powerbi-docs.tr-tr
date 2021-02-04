@@ -9,6 +9,8 @@
           href: embedding.md
         - name: Azure'da Power BI Embedded nedir?
           href: azure-pbie-what-is-power-bi-embedded.md
+        - name: Power BI Embedded Nesil 2 nedir?
+          href: power-bi-embedded-generation-2.md
     - name: Öğreticiler
       expanded: true
       items:

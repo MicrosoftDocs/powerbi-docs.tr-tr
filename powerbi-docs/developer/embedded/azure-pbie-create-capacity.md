@@ -1,6 +1,6 @@
 ---
-title: Azure portalında Power BI Embedded kapasitesi oluşturma | Microsoft Docs
-description: Bu makalede Microsoft Azure'da Power BI Embedded kapasitesi oluşturma adımları anlatılmaktadır.
+title: Power BI tümleşik analizleri tümleşik BI çözümünüz için Azure portalda Power BI Embedded kapasitesi oluşturma
+description: Bu makalede Power BI tümleşik analizleri tümleşik BI çözümünüz için Microsoft Azure'da bir Power BI Embedded kapasitesinin nasıl oluşturulacağı anlatılmaktadır.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -9,13 +9,13 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
-ms.date: 08/02/2020
-ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: e006d4fe23c85daf941ba7274027ee21b0f44eac
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155738"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532671"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Azure portalda Power BI Embedded kapasitesi oluşturma
 
@@ -27,9 +27,9 @@ Bu hızlı başlangıcı tamamlamak için aşağıdakilere ihtiyacınız vardır
 
 * **Azure aboneliği:** Hesap oluşturmak için [Azure Ücretsiz Deneme](https://azure.microsoft.com/free/) sayfasını ziyaret edin.
 
-* **Azure Active Directory:** Aboneliğinizin bir Azure Active Directory (Azure AD) kiracısıyla ilişkilendirilmesi gerekir. Ayrıca **_bu kiracıdaki bir hesapla Azure'da oturum açmış olmanız gerekir_* _. Microsoft hesapları desteklenmez. Daha fazla bilgi için bkz. [Kimlik doğrulaması ve izinler](/azure/analysis-services/analysis-services-manage-users).
+* **Azure Active Directory:** Aboneliğinizin bir Azure Active Directory (Azure AD) kiracısıyla ilişkilendirilmesi gerekir. Ayrıca, **_Azure 'da bu Kiracıdaki bir hesapla oturum açmış olmanız gerekir_**. Microsoft hesapları desteklenmez. Daha fazla bilgi için bkz. [Kimlik doğrulaması ve izinler](/azure/analysis-services/analysis-services-manage-users).
 
-_ **Power BI kiracısı:** Azure Active Directory kiracınızdaki hesaplardan en az birinin Power BI hizmetine kaydolmuş olması gerekir.
+* **Power BI kiracısı:** Azure Active Directory kiracınızdaki hesaplardan en az birinin Power BI hizmetine kaydolmuş olması gerekir.
 
 * **Kaynak grubu:** Mevcut kaynak gruplarınızdan birini kullanabilir veya [yeni bir tane oluşturabilirsiniz](/azure/azure-resource-manager/resource-group-overview).
 
@@ -46,9 +46,9 @@ Power BI Embedded kapasitesi oluşturmadan önce Power BI’da en az bir kez otu
 3. Power BI Embedded içinde **Ekle**’yi seçin.
 
 4. Gerekli bilgileri girdikten sonra **İncele ve Oluştur**’u seçin.
-
-    >[!div class="mx-imgBorder"]
-    >![Power BI Embedded sayfasının Azure portalında yeni kapasite oluşturmak için kullanılan Temel bilgiler sekmesini gösteren ekran görüntüsü.](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
+    
+    > [!div class="mx-imgBorder"]
+    >![Power BI Embedded sayfasının Azure portalında yeni kapasite oluşturmak için kullanılan Temel bilgiler sekmesini gösteren ekran görüntüsü.](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **Abonelik** - Kapasiteyi oluşturmak istediğiniz abonelik.
 
@@ -66,7 +66,19 @@ Power BI Embedded kapasitesi oluşturmadan önce Power BI’da en az bir kez otu
         >* Kapasite yöneticisi olarak farklı bir kullanıcı veya hizmet sorumlusu seçebilirsiniz.
         >* Kapasite yöneticisinin, kapasitenin sağlandığı kiracıya ait olması gerekir. İşletmeden işletmeye (B2B) kullanıcılar, kapasite yöneticileri olamaz.
 
+    * **Kaynak modu** -bu iki Power BI Embedded kaynağı modu arasında seçim yapın:
+
+        * **Gömülü nesil 1** -klasik Power BI Embedded kaynağı.
+
+        * **Embedded 2. nesil** -geliştirilmiş deneyim sunan yeni Power BI Embedded kaynak. Daha fazla bilgi için bkz. [Power BI Embedded Premium 2. nesil](power-bi-embedded-generation-2.md).
+        
+        >[!IMPORTANT]
+        >Bir kapasite kaynağı oluşturduktan sonra, nesilleri değiştiremezsiniz. Power BI Embedded üretimini değiştirmek istiyorsanız, farklı bir oluşturma kullanarak başka bir kaynak oluşturabilir ve çalışma alanlarınızı buna yeniden atayabilirsiniz. Ayrıca, Azure Resource Manager API 'Leri kullanarak bu işlemi otomatikleştirebilirsiniz.
+
 # <a name="azure-cli"></a>[Azure CLI](#tab/CLI)
+
+>[!NOTE]
+>Azure CLı, [Power BI Embedded 2. nesil (Önizleme)](power-bi-embedded-generation-2.md)için desteklenmez.
 
 ### <a name="use-azure-cloud-shell"></a>Azure Cloud Shell kullanma
 
@@ -128,7 +140,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Azure CLI ile kapasite silme
 
-Azure CLI kullanarak kapasite silmek için [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) komutunu kullanın.
+Azure CLı kullanarak bir kapasiteyi silmek için [azure Power BI Embedded-Capacity Delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) komutunu kullanın.
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -137,7 +149,7 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Azure CLI ile kapasitenizi yönetme
 
-[az powerbi](/cli/azure/ext/powerbidedicated/powerbi)’da tüm Power BI Embedded Azure CLI komutlarını görüntüleyebilirsiniz.
+Azure [Power BI](/cli/azure/ext/powerbidedicated/powerbi)' de Azure CLI komutlarının tümünü Power BI Embedded görüntüleyebilirsiniz.
 
 # <a name="arm-template"></a>[ARM şablonu](#tab/ARM-template)
 
@@ -149,7 +161,13 @@ Azure aboneliğiniz yoksa başlamadan önce [ücretsiz](https://azure.microsoft.
 
 ### <a name="review-the-template"></a>Şablonu gözden geçirme
 
-Bu hızlı başlangıçta kullanılan şablon [Azure Hızlı Başlangıç Şablonlarından](https://azure.microsoft.com/resources/templates/101-power-bi-embedded) alınmıştır.
+Bu hızlı başlangıçta kullanılan şablonlar [Azure hızlı başlangıç şablonlarından](https://azure.microsoft.com/resources/templates/101-power-bi-embedded)alınır.
+
+Şablonda Azure kaynağı tanımlandıktan sonra [Microsoft. Powerbiadanmış/kapasiteleri az](/azure/templates/microsoft.powerbidedicated/allversions) -Power BI Embedded kapasitesi oluşturun.
+
+#### <a name="embedded-gen1"></a>Gömülü Gen1
+
+Klasik bir Power BI Embedded kaynağı oluşturmak için bu şablonu kullanın.
 
 ```json
 {
@@ -159,14 +177,14 @@ Bu hızlı başlangıçta kullanılan şablon [Azure Hızlı Başlangıç Şablo
         "name": {
             "type": "string",
             "metadata": {
-              "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
+                "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
             }
         },
         "location": {
             "type": "string",
             "defaultValue": "[resourceGroup().location]",
             "metadata": {
-              "description": "The location where Power BI is hosted for your tenant"
+                "description": "The location where Power BI is hosted for your tenant"
             }
         },
         "sku": {
@@ -180,13 +198,13 @@ Bu hızlı başlangıçta kullanılan şablon [Azure Hızlı Başlangıç Şablo
                 "A6"
             ],
             "metadata": {
-              "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
+                "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
             }
         },
         "admin": {
             "type": "string",
             "metadata": {
-              "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
+                "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
             }
         }
     },
@@ -211,7 +229,70 @@ Bu hızlı başlangıçta kullanılan şablon [Azure Hızlı Başlangıç Şablo
 }
 ```
 
-Şablonda bir Azure kaynağı tanımlanmıştır: [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) - Power BI Embedded kapasitesi oluşturun.
+#### <a name="embedded-gen2-preview"></a>Gömülü Gen2 (Önizleme)
+
+[Ekli bir gen 2](power-bi-embedded-generation-2.md) kaynağı oluşturmak için bu şablonu kullanın.
+
+```json
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "type": "string",
+            "metadata": {
+                "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
+            }
+        },
+        "location": {
+            "type": "string",
+            "defaultValue": "[resourceGroup().location]",
+            "metadata": {
+                "description": "The location where Power BI is hosted for your tenant"
+            }
+        },
+        "sku": {
+            "type": "string",
+            "allowedValues": [
+                "A1",
+                "A2",
+                "A3",
+                "A4",
+                "A5",
+                "A6"
+            ],
+            "metadata": {
+                "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
+            }
+        },
+        "admin": {
+            "type": "string",
+            "metadata": {
+                "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
+            }
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.PowerBIDedicated/capacities",
+            "apiVersion": "2018-09-01-preview",
+            "name": "[parameters('name')]",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "[parameters('sku')]"
+            },
+            "properties": {
+                "administration": {
+                    "members": [
+                        "[parameters('admin')]"
+                    ]
+                },
+                "mode": "Gen2"
+            }
+        }
+    ]
+}
+```
 
 ### <a name="deploy-the-template"></a>Şablonu dağıtma
 

@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 0ae9a37d8d3a54d02811b9f3051d11cb1ab82ff8
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494478"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532579"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>XMLA uç nokta bağlantı sorunlarını giderme
 
@@ -144,7 +144,7 @@ Power BI’da zamanlanmış veya isteğe bağlı bir yenileme işlemini tetikler
 
 ### <a name="query-execution"></a>Sorgu yürütme
 
-[Premium 2. Nesil](service-premium-what-is.md#power-bi-premium-generation-2-preview) kapasitesindeki bir çalışma alanına bağlandığında, SQL Server Management Studio aşağıdaki hatayı görüntüleyebilir:
+[Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview) veya [gömülü Gen2](../developer/embedded/power-bi-embedded-generation-2.md) kapasitesinde bir çalışma alanına bağlandığında, SQL Server Management Studio aşağıdaki hatayı görüntüleyebilir:
 
 ```
 Executing the query ...
@@ -155,7 +155,7 @@ Bu, SSMS v18.7.1 ile yüklenen istemci kitaplıkları oturum izlemeyi destekleme
 
 ### <a name="refresh-operations"></a>Yenileme işlemleri
 
-Premium 2. Nesil kapasitesindeki bir veri kümesi üzerinde uzun süre çalışan (1 dakikadan uzun) bir yenileme işlemi gerçekleştirmek için SSMS v18.7.1 veya daha önceki bir sürümü kullanırken, yenileme işlemi başarılı olsa bile SSMS aşağıdaki gibi bir hata görüntüleyebilir:
+Bir Premium Gen2 veya [Embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md) kapasitesinde bir veri kümesi üzerinde uzun süre çalışan (>1 dak) yenileme işlemi gerçekleştirmek için SSMS v 18.7.1 veya daha düşük bir işlem gerçekleştirirken SSMS, yenileme işlemi başarılı olsa bile aşağıdaki gibi bir hata görüntüleyebilir:
 
 ```
 Executing the query ...

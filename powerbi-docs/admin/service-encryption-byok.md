@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: fd4ca0d87530c6421321e10ed97c3ea4e9a32c8d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 2313e736dee73666bb5ddb380b39a217c6b61237
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408033"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532648"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Power BI için kendi şifreleme anahtarlarınızı getirme
 
@@ -26,6 +26,8 @@ KAG bulut hizmeti sağlayıcısıyla (bu durumda Microsoft) anahtar düzenlemele
 
 > [!IMPORTANT]
 > Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Önizleme aşamasındayken Önizleme 2. Nesil kapasiteleri Kendi Anahtarını Getir’i **desteklemez**.
+>
+>**Gömülü Gen2** kapasiteleri önizleme sırasında **bYok 'ı da desteklemez.** Power BI Embedded Gen2 geliştirmelerini gözden geçirmek için [Power BI Embedded 2. nesil](../developer/embedded/power-bi-embedded-generation-2.md)bölümüne bakın.
 
 ## <a name="data-source-and-storage-considerations"></a>Veri kaynağı ve depolama konusunda dikkat edilmesi gerekenler
 

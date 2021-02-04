@@ -1,19 +1,19 @@
 ---
-title: Daha iyi tümleşik BI içgörüleri sağlamanıza yardımcı olan Power BI tümleşik analizleri hakkında sık sorulan sorular
-description: Müşterilerin tümleşik BI içgörülerini geliştiren Power BI tümleşik analizleri hakkında sık sorulan soruların ve yanıtlarının listesine göz atın.
+title: Power BI ekli analizi hakkında sık sorulan sorular
+description: Power BI ekli analizler hakkında sık sorulan sorular ve yanıtlar listesine gözatın
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: d787dfbb926a3a1224d5b4949003e0b0d260260f
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: e9487cc0cd799e925108163f729fdbf7da5d3ad5
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155653"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533016"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Power BI Embedded hakkında sık sorulan sorular
 
@@ -41,6 +41,10 @@ Microsoft, Power BI Embedded'i müşterilerinin analitik kararlar almasına yard
 Power BI Premium, kuruluşu, iş ortaklarını, müşterilerini ve sağlayıcılarını tek bir görünümde sunan eksiksiz bir İş Zekası çözümü isteyen kuruluşlar için kapasiteye göre tasarlanmıştır. Power BI Premium kuruluşların karar almasına yardımcı olur. Power BI Premium mobil uygulamalar ve şirket içinde geliştirilen uygulamalar aracılığıyla veya Power BI portalında içerik tüketmesine olanak tanıyan bir SaaS ürünüdür.
 
 Power BI Embedded uygulamalarına görsel eklemek isteyen ISV'lere yöneliktir. Power BI Embedded, uygulama geliştiricilerine yönelik olduğundan ve kuruluş içindekiler veya dışındakiler dahil olmak üzere tüm uygulama kullanıcıları Power BI Embedded kapsamında depolanan içerikleri kullanabildiğinden Power BI Embedded müşterilerinizin karar almasına yardımcı olur. Power BI Embedded kapasitesi içeriğini, tek tıklamayla Web'de veya SharePoint'te yayımlama özelliğiyle paylaşamazsınız.
+
+### <a name="what-is-power-bi-embedded-generation-2"></a>Power BI Embedded 2. nesil nedir?
+
+Kısa bir süre önce **Embedded 2. Nesil** adıyla yeni bir Power BI Embedded sürümü kullanıma sunuldu. Embedded 2. Nesil, Embedded kapasitelerinin yönetilmesini kolaylaştıracak ve Power BI Embedded deneyimini geliştirecek. Daha fazla bilgi için bkz. [Power BI Embedded 2. Nesil](power-bi-embedded-generation-2.md).
 
 ### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Microsoft bir müşterinin hangi durumlarda Power BI Premium ve hangi durumlarda Power BI Embedded satın almasını önerir?
 

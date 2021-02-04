@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5cce18c2ec4a24b06f4cf48d5fd2b542109d70c6
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
-ms.translationtype: HT
+ms.openlocfilehash: 2eb1c5bd685cedabd96483867546c7578124af45
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512505"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532855"
 ---
 # <a name="configure-and-manage-capacities-in-power-bi-premium"></a>Power BI Premium’da kapasiteleri yapılandırma ve yönetme
 
@@ -24,7 +24,7 @@ Power BI Premium yönetimi, Premium kapasiteleri oluşturmayı, yönetmeyi ve iz
 
 ![Power BI kapasite ayarları ekranı](media/service-admin-premium-manage/premium-capacity-management.png)
 
-*Kapasite*, Power BI Premium ve Power BI Embedded tekliflerinin merkezindedir. Yalnızca kuruluşunuzun kullanımına ayrılmış bir kaynak kümesidir. Kapasiteye sahip olmak kullanıcı başına lisans satın almak zorunda kalmadan kuruluşunuzdaki kullanıcılara pano, rapor ve veri kümesi yayımlamanıza olanak sağlar. Ayrıca kapasitede barındırılan içerikler için güvenilir ve tutarlı performans sağlar. Daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium-what-is.md).
+*Kapasite* Power BI Premium ve [Power BI Embedded](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md) tekliflerinden oluşur. Yalnızca kuruluşunuzun kullanımına ayrılmış bir kaynak kümesidir. Kapasiteye sahip olmak kullanıcı başına lisans satın almak zorunda kalmadan kuruluşunuzdaki kullanıcılara pano, rapor ve veri kümesi yayımlamanıza olanak sağlar. Ayrıca kapasitede barındırılan içerikler için güvenilir ve tutarlı performans sağlar. Daha fazla bilgi için bkz. [Power BI Premium nedir?](service-premium-what-is.md).
 
 > [!NOTE]
 > Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).

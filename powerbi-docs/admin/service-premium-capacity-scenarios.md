@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 21ec2baf472d9650e550de8808ce3dc98b7cb49f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0038cce77a62f32a5fb5ca32a49fd8f6337352a6
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412311"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532763"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium kapasite senaryoları
 
@@ -31,6 +31,8 @@ Adımlar, örnek grafikler ve tablolar, Power BI yöneticisi tarafından erişim
 
 > [!NOTE]
 > Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Power BI Embedded Gen2 geliştirmelerini gözden geçirmek için [Power BI Embedded 2. nesil](../developer/embedded/power-bi-embedded-generation-2.md)bölümüne bakın.
 
 ## <a name="keeping-datasets-up-to-date"></a>Veri kümelerini güncel tutma
 
@@ -127,7 +129,7 @@ Power BI yöneticisi, kapasitede iş yüklerini tamamlamaya yetecek kadar bellek
 Bellek baskısı yaşayan bir kapasitede aynı görsel, etkin bellekle toplam belleğin birbirine yakın olduğunu ve belleğe ek veri kümesi yüklemenin mümkün olmadığını gösterecektir. Power BI yöneticisi böyle bir durumda **Kapasite Yeniden Başlatma**'ya (yönetim portalının kapasite ayarları sayfasındaki **Gelişmiş Seçenekler** menüsünde) tıklayabilir. Kapasitenin yeniden başlatılması durumunda bellekteki tüm veri kümeleri boşaltılır ve ihtiyaç duyulanlar (sorguyla veya veri yenileme işlemiyle) belleğe yeniden yüklenir.
 
 > [!NOTE]
-> Premium 2. Nesil’de bellek tüketiminin izlenmesi gerekmez. Premium 2. Nesil’deki tek kısıtlama, tek bir yapıtın bellek ayak izindedir. Parmak izi, kapasitedeki kullanılabilir bellek miktarını aşamaz. Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+> Premium Gen2 ve [Embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md)için bellek tüketiminin izlenmesi gerekmez. Premium Gen2 ve Embedded Gen2 'daki tek sınırlama, tek bir yapıtın bellek ayak katında. Parmak izi, kapasitedeki kullanılabilir bellek miktarını aşamaz. Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ![**Etkin** bellek ile **Tümü** birbirine yakın](media/service-premium-capacity-scenarios/memory-unhealthy-capacity.png)
 
@@ -148,7 +150,7 @@ Bu etki özellikle veri kümesinin birden fazla kullanıcıdan gelen yüksek yo�
 Bazı durumlarda Power BI yöneticileri, veri kümesi sahiplerinin rapor yerine pano (önbelleğe alınmış kutucuklar için veri kümesi yenileme işlemleriyle ve belirli aralıklarla sorgu gönderen) oluşturmalarını sağlayarak daha az geçici sorgu iş yükü oluşturmasını isteyebilir. Bu durum, pano yüklendiğinde karşılaşılan ani artışların engellenmesine yardımcı olabilir. Bu çözüm her zaman iş gereksinimlerine uygun olmayabilir ancak veri kümesinde değişiklik yapmadan CPU'nun doyma noktasına gelmesinden kaçınmanın etkili bir yolu olabilir.
 
 > [!NOTE]
-> Premium 2. Nesil’de CPU süresi kullanımı yapıt başına düzeyinde izlenir ve kapasite kullanım uygulamasında görülebilir. Her yapıt, verilen zaman aralığındaki toplam CPU süresi kullanımını gösterir. Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+> Premium Gen2 ve [Embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md)için CPU süresi kullanımı, yapıt başına düzeyde izlenir ve kapasite kullanımı uygulamasında görülebilir. Her yapıt, verilen zaman aralığındaki toplam CPU süresi kullanımını gösterir. Premium 2. Nesil hakkında daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
 
 ## <a name="acknowledgments"></a>Teşekkürler
 

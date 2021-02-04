@@ -12,24 +12,24 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 12/16/2020
-  ms.openlocfilehash: be6ec499d78d3ba5f3899fcb8556296568a40319
-  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-  ms.translationtype: HT
+  ms.date: 02/03/2021
+  ms.openlocfilehash: 8f8956075030eee75077b9da9b6fccca94b73546
+  ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+  ms.translationtype: MT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/17/2020
-  ms.locfileid: "97621867"
+  ms.lasthandoff: 02/04/2021
+  ms.locfileid: "99533062"
 highlightedContent:
   items:
   - title: Power BI Desktop ile çalışmaya başlama
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: Power BI veri kümeleri ve Azure Analysis için DirectQuery
+  - title: Katıştırılmış analiz istemcisi API 'Lerini Power BI
+    itemType: overview
+    url: /javascript/api/overview/powerbi/
+  - title: Veri kümeleri merkezini kullanarak veri kümeleri bulma (Önizleme)
     itemType: concept
-    url: connect-data/desktop-directquery-datasets-azure-analysis-services.md
-  - title: Power BI’da Azure Machine Learning modellerini kullanma
-    itemType: tutorial
-    url: connect-data/service-aml-integrate.md
+    url: connect-data/service-datasets-hub.md
   - title: Microsoft Learn’de Power BI
     itemType: learn
     url: /learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
@@ -234,13 +234,24 @@ conceptualContent:
 additionalContent:
   sections:
   - title: İlgili araçlar
-  - items:
+    items:
     - title: Power BI Rapor Sunucusu
       summary: Power BI raporlarını, sayfalandırılmış raporları ve KPI’ları görüntüleyip yönettiğiniz bir web portalına sahip şirket içi bir rapor sunucusu olan Power BI Rapor Sunucusu’nu keşfedin.
       url: report-server/index.yml
     - title: Power BI REST API'leri
       summary: Power BI REST API’leri, ekleme, yönetim ve kullanıcı kaynakları için hizmet uç noktaları sağlar.
       url: /rest/api/power-bi/
-    - title: Power Platform belgeleri
-      summary: Power BI, Power Apps, Power Automate ve Power Virtual Agents’ın birbirini geliştirmek için birlikte nasıl çalıştığını öğrenin.
-      url: /power-platform/
+    - title: Katıştırılmış analiz istemcisi API 'Lerini Power BI
+      summary: JavaScript veya TypeScript kullanarak Power BI eklemeye yönelik istemci tarafı kitaplığı.
+      url: /javascript/api/overview/powerbi/
+  - title: Diğer Microsoft güç platformu ürünleri
+    items:
+    - title: Power Apps
+      summary: Modernleştirin ve kuruluşunuzda zor iş zorluklarını çözerek düşük kod uygulamaları hızla oluşturun.
+      url: /powerapps/
+    - title: Power Automate
+      summary: Dosyaları senkronize etmek, bildirimler almak ve daha fazlası için sık kullandığınız uygulamalar ve hizmetler arasında otomatik iş akışları oluşturun.
+      url: /power-automate/
+    - title: Power Virtual Agents
+      summary: Veri bilimcileri veya geliştiricilere gerek olmadan Kılavuzlu, kod içermeyen bir grafik arabirimi kullanarak güçlü botlar oluşturun.
+      url: /power-virtual-agents/

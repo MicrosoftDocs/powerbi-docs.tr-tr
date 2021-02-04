@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8a09de5777332d69332cae6928022e7e99fe689e
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.openlocfilehash: 7907242c3ef71b1b621820cbb66bd93e88ff1c99
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99422295"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532717"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Power BI’da Microsoft Cloud App Security denetimlerini kullanma
 
@@ -63,7 +63,7 @@ Power BI için duyarlılık etiketlerini kullanma işlemiyle ilgili ayrıntılı
 
 ## <a name="custom-policies-to-alert-on-suspicious-user-activity-in-power-bi"></a>Power BI şüpheli Kullanıcı etkinliğine uyarı vermek için özel ilkeler
 
-Cloud App Security etkinlik ilkesi, yöneticilerin kendi özel kurallarını tanımlamasına olanak sağlar. Bu, norm göre farklılık gösteren Kullanıcı davranışının algılanmasına yardımcı olur ve hatta çok tehlikeli gibi görünse de otomatik olarak üzerinde işlem yapar. Örneğin:
+Cloud App Security etkinlik ilkeleri, yöneticilerin norm göre farklılık gösteren kullanıcı davranışlarını algılamaya yardımcı olmak için kendi özel kurallarını tanımlamasına olanak tanır. Örneğin:
 
 * **Çok büyük duyarlılık etiketi kaldırma.** Örneğin: duyarlılık etiketleri, bir zaman penceresinde 5 dakikadan kısa bir süre içinde tek bir kullanıcı tarafından kaldırıldığında beni uyar.
 

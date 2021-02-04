@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: dd0080f96117be949a7d4901f8445a509740b5b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f3bdf12106ffa15764719fe3146a1ed52adf5990
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413461"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532947"
 ---
 # <a name="optimizing-premium-capacities"></a>Premium kapasiteleri iyileştirme
 
@@ -30,6 +30,8 @@ Son olarak, yaklaşımlar ve Premium kapasite boyutlandırması test edilerek bu
 
 > [!NOTE]
 > Yakın zamanda Power BI Premium, şu anda önizleme aşamasında olan **Premium 2. Nesil** adlı yeni bir Premium sürümünü kullanıma sundu. Premium 2. Nesil, Premium kapasitelerinin yönetimini basitleştirecek ve yönetim yükünü azaltacak. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Power BI Embedded Gen2 geliştirmelerini gözden geçirmek için [Power BI Embedded 2. nesil](../developer/embedded/power-bi-embedded-generation-2.md)bölümüne bakın.
 
 Bu makaledeki öneriler ve en iyi deneyimler her veri kümesinin ve diğer Power BI yapılarının CPU kullanımının iyileştirilmesini sağlar.
 
