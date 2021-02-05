@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 11/23/2020
-ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/04/2021
+ms.openlocfilehash: 6a322d331dce9fd989a93545745cf7feb2d9eb70
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886799"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569980"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Hizmet sorumlusu ve uygulama gizli dizisiyle Power BI içeriği ekleme
 
@@ -243,7 +243,7 @@ Add-PowerBIWorkspaceUser -Id $pbiWorkspace.Id -AccessRight Member -PrincipalType
 * Power BI yönetim portalındaki geliştirici ayarlarında hizmet sorumlusunu etkinleştirmek için Power BI yönetici hakları gereklidir.
 * [Kuruluşunuz için eklenen](embed-sample-for-your-organization.md) uygulamalar hizmet sorumlusunu kullanamaz.
 * [Veri akışları](../../transform-model/dataflows/dataflows-introduction-self-service.md) yönetimi desteklenmez.
-* Hizmet sorumlusu şu anda yönetici API'lerini desteklemiyor.
+* Hizmet sorumlusu yalnızca bazı salt okunurdur yönetim API 'Lerini destekler. Salt okunurdur yönetici API 'Leri için hizmet sorumlusu desteğini etkinleştirmek üzere kiracınızda Power BI hizmeti yönetici ayarlarını etkinleştirmeniz gerekir. Daha fazla bilgi için bkz. [salt okuma yönetici API 'leri için hizmet sorumlusu kimlik doğrulamasını etkinleştirme](../../admin/read-only-apis-service-principal-authentication.md).
 * [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) veri kaynağıyla hizmet sorumlusu kullanırken, hizmet sorumlusunun kendisinin Azure Analysis Services örneği izinleri olmalıdır. Bu amaçla hizmet sorumlusu içeren bir güvenlik grubu kullanmak işe yaramaz.
 
 ## <a name="next-steps"></a>Sonraki adımlar

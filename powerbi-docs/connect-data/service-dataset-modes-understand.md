@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/01/2020
-ms.openlocfilehash: 5b4c32296c7121fa3d161461af7e86caba617ee1
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
-ms.translationtype: HT
+ms.openlocfilehash: 5f03a994085e139da714219ce2e9095bde3a35d6
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96501961"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99570049"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Power BI hizmetindeki veri kümesi modları
 
@@ -80,7 +80,7 @@ DirectQuery modellerinin çeşitli avantajları vardır:
 Öte yandan DirectQuery modellerinin bazı sınırlamaları vardır:
 
 - DAX formülleri yalnızca veri kaynağı tarafından anlaşılabilen yerel sorgulara dönüştürülebilecek işlevlerin kullanımıyla sınırlanmıştır. Hesaplanan tablolar desteklenmez.
-- Soru-Cevap ve Hızlı İçgörüler özellikleri desteklenmez
+- Hızlı İçgörüler özellikler desteklenmez
 
 Power BI hizmeti kaynağı açısından DirectQuery modelleri şunları gerektirir:
 

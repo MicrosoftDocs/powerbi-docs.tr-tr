@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 340f29394d0c6c83659d77f2545a4f76eef99a9a
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: a35b8e127c008f78cb9348704b9e049f9fa3b46f
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597655"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99570003"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Power BI'da DirectQuery kullanma hakkında
 
@@ -163,7 +163,6 @@ DirectQuery kullanılırken bu model zenginleştirmelerinin birçoğu yapılabil
 DirectQuery modelleri için neredeyse tüm raporlama özellikleri desteklenir. Bu nedenle, temel alınan kaynak uygun düzeyde performans sunduğu sürece aynı görselleştirme kümesi kullanılabilir. Bir rapor yayımlandıktan sonra Power BI hizmetinde sunulan özelliklerin bazılarında önemli sınırlamalar bulunur:
 
 * **Hızlı İçgörüler desteklenmez:** Power BI Hızlı İçgörüler ilgi çekici olabilecek içgörüleri keşfetmek için karmaşık bir algoritma kümesi uygulayarak veri kümenizin farklı alt kümelerinde arama yapar. Çok yüksek performanslı sorgular gerektiğinden bu özellik DirectQuery modundaki veri kümelerinde kullanılamaz.
-* **Soru-Cevap desteklenmez:** Power BI Soru-Cevap, kullanımı kolay, doğal dil özelliklerinden yararlanarak verilerinizi araştırmanızı ve grafikler ile graflar biçiminde cevaplar almanızı sağlar. Ancak bu özellik, DirectQuery kullanan veri kümelerinde şu anda desteklenmiyor.
 * **Excel'de İncele özelliğinin kullanılması performans düşüşüne yol açabilir:** Veri kümesinde “Excel'de İncele” özelliğini kullanarak verilerinizi inceleyebilirsiniz. Bu yaklaşım, Excel'de Özet Tabloların ve Özet Grafiklerin oluşturulmasını sağlar. DirectQuery kullanan veri kümelerinde bu özellik desteklense de, Power BI'da görsel oluşturmaya kıyasla performans genelde daha yavaş olur. Bu nedenle, senaryolarınız için Excel kullanımı önemliyse DirectQuery kullanıp kullanmayacağınıza karar verirken bu sınırlamayı göz önünde bulundurun.
 * **Metin sütunları için en fazla uzunluk:** DirectQuery kullanan veri kümelerindeki bir metin sütununda yer alan veriler için en fazla uzunluk 32.764 karakterdir. Daha uzun metinler üzerinde raporlama hatayla sonuçlanır.
 
