@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: b889e6947362de81098709d6c2ad2c819195113b
-  ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+  ms.openlocfilehash: cec16d29fc09ed578a7a976d5c54ce06aa44d91d
+  ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
   ms.translationtype: MT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 01/29/2021
-  ms.locfileid: "99043218"
+  ms.lasthandoff: 02/06/2021
+  ms.locfileid: "99616939"
 landingContent:
 - title: başlarken
   linkLists:
@@ -29,6 +29,10 @@ landingContent:
       url: azure-pbie-what-is-power-bi-embedded.md
     - text: Sık sorulan sorular
       url: embedded-faq.md
+  - linkListType: whats-new
+    links:
+    - text: Power BI Embedded 2. nesil (Önizleme)
+      url: power-bi-embedded-generation-2.md
   - linkListType: reference
     links:
     - text: Bir Gündeki Power BI Geliştiricisi kursu

@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
+ms.custom: subject-monitoring
 ms.date: 01/14/2021
-ms.openlocfilehash: fc6b9dd4d50d665211324d1b6c05e62468fc034d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 9c07e75736b3ccdb33bf76f79656a8982cddb6d8
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98690811"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99617031"
 ---
 # <a name="monitoring-power-bi-embedded-data-reference"></a>Power BI Embedded veri başvurusunu izleme
 
@@ -31,7 +32,7 @@ Bu bölümde, Power BI Embedded için toplanan otomatik olarak toplanan tüm pla
 
 Kaynak sağlayıcısı ve türü: [Microsoft. Powerbiadanmış/kapasiteler](/azure/azure-monitor/platform/metrics-supported#microsoftpowerbidedicatedcapacities)
 
-| Name | Metric | Birim | Açıklama |
+| Name | Metric | Birim | Description |
 |:---|:-------|:-----|:------------|
 |Bellek (Gen1) |memory_metric               |Bayt        |Bellek. A1 için 0-3 GB, a2 için 0-5 GB, a3 için 0-10 GB, A4 için 0-25 GB, A6 için GB ve A6 için 0-50 GB. Yalnızca Power BI Embedded nesil 1 kaynakları için desteklenir. |
 |Bellek kullanımı (veri kümeleri) (Gen1) |memory_thrashing_metric     |Yüzde      |Ortalama bellek miktarı. Yalnızca Power BI Embedded nesil 1 kaynakları için desteklenir. |

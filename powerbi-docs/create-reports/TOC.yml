@@ -312,6 +312,10 @@
               href: ../visuals/power-bi-visualization-scatter.md
             - name: Yüksek yoğunluklu dağılım grafiklerini kullanma
               href: ../visuals/desktop-high-density-scatter-charts.md
+            - name: Küçük katlar oluştur (Önizleme)
+              href: ../visuals/power-bi-visualization-small-multiples.md
+            - name: Küçük katlarla etkileşim kurma (Önizleme)
+              href: ../visuals/power-bi-visualization-small-multiples-interact.md
             - name: Şekil Haritası görselleri (önizleme)
               href: ../visuals/desktop-shape-map.md
             - name: Akıllı açıklamalar

@@ -10,12 +10,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 06/26/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 07b16bb90b548f071472f9f7d22095ccdff78f56
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: d3a30098b793ccb75cbae6c271ab1685b3176a10
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401731"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99616985"
 ---
 # <a name="create-visuals-by-using-python-packages-in-the-power-bi-service"></a>Power BI hizmetinde Python paketlerini kullanarak görsel oluşturma
 Power BI hizmetinde görseller oluşturmak için güçlü [Python programlama dilini](https://www.python.org/) kullanabilirsiniz. Birçok Python paketi Power BI hizmetinde, çok daha fazlası ise sürekli desteklenir.

@@ -1,21 +1,22 @@
 ---
-title: İzleyici Power BI Embedded
+title: Power BI Embedded izleme
 description: Power BI Embedded nasıl izleneceğini öğrenmek için Buradan başlayın.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
+ms.custom: subject-monitoring
 ms.topic: how-to
 ms.date: 01/14/2021
-ms.openlocfilehash: 1b8ebbd7913bc5763f9f4dd8576fbc4783e8d531
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 5cea43f4be9a3fee7c2fb0f99ef0acef99bb8364
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98690797"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99617008"
 ---
-# <a name="monitor-power-bi-embedded"></a>İzleyici Power BI Embedded
+# <a name="monitor-power-bi-embedded"></a>Power BI Embedded izleme
 
 Azure kaynaklarına bağlı kritik Uygulamalarınız ve iş süreçleriniz olduğunda, bu kaynakları kullanılabilirlik, performans ve işlem için izlemek istersiniz. Bu makalede, Power BI Embedded tarafından oluşturulan izleme verileri ve bu verileri çözümlemek ve uyarmak için Azure Izleyici 'nin özelliklerini nasıl kullanabileceğiniz açıklanmaktadır.
 
