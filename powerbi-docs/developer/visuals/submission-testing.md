@@ -1,21 +1,21 @@
 ---
-title: Daha iyi tümleşik BI içgörüleri için Power BI tümleşik analizlerindeki Power BI görsellerinin gönderim testleri
-description: Bu makalede, AppSource’ta yayımlanmadan önce görselinizin geçmesi gereken test çalışmaları açıklanır. İsteğe bağlı test çalışmaları da vardır. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
+title: Bir Power BI görselinin gönderim testi
+description: Bu makalede, AppSource’ta yayımlanmadan önce görselinizin geçmesi gereken test çalışmaları açıklanır. İsteğe bağlı test çalışmaları da vardır.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 04/15/2020
-ms.openlocfilehash: b5054d821dc797f1606fea8ec5d0bb43569a57e5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: 391282b7868ba24b14c0859d431e6868b3fcbc2d
+ms.sourcegitcommit: 7e0cc3b1ed9cf38da134ef7221648cb758ceea98
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888478"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100100845"
 ---
-# <a name="submission-testing-of-a-power-bi-visual"></a>Bir Power BI görselinin gönderim testi
+# <a name="testing-a-power-bi-visual-before-submission"></a>Göndermeden önce Power BI görselini test etme
 
 Görselinizin [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)’da yayımlanmadan önce bu makalede listelenen testleri geçmesi gerekir. Göndermeden önce görselinizi test edin. Görseliniz gerekli test çalışmalarını geçemezse reddedilir.
 
@@ -23,7 +23,13 @@ Yayımlama süreci hakkında daha fazla bilgi için bkz. [Power BI görsellerini
 
 ## <a name="testing-a-new-version-of-a-published-visual"></a>Yayımlanmış bir görselin yeni sürümünü test etme
 
-Önceden yayımlanmış bir görselin yeni sürümünü test ediyor veya hata ayıklama çalışması yapıyorsanız Power BI Desktop'ta Geliştirici modunu etkinleştirerek yerel dosya sürümüyle AppSource sürümünü geçersiz kılabilirsiniz.
+Power BI, görseli yerel bir dosyadan içeri aktarsanız bile, varsayılan olarak, AppSource 'tan Visual 'in yayımlanan en son sürümünü yükler.
+
+Zaten yayımlanmış bir görselin yeni bir sürümünü test ediyorsanız veya hata ayıklarken, Power BI Desktop veya Power BI hizmeti Geliştirici modunu etkinleştirerek AppSource sürümünü yerel bir dosya sürümüyle geçersiz kılabilirsiniz.
+
+### <a name="enable-developer-mode-in-power-bi-desktop"></a>Power BI Desktop Geliştirici modunu etkinleştirme
+
+Power BI Desktop'ta Geliştirici modu yalnızca bir oturum için geçerlidir. Test için yeni bir Power BI Desktop örneği açarsanız Geliştirici modunu yeniden etkinleştirmeniz gerekir.
 
 Geliştirici modunu etkinleştirmek için şu adımları izleyin:
 
@@ -37,8 +43,11 @@ Geliştirici modunu etkinleştirmek için şu adımları izleyin:
 
 5. Geliştirici Modu bölümünde **Bu oturum için geliştirici modunu aç**'ı seçin.
 
->[!NOTE]
->Power BI Desktop'ta Geliştirici modu yalnızca bir oturum için geçerlidir. Test için yeni bir Power BI Desktop örneği açarsanız Geliştirici modunu yeniden etkinleştirmeniz gerekir.
+### <a name="enable-developer-mode-in-power-bi-service"></a>Power BI hizmeti Geliştirici modunu etkinleştirme
+
+Power BI hizmeti, geliştirici modu kullanıcı hesabı başına tutulur. Her kullanıcı paketi yerel dosyadan her yüklediğinde Power BI, görselin AppSource sürümünü yoksayar.
+
+Power BI hizmeti Geliştirici modunu etkinleştirmek için, [görsel geliştirme için Power BI hizmeti ayarlama](environment-setup.md#set-up-power-bi-service-for-developing-a-visual)bölümündeki yönergeleri izleyin.
 
 ## <a name="general-test-cases"></a>Genel test çalışmaları
 

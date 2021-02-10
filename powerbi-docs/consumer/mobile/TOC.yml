@@ -72,6 +72,8 @@
               href: mobile-apps-scan-barcode-iphone.md
             - name: Etkileşim ayarlarını yapılandırma
               href: mobile-app-interaction-settings.md
+            - name: Bölünmüş ekran modu
+              href: mobile-apps-split-screen.md
             - name: Koyu mod
               href: mobile-apps-dark-mode.md
             - name: Mobil cihaz yönetimini kullanarak yapılandırma
