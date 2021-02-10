@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 02/10/2021
-ms.openlocfilehash: 83c7a778b6c799bd759443e7601e1f624ed5f9e5
-ms.sourcegitcommit: 5c943a05071efb69a17ca4c501c6b89f2f351f1a
+ms.openlocfilehash: fbd43600e67e4ac544df65bba6d9d2072293132d
+ms.sourcegitcommit: 7e0cc3b1ed9cf38da134ef7221648cb758ceea98
 ms.translationtype: MT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 02/10/2021
-ms.locfileid: "100089503"
+ms.locfileid: "100100868"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI mobil uygulamalarındaki yenilikler
 İlgili "Yenilikler" bilgileri için aşağıdaki sayfalara bakın:
@@ -26,7 +26,7 @@ ms.locfileid: "100089503"
 >**Windows 10 Mobile kullanan telefonlar** için Power BI mobil uygulama desteği, 16 Mart 2021’de sona erecektir. [Daha fazla bilgi](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="february-2021"></a>Şubat 2021
-### <a name="support-for-power-bi-in-split-screens-android-tablets-only"></a>Bölünmüş ekranlarda Power BI için destek (yalnızca Android tabletler)
+### <a name="support-for-power-bi-in-split-screens-android-tablets"></a>Bölünmüş ekranlarda Power BI için destek (Android tabletler)
 
 Android tabletinizde birden çok pencere desteği varsa, bölünmüş ekran modunu kullanarak başka bir uygulamayla verileri yan yana görüntüleyebilir ve bunlarla etkileşim kurabilirsiniz. [Daha fazla bilgi edinin!](mobile-apps-split-screen.md)
 
