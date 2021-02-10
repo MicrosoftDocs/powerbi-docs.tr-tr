@@ -257,6 +257,8 @@
           items:
             - name: Uygulamalarla hizmetlere bağlanma
               href: service-connect-to-services.md
+            - name: Popüler stokları Power BI analiz edin
+              href: service-connect-to-analyze-stocks.md
             - name: COVID-19 ABD İzleme Raporu
               href: service-connect-to-covid-19-tracking.md
             - name: Kriz İletişimi Durum Raporu

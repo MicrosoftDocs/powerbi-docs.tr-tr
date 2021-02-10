@@ -1,20 +1,20 @@
 ---
 title: Daha iyi iş zekası içgörüleri için, Power BI ekli analiz sayfalandırılmış raporları API’sini dışarı aktarın
-description: Eklenmiş bir Power BI sayfalandırılmış raporunu dışarı aktarmayı öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
+description: Eklenmiş bir Power BI sayfalandırılmış raporunu dışarı aktarmayı öğrenin.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 04/05/2020
-ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
-ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.date: 02/09/2021
+ms.openlocfilehash: 9757b19e4faf4537cf4ff3c1e6f06dc9d499bc8c
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98781515"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013602"
 ---
-# <a name="export-paginated-report-to-file-preview"></a>Sayfalandırılmış raporu dosyaya aktarma (önizleme)
+# <a name="export-paginated-report-to-file"></a>Sayfalandırılmış raporu dosyaya aktarma
 
 `exportToFile` API’si, REST çağrısı kullanarak Power BI sayfalandırılmış raporunu dışarı aktarmaya olanak tanır. Şu dosya biçimleri desteklenir:
 * **.pptx** (PowerPoint)

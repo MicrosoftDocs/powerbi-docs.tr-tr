@@ -1,18 +1,18 @@
 ---
-title: Daha iyi iş zekası içgörüleri için, Power BI ekli analiz raporları API’sini dışarı aktarın
-description: Power BI ekli analizi ekli BI deneyimini iyileştirmek için bir ekli Power BI raporunu dışarı aktarmayı öğrenin. Power BI tümleşik analiz kullanarak daha iyi tümleşik BI içgörüleri elde edin.
+title: Power BI ekli analizi raporlarını dışarı aktarma API'si
+description: Katıştırılmış Power BI raporunu dışarı aktarmayı öğrenin.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 02/01/2021
-ms.openlocfilehash: 64a9472960195c8d4f91013a778bb61cdf029ab4
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.date: 02/09/2021
+ms.openlocfilehash: 68d4802ebb150827982a348bc67f6f46f60812be
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99422364"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013579"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI raporunu dosyaya aktarma (önizleme)
 

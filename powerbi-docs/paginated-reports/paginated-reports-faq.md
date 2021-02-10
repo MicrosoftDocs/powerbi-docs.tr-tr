@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/19/2020
-ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: d8460fe1a3eb199848f47181837225f1e540bb08
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297888"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013648"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -28,6 +28,13 @@ Bu makalede Power BI Premium'daki sayfalandırılmış raporlar hakkında ve say
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Sayfalandırılmış raporlar için hangi boyutta Premium kapasite gerekiyor?
 
 Sayfalandırılmış raporlar iş yükü P1 – P3 SKU'larında sağlanır.  Ayrıca A4 – A6 SKU'larıyla ekleme ve test/geliştirme senaryoları için kullanabilirsiniz.
+
+> [!NOTE]
+> Power BI son zamanlarda, şu anda önizleme aşamasında olan **Premium Gen2** adlı Premium 'un yeni bir sürümünü kullanıma sundu. **Premium Gen2**'te sayfalandırılmış raporlar Iş yükü P1-P3 SKU 'Ları ve a1-a6 SKU 'larında mevcuttur. 
+>
+>Premium Gen2, Premium kapasitelerinin yönetimini basitleştirir ve yönetim yükünü azaltır. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](../admin/service-premium-what-is.md#power-bi-premium-generation-2-preview).
+>
+>Power BI Embedded Gen2 geliştirmelerini gözden geçirmek için [Power BI Embedded 2. nesil](../developer/embedded/power-bi-embedded-generation-2.md)bölümüne bakın.
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>Kapasiteme sayfalandırılmış raporlar için ekleyebileceğim bellek eşiği üst sınırı nedir?
 
@@ -74,13 +81,16 @@ Hata iletisi alırsınız ve iş yükü yeniden açılana kadar raporunuzu gör�
 
 Sayfalandırılmış raporlar için her Premium SKU'daki varsayılan bellek:
 
-- **P1/A4** : %20 varsayılan; %10 en küçük
-- **P2/A5** : %20 varsayılan; %5 en küçük
-- **P3/A6** : %20 varsayılan; %2,5 en küçük
+- **P1/A4**: %20 varsayılan; %10 en küçük
+- **P2/A5**: %20 varsayılan; %5 en küçük
+- **P3/A6**: %20 varsayılan; %2,5 en küçük
 
 Power BI yöneticileri en fazla bellek yüzdesini Yönetici portalından değiştirebilir. **Kapasite ayarları** sekmesindeki **Power BI Premium** seçeneğinde yer alan **Sayfalandırılmış Raporlar** iş yükü bölümüne bakın.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Sayfalandırılmış raporlar bölümündeki kapasite ayarları sekmesi":::
+
+> [!NOTE]
+> Şu anda önizleme aşamasında olan **Premium Gen2** bellek ayarlarını değiştirmenizi gerektirmez. Temeldeki sistem, Premium Gen2 'daki belleği otomatik olarak yönetir. Sayfalandırılmış raporlar iş yükü, **Premium Gen2**'teki P1-P3 SKU 'Ları ve a1-a6 SKU 'larında mevcuttur.
 
 ## <a name="general"></a>Genel
 
