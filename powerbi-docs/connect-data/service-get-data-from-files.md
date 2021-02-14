@@ -10,12 +10,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7807968bad989895fa60df122c0e31ba4b823aa2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 2ed532986dd31e97e535f27d70c9f5cfd8c66fd5
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410172"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489889"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>Power BI için dosyalardan veri alma
 ![Excel, Power BI Desktop, ve CSV simgesi](media/service-get-data-from-files/file_icons.png)
@@ -43,7 +43,7 @@ Hatta bunu bir adım daha ileri taşıyabiliriz. Otomobilin yakıt deposu yakıt
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>Dosyanızı nereye kaydettiğiniz önemlidir
 **Yerel**: Yerel dosyanızı bilgisayarınızdaki bir yerel sürücüye veya kuruluşunuzdaki bir konuma kaydederseniz Power BI'ı kullanarak dosyanızı Power BI'a *aktarabilirsiniz*. Dosyanız gerçekte yerel sürücünüzde kalır. Böylece, dosyanın tamamı Power BI'a aktarılmamış olur. Burada gerçekleştirilen asıl işlem, Power BI sitenizde yeni bir veri kümesinin oluşturulması ve verilerin (bazı durumlarda ise veri modelinin) bu veri kümesine yüklenmesidir. Dosyanız rapor içeriyorsa bu raporlar, Power BI sitenizdeki Raporlar bölümü altında görünür.
 
-**OneDrive - İş**: OneDrive İş hesabınız varsa ve hem OneDrive İş'te hem de Power BI'da aynı hesabı kullanarak oturum açıyorsanız bu; Excel, Power BI Desktop veya .CSV dosyalarındaki çalışmalarınızı Power BI'daki veri kümeniz, raporlarınız ve panolarınızla eşitlenmiş halde tutmanın açık ara en etkili yoludur. Hem Power BI hem de OneDrive bulutta olduğundan Power BI, OneDrive'daki dosyanıza hemen hemen her saatte bir bağlanır. Herhangi bir değişiklik bulunması durumunda veri kümeniz, raporlarınız ve panolarınız Power BI'da da otomatik olarak güncelleştirilir.
+**OneDrive-iş** : OneDrive iş 'e sahipseniz ve Power BI oturum açmak için kullandığınız hesapla oturum açarsanız, bu, işinizi Excel, Power BI Desktop veya a 'da tutmanın en etkili yoludur. CSV dosyası ve veri kümeniz, raporlarınız ve panolarınız Power BI eşitleme sırasında. Hem Power BI hem de OneDrive bulutta olduğundan, Power BI OneDrive 'daki dosyanıza her saatte bağlanır. Herhangi bir değişiklik bulunması durumunda veri kümeniz, raporlarınız ve panolarınız Power BI'da da otomatik olarak güncelleştirilir.
 
 **OneDrive - Bireysel**: Dosyalarınızı kendi OneDrive hesabınıza kaydederseniz OneDrive İş ile ilgili olarak elde ettiğiniz avantajların pek çoğundan yararlanırsınız. En büyük fark şudur: Dosyanıza ilk kez bağlanırken (Veri Al > Dosyalar > OneDrive – Bireysel adımlarını kullanarak) OneDrive oturumunuzu Microsoft hesabınızla açmanız gerekir. Bu hesap genellikle, Power BI'da oturum açarken kullandığınızdan farklı bir hesaptır. OneDrive'da Microsoft hesabınız ile oturum açarken Oturumumu açık bırak seçeneğini belirlediğinizden emin olun. Bu şekilde Power BI, yaklaşık olarak her saatte bir dosyanıza bağlanabilir ve Power BI'daki veri kümenizin eşitlenmiş durumda kalmasını sağlayabilir.
 

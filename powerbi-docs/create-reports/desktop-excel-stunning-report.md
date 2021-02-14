@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 10/13/2020
+ms.date: 02/10/2021
 LocalizationGroup: Data from files
-ms.openlocfilehash: b984c0f6ebee6cdcc9982956701f3a112be74ab7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: cf63c16822e04e160da2765ae0be20bd707e89da
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413208"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489980"
 ---
 # <a name="tutorial-from-excel-workbook-to-stunning-report-in-power-bi-desktop"></a>Öğretici: Power BI Desktop'ta Excel çalışma kitabından muhteşem raporlar elde etme
 
@@ -120,7 +120,9 @@ Bu öğreticiye Power BI Desktop'tan ulaştıysanız **Verileri yükleyin**'i se
 
 1. 1 Ocak 2013 ile 31 Aralık 2014 arasındaki tüm verilerin Calendar (Takvim) tablosunu oluşturmak için bu ölçüyü yazın.  
 
-    `Calendar = CALENDAR(DATE(2013,01,01),Date(2014,12,31))` 
+    ```dax
+    Calendar = CALENDAR(DATE(2013,01,01),Date(2014,12,31))    
+    ```
 
 2. İşlemek için onay işaretini seçin.
 
@@ -207,9 +209,23 @@ Hangi şirketlere ve segmentlere yatırım yapılacağını saptamak için bir �
 
 ### <a name="visual-5-year-slicer"></a>Görsel 5: Yıl dilimleyicisi 
 
-Dilimleyiciler, rapor sayfasındaki görselleri belirli bir seçime göre filtrelemeye yönelik değerli bir araçtır. Bu örnekte her ayın veya yılın performansı gösterilecek şekilde görseli daraltan bir dilimleyici oluşturabilirsiniz.  
+Dilimleyiciler, rapor sayfasındaki görselleri belirli bir seçime göre filtrelemeye yönelik değerli bir araçtır. Bu durumda, her ay ve yılda performansı daraltmak için iki farklı dilimleyici oluşturarız. Bir dilimleyici özgün tablodaki tarih alanını kullanır. Diğeri, bu öğreticide daha önce ["ek kredi" için oluşturduğunuz Tarih tablosunu](#extra-credit-write-a-measure-in-dax) kullanır.
 
-1. Alanlar bölmesinde **Date** alanını seçin ve tuvalin sol tarafındaki boş alana sürükleyin. 
+
+**Özgün tabloyu kullanarak tarih dilimleyicisi**
+
+1. Alanlar bölmesinde, mali tablodaki **Tarih** alanını seçin. Tuvali tuvalin solundaki boş alana sürükleyin. 
+2. Görselleştirmeler bölmesinde **Dilimleyici**'yi seçin. 
+
+    Power BI otomatik olarak bir sayısal Aralık dilimleyicisi oluşturur. 
+
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-numeric-range.png" alt-text="Tarih sayısal Aralık Dilimleyicinin ekran görüntüsü.":::
+
+1. Filtreleri filtrelemek veya sağ üst köşedeki oku seçmek ve farklı bir dilimleyici türü olarak değiştirmek için uçları sürükleyebilirsiniz.
+
+**DAX tablosunu kullanarak tarih dilimleyicisi**
+
+1. Alanlar bölmesinde, takvim tablosundaki **Tarih** alanını seçin. Tuvali tuvalin solundaki boş alana sürükleyin. 
 2. Görselleştirmeler bölmesinde **Dilimleyici**'yi seçin. 
 3. Görselleştirmeler bölmesinin Alanlar bölmesinde, **Alanlar**'daki açılan listeyi seçin. Yalnızca Year (Yıl) ve Month (Ay) kalacak şeklide Quarter (Çeyrek) ve Day (Gün) öğelerini kaldırın. 
 
@@ -219,7 +235,9 @@ Dilimleyiciler, rapor sayfasındaki görselleri belirli bir seçime göre filtre
 
     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="Tarih hiyerarşisi dilimleyicisinin ekran görüntüsü.":::
 
-Artık yöneticiniz yalnızca 2013 verilerini görmek isterse dilimleyiciyi kullanarak yıllar arasında veya her yılın belirli aylarına geçiş yapabilirsiniz. 
+    Bu, tamamlanan raporda kullanacağımız dilimleyiciye.
+
+Artık yöneticiniz yalnızca 2013 veri görmeyi isterse, bir Dilimleyiciyi yıl veya her yıl belirli bir ay seçmek için kullanabilirsiniz.
 
 ### <a name="extra-credit-format-the-report"></a>Ek çalışma: Raporu biçimlendirme
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/09/2021
-ms.openlocfilehash: d8460fe1a3eb199848f47181837225f1e540bb08
-ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
+ms.openlocfilehash: 788f6cbd840b2c260b00033e27d39f56ed7ce964
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "100013648"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489843"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI’daki sayfalandırılmış raporlar: SSS 
 
@@ -30,7 +30,7 @@ Bu makalede Power BI Premium'daki sayfalandırılmış raporlar hakkında ve say
 Sayfalandırılmış raporlar iş yükü P1 – P3 SKU'larında sağlanır.  Ayrıca A4 – A6 SKU'larıyla ekleme ve test/geliştirme senaryoları için kullanabilirsiniz.
 
 > [!NOTE]
-> Power BI son zamanlarda, şu anda önizleme aşamasında olan **Premium Gen2** adlı Premium 'un yeni bir sürümünü kullanıma sundu. **Premium Gen2**'te sayfalandırılmış raporlar Iş yükü P1-P3 SKU 'Ları ve a1-a6 SKU 'larında mevcuttur. 
+> Power BI son zamanlarda, şu anda önizleme aşamasında olan **Premium Gen2** adlı Premium 'un yeni bir sürümünü kullanıma sundu. **Premium Gen2**'de, sayfalandırılmış raporlar Iş yükü EM1-EM3 SKU 'Ları, P1-P3 SKU 'Ları ve a1-a6 SKU 'larında kullanılabilir.  Ayrıca, Premium Gen2 ve ayrıca genel önizlemede oluşturulan kullanıcı başına Premium ile Kullanıcı başına kullanılabilir. 
 >
 >Premium Gen2, Premium kapasitelerinin yönetimini basitleştirir ve yönetim yükünü azaltır. Daha fazla bilgi için bkz. [Power BI Premium 2. Nesil (önizleme)](../admin/service-premium-what-is.md#power-bi-premium-generation-2-preview).
 >

@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: a44bd7837e7605fd23e49a91e3e9eba106d5a933
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 9a652531b90d65df985c0698d3fade7927a1907b
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565765"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490073"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Öğretici: Azure işlevi kullanarak şablon uygulaması yükleme yapılandırmasını otomatikleştirme
 
@@ -62,6 +62,7 @@ Aşağıdaki temel akışta, müşteri, portalınızdaki bağlantıyı seçerek 
 * Kendi Azure Active Directory (Azure AD) kiracınızın ayarlanması. Kurulum yönergeleri için bkz. [Azure AD kiracısı oluşturma](../embedded/create-an-azure-active-directory-tenant.md).
 * Önceki kiracıya kayıtlı bir [hizmet sorumlusu (yalnızca uygulama için belirteç)](../embedded/embed-service-principal.md).
 * Yüklenmeye hazır bir parametreli [şablon uygulaması](../../connect-data/service-template-apps-overview.md). Şablon uygulaması, uygulamanızı Azure AD'ye kaydettiğiniz kiracıda oluşturulmalıdır. Daha fazla bilgi için bkz. [Şablon uygulaması ipuçları](../../connect-data/service-template-apps-tips.md) veya [Power BI'da şablon uygulaması oluşturma](../../connect-data/service-template-apps-create.md).
+* Otomasyon iş akışınızı test etmek için, hizmet sorumlusunu şablon uygulama çalışma alanına yönetici olarak ekleyin.
 * Power BI Pro lisansı. Power BI Pro’ya kaydolmadıysanız, başlamadan önce [ücretsiz deneme için kaydolun](https://powerbi.microsoft.com/pricing/).
 
 ## <a name="set-up-your-template-apps-automation-development-environment"></a>Şablon uygulaması otomasyonu geliştirme ortamını ayarlama
@@ -77,6 +78,8 @@ Uygulamayı **sunucu tarafı web uygulaması** olarak kaydettiğinizden emin olu
 Daha sonraki adımlar için *uygulama kimliği* (ClientID) ve *uygulama gizli dizisi* (ClientSecret) değerlerini saklayın.
 
 Uygulama kaydı oluşturmaya hemen başlamak için [Ekleme kurulum aracını](https://aka.ms/embedsetup/AppOwnsData) inceleyebilirsiniz. [Power BI Uygulama Kayıt Aracı](https://app.powerbi.com/embedsetup)'nı kullanıyorsanız **Müşterileriniz için ekleme** seçeneğini belirleyin.
+
+Otomasyon iş akışınızı sınayabilmeniz için hizmet sorumlusunu şablon uygulama çalışma alanına yönetici olarak ekleyin.
 
 ## <a name="template-app-preparation"></a>Şablon uygulamasını hazırlama
 

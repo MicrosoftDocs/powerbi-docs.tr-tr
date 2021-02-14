@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.date: 11/11/2020
-ms.openlocfilehash: 3787f1cb61262f9f1fa64e04487c7d6395b4e549
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: f502649c08a71dc1cc602f0f69f4134a10a5a879
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417647"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489912"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Dağıtım işlem hatlarıyla ilgili sorunları giderme
 
@@ -146,6 +146,10 @@ Geriye dönük dağıtımı yalnızca boş bir aşamaya yapabilirsiniz. Test aş
 
 >[!NOTE]
 >Geriye doğru dağıtım yalnızca [tam dağıtımı](deployment-pipelines-get-started.md#deploying-all-content) destekler. [Seçmeli dağıtımı](deployment-pipelines-get-started.md#selective-deployment) desteklemez.
+
+### <a name="why-do-i-need-to-deploy-after-configuring-dataset-rules"></a>Veri kümesi kurallarını yapılandırdıktan sonra neden dağıtım yapmam gerekir?
+
+Veri kümesi kuralları yapılandırıldıktan hemen sonra uygulanmaz. Veri kümesi kurallarını uygulamak için, veri kümelerini kaynak aşamasından oluşturulan veri kümesi kurallarını içeren hedef aşamasına dağıtmanız gerekir. Veri kümesi kurallarını yapılandırdıktan sonra ve dağıtmadan önce, yapılandırılan kurallara sahip veri kümesinin yanında *farklı* bir gösterge gösterilir. Bu veri kümesini kaynak aşamasından hedef aşamasına dağıtmanız gerektiğini gösterir. Dağıtım yaptıktan sonra, başka bir değişiklik yapılmıyorlarsa, kuralların başarıyla uygulandığını belirten *farklı* gösterge kaybolur.
 
 ### <a name="does-deployment-pipelines-support-multi-geo"></a>Dağıtım işlem hatları çoklu coğrafi bölgeyi destekler mi?
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 02/10/2020
-ms.openlocfilehash: da06c02620272deb0648e0706f73d92540385e3b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 4963b60fb7560bb52bd05f0c3b4abc55bb78e966
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388828"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490050"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>iOS cihazlarında Power BI mobil uygulaması ile çalışmaya başlama
 iPhone ve iPad'deki iOS için Microsoft Power BI; Power BI, Power BI Rapor Sunucusu ve Reporting Services için mobil BI deneyimi sunar. Nerede olursanız olun, gerçek zamanlı ve dokunmatik kullanıma uygun mobil erişimle şirket içindeki ve buluttaki şirket panolarınızı görüntüleyin ve bunlarla etkileşime geçin. Panolardaki verileri araştırın ve e-posta veya kısa mesaj yoluyla iş arkadaşlarınızla paylaşın. Üstelik [Apple Watch](mobile-apple-watch.md)'unuzda en güncel verilerinize erişerek her şeyden haberdar olun.  
@@ -32,7 +32,7 @@ Daha sonra iOS için Power BI mobil uygulamasında, şirket içinde veya bulutta
 ## <a name="download-the-app"></a>Uygulamayı indirme
 Apple App Store'a giderek iPhone ve iPad'inize [iOS uygulamasını indirin](https://go.microsoft.com/fwlink/?LinkId=522062 "iOS uygulamasını indir").
 
-iOS için Power BI mobil uygulamasını, iOS 11 veya sonraki bir sürümü çalıştıran herhangi bir cihazda çalıştırabilirsiniz. 
+İOS için Power BI Mobile App 'i iOS 12,2 veya üstünü çalıştıran herhangi bir cihazda çalıştırabilirsiniz. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Power BI hizmetine kaydolma
 Henüz kaydolmadıysanız, [powerbi.com](https://powerbi.microsoft.com/get-started/) adresine gidip **Power BI - Bulut işbirliği ve paylaşımı** bölümünde **Ücretsiz olarak deneyin**’i seçin.

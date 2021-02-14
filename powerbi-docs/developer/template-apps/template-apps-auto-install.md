@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 2ecb47513ada6ab2f4b81d5e26a1ca41717b7676
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565735"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490027"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Şablon uygulaması yüklemesini otomatik yapılandırma
 
@@ -61,6 +61,7 @@ Bu makalede şablon uygulaması yükleme yapılandırmasını otomatikleştirmey
 * Yüklenmeye hazır bir **parametreli şablon uygulaması**. Şablon uygulaması, uygulamanızı Azure AD'ye kaydettiğiniz kiracıda oluşturulmalıdır. Daha fazla bilgi için bkz. [Şablon uygulaması ipuçları](../../connect-data/service-template-apps-tips.md) veya [Power BI'da şablon uygulaması oluşturma](../../connect-data/service-template-apps-create.md). Şablon uygulamasıyla ilgili aşağıdaki bilgileri sonraki adımlar için kaydetmeniz gerekir:
      * Uygulama oluşturulduğunda, [şablon uygulamasının özelliklerini tanımlama](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) sürecinin sonunda yükleme URL'sinde görünen *Uygulama Kimliği*, *Paket Anahtarı* ve *Sahip Kimliği* bilgileri. Bu bağlantıya, şablon uygulamasının [Sürüm Yönetimi](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) bölmesinden **Bağlantı al**'ı seçerek de ulaşabilirsiniz.
     * Şablon uygulamasının veri kümesinde tanımlı *Parametre adları*. Büyük/küçük harfe duyarlı olan parametre adlarını [şablon uygulamasının özelliklerini tanımlarken](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) **Parametre Ayarları** sekmesinden veya Power BI veri kümesi ayarları sayfasından da alabilirsiniz.
+* Otomasyon iş akışınızı test etmek için, hizmet sorumlusunu şablon uygulama çalışma alanına yönetici olarak ekleyin.
 
     >[!NOTE]
     >AppSource üzerinde genel kullanıma sunulmuş olmasa dahi, yükleme için hazır olan şablon uygulamanızın önceden yapılandırılmış yükleme uygulamasını test edebilirsiniz. Kiracınızın dışındaki kullanıcıların şablon uygulamanızı yüklemek amacıyla otomatik yükleme uygulamasını kullanabilmesi için şablon uygulamanızın [Power BI uygulama marketinde](https://app.powerbi.com/getdata/services) genel kullanıma sunulmuş olması gerekir. Bu nedenle şablon uygulamanızı, oluşturmakta olduğunuz otomatik yükleme uygulamasını kullanarak dağıtmadan önce [İş Ortağı Merkezi](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)'nde yayımlamayı unutmayın.

@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: pbi-deployment
 ms.custom: contperf-fy21q1
-ms.date: 11/11/2020
-ms.openlocfilehash: 9d0c10b80aeb1bf4745bb8a646933bcfea9bafc6
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: 53e6e7401caff5b4334af67f5de54a3669214851
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621223"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490004"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>Dağıtım işlem hatlarını kullanmaya başlama
 
@@ -143,6 +143,8 @@ Veri kümesi kuralları, her bir veri kümesindeki veri kaynakları ve parametre
 
 ### <a name="create-a-dataset-rule"></a>Veri kümesi kuralı oluşturma
 
+Bir veri kümesi kuralı oluşturmak için bu bölümdeki adımları izleyin. İhtiyacınız olan tüm veri kümesi kurallarını oluşturduktan sonra, veri kümelerini kaynak aşamadaki yeni oluşturulan kurallarla kuralların oluşturulduğu hedef aşamasına dağıtın. Veri kümelerini kaynaktan hedef aşamasına dağıtana kadar kurallarınız uygulanmaz.
+
 1. Veri kümesi kuralı oluşturmak istediğiniz işlem hattı aşamasında **Dağıtım ayarları**’nı seçin.
 
     ![Dağıtım işlem hattı aşamalarının her birinde sağ üstte bulunan dağıtım ayarları düğmesinin ekran görüntüsü.](media/deployment-pipelines-get-started/deployment-settings.png)
@@ -222,6 +224,8 @@ Ardışık iki aşamada içerik bulunduğunda bu içerik, içerik öğeleri meta
 * **Yeni**: Kaynak aşamadaki yeni bir öğe. Bu, hedef aşamada bulunmayan bir öğedir. Dağıtımdan sonra bu öğe hedef aşamaya kopyalanır.
 
 * **Farklı**: Hem kaynak hem de hedef aşamada yer alan, ancak son dağıtımdan sonra bu iki sürümden birinin değiştirildiği öğedir. Dağıtımdan sonra, değişikliğin nerede gerçekleştiği fark etmeksizin kaynak aşamadaki öğe hedef aşamadaki öğenin üzerine yazılır.
+
+    Yapılandırılmış veri kümesi kuralları olan veri kümeleri aynı zamanda *farklı* olarak işaretlenir. Bunun nedeni, veri kümeleri kaynak aşamasından yapılandırılmış kuralları içeren hedef aşamasına dağıtılana kadar veri kümesi kurallarının uygulanmamasından kaynaklanır.
 
 * **Şurada eksik**: Bu etiket, bir öğenin hedef aşamada olduğunu ancak kaynak aşamada olmadığını gösterir.
 
