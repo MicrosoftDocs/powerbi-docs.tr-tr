@@ -1,30 +1,30 @@
 ---
-title: Power BI raporlarındaki filtreleri tasarlama
-description: Rapor filtresi tasarımı ve işlevleri üzerinde çok fazla denetiminiz vardır.
+title: Power BI raporlarında biçim filtreleri
+description: Rapor filtresi biçimi, tasarımı ve işlevleri üzerinde çok fazla denetiminiz vardır.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 02/08/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 2ddefcfa7a9381cf6d45466d5115045ea4274a16
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 6b509576a3fe76e3565f9c0c354155957d7ad069
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415186"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531666"
 ---
-# <a name="design-filters-in-power-bi-reports"></a>Power BI raporlarındaki filtreleri tasarlama
+# <a name="format-filters-in-power-bi-reports"></a>Power BI raporlarında biçim filtreleri
 
 [!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-Yeni filtre deneyimiyle rapor filtresi tasarımı ve işlevleri üzerinde çok fazla denetiminiz vardır. Filtreler bölmesini raporun kalan kısmına benzeyecek şekilde biçimlendirebilirsiniz. Filtreleri kilitleyebilir, hatta gizleyebilirsiniz. Raporunuzu tasarlarken Görselleştirmeler bölmesinde artık eski Filtreler bölmesini görmeniz gerekmez. Tüm filtre düzenleme ve biçimlendirme işlemlerini tek bir Filtreler bölmesinde gerçekleştirirsiniz. 
+Rapor filtresi tasarımı ve işlevleri üzerinde çok fazla denetiminiz vardır. Bu makalede, raporun geri kalanı gibi görünmesi için filtreler bölmesini nasıl biçimlendirebileceğiniz açıklanır. Filtreleri kilitleyebilir, hatta gizleyebilirsiniz.
 
 ![Filtre deneyimi](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-Bir rapor tasarımcısı olarak yeni Filtreler bölmesinde yapabileceğiniz bazı görevler şunlardır:
+İlk adım, [raporunuza filtre eklemektir](power-bi-report-add-filter.md). Daha sonra, bir rapor Tasarımcısı olarak filtreler bölmesini biçimlendirmek için birçok yol vardır:
 
 - Filtrenin uygulandığı alanları ekleyebilir veya kaldırabilirsiniz. 
 - Filtre durumunu değiştirebilirsiniz.
@@ -38,50 +38,33 @@ Kullanıcılar raporu okurken herhangi bir görselin üzerine gelerek o görseli
 
 ![Görsel için filtreler listesi](media/power-bi-report-filter/power-bi-filter-visual.png)
 
-[Rapor okuyucularının raporunuzdaki filtreleri nasıl kullandığı](../consumer/end-user-report-filter.md) hakkında bilgi edinin.
-
-## <a name="view-filters-for-a-visual-in-reading-mode"></a>Okuma modunda bir görselin filtrelerini görüntüleme
-
-Okuma modunda, bir görselin filtre simgesi üzerine gelin ve görseli etkileyen tüm filtreleri, dilimleyicileri, vb. içeren filtre açılan listesini görüntüleyin. Filtre açılan listesinin biçimlendirmesi Filtreler bölmesinin biçimlendirmesiyle aynıdır.
-
-![Görseli etkileyen filtreler](media/power-bi-report-filter/power-bi-filter-per-visual.png)
-
-Bu görünümde gösterilen filtre türleri şunlardır:
-
-- Temel filtreler
-- Dilimleyiciler
-- Çapraz vurgulama 
-- Çapraz filtreleme
-- Gelişmiş filtreler
-- Üst N filtreler
-- Göreli Tarih filtreleri
-- Eşitleme dilimleyicileri
-- Ekleme/Dışlama filtreleri
-- URL aracılığıyla geçirilen filtreler
-
-[Okuma modunda filtrelerle etkileşim kurma](../consumer/end-user-report-filter.md) hakkında daha fazla bilgi edinin.
+Rapor okuyucularının rapor okuma modunda [filtreleri nasıl kullandığını](../consumer/end-user-report-filter.md) okuyun.
 
 ## <a name="build-the-filters-pane"></a>Filtreler bölmesini oluşturma
 
-Yeni Filtreler bölmesini etkinleştirdikten sonra, bölmeyi rapor sayfasının sağ tarafında, geçerli rapor ayarlarınıza göre varsayılan olarak biçimlendirilmiş şekilde görürsünüz. Filtreler bölmesinde hangi filtrelerin ekleneceğini yapılandırır ve mevcut filtreleri güncelleştirirsiniz. Filtreler bölmesi, raporunuzu yayımladığınızda rapor tüketicilerinin göreceği gibi görünür. 
+Varsayılan olarak, filtreler bölmesi geçerli rapor ayarlarınıza göre biçimlendirilir. Filtreler bölmesinde hangi filtrelerin ekleneceğini yapılandırır ve mevcut filtreleri güncelleştirirsiniz. Raporunuzu yayımladığınızda filtreler bölmesi rapor Tüketicileriniz için de aynı şekilde görünür. 
 
-1. Varsayılan olarak rapor tüketicileriniz Filtreler bölmesini görebilir. Görmelerini istemiyorsanız **Filtreler**’in yanındaki göz simgesini seçin.
+1. Rapor tuvaline görsel eklediğinizde, Power BI görseldeki her alan için Filtreler bölmesine otomatik olarak bir filtre ekler.
 
-    ![Power BI filtre göz simgesine](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
+2. Filtreler bölmesini oluşturmak için, ilgilendiğiniz diğer alanları görsel, sayfa veya rapor düzeyi filtreleri olarak filtreler bölmesine sürükleyin.
 
-2. Filtreler bölmenizi oluşturmaya başlamak için, ilgilendiğiniz alanları görsel, sayfa veya rapor düzeyi filtreleri olarak Filtreler bölmesine sürükleyin.
+## <a name="show-or-hide-the-filters-pane"></a>Filtreler bölmesini göster veya gizle
 
-Rapor tuvaline görsel eklediğinizde, Power BI görseldeki her alan için Filtreler bölmesine otomatik olarak bir filtre ekler. 
+### <a name="hide-the-filters-pane-in-reading-mode"></a>Okuma modunda filtreler bölmesini gizle
 
-## <a name="hide-the-filters-pane-while-editing"></a>Düzenlerken Filtreler bölmesini gizleme
+Rapor okuyucularınızın filtreler bölmesini hiç görmesini istemiyorsanız, **Filtreler**' in yanındaki **göz** simgesini seçin.
 
-Power BI Desktop’ın önizlemesinde yeni bir şerit vardır. **Görünüm** sekmesindeki **Filtreler** iki durumlu düğmesi, Filtreler bölmesini göstermenize veya gizlemenize olanak sağlar. Bu özellik, Filtreler bölmesini kullanmadığınızda ve ekranda ek alana ihtiyaç duyduğunuzda kullanışlıdır. Bu ekleme, Filtreler bölmesini, Yer İşaretleri ve Seçimler bölmeleri gibi açıp kapatabileceğiniz diğer bölmelerle hizalar. 
+![Göz simgesi](media/power-bi-report-filter/power-bi-filter-eye.png) 
+
+### <a name="hide-the-filters-pane-while-editing"></a>Düzenlerken Filtreler bölmesini gizleme
+
+Raporunuzu düzenlediğinizde filtreler bölmesini gizleyebilirsiniz, filtreler bölmesini kullanmıyorsanız ve ekranda ek alana ihtiyacınız vardır. 
+
+- **Görünüm** sekmesinde **Filtreler** düğmesi filtreler bölmesini gösterebilir veya gizlemenize izin verir.
 
 ![Düzenlerken Filtreler bölmesini gösterme veya gizleme](media/power-bi-report-filter/power-bi-filter-hide.png)
 
-Bu ayar yalnızca Power BI Desktop’ta Filtreler bölmesini gizler. Son kullanıcılarınız için Filtreler bölmesini gizlemek istiyorsanız, bunun yerine **Filtreler**’in yanındaki **göz** simgesini seçersiniz.
-
-![Göz simgesi](media/power-bi-report-filter/power-bi-filter-eye.png) 
+Bu ayar yalnızca Power BI Desktop’ta Filtreler bölmesini gizler. Power BI hizmeti için Düzenle modunda eşdeğer değildir.
 
 ## <a name="lock-or-hide-filters"></a>Filtreleri kilitleme veya gizleme
 
@@ -205,7 +188,7 @@ Filtreler bölmesinde özel sıralama işlevi kullanılabilir. Raporunuzu oluşt
 
 ![Filtre sıralama düzenini yeniden ayarlama](media/power-bi-report-filter/power-bi-filter-sort.gif)
 
-Filtrelerin varsayılan sıralama düzeni alfabetiktir. Özel sıralama modunu başlatmak için herhangi bir filtreyi yeni bir konuma sürüklemeniz yeterlidir. Filtreleri yalnızca uygulandıkları düzey içinde (görsel düzeyi, sayfa düzeyi veya rapor düzeyi filtresi) sıralayabilirsiniz.
+Filtrelerin varsayılan sıralama düzeni alfabetiktir. Özel sıralama modunu başlatmak için herhangi bir filtreyi yeni bir konuma sürüklemeniz yeterlidir. Filtreleri yalnızca uygulandıkları düzeyin içinde yeniden düzenleyebilirsiniz. Örneğin, filtreler bölmesinin görsel düzeyi bölümündeki görsel düzeyi filtrelerin sırasını değiştirebilirsiniz.
 
 ## <a name="improved-filters-pane-accessibility"></a>Geliştirilmiş Filtreler bölmesi erişilebilirliği
 
@@ -275,7 +258,7 @@ Bu özelliği rapor düzeyinde ayarlayabilirsiniz. Bununla birlikte bu özellik 
 
 ## <a name="considerations-and-limitations"></a>Önemli noktalar ve sınırlamalar
 
-Web’de yayımla, Filtreler bölmesini göstermiyor. Web’de rapor yayımlamayı planlıyorsanız filtreleme için dilimleyiciler eklemeyi düşünün.
+Web’de yayımla, Filtreler bölmesini göstermiyor. Web 'de bir rapor yayımlamayı planlıyorsanız bunun yerine, filtreleme için dilimleyici eklemeyi göz önünde bulundurun.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

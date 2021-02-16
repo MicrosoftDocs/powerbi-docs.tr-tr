@@ -59,8 +59,6 @@
               href: desktop-ribbon.md
             - name: Rapor görünümü ile çalışma
               href: desktop-report-view.md
-            - name: Raporlardaki filtre türleri
-              href: power-bi-report-filter-types.md
             - name: Raporlarda filtreleme ve vurgulama
               href: power-bi-reports-filters-and-highlighting.md
             - name: Yüksek yoğunluklu çizgi örnekleme
@@ -142,6 +140,26 @@
               href: desktop-tooltips.md
             - name: Raporları PDF dosyaları halinde dışarı aktarma
               href: desktop-export-to-pdf.md
+            - name: Raporlardaki filtreler ve Dilimleyiciler
+              items:
+                - name: Rapora filtre ekleme
+                  href: power-bi-report-add-filter.md
+                - name: Raporlardaki biçimlendirme filtreleri
+                  href: power-bi-report-filter.md
+                - name: Raporlardaki filtre türleri
+                  href: power-bi-report-filter-types.md
+                - name: Dilimleyiciler
+                  href: ../visuals/power-bi-visualization-slicers.md
+                - name: Sayısal aralık dilimleyicileri
+                  href: desktop-slicer-numeric-range.md
+                - name: Göreli tarih dilimleyicileri ve filtreleri
+                  href: ../visuals/desktop-slicer-filter-date-range.md
+                - name: Göreli saat dilimleyicileri ve filtreleri
+                  href: slicer-filter-relative-time.md
+                - name: Yeniden boyutlandırabileceğiniz bir dilimleyici oluşturma
+                  href: power-bi-slicer-filter-responsive.md
+                - name: Dilimleyiciye birden çok alan ekleme
+                  href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Görsellerdeki dalgalanmaları açıklamak için içgörüleri uygulama (önizleme)
               href: desktop-insights.md
             - name: Dağıtımların nasıl farklılık gösterdiğini saptamak için içgörüleri kullanma (önizleme)
@@ -158,10 +176,6 @@
               href: desktop-bookmarks.md
             - name: Rapor temaları ile çalışma
               href: desktop-report-themes.md
-            - name: Raporlardaki filtrelerle çalışma
-              href: power-bi-report-filter.md
-            - name: Rapora filtre ekleme
-              href: power-bi-report-add-filter.md
             - name: Gruplandırma ve gruplamayı uygulama
               href: desktop-grouping-and-binning.md
             - name: Kılavuz çizgilerini ve kılavuza yaslama işlevini uygulama
@@ -174,18 +188,6 @@
               href: desktop-add-custom-column.md
             - name: Satır içi hiyerarşi etiketlerini kullanma
               href: desktop-inline-hierarchy-labels.md
-            - name: Dilimleyiciler
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: Sayısal aralık dilimleyicileri
-              href: desktop-slicer-numeric-range.md
-            - name: Göreli tarih dilimleyicileri ve filtreleri
-              href: ../visuals/desktop-slicer-filter-date-range.md
-            - name: Göreli saat dilimleyicileri ve filtreleri
-              href: slicer-filter-relative-time.md
-            - name: Yeniden boyutlandırabileceğiniz bir dilimleyici oluşturma
-              href: power-bi-slicer-filter-responsive.md
-            - name: Dilimleyiciye birden çok alan ekleme
-              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Satır düzeyi güvenlik ile veri erişimini kısıtlama
               href: desktop-rls.md
             - name: Araç ipuçlarını özelleştirme

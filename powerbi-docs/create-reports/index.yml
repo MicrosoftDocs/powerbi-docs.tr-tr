@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 12/16/2020
-  ms.openlocfilehash: 2bc4ade5dc563445c945f0a5b14f28272938c0d5
-  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-  ms.translationtype: HT
+  ms.openlocfilehash: 585581e3b4243bf96439970a35fe617aa4d59234
+  ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+  ms.translationtype: MT
   ms.contentlocale: tr-TR
-  ms.lasthandoff: 12/17/2020
-  ms.locfileid: "97622028"
+  ms.lasthandoff: 02/16/2021
+  ms.locfileid: "100531459"
 landingContent:
 - title: Kullanmaya başlayın
   linkLists:
@@ -89,7 +89,7 @@ landingContent:
       url: desktop-drillthrough.md
     - text: Rapora yer işaretleri ekleme
       url: desktop-bookmarks.md
-    - text: Rapora filtre ekleme
+    - text: Rapordaki biçimlendirme filtreleri
       url: power-bi-report-filter.md
 - title: Power BI sayfalandırılmış raporlar
   linkLists:

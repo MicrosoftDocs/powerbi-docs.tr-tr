@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 02/05/2021
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 179e8740bed71d3d295cfc2fe5f103744e9dbd07
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 1451b6812e9304eb1933de6cde2ed3cc681b7207
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96402743"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531919"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>Power BI hizmetinde SAP değişkenlerini düzenleme
 
@@ -27,11 +27,6 @@ Bu belgede Power BI'da değişkenleri düzenlemek için nelerin gerektiği, bu �
 ## <a name="requirements-for-sap-edit-variables"></a>SAP değişkenleri düzenleme gereksinimleri
 
 SAP değişkenleri düzenleme özelliğini kullanmak için birkaç gereksinim karşılanmalıdır. Aşağıdaki listede bu gereksinimlere yer verilmiştir.
-
-**Yeni Filtre Deneyimi gerekir** – raporunuzda [yeni filtre deneyimi](../create-reports/power-bi-report-filter.md) etkinleştirilmiş olmalıdır. Power BI Desktop'ta raporunuz için bu deneyimi şöyle etkinleştirebilirsiniz:
-- Power BI Desktop'ta **Dosya** > **Seçenekler ve Ayarlar** > **Seçenekler**'i seçin
-- Gezinti bölmesinin **Geçerli dosya** bölümünde **Rapor ayarları**'nı seçin.
-- **Filtreleme deneyimi**'nin altında **Güncelleştirilmiş filtre bölmesini etkinleştirin** öğesini seçin.
 
 **DirectQuery bağlantıları gerekli** – SAP veri kaynağına DirectQuery kullanarak bağlanmalısınız. İçeri Aktarma bağlantıları desteklenmez.
 
@@ -53,7 +48,7 @@ SAP değişkenleri düzenleme özelliğini kullanmak için birkaç gereksinim ka
 
 Power BI Desktop'ta SAP değişkenleri düzenleme özelliğini kullanırken, şeritteki **Sorguları Düzenle** menüsünden Değişkenleri düzenle bağlantısını seçerek değişkenleri düzenleyebilirsiniz. Orada aşağıdaki iletişim kutusu görüntülenir. Bu özellik Power BI Desktop'ta bir süre için kullanılabilir. Rapor oluşturucuları aşağıdaki iletişim kutusunu kullanarak rapor için değişkenleri seçebilir.
 
-![Öğe ekle](media/service-edit-sap-variables/sap-variables-add-items.png)
+![Öğeleri Ekle](media/service-edit-sap-variables/sap-variables-add-items.png)
 
 ## <a name="use-sap-edit-variables-in-the-service"></a>Hizmette SAP değişkenleri düzenleme özelliğini kullanma
 
@@ -80,7 +75,7 @@ SAP HANA veya SAP BW kullanan **Değişkenleri düzenle** özelliğinin etkinle�
 
 SAP HANA, SAP BW veya DirectQuery hakkında daha fazla bilgi için aşağıdaki makaleleri okuyun:
 
-- [Power BI Desktop'ta SAP HANA'yı kullanma](desktop-sap-hana.md)
+- [Power BI Desktop'ta SAP HANA Kullanma](desktop-sap-hana.md)
 - [DirectQuery ve SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 - [DirectQuery ve SAP HANA](desktop-directquery-sap-hana.md)
 - [Power BI'da DirectQuery kullanma](desktop-directquery-about.md)

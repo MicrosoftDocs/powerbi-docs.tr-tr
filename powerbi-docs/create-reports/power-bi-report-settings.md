@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 996c4a1e7b2bdda0bfdfa0951afc7922b2996084
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396188"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531574"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>Power BI raporlarıyla ilgili ayarları değiştirme
 
@@ -67,7 +67,7 @@ Sayfalar bölmesi ayarını şu an için yalnızca Power BI hizmetinde değişti
 
 ## <a name="control-filters"></a>Denetim filtreleri
 
-Raporun **Ayarlar** bölmesinde okuyucuların raporunuzdaki filtrelerle etkileşim kurma şeklini denetlemeye yönelik üç ayar bulunur. Aşağıdaki bağlantıları izleyerek [Power BI raporlarındaki filtreleri tasarlama](power-bi-report-filter.md) makalesine ulaşabilir, ayarlar hakkında ayrıntılı bilgi edinebilirsiniz.
+Raporun **Ayarlar** bölmesinde okuyucuların raporunuzdaki filtrelerle etkileşim kurma şeklini denetlemeye yönelik üç ayar bulunur. Aşağıdaki bağlantılar, her bir ayar hakkında ayrıntılar için [Power BI raporlardaki filtreleri biçimlendirme](power-bi-report-filter.md) makalesine gider.
 
 - **Kalıcı filtreler**, okuyucuların [filtreleri rapora kaydetmesini](power-bi-report-filter.md#allow-saving-filters) sağlar.
 - **Filtreleme deneyiminde** iki ayar daha vardır:

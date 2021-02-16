@@ -7,95 +7,73 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 01/20/2021
+ms.date: 02/12/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: b9aecda1f4ec3dfd1a4ab65cb78fd2a8e577c01d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: f7c17b810070a79c9f4a9f4a0756cbcaa8831f18
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98687225"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531819"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Power BI'daki raporlara filtre ekleme
 
-Bu makalede Power BI'da bir rapora sayfa filtresi, görselleştirme filtresi, rapor filtresi veya detaylandırma filtresi ekleme adımları anlatılmaktadır. Bu makaledeki örneklerde Power BI hizmeti kullanılmıştır. Adımlar Power BI Desktop ile neredeyse aynıdır.
-
-**Biliyor muydunuz?** Power BI yeni bir filtre deneyimine sahiptir. [Power BI raporlarında yeni filtre deneyimi](power-bi-report-filter.md) hakkında daha fazla bilgi edinin.
+Bu makalede, Power BI bir rapora görselleştirme filtresi, sayfa filtresi veya rapor filtresi ekleme açıklanır. Filtre eklemek için bir raporu düzenleyebilmeniz gerekir. Bu makaledeki örneklerde Power BI hizmeti ve adımlar Power BI Desktop neredeyse aynıdır. Genel Bakış mı arıyorsunuz? Önce [Power BI raporlarında filtreleri ve vurgulamayı](power-bi-reports-filters-and-highlighting.md) inceleyin.
 
 ![Yeni filtre deneyimi](media/power-bi-report-add-filter/power-bi-filter-reading.png)
 
 Power BI, el ile ve otomatik filtreden detaylandırma ve geçişe kadar farklı türlerde çok çeşitli filtreler sunar. [Farklı türlerde filtreler](power-bi-report-filter-types.md) hakkında bilgi edinin.
 
+Filtreleri ekledikten sonra, istediğiniz şekilde bakmak ve işlem yapmak için [Power BI raporlardaki filtreleri biçimlendirebilirsiniz](power-bi-report-filter.md) .
+
 ## <a name="filters-in-editing-view-or-reading-view"></a>Düzenleme görünümündeki ve Okuma görünümündeki filtrelerin karşılaştırması
-Raporlarla etkileşim kurmak için kullanabileceğiniz iki görünüm vardır: Okuma görünümü ve Düzenleme görünümü. Kullanabileceğiniz filtreleme özellikleri hangi görünümde olduğunuza bağlıdır. Ayrıntılar için bkz. [Power BI raporlarındaki filtreler ve vurgulama hakkında](power-bi-reports-filters-and-highlighting.md).
+Raporlarla iki farklı görünümde etkileşim kurabilirsiniz: okuma görünümü ve düzenlenme görünümü. Bu makalede rapor **Düzenleme görünümünde** nasıl filtre oluşturabileceğiniz açıklanmaktadır.  Okuma görünümündeki filtreler hakkında daha fazla bilgi için [rapor Okuma görünümünde filtrelerle etkileşim kurma](../consumer/end-user-report-filter.md) başlıklı makaleye bakın.
 
-Bu makalede rapor **Düzenleme görünümünde** nasıl filtre oluşturabileceğiniz açıklanmaktadır.  Okuma görünümündeki filtreler hakkında daha fazla bilgi için [rapor Okuma görünümünde filtrelerle etkileşim kurma](../consumer/end-user-report-filter.md) başlıklı makaleye bakın.
+Filtreler *kalıcı* olduğu için, rapordan çıktığınızda Power BI yaptığınız filtre, dilimleyici ve diğer veri görünümü değişikliklerini tutar. Bu nedenle, rapora geri döndüğünüzde kaldığınız yerden devam edebilirsiniz. Filtre değişikliklerinizin devam etmek istemiyorsanız, üstteki menü çubuğundan **Varsayılana sıfırla** ' yı seçin.
 
-Filtreler *kalıcı* olduğu için, rapordan çıktığınızda Power BI yaptığınız filtre, dilimleyici ve diğer veri görünümü değişikliklerini tutar. Bu nedenle, rapora geri döndüğünüzde kaldığınız yerden devam edebilirsiniz. Filtre değişikliklerinizin kalıcı olmasını istemiyorsanız üst menü çubuğundan **Varsayılana sıfırla**’yı seçin.
+:::image type="content" source="../consumer/media/end-user-report-filter/power-bi-reset-icon.png" alt-text="Varsayılan simgeye sıfırlayın.":::
 
-![kalıcı filtre düğmesi](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
+Rapor Oluşturucu olarak, raporla birlikte kaydedeceğiniz her türlü filtre, tüm rapor okuyucularınız için *varsayılan filtre durumuna* dönüşecek şekilde aklınızda bulundurun. **Varsayılan olarak Sıfırla**' yı seçtiğinizde, bu, geri dönirler.
 
 ## <a name="levels-of-filters-in-the-filters-pane"></a>Filtreler bölmesinde filtre düzeyleri
-Masaüstü veya Power BI hizmeti kullanılırken, rapor tuvalinin sağ kenarında Filtreler bölmesi görüntülenir. Filtreler bölmesini görmüyorsanız bölmeyi genişletmek için sağ üst köşedeki ">" simgesini seçin.
+Power BI Desktop veya Power BI hizmeti kullanıp kullansanız da, filtreler bölmesi rapor tuvalinin sağ tarafında görüntülenir. Filtreler bölmesini görmüyorsanız bölmeyi genişletmek için sağ üst köşedeki ">" simgesini seçin.
 
-Rapor için filtreleri üç farklı düzeyde ayarlayabilirsiniz: görsel düzey, sayfa düzeyi ve rapor düzeyi filtreler. Detaylandırma filtreleri de ayarlayabilirsiniz. Bu makalede farklı düzeyler açıklanır.
-
-![Okuma görünümünde filtre bölmesi](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+Rapor için üç farklı düzeyde filtre ayarlayabilirsiniz: görsel düzeyi, sayfa düzeyi ve rapor düzeyi. Bu makalede, farklı düzeylerin nasıl ayarlanacağı açıklanır.
 
 ## <a name="add-a-filter-to-a-visual"></a>Görsele filtre ekleme
-Bir görsele görsel düzeyi filtre eklemek için kullanabileceğiniz iki yöntem vardır. 
+Görsellerde iki farklı tür filtre vardır.
+Görsel için iki farklı şekilde görsel düzeyinde bir filtre ekleyebilirsiniz. 
 
-* Görselleştirme tarafından kullanılan bir alanı filtreleyebilirsiniz.
-* Görselleştirme tarafından kullanılmayan bir alan belirleyip söz konusu alanı doğrudan **Görsel düzeyi filtreleri** demetine ekleyebilirsiniz.
-
-
-Bu örnekte Perakende Analizi örneği kullanılmaktadır. Dilerseniz siz de indirip adımları takip edebilirsiniz. [Perakende Analizi örneği](sample-retail-analysis.md#get-the-content-pack-for-this-sample) içerik paketini indirin.
-
-### <a name="filter-the-fields-in-the-visual"></a>Görseldeki alanları filtreleme
-
-1. **Diğer seçenekler (...)**  > **Raporu düzenle**’yi seçerek raporunuzu Düzenleme görünümünde açın.
-   
-   ![Raporu düzenle düğmesi](media/power-bi-report-add-filter/power-bi-edit-view.png)
-
-2. Görsel Öğeler ve Filtreler bölmesini ve Alanlar bölmesini açın (zaten açık değillerse).
-   
-   ![Görselleştirmeler, Filtreler ve Alanlar bölmeleri](media/power-bi-report-add-filter/power-bi-display-panes.png)
-3. Bir görseli seçerek etkin hale getirin. Görsel tarafından kullanılmakta olan tüm alanlar, **Alanlar** bölmesinde yer alır. Bunlar ayrıca **Görsel düzeyi filtreleri** başlığı altındaki **Filtreler** bölmesinde de listelenir.
-   
-   ![Görsel düzeyi filtreleri seçme](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
-4. Bu noktada, görselleştirme tarafından zaten kullanılmakta olan bir alana filtre ekleyeceğiz. 
-   
-    **Görsel düzeyi filtreleri** alanına gidin ve filtrelemek istediğiniz alanı genişletmek için oku seçin. Bu örnekte **StoreNumberName** alanını filtreleyeceğiz.
-     
-    ![Ok, filtreyi genişletir](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-    
-    **Temel**, **Gelişmiş** veya **Üst N** filtreleme denetimlerinden birini ayarlayın. Bu örnekte Temel filtrelerde **cha** araması yapacak ve listelenen beş mağazayı seçeceğiz.
-     
-    ![Temel filtrelemede arama](media/power-bi-report-add-filter/power-bi-search-filter.png) 
-   
-    Görsel, yeni filtreyi yansıtacak şekilde değişir. Raporunuzu filtreli olarak kaydederseniz raporu okuyan kişiler görselin filtrelenmiş halini görür ve değerleri seçerek veya temizleyerek Okuma görünümünde filtre ile etkileşim kurabilir.
-     
-    ![Filtrelenen değerlerin göründüğü çubuk grafiği gösteren ekran görüntüsü.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
-    
-    Filtreyi, alanın toplu olduğu bir görselde kullanılan alanda kullandığınızda (örneğin, toplam, ortalama veya sayı) her veri noktasındaki *toplanmış* değer için filtre uygularsınız. Bu nedenle, yukarıdaki görselde **Bu Yılın Satışları > 500000** gibi bir filtre uygulamak isterseniz, sonuçta yalnızca **13 - Charleston Fashion Direct** veri noktasını görürsünüz. [Model ölçümlerindeki](../transform-model/desktop-measures.md) filtreler her zaman veri noktasının toplu değeri için geçerlidir.
+* Görselde bulunan alanlar, bu görselin otomatik olarak filtreleridir. 
+* Rapor Tasarımcısı olarak, zaten görsel olmayan bir alanı tanımlayabilir ve bu alanı doğrudan **görsel düzeyi filtreleri** demetine ekleyebilirsiniz.
+ 
+Bu makalede, yüklemek ve daha sonra izlemek istiyorsanız perakende analizi örneği kullanılmaktadır. [Perakende analizi örnek](sample-retail-analysis.md#get-the-content-pack-for-this-sample) içerik paketini yükler.
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>Görselde bulunmayan bir alanla filtreleme
 
-Şimdi de görselleştirmemize bir görsel düzeyinde filtre olarak yeni bir alan ekleyelim.
+1. Power BI hizmeti, **diğer seçenekler (...)**  >  seçeneğini belirleyin. Raporunuzu düzenleme görünümü 'nde açmak için **düzenleyin** .
    
-1. Alanlar bölmesinden yeni görsel düzeyi filtresi olarak eklemek istediğiniz alanı seçip **Görsel düzeyi filtreleri alanına** sürükleyin.  Bu örnekte, **Görsel düzeyi filtreleri** demetine **District Manager** öğesini sürükleyip **an** araması yapacak ve listelenen üç yöneticiyi seçeceğiz.
+   ![Raporu Düzenle düğmesi.](media/power-bi-report-add-filter/power-bi-edit-view.png)
+
+2. Zaten açık değilse görselleştirmeler, filtreler ve alanlar bölmelerini açın.
+   
+   ![Görselleştirmeler, Filtreler ve Alanlar bölmeleri](media/power-bi-report-add-filter/power-bi-display-panes.png)
+
+3. Bir görseli seçerek etkin hale getirin. Bu durumda, Genel Bakış sayfasındaki dağılım grafiğidir. Görseldeki tüm alanlar **görsel öğeler** bölmesinde bulunur. Bunlar ayrıca, **Bu görsel başlıktaki filtreler** altında **Filtreler** bölmesinde listelenir.
+   
+   ![Görsel düzeyi filtreleri seçme](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
+  
+1. Alanlar bölmesinden yeni görsel düzeyi filtresi olarak eklemek istediğiniz alanı seçip **Görsel düzeyi filtreleri alanına** sürükleyin.  Bu örnekte, **Bu görseldeki filtreler** altına **buraya veri alanları eklemek** için **Kategori** sürükliyoruz.
      
     ![Filtreler bölmesine alan ekleme](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
-    **District Manager** öğesinin görselleştirmenin kendisine *eklenmediğine* dikkat edin. Görselleştirme hâlâ Eksen olarak **StoreNumberName** ve Değer olarak **This Year Sales** alanlarından oluşmaktadır.  
+    Bildirim **kategorisi** görselleştirmenin *kendine eklenmez.*
      
-    ![Alan görselde değil](media/power-bi-report-add-filter/power-bi-visualization.png)
-
-    Ayrıca görselleştirmenin kendisi de bu işlemden sonra, belirtilen mağazalar için yalnızca bu yöneticilerin bu yılki satışlarını gösterecek şekilde filtrelenmiştir.
+1. **Çocukları** seçin. Dağılım grafiği filtrelenmiştir, ancak diğer görseller aynı kalır.
      
-    ![Yeni alana göre filtrelenen değerlerin göründüğü çubuk grafiği gösteren ekran görüntüsü.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+    ![Ekran görüntüsü, filtrelenmiş değerleri yeni alana göre yansıtan bir dağılım grafiği gösterir.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
-    Raporunuzu bu filtreyle kaydederseniz raporu okuyan kişiler, değerleri seçerek veya temizleyerek Okuma görünümünde **District Manager** filtresiyle etkileşim kurabilir.
+    Raporunuzu bu filtreyle kaydederseniz, rapor okuyucuları okuma görünümü, değerleri seçme veya temizleme bölümünde **Kategori** filtresiyle etkileşime girebilirler.
     
     Görsel düzeyde bir filtre oluşturmak için filtre bölmesine bir *sayısal sütunu* sürüklerseniz, filtre *temel alınan veri sütunlarına* uygulanır. Örneğin, **UnitCost** alanına bir filtre ekleme ve bunu **UnitCost** değerinin 20’den büyük olduğu bir yere ayarlama, görselde gösterilen veri noktalarının toplam Birim Maliyeti ne olursa olsun yalnızca Birim Maliyetinin 20’den büyük olduğu satırlardaki verileri gösterir.
 
@@ -108,48 +86,15 @@ Sayfanın tamamını filtrelemek için sayfa düzeyi bir filtre de ekleyebilirsi
 2. **...**  > **Raporu düzenle**’yi seçerek raporunuzu Düzenleme görünümünde açın.
    
    ![Raporu düzenle düğmesi](media/power-bi-report-add-filter/power-bi-edit-view.png)
-2. Görsel Öğeler ve Filtreler bölmesini ve Alanlar bölmesini açın (zaten açık değillerse).
+
+2. Zaten açık değilse görselleştirmeler, filtreler ve alanlar bölmelerini açın.
+
 3. Alanlar bölmesinden yeni sayfa düzeyi filtresi olarak eklemek istediğiniz alanı seçip **Sayfa düzeyi filtreleri** alanına sürükleyin.  
 4. Filtrelemek istediğiniz değerleri seçip **Temel** veya **Gelişmiş** filtreleme denetimlerini belirleyin.
    
    Sayfadaki tüm görselleştirmeler, yapılan değişikliği yansıtacak şekilde yeniden çizilir.
    
-   ![Filtre ekleme ve değerleri seçme](media/power-bi-report-add-filter/filterpage.gif)
-
     Raporunuzu filtreli olarak kaydederseniz raporu okuyan kişiler, değerleri seçerek veya temizleyerek Okuma görünümünde filtre ile etkileşim kurabilir.
-
-## <a name="add-a-drillthrough-filter"></a>Detaylandırma filtresi ekleme
-Power BI hizmetinde ve Power BI Desktop'ta tedarikçi, müşteri veya üretici gibi belirli bir varlığa odaklanan *hedef* rapor sayfaları oluşturabilirsiniz. Artık kullanıcılar, diğer rapor sayfalarında söz konusu varlığa ilişkin veri noktasına sağ tıklayarak, odaklanılmış sayfada detaylandırma yapabilirler.
-
-### <a name="create-a-drillthrough-filter"></a>Detaylandırma filtresi oluşturma
-Konuyu takip etmek için [Müşteri Kârlılığı örneğini](sample-customer-profitability.md#get-the-content-pack-for-this-sample) indirin. İdari işletme alanlarına odaklanan bir sayfa istediğinizi düşünelim.
-
-1. Power BI hizmetinde, Perakende Analizi raporunu açın ve **Bölge Aylık Satışı** sayfasına gidin.
-
-2. **Diğer seçenekler (...)**  > **Raporu düzenle**’yi seçerek raporunuzu Düzenleme görünümünde açın.
-   
-   ![Raporu düzenle düğmesi](media/power-bi-report-add-filter/power-bi-edit-view.png)
-
-1. Rapora yeni bir sayfa ekleyip sayfayı **Team Executive** olarak adlandırın. Bu sayfa, detaylandırmanın *hedef* sayfası olacaktır.
-2. İdari ekibin işletme alanlarına yönelik ana ölçümleri takip eden görselleştirmeleri ekleyin.    
-3. **İdareciler** tablosundan **İdari** öğesini Detaylandırma filtrelerine sürükleyin.    
-   
-    ![Detaylandırma filtrelerine değer ekleme](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
-   
-    Power BI'ın rapor sayfasına bir geri oku eklediğine dikkat edin.  Geri okunu seçen kullanıcılar, detaylandırma seçeneğini belirlerken bulundukları sayfa olan *kaynak* rapor sayfasına geri dönerler. Düzenleme görünümünde Ctrl tuşunu basılı tutarak geri okunu seçin
-   
-     ![Geri oku](media/power-bi-report-add-filter/power-bi-back-arrow.png)
-
-### <a name="use-the-drillthrough-filter"></a>Detaylandırma filtresini kullanma
-Detaylandırma filtresinin nasıl çalıştığını görelim.
-
-1. **Team Scorecard** rapor sayfasına gidin.    
-2. Andrew Ma olduğunuzu ve yalnızca verilerinizi gösterecek şekilde filtrelenen Team Executive rapor sayfasını görmek istediğinizi düşünelim.  Detaylandırma menü seçeneğini açmak için sol üstteki alan grafiğinde bulunan herhangi bir yeşil veri noktasına sağ tıklayın.
-   
-    ![Detaylandırma eylemini başlatma](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. **Team Executive** adlı rapor sayfasında detaylandırma yapmak için **Detaylandırma > Team Executive** seçeneğini belirleyin. Sayfa, sağ tıkladığınız veri noktası (bu örnekte, Andrew Ma) hakkındaki bilgileri gösterecek şekilde filtrelenir. Kaynak sayfadaki tüm filtreler, detaylandırma rapor sayfasına uygulanır.  
-   
-    ![Detaylandırma eylemini seçme](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-report-level-filter-to-filter-an-entire-report"></a>Raporun tamamını filtrelemek için rapor düzeyi bir filtre ekleme
 
@@ -167,10 +112,13 @@ Detaylandırma filtresinin nasıl çalıştığını görelim.
 
 ## <a name="considerations-and-troubleshooting"></a>Önemli noktalar ve sorun giderme
 
-- Alanlar bölmesini görmüyorsanız rapor [Düzenleme görünümü](service-interact-with-a-report-in-editing-view.md)'nde bulunduğunuzdan emin olun.    
-- Filtrelerde çok fazla değişiklik yaptıysanız ve rapor yazarı varsayılan ayarlarına geri dönmek istiyorsanız, üst menü çubuğundan **Varsayılana sıfırla**’yı seçin.
+- Alanlar bölmesini görmüyorsanız, rapor [düzenlemesi görünümünde](service-interact-with-a-report-in-editing-view.md)olduğunuzdan emin olun.
+- Filtrelerdeki çok sayıda değişiklik yaptıysanız ve varsayılan ayarlara dönmek istiyorsanız, üstteki menü çubuğundan varsayılana **Sıfırla** ' yı seçin. Unutmayın: rapor yazarı olarak, raporu kaydettiğinizde hangi filtrelerin gerçekleştiği, varsayılan filtre ayarları *haline gelir* .
 
 ## <a name="next-steps"></a>Sonraki adımlar
+
+[Power BI raporlarınızda filtreleri biçimlendirme](power-bi-report-filter.md)
+
 [Power BI Filtreler bölmesine ilişkin tura katılın](../consumer/end-user-report-filter.md)
 
 [Raporlarda filtreleme ve vurgulama](power-bi-reports-filters-and-highlighting.md)

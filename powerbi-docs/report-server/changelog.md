@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/11/2021
-ms.openlocfilehash: edbb742cfb9d19e47c50ed7c43fa3ba4ba36f779
-ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.openlocfilehash: 768e0e8a360c2434fdb66cf309d24857707b9d59
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "100489866"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531597"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI Rapor Sunucusu’na yönelik değişiklik günlüğü
 
@@ -24,7 +24,7 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
 
 ## <a name="january-2021"></a>Ocak 2021
 - **Power BI Rapor Sunucusu**
-    - *Sürüm: 1.10.7698.27886 (derleme 15.0.1105.195), Yayın tarihi: 21 Ocak 2021*
+    - *Sürüm: 1.10.7698.27886 (derleme 15.0.1105.195), Yayın tarihi: 28 Ocak 2021*
         - Özellikler
             - Yeni simgeler Power BI ve Power BI raporlara yeniden yapılır.
             - Yayın sürümü 3.5.0 ile gönderilen özel Visual API
@@ -35,7 +35,7 @@ Yeni özellikler hakkında daha fazla bilgi için bkz. [Power BI Rapor Sunucusu�
         - Güvenlik güncelleştirmeleri
 
 - **Power BI Desktop (Power BI Rapor Sunucusu için en iyi duruma getirilmiş)**
-   - *Sürüm: 2.88.1382.0 (ocak 2021), Yayın tarihi: 21 ocak 2021* (yeni derleme ve yeni sürüm)
+   - *Sürüm: 2.88.1382.0 (ocak 2021), Yayın tarihi: 28 ocak 2021* (yeni derleme ve yeni sürüm)
         - Power BI Rapor Sunucusu bağlantı için gereken değişiklikleri içerir (Ocak 2021)        
    
 ## <a name="october-2020"></a>Ekim 2020

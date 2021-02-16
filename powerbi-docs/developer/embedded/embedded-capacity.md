@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/14/2021
-ms.openlocfilehash: b37182cbdf030e8b32fdfe307d0a652fef678b9b
-ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.date: 02/15/2021
+ms.openlocfilehash: 0c6686b667f96e45fc1e21d4cb9512196053f288
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "99533039"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531965"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Power BI Embedded Analytics’te kapasite ve SKU’lar
 
@@ -148,7 +148,7 @@ Aşağıdaki tabloda her SKU'nun kaynakları ve limitleri açıklanmaktadır.
 
 #### <a name="embedded-gen-2-memory-enhancements-preview"></a>Katıştırılmış Gen 2 bellek geliştirmeleri (Önizleme)
 
-[Power BI Embedded oluşturma 2](power-bi-embedded-generation-2.md) ' de (katıştırılmış Gen 2 olarak da bilinir), her düğüm boyutunda kullanılabilir bellek miktarı, tek bir Power BI öğenin (rapor veya pano gibi) bellek kaplama sınırına ayarlanır ve bu da belleğin birikimli tüketimine uygulanmaz. Örneğin, gömülü bir Gen2 a4 kapasitesinde, yalnızca tek bir veri kümesi boyutu 25 Power BI Embedded GB ile sınırlıdır ve bu, aynı anda işlenen veri kümelerinin toplam bellek parmak izi 25 GB ile sınırlıdır.
+Her düğüm boyutunda kullanılabilir bellek miktarı, [SKU belleği ve bilgi işlem gücü](#sku-memory-and-computing-power) tablosunda *RAM (GB)* sütununda açıklanmıştır. [Power BI Embedded oluşturma 2](power-bi-embedded-generation-2.md) ' de (katıştırılmış Gen 2 olarak da bilinir), bu bellek miktarı tek bir Power BI öğenin (örneğin, bir veri kümesi, rapor veya Pano) bellek ayak izi sınırına ayarlanır ve bu da belleğin birikimli tüketimine uygulanmaz. Örneğin, gömülü bir Gen2 a4 kapasitesinde, yalnızca tek bir veri kümesi boyutu 25 Power BI Embedded GB ile sınırlıdır ve bu, aynı anda işlenen veri kümelerinin toplam bellek parmak izi 25 GB ile sınırlıdır.
 
 ## <a name="next-steps"></a>Sonraki adımlar
 

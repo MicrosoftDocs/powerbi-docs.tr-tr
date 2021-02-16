@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 12/01/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 560c03865519d1c5d2435dc333954f284ee726e6
-ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
-ms.translationtype: HT
+ms.openlocfilehash: 83a68e0d2aec6fa5a47919447872ef440c71792a
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96536519"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531735"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI'da rapor düzenleyicisi turu
 
@@ -79,7 +79,7 @@ Yeni filtre deneyimi daha fazla esneklik getirir. Örneğin filtreleri raporun k
 
 ![Yeni filtre deneyimi](media/service-the-report-editor-take-a-tour/power-bi-filters-pane.png)
 
-[Yeni filtre deneyimi](power-bi-report-filter.md) hakkında daha fazla bilgi edinin.
+[Yeni filtre deneyiminde filtreler bölmesini biçimlendirme](power-bi-report-filter.md)hakkında daha fazla bilgi edinin.
 
 ## <a name="4-the-visualizations-pane"></a>4. Görsel Öğeler bölmesi
 

@@ -7,20 +7,20 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 10/21/2020
+ms.date: 02/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 914477d8b4bed0b6f90f700afcbfdfbfc263bb1d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b646237bddeaae8b73ef809504ab3aea2257c0e6
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410471"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531482"
 ---
 # <a name="build-permission-for-shared-datasets"></a>Paylaşılan veri kümeleri için oluşturma izni
 
 Power BI Desktop'ta bir rapor oluşturduğunuzda bu rapordaki veriler bir *veri modelinde* depolanır. Raporlarınızı Power BI hizmetine yayımladığınızda verileri de bir *veri kümesi* olarak yayımlamış olursunuz. Bu rapor için başkalarına *Oluşturma izni* vererek paylaştığınız veri kümesini keşfetmelerini ve yeniden kullanmalarını sağlayabilirsiniz. Bu makalede Oluşturma iznini kullanarak verilere kimin erişebileceğini denetleme konusunda bilgi verilmektedir.
 
-Oluşturma izni, veri kümeleri için geçerlidir. Oluşturma izni verdiğiniz kullanıcılar, raporlar, panolar, Soru-Cevap bölmesindeki sabitlenmiş kutucuklar ve Insights Discovery gibi veri kümenizde yeni içerik oluşturabilir. 
+Oluşturma izni, veri kümeleri için geçerlidir. Kullanıcılara derleme izni verdiğinizde, veri kümeniz üzerinde raporlar, panolar, soru-&cevap raporları ve içgörüler bulma 'dan sabitlenmiş kutucuklar gibi yeni içerik oluşturabilir. 
 
 Kullanıcıların verilerle Power BI *dışında* çalışabilmesi için de Oluşturma iznine sahip olması gerekir:
 
