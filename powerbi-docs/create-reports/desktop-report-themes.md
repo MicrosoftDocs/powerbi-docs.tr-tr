@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 67264868fdbba42856169ca586066f650fca5c38
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.openlocfilehash: 61b909ba5c90c7ecf801b4ce448e73353d2334c4
+ms.sourcegitcommit: 9a00abaca80d0cdb2bd0cd9270f99db62df8a2ce
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621982"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100569623"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Power BI Desktop’ta rapor temalarını kullanma
 
@@ -171,7 +171,7 @@ Bu rapor teması JSON dosyasında aşağıdaki satırlar bulunur:
 
 - **name**: Rapor teması adı. Bu alan, tek gerekli alandır.
 - **dataColors**: Power BI Desktop görsellerindeki veriler için kullanılacak renklerin onaltılık kod listesi. Listede istediğiniz sayıda renk bulunabilir.
-- **background**, **firstLevelElements** ve **tableAccent** (vb.): Renk sınıfları. Renk sınıfları, raporunuzda istediğiniz sayıda yapısal renk ayarlamanıza olanak tanır.
+- **arka plan**, **ön plan** ve **tableaksan** (vb.): renk sınıfları. Renk sınıfları, raporunuzda istediğiniz sayıda yapısal renk ayarlamanıza olanak tanır.
 
 İçeri aktaracağınız kendi özel rapor teması dosyanızı oluşturmak için bu JSON dosyasını temel alabilirsiniz. Raporunuzda yalnızca temel renkleri değiştirmek istiyorsanız, dosyanızdaki adı ve onaltılık kodları değiştirin.
 

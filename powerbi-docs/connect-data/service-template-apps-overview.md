@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/14/2020
-ms.openlocfilehash: f9a3558bd83f9c2e263d69ad37c3e985c2c6199a
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: 4a7156259dbc1273ab14ce4e44d91b54794736e0
+ms.sourcegitcommit: bae5e9a37772360d0aae8624905d5f33951a187f
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597594"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100560982"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Power BI şablon uygulamaları nedir?
 
@@ -23,11 +23,11 @@ Bir Power BI iş ortağı olarak, müşterileriniz için kullanıma hazır bir i
 
 Müşterilerinizin kendi hesaplarıyla bağlanmasına ve örnek oluşturmasına olanak sağlayan şablon uygulamaları oluşturursunuz. Etki alanı uzmanları olarak, işletme kullanıcıları tarafından kolayca tüketilebilecek şekilde verilerin kilidini açabilirler.  
 
-İş ortağı merkezine bir şablon uygulaması gönderirsiniz. Ardından uygulamalar [Power BI Uygulamaları marketinde](https://app.powerbi.com/getdata/services) ve [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi)'ta genel kullanıma sunulur. Burada genel şablon uygulaması oluşturma deneyimine üst düzey bir bakış sağlanır.
+İş ortağı merkezine bir şablon uygulaması gönderirsiniz. Ardından uygulamalar [Power BI Uygulamaları marketinde](https://app.powerbi.com/groups/me/getapps/apps) ve [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi)'ta genel kullanıma sunulur. Burada genel şablon uygulaması oluşturma deneyimine üst düzey bir bakış sağlanır.
 
 ## <a name="power-bi-apps-marketplace"></a>Power BI Uygulamaları marketi
 
-Power BI Şablon Uygulamaları Power BI Pro veya Power BI Premium kullanıcılarının canlı veri kaynaklarına bağlanabilen önceden paketlenmiş panolar ve raporlar aracılığıyla hemen içgörüler elde edebilmesine olanak tanır. Birçok Power BI Uygulaması zaten [Power BI Uygulamaları marketinde](https://app.powerbi.com/getdata/services) kullanıma sunulmuştur.
+Power BI Şablon Uygulamaları Power BI Pro veya Power BI Premium kullanıcılarının canlı veri kaynaklarına bağlanabilen önceden paketlenmiş panolar ve raporlar aracılığıyla hemen içgörüler elde edebilmesine olanak tanır. Birçok Power BI Uygulaması zaten [Power BI Uygulamaları marketinde](https://app.powerbi.com/groups/me/getapps/apps) kullanıma sunulmuştur.
 
 :::row:::
     :::column:::
@@ -118,6 +118,7 @@ Diğer öneriler için bkz. [Power BI’da şablon uygulaması yazma ipuçları]
 | Veri kaynakları | Bulutta Zamanlanmış Veri yenileme için desteklenen veri kaynaklarına izin verilir. <br>Desteklenmez: <li>Canlı bağlantılar (Azure AS yok)</li> <li>Şirket içi veri kaynakları (kişisel ve kurumsal ağ geçitleri desteklenmez)</li> <li>Gerçek zamanlı (gönderim veri kümesi desteği yok)</li> <li>Bileşik modeller</li></ul> |
 | Veri kümesi: çalışma alanları arası | Çalışma alanları arası veri kümelerine izin verilmez  |
 | Sorgu parametreleri | Desteklenmez: “Any”, “Date” veya “Binary” türündeki parametreler veri kümesi için yenileme işlemini engeller |
+| Artımlı yenileme | Şablon uygulamaları artımlı yenilemeyi desteklemiyor |
 | Power BI görselleri | Yalnızca genel kullanıma açık Power BI görselleri desteklenir. [Power BI kuruluş görselleri](../developer/visuals/power-bi-custom-visuals-organization.md) desteklenmez |
 | Bağımsız bulutlar | Şablon uygulamaları bağımsız bulutlarda kullanılamaz |
 
