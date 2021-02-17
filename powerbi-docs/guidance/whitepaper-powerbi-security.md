@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/11/2021
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 0c6fb504cd985103d811b820cc85212aaa72bc76
-ms.sourcegitcommit: 9a00abaca80d0cdb2bd0cd9270f99db62df8a2ce
+ms.openlocfilehash: 9752eddb82fa8f612b9d740cf010c0649ba5b3f8
+ms.sourcegitcommit: 803653e8aa79ed38ec555c27c13b3b6835f98a5d
 ms.translationtype: MT
 ms.contentlocale: tr-TR
 ms.lasthandoff: 02/17/2021
-ms.locfileid: "100569546"
+ms.locfileid: "100569733"
 ---
 # <a name="power-bi-security-white-paper"></a>Power BI güvenlik teknik incelemesi
 
@@ -155,7 +155,7 @@ Power BI Mobil, cihazdaki diğer uygulama klasörlerine veya dosyalarına erişe
 
 ## <a name="authentication-to-the-power-bi-service"></a>Power BI hizmeti kimlik doğrulaması
 
-Power BI hizmetinde kullanıcı kimlik doğrulaması bir dizi istek, yanıt ve kullanıcının tarayıcısı ile Power BI hizmeti veya Power BI tarafından kullanılan Azure hizmeti arasında gerçekleşen yeniden yönlendirmeden oluşur. Bu dizi, Power BI ' de Kullanıcı kimlik doğrulaması işlemini açıklar ve bu da [Azure Active Directory kimlik doğrulama kodu verme akışını](/azure/active-directory/develop/v2-oauth2-auth-code-flow)izler. Kuruluşun kullanıcı kimlik doğrulama modelleriyle ilgili seçenekler (oturum açma modelleri) hakkında daha fazla bilgi için bkz. [Microsoft 365 için oturum açma modeli seçme](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/).
+Power BI hizmetinde kullanıcı kimlik doğrulaması bir dizi istek, yanıt ve kullanıcının tarayıcısı ile Power BI hizmeti veya Power BI tarafından kullanılan Azure hizmeti arasında gerçekleşen yeniden yönlendirmeden oluşur. Bu dizi, Power BI ' de Kullanıcı kimlik doğrulaması işlemini açıklar ve bu da [Azure Active Directory kimlik doğrulama kodu verme akışını](/azure/active-directory/develop/v2-oauth2-auth-code-flow)izler. Kuruluşun kullanıcı kimlik doğrulama modelleriyle ilgili seçenekler (oturum açma modelleri) hakkında daha fazla bilgi için bkz. [Microsoft 365 için oturum açma modeli seçme](https://www.microsoft.com/en-us/microsoft-365/blog/2014/05/13/choosing-a-sign-in-model-for-office-365/).
 
 ### <a name="authentication-sequence"></a>Kimlik doğrulama dizisi
 
