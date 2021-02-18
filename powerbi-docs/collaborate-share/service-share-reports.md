@@ -8,14 +8,14 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/29/2020
+ms.date: 02/17/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0e086b6ab5ce3411697607bfbda25bb0b82c6dca
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b29f44ec2dbf759f29aa3ef69173d0aa646347b3
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406630"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655690"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Power BI raporunu filtreleme ve paylaşma
 *Paylaşım*, kullanıcıların, panolarınıza ve raporlarınıza erişmesini sağlamanın iyi bir yoludur. Bir raporun filtrelenmiş bir sürümünü paylaşmak istediğinizde ne olur? Yalnızca belirli bir şehre, satış temsilcisine veya yıla ait verileri gösteren bir rapor istiyor olabilirsiniz. Bu makalede raporun nasıl filtrelendiği ve filtrelenmiş rapor sürümünün nasıl paylaşıldığı açıklanır. Filtrelenmiş raporu paylaşmanın bir diğer yolu da [rapor URL’sine sorgu parametreleri eklemektir](service-url-filters.md). Her iki durumda da alıcılar URL’yi ilk kez açtığında rapor filtrelenir. Rapordaki filtre seçimlerini temizleyebilirler.
@@ -80,7 +80,8 @@ Raporu kaydedin.
 ## <a name="limitations-and-considerations"></a>Sınırlamalar ve önemli noktalar
 Raporları paylaşma ile ilgili olarak dikkat edilmesi gerekenler:
 
-* İzinleri yöneterek, rapor veya panoları paylaşarak ya da uygulama yayımlayarak bir veri kümesi paylaştığınızda, [satır düzeyi güvenlik (RLS)](../admin/service-admin-rls.md) tarafından erişimleri sınırlanmadığı sürece tüm veri kümesine erişim vermiş olursunuz. Rapor yazarları, raporları görüntüleyip bunlarla etkileşim kurarken sütunları gizleme, görsellerdeki eylemleri sınırlandırma ve diğerleri gibi kullanıcı deneyimini özelleştiren özellikleri kullanabilir. Bu özelleştirilmiş kullanıcı deneyimi, veri kullanıcılarının veri kümesinde erişebileceği öğeleri kısıtlamaz. Her bir kullanıcının kimlik bilgilerinin erişebilecekleri verileri belirlemesini sağlamak için veri kümesinde [satır düzeyi güvenlik (RLS)](../admin/service-admin-rls.md) kullanın.
+* İzinleri yöneterek, rapor veya panoları paylaşarak ya da uygulama yayımlayarak bir veri kümesi paylaştığınızda, [satır düzeyi güvenlik (RLS)](../admin/service-admin-rls.md) tarafından erişimleri sınırlanmadığı sürece tüm veri kümesine erişim vermiş olursunuz. Rapor yazarları, raporları görüntüleyip bunlarla etkileşim kurarken sütunları gizleme, görsellerdeki eylemleri sınırlandırma ve diğerleri gibi kullanıcı deneyimini özelleştiren özellikleri kullanabilir. Bu özelleştirilmiş kullanıcı deneyimleri, veri kümesinde hangi veri erişiminin erişebileceğini kısıtlamaz. Her bir kullanıcının kimlik bilgilerinin erişebilecekleri verileri belirlemesini sağlamak için veri kümesinde [satır düzeyi güvenlik (RLS)](../admin/service-admin-rls.md) kullanın.
+* 90 gün içinde paylaşılan rapor görünümü bağlantısına hiç kimse erişildiyse, bağlantı otomatik olarak sona erer.  
 
 ## <a name="next-steps"></a>Sonraki adımlar
 * [Power BI'da çalışmanızı paylaşmanın yolları](service-how-to-collaborate-distribute-dashboards-reports.md)

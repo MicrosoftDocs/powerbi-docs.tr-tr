@@ -9,13 +9,13 @@ ms.topic: tutorial
 ms.author: samkemp
 author: samuel100
 ms.reviewer: sdgilley, maggies
-ms.date: 12/10/2020
-ms.openlocfilehash: 6c68fff575e4da0c9126904df2de5292747c209c
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
-ms.translationtype: HT
+ms.date: 02/17/2021
+ms.openlocfilehash: 91ba29a09cfdd434c52794e83651736c2b796b1e
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
+ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491794"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655642"
 ---
 # <a name="tutorial-consume-azure-machine-learning-models-in-power-bi"></a>Öğretici: Power BI’da Azure Machine Learning modellerini kullanma
 
@@ -57,6 +57,10 @@ https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt
 
 **Tamam**’ı seçin.
 
+**Access Web içeriği**' nde, **anonim**  >  **Bağlan**' ı seçin.
+
+:::image type="content" source="media/service-aml-integrate/anonymous-access-web-content.png" alt-text="Web içeriği için anonim erişimi gösteren ekran görüntüsü.":::
+
 **Power Query Düzenleyicisi** penceresini açmak için **Verileri dönüştür**’ü seçin.
 
 Power Query Düzenleyicisi'nin Giriş şeridinde **Azure Machine Learning** düğmesini seçin.
@@ -84,7 +88,9 @@ Hizmetin döndürdüğü veriler **liste** biçimindedir.
 > [!NOTE]
 > Tasarımcı modelini dağıttıysanız bir **kayıt** görürsünüz.
 
-Tahminleri almak için **Dönüştür** şeridinde **Sütunu genişlet** düğmesini ve **Yeni Satırlara Genişlet**’i seçin.
+Tahminleri almak için, **AzureML.My-diabetes-model** sütun üst bilgisinde çift başlı oku seçin > **yeni satırlara genişletin**.
+
+:::image type="content" source="media/service-aml-integrate/expand-column.png" alt-text="Sütunu genişlet simgesini gösteren ekran görüntüsü.":::
 
 Genişlettikten sonra AzureML.my-diabetes-model sütununda tahminleri görürsünüz.
 

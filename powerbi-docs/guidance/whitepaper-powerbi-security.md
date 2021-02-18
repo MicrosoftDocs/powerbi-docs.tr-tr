@@ -9,18 +9,18 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/11/2021
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9752eddb82fa8f612b9d740cf010c0649ba5b3f8
-ms.sourcegitcommit: 803653e8aa79ed38ec555c27c13b3b6835f98a5d
+ms.openlocfilehash: 655fde0ef19c15f368cb2219498bb26d4411d5d3
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
 ms.translationtype: MT
 ms.contentlocale: tr-TR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100569733"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655670"
 ---
 # <a name="power-bi-security-white-paper"></a>Power BI güvenlik teknik incelemesi
 
 **Özet:** Power BI, Microsoft 'un sunduğu ve kolayca self servis Iş zekası panoları, raporları, veri kümeleri ve görselleştirmeler oluşturmanıza olanak sağlayan bir çevrimiçi yazılım hizmetidir (*SaaS* veya hizmet olarak yazılım). Power BI ile birçok farklı veri kaynağına bağlanabilir, bu bağlantılardan gelen verileri birleştirip şekillendirebilir ve ardından başkalarıyla paylaşılabilen rapor ve panolar oluşturabilirsiniz.
 
-**Yazarlar:** Yitzhak Kesselman, doldurma y Ostoa, Matt Netada, ıseencic, Srinivasan Turuvekere, cristia Petcupascu, adı Regev, Naveen Sivaraj, ben Glastein, Evgeny Tshiorny, Arthi Ramasubramanian Iyer, SID Jayadevan, Ronald Chang, Ori Ho ar, Anton Fritz, ıdan Sheınberg, Ron Gilad, Sagiv Hadaya, Paul Inbar, Igveya Uzhviev, Michael Roth, Ahtarquino, Gennady Pats, Orion Lee, Yury Berezansky, Maya Shenhav, Romit Chattopadhyay, Yarıv Maimon, Bogdan Crivat
+**Yazarlar:** Yitzhak Kesselman, doldurma y Ostota, Matt NETA, ıseencic, Srinivasan Turuvekere, cristia Petcupascu, adi Regev, Naveen Sivaraj, ben Glastein, Evgeny Tshiorny, Arthi Ramasubramanian Iyer, SID Jayadevan, Ronald Chang, Ori eğitimleri ar, Anton Fritz, ıdan Sheınberg, Ron Gilad, Sagiv Hadaya, Paul Inbar, Igveya Uzhviev, Michael Roth, JAIME Tarquino, Gennady Pats, Orion Lee, Yury Berezansky, Maya Shenhav, Romit Chattopadhyay, Yarıv Maimon, Bogdan Crivat
 
 **Teknik gözden geçirenler:** Cristia Petcutascu, Amir Netz, Sergei Gundorov
 
@@ -216,8 +216,8 @@ Power BI veri kümeleri, veri kaynağı verilerinin hizmette kalıcı olup olmad
 |Veri kümesi modu (tür)   |Power BI 'de kalıcı veriler |
 |----------------------|---------------------------|
 |İçeri Aktar                |Yes |
-|Direct Query          |Hayır |
-|Canlı Bağlantı          |Hayır |
+|Direct Query          |No |
+|Canlı Bağlantı          |No |
 |Bileşik             |Bir Içeri aktarma veri kaynağı içeriyorsa |
 |Akış             |Kalıcı olacak şekilde yapılandırıldıysa |
 

@@ -30,6 +30,8 @@
           href: embedded-capacity.md
         - name: Kapasite planlaması
           href: embedded-capacity-planning.md
+        - name: Katıştırılmış analiz uygulama belirteçleri
+          href: embed-tokens.md
         - name: Ekleme belirteci oluşturmak için dikkate alınması gerekenler
           href: generate-embed-token.md
         - name: Performans açısından en iyi yöntemleri
